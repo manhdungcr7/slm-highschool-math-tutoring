@@ -23,7 +23,8 @@ Each directory has its own README with further details.
 
 ## Status
 
-This is early-stage data: 123 questions have been extracted and transcribed,
-but they have not yet been grouped into problem types or expanded into
-evaluation variants (the next steps, following the same process used for the
+This is early-stage data: 121 questions have been extracted and transcribed
+(2 exact duplicate questions, appearing in two different source exams within
+the same document, were removed), but they have not yet been expanded into
+evaluation variants (the next step, following the same process used for the
 Complex Numbers topic).
