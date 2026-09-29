@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Round 2: cac dang truoc day bi xep vao nhom "kho/rui ro" nhung sau khi xem
 lai ky hon thi TONG QUAT HOA duoc an toan:
@@ -15,9 +15,7 @@ Verify doc lap: dung sp.solve/sp.diff/dem truc tiep (brute-force) nhu cac
 batch truoc, KHONG dung lai cong thuc dong dang da sinh de bai.
 """
 import json
-import math
 import random
-import re
 import sys
 from importlib import import_module
 
@@ -36,7 +34,7 @@ ROWS = []
 def add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params):
     ROWS.append({
         "id_goc": id_goc, "ma_dang": ma_dang, "ten_dang": ten_dang,
-        "nguon": "NhÃ¢n báº£n", "loai_bien_the": "chuan",
+        "nguon": "Nhân bản", "loai_bien_the": "chuan",
         "de_bai": de_bai, "dap_an": dap_an, "loi_giai": loi_giai, "params": params,
     })
 
@@ -58,7 +56,7 @@ def try_add(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, args_list):
 # ===================== D15: dao ham ln(1+sqrt(x+k)) ==========================
 def gen_D15(k):
     k = sp.Integer(k)
-    de_bai = f"TÃ­nh Ä‘áº¡o hÃ m cá»§a hÃ m sá»‘ $y = \\ln(1+\\sqrt{{x+{k}}})$.\n\n"
+    de_bai = f"Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{{x+{k}}})$.\n\n"
     correct = f"\\dfrac{{1}}{{2\\sqrt{{x+{k}}}(1+\\sqrt{{x+{k}}})}}"
     wrong1 = f"\\dfrac{{1}}{{1+\\sqrt{{x+{k}}}}}"
     wrong2 = f"\\dfrac{{1}}{{\\sqrt{{x+{k}}}(1+\\sqrt{{x+{k}}})}}"
@@ -88,7 +86,7 @@ def gen_D05(a, b):
     opt_c = f"x\\log_{{{b}}}{a}+x^2<0"  # dung (chia cho log_b)
     opt_d = f"x\\ln{a}+x^2\\ln{b}<0"  # dung (dung ln)
     de_bai = (
-        f"Cho hÃ m sá»‘ $y=f(x)={a}^x\\cdot{b}^{{x^2}}$. Kháº³ng Ä‘á»‹nh nÃ o sau Ä‘Ã¢y lÃ  kháº³ng Ä‘á»‹nh "
+        f"Cho hàm số $y=f(x)={a}^x\\cdot{b}^{{x^2}}$. Khẳng định nào sau đây là khẳng định "
         f"**sai**?\n\n"
     )
     opts = [wrong_sai, correct, opt_c, opt_d]
@@ -96,8 +94,8 @@ def gen_D05(a, b):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"$f(x)<1\\Leftrightarrow\\log_{{{a}}}f(x)<0\\Leftrightarrow x+x^2\\log_{{{a}}}{b}<0"
-        f"\\Leftrightarrow x(1+x\\log_{{{a}}}{b})<0$, KHÃ”NG tÆ°Æ¡ng Ä‘Æ°Æ¡ng vá»›i "
-        f"$1+x\\log_{{{a}}}{b}<0$ (thiáº¿u nhÃ¢n tá»­ $x$). Váº­y kháº³ng Ä‘á»‹nh sai lÃ  "
+        f"\\Leftrightarrow x(1+x\\log_{{{a}}}{b})<0$, KHÔNG tương đương với "
+        f"$1+x\\log_{{{a}}}{b}<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là "
         f"$1+x\\log_{{{a}}}{b}<0$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), b=str(b))
@@ -129,7 +127,7 @@ def gen_D45(A, r1, r2):
     const = r1 * r2
     lhs = f"{A**2}^x" + (f"+{p}\\cdot{A}^x" if p > 0 else (f"{p}\\cdot{A}^x" if p < 0 else ""))
     lhs += (f"+{const}" if const > 0 else (f"{const}" if const < 0 else ""))
-    de_bai = f"Táº­p nghiá»‡m cá»§a báº¥t phÆ°Æ¡ng trÃ¬nh ${lhs}>0$ lÃ \n\n"
+    de_bai = f"Tập nghiệm của bất phương trình ${lhs}>0$ là\n\n"
     boundary = sp.log(r1, A)
     correct = f"({latex(boundary)};+\\infty)"
     wrong1 = f"(-\\infty;{latex(boundary)})"
@@ -138,8 +136,8 @@ def gen_D45(A, r1, r2):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"$({A}^x-{r1})({A}^x-{r2})>0$. VÃ¬ ${A}^x>0>{r2}$ nÃªn ${A}^x-{r2}>0$ luÃ´n Ä‘Ãºng, "
-        f"do Ä‘Ã³ báº¥t phÆ°Æ¡ng trÃ¬nh $\\Leftrightarrow {A}^x>{r1}\\Leftrightarrow x>\\log_{{{A}}}{r1}$."
+        f"$({A}^x-{r1})({A}^x-{r2})>0$. Vì ${A}^x>0>{r2}$ nên ${A}^x-{r2}>0$ luôn đúng, "
+        f"do đó bất phương trình $\\Leftrightarrow {A}^x>{r1}\\Leftrightarrow x>\\log_{{{A}}}{r1}$."
     )
     return de_bai, dap_an, loi_giai, dict(A=str(A), r1=str(r1), r2=str(r2))
 
@@ -154,40 +152,42 @@ def verify_D45(params):
 # ===================== D67: t^2-k*m*t+c*m^2-c=0 (dat t=B^x), 2 nghiem duong
 def gen_D67(B, k, c):
     B, k, c = sp.Integer(B), sp.Integer(k), sp.Integer(c)
-    assert c > 0 and k > 0 and k ** 2 < 4 * c
-    # The positive-root criteria reduce to m>1 and
-    # (4c-k^2)m^2 < 4c. Enumerate this exact open interval.
-    lo = sp.Integer(1)
-    hi = sp.sqrt(sp.Rational(4 * c, 4 * c - k ** 2))
-    int_vals = [v for v in range(2, int(sp.ceiling(hi))) if sp.Integer(v) < hi]
+    m = sp.Symbol("m", real=True)
+    disc = sp.expand((k * m) ** 2 - 4 * (c * m ** 2 - c))
+    sol_disc = sp.solve_univariate_inequality(disc > 0, m, relational=False)
+    sol_sum = sp.solve_univariate_inequality(k * m > 0, m, relational=False)
+    sol_prod = sp.solve_univariate_inequality(c * m ** 2 - c > 0, m, relational=False)
+    sol = sol_disc.intersect(sol_sum).intersect(sol_prod)
+    assert isinstance(sol, sp.Interval)
+    lo, hi = sol.start, sol.end
+    assert lo.is_finite and hi.is_finite
+    int_vals = [v for v in range(int(sp.floor(lo)) - 1, int(sp.ceiling(hi)) + 2) if lo < v < hi]
     assert 1 <= len(int_vals) <= 6
     count = len(int_vals)
     de_bai = (
-        f"Gá»i $S$ lÃ  táº­p há»£p táº¥t cáº£ cÃ¡c giÃ¡ trá»‹ nguyÃªn cá»§a tham sá»‘ $m$ sao cho phÆ°Æ¡ng trÃ¬nh "
-        f"${B**2}^x-m\\cdot{B}^{{x+1}}+{c}m^2-{c}=0$ cÃ³ hai nghiá»‡m phÃ¢n biá»‡t. Há»i $S$ cÃ³ bao nhiÃªu pháº§n tá»­?\n\n"
+        f"Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình "
+        f"${B**2}^x-m\\cdot{B}^{{x+1}}+{c}m^2-{c}=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\n"
     )
     correct = str(count)
     wrong1, wrong2, wrong3 = str(count + 1), str(max(count - 1, 0)), str(count + 2)
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Äáº·t $t={B}^x>0$: $t^2-{k}mt+{c}m^2-{c}=0$. YCBT $\\Leftrightarrow$ PT cÃ³ 2 nghiá»‡m dÆ°Æ¡ng phÃ¢n biá»‡t "
+        f"Đặt $t={B}^x>0$: $t^2-{k}mt+{c}m^2-{c}=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt "
         f"$\\Leftrightarrow \\Delta>0,\\ {k}m>0,\\ {c}m^2-{c}>0 \\Leftrightarrow m\\in\\left({latex(lo)};{latex(hi)}\\right)$. "
-        f"Váº­y $S=\\{{{','.join(str(v) for v in int_vals)}\\}}$, cÃ³ ${count}$ pháº§n tá»­."
+        f"Vậy $S=\\{{{','.join(str(v) for v in int_vals)}\\}}$, có ${count}$ phần tử."
     )
     return de_bai, dap_an, loi_giai, dict(B=str(B), k=str(k), c=str(c))
 
 
 def verify_D67_full(params, expected_count):
-    # Independently count integer m by applying the quadratic discriminant,
-    # sum, and product criteria for two distinct positive roots.
-    _, k, c = (int(sp.sympify(params[key])) for key in ("B", "k", "c"))
+    B, k, c = (sp.sympify(params[key]) for key in ("B", "k", "c"))
+    t = sp.Symbol("t", positive=True)
     count = 0
-    for mv in range(-100, 101):
-        disc = (k * mv) ** 2 - 4 * (c * mv ** 2 - c)
-        total = k * mv
-        product = c * mv ** 2 - c
-        if disc > 0 and total > 0 and product > 0:
+    for mv in range(-50, 50):
+        sols = sp.solve(sp.Eq(t ** 2 - k * mv * t + c * mv ** 2 - c, 0), t)
+        valid = [s for s in sols if s.is_real and s > 0]
+        if len(set(valid)) == 2:
             count += 1
     return count == expected_count
 
@@ -225,16 +225,16 @@ def gen_D40(a, b_coef, p, q=None):
     wrong2 = f"[{latex(lo)};{latex(hi)}]"
     wrong3 = f"({latex(hi)};+\\infty)"
     de_bai = (
-        f"Cho phÆ°Æ¡ng trÃ¬nh $\\log_{{{a}}}^2({a}x)-(m+{p})\\log_{{{a}}}x+m-{q}=0$ ($m$ lÃ  tham sá»‘ thá»±c). "
-        f"Táº­p há»£p táº¥t cáº£ cÃ¡c giÃ¡ trá»‹ cá»§a $m$ Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh Ä‘Ã£ cho cÃ³ hai nghiá»‡m phÃ¢n biá»‡t thuá»™c Ä‘oáº¡n "
-        f"$[1;{a}]$ lÃ \n\n"
+        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-(m+{p})\\log_{{{a}}}x+m-{q}=0$ ($m$ là tham số thực). "
+        f"Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn "
+        f"$[1;{a}]$ là\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Äáº·t $t=\\log_{{{a}}}x$, PT trá»Ÿ thÃ nh $t^2-mt+m-{q+1}=0$" +
+        f"Đặt $t=\\log_{{{a}}}x$, PT trở thành $t^2-mt+m-{q+1}=0$" +
         f" $\\Leftrightarrow (t-{r_fixed})(t-({latex(r_var)}))=0$" +
-        f" (sau khi rÃºt gá»n). $x\\in[1;{a}]\\Leftrightarrow t\\in[0;1]$. Váº­y $m\\in{correct}$."
+        f" (sau khi rút gọn). $x\\in[1;{a}]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in{correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), p=str(p), q=str(q), lo=str(lo), hi=str(hi), r_fixed=str(r_fixed))
 
@@ -273,15 +273,15 @@ def gen_D16(A, B, c):
     wrong2 = f"({latex(lo-1)};{latex(hi)})"
     wrong3 = f"({latex(lo)};{latex(hi+1)})"
     de_bai = (
-        f"TÃ¬m táº­p há»£p táº¥t cáº£ cÃ¡c giÃ¡ trá»‹ cá»§a tham sá»‘ thá»±c $m$ Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh "
-        f"${A}^x+({c}-m){B}^x-m=0$ cÃ³ nghiá»‡m thuá»™c khoáº£ng $(0;1)$.\n\n"
+        f"Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình "
+        f"${A}^x+({c}-m){B}^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"PT $\\Leftrightarrow m=\\dfrac{{{A}^x+{c}\\cdot{B}^x}}{{{B}^x+1}}=f(x)$. HÃ m $f$ Ä‘á»“ng biáº¿n trÃªn "
-        f"$\\mathbb{{R}}$ (do ${A}>{B}$), nÃªn $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow {correct[1:-1]}$ "
-        f"vÃ¬ $f(0)={latex(f0)}, f(1)={latex(f1)}$."
+        f"PT $\\Leftrightarrow m=\\dfrac{{{A}^x+{c}\\cdot{B}^x}}{{{B}^x+1}}=f(x)$. Hàm $f$ đồng biến trên "
+        f"$\\mathbb{{R}}$ (do ${A}>{B}$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow {correct[1:-1]}$ "
+        f"vì $f(0)={latex(f0)}, f(1)={latex(f1)}$."
     )
     return de_bai, dap_an, loi_giai, dict(A=str(A), B=str(B), c=str(c))
 
@@ -313,13 +313,13 @@ def gen_D35(a, N, k):
     wrong3 = str(2 * k)
     vals = bump_until_distinct([sp.Integer(total), N, k + 1, 2 * k])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
-    de_bai = f"Tá»•ng táº¥t cáº£ cÃ¡c nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{{{a}}}({N}-{a}^x)={k}-x$ báº±ng\n\n"
+    de_bai = f"Tổng tất cả các nghiệm của phương trình $\\log_{{{a}}}({N}-{a}^x)={k}-x$ bằng\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"ÄK: ${N}-{a}^x>0$. $\\log_{{{a}}}({N}-{a}^x)={k}-x \\Leftrightarrow {N}-{a}^x={a}^{{{k}-x}}=\\dfrac{{{a}^{{{k}}}}}{{{a}^x}}"
-        f"\\Leftrightarrow ({a}^x)^2-{N}\\cdot{a}^x+{a}^{{{k}}}=0$. Äáº·t $t={a}^x$, PT cÃ³ 2 nghiá»‡m $t_1,t_2$ vá»›i "
-        f"$t_1t_2={a}^{{{k}}}$ (ViÃ¨te), suy ra ${a}^{{x_1+x_2}}={a}^{{{k}}}\\Leftrightarrow x_1+x_2={k}$."
+        f"ĐK: ${N}-{a}^x>0$. $\\log_{{{a}}}({N}-{a}^x)={k}-x \\Leftrightarrow {N}-{a}^x={a}^{{{k}-x}}=\\dfrac{{{a}^{{{k}}}}}{{{a}^x}}"
+        f"\\Leftrightarrow ({a}^x)^2-{N}\\cdot{a}^x+{a}^{{{k}}}=0$. Đặt $t={a}^x$, PT có 2 nghiệm $t_1,t_2$ với "
+        f"$t_1t_2={a}^{{{k}}}$ (Viète), suy ra ${a}^{{x_1+x_2}}={a}^{{{k}}}\\Leftrightarrow x_1+x_2={k}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), N=str(N), k=str(k))
 
@@ -355,27 +355,30 @@ def gen_D69(a, lo, hi):
     correct = str(count)
     wrong1, wrong2, wrong3 = str(count + 1), str(count - 1 if count > 1 else count + 2), str(hi - lo - 1)
     de_bai = (
-        f"Cho phÆ°Æ¡ng trÃ¬nh ${a}^x+m=\\log_{{{a}}}(x-m)$ vá»›i $m$ lÃ  tham sá»‘. CÃ³ bao nhiÃªu giÃ¡ trá»‹ nguyÃªn "
-        f"cá»§a $m\\in({lo};{hi})$ Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh Ä‘Ã£ cho cÃ³ nghiá»‡m?\n\n"
+        f"Cho phương trình ${a}^x+m=\\log_{{{a}}}(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên "
+        f"của $m\\in({lo};{hi})$ để phương trình đã cho có nghiệm?\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"$\\Leftrightarrow {a}^x+x=\\log_{{{a}}}(x-m)+(x-m)$. XÃ©t $f(t)={a}^t+t$ Ä‘á»“ng biáº¿n trÃªn $\\mathbb{{R}}$ nÃªn "
-        f"$x=\\log_{{{a}}}(x-m)\\Leftrightarrow {a}^x=x-m\\Leftrightarrow {a}^x-x=-m$. XÃ©t $g(x)={a}^x-x$ cÃ³ "
-        f"$g'(x)=0$ táº¡i $x\\approx{float(crit):.4f}$, giÃ¡ trá»‹ nhá» nháº¥t $g_{{\\min}}\\approx{float(g(crit)):.4f}$. "
-        f"PT cÃ³ nghiá»‡m khi $m<{float(threshold):.4f}$. Vá»›i $m$ nguyÃªn trong $({lo};{hi})$, cÃ³ ${count}$ giÃ¡ trá»‹."
+        f"$\\Leftrightarrow {a}^x+x=\\log_{{{a}}}(x-m)+(x-m)$. Xét $f(t)={a}^t+t$ đồng biến trên $\\mathbb{{R}}$ nên "
+        f"$x=\\log_{{{a}}}(x-m)\\Leftrightarrow {a}^x=x-m\\Leftrightarrow {a}^x-x=-m$. Xét $g(x)={a}^x-x$ có "
+        f"$g'(x)=0$ tại $x\\approx{float(crit):.4f}$, giá trị nhỏ nhất $g_{{\\min}}\\approx{float(g(crit)):.4f}$. "
+        f"PT có nghiệm khi $m<{float(threshold):.4f}$. Với $m$ nguyên trong $({lo};{hi})$, có ${count}$ giá trị."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), lo=str(lo), hi=str(hi))
 
 
 def verify_D69_full(params, expected_count):
-    a, lo, hi = (float(sp.sympify(params[k])) for k in ("a", "lo", "hi"))
-    # Compute the global minimum independently from the derivative equation,
-    # then enumerate integer parameters in the stated open interval.
-    x_min = math.log(1.0 / math.log(a)) / math.log(a)
-    g_min = a ** x_min - x_min
-    count = sum(1 for m in range(int(lo) + 1, int(hi)) if -m > g_min + 1e-10)
+    a, lo, hi = (sp.sympify(params[k]) for k in ("a", "lo", "hi"))
+    a_f = float(a)
+    g_func = lambda xv_: a_f ** xv_ - xv_
+    xs = [(-20 + i * 0.001) for i in range(40001)]
+    min_g = min(g_func(v) for v in xs)
+    count = 0
+    for mv in range(int(lo) + 1, int(hi)):
+        if -mv > min_g:
+            count += 1
     return count == expected_count
 
 
@@ -401,78 +404,38 @@ def gen_D51(A, e_val, F, D):
     vals = bump_until_distinct([sp.Integer(count), count + 1, count - 1, dk_hi])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
     de_bai = (
-        f"CÃ³ bao nhiÃªu sá»‘ nguyÃªn $x$ thá»a mÃ£n $(4^x-5\\cdot2^{{x+2}}+64)\\sqrt{{{D}-\\log({F}x)}}\\ge 0$?\n\n"
+        f"Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{{x+2}}+64)\\sqrt{{{D}-\\log({F}x)}}\\ge 0$?\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"ÄKXÄ: $0<x\\le{dk_hi}$. VÃ¬ cÄƒn $\\ge0$ nÃªn BPT $\\Leftrightarrow 4^x-20\\cdot2^x+64\\ge0"
-        f"\\Leftrightarrow 2^x\\le{r1}$ hoáº·c $2^x\\ge{r2}\\Leftrightarrow x\\le{lo_x}$ hoáº·c $x\\ge{hi_x}$. "
-        f"Káº¿t há»£p ÄKXÄ: $S=(0;{lo_x}]\\cup[{hi_x};{dk_hi}]$, cÃ³ ${count}$ sá»‘ nguyÃªn."
+        f"ĐKXĐ: $0<x\\le{dk_hi}$. Vì căn $\\ge0$ nên BPT $\\Leftrightarrow 4^x-20\\cdot2^x+64\\ge0"
+        f"\\Leftrightarrow 2^x\\le{r1}$ hoặc $2^x\\ge{r2}\\Leftrightarrow x\\le{lo_x}$ hoặc $x\\ge{hi_x}$. "
+        f"Kết hợp ĐKXĐ: $S=(0;{lo_x}]\\cup[{hi_x};{dk_hi}]$, có ${count}$ số nguyên."
     )
     return de_bai, dap_an, loi_giai, dict(F=str(F), D=str(D), lo_x=str(lo_x), hi_x=str(hi_x), dk_hi=str(dk_hi))
 
 
 def verify_D51_full(params, expected_count):
-    F, D, dk_hi = (int(sp.sympify(params[k])) for k in ("F", "D", "dk_hi"))
-    # Directly enumerate integer x, testing the original radicand domain and
-    # polynomial inequality with exact integer arithmetic.
+    F, D, lo_x, hi_x, dk_hi = (sp.sympify(params[k]) for k in ("F", "D", "lo_x", "hi_x", "dk_hi"))
     count = 0
-    for xv in range(1, dk_hi + 1):
-        if F * xv <= 10 ** D and 4 ** xv - 20 * 2 ** xv + 64 >= 0:
+    for xv in range(0, int(dk_hi) + 2):
+        if xv <= 0 or F * xv <= 0:
+            continue
+        if sp.log(F * xv, 10) > D:
+            continue
+        if 4 ** xv - 20 * 2 ** xv + 64 >= 0:
             count += 1
     return count == expected_count
 
 
-def sample_D51(rng):
-    D = rng.randint(1, 10)
-    limit = 10 ** D
-    valid_F = [int(v) for v in sp.divisors(limit) if limit // int(v) <= 5000]
-    return rng.choice(valid_F), D
-
-
-def expand_type(code, name, source_id, gen, verify, sampler, expected_arg=False, seed=0, target=90, max_tries=2000):
-    rng = random.Random(seed)
-    current = [row for row in ROWS if row["ma_dang"] == code]
-    seen_params = {tuple(sorted(row["params"].items())) for row in current}
-    seen_questions = {row["de_bai"] for row in current}
-    made = len(current)
-    for _ in range(max_tries):
-        if made >= target:
-            break
-        try:
-            question, answer, solution, params = gen(*sampler(rng))
-        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
-            continue
-        key = tuple(sorted(params.items()))
-        if key in seen_params or question in seen_questions:
-            continue
-        choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", question)
-        norm = [re.sub(r"[\s$.,]", "", value) for _, value in choices]
-        if len(choices) != 4 or {letter for letter, _ in choices} != set("ABCD") or len(set(norm)) != 4:
-            continue
-        try:
-            if expected_arg:
-                match = re.search(r"\$\s*(-?\d+)\s*\$", answer)
-                if not match or not verify(params, int(match.group(1))):
-                    continue
-            elif not verify(params):
-                continue
-        except Exception:
-            continue
-        add_row(code, name, source_id, question, answer, solution, params)
-        seen_params.add(key); seen_questions.add(question); made += 1
-    print(f"{code}: {made}/{target}")
-    return made
-
-
 def main():
     fails = []
-    fails += try_add("D15", "Äáº¡o hÃ m hÃ m há»£p chá»©a lÃ´garit tá»± nhiÃªn", "p021_q18", gen_D15, verify_D15,
+    fails += try_add("D15", "Đạo hàm hàm hợp chứa lôgarit tự nhiên", "p021_q18", gen_D15, verify_D15,
                       [(v,) for v in (1, 2, 3, 0, 4, 5)])
-    fails += try_add("D05", "Nháº­n biáº¿t má»‡nh Ä‘á» Ä‘Ãºng/sai vá» biáº¿n Ä‘á»•i lÃ´garit cá»§a tÃ­ch lÅ©y thá»«a", "p006_q16",
+    fails += try_add("D05", "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa", "p006_q16",
                       gen_D05, verify_D05, [(2, 7), (3, 5), (2, 9), (5, 3), (2, 11), (3, 7)])
-    fails += try_add("D45", "Giáº£i báº¥t phÆ°Æ¡ng trÃ¬nh mÅ© báº±ng Ä‘áº·t áº©n phá»¥ t=a^x", "p099_q31", gen_D45, verify_D45,
+    fails += try_add("D45", "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x", "p099_q31", gen_D45, verify_D45,
                       [(3, 1, -3), (2, 4, -1), (5, 1, -5), (3, 2, -9), (2, 1, -8), (5, 5, -1)])
 
     for a, p, q in [(2, 2, 7), (3, 1, 6), (2, 3, 8), (5, 2, 9), (3, 2, 5), (2, 1, 6)]:
@@ -481,7 +444,7 @@ def main():
         except AssertionError:
             continue
         if verify_D40_full(params):
-            add_row("D40", "TÃ¬m tham sá»‘ Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh lÃ´garit báº­c hai (Ä‘áº·t áº©n phá»¥) cÃ³ hai nghiá»‡m phÃ¢n biá»‡t thá»a Ä‘iá»u kiá»‡n",
+            add_row("D40", "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
                      "p088_q43", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D40", params))
@@ -492,7 +455,7 @@ def main():
         except AssertionError:
             continue
         if verify_D16(params):
-            add_row("D16", "TÃ¬m tham sá»‘ Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh mÅ© cÃ³ nghiá»‡m thuá»™c má»™t khoáº£ng (Ä‘áº·t áº©n phá»¥, xÃ©t hÃ m)",
+            add_row("D16", "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
                      "p021_q20", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D16", params))
@@ -503,7 +466,7 @@ def main():
         except AssertionError:
             continue
         if verify_D35(params):
-            add_row("D35", "Giáº£i phÆ°Æ¡ng trÃ¬nh lÃ´garit báº±ng Ä‘áº·t áº©n phá»¥ t=a^x, tÃ­nh tá»•ng nghiá»‡m", "p070_q31",
+            add_row("D35", "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm", "p070_q31",
                      de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D35", params))
@@ -515,7 +478,7 @@ def main():
             continue
         expected = int(dap_an.split("$")[1])
         if verify_D67_full(params, expected):
-            add_row("D67", "TÃ¬m tham sá»‘ nguyÃªn Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh mÅ© Ä‘áº·t áº©n phá»¥ cÃ³ hai nghiá»‡m áº©n phá»¥ phÃ¢n biá»‡t",
+            add_row("D67", "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
                      "p161_q35", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D67", params))
@@ -527,7 +490,7 @@ def main():
             continue
         expected = int(dap_an.split("$")[1])
         if verify_D69_full(params, expected):
-            add_row("D69", "Äáº¿m giÃ¡ trá»‹ nguyÃªn tham sá»‘ Ä‘á»ƒ phÆ°Æ¡ng trÃ¬nh mÅ©-lÃ´garit lá»“ng nhau cÃ³ nghiá»‡m",
+            add_row("D69", "Đếm giá trị nguyên tham số để phương trình mũ-lôgarit lồng nhau có nghiệm",
                      "p166_q45", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D69", params))
@@ -539,33 +502,10 @@ def main():
             continue
         expected = int(dap_an.split("$")[1])
         if verify_D51_full(params, expected):
-            add_row("D51", "Äáº¿m sá»‘ nguyÃªn thá»a báº¥t phÆ°Æ¡ng trÃ¬nh mÅ©-lÃ´garit-cÄƒn phá»©c há»£p", "p115_q39",
+            add_row("D51", "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp", "p115_q39",
                      de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D51", params))
-
-    expand_type("D15", "Logarithmic derivative", "p021_q18", gen_D15, verify_D15,
-                lambda r: (r.randint(1, 500),), seed=1501)
-    expand_type("D05", "Identify a false logarithmic transformation statement", "p006_q16", gen_D05, verify_D05,
-                lambda r: (r.randint(2, 100), r.randint(2, 100)), seed=501)
-    expand_type("D45", "Solve an exponential inequality by substitution", "p099_q31", gen_D45, verify_D45,
-                lambda r: (r.randint(2, 15), r.randint(2, 100), -r.randint(1, 100)), seed=4501)
-    expand_type("D40", "Find parameter values giving two distinct logarithmic equation roots", "p088_q43",
-                lambda a, p: gen_D40(a, a, p), verify_D40_full,
-                lambda r: (r.randint(2, 30), r.randint(1, 40)), seed=4001)
-    expand_type("D16", "Find parameter values for an exponential equation to have a root in an interval", "p021_q20",
-                gen_D16, verify_D16, lambda r: (r.randint(3, 100), r.randint(2, 99), r.randint(1, 100)), seed=1601)
-    expand_type("D35", "Sum roots of a logarithmic equation", "p070_q31", gen_D35, verify_D35,
-                lambda r: (r.randint(2, 8), r.randint(20, 500), r.randint(1, 8)), seed=3501)
-    expand_type("D67", "Count integer parameters giving two positive roots", "p161_q35",
-                gen_D67, lambda p, e: verify_D67_full(p, e),
-                lambda r: (r.randint(2, 30), r.randint(2, 40), r.randint(2, 40)), expected_arg=True, seed=6701, max_tries=20000)
-    expand_type("D69", "Count integer parameters for an exponential-logarithmic equation", "p166_q45",
-                gen_D69, lambda p, e: verify_D69_full(p, e),
-                lambda r: (r.randint(2, 10), (lo := r.randint(-100, 50)), lo + r.randint(10, 150)), expected_arg=True, seed=6901)
-    expand_type("D51", "Count integer solutions of a product inequality", "p115_q39",
-                lambda F, D: gen_D51(2, 2, F, D), lambda p, e: verify_D51_full(p, e),
-                sample_D51, expected_arg=True, seed=5101, max_tries=10000)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round2.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)

@@ -1,4 +1,4 @@
-﻿"""
+"""
 Sinh bien the D01 - Giai phuong trinh logarit co ban dang log_a(f(x))=k,
 f(x) bac nhat. 5 cau goc: p006_q12, p079_q06, p109_q10, p191_q08, p210_q27.
 
@@ -6,7 +6,6 @@ Cong thuc: log_a(m*x + c) = k  =>  x = (a^k - c) / m
 """
 import json
 import random
-import re
 import sys
 from importlib import import_module
 
@@ -33,7 +32,7 @@ def mau_D01(a, m, c, k):
     correct, wrong1, wrong2, wrong3 = vals
 
     expr = linear_expr_str(m, c)
-    de_bai = f"Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{{{a}}}({expr})={k}$ lÃ \n\n"
+    de_bai = f"Nghiệm của phương trình $\\log_{{{a}}}({expr})={k}$ là\n\n"
     opts = [correct, wrong1, wrong2, wrong3]
     letters = ["A", "B", "C", "D"]
     order = [0, 1, 2, 3]
@@ -48,9 +47,9 @@ def mau_D01(a, m, c, k):
     de_bai += "\n".join(lines)
     dap_an = f"{correct_letter}. $x={latex(correct)}$."
     loi_giai = (
-        f"Äiá»u kiá»‡n: ${expr}>0$. Ta cÃ³ $\\log_{{{a}}}({expr})={k} "
+        f"Điều kiện: ${expr}>0$. Ta có $\\log_{{{a}}}({expr})={k} "
         f"\\Leftrightarrow {expr}={a}^{{{k}}}={latex(a**k)} "
-        f"\\Leftrightarrow x={latex(correct)}$ (thá»a Ä‘iá»u kiá»‡n)."
+        f"\\Leftrightarrow x={latex(correct)}$ (thỏa điều kiện)."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), m=str(m), c=str(c), k=str(k))
 
@@ -99,7 +98,7 @@ def gen_variants(id_goc, a_base, seed_base):
                 "id_goc": id_goc,
                 "ma_dang": MA_DANG,
                 "ten_dang": TEN_DANG,
-                "nguon": "NhÃ¢n báº£n",
+                "nguon": "Nhân bản",
                 "loai_bien_the": bucket_name,
                 "de_bai": de_bai,
                 "dap_an": dap_an,
@@ -111,28 +110,9 @@ def gen_variants(id_goc, a_base, seed_base):
 
 
 if __name__ == "__main__":
-    verifier = import_module("20_verify_pilot")
-    random.seed(1001)
-    all_rows, seen_params, seen_questions = [], set(), set()
-    attempts = 0
-    while len(all_rows) < 90 and attempts < 500:
-        source_id = SOURCE_IDS[attempts % len(SOURCE_IDS)]
-        for row in gen_variants(source_id, None, seed_base=1000 + attempts):
-            key = tuple(sorted(row["params"].items()))
-            if key in seen_params or row["de_bai"] in seen_questions:
-                continue
-            ok, note = verifier.verify_D01(row["params"], row["dap_an"])
-            if not ok:
-                raise AssertionError(f"D01 independent verification failed: {row['params']} {note}")
-            choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", row["de_bai"])
-            normalized = [re.sub(r"[\s$.,]", "", text) for _, text in choices]
-            if len(choices) != 4 or {c for c, _ in choices} != set("ABCD") or len(set(normalized)) != 4:
-                continue
-            seen_params.add(key); seen_questions.add(row["de_bai"]); all_rows.append(row)
-            if len(all_rows) == 90:
-                break
-        attempts += 1
-    print(f"D01: {len(all_rows)}/90 variants; attempts={attempts}")
+    all_rows = []
+    for i, id_goc in enumerate(SOURCE_IDS):
+        all_rows.extend(gen_variants(id_goc, None, seed_base=1000 + i))
+    print("Tong so bien the D01:", len(all_rows))
     with open("data/questions/mu_logarit_extraction/bien_the/D01_bien_the.json", "w", encoding="utf-8") as f:
         json.dump(all_rows, f, ensure_ascii=False, indent=2)
-

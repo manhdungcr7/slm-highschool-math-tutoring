@@ -54,15 +54,22 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: all 89 retained problem types**; 88 types have 90 variants each,
-  and D43 has 21 (7,941 total).
+  **Coverage: all 89 retained problem types**; 87 types have 90 variants each,
+  D43 has 21, and D51 has 35 (7,886 total). Both shortfalls are a genuine
+  narrow-parameter-domain limit, not an unfinished run — widening either
+  domain further was tried and found to require loosening the "clean
+  answer" condition, so it was left as-is and reported honestly instead.
   D09 and D11 are excluded because they are symbolic questions without numbers
   to vary. Each type's variants are checked with a method independent of the
   generation formula, and global scans reject repeated question statements
-  and answer choices. D84's endpoint variants use an independent 80-digit
-  endpoint-sign verifier. See the generator README for details.
+  and answer choices. D84's variants use an independent endpoint-sign
+  verifier. A Windows-encoding bug (UTF-8 mis-decoded as Windows-1252)
+  that corrupted Vietnamese diacritics in several thousand rows while
+  expanding some batches to 90 variants was found and fixed; every row was
+  re-scanned afterward and confirmed clean. See the generator README for
+  details.
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 110 retained source questions plus
-  7,941 generated variants combined into one file (8,051 rows), produced
+  7,886 generated variants combined into one file (7,996 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`

@@ -2,1441 +2,1441 @@
   {
     "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x+3)=3$ lÃ \n\nA. $x=123$.\nB. $x=12$.\nC. $x=0$.\nD. $x=122$.",
-    "dap_an": "D. $x=122$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+3>0$. Ta cÃ³ $\\log_{5}(x+3)=3 \\Leftrightarrow x+3=5^{3}=125 \\Leftrightarrow x=122$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(x+14)=3$ là\n\nA. $x=203$.\nB. $x=-11$.\nC. $x=4$.\nD. $x=202$.",
+    "dap_an": "D. $x=202$.",
+    "loi_giai": "Điều kiện: $x+14>0$. Ta có $\\log_{6}(x+14)=3 \\Leftrightarrow x+14=6^{3}=216 \\Leftrightarrow x=202$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "1",
+      "c": "14",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x+6)=2$ là\n\nA. $x=20$.\nB. $x=4$.\nC. $x=-4$.\nD. $x=19$.",
+    "dap_an": "D. $x=19$.",
+    "loi_giai": "Điều kiện: $x+6>0$. Ta có $\\log_{5}(x+6)=2 \\Leftrightarrow x+6=5^{2}=25 \\Leftrightarrow x=19$ (thỏa điều kiện).",
     "params": {
       "a": "5",
-      "m": "1",
-      "c": "3",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(x-4)=4$ lÃ \n\nA. $x=12$.\nB. $x=21$.\nC. $x=20$.\nD. $x=8$.",
-    "dap_an": "C. $x=20$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-4>0$. Ta cÃ³ $\\log_{2}(x-4)=4 \\Leftrightarrow x-4=2^{4}=16 \\Leftrightarrow x=20$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "1",
-      "c": "-4",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(3x-5)=4$ lÃ \n\nA. $x=802$.\nB. $x=2406$.\nC. $x=3$.\nD. $x=11$.",
-    "dap_an": "A. $x=802$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-5>0$. Ta cÃ³ $\\log_{7}(3x-5)=4 \\Leftrightarrow 3x-5=7^{4}=2401 \\Leftrightarrow x=802$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "3",
-      "c": "-5",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(3x-3)=2$ lÃ \n\nA. $x=\\dfrac{5}{3}$.\nB. $x=13$.\nC. $x=5$.\nD. $x=39$.",
-    "dap_an": "B. $x=13$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-3>0$. Ta cÃ³ $\\log_{6}(3x-3)=2 \\Leftrightarrow 3x-3=6^{2}=36 \\Leftrightarrow x=13$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "3",
-      "c": "-3",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x-2)=2$ lÃ \n\nA. $x=2$.\nB. $x=51$.\nC. $x=8$.\nD. $x=\\dfrac{51}{2}$.",
-    "dap_an": "D. $x=\\dfrac{51}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-2>0$. Ta cÃ³ $\\log_{7}(2x-2)=2 \\Leftrightarrow 2x-2=7^{2}=49 \\Leftrightarrow x=\\dfrac{51}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
-      "c": "-2",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x-2)=1$ lÃ \n\nA. $x=1$.\nB. $x=\\dfrac{4}{3}$.\nC. $x=\\dfrac{7}{3}$.\nD. $x=4$.",
-    "dap_an": "B. $x=\\dfrac{4}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-2>0$. Ta cÃ³ $\\log_{2}(3x-2)=1 \\Leftrightarrow 3x-2=2^{1}=2 \\Leftrightarrow x=\\dfrac{4}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "-2",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(x-7)=4$ lÃ \n\nA. $x=24$.\nB. $x=11$.\nC. $x=15$.\nD. $x=23$.",
-    "dap_an": "D. $x=23$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-7>0$. Ta cÃ³ $\\log_{2}(x-7)=4 \\Leftrightarrow x-7=2^{4}=16 \\Leftrightarrow x=23$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "1",
-      "c": "-7",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x+2)=4$ lÃ \n\nA. $x=80$.\nB. $x=79$.\nC. $x=10$.\nD. $x=2$.",
-    "dap_an": "B. $x=79$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+2>0$. Ta cÃ³ $\\log_{3}(x+2)=4 \\Leftrightarrow x+2=3^{4}=81 \\Leftrightarrow x=79$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "1",
-      "c": "2",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(2x-8)=1$ lÃ \n\nA. $x=\\dfrac{9}{2}$.\nB. $x=8$.\nC. $x=14$.\nD. $x=7$.",
-    "dap_an": "D. $x=7$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-8>0$. Ta cÃ³ $\\log_{6}(2x-8)=1 \\Leftrightarrow 2x-8=6^{1}=6 \\Leftrightarrow x=7$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "2",
-      "c": "-8",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(2x+4)=2$ lÃ \n\nA. $x=-1$.\nB. $x=1$.\nC. $x=2$.\nD. $x=0$.",
-    "dap_an": "D. $x=0$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+4>0$. Ta cÃ³ $\\log_{2}(2x+4)=2 \\Leftrightarrow 2x+4=2^{2}=4 \\Leftrightarrow x=0$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "2",
-      "c": "4",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x)=1$ lÃ \n\nA. $x=\\dfrac{1}{3}$.\nB. $x=\\dfrac{5}{3}$.\nC. $x=2$.\nD. $x=\\dfrac{2}{3}$.",
-    "dap_an": "D. $x=\\dfrac{2}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x>0$. Ta cÃ³ $\\log_{2}(3x)=1 \\Leftrightarrow 3x=2^{1}=2 \\Leftrightarrow x=\\dfrac{2}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "0",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(3x-5)=3$ lÃ \n\nA. $x=\\dfrac{23}{3}$.\nB. $x=\\dfrac{221}{3}$.\nC. $x=\\dfrac{8}{3}$.\nD. $x=221$.",
-    "dap_an": "B. $x=\\dfrac{221}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-5>0$. Ta cÃ³ $\\log_{6}(3x-5)=3 \\Leftrightarrow 3x-5=6^{3}=216 \\Leftrightarrow x=\\dfrac{221}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "3",
-      "c": "-5",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(x-2)=2$ lÃ \n\nA. $x=4$.\nB. $x=14$.\nC. $x=38$.\nD. $x=39$.",
-    "dap_an": "C. $x=38$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-2>0$. Ta cÃ³ $\\log_{6}(x-2)=2 \\Leftrightarrow x-2=6^{2}=36 \\Leftrightarrow x=38$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "1",
-      "c": "-2",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x+6)=2$ lÃ \n\nA. $x=-4$.\nB. $x=0$.\nC. $x=4$.\nD. $x=3$.",
-    "dap_an": "D. $x=3$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+6>0$. Ta cÃ³ $\\log_{3}(x+6)=2 \\Leftrightarrow x+6=3^{2}=9 \\Leftrightarrow x=3$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
       "m": "1",
       "c": "6",
       "k": "2"
     }
   },
   {
-    "id_goc": "p109_q10",
+    "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(3x)=1$ lÃ \n\nA. $x=3$.\nB. $x=\\dfrac{1}{3}$.\nC. $x=2$.\nD. $x=6$.",
-    "dap_an": "C. $x=2$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x>0$. Ta cÃ³ $\\log_{6}(3x)=1 \\Leftrightarrow 3x=6^{1}=6 \\Leftrightarrow x=2$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "3",
-      "c": "0",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x-7)=1$ lÃ \n\nA. $x=\\dfrac{8}{3}$.\nB. $x=3$.\nC. $x=4$.\nD. $x=9$.",
-    "dap_an": "B. $x=3$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-7>0$. Ta cÃ³ $\\log_{2}(3x-7)=1 \\Leftrightarrow 3x-7=2^{1}=2 \\Leftrightarrow x=3$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "-7",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x+6)=2$ lÃ \n\nA. $x=- \\dfrac{4}{3}$.\nB. $x=\\dfrac{4}{3}$.\nC. $x=19$.\nD. $x=\\dfrac{19}{3}$.",
-    "dap_an": "D. $x=\\dfrac{19}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+6>0$. Ta cÃ³ $\\log_{5}(3x+6)=2 \\Leftrightarrow 3x+6=5^{2}=25 \\Leftrightarrow x=\\dfrac{19}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x+10)=2$ là\n\nA. $x=0$.\nB. $x=5$.\nC. $x=15$.\nD. $x=- \\dfrac{8}{3}$.",
+    "dap_an": "B. $x=5$.",
+    "loi_giai": "Điều kiện: $3x+10>0$. Ta có $\\log_{5}(3x+10)=2 \\Leftrightarrow 3x+10=5^{2}=25 \\Leftrightarrow x=5$ (thỏa điều kiện).",
     "params": {
       "a": "5",
       "m": "3",
-      "c": "6",
+      "c": "10",
       "k": "2"
     }
   },
   {
-    "id_goc": "p109_q10",
+    "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(3x-5)=4$ lÃ \n\nA. $x=\\dfrac{29}{3}$.\nB. $x=3$.\nC. $x=\\dfrac{1301}{3}$.\nD. $x=1301$.",
-    "dap_an": "C. $x=\\dfrac{1301}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-5>0$. Ta cÃ³ $\\log_{6}(3x-5)=4 \\Leftrightarrow 3x-5=6^{4}=1296 \\Leftrightarrow x=\\dfrac{1301}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "3",
-      "c": "-5",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x-2)=4$ lÃ \n\nA. $x=6$.\nB. $x=22$.\nC. $x=627$.\nD. $x=628$.",
-    "dap_an": "C. $x=627$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-2>0$. Ta cÃ³ $\\log_{5}(x-2)=4 \\Leftrightarrow x-2=5^{4}=625 \\Leftrightarrow x=627$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "-2",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x+3)=1$ lÃ \n\nA. $x=2$.\nB. $x=-2$.\nC. $x=4$.\nD. $x=3$.",
-    "dap_an": "A. $x=2$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+3>0$. Ta cÃ³ $\\log_{5}(x+3)=1 \\Leftrightarrow x+3=5^{1}=5 \\Leftrightarrow x=2$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "3",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(2x+8)=1$ lÃ \n\nA. $x=-1$.\nB. $x=-4$.\nC. $x=-2$.\nD. $x=- \\dfrac{7}{2}$.",
-    "dap_an": "C. $x=-2$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+8>0$. Ta cÃ³ $\\log_{4}(2x+8)=1 \\Leftrightarrow 2x+8=4^{1}=4 \\Leftrightarrow x=-2$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(2x-13)=3$ là\n\nA. $x=8$.\nB. $x=77$.\nC. $x=\\dfrac{77}{2}$.\nD. $x=\\dfrac{25}{2}$.",
+    "dap_an": "C. $x=\\dfrac{77}{2}$.",
+    "loi_giai": "Điều kiện: $2x-13>0$. Ta có $\\log_{4}(2x-13)=3 \\Leftrightarrow 2x-13=4^{3}=64 \\Leftrightarrow x=\\dfrac{77}{2}$ (thỏa điều kiện).",
     "params": {
       "a": "4",
       "m": "2",
-      "c": "8",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(3x-5)=3$ lÃ \n\nA. $x=69$.\nB. $x=\\dfrac{8}{3}$.\nC. $x=\\dfrac{17}{3}$.\nD. $x=23$.",
-    "dap_an": "D. $x=23$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-5>0$. Ta cÃ³ $\\log_{4}(3x-5)=3 \\Leftrightarrow 3x-5=4^{3}=64 \\Leftrightarrow x=23$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "3",
-      "c": "-5",
+      "c": "-13",
       "k": "3"
     }
   },
   {
-    "id_goc": "p191_q08",
+    "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x-3)=2$ lÃ \n\nA. $x=\\dfrac{13}{3}$.\nB. $x=\\dfrac{5}{3}$.\nC. $x=\\dfrac{28}{3}$.\nD. $x=28$.",
-    "dap_an": "C. $x=\\dfrac{28}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-3>0$. Ta cÃ³ $\\log_{5}(3x-3)=2 \\Leftrightarrow 3x-3=5^{2}=25 \\Leftrightarrow x=\\dfrac{28}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "-3",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(3x+6)=2$ lÃ \n\nA. $x=- \\dfrac{4}{3}$.\nB. $x=\\dfrac{10}{3}$.\nC. $x=10$.\nD. $x=\\dfrac{2}{3}$.",
-    "dap_an": "B. $x=\\dfrac{10}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+6>0$. Ta cÃ³ $\\log_{4}(3x+6)=2 \\Leftrightarrow 3x+6=4^{2}=16 \\Leftrightarrow x=\\dfrac{10}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "3",
-      "c": "6",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x+8)=2$ lÃ \n\nA. $x=18$.\nB. $x=2$.\nC. $x=-6$.\nD. $x=17$.",
-    "dap_an": "D. $x=17$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+8>0$. Ta cÃ³ $\\log_{5}(x+8)=2 \\Leftrightarrow x+8=5^{2}=25 \\Leftrightarrow x=17$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "8",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x-8)=2$ lÃ \n\nA. $x=14$.\nB. $x=18$.\nC. $x=17$.\nD. $x=10$.",
-    "dap_an": "C. $x=17$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-8>0$. Ta cÃ³ $\\log_{3}(x-8)=2 \\Leftrightarrow x-8=3^{2}=9 \\Leftrightarrow x=17$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(x-13)=4$ là\n\nA. $x=95$.\nB. $x=94$.\nC. $x=25$.\nD. $x=17$.",
+    "dap_an": "B. $x=94$.",
+    "loi_giai": "Điều kiện: $x-13>0$. Ta có $\\log_{3}(x-13)=4 \\Leftrightarrow x-13=3^{4}=81 \\Leftrightarrow x=94$ (thỏa điều kiện).",
     "params": {
       "a": "3",
       "m": "1",
-      "c": "-8",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x-5)=1$ lÃ \n\nA. $x=7$.\nB. $x=12$.\nC. $x=3$.\nD. $x=6$.",
-    "dap_an": "D. $x=6$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-5>0$. Ta cÃ³ $\\log_{7}(2x-5)=1 \\Leftrightarrow 2x-5=7^{1}=7 \\Leftrightarrow x=6$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
-      "c": "-5",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(2x-7)=3$ lÃ \n\nA. $x=5$.\nB. $x=17$.\nC. $x=34$.\nD. $x=8$.",
-    "dap_an": "B. $x=17$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-7>0$. Ta cÃ³ $\\log_{3}(2x-7)=3 \\Leftrightarrow 2x-7=3^{3}=27 \\Leftrightarrow x=17$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "2",
-      "c": "-7",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x-6)=1$ lÃ \n\nA. $x=\\dfrac{11}{3}$.\nB. $x=\\dfrac{14}{3}$.\nC. $x=11$.\nD. $x=\\dfrac{7}{3}$.",
-    "dap_an": "A. $x=\\dfrac{11}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-6>0$. Ta cÃ³ $\\log_{5}(3x-6)=1 \\Leftrightarrow 3x-6=5^{1}=5 \\Leftrightarrow x=\\dfrac{11}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "-6",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(2x-3)=1$ lÃ \n\nA. $x=\\dfrac{7}{2}$.\nB. $x=\\dfrac{9}{2}$.\nC. $x=7$.\nD. $x=2$.",
-    "dap_an": "A. $x=\\dfrac{7}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-3>0$. Ta cÃ³ $\\log_{4}(2x-3)=1 \\Leftrightarrow 2x-3=4^{1}=4 \\Leftrightarrow x=\\dfrac{7}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "2",
-      "c": "-3",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x+8)=4$ lÃ \n\nA. $x=618$.\nB. $x=617$.\nC. $x=-4$.\nD. $x=12$.",
-    "dap_an": "B. $x=617$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+8>0$. Ta cÃ³ $\\log_{5}(x+8)=4 \\Leftrightarrow x+8=5^{4}=625 \\Leftrightarrow x=617$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "8",
+      "c": "-13",
       "k": "4"
     }
   },
   {
     "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(x+2)=2$ lÃ \n\nA. $x=10$.\nB. $x=0$.\nC. $x=35$.\nD. $x=34$.",
-    "dap_an": "D. $x=34$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+2>0$. Ta cÃ³ $\\log_{6}(x+2)=2 \\Leftrightarrow x+2=6^{2}=36 \\Leftrightarrow x=34$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "1",
-      "c": "2",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(2x+9)=3$ lÃ \n\nA. $x=-3$.\nB. $x=3$.\nC. $x=58$.\nD. $x=116$.",
-    "dap_an": "C. $x=58$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+9>0$. Ta cÃ³ $\\log_{5}(2x+9)=3 \\Leftrightarrow 2x+9=5^{3}=125 \\Leftrightarrow x=58$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "2",
-      "c": "9",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(2x-8)=1$ lÃ \n\nA. $x=6$.\nB. $x=12$.\nC. $x=\\dfrac{9}{2}$.\nD. $x=7$.",
-    "dap_an": "A. $x=6$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-8>0$. Ta cÃ³ $\\log_{4}(2x-8)=1 \\Leftrightarrow 2x-8=4^{1}=4 \\Leftrightarrow x=6$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "2",
-      "c": "-8",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(2x-1)=4$ lÃ \n\nA. $x=257$.\nB. $x=\\dfrac{17}{2}$.\nC. $x=\\dfrac{5}{2}$.\nD. $x=\\dfrac{257}{2}$.",
-    "dap_an": "D. $x=\\dfrac{257}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-1>0$. Ta cÃ³ $\\log_{4}(2x-1)=4 \\Leftrightarrow 2x-1=4^{4}=256 \\Leftrightarrow x=\\dfrac{257}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "2",
-      "c": "-1",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x-3)=1$ lÃ \n\nA. $x=5$.\nB. $x=\\dfrac{8}{3}$.\nC. $x=\\dfrac{4}{3}$.\nD. $x=\\dfrac{5}{3}$.",
-    "dap_an": "D. $x=\\dfrac{5}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-3>0$. Ta cÃ³ $\\log_{2}(3x-3)=1 \\Leftrightarrow 3x-3=2^{1}=2 \\Leftrightarrow x=\\dfrac{5}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "-3",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(x-2)=4$ lÃ \n\nA. $x=18$.\nB. $x=259$.\nC. $x=6$.\nD. $x=258$.",
-    "dap_an": "D. $x=258$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-2>0$. Ta cÃ³ $\\log_{4}(x-2)=4 \\Leftrightarrow x-2=4^{4}=256 \\Leftrightarrow x=258$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "1",
-      "c": "-2",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(x+9)=3$ lÃ \n\nA. $x=0$.\nB. $x=-1$.\nC. $x=-3$.\nD. $x=-6$.",
-    "dap_an": "B. $x=-1$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+9>0$. Ta cÃ³ $\\log_{2}(x+9)=3 \\Leftrightarrow x+9=2^{3}=8 \\Leftrightarrow x=-1$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "1",
-      "c": "9",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x-3)=3$ lÃ \n\nA. $x=346$.\nB. $x=12$.\nC. $x=173$.\nD. $x=3$.",
-    "dap_an": "C. $x=173$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-3>0$. Ta cÃ³ $\\log_{7}(2x-3)=3 \\Leftrightarrow 2x-3=7^{3}=343 \\Leftrightarrow x=173$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
-      "c": "-3",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x+9)=1$ lÃ \n\nA. $x=-2$.\nB. $x=-1$.\nC. $x=-4$.\nD. $x=0$.",
-    "dap_an": "B. $x=-1$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+9>0$. Ta cÃ³ $\\log_{7}(2x+9)=1 \\Leftrightarrow 2x+9=7^{1}=7 \\Leftrightarrow x=-1$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
-      "c": "9",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(2x-2)=1$ lÃ \n\nA. $x=\\dfrac{9}{2}$.\nB. $x=7$.\nC. $x=\\dfrac{3}{2}$.\nD. $x=\\dfrac{7}{2}$.",
-    "dap_an": "D. $x=\\dfrac{7}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-2>0$. Ta cÃ³ $\\log_{5}(2x-2)=1 \\Leftrightarrow 2x-2=5^{1}=5 \\Leftrightarrow x=\\dfrac{7}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "2",
-      "c": "-2",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x+6)=3$ lÃ \n\nA. $x=0$.\nB. $x=-1$.\nC. $x=\\dfrac{2}{3}$.\nD. $x=2$.",
-    "dap_an": "C. $x=\\dfrac{2}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+6>0$. Ta cÃ³ $\\log_{2}(3x+6)=3 \\Leftrightarrow 3x+6=2^{3}=8 \\Leftrightarrow x=\\dfrac{2}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "6",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(x)=2$ lÃ \n\nA. $x=2$.\nB. $x=6$.\nC. $x=4$.\nD. $x=5$.",
-    "dap_an": "C. $x=4$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x>0$. Ta cÃ³ $\\log_{2}(x)=2 \\Leftrightarrow x=2^{2}=4 \\Leftrightarrow x=4$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "1",
-      "c": "0",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x-3)=1$ lÃ \n\nA. $x=6$.\nB. $x=4$.\nC. $x=7$.\nD. $x=8$.",
-    "dap_an": "A. $x=6$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-3>0$. Ta cÃ³ $\\log_{3}(x-3)=1 \\Leftrightarrow x-3=3^{1}=3 \\Leftrightarrow x=6$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "1",
-      "c": "-3",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(3x-2)=1$ lÃ \n\nA. $x=6$.\nB. $x=2$.\nC. $x=3$.\nD. $x=1$.",
-    "dap_an": "B. $x=2$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-2>0$. Ta cÃ³ $\\log_{4}(3x-2)=1 \\Leftrightarrow 3x-2=4^{1}=4 \\Leftrightarrow x=2$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "3",
-      "c": "-2",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x-8)=4$ lÃ \n\nA. $x=\\dfrac{28}{3}$.\nB. $x=633$.\nC. $x=211$.\nD. $x=4$.",
-    "dap_an": "C. $x=211$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-8>0$. Ta cÃ³ $\\log_{5}(3x-8)=4 \\Leftrightarrow 3x-8=5^{4}=625 \\Leftrightarrow x=211$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "-8",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(3x-4)=2$ lÃ \n\nA. $x=\\dfrac{20}{3}$.\nB. $x=2$.\nC. $x=20$.\nD. $x=4$.",
-    "dap_an": "A. $x=\\dfrac{20}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-4>0$. Ta cÃ³ $\\log_{4}(3x-4)=2 \\Leftrightarrow 3x-4=4^{2}=16 \\Leftrightarrow x=\\dfrac{20}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "3",
-      "c": "-4",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(3x+5)=4$ lÃ \n\nA. $x=\\dfrac{23}{3}$.\nB. $x=2396$.\nC. $x=- \\dfrac{1}{3}$.\nD. $x=\\dfrac{2396}{3}$.",
-    "dap_an": "D. $x=\\dfrac{2396}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+5>0$. Ta cÃ³ $\\log_{7}(3x+5)=4 \\Leftrightarrow 3x+5=7^{4}=2401 \\Leftrightarrow x=\\dfrac{2396}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "3",
-      "c": "5",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(x+1)=1$ lÃ \n\nA. $x=5$.\nB. $x=7$.\nC. $x=0$.\nD. $x=6$.",
-    "dap_an": "A. $x=5$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+1>0$. Ta cÃ³ $\\log_{6}(x+1)=1 \\Leftrightarrow x+1=6^{1}=6 \\Leftrightarrow x=5$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "1",
-      "c": "1",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(x-8)=2$ lÃ \n\nA. $x=22$.\nB. $x=10$.\nC. $x=57$.\nD. $x=58$.",
-    "dap_an": "C. $x=57$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-8>0$. Ta cÃ³ $\\log_{7}(x-8)=2 \\Leftrightarrow x-8=7^{2}=49 \\Leftrightarrow x=57$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "1",
-      "c": "-8",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x+9)=3$ lÃ \n\nA. $x=6$.\nB. $x=167$.\nC. $x=334$.\nD. $x=-3$.",
-    "dap_an": "B. $x=167$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+9>0$. Ta cÃ³ $\\log_{7}(2x+9)=3 \\Leftrightarrow 2x+9=7^{3}=343 \\Leftrightarrow x=167$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
-      "c": "9",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(2x+6)=2$ lÃ \n\nA. $x=-2$.\nB. $x=1$.\nC. $x=5$.\nD. $x=10$.",
-    "dap_an": "C. $x=5$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+6>0$. Ta cÃ³ $\\log_{4}(2x+6)=2 \\Leftrightarrow 2x+6=4^{2}=16 \\Leftrightarrow x=5$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "2",
-      "c": "6",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(2x-3)=2$ lÃ \n\nA. $x=\\dfrac{5}{2}$.\nB. $x=39$.\nC. $x=\\dfrac{39}{2}$.\nD. $x=\\dfrac{15}{2}$.",
-    "dap_an": "C. $x=\\dfrac{39}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-3>0$. Ta cÃ³ $\\log_{6}(2x-3)=2 \\Leftrightarrow 2x-3=6^{2}=36 \\Leftrightarrow x=\\dfrac{39}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(2x-9)=4$ là\n\nA. $x=\\dfrac{1305}{2}$.\nB. $x=1305$.\nC. $x=\\dfrac{33}{2}$.\nD. $x=\\dfrac{13}{2}$.",
+    "dap_an": "A. $x=\\dfrac{1305}{2}$.",
+    "loi_giai": "Điều kiện: $2x-9>0$. Ta có $\\log_{6}(2x-9)=4 \\Leftrightarrow 2x-9=6^{4}=1296 \\Leftrightarrow x=\\dfrac{1305}{2}$ (thỏa điều kiện).",
     "params": {
       "a": "6",
       "m": "2",
-      "c": "-3",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(2x-5)=2$ lÃ \n\nA. $x=21$.\nB. $x=\\dfrac{21}{2}$.\nC. $x=\\dfrac{13}{2}$.\nD. $x=\\dfrac{7}{2}$.",
-    "dap_an": "B. $x=\\dfrac{21}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-5>0$. Ta cÃ³ $\\log_{4}(2x-5)=2 \\Leftrightarrow 2x-5=4^{2}=16 \\Leftrightarrow x=\\dfrac{21}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "2",
-      "c": "-5",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x+6)=1$ lÃ \n\nA. $x=-5$.\nB. $x=-2$.\nC. $x=-1$.\nD. $x=-3$.",
-    "dap_an": "D. $x=-3$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+6>0$. Ta cÃ³ $\\log_{3}(x+6)=1 \\Leftrightarrow x+6=3^{1}=3 \\Leftrightarrow x=-3$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "1",
-      "c": "6",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(x-4)=2$ lÃ \n\nA. $x=53$.\nB. $x=54$.\nC. $x=6$.\nD. $x=18$.",
-    "dap_an": "A. $x=53$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-4>0$. Ta cÃ³ $\\log_{7}(x-4)=2 \\Leftrightarrow x-4=7^{2}=49 \\Leftrightarrow x=53$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "1",
-      "c": "-4",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(2x+9)=1$ lÃ \n\nA. $x=-6$.\nB. $x=-4$.\nC. $x=-3$.\nD. $x=-2$.",
-    "dap_an": "C. $x=-3$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+9>0$. Ta cÃ³ $\\log_{3}(2x+9)=1 \\Leftrightarrow 2x+9=3^{1}=3 \\Leftrightarrow x=-3$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "2",
-      "c": "9",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(2x+2)=2$ lÃ \n\nA. $x=17$.\nB. $x=34$.\nC. $x=0$.\nD. $x=5$.",
-    "dap_an": "A. $x=17$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+2>0$. Ta cÃ³ $\\log_{6}(2x+2)=2 \\Leftrightarrow 2x+2=6^{2}=36 \\Leftrightarrow x=17$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "2",
-      "c": "2",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(2x+6)=2$ lÃ \n\nA. $x=\\dfrac{19}{2}$.\nB. $x=2$.\nC. $x=-2$.\nD. $x=19$.",
-    "dap_an": "A. $x=\\dfrac{19}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+6>0$. Ta cÃ³ $\\log_{5}(2x+6)=2 \\Leftrightarrow 2x+6=5^{2}=25 \\Leftrightarrow x=\\dfrac{19}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "2",
-      "c": "6",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x-2)=3$ lÃ \n\nA. $x=\\dfrac{5}{3}$.\nB. $x=\\dfrac{17}{3}$.\nC. $x=\\dfrac{127}{3}$.\nD. $x=127$.",
-    "dap_an": "C. $x=\\dfrac{127}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-2>0$. Ta cÃ³ $\\log_{5}(3x-2)=3 \\Leftrightarrow 3x-2=5^{3}=125 \\Leftrightarrow x=\\dfrac{127}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "-2",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(x+8)=1$ lÃ \n\nA. $x=-1$.\nB. $x=0$.\nC. $x=-7$.\nD. $x=1$.",
-    "dap_an": "A. $x=-1$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+8>0$. Ta cÃ³ $\\log_{7}(x+8)=1 \\Leftrightarrow x+8=7^{1}=7 \\Leftrightarrow x=-1$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "1",
-      "c": "8",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x+4)=2$ lÃ \n\nA. $x=-2$.\nB. $x=21$.\nC. $x=22$.\nD. $x=6$.",
-    "dap_an": "B. $x=21$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+4>0$. Ta cÃ³ $\\log_{5}(x+4)=2 \\Leftrightarrow x+4=5^{2}=25 \\Leftrightarrow x=21$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "4",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(3x-3)=1$ lÃ \n\nA. $x=\\dfrac{4}{3}$.\nB. $x=6$.\nC. $x=3$.\nD. $x=2$.",
-    "dap_an": "D. $x=2$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-3>0$. Ta cÃ³ $\\log_{3}(3x-3)=1 \\Leftrightarrow 3x-3=3^{1}=3 \\Leftrightarrow x=2$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "3",
-      "c": "-3",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x+2)=1$ lÃ \n\nA. $x=2$.\nB. $x=1$.\nC. $x=- \\dfrac{1}{3}$.\nD. $x=3$.",
-    "dap_an": "B. $x=1$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+2>0$. Ta cÃ³ $\\log_{5}(3x+2)=1 \\Leftrightarrow 3x+2=5^{1}=5 \\Leftrightarrow x=1$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "2",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x+5)=2$ lÃ \n\nA. $x=- \\dfrac{1}{3}$.\nB. $x=-1$.\nC. $x=0$.\nD. $x=\\dfrac{2}{3}$.",
-    "dap_an": "A. $x=- \\dfrac{1}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+5>0$. Ta cÃ³ $\\log_{2}(3x+5)=2 \\Leftrightarrow 3x+5=2^{2}=4 \\Leftrightarrow x=- \\dfrac{1}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "5",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p006_q12",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(2x+6)=1$ lÃ \n\nA. $x=-3$.\nB. $x=- \\dfrac{5}{2}$.\nC. $x=- \\dfrac{1}{2}$.\nD. $x=- \\dfrac{3}{2}$.",
-    "dap_an": "D. $x=- \\dfrac{3}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+6>0$. Ta cÃ³ $\\log_{3}(2x+6)=1 \\Leftrightarrow 2x+6=3^{1}=3 \\Leftrightarrow x=- \\dfrac{3}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "2",
-      "c": "6",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(x-9)=4$ lÃ \n\nA. $x=265$.\nB. $x=266$.\nC. $x=25$.\nD. $x=13$.",
-    "dap_an": "A. $x=265$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-9>0$. Ta cÃ³ $\\log_{4}(x-9)=4 \\Leftrightarrow x-9=4^{4}=256 \\Leftrightarrow x=265$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "1",
       "c": "-9",
       "k": "4"
     }
   },
   {
-    "id_goc": "p079_q06",
+    "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x+3)=4$ lÃ \n\nA. $x=9$.\nB. $x=79$.\nC. $x=1$.\nD. $x=78$.",
-    "dap_an": "D. $x=78$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+3>0$. Ta cÃ³ $\\log_{3}(x+3)=4 \\Leftrightarrow x+3=3^{4}=81 \\Leftrightarrow x=78$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "1",
-      "c": "3",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(3x+6)=1$ lÃ \n\nA. $x=2$.\nB. $x=- \\dfrac{5}{3}$.\nC. $x=1$.\nD. $x=0$.",
-    "dap_an": "D. $x=0$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+6>0$. Ta cÃ³ $\\log_{6}(3x+6)=1 \\Leftrightarrow 3x+6=6^{1}=6 \\Leftrightarrow x=0$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "3",
-      "c": "6",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(3x+7)=2$ lÃ \n\nA. $x=- \\dfrac{5}{3}$.\nB. $x=\\dfrac{7}{3}$.\nC. $x=14$.\nD. $x=42$.",
-    "dap_an": "C. $x=14$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+7>0$. Ta cÃ³ $\\log_{7}(3x+7)=2 \\Leftrightarrow 3x+7=7^{2}=49 \\Leftrightarrow x=14$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "3",
-      "c": "7",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x-2)=4$ lÃ \n\nA. $x=2403$.\nB. $x=3$.\nC. $x=\\dfrac{2403}{2}$.\nD. $x=15$.",
-    "dap_an": "C. $x=\\dfrac{2403}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-2>0$. Ta cÃ³ $\\log_{7}(2x-2)=4 \\Leftrightarrow 2x-2=7^{4}=2401 \\Leftrightarrow x=\\dfrac{2403}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
-      "c": "-2",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p079_q06",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(3x+1)=2$ lÃ \n\nA. $x=8$.\nB. $x=\\dfrac{1}{3}$.\nC. $x=\\dfrac{8}{3}$.\nD. $x=\\dfrac{5}{3}$.",
-    "dap_an": "C. $x=\\dfrac{8}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+1>0$. Ta cÃ³ $\\log_{3}(3x+1)=2 \\Leftrightarrow 3x+1=3^{2}=9 \\Leftrightarrow x=\\dfrac{8}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "3",
-      "c": "1",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(x-5)=4$ lÃ \n\nA. $x=262$.\nB. $x=261$.\nC. $x=9$.\nD. $x=21$.",
-    "dap_an": "B. $x=261$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-5>0$. Ta cÃ³ $\\log_{4}(x-5)=4 \\Leftrightarrow x-5=4^{4}=256 \\Leftrightarrow x=261$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x+5)=4$ là\n\nA. $x=11$.\nB. $x=251$.\nC. $x=252$.\nD. $x=-1$.",
+    "dap_an": "B. $x=251$.",
+    "loi_giai": "Điều kiện: $x+5>0$. Ta có $\\log_{4}(x+5)=4 \\Leftrightarrow x+5=4^{4}=256 \\Leftrightarrow x=251$ (thỏa điều kiện).",
     "params": {
       "a": "4",
       "m": "1",
-      "c": "-5",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(x+2)=3$ lÃ \n\nA. $x=26$.\nB. $x=1$.\nC. $x=7$.\nD. $x=25$.",
-    "dap_an": "D. $x=25$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+2>0$. Ta cÃ³ $\\log_{3}(x+2)=3 \\Leftrightarrow x+2=3^{3}=27 \\Leftrightarrow x=25$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "1",
-      "c": "2",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(2x+5)=4$ lÃ \n\nA. $x=\\dfrac{23}{2}$.\nB. $x=- \\dfrac{1}{2}$.\nC. $x=1198$.\nD. $x=2396$.",
-    "dap_an": "C. $x=1198$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x+5>0$. Ta cÃ³ $\\log_{7}(2x+5)=4 \\Leftrightarrow 2x+5=7^{4}=2401 \\Leftrightarrow x=1198$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "2",
       "c": "5",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(3x+5)=1$ lÃ \n\nA. $x=- \\dfrac{4}{3}$.\nB. $x=-3$.\nC. $x=-1$.\nD. $x=0$.",
-    "dap_an": "C. $x=-1$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+5>0$. Ta cÃ³ $\\log_{2}(3x+5)=1 \\Leftrightarrow 3x+5=2^{1}=2 \\Leftrightarrow x=-1$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "3",
-      "c": "5",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(2x)=4$ lÃ \n\nA. $x=625$.\nB. $x=\\dfrac{625}{2}$.\nC. $x=2$.\nD. $x=10$.",
-    "dap_an": "B. $x=\\dfrac{625}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x>0$. Ta cÃ³ $\\log_{5}(2x)=4 \\Leftrightarrow 2x=5^{4}=625 \\Leftrightarrow x=\\dfrac{625}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "2",
-      "c": "0",
-      "k": "4"
-    }
-  },
-  {
-    "id_goc": "p109_q10",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{7}(3x-4)=2$ lÃ \n\nA. $x=\\dfrac{53}{3}$.\nB. $x=53$.\nC. $x=6$.\nD. $x=2$.",
-    "dap_an": "A. $x=\\dfrac{53}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-4>0$. Ta cÃ³ $\\log_{7}(3x-4)=2 \\Leftrightarrow 3x-4=7^{2}=49 \\Leftrightarrow x=\\dfrac{53}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "7",
-      "m": "3",
-      "c": "-4",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x-4)=1$ lÃ \n\nA. $x=9$.\nB. $x=11$.\nC. $x=10$.\nD. $x=5$.",
-    "dap_an": "A. $x=9$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-4>0$. Ta cÃ³ $\\log_{5}(x-4)=1 \\Leftrightarrow x-4=5^{1}=5 \\Leftrightarrow x=9$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "-4",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(x+3)=2$ lÃ \n\nA. $x=-1$.\nB. $x=22$.\nC. $x=7$.\nD. $x=23$.",
-    "dap_an": "B. $x=22$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+3>0$. Ta cÃ³ $\\log_{5}(x+3)=2 \\Leftrightarrow x+3=5^{2}=25 \\Leftrightarrow x=22$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "1",
-      "c": "3",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(3x)=2$ lÃ \n\nA. $x=2$.\nB. $x=3$.\nC. $x=\\dfrac{2}{3}$.\nD. $x=9$.",
-    "dap_an": "B. $x=3$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x>0$. Ta cÃ³ $\\log_{3}(3x)=2 \\Leftrightarrow 3x=3^{2}=9 \\Leftrightarrow x=3$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "3",
-      "c": "0",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x+1)=2$ lÃ \n\nA. $x=3$.\nB. $x=24$.\nC. $x=\\dfrac{1}{3}$.\nD. $x=8$.",
-    "dap_an": "D. $x=8$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+1>0$. Ta cÃ³ $\\log_{5}(3x+1)=2 \\Leftrightarrow 3x+1=5^{2}=25 \\Leftrightarrow x=8$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "1",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p191_q08",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(2x-5)=3$ lÃ \n\nA. $x=4$.\nB. $x=\\dfrac{23}{2}$.\nC. $x=\\dfrac{221}{2}$.\nD. $x=221$.",
-    "dap_an": "C. $x=\\dfrac{221}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-5>0$. Ta cÃ³ $\\log_{6}(2x-5)=3 \\Leftrightarrow 2x-5=6^{3}=216 \\Leftrightarrow x=\\dfrac{221}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "2",
-      "c": "-5",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(x-2)=3$ lÃ \n\nA. $x=219$.\nB. $x=5$.\nC. $x=218$.\nD. $x=20$.",
-    "dap_an": "C. $x=218$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x-2>0$. Ta cÃ³ $\\log_{6}(x-2)=3 \\Leftrightarrow x-2=6^{3}=216 \\Leftrightarrow x=218$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "1",
-      "c": "-2",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(x+4)=2$ lÃ \n\nA. $x=1$.\nB. $x=0$.\nC. $x=2$.\nD. $x=-2$.",
-    "dap_an": "B. $x=0$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+4>0$. Ta cÃ³ $\\log_{2}(x+4)=2 \\Leftrightarrow x+4=2^{2}=4 \\Leftrightarrow x=0$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "2",
-      "m": "1",
-      "c": "4",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{6}(3x-6)=1$ lÃ \n\nA. $x=4$.\nB. $x=12$.\nC. $x=5$.\nD. $x=\\dfrac{7}{3}$.",
-    "dap_an": "A. $x=4$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-6>0$. Ta cÃ³ $\\log_{6}(3x-6)=1 \\Leftrightarrow 3x-6=6^{1}=6 \\Leftrightarrow x=4$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "6",
-      "m": "3",
-      "c": "-6",
-      "k": "1"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_lon_hon_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{4}(3x+7)=2$ lÃ \n\nA. $x=9$.\nB. $x=\\dfrac{1}{3}$.\nC. $x=3$.\nD. $x=- \\dfrac{5}{3}$.",
-    "dap_an": "C. $x=3$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x+7>0$. Ta cÃ³ $\\log_{4}(3x+7)=2 \\Leftrightarrow 3x+7=4^{2}=16 \\Leftrightarrow x=3$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "4",
-      "m": "3",
-      "c": "7",
-      "k": "2"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{3}(2x-6)=3$ lÃ \n\nA. $x=\\dfrac{15}{2}$.\nB. $x=\\dfrac{9}{2}$.\nC. $x=\\dfrac{33}{2}$.\nD. $x=33$.",
-    "dap_an": "C. $x=\\dfrac{33}{2}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $2x-6>0$. Ta cÃ³ $\\log_{3}(2x-6)=3 \\Leftrightarrow 2x-6=3^{3}=27 \\Leftrightarrow x=\\dfrac{33}{2}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "3",
-      "m": "2",
-      "c": "-6",
-      "k": "3"
-    }
-  },
-  {
-    "id_goc": "p210_q27",
-    "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "dap_so_phan_so",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{5}(3x-1)=4$ lÃ \n\nA. $x=\\dfrac{5}{3}$.\nB. $x=626$.\nC. $x=7$.\nD. $x=\\dfrac{626}{3}$.",
-    "dap_an": "D. $x=\\dfrac{626}{3}$.",
-    "loi_giai": "Äiá»u kiá»‡n: $3x-1>0$. Ta cÃ³ $\\log_{5}(3x-1)=4 \\Leftrightarrow 3x-1=5^{4}=625 \\Leftrightarrow x=\\dfrac{626}{3}$ (thá»a Ä‘iá»u kiá»‡n).",
-    "params": {
-      "a": "5",
-      "m": "3",
-      "c": "-1",
       "k": "4"
     }
   },
   {
     "id_goc": "p006_q12",
     "ma_dang": "D01",
-    "ten_dang": "Giai phuong trinh logarit co ban dang log_a(f(x))=k, f(x) bac nhat",
-    "nguon": "NhÃ¢n báº£n",
-    "loai_bien_the": "he_so_x_bang_1",
-    "de_bai": "Nghiá»‡m cá»§a phÆ°Æ¡ng trÃ¬nh $\\log_{2}(x+6)=4$ lÃ \n\nA. $x=11$.\nB. $x=10$.\nC. $x=2$.\nD. $x=-2$.",
-    "dap_an": "B. $x=10$.",
-    "loi_giai": "Äiá»u kiá»‡n: $x+6>0$. Ta cÃ³ $\\log_{2}(x+6)=4 \\Leftrightarrow x+6=2^{4}=16 \\Leftrightarrow x=10$ (thá»a Ä‘iá»u kiá»‡n).",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x-13)=4$ là\n\nA. $x=17$.\nB. $x=33$.\nC. $x=638$.\nD. $x=639$.",
+    "dap_an": "C. $x=638$.",
+    "loi_giai": "Điều kiện: $x-13>0$. Ta có $\\log_{5}(x-13)=4 \\Leftrightarrow x-13=5^{4}=625 \\Leftrightarrow x=638$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "-13",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(2x-9)=1$ là\n\nA. $x=8$.\nB. $x=14$.\nC. $x=5$.\nD. $x=7$.",
+    "dap_an": "D. $x=7$.",
+    "loi_giai": "Điều kiện: $2x-9>0$. Ta có $\\log_{5}(2x-9)=1 \\Leftrightarrow 2x-9=5^{1}=5 \\Leftrightarrow x=7$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "2",
+      "c": "-9",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(3x+6)=3$ là\n\nA. $x=-1$.\nB. $x=337$.\nC. $x=5$.\nD. $x=\\dfrac{337}{3}$.",
+    "dap_an": "D. $x=\\dfrac{337}{3}$.",
+    "loi_giai": "Điều kiện: $3x+6>0$. Ta có $\\log_{7}(3x+6)=3 \\Leftrightarrow 3x+6=7^{3}=343 \\Leftrightarrow x=\\dfrac{337}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "3",
+      "c": "6",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(2x-3)=4$ là\n\nA. $x=1202$.\nB. $x=\\dfrac{7}{2}$.\nC. $x=\\dfrac{31}{2}$.\nD. $x=2404$.",
+    "dap_an": "A. $x=1202$.",
+    "loi_giai": "Điều kiện: $2x-3>0$. Ta có $\\log_{7}(2x-3)=4 \\Leftrightarrow 2x-3=7^{4}=2401 \\Leftrightarrow x=1202$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "2",
+      "c": "-3",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x-13)=4$ là\n\nA. $x=\\dfrac{17}{2}$.\nB. $x=\\dfrac{25}{2}$.\nC. $x=47$.\nD. $x=94$.",
+    "dap_an": "C. $x=47$.",
+    "loi_giai": "Điều kiện: $2x-13>0$. Ta có $\\log_{3}(2x-13)=4 \\Leftrightarrow 2x-13=3^{4}=81 \\Leftrightarrow x=47$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "-13",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(3x-2)=1$ là\n\nA. $x=3$.\nB. $x=1$.\nC. $x=9$.\nD. $x=4$.",
+    "dap_an": "A. $x=3$.",
+    "loi_giai": "Điều kiện: $3x-2>0$. Ta có $\\log_{7}(3x-2)=1 \\Leftrightarrow 3x-2=7^{1}=7 \\Leftrightarrow x=3$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "3",
+      "c": "-2",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x+2)=1$ là\n\nA. $x=4$.\nB. $x=3$.\nC. $x=5$.\nD. $x=-1$.",
+    "dap_an": "B. $x=3$.",
+    "loi_giai": "Điều kiện: $x+2>0$. Ta có $\\log_{5}(x+2)=1 \\Leftrightarrow x+2=5^{1}=5 \\Leftrightarrow x=3$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "2",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x-4)=3$ là\n\nA. $x=68$.\nB. $x=7$.\nC. $x=69$.\nD. $x=16$.",
+    "dap_an": "A. $x=68$.",
+    "loi_giai": "Điều kiện: $x-4>0$. Ta có $\\log_{4}(x-4)=3 \\Leftrightarrow x-4=4^{3}=64 \\Leftrightarrow x=68$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "-4",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(2x+3)=2$ là\n\nA. $x=\\dfrac{3}{2}$.\nB. $x=\\dfrac{1}{2}$.\nC. $x=1$.\nD. $x=- \\dfrac{1}{2}$.",
+    "dap_an": "B. $x=\\dfrac{1}{2}$.",
+    "loi_giai": "Điều kiện: $2x+3>0$. Ta có $\\log_{2}(2x+3)=2 \\Leftrightarrow 2x+3=2^{2}=4 \\Leftrightarrow x=\\dfrac{1}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "2",
+      "c": "3",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(2x-10)=3$ là\n\nA. $x=8$.\nB. $x=\\dfrac{13}{2}$.\nC. $x=9$.\nD. $x=18$.",
+    "dap_an": "C. $x=9$.",
+    "loi_giai": "Điều kiện: $2x-10>0$. Ta có $\\log_{2}(2x-10)=3 \\Leftrightarrow 2x-10=2^{3}=8 \\Leftrightarrow x=9$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "2",
+      "c": "-10",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x-3)=3$ là\n\nA. $x=11$.\nB. $x=12$.\nC. $x=9$.\nD. $x=6$.",
+    "dap_an": "A. $x=11$.",
+    "loi_giai": "Điều kiện: $x-3>0$. Ta có $\\log_{2}(x-3)=3 \\Leftrightarrow x-3=2^{3}=8 \\Leftrightarrow x=11$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "-3",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(3x)=2$ là\n\nA. $x=\\dfrac{14}{3}$.\nB. $x=49$.\nC. $x=\\dfrac{2}{3}$.\nD. $x=\\dfrac{49}{3}$.",
+    "dap_an": "D. $x=\\dfrac{49}{3}$.",
+    "loi_giai": "Điều kiện: $3x>0$. Ta có $\\log_{7}(3x)=2 \\Leftrightarrow 3x=7^{2}=49 \\Leftrightarrow x=\\dfrac{49}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "3",
+      "c": "0",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x-6)=2$ là\n\nA. $x=\\dfrac{16}{3}$.\nB. $x=31$.\nC. $x=\\dfrac{31}{3}$.\nD. $x=\\dfrac{8}{3}$.",
+    "dap_an": "C. $x=\\dfrac{31}{3}$.",
+    "loi_giai": "Điều kiện: $3x-6>0$. Ta có $\\log_{5}(3x-6)=2 \\Leftrightarrow 3x-6=5^{2}=25 \\Leftrightarrow x=\\dfrac{31}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "3",
+      "c": "-6",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(3x+6)=1$ là\n\nA. $x=\\dfrac{1}{3}$.\nB. $x=- \\dfrac{5}{3}$.\nC. $x=1$.\nD. $x=\\dfrac{4}{3}$.",
+    "dap_an": "A. $x=\\dfrac{1}{3}$.",
+    "loi_giai": "Điều kiện: $3x+6>0$. Ta có $\\log_{7}(3x+6)=1 \\Leftrightarrow 3x+6=7^{1}=7 \\Leftrightarrow x=\\dfrac{1}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "3",
+      "c": "6",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x-14)=3$ là\n\nA. $x=23$.\nB. $x=22$.\nC. $x=20$.\nD. $x=17$.",
+    "dap_an": "B. $x=22$.",
+    "loi_giai": "Điều kiện: $x-14>0$. Ta có $\\log_{2}(x-14)=3 \\Leftrightarrow x-14=2^{3}=8 \\Leftrightarrow x=22$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "-14",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x+13)=4$ là\n\nA. $x=\\dfrac{1283}{3}$.\nB. $x=1283$.\nC. $x=\\dfrac{11}{3}$.\nD. $x=-3$.",
+    "dap_an": "A. $x=\\dfrac{1283}{3}$.",
+    "loi_giai": "Điều kiện: $3x+13>0$. Ta có $\\log_{6}(3x+13)=4 \\Leftrightarrow 3x+13=6^{4}=1296 \\Leftrightarrow x=\\dfrac{1283}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "13",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(3x+7)=4$ là\n\nA. $x=9$.\nB. $x=3$.\nC. $x=\\dfrac{1}{3}$.\nD. $x=-1$.",
+    "dap_an": "B. $x=3$.",
+    "loi_giai": "Điều kiện: $3x+7>0$. Ta có $\\log_{2}(3x+7)=4 \\Leftrightarrow 3x+7=2^{4}=16 \\Leftrightarrow x=3$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "3",
+      "c": "7",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(x+6)=2$ là\n\nA. $x=-4$.\nB. $x=44$.\nC. $x=43$.\nD. $x=8$.",
+    "dap_an": "C. $x=43$.",
+    "loi_giai": "Điều kiện: $x+6>0$. Ta có $\\log_{7}(x+6)=2 \\Leftrightarrow x+6=7^{2}=49 \\Leftrightarrow x=43$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "1",
+      "c": "6",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(3x+14)=4$ là\n\nA. $x=67$.\nB. $x=- \\dfrac{2}{3}$.\nC. $x=- \\dfrac{10}{3}$.\nD. $x=\\dfrac{67}{3}$.",
+    "dap_an": "D. $x=\\dfrac{67}{3}$.",
+    "loi_giai": "Điều kiện: $3x+14>0$. Ta có $\\log_{3}(3x+14)=4 \\Leftrightarrow 3x+14=3^{4}=81 \\Leftrightarrow x=\\dfrac{67}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "3",
+      "c": "14",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(x+15)=2$ là\n\nA. $x=-6$.\nB. $x=-9$.\nC. $x=-5$.\nD. $x=-13$.",
+    "dap_an": "A. $x=-6$.",
+    "loi_giai": "Điều kiện: $x+15>0$. Ta có $\\log_{3}(x+15)=2 \\Leftrightarrow x+15=3^{2}=9 \\Leftrightarrow x=-6$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "1",
+      "c": "15",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(2x-3)=1$ là\n\nA. $x=\\dfrac{7}{2}$.\nB. $x=\\dfrac{9}{2}$.\nC. $x=7$.\nD. $x=2$.",
+    "dap_an": "A. $x=\\dfrac{7}{2}$.",
+    "loi_giai": "Điều kiện: $2x-3>0$. Ta có $\\log_{4}(2x-3)=1 \\Leftrightarrow 2x-3=4^{1}=4 \\Leftrightarrow x=\\dfrac{7}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "2",
+      "c": "-3",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(3x+2)=3$ là\n\nA. $x=2$.\nB. $x=\\dfrac{1}{3}$.\nC. $x=\\dfrac{4}{3}$.\nD. $x=6$.",
+    "dap_an": "A. $x=2$.",
+    "loi_giai": "Điều kiện: $3x+2>0$. Ta có $\\log_{2}(3x+2)=3 \\Leftrightarrow 3x+2=2^{3}=8 \\Leftrightarrow x=2$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "3",
+      "c": "2",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x-9)=3$ là\n\nA. $x=134$.\nB. $x=135$.\nC. $x=24$.\nD. $x=12$.",
+    "dap_an": "A. $x=134$.",
+    "loi_giai": "Điều kiện: $x-9>0$. Ta có $\\log_{5}(x-9)=3 \\Leftrightarrow x-9=5^{3}=125 \\Leftrightarrow x=134$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "-9",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(2x-13)=3$ là\n\nA. $x=17$.\nB. $x=178$.\nC. $x=356$.\nD. $x=8$.",
+    "dap_an": "B. $x=178$.",
+    "loi_giai": "Điều kiện: $2x-13>0$. Ta có $\\log_{7}(2x-13)=3 \\Leftrightarrow 2x-13=7^{3}=343 \\Leftrightarrow x=178$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "2",
+      "c": "-13",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x-1)=2$ là\n\nA. $x=\\dfrac{3}{2}$.\nB. $x=10$.\nC. $x=\\dfrac{7}{2}$.\nD. $x=5$.",
+    "dap_an": "D. $x=5$.",
+    "loi_giai": "Điều kiện: $2x-1>0$. Ta có $\\log_{3}(2x-1)=2 \\Leftrightarrow 2x-1=3^{2}=9 \\Leftrightarrow x=5$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "-1",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x+1)=3$ là\n\nA. $x=2$.\nB. $x=14$.\nC. $x=124$.\nD. $x=125$.",
+    "dap_an": "C. $x=124$.",
+    "loi_giai": "Điều kiện: $x+1>0$. Ta có $\\log_{5}(x+1)=3 \\Leftrightarrow x+1=5^{3}=125 \\Leftrightarrow x=124$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "1",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(x-7)=2$ là\n\nA. $x=13$.\nB. $x=9$.\nC. $x=16$.\nD. $x=17$.",
+    "dap_an": "C. $x=16$.",
+    "loi_giai": "Điều kiện: $x-7>0$. Ta có $\\log_{3}(x-7)=2 \\Leftrightarrow x-7=3^{2}=9 \\Leftrightarrow x=16$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "1",
+      "c": "-7",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x+5)=4$ là\n\nA. $x=-1$.\nB. $x=11$.\nC. $x=3$.\nD. $x=12$.",
+    "dap_an": "B. $x=11$.",
+    "loi_giai": "Điều kiện: $x+5>0$. Ta có $\\log_{2}(x+5)=4 \\Leftrightarrow x+5=2^{4}=16 \\Leftrightarrow x=11$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "5",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(2x+5)=1$ là\n\nA. $x=-2$.\nB. $x=1$.\nC. $x=\\dfrac{3}{2}$.\nD. $x=\\dfrac{1}{2}$.",
+    "dap_an": "D. $x=\\dfrac{1}{2}$.",
+    "loi_giai": "Điều kiện: $2x+5>0$. Ta có $\\log_{6}(2x+5)=1 \\Leftrightarrow 2x+5=6^{1}=6 \\Leftrightarrow x=\\dfrac{1}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "2",
+      "c": "5",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x+10)=3$ là\n\nA. $x=55$.\nB. $x=54$.\nC. $x=2$.\nD. $x=-7$.",
+    "dap_an": "B. $x=54$.",
+    "loi_giai": "Điều kiện: $x+10>0$. Ta có $\\log_{4}(x+10)=3 \\Leftrightarrow x+10=4^{3}=64 \\Leftrightarrow x=54$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "10",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x-9)=3$ là\n\nA. $x=4$.\nB. $x=8$.\nC. $x=134$.\nD. $x=\\dfrac{134}{3}$.",
+    "dap_an": "D. $x=\\dfrac{134}{3}$.",
+    "loi_giai": "Điều kiện: $3x-9>0$. Ta có $\\log_{5}(3x-9)=3 \\Leftrightarrow 3x-9=5^{3}=125 \\Leftrightarrow x=\\dfrac{134}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "3",
+      "c": "-9",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x+14)=2$ là\n\nA. $x=-6$.\nB. $x=-12$.\nC. $x=2$.\nD. $x=3$.",
+    "dap_an": "C. $x=2$.",
+    "loi_giai": "Điều kiện: $x+14>0$. Ta có $\\log_{4}(x+14)=2 \\Leftrightarrow x+14=4^{2}=16 \\Leftrightarrow x=2$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "14",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(2x+6)=3$ là\n\nA. $x=58$.\nB. $x=- \\dfrac{3}{2}$.\nC. $x=29$.\nD. $x=3$.",
+    "dap_an": "C. $x=29$.",
+    "loi_giai": "Điều kiện: $2x+6>0$. Ta có $\\log_{4}(2x+6)=3 \\Leftrightarrow 2x+6=4^{3}=64 \\Leftrightarrow x=29$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "2",
+      "c": "6",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(2x+5)=1$ là\n\nA. $x=-2$.\nB. $x=1$.\nC. $x=2$.\nD. $x=0$.",
+    "dap_an": "D. $x=0$.",
+    "loi_giai": "Điều kiện: $2x+5>0$. Ta có $\\log_{5}(2x+5)=1 \\Leftrightarrow 2x+5=5^{1}=5 \\Leftrightarrow x=0$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "2",
+      "c": "5",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(x+1)=1$ là\n\nA. $x=6$.\nB. $x=8$.\nC. $x=0$.\nD. $x=7$.",
+    "dap_an": "A. $x=6$.",
+    "loi_giai": "Điều kiện: $x+1>0$. Ta có $\\log_{7}(x+1)=1 \\Leftrightarrow x+1=7^{1}=7 \\Leftrightarrow x=6$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "1",
+      "c": "1",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(x+6)=1$ là\n\nA. $x=-5$.\nB. $x=-2$.\nC. $x=-1$.\nD. $x=-3$.",
+    "dap_an": "D. $x=-3$.",
+    "loi_giai": "Điều kiện: $x+6>0$. Ta có $\\log_{3}(x+6)=1 \\Leftrightarrow x+6=3^{1}=3 \\Leftrightarrow x=-3$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "1",
+      "c": "6",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x-12)=3$ là\n\nA. $x=39$.\nB. $x=\\dfrac{39}{2}$.\nC. $x=\\dfrac{21}{2}$.\nD. $x=\\dfrac{15}{2}$.",
+    "dap_an": "B. $x=\\dfrac{39}{2}$.",
+    "loi_giai": "Điều kiện: $2x-12>0$. Ta có $\\log_{3}(2x-12)=3 \\Leftrightarrow 2x-12=3^{3}=27 \\Leftrightarrow x=\\dfrac{39}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "-12",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(2x+12)=2$ là\n\nA. $x=-5$.\nB. $x=-4$.\nC. $x=-8$.\nD. $x=-3$.",
+    "dap_an": "B. $x=-4$.",
+    "loi_giai": "Điều kiện: $2x+12>0$. Ta có $\\log_{2}(2x+12)=2 \\Leftrightarrow 2x+12=2^{2}=4 \\Leftrightarrow x=-4$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "2",
+      "c": "12",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x+5)=2$ là\n\nA. $x=\\dfrac{31}{3}$.\nB. $x=\\dfrac{7}{3}$.\nC. $x=31$.\nD. $x=-1$.",
+    "dap_an": "A. $x=\\dfrac{31}{3}$.",
+    "loi_giai": "Điều kiện: $3x+5>0$. Ta có $\\log_{6}(3x+5)=2 \\Leftrightarrow 3x+5=6^{2}=36 \\Leftrightarrow x=\\dfrac{31}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "5",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x+2)=3$ là\n\nA. $x=25$.\nB. $x=\\dfrac{25}{2}$.\nC. $x=\\dfrac{1}{2}$.\nD. $x=\\dfrac{7}{2}$.",
+    "dap_an": "B. $x=\\dfrac{25}{2}$.",
+    "loi_giai": "Điều kiện: $2x+2>0$. Ta có $\\log_{3}(2x+2)=3 \\Leftrightarrow 2x+2=3^{3}=27 \\Leftrightarrow x=\\dfrac{25}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "2",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(3x-6)=3$ là\n\nA. $x=70$.\nB. $x=3$.\nC. $x=\\dfrac{70}{3}$.\nD. $x=6$.",
+    "dap_an": "C. $x=\\dfrac{70}{3}$.",
+    "loi_giai": "Điều kiện: $3x-6>0$. Ta có $\\log_{4}(3x-6)=3 \\Leftrightarrow 3x-6=4^{3}=64 \\Leftrightarrow x=\\dfrac{70}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "3",
+      "c": "-6",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x-9)=4$ là\n\nA. $x=90$.\nB. $x=\\dfrac{21}{2}$.\nC. $x=45$.\nD. $x=\\dfrac{13}{2}$.",
+    "dap_an": "C. $x=45$.",
+    "loi_giai": "Điều kiện: $2x-9>0$. Ta có $\\log_{3}(2x-9)=4 \\Leftrightarrow 2x-9=3^{4}=81 \\Leftrightarrow x=45$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "-9",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x-8)=1$ là\n\nA. $x=12$.\nB. $x=13$.\nC. $x=9$.\nD. $x=14$.",
+    "dap_an": "A. $x=12$.",
+    "loi_giai": "Điều kiện: $x-8>0$. Ta có $\\log_{4}(x-8)=1 \\Leftrightarrow x-8=4^{1}=4 \\Leftrightarrow x=12$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "-8",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(2x+8)=4$ là\n\nA. $x=644$.\nB. $x=-2$.\nC. $x=1288$.\nD. $x=8$.",
+    "dap_an": "A. $x=644$.",
+    "loi_giai": "Điều kiện: $2x+8>0$. Ta có $\\log_{6}(2x+8)=4 \\Leftrightarrow 2x+8=6^{4}=1296 \\Leftrightarrow x=644$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "2",
+      "c": "8",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x-14)=3$ là\n\nA. $x=139$.\nB. $x=\\dfrac{29}{3}$.\nC. $x=\\dfrac{139}{3}$.\nD. $x=\\dfrac{17}{3}$.",
+    "dap_an": "C. $x=\\dfrac{139}{3}$.",
+    "loi_giai": "Điều kiện: $3x-14>0$. Ta có $\\log_{5}(3x-14)=3 \\Leftrightarrow 3x-14=5^{3}=125 \\Leftrightarrow x=\\dfrac{139}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "3",
+      "c": "-14",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x-9)=1$ là\n\nA. $x=\\dfrac{10}{3}$.\nB. $x=5$.\nC. $x=6$.\nD. $x=15$.",
+    "dap_an": "B. $x=5$.",
+    "loi_giai": "Điều kiện: $3x-9>0$. Ta có $\\log_{6}(3x-9)=1 \\Leftrightarrow 3x-9=6^{1}=6 \\Leftrightarrow x=5$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "-9",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x+14)=1$ là\n\nA. $x=-3$.\nB. $x=-2$.\nC. $x=-9$.\nD. $x=- \\dfrac{13}{3}$.",
+    "dap_an": "A. $x=-3$.",
+    "loi_giai": "Điều kiện: $3x+14>0$. Ta có $\\log_{5}(3x+14)=1 \\Leftrightarrow 3x+14=5^{1}=5 \\Leftrightarrow x=-3$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "3",
+      "c": "14",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(2x+14)=4$ là\n\nA. $x=1$.\nB. $x=2$.\nC. $x=-5$.\nD. $x=-3$.",
+    "dap_an": "A. $x=1$.",
+    "loi_giai": "Điều kiện: $2x+14>0$. Ta có $\\log_{2}(2x+14)=4 \\Leftrightarrow 2x+14=2^{4}=16 \\Leftrightarrow x=1$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "2",
+      "c": "14",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(2x+9)=2$ là\n\nA. $x=- \\dfrac{7}{2}$.\nB. $x=40$.\nC. $x=\\dfrac{5}{2}$.\nD. $x=20$.",
+    "dap_an": "D. $x=20$.",
+    "loi_giai": "Điều kiện: $2x+9>0$. Ta có $\\log_{7}(2x+9)=2 \\Leftrightarrow 2x+9=7^{2}=49 \\Leftrightarrow x=20$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "2",
+      "c": "9",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x+10)=1$ là\n\nA. $x=- \\dfrac{2}{3}$.\nB. $x=- \\dfrac{5}{3}$.\nC. $x=-5$.\nD. $x=-3$.",
+    "dap_an": "B. $x=- \\dfrac{5}{3}$.",
+    "loi_giai": "Điều kiện: $3x+10>0$. Ta có $\\log_{5}(3x+10)=1 \\Leftrightarrow 3x+10=5^{1}=5 \\Leftrightarrow x=- \\dfrac{5}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "3",
+      "c": "10",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(3x+12)=3$ là\n\nA. $x=-3$.\nB. $x=-4$.\nC. $x=- \\dfrac{4}{3}$.\nD. $x=-2$.",
+    "dap_an": "C. $x=- \\dfrac{4}{3}$.",
+    "loi_giai": "Điều kiện: $3x+12>0$. Ta có $\\log_{2}(3x+12)=3 \\Leftrightarrow 3x+12=2^{3}=8 \\Leftrightarrow x=- \\dfrac{4}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "3",
+      "c": "12",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x-12)=1$ là\n\nA. $x=6$.\nB. $x=18$.\nC. $x=\\dfrac{13}{3}$.\nD. $x=7$.",
+    "dap_an": "A. $x=6$.",
+    "loi_giai": "Điều kiện: $3x-12>0$. Ta có $\\log_{6}(3x-12)=1 \\Leftrightarrow 3x-12=6^{1}=6 \\Leftrightarrow x=6$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "-12",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(2x-5)=1$ là\n\nA. $x=\\dfrac{13}{2}$.\nB. $x=3$.\nC. $x=11$.\nD. $x=\\dfrac{11}{2}$.",
+    "dap_an": "D. $x=\\dfrac{11}{2}$.",
+    "loi_giai": "Điều kiện: $2x-5>0$. Ta có $\\log_{6}(2x-5)=1 \\Leftrightarrow 2x-5=6^{1}=6 \\Leftrightarrow x=\\dfrac{11}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "2",
+      "c": "-5",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x+7)=4$ là\n\nA. $x=74$.\nB. $x=- \\dfrac{3}{2}$.\nC. $x=\\dfrac{5}{2}$.\nD. $x=37$.",
+    "dap_an": "D. $x=37$.",
+    "loi_giai": "Điều kiện: $2x+7>0$. Ta có $\\log_{3}(2x+7)=4 \\Leftrightarrow 2x+7=3^{4}=81 \\Leftrightarrow x=37$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "7",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(2x-15)=2$ là\n\nA. $x=\\dfrac{21}{2}$.\nB. $x=19$.\nC. $x=\\dfrac{19}{2}$.\nD. $x=\\dfrac{17}{2}$.",
+    "dap_an": "C. $x=\\dfrac{19}{2}$.",
+    "loi_giai": "Điều kiện: $2x-15>0$. Ta có $\\log_{2}(2x-15)=2 \\Leftrightarrow 2x-15=2^{2}=4 \\Leftrightarrow x=\\dfrac{19}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "2",
+      "c": "-15",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x+5)=1$ là\n\nA. $x=-1$.\nB. $x=1$.\nC. $x=-4$.\nD. $x=0$.",
+    "dap_an": "A. $x=-1$.",
+    "loi_giai": "Điều kiện: $x+5>0$. Ta có $\\log_{4}(x+5)=1 \\Leftrightarrow x+5=4^{1}=4 \\Leftrightarrow x=-1$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "5",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(3x-9)=2$ là\n\nA. $x=18$.\nB. $x=6$.\nC. $x=\\dfrac{11}{3}$.\nD. $x=5$.",
+    "dap_an": "B. $x=6$.",
+    "loi_giai": "Điều kiện: $3x-9>0$. Ta có $\\log_{3}(3x-9)=2 \\Leftrightarrow 3x-9=3^{2}=9 \\Leftrightarrow x=6$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "3",
+      "c": "-9",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(3x+14)=2$ là\n\nA. $x=- \\dfrac{5}{3}$.\nB. $x=-5$.\nC. $x=-4$.\nD. $x=- \\dfrac{8}{3}$.",
+    "dap_an": "A. $x=- \\dfrac{5}{3}$.",
+    "loi_giai": "Điều kiện: $3x+14>0$. Ta có $\\log_{3}(3x+14)=2 \\Leftrightarrow 3x+14=3^{2}=9 \\Leftrightarrow x=- \\dfrac{5}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "3",
+      "c": "14",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x-14)=2$ là\n\nA. $x=16$.\nB. $x=24$.\nC. $x=39$.\nD. $x=40$.",
+    "dap_an": "C. $x=39$.",
+    "loi_giai": "Điều kiện: $x-14>0$. Ta có $\\log_{5}(x-14)=2 \\Leftrightarrow x-14=5^{2}=25 \\Leftrightarrow x=39$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "-14",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x+10)=2$ là\n\nA. $x=\\dfrac{26}{3}$.\nB. $x=- \\dfrac{8}{3}$.\nC. $x=\\dfrac{2}{3}$.\nD. $x=26$.",
+    "dap_an": "A. $x=\\dfrac{26}{3}$.",
+    "loi_giai": "Điều kiện: $3x+10>0$. Ta có $\\log_{6}(3x+10)=2 \\Leftrightarrow 3x+10=6^{2}=36 \\Leftrightarrow x=\\dfrac{26}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "10",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(3x+1)=1$ là\n\nA. $x=1$.\nB. $x=0$.\nC. $x=\\dfrac{1}{3}$.\nD. $x=\\dfrac{4}{3}$.",
+    "dap_an": "C. $x=\\dfrac{1}{3}$.",
+    "loi_giai": "Điều kiện: $3x+1>0$. Ta có $\\log_{2}(3x+1)=1 \\Leftrightarrow 3x+1=2^{1}=2 \\Leftrightarrow x=\\dfrac{1}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "3",
+      "c": "1",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(3x+13)=2$ là\n\nA. $x=3$.\nB. $x=1$.\nC. $x=- \\dfrac{11}{3}$.\nD. $x=- \\dfrac{5}{3}$.",
+    "dap_an": "B. $x=1$.",
+    "loi_giai": "Điều kiện: $3x+13>0$. Ta có $\\log_{4}(3x+13)=2 \\Leftrightarrow 3x+13=4^{2}=16 \\Leftrightarrow x=1$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "3",
+      "c": "13",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x)=2$ là\n\nA. $x=36$.\nB. $x=\\dfrac{2}{3}$.\nC. $x=4$.\nD. $x=12$.",
+    "dap_an": "D. $x=12$.",
+    "loi_giai": "Điều kiện: $3x>0$. Ta có $\\log_{6}(3x)=2 \\Leftrightarrow 3x=6^{2}=36 \\Leftrightarrow x=12$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "0",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x-14)=4$ là\n\nA. $x=18$.\nB. $x=30$.\nC. $x=22$.\nD. $x=31$.",
+    "dap_an": "B. $x=30$.",
+    "loi_giai": "Điều kiện: $x-14>0$. Ta có $\\log_{2}(x-14)=4 \\Leftrightarrow x-14=2^{4}=16 \\Leftrightarrow x=30$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "-14",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(3x+7)=1$ là\n\nA. $x=-1$.\nB. $x=\\dfrac{2}{3}$.\nC. $x=-2$.\nD. $x=- \\dfrac{1}{3}$.",
+    "dap_an": "D. $x=- \\dfrac{1}{3}$.",
+    "loi_giai": "Điều kiện: $3x+7>0$. Ta có $\\log_{6}(3x+7)=1 \\Leftrightarrow 3x+7=6^{1}=6 \\Leftrightarrow x=- \\dfrac{1}{3}$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "3",
+      "c": "7",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(2x+9)=2$ là\n\nA. $x=7$.\nB. $x=- \\dfrac{1}{2}$.\nC. $x=\\dfrac{7}{2}$.\nD. $x=- \\dfrac{7}{2}$.",
+    "dap_an": "C. $x=\\dfrac{7}{2}$.",
+    "loi_giai": "Điều kiện: $2x+9>0$. Ta có $\\log_{4}(2x+9)=2 \\Leftrightarrow 2x+9=4^{2}=16 \\Leftrightarrow x=\\dfrac{7}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "2",
+      "c": "9",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(x-12)=3$ là\n\nA. $x=33$.\nB. $x=356$.\nC. $x=15$.\nD. $x=355$.",
+    "dap_an": "D. $x=355$.",
+    "loi_giai": "Điều kiện: $x-12>0$. Ta có $\\log_{7}(x-12)=3 \\Leftrightarrow x-12=7^{3}=343 \\Leftrightarrow x=355$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "1",
+      "c": "-12",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(3x-14)=1$ là\n\nA. $x=21$.\nB. $x=7$.\nC. $x=5$.\nD. $x=8$.",
+    "dap_an": "B. $x=7$.",
+    "loi_giai": "Điều kiện: $3x-14>0$. Ta có $\\log_{7}(3x-14)=1 \\Leftrightarrow 3x-14=7^{1}=7 \\Leftrightarrow x=7$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "3",
+      "c": "-14",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(2x-8)=2$ là\n\nA. $x=8$.\nB. $x=5$.\nC. $x=12$.\nD. $x=24$.",
+    "dap_an": "C. $x=12$.",
+    "loi_giai": "Điều kiện: $2x-8>0$. Ta có $\\log_{4}(2x-8)=2 \\Leftrightarrow 2x-8=4^{2}=16 \\Leftrightarrow x=12$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "2",
+      "c": "-8",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(2x+5)=4$ là\n\nA. $x=2396$.\nB. $x=1198$.\nC. $x=- \\dfrac{1}{2}$.\nD. $x=\\dfrac{23}{2}$.",
+    "dap_an": "B. $x=1198$.",
+    "loi_giai": "Điều kiện: $2x+5>0$. Ta có $\\log_{7}(2x+5)=4 \\Leftrightarrow 2x+5=7^{4}=2401 \\Leftrightarrow x=1198$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "2",
+      "c": "5",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(3x+9)=3$ là\n\nA. $x=6$.\nB. $x=-2$.\nC. $x=18$.\nD. $x=0$.",
+    "dap_an": "A. $x=6$.",
+    "loi_giai": "Điều kiện: $3x+9>0$. Ta có $\\log_{3}(3x+9)=3 \\Leftrightarrow 3x+9=3^{3}=27 \\Leftrightarrow x=6$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "3",
+      "c": "9",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{7}(x-8)=3$ là\n\nA. $x=11$.\nB. $x=29$.\nC. $x=352$.\nD. $x=351$.",
+    "dap_an": "D. $x=351$.",
+    "loi_giai": "Điều kiện: $x-8>0$. Ta có $\\log_{7}(x-8)=3 \\Leftrightarrow x-8=7^{3}=343 \\Leftrightarrow x=351$ (thỏa điều kiện).",
+    "params": {
+      "a": "7",
+      "m": "1",
+      "c": "-8",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x)=2$ là\n\nA. $x=2$.\nB. $x=26$.\nC. $x=25$.\nD. $x=10$.",
+    "dap_an": "C. $x=25$.",
+    "loi_giai": "Điều kiện: $x>0$. Ta có $\\log_{5}(x)=2 \\Leftrightarrow x=5^{2}=25 \\Leftrightarrow x=25$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "0",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x-11)=2$ là\n\nA. $x=\\dfrac{17}{2}$.\nB. $x=20$.\nC. $x=\\dfrac{13}{2}$.\nD. $x=10$.",
+    "dap_an": "D. $x=10$.",
+    "loi_giai": "Điều kiện: $2x-11>0$. Ta có $\\log_{3}(2x-11)=2 \\Leftrightarrow 2x-11=3^{2}=9 \\Leftrightarrow x=10$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "-11",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(2x)=2$ là\n\nA. $x=25$.\nB. $x=\\dfrac{25}{2}$.\nC. $x=1$.\nD. $x=5$.",
+    "dap_an": "B. $x=\\dfrac{25}{2}$.",
+    "loi_giai": "Điều kiện: $2x>0$. Ta có $\\log_{5}(2x)=2 \\Leftrightarrow 2x=5^{2}=25 \\Leftrightarrow x=\\dfrac{25}{2}$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "2",
+      "c": "0",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x+9)=2$ là\n\nA. $x=7$.\nB. $x=8$.\nC. $x=-1$.\nD. $x=-7$.",
+    "dap_an": "A. $x=7$.",
+    "loi_giai": "Điều kiện: $x+9>0$. Ta có $\\log_{4}(x+9)=2 \\Leftrightarrow x+9=4^{2}=16 \\Leftrightarrow x=7$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "9",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(x-8)=3$ là\n\nA. $x=20$.\nB. $x=72$.\nC. $x=73$.\nD. $x=11$.",
+    "dap_an": "B. $x=72$.",
+    "loi_giai": "Điều kiện: $x-8>0$. Ta có $\\log_{4}(x-8)=3 \\Leftrightarrow x-8=4^{3}=64 \\Leftrightarrow x=72$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "1",
+      "c": "-8",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{6}(2x-14)=4$ là\n\nA. $x=655$.\nB. $x=19$.\nC. $x=1310$.\nD. $x=9$.",
+    "dap_an": "A. $x=655$.",
+    "loi_giai": "Điều kiện: $2x-14>0$. Ta có $\\log_{6}(2x-14)=4 \\Leftrightarrow 2x-14=6^{4}=1296 \\Leftrightarrow x=655$ (thỏa điều kiện).",
+    "params": {
+      "a": "6",
+      "m": "2",
+      "c": "-14",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(2x+3)=3$ là\n\nA. $x=0$.\nB. $x=24$.\nC. $x=12$.\nD. $x=3$.",
+    "dap_an": "C. $x=12$.",
+    "loi_giai": "Điều kiện: $2x+3>0$. Ta có $\\log_{3}(2x+3)=3 \\Leftrightarrow 2x+3=3^{3}=27 \\Leftrightarrow x=12$ (thỏa điều kiện).",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "3",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(3x+14)=3$ là\n\nA. $x=111$.\nB. $x=- \\dfrac{11}{3}$.\nC. $x=37$.\nD. $x=\\dfrac{1}{3}$.",
+    "dap_an": "C. $x=37$.",
+    "loi_giai": "Điều kiện: $3x+14>0$. Ta có $\\log_{5}(3x+14)=3 \\Leftrightarrow 3x+14=5^{3}=125 \\Leftrightarrow x=37$ (thỏa điều kiện).",
+    "params": {
+      "a": "5",
+      "m": "3",
+      "c": "14",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(2x+6)=3$ là\n\nA. $x=- \\dfrac{3}{2}$.\nB. $x=0$.\nC. $x=1$.\nD. $x=2$.",
+    "dap_an": "C. $x=1$.",
+    "loi_giai": "Điều kiện: $2x+6>0$. Ta có $\\log_{2}(2x+6)=3 \\Leftrightarrow 2x+6=2^{3}=8 \\Leftrightarrow x=1$ (thỏa điều kiện).",
+    "params": {
+      "a": "2",
+      "m": "2",
+      "c": "6",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x+6)=1$ là\n\nA. $x=-2$.\nB. $x=-5$.\nC. $x=-4$.\nD. $x=-3$.",
+    "dap_an": "C. $x=-4$.",
+    "loi_giai": "Điều kiện: $x+6>0$. Ta có $\\log_{2}(x+6)=1 \\Leftrightarrow x+6=2^{1}=2 \\Leftrightarrow x=-4$ (thỏa điều kiện).",
     "params": {
       "a": "2",
       "m": "1",
       "c": "6",
-      "k": "4"
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q12",
+    "ma_dang": "D01",
+    "ten_dang": "Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{4}(2x+12)=1$ là\n\nA. $x=-3$.\nB. $x=-4$.\nC. $x=- \\dfrac{11}{2}$.\nD. $x=-8$.",
+    "dap_an": "B. $x=-4$.",
+    "loi_giai": "Điều kiện: $2x+12>0$. Ta có $\\log_{4}(2x+12)=1 \\Leftrightarrow 2x+12=4^{1}=4 \\Leftrightarrow x=-4$ (thỏa điều kiện).",
+    "params": {
+      "a": "4",
+      "m": "2",
+      "c": "12",
+      "k": "1"
     }
   }
 ]
