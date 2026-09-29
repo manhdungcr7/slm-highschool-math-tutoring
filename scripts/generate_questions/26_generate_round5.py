@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """Round 5: D22, D24, D39, D75, D93."""
 import json
+import random
+import re
 import math
 import sys
 from importlib import import_module
@@ -264,6 +266,42 @@ def verify_D93_full(params, expected_count):
     return count == expected_count
 
 
+def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=3000):
+    rng = random.Random(seed)
+    current = [row for row in ROWS if row["ma_dang"] == code]
+    seen = {tuple(sorted(row["params"].items())) for row in current}
+    questions = {row["de_bai"] for row in current}
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        try:
+            q, ans, sol, params = gen(*sampler(rng))
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen or q in questions:
+            continue
+        opts = re.findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [re.sub(r"[\s$.,]", "", v) for _, v in opts]
+        if len(opts) != 4 or {k for k,_ in opts} != set("ABCD") or len(set(norm)) != 4:
+            continue
+        try:
+            m = re.search(r"\$\s*(-?\d+)\s*\$", ans)
+            if m:
+                valid = verify(params, int(m.group(1)))
+            else:
+                valid = verify(params)
+            if not valid:
+                continue
+        except Exception:
+            continue
+        add_row(code, name, source_id, q, ans, sol, params)
+        seen.add(key); questions.add(q); made += 1
+    print(f"{code}: {made}/{target}")
+    return made
+
+
 def main():
     fails = []
     for C_num, is_sqrt in [(3, True), (5, True), (2, True), (7, True), (3, False), (5, False), (10, False)]:
@@ -314,6 +352,19 @@ def main():
                             "bất phương trình tích", "p242_q39", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D93", params))
+
+    expand_type("D22", "Evaluate a logarithmic expression from a given logarithm", "p038_q33",
+                gen_D22, verify_D22, lambda r: (r.randint(3, 250), r.choice((True, False))), seed=2201)
+    expand_type("D24", "Differentiate a logarithmic function identity", "p041_q40",
+                gen_D24, verify_D24, lambda r: (r.randint(1, 500),), seed=2401)
+    expand_type("D39", "Find a ratio from three equal logarithms", "p087_q41",
+                lambda p, q, c: gen_D39(p, q, c, True), verify_D39,
+                lambda r: (lambda p, q: (p, (p % 30 + 1) if q == p else q, r.randint(1, 30)))(r.randint(1, 30), r.randint(1, 30)), seed=3901)
+    expand_type("D75", "Count integer parameters giving exactly two roots", "p186_q47",
+                gen_D75, verify_D75_full, lambda r: (r.randint(2, 20), r.randint(2, 20)), seed=7501)
+    expand_type("D93", "Count integer parameters meeting an exponential product inequality", "p242_q39",
+                gen_D93, verify_D93_full,
+                lambda r: (r.randint(2, 8), r.randint(2, 8), r.randint(2, 80)), seed=9301)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round5.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
