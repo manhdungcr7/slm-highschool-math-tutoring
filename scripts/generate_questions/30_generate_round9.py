@@ -18,11 +18,14 @@ TYPE_NAME = "Đếm số nguyên một biến sao cho tồn tại biến kia th�
 
 def gen_D84(U):
     U = int(U)
-    assert 3 <= U <= 7 and U != 4
+    assert 3 <= U <= 50 and U != 4
     C = 3 * U
-    # h(y)=y-log_3(1+y/3) is increasing. For 3<=U<=7,
-    # h(3U)<3U-1<h(3U+1), so positive solutions are y=1,...,3U.
-    positive_count = 3 * U
+    # h(y)=y-log_3(1+y/3) is strictly increasing for y>=1. Count
+    # positive integer y by the endpoint condition h(y)<3U-1.
+    positive_count = sum(
+        1 for y in range(1, 4 * U + 1)
+        if y - mp.log(1 + mp.mpf(y) / 3, 3) < C - 1
+    )
     count = positive_count + 2  # y=-1,-2 work; y=0 does not.
     choices = [str(count), str(count + 1), str(count - 1), str(count + 2)]
     choice_lines, answer = render_mc(choices, 0)
@@ -42,9 +45,10 @@ def gen_D84(U):
         "$\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm "
         f"trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là "
         f"$h(y)=y-\\log_3(1+y/3)<{C-1}$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. "
-        f"Với $U\\in\\{{3,5,6,7\\}}$, ta có $h(3U)<3U-1$ và "
-        f"$h(3U+1)>3U-1$; vì vậy các giá trị nguyên dương phù hợp là "
-        f"$y=1,\\ldots,{3*U}$, gồm ${positive_count}$ giá trị.\n\n"
+        f"V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng "
+        f"th?a m?n l? $y=1,\\ldots,{positive_count}$, g?m "
+        f"${positive_count}$ gi? tr?.\n\n"
+        f"giving ${positive_count}$ values.\n\n"
         "Nếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. "
         "Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ "
         f"hoặc $x={U}$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, "
@@ -52,16 +56,16 @@ def gen_D84(U):
         f"{C})x}}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; "
         "khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị "
         "dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều "
-        f"cho một nghiệm. Tổng cộng có $3U+2={count}$ giá trị nguyên của $y$."
+        f"cho một nghiệm. Tổng cộng có $${count}$ giá trị nguyên của $y$."
     )
     return question, answer, solution, {"U": U, "C": C, "count": count}
 
 
 def verify_D84(params):
-    """Enumerate endpoint sign conditions at high precision, independently of 3U+2."""
+    """Enumerate endpoint sign conditions at high precision, by direct high-precision endpoint enumeration."""
     mp.mp.dps = 80
     U, C, expected = (int(params[k]) for k in ("U", "C", "count"))
-    if C != 3 * U or not (3 <= U <= 7 and U != 4):
+    if C != 3 * U or not (3 <= U <= 50 and U != 4):
         return False
     left = mp.mpf(1) / 3
     log27 = mp.log(27)
@@ -71,9 +75,9 @@ def verify_D84(params):
 
     # The proof gives strict monotonicity in x and in the endpoint threshold h(y).
     # Check the whole finite transition region independently by high-precision signs.
-    if not (g(left, 1) < 0 and g(left, C+1) > 0 and g(U, 1) > 0):
+    if not (g(left, 1) < 0 and g(left, 4*U) > 0 and g(U, 1) > 0):
         return False
-    positive_y = [y for y in range(1, C+2) if g(left, y) < 0 < g(U, y)]
+    positive_y = [y for y in range(1, 4*U+1) if g(left, y) < 0 < g(U, y)]
 
     # Test y=-1,-2 using signs of the original equation after division by 27^(C*x).
     negative_y = []
@@ -103,7 +107,9 @@ def audit_choices(rows):
 
 def main():
     rows = []
-    for U in (3, 5, 6, 7):
+    for U in range(3, 51):
+        if U == 4:
+            continue
         question, answer, solution, params = gen_D84(U)
         if not verify_D84(params):
             raise AssertionError(f"Independent check failed: {params}")

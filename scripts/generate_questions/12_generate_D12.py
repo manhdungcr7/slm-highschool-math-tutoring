@@ -6,6 +6,7 @@ Cong thuc: a^(m*x + c) = N (voi N = a^k)  =>  x = (k - c) / m
 """
 import json
 import random
+import re
 import sys
 from importlib import import_module
 
@@ -102,9 +103,27 @@ def gen_variants(id_goc, seed_base):
 
 
 if __name__ == "__main__":
-    all_rows = []
-    for i, id_goc in enumerate(SOURCE_IDS):
-        all_rows.extend(gen_variants(id_goc, seed_base=2000 + i))
-    print("Tong so bien the D12:", len(all_rows))
+    verifier = import_module("20_verify_pilot")
+    random.seed(1201)
+    all_rows, seen_params, seen_questions = [], set(), set()
+    attempts = 0
+    while len(all_rows) < 90 and attempts < 500:
+        source_id = SOURCE_IDS[attempts % len(SOURCE_IDS)]
+        for row in gen_variants(source_id, seed_base=2000 + attempts):
+            key = tuple(sorted(row["params"].items()))
+            if key in seen_params or row["de_bai"] in seen_questions:
+                continue
+            ok, note = verifier.verify_D12(row["params"], row["dap_an"])
+            if not ok:
+                raise AssertionError(f"D12 independent verification failed: {row['params']} {note}")
+            choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", row["de_bai"])
+            normalized = [re.sub(r"[\s$.,]", "", text) for _, text in choices]
+            if len(choices) != 4 or {c for c, _ in choices} != set("ABCD") or len(set(normalized)) != 4:
+                continue
+            seen_params.add(key); seen_questions.add(row["de_bai"]); all_rows.append(row)
+            if len(all_rows) == 90:
+                break
+        attempts += 1
+    print(f"D12: {len(all_rows)}/90 variants; attempts={attempts}")
     with open("data/questions/mu_logarit_extraction/bien_the/D12_bien_the.json", "w", encoding="utf-8") as f:
         json.dump(all_rows, f, ensure_ascii=False, indent=2)

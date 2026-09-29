@@ -6,6 +6,7 @@ Cong thuc: y=log_a(x) => y' = 1/(x ln a)
 """
 import json
 import random
+import re
 import sys
 from importlib import import_module
 
@@ -91,9 +92,24 @@ def gen_variants(id_goc, seed_base):
 
 
 if __name__ == "__main__":
+    verifier = import_module("20_verify_pilot")
+    random.seed(1801)
     all_rows = []
-    for i, id_goc in enumerate(SOURCE_IDS):
-        all_rows.extend(gen_variants(id_goc, seed_base=3000 + i))
-    print("Tong so bien the D18:", len(all_rows))
+    for a in range(2, 92):
+        id_goc = SOURCE_IDS[(a - 2) % len(SOURCE_IDS)]
+        de_bai, dap_an, loi_giai, params = mau_D18(a)
+        row = {"id_goc": id_goc, "ma_dang": MA_DANG, "ten_dang": TEN_DANG,
+               "nguon": "Nh??n b???n", "loai_bien_the": "co_so_nguyen",
+               "de_bai": de_bai, "dap_an": dap_an, "loi_giai": loi_giai, "params": params}
+        ok, note = verifier.verify_D18(params, dap_an)
+        if not ok:
+            raise AssertionError(f"D18 independent verification failed: {params} {note}")
+        choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", de_bai)
+        normalized = [re.sub(r"[\s$.,]", "", text) for _, text in choices]
+        if len(choices) != 4 or {c for c, _ in choices} != set("ABCD") or len(set(normalized)) != 4:
+            raise AssertionError(f"D18 answer-choice collision at {params}")
+        all_rows.append(row)
+    assert len({r["de_bai"] for r in all_rows}) == 90
+    print(f"D18: {len(all_rows)}/90 variants; integer base a=2..91")
     with open("data/questions/mu_logarit_extraction/bien_the/D18_bien_the.json", "w", encoding="utf-8") as f:
         json.dump(all_rows, f, ensure_ascii=False, indent=2)

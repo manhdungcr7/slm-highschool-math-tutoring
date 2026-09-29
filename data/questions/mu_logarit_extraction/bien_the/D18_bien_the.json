@@ -3,36 +3,36 @@
     "id_goc": "p031_q02",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_nho",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{2} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 2}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 2}{x}$.\nD. $y'=\\dfrac{1}{2x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 2}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{2} x$ là\n\nA. $y'=\\dfrac{1}{2x}$.\nB. $y'=\\dfrac{\\ln 2}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 2}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 2}$.",
     "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=2$, ta có $y'=\\dfrac{1}{x\\ln 2}$.",
     "params": {
       "a": "2"
     }
   },
   {
-    "id_goc": "p031_q02",
+    "id_goc": "p111_q22",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_nho",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{3} x$ là\n\nA. $y'=\\dfrac{1}{3x}$.\nB. $y'=\\dfrac{\\ln 3}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 3}$.\nD. $y'=\\dfrac{1}{x}$.",
-    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 3}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{3} x$ là\n\nA. $y'=\\dfrac{1}{3x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 3}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 3}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 3}$.",
     "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=3$, ta có $y'=\\dfrac{1}{x\\ln 3}$.",
     "params": {
       "a": "3"
     }
   },
   {
-    "id_goc": "p031_q02",
+    "id_goc": "p121_q02",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_trung_binh",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{4} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 4}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{4x}$.\nD. $y'=\\dfrac{\\ln 4}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 4}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{4} x$ là\n\nA. $y'=\\dfrac{1}{4x}$.\nB. $y'=\\dfrac{\\ln 4}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 4}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 4}$.",
     "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=4$, ta có $y'=\\dfrac{1}{x\\ln 4}$.",
     "params": {
       "a": "4"
@@ -42,88 +42,10 @@
     "id_goc": "p031_q02",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_trung_binh",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{6} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 6}$.\nB. $y'=\\dfrac{1}{6x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 6}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 6}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=6$, ta có $y'=\\dfrac{1}{x\\ln 6}$.",
-    "params": {
-      "a": "6"
-    }
-  },
-  {
-    "id_goc": "p031_q02",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_lon",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=log x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 10}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{10x}$.\nD. $y'=\\dfrac{\\ln 10}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 10}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=10$, ta có $y'=\\dfrac{1}{x\\ln 10}$.",
-    "params": {
-      "a": "10"
-    }
-  },
-  {
-    "id_goc": "p031_q02",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_lon",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{9} x$ là\n\nA. $y'=\\dfrac{1}{9x}$.\nB. $y'=\\dfrac{1}{x\\ln 9}$.\nC. $y'=\\dfrac{\\ln 9}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
-    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 9}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=9$, ta có $y'=\\dfrac{1}{x\\ln 9}$.",
-    "params": {
-      "a": "9"
-    }
-  },
-  {
-    "id_goc": "p111_q22",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_nho",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{3} x$ là\n\nA. $y'=\\dfrac{1}{3x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 3}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 3}$.",
-    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 3}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=3$, ta có $y'=\\dfrac{1}{x\\ln 3}$.",
-    "params": {
-      "a": "3"
-    }
-  },
-  {
-    "id_goc": "p111_q22",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_nho",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{2} x$ là\n\nA. $y'=\\dfrac{\\ln 2}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 2}$.\nC. $y'=\\dfrac{1}{2x}$.\nD. $y'=\\dfrac{1}{x}$.",
-    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 2}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=2$, ta có $y'=\\dfrac{1}{x\\ln 2}$.",
-    "params": {
-      "a": "2"
-    }
-  },
-  {
-    "id_goc": "p111_q22",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_trung_binh",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{6} x$ là\n\nA. $y'=\\dfrac{1}{6x}$.\nB. $y'=\\dfrac{1}{x\\ln 6}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 6}{x}$.",
-    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 6}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=6$, ta có $y'=\\dfrac{1}{x\\ln 6}$.",
-    "params": {
-      "a": "6"
-    }
-  },
-  {
-    "id_goc": "p111_q22",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_trung_binh",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{5} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 5}$.\nB. $y'=\\dfrac{\\ln 5}{x}$.\nC. $y'=\\dfrac{1}{5x}$.\nD. $y'=\\dfrac{1}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 5}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{5} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 5}$.\nC. $y'=\\dfrac{1}{5x}$.\nD. $y'=\\dfrac{\\ln 5}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 5}$.",
     "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=5$, ta có $y'=\\dfrac{1}{x\\ln 5}$.",
     "params": {
       "a": "5"
@@ -133,87 +55,74 @@
     "id_goc": "p111_q22",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_lon",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=log x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 10}$.\nB. $y'=\\dfrac{1}{10x}$.\nC. $y'=\\dfrac{\\ln 10}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 10}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=10$, ta có $y'=\\dfrac{1}{x\\ln 10}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{6} x$ là\n\nA. $y'=\\dfrac{\\ln 6}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{6x}$.\nD. $y'=\\dfrac{1}{x\\ln 6}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 6}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=6$, ta có $y'=\\dfrac{1}{x\\ln 6}$.",
     "params": {
-      "a": "10"
-    }
-  },
-  {
-    "id_goc": "p111_q22",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_lon",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{11} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 11}$.\nB. $y'=\\dfrac{\\ln 11}{x}$.\nC. $y'=\\dfrac{1}{11x}$.\nD. $y'=\\dfrac{1}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 11}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=11$, ta có $y'=\\dfrac{1}{x\\ln 11}$.",
-    "params": {
-      "a": "11"
+      "a": "6"
     }
   },
   {
     "id_goc": "p121_q02",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_nho",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{2} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 2}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 2}{x}$.\nD. $y'=\\dfrac{1}{2x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 2}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=2$, ta có $y'=\\dfrac{1}{x\\ln 2}$.",
-    "params": {
-      "a": "2"
-    }
-  },
-  {
-    "id_goc": "p121_q02",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_nho",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{3} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 3}$.\nB. $y'=\\dfrac{1}{3x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 3}{x}$.",
-    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 3}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=3$, ta có $y'=\\dfrac{1}{x\\ln 3}$.",
-    "params": {
-      "a": "3"
-    }
-  },
-  {
-    "id_goc": "p121_q02",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_trung_binh",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{4} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 4}$.\nC. $y'=\\dfrac{\\ln 4}{x}$.\nD. $y'=\\dfrac{1}{4x}$.",
-    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 4}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=4$, ta có $y'=\\dfrac{1}{x\\ln 4}$.",
-    "params": {
-      "a": "4"
-    }
-  },
-  {
-    "id_goc": "p121_q02",
-    "ma_dang": "D18",
-    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_trung_binh",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{7} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{7x}$.\nC. $y'=\\dfrac{1}{x\\ln 7}$.\nD. $y'=\\dfrac{\\ln 7}{x}$.",
-    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 7}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{7} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 7}$.\nB. $y'=\\dfrac{1}{7x}$.\nC. $y'=\\dfrac{\\ln 7}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 7}$.",
     "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=7$, ta có $y'=\\dfrac{1}{x\\ln 7}$.",
     "params": {
       "a": "7"
     }
   },
   {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{8} x$ là\n\nA. $y'=\\dfrac{\\ln 8}{x}$.\nB. $y'=\\dfrac{1}{8x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 8}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 8}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=8$, ta có $y'=\\dfrac{1}{x\\ln 8}$.",
+    "params": {
+      "a": "8"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{9} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{9x}$.\nC. $y'=\\dfrac{\\ln 9}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 9}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 9}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=9$, ta có $y'=\\dfrac{1}{x\\ln 9}$.",
+    "params": {
+      "a": "9"
+    }
+  },
+  {
     "id_goc": "p121_q02",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_lon",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{11} x$ là\n\nA. $y'=\\dfrac{1}{11x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 11}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 11}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=log x$ là\n\nA. $y'=\\dfrac{\\ln 10}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 10}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{10x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 10}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=10$, ta có $y'=\\dfrac{1}{x\\ln 10}$.",
+    "params": {
+      "a": "10"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{11} x$ là\n\nA. $y'=\\dfrac{\\ln 11}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{11x}$.\nD. $y'=\\dfrac{1}{x\\ln 11}$.",
     "dap_an": "D. $y'=\\dfrac{1}{x\\ln 11}$.",
     "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=11$, ta có $y'=\\dfrac{1}{x\\ln 11}$.",
     "params": {
@@ -221,16 +130,1043 @@
     }
   },
   {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{12} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{\\ln 12}{x}$.\nC. $y'=\\dfrac{1}{12x}$.\nD. $y'=\\dfrac{1}{x\\ln 12}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 12}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=12$, ta có $y'=\\dfrac{1}{x\\ln 12}$.",
+    "params": {
+      "a": "12"
+    }
+  },
+  {
     "id_goc": "p121_q02",
     "ma_dang": "D18",
     "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "co_so_lon",
-    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{8} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{8x}$.\nC. $y'=\\dfrac{1}{x\\ln 8}$.\nD. $y'=\\dfrac{\\ln 8}{x}$.",
-    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 8}$.",
-    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=8$, ta có $y'=\\dfrac{1}{x\\ln 8}$.",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{13} x$ là\n\nA. $y'=\\dfrac{\\ln 13}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 13}$.\nC. $y'=\\dfrac{1}{13x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 13}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=13$, ta có $y'=\\dfrac{1}{x\\ln 13}$.",
     "params": {
-      "a": "8"
+      "a": "13"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{14} x$ là\n\nA. $y'=\\dfrac{\\ln 14}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 14}$.\nD. $y'=\\dfrac{1}{14x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 14}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=14$, ta có $y'=\\dfrac{1}{x\\ln 14}$.",
+    "params": {
+      "a": "14"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{15} x$ là\n\nA. $y'=\\dfrac{\\ln 15}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 15}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{15x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 15}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=15$, ta có $y'=\\dfrac{1}{x\\ln 15}$.",
+    "params": {
+      "a": "15"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{16} x$ là\n\nA. $y'=\\dfrac{\\ln 16}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 16}$.\nD. $y'=\\dfrac{1}{16x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 16}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=16$, ta có $y'=\\dfrac{1}{x\\ln 16}$.",
+    "params": {
+      "a": "16"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{17} x$ là\n\nA. $y'=\\dfrac{1}{17x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 17}$.\nD. $y'=\\dfrac{\\ln 17}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 17}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=17$, ta có $y'=\\dfrac{1}{x\\ln 17}$.",
+    "params": {
+      "a": "17"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{18} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{\\ln 18}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 18}$.\nD. $y'=\\dfrac{1}{18x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 18}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=18$, ta có $y'=\\dfrac{1}{x\\ln 18}$.",
+    "params": {
+      "a": "18"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{19} x$ là\n\nA. $y'=\\dfrac{\\ln 19}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{19x}$.\nD. $y'=\\dfrac{1}{x\\ln 19}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 19}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=19$, ta có $y'=\\dfrac{1}{x\\ln 19}$.",
+    "params": {
+      "a": "19"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{20} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{20x}$.\nC. $y'=\\dfrac{1}{x\\ln 20}$.\nD. $y'=\\dfrac{\\ln 20}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 20}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=20$, ta có $y'=\\dfrac{1}{x\\ln 20}$.",
+    "params": {
+      "a": "20"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{21} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 21}$.\nB. $y'=\\dfrac{1}{21x}$.\nC. $y'=\\dfrac{\\ln 21}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 21}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=21$, ta có $y'=\\dfrac{1}{x\\ln 21}$.",
+    "params": {
+      "a": "21"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{22} x$ là\n\nA. $y'=\\dfrac{1}{22x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 22}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 22}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 22}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=22$, ta có $y'=\\dfrac{1}{x\\ln 22}$.",
+    "params": {
+      "a": "22"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{23} x$ là\n\nA. $y'=\\dfrac{\\ln 23}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 23}$.\nC. $y'=\\dfrac{1}{23x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 23}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=23$, ta có $y'=\\dfrac{1}{x\\ln 23}$.",
+    "params": {
+      "a": "23"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{24} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{\\ln 24}{x}$.\nC. $y'=\\dfrac{1}{24x}$.\nD. $y'=\\dfrac{1}{x\\ln 24}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 24}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=24$, ta có $y'=\\dfrac{1}{x\\ln 24}$.",
+    "params": {
+      "a": "24"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{25} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 25}$.\nB. $y'=\\dfrac{\\ln 25}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{25x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 25}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=25$, ta có $y'=\\dfrac{1}{x\\ln 25}$.",
+    "params": {
+      "a": "25"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{26} x$ là\n\nA. $y'=\\dfrac{1}{26x}$.\nB. $y'=\\dfrac{\\ln 26}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 26}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 26}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=26$, ta có $y'=\\dfrac{1}{x\\ln 26}$.",
+    "params": {
+      "a": "26"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{27} x$ là\n\nA. $y'=\\dfrac{1}{27x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 27}$.\nD. $y'=\\dfrac{\\ln 27}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 27}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=27$, ta có $y'=\\dfrac{1}{x\\ln 27}$.",
+    "params": {
+      "a": "27"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{28} x$ là\n\nA. $y'=\\dfrac{\\ln 28}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 28}$.\nD. $y'=\\dfrac{1}{28x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 28}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=28$, ta có $y'=\\dfrac{1}{x\\ln 28}$.",
+    "params": {
+      "a": "28"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{29} x$ là\n\nA. $y'=\\dfrac{1}{29x}$.\nB. $y'=\\dfrac{1}{x\\ln 29}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 29}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 29}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=29$, ta có $y'=\\dfrac{1}{x\\ln 29}$.",
+    "params": {
+      "a": "29"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{30} x$ là\n\nA. $y'=\\dfrac{\\ln 30}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 30}$.\nC. $y'=\\dfrac{1}{30x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 30}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=30$, ta có $y'=\\dfrac{1}{x\\ln 30}$.",
+    "params": {
+      "a": "30"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{31} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 31}$.\nB. $y'=\\dfrac{\\ln 31}{x}$.\nC. $y'=\\dfrac{1}{31x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 31}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=31$, ta có $y'=\\dfrac{1}{x\\ln 31}$.",
+    "params": {
+      "a": "31"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{32} x$ là\n\nA. $y'=\\dfrac{1}{32x}$.\nB. $y'=\\dfrac{\\ln 32}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 32}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 32}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=32$, ta có $y'=\\dfrac{1}{x\\ln 32}$.",
+    "params": {
+      "a": "32"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{33} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 33}$.\nC. $y'=\\dfrac{\\ln 33}{x}$.\nD. $y'=\\dfrac{1}{33x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 33}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=33$, ta có $y'=\\dfrac{1}{x\\ln 33}$.",
+    "params": {
+      "a": "33"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{34} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{34x}$.\nC. $y'=\\dfrac{1}{x\\ln 34}$.\nD. $y'=\\dfrac{\\ln 34}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 34}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=34$, ta có $y'=\\dfrac{1}{x\\ln 34}$.",
+    "params": {
+      "a": "34"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{35} x$ là\n\nA. $y'=\\dfrac{1}{35x}$.\nB. $y'=\\dfrac{\\ln 35}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 35}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 35}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=35$, ta có $y'=\\dfrac{1}{x\\ln 35}$.",
+    "params": {
+      "a": "35"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{36} x$ là\n\nA. $y'=\\dfrac{1}{36x}$.\nB. $y'=\\dfrac{\\ln 36}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 36}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 36}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=36$, ta có $y'=\\dfrac{1}{x\\ln 36}$.",
+    "params": {
+      "a": "36"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{37} x$ là\n\nA. $y'=\\dfrac{1}{37x}$.\nB. $y'=\\dfrac{1}{x\\ln 37}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 37}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 37}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=37$, ta có $y'=\\dfrac{1}{x\\ln 37}$.",
+    "params": {
+      "a": "37"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{38} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 38}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{38x}$.\nD. $y'=\\dfrac{\\ln 38}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 38}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=38$, ta có $y'=\\dfrac{1}{x\\ln 38}$.",
+    "params": {
+      "a": "38"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{39} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 39}$.\nB. $y'=\\dfrac{1}{39x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 39}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 39}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=39$, ta có $y'=\\dfrac{1}{x\\ln 39}$.",
+    "params": {
+      "a": "39"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{40} x$ là\n\nA. $y'=\\dfrac{\\ln 40}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{40x}$.\nD. $y'=\\dfrac{1}{x\\ln 40}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 40}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=40$, ta có $y'=\\dfrac{1}{x\\ln 40}$.",
+    "params": {
+      "a": "40"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{41} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 41}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 41}{x}$.\nD. $y'=\\dfrac{1}{41x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 41}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=41$, ta có $y'=\\dfrac{1}{x\\ln 41}$.",
+    "params": {
+      "a": "41"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{42} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{42x}$.\nC. $y'=\\dfrac{\\ln 42}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 42}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 42}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=42$, ta có $y'=\\dfrac{1}{x\\ln 42}$.",
+    "params": {
+      "a": "42"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{43} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{43x}$.\nC. $y'=\\dfrac{\\ln 43}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 43}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 43}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=43$, ta có $y'=\\dfrac{1}{x\\ln 43}$.",
+    "params": {
+      "a": "43"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{44} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 44}$.\nB. $y'=\\dfrac{1}{44x}$.\nC. $y'=\\dfrac{\\ln 44}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 44}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=44$, ta có $y'=\\dfrac{1}{x\\ln 44}$.",
+    "params": {
+      "a": "44"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{45} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 45}$.\nC. $y'=\\dfrac{1}{45x}$.\nD. $y'=\\dfrac{\\ln 45}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 45}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=45$, ta có $y'=\\dfrac{1}{x\\ln 45}$.",
+    "params": {
+      "a": "45"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{46} x$ là\n\nA. $y'=\\dfrac{1}{46x}$.\nB. $y'=\\dfrac{1}{x\\ln 46}$.\nC. $y'=\\dfrac{\\ln 46}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 46}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=46$, ta có $y'=\\dfrac{1}{x\\ln 46}$.",
+    "params": {
+      "a": "46"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{47} x$ là\n\nA. $y'=\\dfrac{\\ln 47}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 47}$.\nC. $y'=\\dfrac{1}{47x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 47}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=47$, ta có $y'=\\dfrac{1}{x\\ln 47}$.",
+    "params": {
+      "a": "47"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{48} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 48}$.\nB. $y'=\\dfrac{\\ln 48}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{48x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 48}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=48$, ta có $y'=\\dfrac{1}{x\\ln 48}$.",
+    "params": {
+      "a": "48"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{49} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{\\ln 49}{x}$.\nC. $y'=\\dfrac{1}{49x}$.\nD. $y'=\\dfrac{1}{x\\ln 49}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 49}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=49$, ta có $y'=\\dfrac{1}{x\\ln 49}$.",
+    "params": {
+      "a": "49"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{50} x$ là\n\nA. $y'=\\dfrac{\\ln 50}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 50}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{50x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 50}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=50$, ta có $y'=\\dfrac{1}{x\\ln 50}$.",
+    "params": {
+      "a": "50"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{51} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{51x}$.\nC. $y'=\\dfrac{\\ln 51}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 51}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 51}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=51$, ta có $y'=\\dfrac{1}{x\\ln 51}$.",
+    "params": {
+      "a": "51"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{52} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 52}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{52x}$.\nD. $y'=\\dfrac{\\ln 52}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 52}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=52$, ta có $y'=\\dfrac{1}{x\\ln 52}$.",
+    "params": {
+      "a": "52"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{53} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{\\ln 53}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 53}$.\nD. $y'=\\dfrac{1}{53x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 53}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=53$, ta có $y'=\\dfrac{1}{x\\ln 53}$.",
+    "params": {
+      "a": "53"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{54} x$ là\n\nA. $y'=\\dfrac{\\ln 54}{x}$.\nB. $y'=\\dfrac{1}{54x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 54}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 54}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=54$, ta có $y'=\\dfrac{1}{x\\ln 54}$.",
+    "params": {
+      "a": "54"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{55} x$ là\n\nA. $y'=\\dfrac{\\ln 55}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{55x}$.\nD. $y'=\\dfrac{1}{x\\ln 55}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 55}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=55$, ta có $y'=\\dfrac{1}{x\\ln 55}$.",
+    "params": {
+      "a": "55"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{56} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 56}$.\nB. $y'=\\dfrac{1}{56x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 56}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 56}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=56$, ta có $y'=\\dfrac{1}{x\\ln 56}$.",
+    "params": {
+      "a": "56"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{57} x$ là\n\nA. $y'=\\dfrac{1}{57x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 57}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 57}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 57}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=57$, ta có $y'=\\dfrac{1}{x\\ln 57}$.",
+    "params": {
+      "a": "57"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{58} x$ là\n\nA. $y'=\\dfrac{1}{58x}$.\nB. $y'=\\dfrac{1}{x\\ln 58}$.\nC. $y'=\\dfrac{\\ln 58}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 58}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=58$, ta có $y'=\\dfrac{1}{x\\ln 58}$.",
+    "params": {
+      "a": "58"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{59} x$ là\n\nA. $y'=\\dfrac{\\ln 59}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 59}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{59x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 59}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=59$, ta có $y'=\\dfrac{1}{x\\ln 59}$.",
+    "params": {
+      "a": "59"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{60} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{60x}$.\nC. $y'=\\dfrac{\\ln 60}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 60}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 60}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=60$, ta có $y'=\\dfrac{1}{x\\ln 60}$.",
+    "params": {
+      "a": "60"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{61} x$ là\n\nA. $y'=\\dfrac{1}{61x}$.\nB. $y'=\\dfrac{1}{x\\ln 61}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 61}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 61}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=61$, ta có $y'=\\dfrac{1}{x\\ln 61}$.",
+    "params": {
+      "a": "61"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{62} x$ là\n\nA. $y'=\\dfrac{\\ln 62}{x}$.\nB. $y'=\\dfrac{1}{62x}$.\nC. $y'=\\dfrac{1}{x\\ln 62}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 62}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=62$, ta có $y'=\\dfrac{1}{x\\ln 62}$.",
+    "params": {
+      "a": "62"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{63} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{63x}$.\nC. $y'=\\dfrac{1}{x\\ln 63}$.\nD. $y'=\\dfrac{\\ln 63}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 63}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=63$, ta có $y'=\\dfrac{1}{x\\ln 63}$.",
+    "params": {
+      "a": "63"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{64} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{64x}$.\nC. $y'=\\dfrac{\\ln 64}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 64}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 64}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=64$, ta có $y'=\\dfrac{1}{x\\ln 64}$.",
+    "params": {
+      "a": "64"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{65} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{65x}$.\nC. $y'=\\dfrac{1}{x\\ln 65}$.\nD. $y'=\\dfrac{\\ln 65}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 65}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=65$, ta có $y'=\\dfrac{1}{x\\ln 65}$.",
+    "params": {
+      "a": "65"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{66} x$ là\n\nA. $y'=\\dfrac{1}{66x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 66}$.\nD. $y'=\\dfrac{\\ln 66}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 66}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=66$, ta có $y'=\\dfrac{1}{x\\ln 66}$.",
+    "params": {
+      "a": "66"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{67} x$ là\n\nA. $y'=\\dfrac{1}{67x}$.\nB. $y'=\\dfrac{\\ln 67}{x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 67}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 67}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=67$, ta có $y'=\\dfrac{1}{x\\ln 67}$.",
+    "params": {
+      "a": "67"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{68} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{68x}$.\nC. $y'=\\dfrac{\\ln 68}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 68}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 68}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=68$, ta có $y'=\\dfrac{1}{x\\ln 68}$.",
+    "params": {
+      "a": "68"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{69} x$ là\n\nA. $y'=\\dfrac{1}{69x}$.\nB. $y'=\\dfrac{1}{x\\ln 69}$.\nC. $y'=\\dfrac{\\ln 69}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 69}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=69$, ta có $y'=\\dfrac{1}{x\\ln 69}$.",
+    "params": {
+      "a": "69"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{70} x$ là\n\nA. $y'=\\dfrac{\\ln 70}{x}$.\nB. $y'=\\dfrac{1}{70x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 70}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 70}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=70$, ta có $y'=\\dfrac{1}{x\\ln 70}$.",
+    "params": {
+      "a": "70"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{71} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 71}$.\nB. $y'=\\dfrac{1}{71x}$.\nC. $y'=\\dfrac{\\ln 71}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 71}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=71$, ta có $y'=\\dfrac{1}{x\\ln 71}$.",
+    "params": {
+      "a": "71"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{72} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 72}$.\nB. $y'=\\dfrac{1}{72x}$.\nC. $y'=\\dfrac{\\ln 72}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 72}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=72$, ta có $y'=\\dfrac{1}{x\\ln 72}$.",
+    "params": {
+      "a": "72"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{73} x$ là\n\nA. $y'=\\dfrac{1}{73x}$.\nB. $y'=\\dfrac{1}{x\\ln 73}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 73}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 73}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=73$, ta có $y'=\\dfrac{1}{x\\ln 73}$.",
+    "params": {
+      "a": "73"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{74} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 74}$.\nB. $y'=\\dfrac{1}{74x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 74}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 74}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=74$, ta có $y'=\\dfrac{1}{x\\ln 74}$.",
+    "params": {
+      "a": "74"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{75} x$ là\n\nA. $y'=\\dfrac{1}{75x}$.\nB. $y'=\\dfrac{1}{x\\ln 75}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 75}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 75}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=75$, ta có $y'=\\dfrac{1}{x\\ln 75}$.",
+    "params": {
+      "a": "75"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{76} x$ là\n\nA. $y'=\\dfrac{1}{76x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 76}$.\nD. $y'=\\dfrac{\\ln 76}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 76}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=76$, ta có $y'=\\dfrac{1}{x\\ln 76}$.",
+    "params": {
+      "a": "76"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{77} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 77}$.\nB. $y'=\\dfrac{1}{77x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 77}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 77}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=77$, ta có $y'=\\dfrac{1}{x\\ln 77}$.",
+    "params": {
+      "a": "77"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{78} x$ là\n\nA. $y'=\\dfrac{1}{78x}$.\nB. $y'=\\dfrac{1}{x\\ln 78}$.\nC. $y'=\\dfrac{\\ln 78}{x}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 78}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=78$, ta có $y'=\\dfrac{1}{x\\ln 78}$.",
+    "params": {
+      "a": "78"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{79} x$ là\n\nA. $y'=\\dfrac{\\ln 79}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{79x}$.\nD. $y'=\\dfrac{1}{x\\ln 79}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 79}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=79$, ta có $y'=\\dfrac{1}{x\\ln 79}$.",
+    "params": {
+      "a": "79"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{80} x$ là\n\nA. $y'=\\dfrac{\\ln 80}{x}$.\nB. $y'=\\dfrac{1}{80x}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{1}{x\\ln 80}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 80}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=80$, ta có $y'=\\dfrac{1}{x\\ln 80}$.",
+    "params": {
+      "a": "80"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{81} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{1}{x\\ln 81}$.\nC. $y'=\\dfrac{\\ln 81}{x}$.\nD. $y'=\\dfrac{1}{81x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 81}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=81$, ta có $y'=\\dfrac{1}{x\\ln 81}$.",
+    "params": {
+      "a": "81"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{82} x$ là\n\nA. $y'=\\dfrac{1}{82x}$.\nB. $y'=\\dfrac{1}{x\\ln 82}$.\nC. $y'=\\dfrac{1}{x}$.\nD. $y'=\\dfrac{\\ln 82}{x}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{x\\ln 82}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=82$, ta có $y'=\\dfrac{1}{x\\ln 82}$.",
+    "params": {
+      "a": "82"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{83} x$ là\n\nA. $y'=\\dfrac{\\ln 83}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{83x}$.\nD. $y'=\\dfrac{1}{x\\ln 83}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 83}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=83$, ta có $y'=\\dfrac{1}{x\\ln 83}$.",
+    "params": {
+      "a": "83"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{84} x$ là\n\nA. $y'=\\dfrac{1}{84x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 84}$.\nD. $y'=\\dfrac{\\ln 84}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 84}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=84$, ta có $y'=\\dfrac{1}{x\\ln 84}$.",
+    "params": {
+      "a": "84"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{85} x$ là\n\nA. $y'=\\dfrac{\\ln 85}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{85x}$.\nD. $y'=\\dfrac{1}{x\\ln 85}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 85}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=85$, ta có $y'=\\dfrac{1}{x\\ln 85}$.",
+    "params": {
+      "a": "85"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{86} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 86}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{86x}$.\nD. $y'=\\dfrac{\\ln 86}{x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 86}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=86$, ta có $y'=\\dfrac{1}{x\\ln 86}$.",
+    "params": {
+      "a": "86"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{87} x$ là\n\nA. $y'=\\dfrac{\\ln 87}{x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{87x}$.\nD. $y'=\\dfrac{1}{x\\ln 87}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{x\\ln 87}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=87$, ta có $y'=\\dfrac{1}{x\\ln 87}$.",
+    "params": {
+      "a": "87"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{88} x$ là\n\nA. $y'=\\dfrac{1}{x\\ln 88}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{\\ln 88}{x}$.\nD. $y'=\\dfrac{1}{88x}$.",
+    "dap_an": "A. $y'=\\dfrac{1}{x\\ln 88}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=88$, ta có $y'=\\dfrac{1}{x\\ln 88}$.",
+    "params": {
+      "a": "88"
+    }
+  },
+  {
+    "id_goc": "p031_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{89} x$ là\n\nA. $y'=\\dfrac{1}{89x}$.\nB. $y'=\\dfrac{1}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 89}$.\nD. $y'=\\dfrac{\\ln 89}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 89}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=89$, ta có $y'=\\dfrac{1}{x\\ln 89}$.",
+    "params": {
+      "a": "89"
+    }
+  },
+  {
+    "id_goc": "p111_q22",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{90} x$ là\n\nA. $y'=\\dfrac{1}{x}$.\nB. $y'=\\dfrac{\\ln 90}{x}$.\nC. $y'=\\dfrac{1}{x\\ln 90}$.\nD. $y'=\\dfrac{1}{90x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 90}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=90$, ta có $y'=\\dfrac{1}{x\\ln 90}$.",
+    "params": {
+      "a": "90"
+    }
+  },
+  {
+    "id_goc": "p121_q02",
+    "ma_dang": "D18",
+    "ten_dang": "Dao ham ham so logarit co ban y=log_a x",
+    "nguon": "Nh??n b???n",
+    "loai_bien_the": "co_so_nguyen",
+    "de_bai": "Trên khoảng $(0;+\\infty)$, đạo hàm của hàm số $y=\\log_{91} x$ là\n\nA. $y'=\\dfrac{\\ln 91}{x}$.\nB. $y'=\\dfrac{1}{91x}$.\nC. $y'=\\dfrac{1}{x\\ln 91}$.\nD. $y'=\\dfrac{1}{x}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{x\\ln 91}$.",
+    "loi_giai": "Áp dụng công thức $(\\log_a x)' = \\dfrac{1}{x\\ln a}$ với $a=91$, ta có $y'=\\dfrac{1}{x\\ln 91}$.",
+    "params": {
+      "a": "91"
     }
   }
 ]

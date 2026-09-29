@@ -5,9 +5,9 @@
     "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};3\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{9x}$?\n\nA. $12$.\nB. $10$.\nC. $11$.\nD. $13$.",
-    "dap_an": "C. $11$.",
-    "loi_giai": "Đặt $g_y(x)=3x-9-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;3]$. Tại $x=3$, $g_y(U)=y-\\dfrac{\\log_{27}(1+3y)}{3}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<8$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. Với $U\\in\\{3,5,6,7\\}$, ta có $h(3U)<3U-1$ và $h(3U+1)>3U-1$; vì vậy các giá trị nguyên dương phù hợp là $y=1,\\ldots,9$, gồm $9$ giá trị.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=3$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-9)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $3U+2=11$ giá trị nguyên của $y$.",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};3\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{9x}$?\n\nA. $11$.\nB. $12$.\nC. $10$.\nD. $13$.",
+    "dap_an": "A. $11$.",
+    "loi_giai": "Đặt $g_y(x)=3x-9-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;3]$. Tại $x=3$, $g_y(U)=y-\\dfrac{\\log_{27}(1+3y)}{3}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<8$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,9$, g?m $9$ gi? tr?.\n\ngiving $9$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=3$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-9)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$11$ giá trị nguyên của $y$.",
     "params": {
       "U": "3",
       "C": "9",
@@ -20,9 +20,9 @@
     "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};5\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{15x}$?\n\nA. $19$.\nB. $18$.\nC. $17$.\nD. $16$.",
-    "dap_an": "C. $17$.",
-    "loi_giai": "Đặt $g_y(x)=3x-15-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;5]$. Tại $x=5$, $g_y(U)=y-\\dfrac{\\log_{27}(1+5y)}{5}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<14$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. Với $U\\in\\{3,5,6,7\\}$, ta có $h(3U)<3U-1$ và $h(3U+1)>3U-1$; vì vậy các giá trị nguyên dương phù hợp là $y=1,\\ldots,15$, gồm $15$ giá trị.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=5$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-15)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $3U+2=17$ giá trị nguyên của $y$.",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};5\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{15x}$?\n\nA. $16$.\nB. $19$.\nC. $18$.\nD. $17$.",
+    "dap_an": "D. $17$.",
+    "loi_giai": "Đặt $g_y(x)=3x-15-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;5]$. Tại $x=5$, $g_y(U)=y-\\dfrac{\\log_{27}(1+5y)}{5}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<14$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,15$, g?m $15$ gi? tr?.\n\ngiving $15$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=5$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-15)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$17$ giá trị nguyên của $y$.",
     "params": {
       "U": "5",
       "C": "15",
@@ -35,9 +35,9 @@
     "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};6\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{18x}$?\n\nA. $20$.\nB. $22$.\nC. $21$.\nD. $19$.",
-    "dap_an": "A. $20$.",
-    "loi_giai": "Đặt $g_y(x)=3x-18-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;6]$. Tại $x=6$, $g_y(U)=y-\\dfrac{\\log_{27}(1+6y)}{6}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<17$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. Với $U\\in\\{3,5,6,7\\}$, ta có $h(3U)<3U-1$ và $h(3U+1)>3U-1$; vì vậy các giá trị nguyên dương phù hợp là $y=1,\\ldots,18$, gồm $18$ giá trị.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=6$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-18)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $3U+2=20$ giá trị nguyên của $y$.",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};6\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{18x}$?\n\nA. $19$.\nB. $21$.\nC. $20$.\nD. $22$.",
+    "dap_an": "C. $20$.",
+    "loi_giai": "Đặt $g_y(x)=3x-18-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;6]$. Tại $x=6$, $g_y(U)=y-\\dfrac{\\log_{27}(1+6y)}{6}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<17$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,18$, g?m $18$ gi? tr?.\n\ngiving $18$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=6$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-18)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$20$ giá trị nguyên của $y$.",
     "params": {
       "U": "6",
       "C": "18",
@@ -50,13 +50,658 @@
     "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};7\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{21x}$?\n\nA. $24$.\nB. $25$.\nC. $22$.\nD. $23$.",
-    "dap_an": "D. $23$.",
-    "loi_giai": "Đặt $g_y(x)=3x-21-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;7]$. Tại $x=7$, $g_y(U)=y-\\dfrac{\\log_{27}(1+7y)}{7}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<20$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. Với $U\\in\\{3,5,6,7\\}$, ta có $h(3U)<3U-1$ và $h(3U+1)>3U-1$; vì vậy các giá trị nguyên dương phù hợp là $y=1,\\ldots,21$, gồm $21$ giá trị.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=7$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-21)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $3U+2=23$ giá trị nguyên của $y$.",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};7\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{21x}$?\n\nA. $24$.\nB. $23$.\nC. $25$.\nD. $22$.",
+    "dap_an": "B. $23$.",
+    "loi_giai": "Đặt $g_y(x)=3x-21-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;7]$. Tại $x=7$, $g_y(U)=y-\\dfrac{\\log_{27}(1+7y)}{7}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<20$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,21$, g?m $21$ gi? tr?.\n\ngiving $21$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=7$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-21)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$23$ giá trị nguyên của $y$.",
     "params": {
       "U": "7",
       "C": "21",
       "count": "23"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};8\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{24x}$?\n\nA. $28$.\nB. $26$.\nC. $29$.\nD. $27$.",
+    "dap_an": "D. $27$.",
+    "loi_giai": "Đặt $g_y(x)=3x-24-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;8]$. Tại $x=8$, $g_y(U)=y-\\dfrac{\\log_{27}(1+8y)}{8}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<23$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,25$, g?m $25$ gi? tr?.\n\ngiving $25$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=8$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-24)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$27$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "8",
+      "C": "24",
+      "count": "27"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};9\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{27x}$?\n\nA. $30$.\nB. $29$.\nC. $31$.\nD. $32$.",
+    "dap_an": "A. $30$.",
+    "loi_giai": "Đặt $g_y(x)=3x-27-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;9]$. Tại $x=9$, $g_y(U)=y-\\dfrac{\\log_{27}(1+9y)}{9}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<26$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,28$, g?m $28$ gi? tr?.\n\ngiving $28$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=9$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-27)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$30$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "9",
+      "C": "27",
+      "count": "30"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};10\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{30x}$?\n\nA. $34$.\nB. $33$.\nC. $32$.\nD. $35$.",
+    "dap_an": "B. $33$.",
+    "loi_giai": "Đặt $g_y(x)=3x-30-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;10]$. Tại $x=10$, $g_y(U)=y-\\dfrac{\\log_{27}(1+10y)}{10}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<29$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,31$, g?m $31$ gi? tr?.\n\ngiving $31$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=10$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-30)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$33$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "10",
+      "C": "30",
+      "count": "33"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};11\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{33x}$?\n\nA. $37$.\nB. $36$.\nC. $38$.\nD. $35$.",
+    "dap_an": "B. $36$.",
+    "loi_giai": "Đặt $g_y(x)=3x-33-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;11]$. Tại $x=11$, $g_y(U)=y-\\dfrac{\\log_{27}(1+11y)}{11}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<32$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,34$, g?m $34$ gi? tr?.\n\ngiving $34$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=11$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-33)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$36$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "11",
+      "C": "33",
+      "count": "36"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};12\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{36x}$?\n\nA. $40$.\nB. $38$.\nC. $39$.\nD. $41$.",
+    "dap_an": "C. $39$.",
+    "loi_giai": "Đặt $g_y(x)=3x-36-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;12]$. Tại $x=12$, $g_y(U)=y-\\dfrac{\\log_{27}(1+12y)}{12}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<35$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,37$, g?m $37$ gi? tr?.\n\ngiving $37$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=12$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-36)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$39$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "12",
+      "C": "36",
+      "count": "39"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};13\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{39x}$?\n\nA. $44$.\nB. $41$.\nC. $43$.\nD. $42$.",
+    "dap_an": "D. $42$.",
+    "loi_giai": "Đặt $g_y(x)=3x-39-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;13]$. Tại $x=13$, $g_y(U)=y-\\dfrac{\\log_{27}(1+13y)}{13}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<38$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,40$, g?m $40$ gi? tr?.\n\ngiving $40$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=13$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-39)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$42$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "13",
+      "C": "39",
+      "count": "42"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};14\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{42x}$?\n\nA. $46$.\nB. $45$.\nC. $47$.\nD. $44$.",
+    "dap_an": "B. $45$.",
+    "loi_giai": "Đặt $g_y(x)=3x-42-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;14]$. Tại $x=14$, $g_y(U)=y-\\dfrac{\\log_{27}(1+14y)}{14}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<41$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,43$, g?m $43$ gi? tr?.\n\ngiving $43$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=14$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-42)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$45$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "14",
+      "C": "42",
+      "count": "45"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};15\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{45x}$?\n\nA. $47$.\nB. $48$.\nC. $49$.\nD. $50$.",
+    "dap_an": "B. $48$.",
+    "loi_giai": "Đặt $g_y(x)=3x-45-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;15]$. Tại $x=15$, $g_y(U)=y-\\dfrac{\\log_{27}(1+15y)}{15}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<44$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,46$, g?m $46$ gi? tr?.\n\ngiving $46$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=15$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-45)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$48$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "15",
+      "C": "45",
+      "count": "48"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};16\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{48x}$?\n\nA. $53$.\nB. $51$.\nC. $50$.\nD. $52$.",
+    "dap_an": "B. $51$.",
+    "loi_giai": "Đặt $g_y(x)=3x-48-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;16]$. Tại $x=16$, $g_y(U)=y-\\dfrac{\\log_{27}(1+16y)}{16}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<47$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,49$, g?m $49$ gi? tr?.\n\ngiving $49$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=16$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-48)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$51$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "16",
+      "C": "48",
+      "count": "51"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};17\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{51x}$?\n\nA. $55$.\nB. $54$.\nC. $53$.\nD. $56$.",
+    "dap_an": "B. $54$.",
+    "loi_giai": "Đặt $g_y(x)=3x-51-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;17]$. Tại $x=17$, $g_y(U)=y-\\dfrac{\\log_{27}(1+17y)}{17}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<50$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,52$, g?m $52$ gi? tr?.\n\ngiving $52$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=17$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-51)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$54$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "17",
+      "C": "51",
+      "count": "54"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};18\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{54x}$?\n\nA. $56$.\nB. $59$.\nC. $58$.\nD. $57$.",
+    "dap_an": "D. $57$.",
+    "loi_giai": "Đặt $g_y(x)=3x-54-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;18]$. Tại $x=18$, $g_y(U)=y-\\dfrac{\\log_{27}(1+18y)}{18}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<53$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,55$, g?m $55$ gi? tr?.\n\ngiving $55$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=18$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-54)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$57$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "18",
+      "C": "54",
+      "count": "57"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};19\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{57x}$?\n\nA. $60$.\nB. $61$.\nC. $59$.\nD. $62$.",
+    "dap_an": "A. $60$.",
+    "loi_giai": "Đặt $g_y(x)=3x-57-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;19]$. Tại $x=19$, $g_y(U)=y-\\dfrac{\\log_{27}(1+19y)}{19}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<56$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,58$, g?m $58$ gi? tr?.\n\ngiving $58$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=19$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-57)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$60$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "19",
+      "C": "57",
+      "count": "60"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};20\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{60x}$?\n\nA. $64$.\nB. $63$.\nC. $65$.\nD. $62$.",
+    "dap_an": "B. $63$.",
+    "loi_giai": "Đặt $g_y(x)=3x-60-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;20]$. Tại $x=20$, $g_y(U)=y-\\dfrac{\\log_{27}(1+20y)}{20}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<59$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,61$, g?m $61$ gi? tr?.\n\ngiving $61$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=20$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-60)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$63$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "20",
+      "C": "60",
+      "count": "63"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};21\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{63x}$?\n\nA. $65$.\nB. $67$.\nC. $68$.\nD. $66$.",
+    "dap_an": "D. $66$.",
+    "loi_giai": "Đặt $g_y(x)=3x-63-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;21]$. Tại $x=21$, $g_y(U)=y-\\dfrac{\\log_{27}(1+21y)}{21}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<62$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,64$, g?m $64$ gi? tr?.\n\ngiving $64$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=21$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-63)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$66$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "21",
+      "C": "63",
+      "count": "66"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};22\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{66x}$?\n\nA. $69$.\nB. $68$.\nC. $70$.\nD. $71$.",
+    "dap_an": "A. $69$.",
+    "loi_giai": "Đặt $g_y(x)=3x-66-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;22]$. Tại $x=22$, $g_y(U)=y-\\dfrac{\\log_{27}(1+22y)}{22}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<65$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,67$, g?m $67$ gi? tr?.\n\ngiving $67$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=22$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-66)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$69$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "22",
+      "C": "66",
+      "count": "69"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};23\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{69x}$?\n\nA. $73$.\nB. $71$.\nC. $74$.\nD. $72$.",
+    "dap_an": "D. $72$.",
+    "loi_giai": "Đặt $g_y(x)=3x-69-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;23]$. Tại $x=23$, $g_y(U)=y-\\dfrac{\\log_{27}(1+23y)}{23}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<68$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,70$, g?m $70$ gi? tr?.\n\ngiving $70$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=23$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-69)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$72$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "23",
+      "C": "69",
+      "count": "72"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};24\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{72x}$?\n\nA. $77$.\nB. $76$.\nC. $74$.\nD. $75$.",
+    "dap_an": "D. $75$.",
+    "loi_giai": "Đặt $g_y(x)=3x-72-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;24]$. Tại $x=24$, $g_y(U)=y-\\dfrac{\\log_{27}(1+24y)}{24}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<71$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,73$, g?m $73$ gi? tr?.\n\ngiving $73$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=24$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-72)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$75$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "24",
+      "C": "72",
+      "count": "75"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};25\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{75x}$?\n\nA. $77$.\nB. $78$.\nC. $80$.\nD. $79$.",
+    "dap_an": "B. $78$.",
+    "loi_giai": "Đặt $g_y(x)=3x-75-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;25]$. Tại $x=25$, $g_y(U)=y-\\dfrac{\\log_{27}(1+25y)}{25}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<74$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,76$, g?m $76$ gi? tr?.\n\ngiving $76$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=25$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-75)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$78$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "25",
+      "C": "75",
+      "count": "78"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};26\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{78x}$?\n\nA. $84$.\nB. $82$.\nC. $81$.\nD. $83$.",
+    "dap_an": "B. $82$.",
+    "loi_giai": "Đặt $g_y(x)=3x-78-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;26]$. Tại $x=26$, $g_y(U)=y-\\dfrac{\\log_{27}(1+26y)}{26}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<77$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,80$, g?m $80$ gi? tr?.\n\ngiving $80$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=26$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-78)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$82$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "26",
+      "C": "78",
+      "count": "82"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};27\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{81x}$?\n\nA. $85$.\nB. $86$.\nC. $87$.\nD. $84$.",
+    "dap_an": "A. $85$.",
+    "loi_giai": "Đặt $g_y(x)=3x-81-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;27]$. Tại $x=27$, $g_y(U)=y-\\dfrac{\\log_{27}(1+27y)}{27}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<80$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,83$, g?m $83$ gi? tr?.\n\ngiving $83$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=27$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-81)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$85$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "27",
+      "C": "81",
+      "count": "85"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};28\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{84x}$?\n\nA. $89$.\nB. $88$.\nC. $90$.\nD. $87$.",
+    "dap_an": "B. $88$.",
+    "loi_giai": "Đặt $g_y(x)=3x-84-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;28]$. Tại $x=28$, $g_y(U)=y-\\dfrac{\\log_{27}(1+28y)}{28}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<83$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,86$, g?m $86$ gi? tr?.\n\ngiving $86$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=28$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-84)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$88$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "28",
+      "C": "84",
+      "count": "88"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};29\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{87x}$?\n\nA. $93$.\nB. $90$.\nC. $91$.\nD. $92$.",
+    "dap_an": "C. $91$.",
+    "loi_giai": "Đặt $g_y(x)=3x-87-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;29]$. Tại $x=29$, $g_y(U)=y-\\dfrac{\\log_{27}(1+29y)}{29}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<86$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,89$, g?m $89$ gi? tr?.\n\ngiving $89$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=29$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-87)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$91$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "29",
+      "C": "87",
+      "count": "91"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};30\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{90x}$?\n\nA. $93$.\nB. $96$.\nC. $94$.\nD. $95$.",
+    "dap_an": "C. $94$.",
+    "loi_giai": "Đặt $g_y(x)=3x-90-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;30]$. Tại $x=30$, $g_y(U)=y-\\dfrac{\\log_{27}(1+30y)}{30}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<89$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,92$, g?m $92$ gi? tr?.\n\ngiving $92$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=30$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-90)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$94$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "30",
+      "C": "90",
+      "count": "94"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};31\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{93x}$?\n\nA. $98$.\nB. $96$.\nC. $99$.\nD. $97$.",
+    "dap_an": "D. $97$.",
+    "loi_giai": "Đặt $g_y(x)=3x-93-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;31]$. Tại $x=31$, $g_y(U)=y-\\dfrac{\\log_{27}(1+31y)}{31}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<92$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,95$, g?m $95$ gi? tr?.\n\ngiving $95$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=31$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-93)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$97$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "31",
+      "C": "93",
+      "count": "97"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};32\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{96x}$?\n\nA. $100$.\nB. $99$.\nC. $101$.\nD. $102$.",
+    "dap_an": "A. $100$.",
+    "loi_giai": "Đặt $g_y(x)=3x-96-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;32]$. Tại $x=32$, $g_y(U)=y-\\dfrac{\\log_{27}(1+32y)}{32}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<95$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,98$, g?m $98$ gi? tr?.\n\ngiving $98$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=32$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-96)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$100$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "32",
+      "C": "96",
+      "count": "100"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};33\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{99x}$?\n\nA. $102$.\nB. $105$.\nC. $103$.\nD. $104$.",
+    "dap_an": "C. $103$.",
+    "loi_giai": "Đặt $g_y(x)=3x-99-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;33]$. Tại $x=33$, $g_y(U)=y-\\dfrac{\\log_{27}(1+33y)}{33}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<98$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,101$, g?m $101$ gi? tr?.\n\ngiving $101$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=33$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-99)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$103$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "33",
+      "C": "99",
+      "count": "103"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};34\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{102x}$?\n\nA. $105$.\nB. $107$.\nC. $108$.\nD. $106$.",
+    "dap_an": "D. $106$.",
+    "loi_giai": "Đặt $g_y(x)=3x-102-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;34]$. Tại $x=34$, $g_y(U)=y-\\dfrac{\\log_{27}(1+34y)}{34}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<101$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,104$, g?m $104$ gi? tr?.\n\ngiving $104$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=34$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-102)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$106$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "34",
+      "C": "102",
+      "count": "106"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};35\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{105x}$?\n\nA. $108$.\nB. $109$.\nC. $111$.\nD. $110$.",
+    "dap_an": "B. $109$.",
+    "loi_giai": "Đặt $g_y(x)=3x-105-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;35]$. Tại $x=35$, $g_y(U)=y-\\dfrac{\\log_{27}(1+35y)}{35}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<104$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,107$, g?m $107$ gi? tr?.\n\ngiving $107$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=35$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-105)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$109$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "35",
+      "C": "105",
+      "count": "109"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};36\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{108x}$?\n\nA. $113$.\nB. $114$.\nC. $111$.\nD. $112$.",
+    "dap_an": "D. $112$.",
+    "loi_giai": "Đặt $g_y(x)=3x-108-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;36]$. Tại $x=36$, $g_y(U)=y-\\dfrac{\\log_{27}(1+36y)}{36}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<107$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,110$, g?m $110$ gi? tr?.\n\ngiving $110$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=36$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-108)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$112$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "36",
+      "C": "108",
+      "count": "112"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};37\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{111x}$?\n\nA. $117$.\nB. $116$.\nC. $115$.\nD. $114$.",
+    "dap_an": "C. $115$.",
+    "loi_giai": "Đặt $g_y(x)=3x-111-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;37]$. Tại $x=37$, $g_y(U)=y-\\dfrac{\\log_{27}(1+37y)}{37}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<110$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,113$, g?m $113$ gi? tr?.\n\ngiving $113$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=37$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-111)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$115$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "37",
+      "C": "111",
+      "count": "115"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};38\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{114x}$?\n\nA. $117$.\nB. $120$.\nC. $119$.\nD. $118$.",
+    "dap_an": "D. $118$.",
+    "loi_giai": "Đặt $g_y(x)=3x-114-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;38]$. Tại $x=38$, $g_y(U)=y-\\dfrac{\\log_{27}(1+38y)}{38}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<113$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,116$, g?m $116$ gi? tr?.\n\ngiving $116$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=38$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-114)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$118$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "38",
+      "C": "114",
+      "count": "118"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};39\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{117x}$?\n\nA. $121$.\nB. $123$.\nC. $120$.\nD. $122$.",
+    "dap_an": "A. $121$.",
+    "loi_giai": "Đặt $g_y(x)=3x-117-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;39]$. Tại $x=39$, $g_y(U)=y-\\dfrac{\\log_{27}(1+39y)}{39}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<116$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,119$, g?m $119$ gi? tr?.\n\ngiving $119$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=39$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-117)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$121$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "39",
+      "C": "117",
+      "count": "121"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};40\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{120x}$?\n\nA. $123$.\nB. $125$.\nC. $124$.\nD. $126$.",
+    "dap_an": "C. $124$.",
+    "loi_giai": "Đặt $g_y(x)=3x-120-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;40]$. Tại $x=40$, $g_y(U)=y-\\dfrac{\\log_{27}(1+40y)}{40}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<119$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,122$, g?m $122$ gi? tr?.\n\ngiving $122$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=40$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-120)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$124$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "40",
+      "C": "120",
+      "count": "124"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};41\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{123x}$?\n\nA. $126$.\nB. $128$.\nC. $127$.\nD. $129$.",
+    "dap_an": "C. $127$.",
+    "loi_giai": "Đặt $g_y(x)=3x-123-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;41]$. Tại $x=41$, $g_y(U)=y-\\dfrac{\\log_{27}(1+41y)}{41}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<122$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,125$, g?m $125$ gi? tr?.\n\ngiving $125$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=41$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-123)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$127$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "41",
+      "C": "123",
+      "count": "127"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};42\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{126x}$?\n\nA. $131$.\nB. $129$.\nC. $130$.\nD. $132$.",
+    "dap_an": "C. $130$.",
+    "loi_giai": "Đặt $g_y(x)=3x-126-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;42]$. Tại $x=42$, $g_y(U)=y-\\dfrac{\\log_{27}(1+42y)}{42}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<125$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,128$, g?m $128$ gi? tr?.\n\ngiving $128$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=42$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-126)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$130$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "42",
+      "C": "126",
+      "count": "130"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};43\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{129x}$?\n\nA. $132$.\nB. $134$.\nC. $135$.\nD. $133$.",
+    "dap_an": "D. $133$.",
+    "loi_giai": "Đặt $g_y(x)=3x-129-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;43]$. Tại $x=43$, $g_y(U)=y-\\dfrac{\\log_{27}(1+43y)}{43}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<128$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,131$, g?m $131$ gi? tr?.\n\ngiving $131$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=43$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-129)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$133$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "43",
+      "C": "129",
+      "count": "133"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};44\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{132x}$?\n\nA. $136$.\nB. $137$.\nC. $138$.\nD. $135$.",
+    "dap_an": "A. $136$.",
+    "loi_giai": "Đặt $g_y(x)=3x-132-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;44]$. Tại $x=44$, $g_y(U)=y-\\dfrac{\\log_{27}(1+44y)}{44}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<131$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,134$, g?m $134$ gi? tr?.\n\ngiving $134$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=44$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-132)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$136$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "44",
+      "C": "132",
+      "count": "136"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};45\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{135x}$?\n\nA. $138$.\nB. $140$.\nC. $141$.\nD. $139$.",
+    "dap_an": "D. $139$.",
+    "loi_giai": "Đặt $g_y(x)=3x-135-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;45]$. Tại $x=45$, $g_y(U)=y-\\dfrac{\\log_{27}(1+45y)}{45}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<134$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,137$, g?m $137$ gi? tr?.\n\ngiving $137$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=45$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-135)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$139$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "45",
+      "C": "135",
+      "count": "139"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};46\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{138x}$?\n\nA. $143$.\nB. $142$.\nC. $144$.\nD. $141$.",
+    "dap_an": "B. $142$.",
+    "loi_giai": "Đặt $g_y(x)=3x-138-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;46]$. Tại $x=46$, $g_y(U)=y-\\dfrac{\\log_{27}(1+46y)}{46}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<137$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,140$, g?m $140$ gi? tr?.\n\ngiving $140$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=46$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-138)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$142$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "46",
+      "C": "138",
+      "count": "142"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};47\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{141x}$?\n\nA. $146$.\nB. $147$.\nC. $144$.\nD. $145$.",
+    "dap_an": "D. $145$.",
+    "loi_giai": "Đặt $g_y(x)=3x-141-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;47]$. Tại $x=47$, $g_y(U)=y-\\dfrac{\\log_{27}(1+47y)}{47}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<140$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,143$, g?m $143$ gi? tr?.\n\ngiving $143$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=47$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-141)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$145$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "47",
+      "C": "141",
+      "count": "145"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};48\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{144x}$?\n\nA. $148$.\nB. $150$.\nC. $147$.\nD. $149$.",
+    "dap_an": "A. $148$.",
+    "loi_giai": "Đặt $g_y(x)=3x-144-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;48]$. Tại $x=48$, $g_y(U)=y-\\dfrac{\\log_{27}(1+48y)}{48}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<143$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,146$, g?m $146$ gi? tr?.\n\ngiving $146$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=48$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-144)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$148$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "48",
+      "C": "144",
+      "count": "148"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};49\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{147x}$?\n\nA. $151$.\nB. $153$.\nC. $152$.\nD. $150$.",
+    "dap_an": "A. $151$.",
+    "loi_giai": "Đặt $g_y(x)=3x-147-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;49]$. Tại $x=49$, $g_y(U)=y-\\dfrac{\\log_{27}(1+49y)}{49}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<146$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,149$, g?m $149$ gi? tr?.\n\ngiving $149$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=49$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-147)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$151$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "49",
+      "C": "147",
+      "count": "151"
+    }
+  },
+  {
+    "id_goc": "p216_q45",
+    "ma_dang": "D84",
+    "ten_dang": "Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac{1}{3};50\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{150x}$?\n\nA. $155$.\nB. $154$.\nC. $153$.\nD. $156$.",
+    "dap_an": "B. $154$.",
+    "loi_giai": "Đặt $g_y(x)=3x-150-\\dfrac{\\log_{27}(1+xy)}x+y$. Với $y\\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}>=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;50]$. Tại $x=50$, $g_y(U)=y-\\dfrac{\\log_{27}(1+50y)}{50}>0$, vì $\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\\log_3(1+y/3)<149$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng th?a m?n l? $y=1,\\ldots,152$, g?m $152$ gi? tr?.\n\ngiving $152$ values.\n\nNếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ hoặc $x=50$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-150)x}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $$154$ giá trị nguyên của $y$.",
+    "params": {
+      "U": "50",
+      "C": "150",
+      "count": "154"
     }
   }
 ]
