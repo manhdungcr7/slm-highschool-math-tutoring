@@ -1,0 +1,760 @@
+[
+  {
+    "id_goc": "p021_q18",
+    "ma_dang": "D15",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit tự nhiên",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+1})$.\n\nA. $y'=\\dfrac{2}{\\sqrt{x+1}(1+\\sqrt{x+1})}$.\nB. $y'=\\dfrac{1}{1+\\sqrt{x+1}}$.\nC. $y'=\\dfrac{1}{2\\sqrt{x+1}(1+\\sqrt{x+1})}$.\nD. $y'=\\dfrac{1}{\\sqrt{x+1}(1+\\sqrt{x+1})}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{2\\sqrt{x+1}(1+\\sqrt{x+1})}$.",
+    "loi_giai": "$y'=\\dfrac{(1+\\sqrt{x+1})'}{1+\\sqrt{x+1}}=\\dfrac{\\frac{1}{2\\sqrt{x+1}}}{1+\\sqrt{x+1}}=\\dfrac{1}{2\\sqrt{x+1}(1+\\sqrt{x+1})}$.",
+    "params": {
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q18",
+    "ma_dang": "D15",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit tự nhiên",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+2})$.\n\nA. $y'=\\dfrac{2}{\\sqrt{x+2}(1+\\sqrt{x+2})}$.\nB. $y'=\\dfrac{1}{2\\sqrt{x+2}(1+\\sqrt{x+2})}$.\nC. $y'=\\dfrac{1}{\\sqrt{x+2}(1+\\sqrt{x+2})}$.\nD. $y'=\\dfrac{1}{1+\\sqrt{x+2}}$.",
+    "dap_an": "B. $y'=\\dfrac{1}{2\\sqrt{x+2}(1+\\sqrt{x+2})}$.",
+    "loi_giai": "$y'=\\dfrac{(1+\\sqrt{x+2})'}{1+\\sqrt{x+2}}=\\dfrac{\\frac{1}{2\\sqrt{x+2}}}{1+\\sqrt{x+2}}=\\dfrac{1}{2\\sqrt{x+2}(1+\\sqrt{x+2})}$.",
+    "params": {
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q18",
+    "ma_dang": "D15",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit tự nhiên",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+3})$.\n\nA. $y'=\\dfrac{2}{\\sqrt{x+3}(1+\\sqrt{x+3})}$.\nB. $y'=\\dfrac{1}{1+\\sqrt{x+3}}$.\nC. $y'=\\dfrac{1}{2\\sqrt{x+3}(1+\\sqrt{x+3})}$.\nD. $y'=\\dfrac{1}{\\sqrt{x+3}(1+\\sqrt{x+3})}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{2\\sqrt{x+3}(1+\\sqrt{x+3})}$.",
+    "loi_giai": "$y'=\\dfrac{(1+\\sqrt{x+3})'}{1+\\sqrt{x+3}}=\\dfrac{\\frac{1}{2\\sqrt{x+3}}}{1+\\sqrt{x+3}}=\\dfrac{1}{2\\sqrt{x+3}(1+\\sqrt{x+3})}$.",
+    "params": {
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q18",
+    "ma_dang": "D15",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit tự nhiên",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+0})$.\n\nA. $y'=\\dfrac{2}{\\sqrt{x+0}(1+\\sqrt{x+0})}$.\nB. $y'=\\dfrac{1}{1+\\sqrt{x+0}}$.\nC. $y'=\\dfrac{1}{2\\sqrt{x+0}(1+\\sqrt{x+0})}$.\nD. $y'=\\dfrac{1}{\\sqrt{x+0}(1+\\sqrt{x+0})}$.",
+    "dap_an": "C. $y'=\\dfrac{1}{2\\sqrt{x+0}(1+\\sqrt{x+0})}$.",
+    "loi_giai": "$y'=\\dfrac{(1+\\sqrt{x+0})'}{1+\\sqrt{x+0}}=\\dfrac{\\frac{1}{2\\sqrt{x+0}}}{1+\\sqrt{x+0}}=\\dfrac{1}{2\\sqrt{x+0}(1+\\sqrt{x+0})}$.",
+    "params": {
+      "k": "0"
+    }
+  },
+  {
+    "id_goc": "p021_q18",
+    "ma_dang": "D15",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit tự nhiên",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+4})$.\n\nA. $y'=\\dfrac{2}{\\sqrt{x+4}(1+\\sqrt{x+4})}$.\nB. $y'=\\dfrac{1}{\\sqrt{x+4}(1+\\sqrt{x+4})}$.\nC. $y'=\\dfrac{1}{1+\\sqrt{x+4}}$.\nD. $y'=\\dfrac{1}{2\\sqrt{x+4}(1+\\sqrt{x+4})}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{2\\sqrt{x+4}(1+\\sqrt{x+4})}$.",
+    "loi_giai": "$y'=\\dfrac{(1+\\sqrt{x+4})'}{1+\\sqrt{x+4}}=\\dfrac{\\frac{1}{2\\sqrt{x+4}}}{1+\\sqrt{x+4}}=\\dfrac{1}{2\\sqrt{x+4}(1+\\sqrt{x+4})}$.",
+    "params": {
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q18",
+    "ma_dang": "D15",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit tự nhiên",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+5})$.\n\nA. $y'=\\dfrac{2}{\\sqrt{x+5}(1+\\sqrt{x+5})}$.\nB. $y'=\\dfrac{1}{\\sqrt{x+5}(1+\\sqrt{x+5})}$.\nC. $y'=\\dfrac{1}{1+\\sqrt{x+5}}$.\nD. $y'=\\dfrac{1}{2\\sqrt{x+5}(1+\\sqrt{x+5})}$.",
+    "dap_an": "D. $y'=\\dfrac{1}{2\\sqrt{x+5}(1+\\sqrt{x+5})}$.",
+    "loi_giai": "$y'=\\dfrac{(1+\\sqrt{x+5})'}{1+\\sqrt{x+5}}=\\dfrac{\\frac{1}{2\\sqrt{x+5}}}{1+\\sqrt{x+5}}=\\dfrac{1}{2\\sqrt{x+5}(1+\\sqrt{x+5})}$.",
+    "params": {
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p006_q16",
+    "ma_dang": "D05",
+    "ten_dang": "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=f(x)=2^x\\cdot7^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?\n\nA. $f(x)<1\\Leftrightarrow 1+x\\log_{2}7<0$.\nB. $f(x)<1\\Leftrightarrow x+x^2\\log_{2}7<0$.\nC. $f(x)<1\\Leftrightarrow x\\ln2+x^2\\ln7<0$.\nD. $f(x)<1\\Leftrightarrow x\\log_{7}2+x^2<0$.",
+    "dap_an": "A. $f(x)<1\\Leftrightarrow 1+x\\log_{2}7<0$.",
+    "loi_giai": "$f(x)<1\\Leftrightarrow\\log_{2}f(x)<0\\Leftrightarrow x+x^2\\log_{2}7<0\\Leftrightarrow x(1+x\\log_{2}7)<0$, KHÔNG tương đương với $1+x\\log_{2}7<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là $1+x\\log_{2}7<0$.",
+    "params": {
+      "a": "2",
+      "b": "7"
+    }
+  },
+  {
+    "id_goc": "p006_q16",
+    "ma_dang": "D05",
+    "ten_dang": "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=f(x)=3^x\\cdot5^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?\n\nA. $f(x)<1\\Leftrightarrow x\\ln3+x^2\\ln5<0$.\nB. $f(x)<1\\Leftrightarrow 1+x\\log_{3}5<0$.\nC. $f(x)<1\\Leftrightarrow x\\log_{5}3+x^2<0$.\nD. $f(x)<1\\Leftrightarrow x+x^2\\log_{3}5<0$.",
+    "dap_an": "B. $f(x)<1\\Leftrightarrow 1+x\\log_{3}5<0$.",
+    "loi_giai": "$f(x)<1\\Leftrightarrow\\log_{3}f(x)<0\\Leftrightarrow x+x^2\\log_{3}5<0\\Leftrightarrow x(1+x\\log_{3}5)<0$, KHÔNG tương đương với $1+x\\log_{3}5<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là $1+x\\log_{3}5<0$.",
+    "params": {
+      "a": "3",
+      "b": "5"
+    }
+  },
+  {
+    "id_goc": "p006_q16",
+    "ma_dang": "D05",
+    "ten_dang": "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=f(x)=2^x\\cdot9^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?\n\nA. $f(x)<1\\Leftrightarrow x\\log_{9}2+x^2<0$.\nB. $f(x)<1\\Leftrightarrow x+x^2\\log_{2}9<0$.\nC. $f(x)<1\\Leftrightarrow x\\ln2+x^2\\ln9<0$.\nD. $f(x)<1\\Leftrightarrow 1+x\\log_{2}9<0$.",
+    "dap_an": "D. $f(x)<1\\Leftrightarrow 1+x\\log_{2}9<0$.",
+    "loi_giai": "$f(x)<1\\Leftrightarrow\\log_{2}f(x)<0\\Leftrightarrow x+x^2\\log_{2}9<0\\Leftrightarrow x(1+x\\log_{2}9)<0$, KHÔNG tương đương với $1+x\\log_{2}9<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là $1+x\\log_{2}9<0$.",
+    "params": {
+      "a": "2",
+      "b": "9"
+    }
+  },
+  {
+    "id_goc": "p006_q16",
+    "ma_dang": "D05",
+    "ten_dang": "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=f(x)=5^x\\cdot3^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?\n\nA. $f(x)<1\\Leftrightarrow 1+x\\log_{5}3<0$.\nB. $f(x)<1\\Leftrightarrow x\\ln5+x^2\\ln3<0$.\nC. $f(x)<1\\Leftrightarrow x\\log_{3}5+x^2<0$.\nD. $f(x)<1\\Leftrightarrow x+x^2\\log_{5}3<0$.",
+    "dap_an": "A. $f(x)<1\\Leftrightarrow 1+x\\log_{5}3<0$.",
+    "loi_giai": "$f(x)<1\\Leftrightarrow\\log_{5}f(x)<0\\Leftrightarrow x+x^2\\log_{5}3<0\\Leftrightarrow x(1+x\\log_{5}3)<0$, KHÔNG tương đương với $1+x\\log_{5}3<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là $1+x\\log_{5}3<0$.",
+    "params": {
+      "a": "5",
+      "b": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q16",
+    "ma_dang": "D05",
+    "ten_dang": "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=f(x)=2^x\\cdot11^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?\n\nA. $f(x)<1\\Leftrightarrow x\\ln2+x^2\\ln11<0$.\nB. $f(x)<1\\Leftrightarrow x+x^2\\log_{2}11<0$.\nC. $f(x)<1\\Leftrightarrow 1+x\\log_{2}11<0$.\nD. $f(x)<1\\Leftrightarrow x\\log_{11}2+x^2<0$.",
+    "dap_an": "C. $f(x)<1\\Leftrightarrow 1+x\\log_{2}11<0$.",
+    "loi_giai": "$f(x)<1\\Leftrightarrow\\log_{2}f(x)<0\\Leftrightarrow x+x^2\\log_{2}11<0\\Leftrightarrow x(1+x\\log_{2}11)<0$, KHÔNG tương đương với $1+x\\log_{2}11<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là $1+x\\log_{2}11<0$.",
+    "params": {
+      "a": "2",
+      "b": "11"
+    }
+  },
+  {
+    "id_goc": "p006_q16",
+    "ma_dang": "D05",
+    "ten_dang": "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=f(x)=3^x\\cdot7^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?\n\nA. $f(x)<1\\Leftrightarrow x\\ln3+x^2\\ln7<0$.\nB. $f(x)<1\\Leftrightarrow 1+x\\log_{3}7<0$.\nC. $f(x)<1\\Leftrightarrow x+x^2\\log_{3}7<0$.\nD. $f(x)<1\\Leftrightarrow x\\log_{7}3+x^2<0$.",
+    "dap_an": "B. $f(x)<1\\Leftrightarrow 1+x\\log_{3}7<0$.",
+    "loi_giai": "$f(x)<1\\Leftrightarrow\\log_{3}f(x)<0\\Leftrightarrow x+x^2\\log_{3}7<0\\Leftrightarrow x(1+x\\log_{3}7)<0$, KHÔNG tương đương với $1+x\\log_{3}7<0$ (thiếu nhân tử $x$). Vậy khẳng định sai là $1+x\\log_{3}7<0$.",
+    "params": {
+      "a": "3",
+      "b": "7"
+    }
+  },
+  {
+    "id_goc": "p099_q31",
+    "ma_dang": "D45",
+    "ten_dang": "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $9^x+2\\cdot3^x-3>0$ là\n\nA. $(-\\infty;0)$.\nB. $(1;+\\infty)$.\nC. $[0;+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "D. $(0;+\\infty)$.",
+    "loi_giai": "$(3^x-1)(3^x--3)>0$. Vì $3^x>0>-3$ nên $3^x--3>0$ luôn đúng, do đó bất phương trình $\\Leftrightarrow 3^x>1\\Leftrightarrow x>\\log_{3}1$.",
+    "params": {
+      "A": "3",
+      "r1": "1",
+      "r2": "-3"
+    }
+  },
+  {
+    "id_goc": "p099_q31",
+    "ma_dang": "D45",
+    "ten_dang": "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $4^x-3\\cdot2^x-4>0$ là\n\nA. $(2;+\\infty)$.\nB. $(3;+\\infty)$.\nC. $(-\\infty;2)$.\nD. $[2;+\\infty)$.",
+    "dap_an": "A. $(2;+\\infty)$.",
+    "loi_giai": "$(2^x-4)(2^x--1)>0$. Vì $2^x>0>-1$ nên $2^x--1>0$ luôn đúng, do đó bất phương trình $\\Leftrightarrow 2^x>4\\Leftrightarrow x>\\log_{2}4$.",
+    "params": {
+      "A": "2",
+      "r1": "4",
+      "r2": "-1"
+    }
+  },
+  {
+    "id_goc": "p099_q31",
+    "ma_dang": "D45",
+    "ten_dang": "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $25^x+4\\cdot5^x-5>0$ là\n\nA. $(0;+\\infty)$.\nB. $[0;+\\infty)$.\nC. $(1;+\\infty)$.\nD. $(-\\infty;0)$.",
+    "dap_an": "A. $(0;+\\infty)$.",
+    "loi_giai": "$(5^x-1)(5^x--5)>0$. Vì $5^x>0>-5$ nên $5^x--5>0$ luôn đúng, do đó bất phương trình $\\Leftrightarrow 5^x>1\\Leftrightarrow x>\\log_{5}1$.",
+    "params": {
+      "A": "5",
+      "r1": "1",
+      "r2": "-5"
+    }
+  },
+  {
+    "id_goc": "p099_q31",
+    "ma_dang": "D45",
+    "ten_dang": "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $9^x+7\\cdot3^x-18>0$ là\n\nA. $(\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}} + 1;+\\infty)$.\nB. $[\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}};+\\infty)$.\nC. $(\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}})$.",
+    "dap_an": "C. $(\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}};+\\infty)$.",
+    "loi_giai": "$(3^x-2)(3^x--9)>0$. Vì $3^x>0>-9$ nên $3^x--9>0$ luôn đúng, do đó bất phương trình $\\Leftrightarrow 3^x>2\\Leftrightarrow x>\\log_{3}2$.",
+    "params": {
+      "A": "3",
+      "r1": "2",
+      "r2": "-9"
+    }
+  },
+  {
+    "id_goc": "p099_q31",
+    "ma_dang": "D45",
+    "ten_dang": "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $4^x+7\\cdot2^x-8>0$ là\n\nA. $(-\\infty;0)$.\nB. $(1;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $[0;+\\infty)$.",
+    "dap_an": "C. $(0;+\\infty)$.",
+    "loi_giai": "$(2^x-1)(2^x--8)>0$. Vì $2^x>0>-8$ nên $2^x--8>0$ luôn đúng, do đó bất phương trình $\\Leftrightarrow 2^x>1\\Leftrightarrow x>\\log_{2}1$.",
+    "params": {
+      "A": "2",
+      "r1": "1",
+      "r2": "-8"
+    }
+  },
+  {
+    "id_goc": "p099_q31",
+    "ma_dang": "D45",
+    "ten_dang": "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $25^x-4\\cdot5^x-5>0$ là\n\nA. $(2;+\\infty)$.\nB. $[1;+\\infty)$.\nC. $(-\\infty;1)$.\nD. $(1;+\\infty)$.",
+    "dap_an": "D. $(1;+\\infty)$.",
+    "loi_giai": "$(5^x-5)(5^x--1)>0$. Vì $5^x>0>-1$ nên $5^x--1>0$ luôn đúng, do đó bất phương trình $\\Leftrightarrow 5^x>5\\Leftrightarrow x>\\log_{5}5$.",
+    "params": {
+      "A": "5",
+      "r1": "5",
+      "r2": "-1"
+    }
+  },
+  {
+    "id_goc": "p088_q43",
+    "ma_dang": "D40",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{2}^2(2x)-(m+2)\\log_{2}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là\n\nA. $(2;+\\infty)$.\nB. $[1;2]$.\nC. $[1;2)$.\nD. $(1;2)$.",
+    "dap_an": "C. $[1;2)$.",
+    "loi_giai": "Đặt $t=\\log_{2}x$, PT trở thành $t^2-mt+m-3=0$ $\\Leftrightarrow (t-1)(t-(m - 1))=0$ (sau khi rút gọn). $x\\in[1;2]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in[1;2)$.",
+    "params": {
+      "a": "2",
+      "p": "2",
+      "q": "2",
+      "lo": "1",
+      "hi": "2",
+      "r_fixed": "1"
+    }
+  },
+  {
+    "id_goc": "p088_q43",
+    "ma_dang": "D40",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{3}^2(3x)-(m+1)\\log_{3}x+m-3=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là\n\nA. $[2;3)$.\nB. $(2;3)$.\nC. $(3;+\\infty)$.\nD. $[2;3]$.",
+    "dap_an": "A. $[2;3)$.",
+    "loi_giai": "Đặt $t=\\log_{3}x$, PT trở thành $t^2-mt+m-4=0$ $\\Leftrightarrow (t-1)(t-(m - 2))=0$ (sau khi rút gọn). $x\\in[1;3]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in[2;3)$.",
+    "params": {
+      "a": "3",
+      "p": "1",
+      "q": "3",
+      "lo": "2",
+      "hi": "3",
+      "r_fixed": "1"
+    }
+  },
+  {
+    "id_goc": "p088_q43",
+    "ma_dang": "D40",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{2}^2(2x)-(m+3)\\log_{2}x+m-1=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là\n\nA. $[0;1)$.\nB. $(1;+\\infty)$.\nC. $(0;1)$.\nD. $[0;1]$.",
+    "dap_an": "A. $[0;1)$.",
+    "loi_giai": "Đặt $t=\\log_{2}x$, PT trở thành $t^2-mt+m-2=0$ $\\Leftrightarrow (t-1)(t-(m))=0$ (sau khi rút gọn). $x\\in[1;2]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in[0;1)$.",
+    "params": {
+      "a": "2",
+      "p": "3",
+      "q": "1",
+      "lo": "0",
+      "hi": "1",
+      "r_fixed": "1"
+    }
+  },
+  {
+    "id_goc": "p088_q43",
+    "ma_dang": "D40",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{5}^2(5x)-(m+2)\\log_{5}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là\n\nA. $(1;2)$.\nB. $(2;+\\infty)$.\nC. $[1;2)$.\nD. $[1;2]$.",
+    "dap_an": "C. $[1;2)$.",
+    "loi_giai": "Đặt $t=\\log_{5}x$, PT trở thành $t^2-mt+m-3=0$ $\\Leftrightarrow (t-1)(t-(m - 1))=0$ (sau khi rút gọn). $x\\in[1;5]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in[1;2)$.",
+    "params": {
+      "a": "5",
+      "p": "2",
+      "q": "2",
+      "lo": "1",
+      "hi": "2",
+      "r_fixed": "1"
+    }
+  },
+  {
+    "id_goc": "p088_q43",
+    "ma_dang": "D40",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{3}^2(3x)-(m+2)\\log_{3}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là\n\nA. $(2;+\\infty)$.\nB. $(1;2)$.\nC. $[1;2]$.\nD. $[1;2)$.",
+    "dap_an": "D. $[1;2)$.",
+    "loi_giai": "Đặt $t=\\log_{3}x$, PT trở thành $t^2-mt+m-3=0$ $\\Leftrightarrow (t-1)(t-(m - 1))=0$ (sau khi rút gọn). $x\\in[1;3]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in[1;2)$.",
+    "params": {
+      "a": "3",
+      "p": "2",
+      "q": "2",
+      "lo": "1",
+      "hi": "2",
+      "r_fixed": "1"
+    }
+  },
+  {
+    "id_goc": "p088_q43",
+    "ma_dang": "D40",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{2}^2(2x)-(m+1)\\log_{2}x+m-3=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là\n\nA. $[2;3)$.\nB. $(3;+\\infty)$.\nC. $(2;3)$.\nD. $[2;3]$.",
+    "dap_an": "A. $[2;3)$.",
+    "loi_giai": "Đặt $t=\\log_{2}x$, PT trở thành $t^2-mt+m-4=0$ $\\Leftrightarrow (t-1)(t-(m - 2))=0$ (sau khi rút gọn). $x\\in[1;2]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in[2;3)$.",
+    "params": {
+      "a": "2",
+      "p": "1",
+      "q": "3",
+      "lo": "2",
+      "hi": "3",
+      "r_fixed": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q20",
+    "ma_dang": "D16",
+    "ten_dang": "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $6^x+(3-m)2^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\nA. $[2;4]$.\nB. $(1;4)$.\nC. $(2;4)$.\nD. $(2;5)$.",
+    "dap_an": "C. $(2;4)$.",
+    "loi_giai": "PT $\\Leftrightarrow m=\\dfrac{6^x+3\\cdot2^x}{2^x+1}=f(x)$. Hàm $f$ đồng biến trên $\\mathbb{R}$ (do $6>2$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow 2;4$ vì $f(0)=2, f(1)=4$.",
+    "params": {
+      "A": "6",
+      "B": "2",
+      "c": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q20",
+    "ma_dang": "D16",
+    "ten_dang": "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $8^x+(4-m)2^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\nA. $[\\dfrac{5}{2};\\dfrac{16}{3}]$.\nB. $(\\dfrac{5}{2};\\dfrac{19}{3})$.\nC. $(\\dfrac{5}{2};\\dfrac{16}{3})$.\nD. $(\\dfrac{3}{2};\\dfrac{16}{3})$.",
+    "dap_an": "C. $(\\dfrac{5}{2};\\dfrac{16}{3})$.",
+    "loi_giai": "PT $\\Leftrightarrow m=\\dfrac{8^x+4\\cdot2^x}{2^x+1}=f(x)$. Hàm $f$ đồng biến trên $\\mathbb{R}$ (do $8>2$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow \\dfrac{5}{2};\\dfrac{16}{3}$ vì $f(0)=\\dfrac{5}{2}, f(1)=\\dfrac{16}{3}$.",
+    "params": {
+      "A": "8",
+      "B": "2",
+      "c": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q20",
+    "ma_dang": "D16",
+    "ten_dang": "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $9^x+(2-m)3^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\nA. $(\\dfrac{1}{2};\\dfrac{15}{4})$.\nB. $[\\dfrac{3}{2};\\dfrac{15}{4}]$.\nC. $(\\dfrac{3}{2};\\dfrac{15}{4})$.\nD. $(\\dfrac{3}{2};\\dfrac{19}{4})$.",
+    "dap_an": "C. $(\\dfrac{3}{2};\\dfrac{15}{4})$.",
+    "loi_giai": "PT $\\Leftrightarrow m=\\dfrac{9^x+2\\cdot3^x}{3^x+1}=f(x)$. Hàm $f$ đồng biến trên $\\mathbb{R}$ (do $9>3$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow \\dfrac{3}{2};\\dfrac{15}{4}$ vì $f(0)=\\dfrac{3}{2}, f(1)=\\dfrac{15}{4}$.",
+    "params": {
+      "A": "9",
+      "B": "3",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q20",
+    "ma_dang": "D16",
+    "ten_dang": "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $12^x+(6-m)2^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\nA. $[\\dfrac{7}{2};8]$.\nB. $(\\dfrac{7}{2};9)$.\nC. $(\\dfrac{7}{2};8)$.\nD. $(\\dfrac{5}{2};8)$.",
+    "dap_an": "C. $(\\dfrac{7}{2};8)$.",
+    "loi_giai": "PT $\\Leftrightarrow m=\\dfrac{12^x+6\\cdot2^x}{2^x+1}=f(x)$. Hàm $f$ đồng biến trên $\\mathbb{R}$ (do $12>2$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow \\dfrac{7}{2};8$ vì $f(0)=\\dfrac{7}{2}, f(1)=8$.",
+    "params": {
+      "A": "12",
+      "B": "2",
+      "c": "6"
+    }
+  },
+  {
+    "id_goc": "p021_q20",
+    "ma_dang": "D16",
+    "ten_dang": "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $15^x+(5-m)3^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\nA. $(3;\\dfrac{15}{2})$.\nB. $(3;\\dfrac{17}{2})$.\nC. $[3;\\dfrac{15}{2}]$.\nD. $(2;\\dfrac{15}{2})$.",
+    "dap_an": "A. $(3;\\dfrac{15}{2})$.",
+    "loi_giai": "PT $\\Leftrightarrow m=\\dfrac{15^x+5\\cdot3^x}{3^x+1}=f(x)$. Hàm $f$ đồng biến trên $\\mathbb{R}$ (do $15>3$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow 3;\\dfrac{15}{2}$ vì $f(0)=3, f(1)=\\dfrac{15}{2}$.",
+    "params": {
+      "A": "15",
+      "B": "3",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q20",
+    "ma_dang": "D16",
+    "ten_dang": "Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $4^x+(2-m)2^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.\n\nA. $(\\dfrac{3}{2};\\dfrac{8}{3})$.\nB. $[\\dfrac{3}{2};\\dfrac{8}{3}]$.\nC. $(\\dfrac{3}{2};\\dfrac{11}{3})$.\nD. $(\\dfrac{1}{2};\\dfrac{8}{3})$.",
+    "dap_an": "A. $(\\dfrac{3}{2};\\dfrac{8}{3})$.",
+    "loi_giai": "PT $\\Leftrightarrow m=\\dfrac{4^x+2\\cdot2^x}{2^x+1}=f(x)$. Hàm $f$ đồng biến trên $\\mathbb{R}$ (do $4>2$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow \\dfrac{3}{2};\\dfrac{8}{3}$ vì $f(0)=\\dfrac{3}{2}, f(1)=\\dfrac{8}{3}$.",
+    "params": {
+      "A": "4",
+      "B": "2",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p070_q31",
+    "ma_dang": "D35",
+    "ten_dang": "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tổng tất cả các nghiệm của phương trình $\\log_{3}(7-3^x)=2-x$ bằng\n\nA. $4$.\nB. $2$.\nC. $3$.\nD. $7$.",
+    "dap_an": "B. $2$.",
+    "loi_giai": "ĐK: $7-3^x>0$. $\\log_{3}(7-3^x)=2-x \\Leftrightarrow 7-3^x=3^{2-x}=\\dfrac{3^{2}}{3^x}\\Leftrightarrow (3^x)^2-7\\cdot3^x+3^{2}=0$. Đặt $t=3^x$, PT có 2 nghiệm $t_1,t_2$ với $t_1t_2=3^{2}$ (Viète), suy ra $3^{x_1+x_2}=3^{2}\\Leftrightarrow x_1+x_2=2$.",
+    "params": {
+      "a": "3",
+      "N": "7",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p070_q31",
+    "ma_dang": "D35",
+    "ten_dang": "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tổng tất cả các nghiệm của phương trình $\\log_{2}(5-2^x)=1-x$ bằng\n\nA. $1$.\nB. $3$.\nC. $2$.\nD. $5$.",
+    "dap_an": "A. $1$.",
+    "loi_giai": "ĐK: $5-2^x>0$. $\\log_{2}(5-2^x)=1-x \\Leftrightarrow 5-2^x=2^{1-x}=\\dfrac{2^{1}}{2^x}\\Leftrightarrow (2^x)^2-5\\cdot2^x+2^{1}=0$. Đặt $t=2^x$, PT có 2 nghiệm $t_1,t_2$ với $t_1t_2=2^{1}$ (Viète), suy ra $2^{x_1+x_2}=2^{1}\\Leftrightarrow x_1+x_2=1$.",
+    "params": {
+      "a": "2",
+      "N": "5",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p070_q31",
+    "ma_dang": "D35",
+    "ten_dang": "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tổng tất cả các nghiệm của phương trình $\\log_{5}(30-5^x)=2-x$ bằng\n\nA. $3$.\nB. $30$.\nC. $2$.\nD. $4$.",
+    "dap_an": "C. $2$.",
+    "loi_giai": "ĐK: $30-5^x>0$. $\\log_{5}(30-5^x)=2-x \\Leftrightarrow 30-5^x=5^{2-x}=\\dfrac{5^{2}}{5^x}\\Leftrightarrow (5^x)^2-30\\cdot5^x+5^{2}=0$. Đặt $t=5^x$, PT có 2 nghiệm $t_1,t_2$ với $t_1t_2=5^{2}$ (Viète), suy ra $5^{x_1+x_2}=5^{2}\\Leftrightarrow x_1+x_2=2$.",
+    "params": {
+      "a": "5",
+      "N": "30",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p070_q31",
+    "ma_dang": "D35",
+    "ten_dang": "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tổng tất cả các nghiệm của phương trình $\\log_{3}(15-3^x)=3-x$ bằng\n\nA. $3$.\nB. $6$.\nC. $15$.\nD. $4$.",
+    "dap_an": "A. $3$.",
+    "loi_giai": "ĐK: $15-3^x>0$. $\\log_{3}(15-3^x)=3-x \\Leftrightarrow 15-3^x=3^{3-x}=\\dfrac{3^{3}}{3^x}\\Leftrightarrow (3^x)^2-15\\cdot3^x+3^{3}=0$. Đặt $t=3^x$, PT có 2 nghiệm $t_1,t_2$ với $t_1t_2=3^{3}$ (Viète), suy ra $3^{x_1+x_2}=3^{3}\\Leftrightarrow x_1+x_2=3$.",
+    "params": {
+      "a": "3",
+      "N": "15",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p070_q31",
+    "ma_dang": "D35",
+    "ten_dang": "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tổng tất cả các nghiệm của phương trình $\\log_{2}(10-2^x)=3-x$ bằng\n\nA. $10$.\nB. $4$.\nC. $6$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "ĐK: $10-2^x>0$. $\\log_{2}(10-2^x)=3-x \\Leftrightarrow 10-2^x=2^{3-x}=\\dfrac{2^{3}}{2^x}\\Leftrightarrow (2^x)^2-10\\cdot2^x+2^{3}=0$. Đặt $t=2^x$, PT có 2 nghiệm $t_1,t_2$ với $t_1t_2=2^{3}$ (Viète), suy ra $2^{x_1+x_2}=2^{3}\\Leftrightarrow x_1+x_2=3$.",
+    "params": {
+      "a": "2",
+      "N": "10",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p070_q31",
+    "ma_dang": "D35",
+    "ten_dang": "Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tổng tất cả các nghiệm của phương trình $\\log_{3}(20-3^x)=2-x$ bằng\n\nA. $2$.\nB. $3$.\nC. $20$.\nD. $4$.",
+    "dap_an": "A. $2$.",
+    "loi_giai": "ĐK: $20-3^x>0$. $\\log_{3}(20-3^x)=2-x \\Leftrightarrow 20-3^x=3^{2-x}=\\dfrac{3^{2}}{3^x}\\Leftrightarrow (3^x)^2-20\\cdot3^x+3^{2}=0$. Đặt $t=3^x$, PT có 2 nghiệm $t_1,t_2$ với $t_1t_2=3^{2}$ (Viète), suy ra $3^{x_1+x_2}=3^{2}\\Leftrightarrow x_1+x_2=2$.",
+    "params": {
+      "a": "3",
+      "N": "20",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p161_q35",
+    "ma_dang": "D67",
+    "ten_dang": "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $4^x-m\\cdot2^{x+1}+5m^2-5=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\nA. $0$.\nB. $3$.\nC. $2$.\nD. $1$.",
+    "dap_an": "D. $1$.",
+    "loi_giai": "Đặt $t=2^x>0$: $t^2-4mt+5m^2-5=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt $\\Leftrightarrow \\Delta>0,\\ 4m>0,\\ 5m^2-5>0 \\Leftrightarrow m\\in\\left(1;\\sqrt{5}\\right)$. Vậy $S=\\{2\\}$, có $1$ phần tử.",
+    "params": {
+      "B": "2",
+      "k": "4",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p161_q35",
+    "ma_dang": "D67",
+    "ten_dang": "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $4^x-m\\cdot2^{x+1}+7m^2-7=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\nA. $1$.\nB. $2$.\nC. $3$.\nD. $4$.",
+    "dap_an": "B. $2$.",
+    "loi_giai": "Đặt $t=2^x>0$: $t^2-5mt+7m^2-7=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt $\\Leftrightarrow \\Delta>0,\\ 5m>0,\\ 7m^2-7>0 \\Leftrightarrow m\\in\\left(1;\\dfrac{2 \\sqrt{21}}{3}\\right)$. Vậy $S=\\{2,3\\}$, có $2$ phần tử.",
+    "params": {
+      "B": "2",
+      "k": "5",
+      "c": "7"
+    }
+  },
+  {
+    "id_goc": "p161_q35",
+    "ma_dang": "D67",
+    "ten_dang": "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $9^x-m\\cdot3^{x+1}+5m^2-5=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\nA. $2$.\nB. $3$.\nC. $1$.\nD. $0$.",
+    "dap_an": "C. $1$.",
+    "loi_giai": "Đặt $t=3^x>0$: $t^2-4mt+5m^2-5=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt $\\Leftrightarrow \\Delta>0,\\ 4m>0,\\ 5m^2-5>0 \\Leftrightarrow m\\in\\left(1;\\sqrt{5}\\right)$. Vậy $S=\\{2\\}$, có $1$ phần tử.",
+    "params": {
+      "B": "3",
+      "k": "4",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p161_q35",
+    "ma_dang": "D67",
+    "ten_dang": "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $9^x-m\\cdot3^{x+1}+7m^2-7=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\nA. $3$.\nB. $2$.\nC. $1$.\nD. $4$.",
+    "dap_an": "B. $2$.",
+    "loi_giai": "Đặt $t=3^x>0$: $t^2-5mt+7m^2-7=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt $\\Leftrightarrow \\Delta>0,\\ 5m>0,\\ 7m^2-7>0 \\Leftrightarrow m\\in\\left(1;\\dfrac{2 \\sqrt{21}}{3}\\right)$. Vậy $S=\\{2,3\\}$, có $2$ phần tử.",
+    "params": {
+      "B": "3",
+      "k": "5",
+      "c": "7"
+    }
+  },
+  {
+    "id_goc": "p161_q35",
+    "ma_dang": "D67",
+    "ten_dang": "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $25^x-m\\cdot5^{x+1}+5m^2-5=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\nA. $2$.\nB. $1$.\nC. $3$.\nD. $0$.",
+    "dap_an": "B. $1$.",
+    "loi_giai": "Đặt $t=5^x>0$: $t^2-4mt+5m^2-5=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt $\\Leftrightarrow \\Delta>0,\\ 4m>0,\\ 5m^2-5>0 \\Leftrightarrow m\\in\\left(1;\\sqrt{5}\\right)$. Vậy $S=\\{2\\}$, có $1$ phần tử.",
+    "params": {
+      "B": "5",
+      "k": "4",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p161_q35",
+    "ma_dang": "D67",
+    "ten_dang": "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $25^x-m\\cdot5^{x+1}+7m^2-7=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\nA. $3$.\nB. $1$.\nC. $2$.\nD. $4$.",
+    "dap_an": "C. $2$.",
+    "loi_giai": "Đặt $t=5^x>0$: $t^2-5mt+7m^2-7=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt $\\Leftrightarrow \\Delta>0,\\ 5m>0,\\ 7m^2-7>0 \\Leftrightarrow m\\in\\left(1;\\dfrac{2 \\sqrt{21}}{3}\\right)$. Vậy $S=\\{2,3\\}$, có $2$ phần tử.",
+    "params": {
+      "B": "5",
+      "k": "5",
+      "c": "7"
+    }
+  },
+  {
+    "id_goc": "p166_q45",
+    "ma_dang": "D69",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình mũ-lôgarit lồng nhau có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $3^x+m=\\log_{3}(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\\in(-15;15)$ để phương trình đã cho có nghiệm?\n\nA. $15$.\nB. $14$.\nC. $29$.\nD. $13$.",
+    "dap_an": "B. $14$.",
+    "loi_giai": "$\\Leftrightarrow 3^x+x=\\log_{3}(x-m)+(x-m)$. Xét $f(t)=3^t+t$ đồng biến trên $\\mathbb{R}$ nên $x=\\log_{3}(x-m)\\Leftrightarrow 3^x=x-m\\Leftrightarrow 3^x-x=-m$. Xét $g(x)=3^x-x$ có $g'(x)=0$ tại $x\\approx-0.0856$, giá trị nhỏ nhất $g_{\\min}\\approx0.9958$. PT có nghiệm khi $m<-0.9958$. Với $m$ nguyên trong $(-15;15)$, có $14$ giá trị.",
+    "params": {
+      "a": "3",
+      "lo": "-15",
+      "hi": "15"
+    }
+  },
+  {
+    "id_goc": "p166_q45",
+    "ma_dang": "D69",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình mũ-lôgarit lồng nhau có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $2^x+m=\\log_{2}(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\\in(-10;10)$ để phương trình đã cho có nghiệm?\n\nA. $9$.\nB. $8$.\nC. $19$.\nD. $10$.",
+    "dap_an": "A. $9$.",
+    "loi_giai": "$\\Leftrightarrow 2^x+x=\\log_{2}(x-m)+(x-m)$. Xét $f(t)=2^t+t$ đồng biến trên $\\mathbb{R}$ nên $x=\\log_{2}(x-m)\\Leftrightarrow 2^x=x-m\\Leftrightarrow 2^x-x=-m$. Xét $g(x)=2^x-x$ có $g'(x)=0$ tại $x\\approx0.5288$, giá trị nhỏ nhất $g_{\\min}\\approx0.9139$. PT có nghiệm khi $m<-0.9139$. Với $m$ nguyên trong $(-10;10)$, có $9$ giá trị.",
+    "params": {
+      "a": "2",
+      "lo": "-10",
+      "hi": "10"
+    }
+  },
+  {
+    "id_goc": "p166_q45",
+    "ma_dang": "D69",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình mũ-lôgarit lồng nhau có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $3^x+m=\\log_{3}(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\\in(-20;20)$ để phương trình đã cho có nghiệm?\n\nA. $19$.\nB. $39$.\nC. $20$.\nD. $18$.",
+    "dap_an": "A. $19$.",
+    "loi_giai": "$\\Leftrightarrow 3^x+x=\\log_{3}(x-m)+(x-m)$. Xét $f(t)=3^t+t$ đồng biến trên $\\mathbb{R}$ nên $x=\\log_{3}(x-m)\\Leftrightarrow 3^x=x-m\\Leftrightarrow 3^x-x=-m$. Xét $g(x)=3^x-x$ có $g'(x)=0$ tại $x\\approx-0.0856$, giá trị nhỏ nhất $g_{\\min}\\approx0.9958$. PT có nghiệm khi $m<-0.9958$. Với $m$ nguyên trong $(-20;20)$, có $19$ giá trị.",
+    "params": {
+      "a": "3",
+      "lo": "-20",
+      "hi": "20"
+    }
+  },
+  {
+    "id_goc": "p166_q45",
+    "ma_dang": "D69",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình mũ-lôgarit lồng nhau có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $5^x+m=\\log_{5}(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\\in(-12;12)$ để phương trình đã cho có nghiệm?\n\nA. $12$.\nB. $11$.\nC. $23$.\nD. $10$.",
+    "dap_an": "B. $11$.",
+    "loi_giai": "$\\Leftrightarrow 5^x+x=\\log_{5}(x-m)+(x-m)$. Xét $f(t)=5^t+t$ đồng biến trên $\\mathbb{R}$ nên $x=\\log_{5}(x-m)\\Leftrightarrow 5^x=x-m\\Leftrightarrow 5^x-x=-m$. Xét $g(x)=5^x-x$ có $g'(x)=0$ tại $x\\approx-0.2957$, giá trị nhỏ nhất $g_{\\min}\\approx0.9170$. PT có nghiệm khi $m<-0.9170$. Với $m$ nguyên trong $(-12;12)$, có $11$ giá trị.",
+    "params": {
+      "a": "5",
+      "lo": "-12",
+      "hi": "12"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{x+2}+64)\\sqrt{2-\\log(4x)}\\ge 0$?\n\nA. $26$.\nB. $24$.\nC. $25$.\nD. $23$.",
+    "dap_an": "B. $24$.",
+    "loi_giai": "ĐKXĐ: $0<x\\le25$. Vì căn $\\ge0$ nên BPT $\\Leftrightarrow 4^x-20\\cdot2^x+64\\ge0\\Leftrightarrow 2^x\\le4$ hoặc $2^x\\ge16\\Leftrightarrow x\\le2$ hoặc $x\\ge4$. Kết hợp ĐKXĐ: $S=(0;2]\\cup[4;25]$, có $24$ số nguyên.",
+    "params": {
+      "F": "4",
+      "D": "2",
+      "lo_x": "2",
+      "hi_x": "4",
+      "dk_hi": "25"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{x+2}+64)\\sqrt{3-\\log(2x)}\\ge 0$?\n\nA. $499$.\nB. $498$.\nC. $501$.\nD. $500$.",
+    "dap_an": "A. $499$.",
+    "loi_giai": "ĐKXĐ: $0<x\\le500$. Vì căn $\\ge0$ nên BPT $\\Leftrightarrow 4^x-20\\cdot2^x+64\\ge0\\Leftrightarrow 2^x\\le4$ hoặc $2^x\\ge16\\Leftrightarrow x\\le2$ hoặc $x\\ge4$. Kết hợp ĐKXĐ: $S=(0;2]\\cup[4;500]$, có $499$ số nguyên.",
+    "params": {
+      "F": "2",
+      "D": "3",
+      "lo_x": "2",
+      "hi_x": "4",
+      "dk_hi": "500"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{x+2}+64)\\sqrt{3-\\log(5x)}\\ge 0$?\n\nA. $198$.\nB. $201$.\nC. $200$.\nD. $199$.",
+    "dap_an": "D. $199$.",
+    "loi_giai": "ĐKXĐ: $0<x\\le200$. Vì căn $\\ge0$ nên BPT $\\Leftrightarrow 4^x-20\\cdot2^x+64\\ge0\\Leftrightarrow 2^x\\le4$ hoặc $2^x\\ge16\\Leftrightarrow x\\le2$ hoặc $x\\ge4$. Kết hợp ĐKXĐ: $S=(0;2]\\cup[4;200]$, có $199$ số nguyên.",
+    "params": {
+      "F": "5",
+      "D": "3",
+      "lo_x": "2",
+      "hi_x": "4",
+      "dk_hi": "200"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{x+2}+64)\\sqrt{2-\\log(2x)}\\ge 0$?\n\nA. $51$.\nB. $48$.\nC. $50$.\nD. $49$.",
+    "dap_an": "D. $49$.",
+    "loi_giai": "ĐKXĐ: $0<x\\le50$. Vì căn $\\ge0$ nên BPT $\\Leftrightarrow 4^x-20\\cdot2^x+64\\ge0\\Leftrightarrow 2^x\\le4$ hoặc $2^x\\ge16\\Leftrightarrow x\\le2$ hoặc $x\\ge4$. Kết hợp ĐKXĐ: $S=(0;2]\\cup[4;50]$, có $49$ số nguyên.",
+    "params": {
+      "F": "2",
+      "D": "2",
+      "lo_x": "2",
+      "hi_x": "4",
+      "dk_hi": "50"
+    }
+  }
+]

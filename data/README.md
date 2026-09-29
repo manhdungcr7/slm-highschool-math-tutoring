@@ -52,14 +52,20 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: 56 of 91 problem types**, 404 generated variants. The
-  remaining 35 problem types (mostly ones requiring case-based bảng biến
-  thiên, transcendental critical points, or multi-variable inequality
-  arguments) are listed as not-yet-covered in that README, rather than
-  silently omitted, to avoid the risk of generating an incorrect variant
-  for a problem type that was not safely parametrizable.
+  **Coverage: 65 of 91 problem types**, 454 generated variants. The
+  remaining 26 problem types are listed as not-yet-covered in that README,
+  rather than silently omitted — most need either a clean answer that
+  depends on an accidental numeric coincidence in the original question,
+  or a two-variable inequality/geometric argument that doesn't reduce to a
+  Vieta-style shortcut. (A first pass had marked more like 35 problem types
+  unsafe; on a second, closer look, most of that was too conservative —
+  a problem type whose final answer is an integer count or a sum/product
+  of roots via Vieta's formulas stays safely checkable even when the
+  intermediate algebra is ugly or irrational, since the independent
+  verifier only needs to re-derive that final number, not each ugly
+  intermediate step.)
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 112 source questions plus
-  all 404 generated variants combined into one file (516 rows), produced
+  all 454 generated variants combined into one file (566 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`
