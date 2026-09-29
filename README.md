@@ -23,8 +23,10 @@ Each directory has its own README with further details.
 
 ## Status
 
-This is early-stage data: 121 questions have been extracted and transcribed
-(2 exact duplicate questions, appearing in two different source exams within
-the same document, were removed), but they have not yet been expanded into
-evaluation variants (the next step, following the same process used for the
-Complex Numbers topic).
+This is early-stage data: 116 questions have been extracted and transcribed.
+From the 123 originally selected candidates, 2 exact duplicates (the same
+question appearing in two different source exams within the document) and 5
+real-world application questions (compound-interest problems) were removed
+to keep the scope to exponential/logarithmic equations and inequalities. The
+remaining questions have not yet been expanded into evaluation variants (the
+next step, following the same process used for the Complex Numbers topic).
