@@ -8,6 +8,8 @@ chinh dinh nghia goc cua bai toan - dam bao dung 100% vi khong dua vao cong
 thuc dong dang nao ca, chi dem that).
 """
 import json
+import random
+import re
 import sys
 from importlib import import_module
 
@@ -166,14 +168,14 @@ def gen_D83_v2(a, K, b, P):
 
 
 def verify_D83_full(params, expected_count):
-    a, K, b, P = (sp.sympify(params[k]) for k in ("a", "K", "b", "P"))
+    a, K, b, P = (int(sp.sympify(params[k])) for k in ("a", "K", "b", "P"))
+    # Independently enumerate the original integer domain. For bases >1,
+    # compare exponents and logarithm arguments directly, avoiding huge powers.
     count = 0
-    for xv in range(-int(K) + 1, 100):
-        if xv + K <= 0:
-            continue
-        f1 = a ** (xv ** 2) - a ** (2 * xv)
-        f2 = sp.log(xv + K, b) - P
-        if float(f1 * f2) <= 1e-9:
+    for xv in range(-K + 1, 100):
+        first_sign = (xv*xv > 2*xv) - (xv*xv < 2*xv)
+        second_sign = ((xv + K) > b**P) - ((xv + K) < b**P)
+        if first_sign * second_sign <= 0:
             count += 1
     return count == expected_count
 
@@ -221,6 +223,38 @@ def verify_D88_full(params, expected_count):
         elif count > 0:
             pass
     return count == expected_count
+
+
+def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=2500):
+    rng = random.Random(seed)
+    current = [row for row in ROWS if row["ma_dang"] == code]
+    seen = {tuple(sorted(row["params"].items())) for row in current}
+    questions = {row["de_bai"] for row in current}
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        try:
+            q, ans, sol, params = gen(*sampler(rng))
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen or q in questions:
+            continue
+        opts = re.findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [re.sub(r"[\s$.,]", "", v) for _, v in opts]
+        if len(opts) != 4 or {k for k,_ in opts} != set("ABCD") or len(set(norm)) != 4:
+            continue
+        try:
+            m = re.search(r"\$\s*(-?\d+)\s*\$", ans)
+            if not m or not verify(params, int(m.group(1))):
+                continue
+        except Exception:
+            continue
+        add_row(code, name, source_id, q, ans, sol, params)
+        seen.add(key); questions.add(q); made += 1
+    print(f"{code}: {made}/{target}")
+    return made
 
 
 def main():
@@ -275,6 +309,19 @@ def main():
                      "p227_q40", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D88", params))
+
+    expand_type("D29", "Solve a parameterized exponential equation by substitution", "p056_q34",
+                gen_D29, verify_D29_full,
+                lambda r: (r.randint(1, 20), r.randint(2, 8), r.choice((1, 2)), r.randint(2, 12)), seed=2901)
+    expand_type("D56", "Count integer solutions of a logarithmic inequality", "p128_q39",
+                gen_D56, verify_D56_full,
+                lambda r: (r.randint(2, 8), r.randint(3, 12), r.randint(1, 4), r.randint(1, 100)), seed=5601)
+    expand_type("D83", "Count integer solutions of an exponential-logarithmic product inequality", "p213_q39",
+                lambda a, b, P: gen_D83_v2(a, b**P-2, b, P), verify_D83_full,
+                lambda r: (r.randint(2, 8), r.randint(2, 12), r.randint(1, 4)), seed=8301)
+    expand_type("D88", "Count integer solutions of a logarithmic-exponential product inequality", "p227_q40",
+                gen_D88, verify_D88_full,
+                lambda r: (r.randint(2, 10), -r.randint(2, 15), r.randint(2, 8)), seed=8801)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round4.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
