@@ -11,9 +11,9 @@ counting problems) to catch bugs in the generator itself. After every batch,
 a repo-wide scan also checks that no question's four answer choices collide
 after rendering — this caught several real bugs (see commit history).
 
-**Current coverage: 69 of 91 problem types** (477 generated variants; 112
-source questions + 477 variants = 589 rows in
-`Mu_Logarit_bien_the_full.csv`/`.xlsx`). The remaining 22 problem types are
+**Current coverage: 78 of 91 problem types** (527 generated variants; 112
+source questions + 527 variants = 639 rows in
+`Mu_Logarit_bien_the_full.csv`/`.xlsx`). The remaining 13 problem types are
 listed below — **not yet implemented**, not silently skipped.
 
 A first pass marked ~35 problem types as "too fragile to parametrize
@@ -46,29 +46,45 @@ safely." On review, most of that call was too conservative:
 | `19_generate_identities_C.py` | D49, D20 |
 | `23_generate_round2.py` | Reclaimed via the Vieta/counting insight: D05, D15, D16, D35, D40, D45, D51, D67, D69 |
 | `24_generate_round3.py` | Reclaimed via the "design backwards from the equality point" insight: D10, D46, D68, D94 |
+| `25_generate_round4.py` | More counting problems, generalized via a fixed sum-of-roots structure in the source questions' quadratic factor: D29, D56, D83, D88 |
+| `26_generate_round5.py` | D22, D24 (clean symbolic formulas), D39 (ratio depends only on one coefficient, not the specific bases), D75, D93 (brute-force-verified counting) |
 | `22_export_all.py` | Combine every batch + the 112 source questions into the final CSV/Excel |
 
 ### Example
 
 ```bash
 cd scripts/generate_questions
-python 11_generate_D01.py   # ... through 24_generate_round3.py
+python 11_generate_D01.py   # ... through 26_generate_round5.py
 python 22_export_all.py
 ```
 
-### Not yet covered (22 problem types)
+### Not yet covered (13 problem types)
 
-D08, D09, D11, D17, D22, D23, D24, D29, D39, D47, D52, D56, D57, D65, D75,
-D78, D79, D83, D84, D88, D89, D93.
+D08, D09, D11, D17, D23, D47, D52, D57, D65, D78, D79, D84, D89.
 
 D09 and D11 are a different kind of "not covered": their correct answer is
 a fully general symbolic relationship (e.g. "$\ln(ab)=\ln a+\ln b$ for any
 positive $a,b$") with no concrete number in the question to vary in the
 first place — there's no numeric variant to generate, not a hard one.
 
-The rest are candidates for a further round, most likely via the same two
-insights above (several of D75, D79, D83, D84, D88, D89, D93 look like
-they'd yield to the same numeric-threshold-plus-brute-force-count approach
-used for D51/D69, and D65/D78 look like further "design backwards"
-Cauchy-Schwarz/tangent-line candidates like D68/D94) — they simply haven't
-been attempted yet.
+The other 11 were attempted and set aside, each for a specific reason:
+- **D79, D84, D89**: existence-counting problems where the "does a real
+  $x$ exist in this continuous interval" check only has a numeric
+  (grid-search) verifier available, and that search proved too imprecise
+  near interval endpoints to trust (confirmed off-by-one against the
+  original's own answer on the first test case) — a case-based calculus
+  argument like the original's would be needed instead of brute force.
+- **D47, D57**: the Cauchy-Schwarz bound on a circle-and-line system
+  produces a bound with a transcendental log-ratio exponent for most
+  coefficient choices, not the clean rational bound D94's construction
+  produces — the "design backwards" trick doesn't carry over directly.
+- **D65, D78, D17**: single/two-variable min/max problems whose tangent-
+  line or Cô-si equality point is harder to invert cleanly than D68's
+  (D68's two conditions reduce to one linear equation in the unknowns;
+  these don't reduce as simply).
+- **D08**: a change-of-base identity through a shared value that didn't
+  reproduce the original's answer formula on a re-derivation check — the
+  mapping between the general form and the original's specific numbers
+  needs more careful re-work.
+- **D23, D52**: multi-case bảng biến thiên / "read off a table" arguments
+  with no Vieta-style or brute-force-countable shortcut identified yet.

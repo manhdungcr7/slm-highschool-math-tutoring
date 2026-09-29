@@ -52,17 +52,21 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: 69 of 91 problem types**, 477 generated variants. The
-  remaining 22 problem types are listed as not-yet-covered in that README,
-  rather than silently omitted. (A first pass had marked ~35 problem types
-  unsafe; two later rounds reclaimed 13 of them by finding they either (a)
-  only need their FINAL answer — an integer count, or a sum/product of
-  roots via Vieta's formulas — to be checkable, regardless of how ugly the
-  intermediate algebra is, or (b) can be built by designing backwards from
+  **Coverage: 78 of 91 problem types**, 527 generated variants. The
+  remaining 13 problem types are listed as not-yet-covered in that README,
+  rather than silently omitted, each with the specific reason it was set
+  aside (a fragile continuous-domain existence check, a bound that doesn't
+  come out clean, a re-derivation that didn't match the original, etc.) —
+  not a blanket "too hard". (A first pass had marked ~35 problem types
+  unsafe; four later rounds reclaimed 22 of them by finding they either
+  (a) only need their FINAL answer — an integer count, or a sum/product of
+  roots via Vieta's formulas — to be checkable regardless of how ugly the
+  intermediate algebra is, (b) can be built by designing backwards from
   the equality/critical point of an inequality instead of solving forwards
-  for arbitrary coefficients.)
+  for arbitrary coefficients, or (c) reduce to a symbolic formula that
+  doesn't actually depend on the specific numbers at all.)
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 112 source questions plus
-  all 477 generated variants combined into one file (589 rows), produced
+  all 527 generated variants combined into one file (639 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`
