@@ -1,0 +1,152 @@
+[
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 4\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=7$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=8$.\nD. $P_{\\min}=9$.",
+    "dap_an": "C. $P_{\\min}=8$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{4}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{4}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=8$ là giá trị nhỏ nhất. Vậy $P_{\\min}=8$.",
+    "params": {
+      "k1": "1",
+      "k2": "4",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 8\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=32$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=17$.\nD. $P_{\\min}=15$.",
+    "dap_an": "B. $P_{\\min}=16$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{8}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{8}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=16$ là giá trị nhỏ nhất. Vậy $P_{\\min}=16$.",
+    "params": {
+      "k1": "2",
+      "k2": "8",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 12\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=23$.\nB. $P_{\\min}=25$.\nC. $P_{\\min}=24$.\nD. $P_{\\min}=48$.",
+    "dap_an": "C. $P_{\\min}=24$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=3(1+t)^2+\\dfrac{12}{t}=f(t)$. Xét $f'(t)=6(1+t)-\\dfrac{12}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=24$ là giá trị nhỏ nhất. Vậy $P_{\\min}=24$.",
+    "params": {
+      "k1": "3",
+      "k2": "12",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 3\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=30$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=15$.\nD. $P_{\\min}=14$.",
+    "dap_an": "C. $P_{\\min}=15$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=4(1+t)^2+\\dfrac{3}{t}=f(t)$. Xét $f'(t)=8(1+t)-\\dfrac{3}{t^2}$, $f'(t)=0$ tại $t=\\dfrac{1}{2}$ (nghiệm dương duy nhất). $f\\left(\\dfrac{1}{2}\\right)=15$ là giá trị nhỏ nhất. Vậy $P_{\\min}=15$.",
+    "params": {
+      "k1": "4",
+      "k2": "3",
+      "t0": "1/2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 20\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=39$.\nB. $P_{\\min}=40$.\nC. $P_{\\min}=80$.\nD. $P_{\\min}=41$.",
+    "dap_an": "B. $P_{\\min}=40$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=5(1+t)^2+\\dfrac{20}{t}=f(t)$. Xét $f'(t)=10(1+t)-\\dfrac{20}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=40$ là giá trị nhỏ nhất. Vậy $P_{\\min}=40$.",
+    "params": {
+      "k1": "5",
+      "k2": "20",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 6\\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=48$.\nB. $P_{\\min}=49$.\nC. $P_{\\min}=47$.\nD. $P_{\\min}=96$.",
+    "dap_an": "A. $P_{\\min}=48$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=6(1+t)^2+\\dfrac{24}{t}=f(t)$. Xét $f'(t)=12(1+t)-\\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=48$ là giá trị nhỏ nhất. Vậy $P_{\\min}=48$.",
+    "params": {
+      "k1": "6",
+      "k2": "24",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 7\\log^2_{\\frac{a}{b}}a + 28\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=55$.\nB. $P_{\\min}=57$.\nC. $P_{\\min}=56$.\nD. $P_{\\min}=112$.",
+    "dap_an": "C. $P_{\\min}=56$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=7(1+t)^2+\\dfrac{28}{t}=f(t)$. Xét $f'(t)=14(1+t)-\\dfrac{28}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=56$ là giá trị nhỏ nhất. Vậy $P_{\\min}=56$.",
+    "params": {
+      "k1": "7",
+      "k2": "28",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=42$.\nB. $P_{\\min}=21$.\nC. $P_{\\min}=22$.\nD. $P_{\\min}=20$.",
+    "dap_an": "B. $P_{\\min}=21$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{24}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=21$ là giá trị nhỏ nhất. Vậy $P_{\\min}=21$.",
+    "params": {
+      "k1": "1",
+      "k2": "24",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 48\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=84$.\nB. $P_{\\min}=42$.\nC. $P_{\\min}=43$.\nD. $P_{\\min}=41$.",
+    "dap_an": "B. $P_{\\min}=42$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{48}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{48}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=42$ là giá trị nhỏ nhất. Vậy $P_{\\min}=42$.",
+    "params": {
+      "k1": "2",
+      "k2": "48",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 72\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=62$.\nB. $P_{\\min}=126$.\nC. $P_{\\min}=63$.\nD. $P_{\\min}=64$.",
+    "dap_an": "C. $P_{\\min}=63$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=3(1+t)^2+\\dfrac{72}{t}=f(t)$. Xét $f'(t)=6(1+t)-\\dfrac{72}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=63$ là giá trị nhỏ nhất. Vậy $P_{\\min}=63$.",
+    "params": {
+      "k1": "3",
+      "k2": "72",
+      "t0": "2"
+    }
+  }
+]

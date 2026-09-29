@@ -3820,3 +3820,63 @@ A. $13$.
 B. $11$.
 C. $12$.
 D. $10$.",B. $11$.,"Xét $f(x)=4(x-1)e^x-y(e^x+xy-x^2-3)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\in(1;5)$ khi và chỉ khi $f(1)\cdot f(5)\le0$. Kiểm tra trực tiếp cho $y\in\mathbb{Z}^+$ ta được $y\in\{2,\ldots,12\}$, có $11$ giá trị."
+648,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = \log^2_{\frac{a}{b}}a + 4\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=7$.
+B. $P_{\min}=16$.
+C. $P_{\min}=8$.
+D. $P_{\min}=9$.",C. $P_{\min}=8$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=(1+t)^2+\dfrac{4}{t}=f(t)$. Xét $f'(t)=2(1+t)-\dfrac{4}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\left(1\right)=8$ là giá trị nhỏ nhất. Vậy $P_{\min}=8$."
+649,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 2\log^2_{\frac{a}{b}}a + 8\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=32$.
+B. $P_{\min}=16$.
+C. $P_{\min}=17$.
+D. $P_{\min}=15$.",B. $P_{\min}=16$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=2(1+t)^2+\dfrac{8}{t}=f(t)$. Xét $f'(t)=4(1+t)-\dfrac{8}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\left(1\right)=16$ là giá trị nhỏ nhất. Vậy $P_{\min}=16$."
+650,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 3\log^2_{\frac{a}{b}}a + 12\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=23$.
+B. $P_{\min}=25$.
+C. $P_{\min}=24$.
+D. $P_{\min}=48$.",C. $P_{\min}=24$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=3(1+t)^2+\dfrac{12}{t}=f(t)$. Xét $f'(t)=6(1+t)-\dfrac{12}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\left(1\right)=24$ là giá trị nhỏ nhất. Vậy $P_{\min}=24$."
+651,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 4\log^2_{\frac{a}{b}}a + 3\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=30$.
+B. $P_{\min}=16$.
+C. $P_{\min}=15$.
+D. $P_{\min}=14$.",C. $P_{\min}=15$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=4(1+t)^2+\dfrac{3}{t}=f(t)$. Xét $f'(t)=8(1+t)-\dfrac{3}{t^2}$, $f'(t)=0$ tại $t=\dfrac{1}{2}$ (nghiệm dương duy nhất). $f\left(\dfrac{1}{2}\right)=15$ là giá trị nhỏ nhất. Vậy $P_{\min}=15$."
+652,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 5\log^2_{\frac{a}{b}}a + 20\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=39$.
+B. $P_{\min}=40$.
+C. $P_{\min}=80$.
+D. $P_{\min}=41$.",B. $P_{\min}=40$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=5(1+t)^2+\dfrac{20}{t}=f(t)$. Xét $f'(t)=10(1+t)-\dfrac{20}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\left(1\right)=40$ là giá trị nhỏ nhất. Vậy $P_{\min}=40$."
+653,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 6\log^2_{\frac{a}{b}}a + 24\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=48$.
+B. $P_{\min}=49$.
+C. $P_{\min}=47$.
+D. $P_{\min}=96$.",A. $P_{\min}=48$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=6(1+t)^2+\dfrac{24}{t}=f(t)$. Xét $f'(t)=12(1+t)-\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\left(1\right)=48$ là giá trị nhỏ nhất. Vậy $P_{\min}=48$."
+654,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 7\log^2_{\frac{a}{b}}a + 28\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=55$.
+B. $P_{\min}=57$.
+C. $P_{\min}=56$.
+D. $P_{\min}=112$.",C. $P_{\min}=56$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=7(1+t)^2+\dfrac{28}{t}=f(t)$. Xét $f'(t)=14(1+t)-\dfrac{28}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\left(1\right)=56$ là giá trị nhỏ nhất. Vậy $P_{\min}=56$."
+655,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = \log^2_{\frac{a}{b}}a + 24\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=42$.
+B. $P_{\min}=21$.
+C. $P_{\min}=22$.
+D. $P_{\min}=20$.",B. $P_{\min}=21$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=(1+t)^2+\dfrac{24}{t}=f(t)$. Xét $f'(t)=2(1+t)-\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\left(2\right)=21$ là giá trị nhỏ nhất. Vậy $P_{\min}=21$."
+656,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 2\log^2_{\frac{a}{b}}a + 48\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=84$.
+B. $P_{\min}=42$.
+C. $P_{\min}=43$.
+D. $P_{\min}=41$.",B. $P_{\min}=42$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=2(1+t)^2+\dfrac{48}{t}=f(t)$. Xét $f'(t)=4(1+t)-\dfrac{48}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\left(2\right)=42$ là giá trị nhỏ nhất. Vậy $P_{\min}=42$."
+657,D17,Nhân bản,p021_q21,chuan,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\min}$ của biểu thức $P = 3\log^2_{\frac{a}{b}}a + 72\log_b\left(\dfrac{a}{b}\right)$.
+
+A. $P_{\min}=62$.
+B. $P_{\min}=126$.
+C. $P_{\min}=63$.
+D. $P_{\min}=64$.",C. $P_{\min}=63$.,"Đặt $t=\log_{a/b}b>0$. Ta có $\log_{a/b}a=1+t$ và $\log_b(a/b)=\dfrac1t$, nên $P=3(1+t)^2+\dfrac{72}{t}=f(t)$. Xét $f'(t)=6(1+t)-\dfrac{72}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\left(2\right)=63$ là giá trị nhỏ nhất. Vậy $P_{\min}=63$."
