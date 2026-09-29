@@ -5,9 +5,10 @@ Each generator computes the answer and then verifies it independently with a
 different method. A repository-wide scan also checks that every generated
 question has exactly four distinct answer choices labeled A-D.
 
-**Current coverage: 88 of 89 retained problem types** (607 generated
-variants; 110 retained source questions + 607 variants = 717 rows in the
-combined CSV/XLSX). The remaining uncovered retained type is explained below.
+**Current coverage: all 89 retained problem types** (611 generated
+variants; 110 retained source questions + 611 variants = 721 rows in the
+combined CSV/XLSX). D09 and D11 are excluded because they have no numeric
+inputs to vary.
 
 An initial pass treated many types as unsafe to vary. Later rounds recovered
 types by deriving only the final answer independently, designing parameters
@@ -32,27 +33,17 @@ numbers.
 | `27_generate_round6.py` | D79, D89; endpoint signs and continuity (IVT), checked against direct evaluations |
 | `28_generate_round7.py` | D17, D65; numeric minimization checks independent of the derived formulas |
 | `29_generate_round8.py` | D08 (direct change-of-base evaluation), D23 (numerical root bracketing), D47 (continuous-variable search), D52 (high-precision log comparison), D57 (direct integer-pair enumeration), D78 (dense grid in the original feasible region) |
+| `30_generate_round9.py` | D84; independent endpoint-sign enumeration at 80-digit precision |
 
 ### Example
 
 ```bash
-python scripts/generate_questions/29_generate_round8.py
+python scripts/generate_questions/30_generate_round9.py
 python scripts/generate_questions/22_export_all.py
 ```
 
-D09 and D11 are excluded from the retained source set because they are general symbolic questions without numbers to vary.
-
-### Not yet covered (1 retained problem type)
-
-D84: initially set aside after a low-precision numeric check
-  (naive `nsolve`/grid search) appeared to contradict the source answer.
-  A high-precision re-check (60 decimal digits) confirmed the source
-  answer (14) is correct: the two boundary-case roots ("y=-1, y=-2 thỏa
-  mãn" in the original) sit in an x-interval only ~1e-15 wide, thin enough
-  to fool an ordinary-precision solve. This is the same kind of thin-root
-  trap this dataset's build process already ran into once before (see
-  the p216_q45 numeric verification note in the project history) — this
-  question is in fact p216_q45. So D84 stays a valid source question; it
-  simply doesn't have a variant generator written for it yet, since safely
-  reproducing its two-boundary-case structure for arbitrary parameters
-  needs more careful work than the other counting problems.
+D09 and D11 are excluded from the retained source set because they are general
+symbolic questions without numbers to vary. D84 is covered by four variants,
+with interval endpoints U = 3, 5, 6, 7 and linked exponent coefficient 3U.
+The generator follows the source solution; an independent verifier counts
+endpoint signs at 80-digit precision.

@@ -54,12 +54,13 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: 88 of 89 retained problem types**, 607 generated variants.
-  D09 and D11 are excluded from the retained set because they are general symbolic questions without numerical inputs to vary. The only retained type without generated variants is D84; a 60-digit-precision re-check confirmed its source answer (14) is correct, with two roots lying in an interval only about 1e-15 wide. Round 8 added D08,
-  D23, D47, D52, D57, and D78 using independent verifiers; see the generator
-  README for each method.
+  **Coverage: all 89 retained problem types**, 611 generated variants.
+  D09 and D11 are excluded because they are symbolic questions without numbers
+  to vary. D84 now has four variants, checked with an independent 80-digit
+  endpoint-sign verifier. Round 8 added D08, D23, D47, D52, D57, and D78;
+  round 9 added D84. See the generator README for the independent check.
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 110 retained source questions plus
-  607 generated variants combined into one file (717 rows), produced
+  611 generated variants combined into one file (721 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`
