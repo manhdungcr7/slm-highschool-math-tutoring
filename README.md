@@ -4,31 +4,46 @@ This repository accompanies an undergraduate thesis studying whether a small
 language model (SLM) can be guided to answer every multiple-choice
 high-school mathematics question correctly, across more than one topic.
 
-The first topic studied, Complex Numbers, was published as a separate paper
-submitted to SoICT 2026; its code and data are in a dedicated repository:
+The canonical, actively-maintained repository for each topic's own paper
+submission stays separate (see below); this repository consolidates a copy
+of the data, scripts, and results from every topic in one place for
+convenience.
+
+## Topics
+
+### 1. Complex Numbers (published as a SoICT 2026 submission)
+
+Canonical repository:
 [react-calculator-complex-numbers](https://github.com/manhdungcr7/react-calculator-complex-numbers).
+A full copy of that repository's tracked files (data, scripts, experiment
+results) is mirrored here under [`so_phuc/`](so_phuc/) so both topics can be
+browsed side by side. `so_phuc/README.md` is that repository's own README.
 
-This repository holds the data and scripts for the **second topic**,
-**Exponential and Logarithm** equations and inequalities, extracted from the
-same source review document.
+### 2. Exponential and Logarithm equations and inequalities
 
-## Repository structure
+This is the second topic, extracted from the same source review document
+used for Complex Numbers. Its data and scripts live at the top level of
+this repository (this is the canonical location for this topic — there is
+no separate dedicated repository for it).
 
 | Directory | Contents |
 |---|---|
 | [`scripts/pdf_to_markdown/`](scripts/pdf_to_markdown/) | Script that extracts candidate questions from the source PDF |
-| [`data/questions/mu_logarit_extraction/`](data/questions/mu_logarit_extraction/) | The extracted and transcribed question set |
+| [`data/questions/mu_logarit_extraction/`](data/questions/mu_logarit_extraction/) | The extracted/transcribed question set and its problem-type classification |
+| [`data/results/`](data/results/) | Model-solving results (ChatGPT, Gemini, Qwen3-4B zero-shot) |
 
 Each directory has its own README with further details.
 
 ## Status
 
-This is early-stage data: 112 questions have been extracted and transcribed.
-From the 123 originally selected candidates, 2 exact duplicates (the same
-question appearing in two different source exams within the document) and 9
-real-world application questions (compound interest, loan repayment,
-bacterial/population growth, ad-campaign and forest-area growth models) were
-removed to keep the scope to exponential/logarithmic equations and
-inequalities. The remaining questions have not yet been expanded into
-evaluation variants (the next step, following the same process used for the
-Complex Numbers topic).
+**Exponential and Logarithm**: 112 questions extracted, transcribed, and
+classified into 94 problem types (Mã dạng). From the 123 originally selected
+candidates, 2 exact duplicates and 9 real-world application questions
+(compound interest, loan repayment, bacterial/population growth,
+ad-campaign and forest-area growth models) were removed to keep the scope
+to exponential/logarithmic equations and inequalities. Zero-shot
+model-solving results on these 112 questions: ChatGPT 92 correct / 18
+incorrect / 2 undetermined, Gemini 111 correct / 1 incorrect, Qwen3-4B
+102 correct / 10 undetermined. The next step is generating evaluation
+variants per problem type, following the same process used for the Complex
+Numbers topic.

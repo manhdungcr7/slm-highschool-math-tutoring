@@ -26,3 +26,24 @@ included in this repository.
   (compound interest, loan repayment, bacterial/population growth,
   ad-campaign and forest-area growth models — kept out to focus the scope on
   exponential/logarithmic equations and inequalities) were removed.
+- `Mu_Logarit_112_cau_phan_dang.jsonl` / `.csv` / `.xlsx`: problem-type
+  classification of the same 112 questions (columns: `Ma dang`, `Ten dang`,
+  plus the question text and correct answer for reference). Grouping
+  criterion: two questions share a Mã dạng only when they share the same
+  given-data form, the same thing to compute/decide, and the same solution
+  method. 94 unique problem types; 11 of them group 2-5 questions, the
+  remaining 83 are singletons.
+- `Mu_Logarit_112_cau_goc_ket_qua_mo_hinh.csv` / `.xlsx`: ChatGPT (`gpt-4o`)
+  and Gemini (`gemini-2.5-flash`) zero-shot answers on the 112 questions,
+  produced with
+  [`../scripts/pdf_to_markdown/21_solve_mu_logarit_with_models.py`](../scripts/pdf_to_markdown/21_solve_mu_logarit_with_models.py)
+  and graded with
+  [`../scripts/pdf_to_markdown/22_grade_mu_logarit_answers.py`](../scripts/pdf_to_markdown/22_grade_mu_logarit_answers.py).
+
+## `results/qwen3_4b_zeroshot/`
+
+- `ketqua_Qwen3-4B_think_mulogarit112.csv` / `.xlsx`: Qwen3-4B zero-shot
+  answers on the same 112 questions, run on Kaggle (2×T4 GPU, vLLM) with the
+  same prompt and generation settings used for the Complex Numbers topic
+  (`ENABLE_THINKING=True`, temperature 0.6, top_p 0.95, top_k 20, seed 42,
+  max_new_tokens 9216).
