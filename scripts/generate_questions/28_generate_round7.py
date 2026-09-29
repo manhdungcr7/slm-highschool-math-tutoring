@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Round 7: D17 (thiet ke nguoc chon t roi suy k2, giong D68/D94)."""
 import json
+import math
+import random
+import re
 import sys
 from importlib import import_module
 
@@ -66,14 +69,12 @@ def gen_D17(k1, t_num, t_den):
 
 
 def verify_D17(params):
-    k1, k2, t0 = (sp.sympify(params[k]) for k in ("k1", "k2", "t0"))
-    t = sp.Symbol("t", positive=True)
-    P = k1 * (1 + t) ** 2 + k2 / t
-    # doc lap: lay mau nhieu diem quanh t0 de xac nhan la cuc tieu (khong dung dao ham)
-    Pmin_claimed = float(P.subs(t, t0))
-    samples = [P.subs(t, sp.Rational(i, 1000)) for i in range(1, 5000, 5)]
-    numeric_min = min(float(s) for s in samples)
-    return abs(numeric_min - Pmin_claimed) < 0.05 and Pmin_claimed <= numeric_min + 1e-6
+    k1, k2, t0 = (float(sp.sympify(params[k])) for k in ("k1", "k2", "t0"))
+    claimed = k1 * (1 + t0) ** 2 + k2 / t0
+    samples = [k1 * (1 + i/1000.0) ** 2 + k2 / (i/1000.0)
+               for i in range(1, 5000, 5)]
+    sampled_min = min(samples)
+    return abs(sampled_min - claimed) < 0.05 and claimed <= sampled_min + 1e-6
 
 
 # ===================== D65: log_b((C-xy)/(mx+ny))=bxy+mx+ny-K, K=1+bC ======
@@ -116,28 +117,52 @@ def gen_D65(b, C, m, n):
 
 
 def verify_D65(params):
-    b, C, m, n = (sp.sympify(params[k]) for k in ("b", "C", "m", "n"))
-    xv = sp.Symbol("xv", positive=True)
-    yv_expr = (b * C - m * xv) / (b * xv + n)
-    P = xv + yv_expr
-    # doc lap: lay mau nhieu diem tren mien hop le, tim min so hoc, so sanh voi gia tri claim
-    x_hi = sp.Rational(b * C, m) if m != 0 else 100
+    b, C, m, n = (float(sp.sympify(params[k])) for k in ("b", "C", "m", "n"))
+    x_hi = b * C / m if m > 0 else 100.0
     samples = []
-    N = 2000
-    for i in range(1, N):
-        xv_s = sp.Rational(i, N) * x_hi
-        yv_s = yv_expr.subs(xv, xv_s)
-        if yv_s > 0:
-            samples.append(float(xv_s + yv_s))
+    for i in range(1, 2000):
+        xv = (i / 2000.0) * x_hi
+        yv = (b * C - m * xv) / (b * xv + n)
+        if xv > 0 and yv > 0:
+            samples.append(xv + yv)
     if not samples:
         return False
-    numeric_min = min(samples)
-    Pd = sp.diff(P, xv)
-    crit = [c for c in sp.solve(sp.Eq(sp.numer(sp.together(Pd)), 0), xv) if c.is_real and c > 0]
-    if len(crit) != 1:
-        return False
-    Pmin_claimed = float(P.subs(xv, crit[0]))
-    return abs(numeric_min - Pmin_claimed) < 0.02
+    # Independent dense numeric search over the positive feasible interval.
+    x0 = (math.sqrt(m*n + b*b*C) - n) / b
+    y0 = (b*C - m*x0) / (b*x0 + n)
+    claimed_numeric_min = x0 + y0
+    return y0 > 0 and abs(min(samples) - claimed_numeric_min) < 0.02
+
+
+def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=5000):
+    rng = random.Random(seed)
+    current = [r for r in ROWS if r["ma_dang"] == code]
+    seen = {tuple(sorted(r["params"].items())) for r in current}
+    questions = {r["de_bai"] for r in current}
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        try:
+            q, ans, sol, params = gen(*sampler(rng))
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen or q in questions:
+            continue
+        opts = re.findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [re.sub(r"[\s$.,]", "", v) for _, v in opts]
+        if len(opts) != 4 or {k for k,_ in opts} != set("ABCD") or len(set(norm)) != 4:
+            continue
+        try:
+            if not verify(params):
+                continue
+        except Exception:
+            continue
+        add_row(code, name, source_id, q, ans, sol, params)
+        seen.add(key); questions.add(q); made += 1
+    print(f"{code}: {made}/{target}")
+    return made
 
 
 def main():
@@ -165,6 +190,12 @@ def main():
                             "đặc trưng", "p148_q47", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D65", params))
+
+    expand_type("D17", "Minimize a logarithmic expression by substitution", "p021_q21",
+                gen_D17, verify_D17, lambda r: (r.randint(1, 50), r.randint(1, 30), 1), seed=1701)
+    expand_type("D65", "Minimize a two-variable expression under a logarithmic constraint", "p148_q47",
+                gen_D65, verify_D65,
+                lambda r: (r.randint(2, 12), r.randint(1, 40), r.randint(1, 40), r.randint(1, 40)), seed=6501)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round7.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)

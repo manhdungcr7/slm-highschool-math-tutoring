@@ -5,8 +5,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 4\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=9$.\nB. $P_{\\min}=8$.\nC. $P_{\\min}=16$.\nD. $P_{\\min}=7$.",
-    "dap_an": "B. $P_{\\min}=8$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 4\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=7$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=9$.\nD. $P_{\\min}=8$.",
+    "dap_an": "D. $P_{\\min}=8$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{4}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{4}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=8$ là giá trị nhỏ nhất. Vậy $P_{\\min}=8$.",
     "params": {
       "k1": "1",
@@ -20,8 +20,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 8\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=32$.\nB. $P_{\\min}=17$.\nC. $P_{\\min}=16$.\nD. $P_{\\min}=15$.",
-    "dap_an": "C. $P_{\\min}=16$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 8\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=17$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=32$.\nD. $P_{\\min}=15$.",
+    "dap_an": "B. $P_{\\min}=16$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{8}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{8}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=16$ là giá trị nhỏ nhất. Vậy $P_{\\min}=16$.",
     "params": {
       "k1": "2",
@@ -35,8 +35,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 12\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=48$.\nB. $P_{\\min}=24$.\nC. $P_{\\min}=25$.\nD. $P_{\\min}=23$.",
-    "dap_an": "B. $P_{\\min}=24$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 12\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=24$.\nB. $P_{\\min}=48$.\nC. $P_{\\min}=25$.\nD. $P_{\\min}=23$.",
+    "dap_an": "A. $P_{\\min}=24$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=3(1+t)^2+\\dfrac{12}{t}=f(t)$. Xét $f'(t)=6(1+t)-\\dfrac{12}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=24$ là giá trị nhỏ nhất. Vậy $P_{\\min}=24$.",
     "params": {
       "k1": "3",
@@ -50,8 +50,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 3\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=16$.\nB. $P_{\\min}=14$.\nC. $P_{\\min}=15$.\nD. $P_{\\min}=30$.",
-    "dap_an": "C. $P_{\\min}=15$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 3\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=16$.\nB. $P_{\\min}=30$.\nC. $P_{\\min}=14$.\nD. $P_{\\min}=15$.",
+    "dap_an": "D. $P_{\\min}=15$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=4(1+t)^2+\\dfrac{3}{t}=f(t)$. Xét $f'(t)=8(1+t)-\\dfrac{3}{t^2}$, $f'(t)=0$ tại $t=\\dfrac{1}{2}$ (nghiệm dương duy nhất). $f\\left(\\dfrac{1}{2}\\right)=15$ là giá trị nhỏ nhất. Vậy $P_{\\min}=15$.",
     "params": {
       "k1": "4",
@@ -65,8 +65,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 20\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=40$.\nB. $P_{\\min}=80$.\nC. $P_{\\min}=41$.\nD. $P_{\\min}=39$.",
-    "dap_an": "A. $P_{\\min}=40$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 20\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=41$.\nB. $P_{\\min}=80$.\nC. $P_{\\min}=40$.\nD. $P_{\\min}=39$.",
+    "dap_an": "C. $P_{\\min}=40$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=5(1+t)^2+\\dfrac{20}{t}=f(t)$. Xét $f'(t)=10(1+t)-\\dfrac{20}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=40$ là giá trị nhỏ nhất. Vậy $P_{\\min}=40$.",
     "params": {
       "k1": "5",
@@ -80,8 +80,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 6\\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=96$.\nB. $P_{\\min}=48$.\nC. $P_{\\min}=49$.\nD. $P_{\\min}=47$.",
-    "dap_an": "B. $P_{\\min}=48$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 6\\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=48$.\nB. $P_{\\min}=47$.\nC. $P_{\\min}=96$.\nD. $P_{\\min}=49$.",
+    "dap_an": "A. $P_{\\min}=48$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=6(1+t)^2+\\dfrac{24}{t}=f(t)$. Xét $f'(t)=12(1+t)-\\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=48$ là giá trị nhỏ nhất. Vậy $P_{\\min}=48$.",
     "params": {
       "k1": "6",
@@ -95,8 +95,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 7\\log^2_{\\frac{a}{b}}a + 28\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=55$.\nB. $P_{\\min}=56$.\nC. $P_{\\min}=57$.\nD. $P_{\\min}=112$.",
-    "dap_an": "B. $P_{\\min}=56$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 7\\log^2_{\\frac{a}{b}}a + 28\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=56$.\nB. $P_{\\min}=57$.\nC. $P_{\\min}=112$.\nD. $P_{\\min}=55$.",
+    "dap_an": "A. $P_{\\min}=56$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=7(1+t)^2+\\dfrac{28}{t}=f(t)$. Xét $f'(t)=14(1+t)-\\dfrac{28}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=56$ là giá trị nhỏ nhất. Vậy $P_{\\min}=56$.",
     "params": {
       "k1": "7",
@@ -110,8 +110,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=22$.\nB. $P_{\\min}=21$.\nC. $P_{\\min}=42$.\nD. $P_{\\min}=20$.",
-    "dap_an": "B. $P_{\\min}=21$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=21$.\nB. $P_{\\min}=42$.\nC. $P_{\\min}=22$.\nD. $P_{\\min}=20$.",
+    "dap_an": "A. $P_{\\min}=21$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{24}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=21$ là giá trị nhỏ nhất. Vậy $P_{\\min}=21$.",
     "params": {
       "k1": "1",
@@ -125,8 +125,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 48\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=42$.\nB. $P_{\\min}=43$.\nC. $P_{\\min}=84$.\nD. $P_{\\min}=41$.",
-    "dap_an": "A. $P_{\\min}=42$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 48\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=41$.\nB. $P_{\\min}=42$.\nC. $P_{\\min}=43$.\nD. $P_{\\min}=84$.",
+    "dap_an": "B. $P_{\\min}=42$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{48}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{48}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=42$ là giá trị nhỏ nhất. Vậy $P_{\\min}=42$.",
     "params": {
       "k1": "2",
@@ -140,8 +140,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 72\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=62$.\nB. $P_{\\min}=126$.\nC. $P_{\\min}=63$.\nD. $P_{\\min}=64$.",
-    "dap_an": "C. $P_{\\min}=63$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 72\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=64$.\nB. $P_{\\min}=63$.\nC. $P_{\\min}=126$.\nD. $P_{\\min}=62$.",
+    "dap_an": "B. $P_{\\min}=63$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=3(1+t)^2+\\dfrac{72}{t}=f(t)$. Xét $f'(t)=6(1+t)-\\dfrac{72}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=63$ là giá trị nhỏ nhất. Vậy $P_{\\min}=63$.",
     "params": {
       "k1": "3",
@@ -155,8 +155,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.\nB. $P_{\\min}=-2 + \\dfrac{4 \\sqrt{11}}{3}$.\nC. $P_{\\min}=1 - \\dfrac{2 \\sqrt{11}}{3}$.\nD. $P_{\\min}=\\dfrac{2 \\sqrt{11}}{3}$.",
-    "dap_an": "A. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{2 \\sqrt{11}}{3}$.\nB. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.\nC. $P_{\\min}=1 - \\dfrac{2 \\sqrt{11}}{3}$.\nD. $P_{\\min}=-2 + \\dfrac{4 \\sqrt{11}}{3}$.",
+    "dap_an": "B. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
     "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(1-xy)\\right)=f(x+2y)$, suy ra $3(1-xy)=x+2y\\Rightarrow y=\\dfrac{3-x}{3x+2}$ (với $0<x<3$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{2}{3} + \\dfrac{\\sqrt{11}}{3}$, $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
     "params": {
       "b": "3",
@@ -171,8 +171,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{1-xy}{x+y}=2xy+x+y-3$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\sqrt{5}$.\nB. $P_{\\min}=1 - \\sqrt{5}$.\nC. $P_{\\min}=-1 + \\sqrt{5}$.\nD. $P_{\\min}=-2 + 2 \\sqrt{5}$.",
-    "dap_an": "C. $P_{\\min}=-1 + \\sqrt{5}$.",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{1-xy}{x+y}=2xy+x+y-3$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\sqrt{5}$.\nB. $P_{\\min}=-1 + \\sqrt{5}$.\nC. $P_{\\min}=1 - \\sqrt{5}$.\nD. $P_{\\min}=-2 + 2 \\sqrt{5}$.",
+    "dap_an": "B. $P_{\\min}=-1 + \\sqrt{5}$.",
     "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(1-xy)\\right)=f(x+y)$, suy ra $2(1-xy)=x+y\\Rightarrow y=\\dfrac{2-x}{2x+1}$ (với $0<x<2$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{2} + \\dfrac{\\sqrt{5}}{2}$, $P_{\\min}=-1 + \\sqrt{5}$.",
     "params": {
       "b": "2",
@@ -187,8 +187,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{2-xy}{x+3y}=3xy+x+3y-7$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.\nB. $P_{\\min}=- \\dfrac{8}{3} + \\dfrac{4 \\sqrt{21}}{3}$.\nC. $P_{\\min}=\\dfrac{4}{3} - \\dfrac{2 \\sqrt{21}}{3}$.\nD. $P_{\\min}=- \\dfrac{1}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
-    "dap_an": "A. $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{2-xy}{x+3y}=3xy+x+3y-7$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{1}{3} + \\dfrac{2 \\sqrt{21}}{3}$.\nB. $P_{\\min}=- \\dfrac{8}{3} + \\dfrac{4 \\sqrt{21}}{3}$.\nC. $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.\nD. $P_{\\min}=\\dfrac{4}{3} - \\dfrac{2 \\sqrt{21}}{3}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
     "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(2-xy)\\right)=f(x+3y)$, suy ra $3(2-xy)=x+3y\\Rightarrow y=\\dfrac{6-x}{3x+3}$ (với $0<x<6$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{\\sqrt{21}}{3}$, $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
     "params": {
       "b": "3",
@@ -203,8 +203,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{2-xy}{x+2y}=2xy+x+2y-5$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-3 + 2 \\sqrt{10}$.\nB. $P_{\\min}=- \\dfrac{1}{2} + \\sqrt{10}$.\nC. $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.\nD. $P_{\\min}=\\dfrac{3}{2} - \\sqrt{10}$.",
-    "dap_an": "C. $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{2-xy}{x+2y}=2xy+x+2y-5$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{3}{2} - \\sqrt{10}$.\nB. $P_{\\min}=- \\dfrac{1}{2} + \\sqrt{10}$.\nC. $P_{\\min}=-3 + 2 \\sqrt{10}$.\nD. $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.",
     "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(2-xy)\\right)=f(x+2y)$, suy ra $2(2-xy)=x+2y\\Rightarrow y=\\dfrac{4-x}{2x+2}$ (với $0<x<4$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{\\sqrt{10}}{2}$, $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.",
     "params": {
       "b": "2",
@@ -219,14 +219,2574 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{1-xy}{2x+y}=3xy+2x+y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=1 - \\dfrac{2 \\sqrt{11}}{3}$.\nB. $P_{\\min}=-2 + \\dfrac{4 \\sqrt{11}}{3}$.\nC. $P_{\\min}=\\dfrac{2 \\sqrt{11}}{3}$.\nD. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
-    "dap_an": "D. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{1-xy}{2x+y}=3xy+2x+y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-2 + \\dfrac{4 \\sqrt{11}}{3}$.\nB. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.\nC. $P_{\\min}=\\dfrac{2 \\sqrt{11}}{3}$.\nD. $P_{\\min}=1 - \\dfrac{2 \\sqrt{11}}{3}$.",
+    "dap_an": "B. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
     "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(1-xy)\\right)=f(2x+y)$, suy ra $3(1-xy)=2x+y\\Rightarrow y=\\dfrac{3-2x}{3x+1}$ (với $0<x<\\dfrac{3}{2}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{3} + \\dfrac{\\sqrt{11}}{3}$, $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
     "params": {
       "b": "3",
       "C": "1",
       "m": "2",
       "n": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 38\\log^2_{\\frac{a}{b}}a + 6080\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=4940$.\nB. $P_{\\min}=2470$.\nC. $P_{\\min}=2471$.\nD. $P_{\\min}=2469$.",
+    "dap_an": "B. $P_{\\min}=2470$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=38(1+t)^2+\\dfrac{6080}{t}=f(t)$. Xét $f'(t)=76(1+t)-\\dfrac{6080}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=2470$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2470$.",
+    "params": {
+      "k1": "38",
+      "k2": "6080",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 50\\log^2_{\\frac{a}{b}}a + 8000\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=6500$.\nB. $P_{\\min}=3249$.\nC. $P_{\\min}=3250$.\nD. $P_{\\min}=3251$.",
+    "dap_an": "C. $P_{\\min}=3250$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=50(1+t)^2+\\dfrac{8000}{t}=f(t)$. Xét $f'(t)=100(1+t)-\\dfrac{8000}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=3250$ là giá trị nhỏ nhất. Vậy $P_{\\min}=3250$.",
+    "params": {
+      "k1": "50",
+      "k2": "8000",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 11\\log^2_{\\frac{a}{b}}a + 44\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=88$.\nB. $P_{\\min}=87$.\nC. $P_{\\min}=176$.\nD. $P_{\\min}=89$.",
+    "dap_an": "A. $P_{\\min}=88$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=11(1+t)^2+\\dfrac{44}{t}=f(t)$. Xét $f'(t)=22(1+t)-\\dfrac{44}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=88$ là giá trị nhỏ nhất. Vậy $P_{\\min}=88$.",
+    "params": {
+      "k1": "11",
+      "k2": "44",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 35\\log^2_{\\frac{a}{b}}a + 840\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=734$.\nB. $P_{\\min}=1470$.\nC. $P_{\\min}=736$.\nD. $P_{\\min}=735$.",
+    "dap_an": "D. $P_{\\min}=735$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=35(1+t)^2+\\dfrac{840}{t}=f(t)$. Xét $f'(t)=70(1+t)-\\dfrac{840}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=735$ là giá trị nhỏ nhất. Vậy $P_{\\min}=735$.",
+    "params": {
+      "k1": "35",
+      "k2": "840",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 21\\log^2_{\\frac{a}{b}}a + 1512\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1680$.\nB. $P_{\\min}=839$.\nC. $P_{\\min}=841$.\nD. $P_{\\min}=840$.",
+    "dap_an": "D. $P_{\\min}=840$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=21(1+t)^2+\\dfrac{1512}{t}=f(t)$. Xét $f'(t)=42(1+t)-\\dfrac{1512}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=840$ là giá trị nhỏ nhất. Vậy $P_{\\min}=840$.",
+    "params": {
+      "k1": "21",
+      "k2": "1512",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 800\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=325$.\nB. $P_{\\min}=324$.\nC. $P_{\\min}=326$.\nD. $P_{\\min}=650$.",
+    "dap_an": "A. $P_{\\min}=325$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=5(1+t)^2+\\dfrac{800}{t}=f(t)$. Xét $f'(t)=10(1+t)-\\dfrac{800}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=325$ là giá trị nhỏ nhất. Vậy $P_{\\min}=325$.",
+    "params": {
+      "k1": "5",
+      "k2": "800",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 21\\log^2_{\\frac{a}{b}}a + 6300\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2016$.\nB. $P_{\\min}=2017$.\nC. $P_{\\min}=4032$.\nD. $P_{\\min}=2015$.",
+    "dap_an": "A. $P_{\\min}=2016$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=21(1+t)^2+\\dfrac{6300}{t}=f(t)$. Xét $f'(t)=42(1+t)-\\dfrac{6300}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2016$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2016$.",
+    "params": {
+      "k1": "21",
+      "k2": "6300",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 216\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=119$.\nB. $P_{\\min}=240$.\nC. $P_{\\min}=121$.\nD. $P_{\\min}=120$.",
+    "dap_an": "D. $P_{\\min}=120$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=3(1+t)^2+\\dfrac{216}{t}=f(t)$. Xét $f'(t)=6(1+t)-\\dfrac{216}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=120$ là giá trị nhỏ nhất. Vậy $P_{\\min}=120$.",
+    "params": {
+      "k1": "3",
+      "k2": "216",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 42\\log^2_{\\frac{a}{b}}a + 12600\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=4033$.\nB. $P_{\\min}=8064$.\nC. $P_{\\min}=4031$.\nD. $P_{\\min}=4032$.",
+    "dap_an": "D. $P_{\\min}=4032$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=42(1+t)^2+\\dfrac{12600}{t}=f(t)$. Xét $f'(t)=84(1+t)-\\dfrac{12600}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=4032$ là giá trị nhỏ nhất. Vậy $P_{\\min}=4032$.",
+    "params": {
+      "k1": "42",
+      "k2": "12600",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 26\\log^2_{\\frac{a}{b}}a + 7800\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2495$.\nB. $P_{\\min}=4992$.\nC. $P_{\\min}=2497$.\nD. $P_{\\min}=2496$.",
+    "dap_an": "D. $P_{\\min}=2496$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=26(1+t)^2+\\dfrac{7800}{t}=f(t)$. Xét $f'(t)=52(1+t)-\\dfrac{7800}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2496$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2496$.",
+    "params": {
+      "k1": "26",
+      "k2": "7800",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 8\\log^2_{\\frac{a}{b}}a + 1280\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1040$.\nB. $P_{\\min}=520$.\nC. $P_{\\min}=521$.\nD. $P_{\\min}=519$.",
+    "dap_an": "B. $P_{\\min}=520$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=8(1+t)^2+\\dfrac{1280}{t}=f(t)$. Xét $f'(t)=16(1+t)-\\dfrac{1280}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=520$ là giá trị nhỏ nhất. Vậy $P_{\\min}=520$.",
+    "params": {
+      "k1": "8",
+      "k2": "1280",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 40\\log^2_{\\frac{a}{b}}a + 2880\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1599$.\nB. $P_{\\min}=1600$.\nC. $P_{\\min}=1601$.\nD. $P_{\\min}=3200$.",
+    "dap_an": "B. $P_{\\min}=1600$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=40(1+t)^2+\\dfrac{2880}{t}=f(t)$. Xét $f'(t)=80(1+t)-\\dfrac{2880}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1600$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1600$.",
+    "params": {
+      "k1": "40",
+      "k2": "2880",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 32\\log^2_{\\frac{a}{b}}a + 128\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=512$.\nB. $P_{\\min}=257$.\nC. $P_{\\min}=256$.\nD. $P_{\\min}=255$.",
+    "dap_an": "C. $P_{\\min}=256$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=32(1+t)^2+\\dfrac{128}{t}=f(t)$. Xét $f'(t)=64(1+t)-\\dfrac{128}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=256$ là giá trị nhỏ nhất. Vậy $P_{\\min}=256$.",
+    "params": {
+      "k1": "32",
+      "k2": "128",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 21\\log^2_{\\frac{a}{b}}a + 504\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=441$.\nB. $P_{\\min}=442$.\nC. $P_{\\min}=440$.\nD. $P_{\\min}=882$.",
+    "dap_an": "A. $P_{\\min}=441$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=21(1+t)^2+\\dfrac{504}{t}=f(t)$. Xét $f'(t)=42(1+t)-\\dfrac{504}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=441$ là giá trị nhỏ nhất. Vậy $P_{\\min}=441$.",
+    "params": {
+      "k1": "21",
+      "k2": "504",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 50\\log^2_{\\frac{a}{b}}a + 3600\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1999$.\nB. $P_{\\min}=2000$.\nC. $P_{\\min}=4000$.\nD. $P_{\\min}=2001$.",
+    "dap_an": "B. $P_{\\min}=2000$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=50(1+t)^2+\\dfrac{3600}{t}=f(t)$. Xét $f'(t)=100(1+t)-\\dfrac{3600}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=2000$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2000$.",
+    "params": {
+      "k1": "50",
+      "k2": "3600",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 300\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=97$.\nB. $P_{\\min}=96$.\nC. $P_{\\min}=192$.\nD. $P_{\\min}=95$.",
+    "dap_an": "B. $P_{\\min}=96$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{300}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{300}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=96$ là giá trị nhỏ nhất. Vậy $P_{\\min}=96$.",
+    "params": {
+      "k1": "1",
+      "k2": "300",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 25\\log^2_{\\frac{a}{b}}a + 1800\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=999$.\nB. $P_{\\min}=1001$.\nC. $P_{\\min}=2000$.\nD. $P_{\\min}=1000$.",
+    "dap_an": "D. $P_{\\min}=1000$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=25(1+t)^2+\\dfrac{1800}{t}=f(t)$. Xét $f'(t)=50(1+t)-\\dfrac{1800}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1000$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1000$.",
+    "params": {
+      "k1": "25",
+      "k2": "1800",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 42\\log^2_{\\frac{a}{b}}a + 6720\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2729$.\nB. $P_{\\min}=5460$.\nC. $P_{\\min}=2731$.\nD. $P_{\\min}=2730$.",
+    "dap_an": "D. $P_{\\min}=2730$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=42(1+t)^2+\\dfrac{6720}{t}=f(t)$. Xét $f'(t)=84(1+t)-\\dfrac{6720}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=2730$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2730$.",
+    "params": {
+      "k1": "42",
+      "k2": "6720",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 29\\log^2_{\\frac{a}{b}}a + 2088\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2320$.\nB. $P_{\\min}=1161$.\nC. $P_{\\min}=1160$.\nD. $P_{\\min}=1159$.",
+    "dap_an": "C. $P_{\\min}=1160$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=29(1+t)^2+\\dfrac{2088}{t}=f(t)$. Xét $f'(t)=58(1+t)-\\dfrac{2088}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1160$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1160$.",
+    "params": {
+      "k1": "29",
+      "k2": "2088",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 33\\log^2_{\\frac{a}{b}}a + 2376\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1321$.\nB. $P_{\\min}=1320$.\nC. $P_{\\min}=1319$.\nD. $P_{\\min}=2640$.",
+    "dap_an": "B. $P_{\\min}=1320$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=33(1+t)^2+\\dfrac{2376}{t}=f(t)$. Xét $f'(t)=66(1+t)-\\dfrac{2376}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1320$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1320$.",
+    "params": {
+      "k1": "33",
+      "k2": "2376",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 28\\log^2_{\\frac{a}{b}}a + 112\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=224$.\nB. $P_{\\min}=448$.\nC. $P_{\\min}=223$.\nD. $P_{\\min}=225$.",
+    "dap_an": "A. $P_{\\min}=224$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=28(1+t)^2+\\dfrac{112}{t}=f(t)$. Xét $f'(t)=56(1+t)-\\dfrac{112}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=224$ là giá trị nhỏ nhất. Vậy $P_{\\min}=224$.",
+    "params": {
+      "k1": "28",
+      "k2": "112",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 30\\log^2_{\\frac{a}{b}}a + 4800\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=3900$.\nB. $P_{\\min}=1950$.\nC. $P_{\\min}=1949$.\nD. $P_{\\min}=1951$.",
+    "dap_an": "B. $P_{\\min}=1950$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=30(1+t)^2+\\dfrac{4800}{t}=f(t)$. Xét $f'(t)=60(1+t)-\\dfrac{4800}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1950$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1950$.",
+    "params": {
+      "k1": "30",
+      "k2": "4800",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 1500\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=481$.\nB. $P_{\\min}=480$.\nC. $P_{\\min}=960$.\nD. $P_{\\min}=479$.",
+    "dap_an": "B. $P_{\\min}=480$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=5(1+t)^2+\\dfrac{1500}{t}=f(t)$. Xét $f'(t)=10(1+t)-\\dfrac{1500}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=480$ là giá trị nhỏ nhất. Vậy $P_{\\min}=480$.",
+    "params": {
+      "k1": "5",
+      "k2": "1500",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 28\\log^2_{\\frac{a}{b}}a + 8400\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2688$.\nB. $P_{\\min}=2687$.\nC. $P_{\\min}=5376$.\nD. $P_{\\min}=2689$.",
+    "dap_an": "A. $P_{\\min}=2688$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=28(1+t)^2+\\dfrac{8400}{t}=f(t)$. Xét $f'(t)=56(1+t)-\\dfrac{8400}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2688$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2688$.",
+    "params": {
+      "k1": "28",
+      "k2": "8400",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 46\\log^2_{\\frac{a}{b}}a + 1104\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=966$.\nB. $P_{\\min}=1932$.\nC. $P_{\\min}=965$.\nD. $P_{\\min}=967$.",
+    "dap_an": "A. $P_{\\min}=966$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=46(1+t)^2+\\dfrac{1104}{t}=f(t)$. Xét $f'(t)=92(1+t)-\\dfrac{1104}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=966$ là giá trị nhỏ nhất. Vậy $P_{\\min}=966$.",
+    "params": {
+      "k1": "46",
+      "k2": "1104",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 600\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=193$.\nB. $P_{\\min}=191$.\nC. $P_{\\min}=192$.\nD. $P_{\\min}=384$.",
+    "dap_an": "C. $P_{\\min}=192$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{600}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{600}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=192$ là giá trị nhỏ nhất. Vậy $P_{\\min}=192$.",
+    "params": {
+      "k1": "2",
+      "k2": "600",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 33\\log^2_{\\frac{a}{b}}a + 792\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=694$.\nB. $P_{\\min}=692$.\nC. $P_{\\min}=693$.\nD. $P_{\\min}=1386$.",
+    "dap_an": "C. $P_{\\min}=693$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=33(1+t)^2+\\dfrac{792}{t}=f(t)$. Xét $f'(t)=66(1+t)-\\dfrac{792}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=693$ là giá trị nhỏ nhất. Vậy $P_{\\min}=693$.",
+    "params": {
+      "k1": "33",
+      "k2": "792",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 16\\log^2_{\\frac{a}{b}}a + 2560\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1041$.\nB. $P_{\\min}=1040$.\nC. $P_{\\min}=1039$.\nD. $P_{\\min}=2080$.",
+    "dap_an": "B. $P_{\\min}=1040$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=16(1+t)^2+\\dfrac{2560}{t}=f(t)$. Xét $f'(t)=32(1+t)-\\dfrac{2560}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1040$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1040$.",
+    "params": {
+      "k1": "16",
+      "k2": "2560",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 27\\log^2_{\\frac{a}{b}}a + 648\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=568$.\nB. $P_{\\min}=567$.\nC. $P_{\\min}=566$.\nD. $P_{\\min}=1134$.",
+    "dap_an": "B. $P_{\\min}=567$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=27(1+t)^2+\\dfrac{648}{t}=f(t)$. Xét $f'(t)=54(1+t)-\\dfrac{648}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=567$ là giá trị nhỏ nhất. Vậy $P_{\\min}=567$.",
+    "params": {
+      "k1": "27",
+      "k2": "648",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 44\\log^2_{\\frac{a}{b}}a + 13200\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=4225$.\nB. $P_{\\min}=8448$.\nC. $P_{\\min}=4223$.\nD. $P_{\\min}=4224$.",
+    "dap_an": "D. $P_{\\min}=4224$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=44(1+t)^2+\\dfrac{13200}{t}=f(t)$. Xét $f'(t)=88(1+t)-\\dfrac{13200}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=4224$ là giá trị nhỏ nhất. Vậy $P_{\\min}=4224$.",
+    "params": {
+      "k1": "44",
+      "k2": "13200",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 37\\log^2_{\\frac{a}{b}}a + 2664\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2960$.\nB. $P_{\\min}=1480$.\nC. $P_{\\min}=1479$.\nD. $P_{\\min}=1481$.",
+    "dap_an": "B. $P_{\\min}=1480$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=37(1+t)^2+\\dfrac{2664}{t}=f(t)$. Xét $f'(t)=74(1+t)-\\dfrac{2664}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1480$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1480$.",
+    "params": {
+      "k1": "37",
+      "k2": "2664",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 11\\log^2_{\\frac{a}{b}}a + 264\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=230$.\nB. $P_{\\min}=462$.\nC. $P_{\\min}=232$.\nD. $P_{\\min}=231$.",
+    "dap_an": "D. $P_{\\min}=231$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=11(1+t)^2+\\dfrac{264}{t}=f(t)$. Xét $f'(t)=22(1+t)-\\dfrac{264}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=231$ là giá trị nhỏ nhất. Vậy $P_{\\min}=231$.",
+    "params": {
+      "k1": "11",
+      "k2": "264",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 9\\log^2_{\\frac{a}{b}}a + 36\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=72$.\nB. $P_{\\min}=71$.\nC. $P_{\\min}=144$.\nD. $P_{\\min}=73$.",
+    "dap_an": "A. $P_{\\min}=72$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=9(1+t)^2+\\dfrac{36}{t}=f(t)$. Xét $f'(t)=18(1+t)-\\dfrac{36}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=72$ là giá trị nhỏ nhất. Vậy $P_{\\min}=72$.",
+    "params": {
+      "k1": "9",
+      "k2": "36",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 11\\log^2_{\\frac{a}{b}}a + 3300\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1056$.\nB. $P_{\\min}=2112$.\nC. $P_{\\min}=1055$.\nD. $P_{\\min}=1057$.",
+    "dap_an": "A. $P_{\\min}=1056$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=11(1+t)^2+\\dfrac{3300}{t}=f(t)$. Xét $f'(t)=22(1+t)-\\dfrac{3300}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=1056$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1056$.",
+    "params": {
+      "k1": "11",
+      "k2": "3300",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 31\\log^2_{\\frac{a}{b}}a + 4960\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2015$.\nB. $P_{\\min}=2016$.\nC. $P_{\\min}=4030$.\nD. $P_{\\min}=2014$.",
+    "dap_an": "A. $P_{\\min}=2015$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=31(1+t)^2+\\dfrac{4960}{t}=f(t)$. Xét $f'(t)=62(1+t)-\\dfrac{4960}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=2015$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2015$.",
+    "params": {
+      "k1": "31",
+      "k2": "4960",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 14\\log^2_{\\frac{a}{b}}a + 336\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=588$.\nB. $P_{\\min}=293$.\nC. $P_{\\min}=295$.\nD. $P_{\\min}=294$.",
+    "dap_an": "D. $P_{\\min}=294$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=14(1+t)^2+\\dfrac{336}{t}=f(t)$. Xét $f'(t)=28(1+t)-\\dfrac{336}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=294$ là giá trị nhỏ nhất. Vậy $P_{\\min}=294$.",
+    "params": {
+      "k1": "14",
+      "k2": "336",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 44\\log^2_{\\frac{a}{b}}a + 176\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=353$.\nB. $P_{\\min}=704$.\nC. $P_{\\min}=352$.\nD. $P_{\\min}=351$.",
+    "dap_an": "C. $P_{\\min}=352$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=44(1+t)^2+\\dfrac{176}{t}=f(t)$. Xét $f'(t)=88(1+t)-\\dfrac{176}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=352$ là giá trị nhỏ nhất. Vậy $P_{\\min}=352$.",
+    "params": {
+      "k1": "44",
+      "k2": "176",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 41\\log^2_{\\frac{a}{b}}a + 6560\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2666$.\nB. $P_{\\min}=2664$.\nC. $P_{\\min}=5330$.\nD. $P_{\\min}=2665$.",
+    "dap_an": "D. $P_{\\min}=2665$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=41(1+t)^2+\\dfrac{6560}{t}=f(t)$. Xét $f'(t)=82(1+t)-\\dfrac{6560}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=2665$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2665$.",
+    "params": {
+      "k1": "41",
+      "k2": "6560",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 23\\log^2_{\\frac{a}{b}}a + 552\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=482$.\nB. $P_{\\min}=483$.\nC. $P_{\\min}=484$.\nD. $P_{\\min}=966$.",
+    "dap_an": "B. $P_{\\min}=483$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=23(1+t)^2+\\dfrac{552}{t}=f(t)$. Xét $f'(t)=46(1+t)-\\dfrac{552}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=483$ là giá trị nhỏ nhất. Vậy $P_{\\min}=483$.",
+    "params": {
+      "k1": "23",
+      "k2": "552",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 19\\log^2_{\\frac{a}{b}}a + 5700\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1823$.\nB. $P_{\\min}=3648$.\nC. $P_{\\min}=1824$.\nD. $P_{\\min}=1825$.",
+    "dap_an": "C. $P_{\\min}=1824$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=19(1+t)^2+\\dfrac{5700}{t}=f(t)$. Xét $f'(t)=38(1+t)-\\dfrac{5700}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=1824$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1824$.",
+    "params": {
+      "k1": "19",
+      "k2": "5700",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 45\\log^2_{\\frac{a}{b}}a + 13500\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=4321$.\nB. $P_{\\min}=4320$.\nC. $P_{\\min}=8640$.\nD. $P_{\\min}=4319$.",
+    "dap_an": "B. $P_{\\min}=4320$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=45(1+t)^2+\\dfrac{13500}{t}=f(t)$. Xét $f'(t)=90(1+t)-\\dfrac{13500}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=4320$ là giá trị nhỏ nhất. Vậy $P_{\\min}=4320$.",
+    "params": {
+      "k1": "45",
+      "k2": "13500",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 8\\log^2_{\\frac{a}{b}}a + 32\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=65$.\nB. $P_{\\min}=128$.\nC. $P_{\\min}=63$.\nD. $P_{\\min}=64$.",
+    "dap_an": "D. $P_{\\min}=64$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=8(1+t)^2+\\dfrac{32}{t}=f(t)$. Xét $f'(t)=16(1+t)-\\dfrac{32}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=64$ là giá trị nhỏ nhất. Vậy $P_{\\min}=64$.",
+    "params": {
+      "k1": "8",
+      "k2": "32",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 29\\log^2_{\\frac{a}{b}}a + 8700\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2785$.\nB. $P_{\\min}=2784$.\nC. $P_{\\min}=5568$.\nD. $P_{\\min}=2783$.",
+    "dap_an": "B. $P_{\\min}=2784$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=29(1+t)^2+\\dfrac{8700}{t}=f(t)$. Xét $f'(t)=58(1+t)-\\dfrac{8700}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2784$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2784$.",
+    "params": {
+      "k1": "29",
+      "k2": "8700",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 49\\log^2_{\\frac{a}{b}}a + 3528\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=3920$.\nB. $P_{\\min}=1960$.\nC. $P_{\\min}=1959$.\nD. $P_{\\min}=1961$.",
+    "dap_an": "B. $P_{\\min}=1960$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=49(1+t)^2+\\dfrac{3528}{t}=f(t)$. Xét $f'(t)=98(1+t)-\\dfrac{3528}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1960$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1960$.",
+    "params": {
+      "k1": "49",
+      "k2": "3528",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 25\\log^2_{\\frac{a}{b}}a + 4000\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1626$.\nB. $P_{\\min}=1624$.\nC. $P_{\\min}=1625$.\nD. $P_{\\min}=3250$.",
+    "dap_an": "C. $P_{\\min}=1625$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=25(1+t)^2+\\dfrac{4000}{t}=f(t)$. Xét $f'(t)=50(1+t)-\\dfrac{4000}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1625$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1625$.",
+    "params": {
+      "k1": "25",
+      "k2": "4000",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 24\\log^2_{\\frac{a}{b}}a + 7200\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=4608$.\nB. $P_{\\min}=2304$.\nC. $P_{\\min}=2305$.\nD. $P_{\\min}=2303$.",
+    "dap_an": "B. $P_{\\min}=2304$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=24(1+t)^2+\\dfrac{7200}{t}=f(t)$. Xét $f'(t)=48(1+t)-\\dfrac{7200}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2304$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2304$.",
+    "params": {
+      "k1": "24",
+      "k2": "7200",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 33\\log^2_{\\frac{a}{b}}a + 132\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=263$.\nB. $P_{\\min}=528$.\nC. $P_{\\min}=265$.\nD. $P_{\\min}=264$.",
+    "dap_an": "D. $P_{\\min}=264$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=33(1+t)^2+\\dfrac{132}{t}=f(t)$. Xét $f'(t)=66(1+t)-\\dfrac{132}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=264$ là giá trị nhỏ nhất. Vậy $P_{\\min}=264$.",
+    "params": {
+      "k1": "33",
+      "k2": "132",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 50\\log^2_{\\frac{a}{b}}a + 200\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=399$.\nB. $P_{\\min}=800$.\nC. $P_{\\min}=401$.\nD. $P_{\\min}=400$.",
+    "dap_an": "D. $P_{\\min}=400$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=50(1+t)^2+\\dfrac{200}{t}=f(t)$. Xét $f'(t)=100(1+t)-\\dfrac{200}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=400$ là giá trị nhỏ nhất. Vậy $P_{\\min}=400$.",
+    "params": {
+      "k1": "50",
+      "k2": "200",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 9\\log^2_{\\frac{a}{b}}a + 648\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=720$.\nB. $P_{\\min}=359$.\nC. $P_{\\min}=361$.\nD. $P_{\\min}=360$.",
+    "dap_an": "D. $P_{\\min}=360$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=9(1+t)^2+\\dfrac{648}{t}=f(t)$. Xét $f'(t)=18(1+t)-\\dfrac{648}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=360$ là giá trị nhỏ nhất. Vậy $P_{\\min}=360$.",
+    "params": {
+      "k1": "9",
+      "k2": "648",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 28\\log^2_{\\frac{a}{b}}a + 4480\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1820$.\nB. $P_{\\min}=1819$.\nC. $P_{\\min}=3640$.\nD. $P_{\\min}=1821$.",
+    "dap_an": "A. $P_{\\min}=1820$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=28(1+t)^2+\\dfrac{4480}{t}=f(t)$. Xét $f'(t)=56(1+t)-\\dfrac{4480}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1820$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1820$.",
+    "params": {
+      "k1": "28",
+      "k2": "4480",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 31\\log^2_{\\frac{a}{b}}a + 744\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=650$.\nB. $P_{\\min}=1302$.\nC. $P_{\\min}=652$.\nD. $P_{\\min}=651$.",
+    "dap_an": "D. $P_{\\min}=651$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=31(1+t)^2+\\dfrac{744}{t}=f(t)$. Xét $f'(t)=62(1+t)-\\dfrac{744}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=651$ là giá trị nhỏ nhất. Vậy $P_{\\min}=651$.",
+    "params": {
+      "k1": "31",
+      "k2": "744",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 43\\log^2_{\\frac{a}{b}}a + 3096\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1721$.\nB. $P_{\\min}=3440$.\nC. $P_{\\min}=1719$.\nD. $P_{\\min}=1720$.",
+    "dap_an": "D. $P_{\\min}=1720$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=43(1+t)^2+\\dfrac{3096}{t}=f(t)$. Xét $f'(t)=86(1+t)-\\dfrac{3096}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1720$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1720$.",
+    "params": {
+      "k1": "43",
+      "k2": "3096",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 18\\log^2_{\\frac{a}{b}}a + 432\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=379$.\nB. $P_{\\min}=756$.\nC. $P_{\\min}=377$.\nD. $P_{\\min}=378$.",
+    "dap_an": "D. $P_{\\min}=378$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=18(1+t)^2+\\dfrac{432}{t}=f(t)$. Xét $f'(t)=36(1+t)-\\dfrac{432}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=378$ là giá trị nhỏ nhất. Vậy $P_{\\min}=378$.",
+    "params": {
+      "k1": "18",
+      "k2": "432",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 22\\log^2_{\\frac{a}{b}}a + 88\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=176$.\nB. $P_{\\min}=175$.\nC. $P_{\\min}=352$.\nD. $P_{\\min}=177$.",
+    "dap_an": "A. $P_{\\min}=176$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=22(1+t)^2+\\dfrac{88}{t}=f(t)$. Xét $f'(t)=44(1+t)-\\dfrac{88}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=176$ là giá trị nhỏ nhất. Vậy $P_{\\min}=176$.",
+    "params": {
+      "k1": "22",
+      "k2": "88",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 45\\log^2_{\\frac{a}{b}}a + 3240\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1799$.\nB. $P_{\\min}=3600$.\nC. $P_{\\min}=1801$.\nD. $P_{\\min}=1800$.",
+    "dap_an": "D. $P_{\\min}=1800$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=45(1+t)^2+\\dfrac{3240}{t}=f(t)$. Xét $f'(t)=90(1+t)-\\dfrac{3240}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1800$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1800$.",
+    "params": {
+      "k1": "45",
+      "k2": "3240",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 22\\log^2_{\\frac{a}{b}}a + 6600\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2113$.\nB. $P_{\\min}=2111$.\nC. $P_{\\min}=2112$.\nD. $P_{\\min}=4224$.",
+    "dap_an": "C. $P_{\\min}=2112$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=22(1+t)^2+\\dfrac{6600}{t}=f(t)$. Xét $f'(t)=44(1+t)-\\dfrac{6600}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2112$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2112$.",
+    "params": {
+      "k1": "22",
+      "k2": "6600",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 24\\log^2_{\\frac{a}{b}}a + 3840\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1560$.\nB. $P_{\\min}=1559$.\nC. $P_{\\min}=1561$.\nD. $P_{\\min}=3120$.",
+    "dap_an": "A. $P_{\\min}=1560$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=24(1+t)^2+\\dfrac{3840}{t}=f(t)$. Xét $f'(t)=48(1+t)-\\dfrac{3840}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1560$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1560$.",
+    "params": {
+      "k1": "24",
+      "k2": "3840",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 42\\log^2_{\\frac{a}{b}}a + 168\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=672$.\nB. $P_{\\min}=337$.\nC. $P_{\\min}=335$.\nD. $P_{\\min}=336$.",
+    "dap_an": "D. $P_{\\min}=336$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=42(1+t)^2+\\dfrac{168}{t}=f(t)$. Xét $f'(t)=84(1+t)-\\dfrac{168}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=336$ là giá trị nhỏ nhất. Vậy $P_{\\min}=336$.",
+    "params": {
+      "k1": "42",
+      "k2": "168",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 17\\log^2_{\\frac{a}{b}}a + 2720\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1104$.\nB. $P_{\\min}=1106$.\nC. $P_{\\min}=2210$.\nD. $P_{\\min}=1105$.",
+    "dap_an": "D. $P_{\\min}=1105$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=17(1+t)^2+\\dfrac{2720}{t}=f(t)$. Xét $f'(t)=34(1+t)-\\dfrac{2720}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1105$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1105$.",
+    "params": {
+      "k1": "17",
+      "k2": "2720",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 19\\log^2_{\\frac{a}{b}}a + 76\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=153$.\nB. $P_{\\min}=304$.\nC. $P_{\\min}=151$.\nD. $P_{\\min}=152$.",
+    "dap_an": "D. $P_{\\min}=152$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=19(1+t)^2+\\dfrac{76}{t}=f(t)$. Xét $f'(t)=38(1+t)-\\dfrac{76}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=152$ là giá trị nhỏ nhất. Vậy $P_{\\min}=152$.",
+    "params": {
+      "k1": "19",
+      "k2": "76",
+      "t0": "1"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 20\\log^2_{\\frac{a}{b}}a + 1440\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=799$.\nB. $P_{\\min}=1600$.\nC. $P_{\\min}=800$.\nD. $P_{\\min}=801$.",
+    "dap_an": "C. $P_{\\min}=800$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=20(1+t)^2+\\dfrac{1440}{t}=f(t)$. Xét $f'(t)=40(1+t)-\\dfrac{1440}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=800$ là giá trị nhỏ nhất. Vậy $P_{\\min}=800$.",
+    "params": {
+      "k1": "20",
+      "k2": "1440",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 31\\log^2_{\\frac{a}{b}}a + 2232\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1240$.\nB. $P_{\\min}=2480$.\nC. $P_{\\min}=1239$.\nD. $P_{\\min}=1241$.",
+    "dap_an": "A. $P_{\\min}=1240$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=31(1+t)^2+\\dfrac{2232}{t}=f(t)$. Xét $f'(t)=62(1+t)-\\dfrac{2232}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1240$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1240$.",
+    "params": {
+      "k1": "31",
+      "k2": "2232",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 15\\log^2_{\\frac{a}{b}}a + 1080\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=599$.\nB. $P_{\\min}=600$.\nC. $P_{\\min}=1200$.\nD. $P_{\\min}=601$.",
+    "dap_an": "B. $P_{\\min}=600$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=15(1+t)^2+\\dfrac{1080}{t}=f(t)$. Xét $f'(t)=30(1+t)-\\dfrac{1080}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=600$ là giá trị nhỏ nhất. Vậy $P_{\\min}=600$.",
+    "params": {
+      "k1": "15",
+      "k2": "1080",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 48\\log^2_{\\frac{a}{b}}a + 1152\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2016$.\nB. $P_{\\min}=1007$.\nC. $P_{\\min}=1008$.\nD. $P_{\\min}=1009$.",
+    "dap_an": "C. $P_{\\min}=1008$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=48(1+t)^2+\\dfrac{1152}{t}=f(t)$. Xét $f'(t)=96(1+t)-\\dfrac{1152}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=1008$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1008$.",
+    "params": {
+      "k1": "48",
+      "k2": "1152",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 40\\log^2_{\\frac{a}{b}}a + 960\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=841$.\nB. $P_{\\min}=1680$.\nC. $P_{\\min}=840$.\nD. $P_{\\min}=839$.",
+    "dap_an": "C. $P_{\\min}=840$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=40(1+t)^2+\\dfrac{960}{t}=f(t)$. Xét $f'(t)=80(1+t)-\\dfrac{960}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=840$ là giá trị nhỏ nhất. Vậy $P_{\\min}=840$.",
+    "params": {
+      "k1": "40",
+      "k2": "960",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 47\\log^2_{\\frac{a}{b}}a + 1128\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1974$.\nB. $P_{\\min}=986$.\nC. $P_{\\min}=988$.\nD. $P_{\\min}=987$.",
+    "dap_an": "D. $P_{\\min}=987$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=47(1+t)^2+\\dfrac{1128}{t}=f(t)$. Xét $f'(t)=94(1+t)-\\dfrac{1128}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=987$ là giá trị nhỏ nhất. Vậy $P_{\\min}=987$.",
+    "params": {
+      "k1": "47",
+      "k2": "1128",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 1200\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=385$.\nB. $P_{\\min}=383$.\nC. $P_{\\min}=384$.\nD. $P_{\\min}=768$.",
+    "dap_an": "C. $P_{\\min}=384$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=4(1+t)^2+\\dfrac{1200}{t}=f(t)$. Xét $f'(t)=8(1+t)-\\dfrac{1200}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=384$ là giá trị nhỏ nhất. Vậy $P_{\\min}=384$.",
+    "params": {
+      "k1": "4",
+      "k2": "1200",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 48\\log^2_{\\frac{a}{b}}a + 3456\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=1921$.\nB. $P_{\\min}=1919$.\nC. $P_{\\min}=1920$.\nD. $P_{\\min}=3840$.",
+    "dap_an": "C. $P_{\\min}=1920$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=48(1+t)^2+\\dfrac{3456}{t}=f(t)$. Xét $f'(t)=96(1+t)-\\dfrac{3456}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=1920$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1920$.",
+    "params": {
+      "k1": "48",
+      "k2": "3456",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 32\\log^2_{\\frac{a}{b}}a + 9600\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=6144$.\nB. $P_{\\min}=3073$.\nC. $P_{\\min}=3071$.\nD. $P_{\\min}=3072$.",
+    "dap_an": "D. $P_{\\min}=3072$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=32(1+t)^2+\\dfrac{9600}{t}=f(t)$. Xét $f'(t)=64(1+t)-\\dfrac{9600}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=3072$ là giá trị nhỏ nhất. Vậy $P_{\\min}=3072$.",
+    "params": {
+      "k1": "32",
+      "k2": "9600",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 15\\log^2_{\\frac{a}{b}}a + 2400\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=974$.\nB. $P_{\\min}=1950$.\nC. $P_{\\min}=976$.\nD. $P_{\\min}=975$.",
+    "dap_an": "D. $P_{\\min}=975$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=15(1+t)^2+\\dfrac{2400}{t}=f(t)$. Xét $f'(t)=30(1+t)-\\dfrac{2400}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=975$ là giá trị nhỏ nhất. Vậy $P_{\\min}=975$.",
+    "params": {
+      "k1": "15",
+      "k2": "2400",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 12\\log^2_{\\frac{a}{b}}a + 864\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=480$.\nB. $P_{\\min}=481$.\nC. $P_{\\min}=960$.\nD. $P_{\\min}=479$.",
+    "dap_an": "A. $P_{\\min}=480$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=12(1+t)^2+\\dfrac{864}{t}=f(t)$. Xét $f'(t)=24(1+t)-\\dfrac{864}{t^2}$, $f'(t)=0$ tại $t=3$ (nghiệm dương duy nhất). $f\\left(3\\right)=480$ là giá trị nhỏ nhất. Vậy $P_{\\min}=480$.",
+    "params": {
+      "k1": "12",
+      "k2": "864",
+      "t0": "3"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 22\\log^2_{\\frac{a}{b}}a + 528\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=924$.\nB. $P_{\\min}=462$.\nC. $P_{\\min}=463$.\nD. $P_{\\min}=461$.",
+    "dap_an": "B. $P_{\\min}=462$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=22(1+t)^2+\\dfrac{528}{t}=f(t)$. Xét $f'(t)=44(1+t)-\\dfrac{528}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=462$ là giá trị nhỏ nhất. Vậy $P_{\\min}=462$.",
+    "params": {
+      "k1": "22",
+      "k2": "528",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 21\\log^2_{\\frac{a}{b}}a + 3360\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=2730$.\nB. $P_{\\min}=1366$.\nC. $P_{\\min}=1364$.\nD. $P_{\\min}=1365$.",
+    "dap_an": "D. $P_{\\min}=1365$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=21(1+t)^2+\\dfrac{3360}{t}=f(t)$. Xét $f'(t)=42(1+t)-\\dfrac{3360}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=1365$ là giá trị nhỏ nhất. Vậy $P_{\\min}=1365$.",
+    "params": {
+      "k1": "21",
+      "k2": "3360",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 13\\log^2_{\\frac{a}{b}}a + 312\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=546$.\nB. $P_{\\min}=274$.\nC. $P_{\\min}=272$.\nD. $P_{\\min}=273$.",
+    "dap_an": "D. $P_{\\min}=273$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=13(1+t)^2+\\dfrac{312}{t}=f(t)$. Xét $f'(t)=26(1+t)-\\dfrac{312}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=273$ là giá trị nhỏ nhất. Vậy $P_{\\min}=273$.",
+    "params": {
+      "k1": "13",
+      "k2": "312",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 49\\log^2_{\\frac{a}{b}}a + 7840\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=6370$.\nB. $P_{\\min}=3186$.\nC. $P_{\\min}=3184$.\nD. $P_{\\min}=3185$.",
+    "dap_an": "D. $P_{\\min}=3185$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=49(1+t)^2+\\dfrac{7840}{t}=f(t)$. Xét $f'(t)=98(1+t)-\\dfrac{7840}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=3185$ là giá trị nhỏ nhất. Vậy $P_{\\min}=3185$.",
+    "params": {
+      "k1": "49",
+      "k2": "7840",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 31\\log^2_{\\frac{a}{b}}a + 9300\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=5952$.\nB. $P_{\\min}=2977$.\nC. $P_{\\min}=2976$.\nD. $P_{\\min}=2975$.",
+    "dap_an": "C. $P_{\\min}=2976$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=31(1+t)^2+\\dfrac{9300}{t}=f(t)$. Xét $f'(t)=62(1+t)-\\dfrac{9300}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=2976$ là giá trị nhỏ nhất. Vậy $P_{\\min}=2976$.",
+    "params": {
+      "k1": "31",
+      "k2": "9300",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 96\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=83$.\nB. $P_{\\min}=85$.\nC. $P_{\\min}=84$.\nD. $P_{\\min}=168$.",
+    "dap_an": "C. $P_{\\min}=84$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=4(1+t)^2+\\dfrac{96}{t}=f(t)$. Xét $f'(t)=8(1+t)-\\dfrac{96}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=84$ là giá trị nhỏ nhất. Vậy $P_{\\min}=84$.",
+    "params": {
+      "k1": "4",
+      "k2": "96",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 28\\log^2_{\\frac{a}{b}}a + 672\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=587$.\nB. $P_{\\min}=589$.\nC. $P_{\\min}=588$.\nD. $P_{\\min}=1176$.",
+    "dap_an": "C. $P_{\\min}=588$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=28(1+t)^2+\\dfrac{672}{t}=f(t)$. Xét $f'(t)=56(1+t)-\\dfrac{672}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=588$ là giá trị nhỏ nhất. Vậy $P_{\\min}=588$.",
+    "params": {
+      "k1": "28",
+      "k2": "672",
+      "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 12\\log^2_{\\frac{a}{b}}a + 1920\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=779$.\nB. $P_{\\min}=781$.\nC. $P_{\\min}=1560$.\nD. $P_{\\min}=780$.",
+    "dap_an": "D. $P_{\\min}=780$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=12(1+t)^2+\\dfrac{1920}{t}=f(t)$. Xét $f'(t)=24(1+t)-\\dfrac{1920}{t^2}$, $f'(t)=0$ tại $t=4$ (nghiệm dương duy nhất). $f\\left(4\\right)=780$ là giá trị nhỏ nhất. Vậy $P_{\\min}=780$.",
+    "params": {
+      "k1": "12",
+      "k2": "1920",
+      "t0": "4"
+    }
+  },
+  {
+    "id_goc": "p021_q21",
+    "ma_dang": "D17",
+    "ten_dang": "Minimize a logarithmic expression by substitution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 8\\log^2_{\\frac{a}{b}}a + 2400\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=768$.\nB. $P_{\\min}=767$.\nC. $P_{\\min}=1536$.\nD. $P_{\\min}=769$.",
+    "dap_an": "A. $P_{\\min}=768$.",
+    "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=8(1+t)^2+\\dfrac{2400}{t}=f(t)$. Xét $f'(t)=16(1+t)-\\dfrac{2400}{t^2}$, $f'(t)=0$ tại $t=5$ (nghiệm dương duy nhất). $f\\left(5\\right)=768$ là giá trị nhỏ nhất. Vậy $P_{\\min}=768$.",
+    "params": {
+      "k1": "8",
+      "k2": "2400",
+      "t0": "5"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{11}\\dfrac{19-xy}{9x+28y}=11xy+9x+28y-210$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{74}{11} + \\dfrac{4 \\sqrt{2551}}{11}$.\nB. $P_{\\min}=- \\dfrac{37}{11} + \\dfrac{2 \\sqrt{2551}}{11}$.\nC. $P_{\\min}=\\dfrac{37}{11} - \\dfrac{2 \\sqrt{2551}}{11}$.\nD. $P_{\\min}=- \\dfrac{26}{11} + \\dfrac{2 \\sqrt{2551}}{11}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{37}{11} + \\dfrac{2 \\sqrt{2551}}{11}$.",
+    "loi_giai": "Xét $f(t)=\\log_{11}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(11(19-xy)\\right)=f(9x+28y)$, suy ra $11(19-xy)=9x+28y\\Rightarrow y=\\dfrac{209-9x}{11x+28}$ (với $0<x<\\dfrac{209}{9}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{28}{11} + \\dfrac{\\sqrt{2551}}{11}$, $P_{\\min}=- \\dfrac{37}{11} + \\dfrac{2 \\sqrt{2551}}{11}$.",
+    "params": {
+      "b": "11",
+      "C": "19",
+      "m": "9",
+      "n": "28"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{8-xy}{26x+27y}=5xy+26x+27y-41$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{53}{5} - \\dfrac{2 \\sqrt{902}}{5}$.\nB. $P_{\\min}=- \\dfrac{48}{5} + \\dfrac{2 \\sqrt{902}}{5}$.\nC. $P_{\\min}=- \\dfrac{53}{5} + \\dfrac{2 \\sqrt{902}}{5}$.\nD. $P_{\\min}=- \\dfrac{106}{5} + \\dfrac{4 \\sqrt{902}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{53}{5} + \\dfrac{2 \\sqrt{902}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(8-xy)\\right)=f(26x+27y)$, suy ra $5(8-xy)=26x+27y\\Rightarrow y=\\dfrac{40-26x}{5x+27}$ (với $0<x<\\dfrac{20}{13}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{27}{5} + \\dfrac{\\sqrt{902}}{5}$, $P_{\\min}=- \\dfrac{53}{5} + \\dfrac{2 \\sqrt{902}}{5}$.",
+    "params": {
+      "b": "5",
+      "C": "8",
+      "m": "26",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{27-xy}{17x+39y}=6xy+17x+39y-163$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{28}{3} - \\dfrac{\\sqrt{1635}}{3}$.\nB. $P_{\\min}=- \\dfrac{25}{3} + \\dfrac{\\sqrt{1635}}{3}$.\nC. $P_{\\min}=- \\dfrac{56}{3} + \\dfrac{2 \\sqrt{1635}}{3}$.\nD. $P_{\\min}=- \\dfrac{28}{3} + \\dfrac{\\sqrt{1635}}{3}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{28}{3} + \\dfrac{\\sqrt{1635}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(27-xy)\\right)=f(17x+39y)$, suy ra $6(27-xy)=17x+39y\\Rightarrow y=\\dfrac{162-17x}{6x+39}$ (với $0<x<\\dfrac{162}{17}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{13}{2} + \\dfrac{\\sqrt{1635}}{6}$, $P_{\\min}=- \\dfrac{28}{3} + \\dfrac{\\sqrt{1635}}{3}$.",
+    "params": {
+      "b": "6",
+      "C": "27",
+      "m": "17",
+      "n": "39"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{13-xy}{8x+15y}=3xy+8x+15y-40$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{23}{3} - \\dfrac{2 \\sqrt{237}}{3}$.\nB. $P_{\\min}=- \\dfrac{23}{3} + \\dfrac{2 \\sqrt{237}}{3}$.\nC. $P_{\\min}=- \\dfrac{20}{3} + \\dfrac{2 \\sqrt{237}}{3}$.\nD. $P_{\\min}=- \\dfrac{46}{3} + \\dfrac{4 \\sqrt{237}}{3}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{23}{3} + \\dfrac{2 \\sqrt{237}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(13-xy)\\right)=f(8x+15y)$, suy ra $3(13-xy)=8x+15y\\Rightarrow y=\\dfrac{39-8x}{3x+15}$ (với $0<x<\\dfrac{39}{8}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-5 + \\dfrac{\\sqrt{237}}{3}$, $P_{\\min}=- \\dfrac{23}{3} + \\dfrac{2 \\sqrt{237}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "13",
+      "m": "8",
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{1-xy}{34x+34y}=6xy+34x+34y-7$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{31}{3} + \\dfrac{2 \\sqrt{298}}{3}$.\nB. $P_{\\min}=- \\dfrac{68}{3} + \\dfrac{4 \\sqrt{298}}{3}$.\nC. $P_{\\min}=\\dfrac{34}{3} - \\dfrac{2 \\sqrt{298}}{3}$.\nD. $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{2 \\sqrt{298}}{3}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{2 \\sqrt{298}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(1-xy)\\right)=f(34x+34y)$, suy ra $6(1-xy)=34x+34y\\Rightarrow y=\\dfrac{6-34x}{6x+34}$ (với $0<x<\\dfrac{3}{17}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{17}{3} + \\dfrac{\\sqrt{298}}{3}$, $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{2 \\sqrt{298}}{3}$.",
+    "params": {
+      "b": "6",
+      "C": "1",
+      "m": "34",
+      "n": "34"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{13-xy}{19x+20y}=9xy+19x+20y-118$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{10}{3} + \\dfrac{2 \\sqrt{1433}}{9}$.\nB. $P_{\\min}=\\dfrac{13}{3} - \\dfrac{2 \\sqrt{1433}}{9}$.\nC. $P_{\\min}=- \\dfrac{13}{3} + \\dfrac{2 \\sqrt{1433}}{9}$.\nD. $P_{\\min}=- \\dfrac{26}{3} + \\dfrac{4 \\sqrt{1433}}{9}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{13}{3} + \\dfrac{2 \\sqrt{1433}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(13-xy)\\right)=f(19x+20y)$, suy ra $9(13-xy)=19x+20y\\Rightarrow y=\\dfrac{117-19x}{9x+20}$ (với $0<x<\\dfrac{117}{19}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{20}{9} + \\dfrac{\\sqrt{1433}}{9}$, $P_{\\min}=- \\dfrac{13}{3} + \\dfrac{2 \\sqrt{1433}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "13",
+      "m": "19",
+      "n": "20"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{11}\\dfrac{8-xy}{5x+3y}=11xy+5x+3y-89$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{8}{11} - \\dfrac{2 \\sqrt{983}}{11}$.\nB. $P_{\\min}=- \\dfrac{16}{11} + \\dfrac{4 \\sqrt{983}}{11}$.\nC. $P_{\\min}=\\dfrac{3}{11} + \\dfrac{2 \\sqrt{983}}{11}$.\nD. $P_{\\min}=- \\dfrac{8}{11} + \\dfrac{2 \\sqrt{983}}{11}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{8}{11} + \\dfrac{2 \\sqrt{983}}{11}$.",
+    "loi_giai": "Xét $f(t)=\\log_{11}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(11(8-xy)\\right)=f(5x+3y)$, suy ra $11(8-xy)=5x+3y\\Rightarrow y=\\dfrac{88-5x}{11x+3}$ (với $0<x<\\dfrac{88}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{3}{11} + \\dfrac{\\sqrt{983}}{11}$, $P_{\\min}=- \\dfrac{8}{11} + \\dfrac{2 \\sqrt{983}}{11}$.",
+    "params": {
+      "b": "11",
+      "C": "8",
+      "m": "5",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{4}\\dfrac{13-xy}{20x+18y}=4xy+20x+18y-53$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{17}{2} + \\sqrt{142}$.\nB. $P_{\\min}=-19 + 2 \\sqrt{142}$.\nC. $P_{\\min}=- \\dfrac{19}{2} + \\sqrt{142}$.\nD. $P_{\\min}=\\dfrac{19}{2} - \\sqrt{142}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{19}{2} + \\sqrt{142}$.",
+    "loi_giai": "Xét $f(t)=\\log_{4}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(4(13-xy)\\right)=f(20x+18y)$, suy ra $4(13-xy)=20x+18y\\Rightarrow y=\\dfrac{52-20x}{4x+18}$ (với $0<x<\\dfrac{13}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{9}{2} + \\dfrac{\\sqrt{142}}{2}$, $P_{\\min}=- \\dfrac{19}{2} + \\sqrt{142}$.",
+    "params": {
+      "b": "4",
+      "C": "13",
+      "m": "20",
+      "n": "18"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{19-xy}{5x+8y}=9xy+5x+8y-172$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{13}{9} + \\dfrac{2 \\sqrt{1579}}{9}$.\nB. $P_{\\min}=\\dfrac{13}{9} - \\dfrac{2 \\sqrt{1579}}{9}$.\nC. $P_{\\min}=- \\dfrac{4}{9} + \\dfrac{2 \\sqrt{1579}}{9}$.\nD. $P_{\\min}=- \\dfrac{26}{9} + \\dfrac{4 \\sqrt{1579}}{9}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{13}{9} + \\dfrac{2 \\sqrt{1579}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(19-xy)\\right)=f(5x+8y)$, suy ra $9(19-xy)=5x+8y\\Rightarrow y=\\dfrac{171-5x}{9x+8}$ (với $0<x<\\dfrac{171}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{8}{9} + \\dfrac{\\sqrt{1579}}{9}$, $P_{\\min}=- \\dfrac{13}{9} + \\dfrac{2 \\sqrt{1579}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "19",
+      "m": "5",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{34-xy}{7x+37y}=9xy+7x+37y-307$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{44}{9} - \\dfrac{2 \\sqrt{3013}}{9}$.\nB. $P_{\\min}=- \\dfrac{44}{9} + \\dfrac{2 \\sqrt{3013}}{9}$.\nC. $P_{\\min}=- \\dfrac{88}{9} + \\dfrac{4 \\sqrt{3013}}{9}$.\nD. $P_{\\min}=- \\dfrac{35}{9} + \\dfrac{2 \\sqrt{3013}}{9}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{44}{9} + \\dfrac{2 \\sqrt{3013}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(34-xy)\\right)=f(7x+37y)$, suy ra $9(34-xy)=7x+37y\\Rightarrow y=\\dfrac{306-7x}{9x+37}$ (với $0<x<\\dfrac{306}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{37}{9} + \\dfrac{\\sqrt{3013}}{9}$, $P_{\\min}=- \\dfrac{44}{9} + \\dfrac{2 \\sqrt{3013}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "34",
+      "m": "7",
+      "n": "37"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{26-xy}{8x+y}=10xy+8x+y-261$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{9}{10} + \\dfrac{4 \\sqrt{163}}{5}$.\nB. $P_{\\min}=\\dfrac{9}{10} - \\dfrac{4 \\sqrt{163}}{5}$.\nC. $P_{\\min}=- \\dfrac{9}{5} + \\dfrac{8 \\sqrt{163}}{5}$.\nD. $P_{\\min}=\\dfrac{1}{10} + \\dfrac{4 \\sqrt{163}}{5}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{9}{10} + \\dfrac{4 \\sqrt{163}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(26-xy)\\right)=f(8x+y)$, suy ra $10(26-xy)=8x+y\\Rightarrow y=\\dfrac{260-8x}{10x+1}$ (với $0<x<\\dfrac{65}{2}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=\\dfrac{196000 \\cdot 2^{\\dfrac{3}{19}} \\cdot 3^{\\dfrac{29}{38}} \\cdot 5^{\\dfrac{6}{19}} \\cdot 7^{\\dfrac{45}{76}}}{531441}$, $P_{\\min}=- \\dfrac{9}{10} + \\dfrac{4 \\sqrt{163}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "26",
+      "m": "8",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{37-xy}{7x+17y}=12xy+7x+17y-445$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=2 - \\dfrac{\\sqrt{5447}}{6}$.\nB. $P_{\\min}=-4 + \\dfrac{\\sqrt{5447}}{3}$.\nC. $P_{\\min}=-2 + \\dfrac{\\sqrt{5447}}{6}$.\nD. $P_{\\min}=-1 + \\dfrac{\\sqrt{5447}}{6}$.",
+    "dap_an": "C. $P_{\\min}=-2 + \\dfrac{\\sqrt{5447}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(37-xy)\\right)=f(7x+17y)$, suy ra $12(37-xy)=7x+17y\\Rightarrow y=\\dfrac{444-7x}{12x+17}$ (với $0<x<\\dfrac{444}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{17}{12} + \\dfrac{\\sqrt{5447}}{12}$, $P_{\\min}=-2 + \\dfrac{\\sqrt{5447}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "37",
+      "m": "7",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{36-xy}{19x+38y}=10xy+19x+38y-361$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{57}{5} + \\dfrac{2 \\sqrt{4322}}{5}$.\nB. $P_{\\min}=- \\dfrac{47}{10} + \\dfrac{\\sqrt{4322}}{5}$.\nC. $P_{\\min}=\\dfrac{57}{10} - \\dfrac{\\sqrt{4322}}{5}$.\nD. $P_{\\min}=- \\dfrac{57}{10} + \\dfrac{\\sqrt{4322}}{5}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{57}{10} + \\dfrac{\\sqrt{4322}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(36-xy)\\right)=f(19x+38y)$, suy ra $10(36-xy)=19x+38y\\Rightarrow y=\\dfrac{360-19x}{10x+38}$ (với $0<x<\\dfrac{360}{19}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{19}{5} + \\dfrac{\\sqrt{4322}}{10}$, $P_{\\min}=- \\dfrac{57}{10} + \\dfrac{\\sqrt{4322}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "36",
+      "m": "19",
+      "n": "38"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{16-xy}{23x+29y}=10xy+23x+29y-161$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{26}{5} + \\dfrac{\\sqrt{2267}}{5}$.\nB. $P_{\\min}=\\dfrac{26}{5} - \\dfrac{\\sqrt{2267}}{5}$.\nC. $P_{\\min}=- \\dfrac{52}{5} + \\dfrac{2 \\sqrt{2267}}{5}$.\nD. $P_{\\min}=- \\dfrac{21}{5} + \\dfrac{\\sqrt{2267}}{5}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{26}{5} + \\dfrac{\\sqrt{2267}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(16-xy)\\right)=f(23x+29y)$, suy ra $10(16-xy)=23x+29y\\Rightarrow y=\\dfrac{160-23x}{10x+29}$ (với $0<x<\\dfrac{160}{23}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{29}{10} + \\dfrac{\\sqrt{2267}}{10}$, $P_{\\min}=- \\dfrac{26}{5} + \\dfrac{\\sqrt{2267}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "16",
+      "m": "23",
+      "n": "29"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{30-xy}{26x+27y}=3xy+26x+27y-91$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{106}{3} + 24 \\sqrt{3}$.\nB. $P_{\\min}=- \\dfrac{53}{3} + 12 \\sqrt{3}$.\nC. $P_{\\min}=- \\dfrac{50}{3} + 12 \\sqrt{3}$.\nD. $P_{\\min}=\\dfrac{53}{3} - 12 \\sqrt{3}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{53}{3} + 12 \\sqrt{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(30-xy)\\right)=f(26x+27y)$, suy ra $3(30-xy)=26x+27y\\Rightarrow y=\\dfrac{90-26x}{3x+27}$ (với $0<x<\\dfrac{45}{13}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-9 + 6 \\sqrt{3}$, $P_{\\min}=- \\dfrac{53}{3} + 12 \\sqrt{3}$.",
+    "params": {
+      "b": "3",
+      "C": "30",
+      "m": "26",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{22-xy}{30x+27y}=9xy+30x+27y-199$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{19}{3} + 8 \\sqrt{2}$.\nB. $P_{\\min}=\\dfrac{19}{3} - 8 \\sqrt{2}$.\nC. $P_{\\min}=- \\dfrac{38}{3} + 16 \\sqrt{2}$.\nD. $P_{\\min}=- \\dfrac{16}{3} + 8 \\sqrt{2}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{19}{3} + 8 \\sqrt{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(22-xy)\\right)=f(30x+27y)$, suy ra $9(22-xy)=30x+27y\\Rightarrow y=\\dfrac{198-30x}{9x+27}$ (với $0<x<\\dfrac{33}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-3 + 4 \\sqrt{2}$, $P_{\\min}=- \\dfrac{19}{3} + 8 \\sqrt{2}$.",
+    "params": {
+      "b": "9",
+      "C": "22",
+      "m": "30",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{22-xy}{2x+21y}=12xy+2x+21y-265$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{23}{6} + \\dfrac{\\sqrt{3210}}{3}$.\nB. $P_{\\min}=- \\dfrac{23}{12} + \\dfrac{\\sqrt{3210}}{6}$.\nC. $P_{\\min}=\\dfrac{23}{12} - \\dfrac{\\sqrt{3210}}{6}$.\nD. $P_{\\min}=\\dfrac{49 \\cdot 2^{\\dfrac{75}{379}} \\cdot 3^{\\dfrac{196}{379}} \\cdot 5^{\\dfrac{81}{379}} \\cdot 7^{\\dfrac{153}{379}}}{36}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{23}{12} + \\dfrac{\\sqrt{3210}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(22-xy)\\right)=f(2x+21y)$, suy ra $12(22-xy)=2x+21y\\Rightarrow y=\\dfrac{264-2x}{12x+21}$ (với $0<x<132$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{7}{4} + \\dfrac{\\sqrt{3210}}{12}$, $P_{\\min}=- \\dfrac{23}{12} + \\dfrac{\\sqrt{3210}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "22",
+      "m": "2",
+      "n": "21"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{7}\\dfrac{10-xy}{18x+19y}=7xy+18x+19y-71$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{30}{7} + \\dfrac{16 \\sqrt{13}}{7}$.\nB. $P_{\\min}=- \\dfrac{37}{7} + \\dfrac{16 \\sqrt{13}}{7}$.\nC. $P_{\\min}=\\dfrac{37}{7} - \\dfrac{16 \\sqrt{13}}{7}$.\nD. $P_{\\min}=- \\dfrac{74}{7} + \\dfrac{32 \\sqrt{13}}{7}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{37}{7} + \\dfrac{16 \\sqrt{13}}{7}$.",
+    "loi_giai": "Xét $f(t)=\\log_{7}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(7(10-xy)\\right)=f(18x+19y)$, suy ra $7(10-xy)=18x+19y\\Rightarrow y=\\dfrac{70-18x}{7x+19}$ (với $0<x<\\dfrac{35}{9}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{19}{7} + \\dfrac{8 \\sqrt{13}}{7}$, $P_{\\min}=- \\dfrac{37}{7} + \\dfrac{16 \\sqrt{13}}{7}$.",
+    "params": {
+      "b": "7",
+      "C": "10",
+      "m": "18",
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{14-xy}{28x+17y}=12xy+28x+17y-169$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{15}{4} - \\dfrac{\\sqrt{623}}{3}$.\nB. $P_{\\min}=- \\dfrac{11}{4} + \\dfrac{\\sqrt{623}}{3}$.\nC. $P_{\\min}=- \\dfrac{15}{4} + \\dfrac{\\sqrt{623}}{3}$.\nD. $P_{\\min}=- \\dfrac{15}{2} + \\dfrac{2 \\sqrt{623}}{3}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{15}{4} + \\dfrac{\\sqrt{623}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(14-xy)\\right)=f(28x+17y)$, suy ra $12(14-xy)=28x+17y\\Rightarrow y=\\dfrac{168-28x}{12x+17}$ (với $0<x<6$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{17}{12} + \\dfrac{\\sqrt{623}}{6}$, $P_{\\min}=- \\dfrac{15}{4} + \\dfrac{\\sqrt{623}}{3}$.",
+    "params": {
+      "b": "12",
+      "C": "14",
+      "m": "28",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{38-xy}{30x+26y}=2xy+30x+26y-77$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-27 + 2 \\sqrt{233}$.\nB. $P_{\\min}=28 - 2 \\sqrt{233}$.\nC. $P_{\\min}=-28 + 2 \\sqrt{233}$.\nD. $P_{\\min}=-56 + 4 \\sqrt{233}$.",
+    "dap_an": "C. $P_{\\min}=-28 + 2 \\sqrt{233}$.",
+    "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(38-xy)\\right)=f(30x+26y)$, suy ra $2(38-xy)=30x+26y\\Rightarrow y=\\dfrac{76-30x}{2x+26}$ (với $0<x<\\dfrac{38}{15}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-13 + \\sqrt{233}$, $P_{\\min}=-28 + 2 \\sqrt{233}$.",
+    "params": {
+      "b": "2",
+      "C": "38",
+      "m": "30",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{32-xy}{18x+6y}=12xy+18x+6y-385$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-1 + \\sqrt{131}$.\nB. $P_{\\min}=-4 + 2 \\sqrt{131}$.\nC. $P_{\\min}=2 - \\sqrt{131}$.\nD. $P_{\\min}=-2 + \\sqrt{131}$.",
+    "dap_an": "D. $P_{\\min}=-2 + \\sqrt{131}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(32-xy)\\right)=f(18x+6y)$, suy ra $12(32-xy)=18x+6y\\Rightarrow y=\\dfrac{384-18x}{12x+6}$ (với $0<x<\\dfrac{64}{3}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{2} + \\dfrac{\\sqrt{131}}{2}$, $P_{\\min}=-2 + \\sqrt{131}$.",
+    "params": {
+      "b": "12",
+      "C": "32",
+      "m": "18",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{38-xy}{14x+11y}=12xy+14x+11y-457$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{25}{6} + \\dfrac{\\sqrt{5626}}{3}$.\nB. $P_{\\min}=- \\dfrac{13}{12} + \\dfrac{\\sqrt{5626}}{6}$.\nC. $P_{\\min}=- \\dfrac{25}{12} + \\dfrac{\\sqrt{5626}}{6}$.\nD. $P_{\\min}=\\dfrac{25}{12} - \\dfrac{\\sqrt{5626}}{6}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{25}{12} + \\dfrac{\\sqrt{5626}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(38-xy)\\right)=f(14x+11y)$, suy ra $12(38-xy)=14x+11y\\Rightarrow y=\\dfrac{456-14x}{12x+11}$ (với $0<x<\\dfrac{228}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{11}{12} + \\dfrac{\\sqrt{5626}}{12}$, $P_{\\min}=- \\dfrac{25}{12} + \\dfrac{\\sqrt{5626}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "38",
+      "m": "14",
+      "n": "11"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{6-xy}{30x+35y}=6xy+30x+35y-37$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{65}{6} - \\dfrac{\\sqrt{1266}}{3}$.\nB. $P_{\\min}=- \\dfrac{59}{6} + \\dfrac{\\sqrt{1266}}{3}$.\nC. $P_{\\min}=- \\dfrac{65}{6} + \\dfrac{\\sqrt{1266}}{3}$.\nD. $P_{\\min}=- \\dfrac{65}{3} + \\dfrac{2 \\sqrt{1266}}{3}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{65}{6} + \\dfrac{\\sqrt{1266}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(6-xy)\\right)=f(30x+35y)$, suy ra $6(6-xy)=30x+35y\\Rightarrow y=\\dfrac{36-30x}{6x+35}$ (với $0<x<\\dfrac{6}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{35}{6} + \\dfrac{\\sqrt{1266}}{6}$, $P_{\\min}=- \\dfrac{65}{6} + \\dfrac{\\sqrt{1266}}{3}$.",
+    "params": {
+      "b": "6",
+      "C": "6",
+      "m": "30",
+      "n": "35"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{11}\\dfrac{2-xy}{x+9y}=11xy+x+9y-23$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{1}{11} + \\dfrac{2 \\sqrt{251}}{11}$.\nB. $P_{\\min}=- \\dfrac{10}{11} + \\dfrac{2 \\sqrt{251}}{11}$.\nC. $P_{\\min}=- \\dfrac{20}{11} + \\dfrac{4 \\sqrt{251}}{11}$.\nD. $P_{\\min}=\\dfrac{10}{11} - \\dfrac{2 \\sqrt{251}}{11}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{10}{11} + \\dfrac{2 \\sqrt{251}}{11}$.",
+    "loi_giai": "Xét $f(t)=\\log_{11}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(11(2-xy)\\right)=f(x+9y)$, suy ra $11(2-xy)=x+9y\\Rightarrow y=\\dfrac{22-x}{11x+9}$ (với $0<x<22$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{9}{11} + \\dfrac{\\sqrt{251}}{11}$, $P_{\\min}=- \\dfrac{10}{11} + \\dfrac{2 \\sqrt{251}}{11}$.",
+    "params": {
+      "b": "11",
+      "C": "2",
+      "m": "1",
+      "n": "9"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{4}\\dfrac{18-xy}{21x+18y}=4xy+21x+18y-73$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{39}{4} - \\dfrac{3 \\sqrt{74}}{2}$.\nB. $P_{\\min}=- \\dfrac{35}{4} + \\dfrac{3 \\sqrt{74}}{2}$.\nC. $P_{\\min}=- \\dfrac{39}{4} + \\dfrac{3 \\sqrt{74}}{2}$.\nD. $P_{\\min}=- \\dfrac{39}{2} + 3 \\sqrt{74}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{39}{4} + \\dfrac{3 \\sqrt{74}}{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{4}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(4(18-xy)\\right)=f(21x+18y)$, suy ra $4(18-xy)=21x+18y\\Rightarrow y=\\dfrac{72-21x}{4x+18}$ (với $0<x<\\dfrac{24}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{9}{2} + \\dfrac{3 \\sqrt{74}}{4}$, $P_{\\min}=- \\dfrac{39}{4} + \\dfrac{3 \\sqrt{74}}{2}$.",
+    "params": {
+      "b": "4",
+      "C": "18",
+      "m": "21",
+      "n": "18"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{39-xy}{36x+27y}=3xy+36x+27y-118$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=21 - 14 \\sqrt{3}$.\nB. $P_{\\min}=-21 + 14 \\sqrt{3}$.\nC. $P_{\\min}=-42 + 28 \\sqrt{3}$.\nD. $P_{\\min}=-20 + 14 \\sqrt{3}$.",
+    "dap_an": "B. $P_{\\min}=-21 + 14 \\sqrt{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(39-xy)\\right)=f(36x+27y)$, suy ra $3(39-xy)=36x+27y\\Rightarrow y=\\dfrac{117-36x}{3x+27}$ (với $0<x<\\dfrac{13}{4}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-9 + 7 \\sqrt{3}$, $P_{\\min}=-21 + 14 \\sqrt{3}$.",
+    "params": {
+      "b": "3",
+      "C": "39",
+      "m": "36",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{20-xy}{22x+32y}=9xy+22x+32y-181$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=6 - \\dfrac{4 \\sqrt{581}}{9}$.\nB. $P_{\\min}=-12 + \\dfrac{8 \\sqrt{581}}{9}$.\nC. $P_{\\min}=-5 + \\dfrac{4 \\sqrt{581}}{9}$.\nD. $P_{\\min}=-6 + \\dfrac{4 \\sqrt{581}}{9}$.",
+    "dap_an": "D. $P_{\\min}=-6 + \\dfrac{4 \\sqrt{581}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(20-xy)\\right)=f(22x+32y)$, suy ra $9(20-xy)=22x+32y\\Rightarrow y=\\dfrac{180-22x}{9x+32}$ (với $0<x<\\dfrac{90}{11}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{32}{9} + \\dfrac{2 \\sqrt{581}}{9}$, $P_{\\min}=-6 + \\dfrac{4 \\sqrt{581}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "20",
+      "m": "22",
+      "n": "32"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{7}\\dfrac{15-xy}{3x+28y}=7xy+3x+28y-106$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{62}{7} + \\dfrac{12 \\sqrt{91}}{7}$.\nB. $P_{\\min}=- \\dfrac{24}{7} + \\dfrac{6 \\sqrt{91}}{7}$.\nC. $P_{\\min}=\\dfrac{31}{7} - \\dfrac{6 \\sqrt{91}}{7}$.\nD. $P_{\\min}=- \\dfrac{31}{7} + \\dfrac{6 \\sqrt{91}}{7}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{31}{7} + \\dfrac{6 \\sqrt{91}}{7}$.",
+    "loi_giai": "Xét $f(t)=\\log_{7}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(7(15-xy)\\right)=f(3x+28y)$, suy ra $7(15-xy)=3x+28y\\Rightarrow y=\\dfrac{105-3x}{7x+28}$ (với $0<x<35$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-4 + \\dfrac{3 \\sqrt{91}}{7}$, $P_{\\min}=- \\dfrac{31}{7} + \\dfrac{6 \\sqrt{91}}{7}$.",
+    "params": {
+      "b": "7",
+      "C": "15",
+      "m": "3",
+      "n": "28"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{4}\\dfrac{11-xy}{22x+26y}=4xy+22x+26y-45$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-24 + 2 \\sqrt{187}$.\nB. $P_{\\min}=-11 + \\sqrt{187}$.\nC. $P_{\\min}=-12 + \\sqrt{187}$.\nD. $P_{\\min}=12 - \\sqrt{187}$.",
+    "dap_an": "C. $P_{\\min}=-12 + \\sqrt{187}$.",
+    "loi_giai": "Xét $f(t)=\\log_{4}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(4(11-xy)\\right)=f(22x+26y)$, suy ra $4(11-xy)=22x+26y\\Rightarrow y=\\dfrac{44-22x}{4x+26}$ (với $0<x<2$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{13}{2} + \\dfrac{\\sqrt{187}}{2}$, $P_{\\min}=-12 + \\sqrt{187}$.",
+    "params": {
+      "b": "4",
+      "C": "11",
+      "m": "22",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{12-xy}{7x+9y}=6xy+7x+9y-73$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{5}{3} + \\sqrt{55}$.\nB. $P_{\\min}=\\dfrac{8}{3} - \\sqrt{55}$.\nC. $P_{\\min}=- \\dfrac{16}{3} + 2 \\sqrt{55}$.\nD. $P_{\\min}=- \\dfrac{8}{3} + \\sqrt{55}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{8}{3} + \\sqrt{55}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(12-xy)\\right)=f(7x+9y)$, suy ra $6(12-xy)=7x+9y\\Rightarrow y=\\dfrac{72-7x}{6x+9}$ (với $0<x<\\dfrac{72}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{3}{2} + \\dfrac{\\sqrt{55}}{2}$, $P_{\\min}=- \\dfrac{8}{3} + \\sqrt{55}$.",
+    "params": {
+      "b": "6",
+      "C": "12",
+      "m": "7",
+      "n": "9"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{32-xy}{11x+23y}=3xy+11x+23y-97$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{34}{3} - \\dfrac{2 \\sqrt{541}}{3}$.\nB. $P_{\\min}=- \\dfrac{68}{3} + \\dfrac{4 \\sqrt{541}}{3}$.\nC. $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{2 \\sqrt{541}}{3}$.\nD. $P_{\\min}=- \\dfrac{31}{3} + \\dfrac{2 \\sqrt{541}}{3}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{2 \\sqrt{541}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(32-xy)\\right)=f(11x+23y)$, suy ra $3(32-xy)=11x+23y\\Rightarrow y=\\dfrac{96-11x}{3x+23}$ (với $0<x<\\dfrac{96}{11}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{23}{3} + \\dfrac{\\sqrt{541}}{3}$, $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{2 \\sqrt{541}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "32",
+      "m": "11",
+      "n": "23"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{15-xy}{19x+14y}=10xy+19x+14y-151$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{33}{10} + \\dfrac{\\sqrt{1766}}{5}$.\nB. $P_{\\min}=- \\dfrac{33}{5} + \\dfrac{2 \\sqrt{1766}}{5}$.\nC. $P_{\\min}=\\dfrac{33}{10} - \\dfrac{\\sqrt{1766}}{5}$.\nD. $P_{\\min}=- \\dfrac{23}{10} + \\dfrac{\\sqrt{1766}}{5}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{33}{10} + \\dfrac{\\sqrt{1766}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(15-xy)\\right)=f(19x+14y)$, suy ra $10(15-xy)=19x+14y\\Rightarrow y=\\dfrac{150-19x}{10x+14}$ (với $0<x<\\dfrac{150}{19}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{7}{5} + \\dfrac{\\sqrt{1766}}{10}$, $P_{\\min}=- \\dfrac{33}{10} + \\dfrac{\\sqrt{1766}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "15",
+      "m": "19",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{18-xy}{4x+13y}=3xy+4x+13y-55$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{17}{3} + \\dfrac{2 \\sqrt{214}}{3}$.\nB. $P_{\\min}=- \\dfrac{14}{3} + \\dfrac{2 \\sqrt{214}}{3}$.\nC. $P_{\\min}=- \\dfrac{34}{3} + \\dfrac{4 \\sqrt{214}}{3}$.\nD. $P_{\\min}=\\dfrac{17}{3} - \\dfrac{2 \\sqrt{214}}{3}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{17}{3} + \\dfrac{2 \\sqrt{214}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(18-xy)\\right)=f(4x+13y)$, suy ra $3(18-xy)=4x+13y\\Rightarrow y=\\dfrac{54-4x}{3x+13}$ (với $0<x<\\dfrac{27}{2}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{13}{3} + \\dfrac{\\sqrt{214}}{3}$, $P_{\\min}=- \\dfrac{17}{3} + \\dfrac{2 \\sqrt{214}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "18",
+      "m": "4",
+      "n": "13"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{22-xy}{6x+37y}=8xy+6x+37y-177$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{35}{8} + \\dfrac{\\sqrt{1630}}{4}$.\nB. $P_{\\min}=- \\dfrac{43}{8} + \\dfrac{\\sqrt{1630}}{4}$.\nC. $P_{\\min}=- \\dfrac{43}{4} + \\dfrac{\\sqrt{1630}}{2}$.\nD. $P_{\\min}=\\dfrac{43}{8} - \\dfrac{\\sqrt{1630}}{4}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{43}{8} + \\dfrac{\\sqrt{1630}}{4}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(22-xy)\\right)=f(6x+37y)$, suy ra $8(22-xy)=6x+37y\\Rightarrow y=\\dfrac{176-6x}{8x+37}$ (với $0<x<\\dfrac{88}{3}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{37}{8} + \\dfrac{\\sqrt{1630}}{8}$, $P_{\\min}=- \\dfrac{43}{8} + \\dfrac{\\sqrt{1630}}{4}$.",
+    "params": {
+      "b": "8",
+      "C": "22",
+      "m": "6",
+      "n": "37"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{14-xy}{22x+y}=12xy+22x+y-169$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{11}{12} + \\dfrac{\\sqrt{2038}}{6}$.\nB. $P_{\\min}=\\dfrac{23}{12} - \\dfrac{\\sqrt{2038}}{6}$.\nC. $P_{\\min}=- \\dfrac{23}{6} + \\dfrac{\\sqrt{2038}}{3}$.\nD. $P_{\\min}=- \\dfrac{23}{12} + \\dfrac{\\sqrt{2038}}{6}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{23}{12} + \\dfrac{\\sqrt{2038}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(14-xy)\\right)=f(22x+y)$, suy ra $12(14-xy)=22x+y\\Rightarrow y=\\dfrac{168-22x}{12x+1}$ (với $0<x<\\dfrac{84}{11}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{12} + \\dfrac{\\sqrt{2038}}{12}$, $P_{\\min}=- \\dfrac{23}{12} + \\dfrac{\\sqrt{2038}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "14",
+      "m": "22",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{16-xy}{29x+8y}=9xy+29x+8y-145$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{28}{9} + \\dfrac{4 \\sqrt{382}}{9}$.\nB. $P_{\\min}=\\dfrac{37}{9} - \\dfrac{4 \\sqrt{382}}{9}$.\nC. $P_{\\min}=- \\dfrac{37}{9} + \\dfrac{4 \\sqrt{382}}{9}$.\nD. $P_{\\min}=- \\dfrac{74}{9} + \\dfrac{8 \\sqrt{382}}{9}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{37}{9} + \\dfrac{4 \\sqrt{382}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(16-xy)\\right)=f(29x+8y)$, suy ra $9(16-xy)=29x+8y\\Rightarrow y=\\dfrac{144-29x}{9x+8}$ (với $0<x<\\dfrac{144}{29}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{8}{9} + \\dfrac{2 \\sqrt{382}}{9}$, $P_{\\min}=- \\dfrac{37}{9} + \\dfrac{4 \\sqrt{382}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "16",
+      "m": "29",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{32-xy}{4x+39y}=10xy+4x+39y-321$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{33}{10} + \\dfrac{2 \\sqrt{839}}{5}$.\nB. $P_{\\min}=\\dfrac{43}{10} - \\dfrac{2 \\sqrt{839}}{5}$.\nC. $P_{\\min}=- \\dfrac{43}{10} + \\dfrac{2 \\sqrt{839}}{5}$.\nD. $P_{\\min}=- \\dfrac{43}{5} + \\dfrac{4 \\sqrt{839}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{43}{10} + \\dfrac{2 \\sqrt{839}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(32-xy)\\right)=f(4x+39y)$, suy ra $10(32-xy)=4x+39y\\Rightarrow y=\\dfrac{320-4x}{10x+39}$ (với $0<x<80$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{39}{10} + \\dfrac{\\sqrt{839}}{5}$, $P_{\\min}=- \\dfrac{43}{10} + \\dfrac{2 \\sqrt{839}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "32",
+      "m": "4",
+      "n": "39"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{34-xy}{40x+25y}=8xy+40x+25y-273$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{65}{8} - \\dfrac{\\sqrt{794}}{2}$.\nB. $P_{\\min}=- \\dfrac{57}{8} + \\dfrac{\\sqrt{794}}{2}$.\nC. $P_{\\min}=- \\dfrac{65}{4} + \\sqrt{794}$.\nD. $P_{\\min}=- \\dfrac{65}{8} + \\dfrac{\\sqrt{794}}{2}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{65}{8} + \\dfrac{\\sqrt{794}}{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(34-xy)\\right)=f(40x+25y)$, suy ra $8(34-xy)=40x+25y\\Rightarrow y=\\dfrac{272-40x}{8x+25}$ (với $0<x<\\dfrac{34}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{25}{8} + \\dfrac{\\sqrt{794}}{4}$, $P_{\\min}=- \\dfrac{65}{8} + \\dfrac{\\sqrt{794}}{2}$.",
+    "params": {
+      "b": "8",
+      "C": "34",
+      "m": "40",
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{4}\\dfrac{20-xy}{25x+14y}=4xy+25x+14y-81$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{35}{4} + \\dfrac{\\sqrt{670}}{2}$.\nB. $P_{\\min}=- \\dfrac{39}{2} + \\sqrt{670}$.\nC. $P_{\\min}=- \\dfrac{39}{4} + \\dfrac{\\sqrt{670}}{2}$.\nD. $P_{\\min}=\\dfrac{39}{4} - \\dfrac{\\sqrt{670}}{2}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{39}{4} + \\dfrac{\\sqrt{670}}{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{4}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(4(20-xy)\\right)=f(25x+14y)$, suy ra $4(20-xy)=25x+14y\\Rightarrow y=\\dfrac{80-25x}{4x+14}$ (với $0<x<\\dfrac{16}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{7}{2} + \\dfrac{\\sqrt{670}}{4}$, $P_{\\min}=- \\dfrac{39}{4} + \\dfrac{\\sqrt{670}}{2}$.",
+    "params": {
+      "b": "4",
+      "C": "20",
+      "m": "25",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{29-xy}{25x+27y}=2xy+25x+27y-59$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-25 + \\sqrt{791}$.\nB. $P_{\\min}=26 - \\sqrt{791}$.\nC. $P_{\\min}=-52 + 2 \\sqrt{791}$.\nD. $P_{\\min}=-26 + \\sqrt{791}$.",
+    "dap_an": "D. $P_{\\min}=-26 + \\sqrt{791}$.",
+    "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(29-xy)\\right)=f(25x+27y)$, suy ra $2(29-xy)=25x+27y\\Rightarrow y=\\dfrac{58-25x}{2x+27}$ (với $0<x<\\dfrac{58}{25}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{27}{2} + \\dfrac{\\sqrt{791}}{2}$, $P_{\\min}=-26 + \\sqrt{791}$.",
+    "params": {
+      "b": "2",
+      "C": "29",
+      "m": "25",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{31-xy}{23x+7y}=8xy+23x+7y-249$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{15}{4} + \\dfrac{\\sqrt{2145}}{4}$.\nB. $P_{\\min}=- \\dfrac{11}{4} + \\dfrac{\\sqrt{2145}}{4}$.\nC. $P_{\\min}=\\dfrac{15}{4} - \\dfrac{\\sqrt{2145}}{4}$.\nD. $P_{\\min}=- \\dfrac{15}{2} + \\dfrac{\\sqrt{2145}}{2}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{15}{4} + \\dfrac{\\sqrt{2145}}{4}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(31-xy)\\right)=f(23x+7y)$, suy ra $8(31-xy)=23x+7y\\Rightarrow y=\\dfrac{248-23x}{8x+7}$ (với $0<x<\\dfrac{248}{23}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{7}{8} + \\dfrac{\\sqrt{2145}}{8}$, $P_{\\min}=- \\dfrac{15}{4} + \\dfrac{\\sqrt{2145}}{4}$.",
+    "params": {
+      "b": "8",
+      "C": "31",
+      "m": "23",
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{7}\\dfrac{20-xy}{21x+6y}=7xy+21x+6y-141$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{54}{7} + \\dfrac{4 \\sqrt{1106}}{7}$.\nB. $P_{\\min}=\\dfrac{27}{7} - \\dfrac{2 \\sqrt{1106}}{7}$.\nC. $P_{\\min}=- \\dfrac{27}{7} + \\dfrac{2 \\sqrt{1106}}{7}$.\nD. $P_{\\min}=- \\dfrac{20}{7} + \\dfrac{2 \\sqrt{1106}}{7}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{27}{7} + \\dfrac{2 \\sqrt{1106}}{7}$.",
+    "loi_giai": "Xét $f(t)=\\log_{7}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(7(20-xy)\\right)=f(21x+6y)$, suy ra $7(20-xy)=21x+6y\\Rightarrow y=\\dfrac{140-21x}{7x+6}$ (với $0<x<\\dfrac{20}{3}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{6}{7} + \\dfrac{\\sqrt{1106}}{7}$, $P_{\\min}=- \\dfrac{27}{7} + \\dfrac{2 \\sqrt{1106}}{7}$.",
+    "params": {
+      "b": "7",
+      "C": "20",
+      "m": "21",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{33-xy}{40x+6y}=9xy+40x+6y-298$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{92}{9} + \\dfrac{4 \\sqrt{2913}}{9}$.\nB. $P_{\\min}=- \\dfrac{37}{9} + \\dfrac{2 \\sqrt{2913}}{9}$.\nC. $P_{\\min}=- \\dfrac{46}{9} + \\dfrac{2 \\sqrt{2913}}{9}$.\nD. $P_{\\min}=\\dfrac{46}{9} - \\dfrac{2 \\sqrt{2913}}{9}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{46}{9} + \\dfrac{2 \\sqrt{2913}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(33-xy)\\right)=f(40x+6y)$, suy ra $9(33-xy)=40x+6y\\Rightarrow y=\\dfrac{297-40x}{9x+6}$ (với $0<x<\\dfrac{297}{40}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{2}{3} + \\dfrac{\\sqrt{2913}}{9}$, $P_{\\min}=- \\dfrac{46}{9} + \\dfrac{2 \\sqrt{2913}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "33",
+      "m": "40",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{32-xy}{9x+25y}=6xy+9x+25y-193$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{14}{3} + 3 \\sqrt{17}$.\nB. $P_{\\min}=\\dfrac{17}{3} - 3 \\sqrt{17}$.\nC. $P_{\\min}=- \\dfrac{34}{3} + 6 \\sqrt{17}$.\nD. $P_{\\min}=- \\dfrac{17}{3} + 3 \\sqrt{17}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{17}{3} + 3 \\sqrt{17}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(32-xy)\\right)=f(9x+25y)$, suy ra $6(32-xy)=9x+25y\\Rightarrow y=\\dfrac{192-9x}{6x+25}$ (với $0<x<\\dfrac{64}{3}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{25}{6} + \\dfrac{3 \\sqrt{17}}{2}$, $P_{\\min}=- \\dfrac{17}{3} + 3 \\sqrt{17}$.",
+    "params": {
+      "b": "6",
+      "C": "32",
+      "m": "9",
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{7}\\dfrac{35-xy}{35x+19y}=7xy+35x+19y-246$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{54}{7} - \\dfrac{4 \\sqrt{595}}{7}$.\nB. $P_{\\min}=- \\dfrac{54}{7} + \\dfrac{4 \\sqrt{595}}{7}$.\nC. $P_{\\min}=- \\dfrac{108}{7} + \\dfrac{8 \\sqrt{595}}{7}$.\nD. $P_{\\min}=- \\dfrac{47}{7} + \\dfrac{4 \\sqrt{595}}{7}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{54}{7} + \\dfrac{4 \\sqrt{595}}{7}$.",
+    "loi_giai": "Xét $f(t)=\\log_{7}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(7(35-xy)\\right)=f(35x+19y)$, suy ra $7(35-xy)=35x+19y\\Rightarrow y=\\dfrac{245-35x}{7x+19}$ (với $0<x<7$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{19}{7} + \\dfrac{2 \\sqrt{595}}{7}$, $P_{\\min}=- \\dfrac{54}{7} + \\dfrac{4 \\sqrt{595}}{7}$.",
+    "params": {
+      "b": "7",
+      "C": "35",
+      "m": "35",
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{21-xy}{35x+23y}=5xy+35x+23y-106$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{58}{5} + \\dfrac{2 \\sqrt{1330}}{5}$.\nB. $P_{\\min}=- \\dfrac{116}{5} + \\dfrac{4 \\sqrt{1330}}{5}$.\nC. $P_{\\min}=\\dfrac{58}{5} - \\dfrac{2 \\sqrt{1330}}{5}$.\nD. $P_{\\min}=- \\dfrac{53}{5} + \\dfrac{2 \\sqrt{1330}}{5}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{58}{5} + \\dfrac{2 \\sqrt{1330}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(21-xy)\\right)=f(35x+23y)$, suy ra $5(21-xy)=35x+23y\\Rightarrow y=\\dfrac{105-35x}{5x+23}$ (với $0<x<3$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{23}{5} + \\dfrac{\\sqrt{1330}}{5}$, $P_{\\min}=- \\dfrac{58}{5} + \\dfrac{2 \\sqrt{1330}}{5}$.",
+    "params": {
+      "b": "5",
+      "C": "21",
+      "m": "35",
+      "n": "23"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{34-xy}{36x+39y}=3xy+36x+39y-103$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-24 + 2 \\sqrt{190}$.\nB. $P_{\\min}=-50 + 4 \\sqrt{190}$.\nC. $P_{\\min}=-25 + 2 \\sqrt{190}$.\nD. $P_{\\min}=25 - 2 \\sqrt{190}$.",
+    "dap_an": "C. $P_{\\min}=-25 + 2 \\sqrt{190}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(34-xy)\\right)=f(36x+39y)$, suy ra $3(34-xy)=36x+39y\\Rightarrow y=\\dfrac{102-36x}{3x+39}$ (với $0<x<\\dfrac{17}{6}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-13 + \\sqrt{190}$, $P_{\\min}=-25 + 2 \\sqrt{190}$.",
+    "params": {
+      "b": "3",
+      "C": "34",
+      "m": "36",
+      "n": "39"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{40-xy}{3x+16y}=9xy+3x+16y-361$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{38}{9} + \\dfrac{8 \\sqrt{822}}{9}$.\nB. $P_{\\min}=- \\dfrac{19}{9} + \\dfrac{4 \\sqrt{822}}{9}$.\nC. $P_{\\min}=\\dfrac{19}{9} - \\dfrac{4 \\sqrt{822}}{9}$.\nD. $P_{\\min}=- \\dfrac{10}{9} + \\dfrac{4 \\sqrt{822}}{9}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{19}{9} + \\dfrac{4 \\sqrt{822}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(40-xy)\\right)=f(3x+16y)$, suy ra $9(40-xy)=3x+16y\\Rightarrow y=\\dfrac{360-3x}{9x+16}$ (với $0<x<120$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{16}{9} + \\dfrac{2 \\sqrt{822}}{9}$, $P_{\\min}=- \\dfrac{19}{9} + \\dfrac{4 \\sqrt{822}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "40",
+      "m": "3",
+      "n": "16"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{9-xy}{13x+27y}=9xy+13x+27y-82$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{80}{9} + \\dfrac{8 \\sqrt{30}}{3}$.\nB. $P_{\\min}=- \\dfrac{31}{9} + \\dfrac{4 \\sqrt{30}}{3}$.\nC. $P_{\\min}=- \\dfrac{40}{9} + \\dfrac{4 \\sqrt{30}}{3}$.\nD. $P_{\\min}=\\dfrac{40}{9} - \\dfrac{4 \\sqrt{30}}{3}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{40}{9} + \\dfrac{4 \\sqrt{30}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(9-xy)\\right)=f(13x+27y)$, suy ra $9(9-xy)=13x+27y\\Rightarrow y=\\dfrac{81-13x}{9x+27}$ (với $0<x<\\dfrac{81}{13}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-3 + \\dfrac{2 \\sqrt{30}}{3}$, $P_{\\min}=- \\dfrac{40}{9} + \\dfrac{4 \\sqrt{30}}{3}$.",
+    "params": {
+      "b": "9",
+      "C": "9",
+      "m": "13",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{16-xy}{40x+28y}=10xy+40x+28y-161$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{29}{5} + \\dfrac{4 \\sqrt{170}}{5}$.\nB. $P_{\\min}=\\dfrac{34}{5} - \\dfrac{4 \\sqrt{170}}{5}$.\nC. $P_{\\min}=- \\dfrac{34}{5} + \\dfrac{4 \\sqrt{170}}{5}$.\nD. $P_{\\min}=- \\dfrac{68}{5} + \\dfrac{8 \\sqrt{170}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{34}{5} + \\dfrac{4 \\sqrt{170}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(16-xy)\\right)=f(40x+28y)$, suy ra $10(16-xy)=40x+28y\\Rightarrow y=\\dfrac{160-40x}{10x+28}$ (với $0<x<4$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{14}{5} + \\dfrac{2 \\sqrt{170}}{5}$, $P_{\\min}=- \\dfrac{34}{5} + \\dfrac{4 \\sqrt{170}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "16",
+      "m": "40",
+      "n": "28"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{18-xy}{14x+8y}=8xy+14x+8y-145$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{11}{4} - \\sqrt{79}$.\nB. $P_{\\min}=- \\dfrac{7}{4} + \\sqrt{79}$.\nC. $P_{\\min}=- \\dfrac{11}{2} + 2 \\sqrt{79}$.\nD. $P_{\\min}=- \\dfrac{11}{4} + \\sqrt{79}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{11}{4} + \\sqrt{79}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(18-xy)\\right)=f(14x+8y)$, suy ra $8(18-xy)=14x+8y\\Rightarrow y=\\dfrac{144-14x}{8x+8}$ (với $0<x<\\dfrac{72}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{\\sqrt{79}}{2}$, $P_{\\min}=- \\dfrac{11}{4} + \\sqrt{79}$.",
+    "params": {
+      "b": "8",
+      "C": "18",
+      "m": "14",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{33-xy}{12x+8y}=5xy+12x+8y-166$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-3 + \\dfrac{2 \\sqrt{921}}{5}$.\nB. $P_{\\min}=4 - \\dfrac{2 \\sqrt{921}}{5}$.\nC. $P_{\\min}=-4 + \\dfrac{2 \\sqrt{921}}{5}$.\nD. $P_{\\min}=-8 + \\dfrac{4 \\sqrt{921}}{5}$.",
+    "dap_an": "C. $P_{\\min}=-4 + \\dfrac{2 \\sqrt{921}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(33-xy)\\right)=f(12x+8y)$, suy ra $5(33-xy)=12x+8y\\Rightarrow y=\\dfrac{165-12x}{5x+8}$ (với $0<x<\\dfrac{55}{4}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{8}{5} + \\dfrac{\\sqrt{921}}{5}$, $P_{\\min}=-4 + \\dfrac{2 \\sqrt{921}}{5}$.",
+    "params": {
+      "b": "5",
+      "C": "33",
+      "m": "12",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{21-xy}{7x+3y}=2xy+7x+3y-43$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-5 + \\sqrt{105}$.\nB. $P_{\\min}=-4 + \\sqrt{105}$.\nC. $P_{\\min}=5 - \\sqrt{105}$.\nD. $P_{\\min}=-10 + 2 \\sqrt{105}$.",
+    "dap_an": "A. $P_{\\min}=-5 + \\sqrt{105}$.",
+    "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(21-xy)\\right)=f(7x+3y)$, suy ra $2(21-xy)=7x+3y\\Rightarrow y=\\dfrac{42-7x}{2x+3}$ (với $0<x<6$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{3}{2} + \\dfrac{\\sqrt{105}}{2}$, $P_{\\min}=-5 + \\sqrt{105}$.",
+    "params": {
+      "b": "2",
+      "C": "21",
+      "m": "7",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{10-xy}{23x+26y}=10xy+23x+26y-101$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{7 \\cdot 2^{\\dfrac{233}{521}} \\cdot 3^{\\dfrac{189}{521}} \\cdot 5^{\\dfrac{508}{521}} \\cdot 7^{\\dfrac{294}{521}}}{50}$.\nB. $P_{\\min}=- \\dfrac{49}{5} + \\dfrac{2 \\sqrt{1598}}{5}$.\nC. $P_{\\min}=- \\dfrac{49}{10} + \\dfrac{\\sqrt{1598}}{5}$.\nD. $P_{\\min}=\\dfrac{49}{10} - \\dfrac{\\sqrt{1598}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{49}{10} + \\dfrac{\\sqrt{1598}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(10-xy)\\right)=f(23x+26y)$, suy ra $10(10-xy)=23x+26y\\Rightarrow y=\\dfrac{100-23x}{10x+26}$ (với $0<x<\\dfrac{100}{23}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{13}{5} + \\dfrac{\\sqrt{1598}}{10}$, $P_{\\min}=- \\dfrac{49}{10} + \\dfrac{\\sqrt{1598}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "10",
+      "m": "23",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{32-xy}{21x+36y}=12xy+21x+36y-385$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{19}{4} - \\sqrt{149}$.\nB. $P_{\\min}=- \\dfrac{19}{4} + \\sqrt{149}$.\nC. $P_{\\min}=- \\dfrac{15}{4} + \\sqrt{149}$.\nD. $P_{\\min}=- \\dfrac{19}{2} + 2 \\sqrt{149}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{19}{4} + \\sqrt{149}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(32-xy)\\right)=f(21x+36y)$, suy ra $12(32-xy)=21x+36y\\Rightarrow y=\\dfrac{384-21x}{12x+36}$ (với $0<x<\\dfrac{128}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-3 + \\dfrac{\\sqrt{149}}{2}$, $P_{\\min}=- \\dfrac{19}{4} + \\sqrt{149}$.",
+    "params": {
+      "b": "12",
+      "C": "32",
+      "m": "21",
+      "n": "36"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{19-xy}{15x+33y}=9xy+15x+33y-172$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{16}{3} - \\dfrac{2 \\sqrt{226}}{3}$.\nB. $P_{\\min}=- \\dfrac{13}{3} + \\dfrac{2 \\sqrt{226}}{3}$.\nC. $P_{\\min}=- \\dfrac{32}{3} + \\dfrac{4 \\sqrt{226}}{3}$.\nD. $P_{\\min}=- \\dfrac{16}{3} + \\dfrac{2 \\sqrt{226}}{3}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{16}{3} + \\dfrac{2 \\sqrt{226}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(19-xy)\\right)=f(15x+33y)$, suy ra $9(19-xy)=15x+33y\\Rightarrow y=\\dfrac{171-15x}{9x+33}$ (với $0<x<\\dfrac{57}{5}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{11}{3} + \\dfrac{\\sqrt{226}}{3}$, $P_{\\min}=- \\dfrac{16}{3} + \\dfrac{2 \\sqrt{226}}{3}$.",
+    "params": {
+      "b": "9",
+      "C": "19",
+      "m": "15",
+      "n": "33"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{38-xy}{27x+3y}=6xy+27x+3y-229$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-10 + 2 \\sqrt{161}$.\nB. $P_{\\min}=-4 + \\sqrt{161}$.\nC. $P_{\\min}=5 - \\sqrt{161}$.\nD. $P_{\\min}=-5 + \\sqrt{161}$.",
+    "dap_an": "D. $P_{\\min}=-5 + \\sqrt{161}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(38-xy)\\right)=f(27x+3y)$, suy ra $6(38-xy)=27x+3y\\Rightarrow y=\\dfrac{228-27x}{6x+3}$ (với $0<x<\\dfrac{76}{9}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{2} + \\dfrac{\\sqrt{161}}{2}$, $P_{\\min}=-5 + \\sqrt{161}$.",
+    "params": {
+      "b": "6",
+      "C": "38",
+      "m": "27",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{5-xy}{22x+37y}=12xy+22x+37y-61$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{59}{12} + \\dfrac{\\sqrt{1534}}{6}$.\nB. $P_{\\min}=- \\dfrac{47}{12} + \\dfrac{\\sqrt{1534}}{6}$.\nC. $P_{\\min}=\\dfrac{59}{12} - \\dfrac{\\sqrt{1534}}{6}$.\nD. $P_{\\min}=- \\dfrac{59}{6} + \\dfrac{\\sqrt{1534}}{3}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{59}{12} + \\dfrac{\\sqrt{1534}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(5-xy)\\right)=f(22x+37y)$, suy ra $12(5-xy)=22x+37y\\Rightarrow y=\\dfrac{60-22x}{12x+37}$ (với $0<x<\\dfrac{30}{11}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{37}{12} + \\dfrac{\\sqrt{1534}}{12}$, $P_{\\min}=- \\dfrac{59}{12} + \\dfrac{\\sqrt{1534}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "5",
+      "m": "22",
+      "n": "37"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{21-xy}{26x+30y}=12xy+26x+30y-253$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{14}{3} + \\dfrac{\\sqrt{951}}{3}$.\nB. $P_{\\min}=- \\dfrac{28}{3} + \\dfrac{2 \\sqrt{951}}{3}$.\nC. $P_{\\min}=- \\dfrac{11}{3} + \\dfrac{\\sqrt{951}}{3}$.\nD. $P_{\\min}=\\dfrac{14}{3} - \\dfrac{\\sqrt{951}}{3}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{14}{3} + \\dfrac{\\sqrt{951}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(21-xy)\\right)=f(26x+30y)$, suy ra $12(21-xy)=26x+30y\\Rightarrow y=\\dfrac{252-26x}{12x+30}$ (với $0<x<\\dfrac{126}{13}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{5}{2} + \\dfrac{\\sqrt{951}}{6}$, $P_{\\min}=- \\dfrac{14}{3} + \\dfrac{\\sqrt{951}}{3}$.",
+    "params": {
+      "b": "12",
+      "C": "21",
+      "m": "26",
+      "n": "30"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{30-xy}{6x+12y}=5xy+6x+12y-151$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{13}{5} + \\dfrac{2 \\sqrt{822}}{5}$.\nB. $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{359}{725}} \\cdot 3^{\\dfrac{176}{725}} \\cdot 5^{\\dfrac{222}{725}} \\cdot 7^{\\dfrac{332}{725}}}{7}$.\nC. $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{359}{725}} \\cdot 3^{\\dfrac{176}{725}} \\cdot 5^{\\dfrac{222}{725}} \\cdot 7^{\\dfrac{332}{725}}}{14}$.\nD. $P_{\\min}=- \\dfrac{15 \\cdot 2^{\\dfrac{359}{725}} \\cdot 3^{\\dfrac{176}{725}} \\cdot 5^{\\dfrac{222}{725}} \\cdot 7^{\\dfrac{332}{725}}}{14}$.",
+    "dap_an": "C. $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{359}{725}} \\cdot 3^{\\dfrac{176}{725}} \\cdot 5^{\\dfrac{222}{725}} \\cdot 7^{\\dfrac{332}{725}}}{14}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(30-xy)\\right)=f(6x+12y)$, suy ra $5(30-xy)=6x+12y\\Rightarrow y=\\dfrac{150-6x}{5x+12}$ (với $0<x<25$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{12}{5} + \\dfrac{\\sqrt{822}}{5}$, $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{359}{725}} \\cdot 3^{\\dfrac{176}{725}} \\cdot 5^{\\dfrac{222}{725}} \\cdot 7^{\\dfrac{332}{725}}}{14}$.",
+    "params": {
+      "b": "5",
+      "C": "30",
+      "m": "6",
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{11}\\dfrac{31-xy}{14x+26y}=11xy+14x+26y-342$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{29}{11} + \\dfrac{2 \\sqrt{4115}}{11}$.\nB. $P_{\\min}=\\dfrac{40}{11} - \\dfrac{2 \\sqrt{4115}}{11}$.\nC. $P_{\\min}=- \\dfrac{40}{11} + \\dfrac{2 \\sqrt{4115}}{11}$.\nD. $P_{\\min}=- \\dfrac{80}{11} + \\dfrac{4 \\sqrt{4115}}{11}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{40}{11} + \\dfrac{2 \\sqrt{4115}}{11}$.",
+    "loi_giai": "Xét $f(t)=\\log_{11}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(11(31-xy)\\right)=f(14x+26y)$, suy ra $11(31-xy)=14x+26y\\Rightarrow y=\\dfrac{341-14x}{11x+26}$ (với $0<x<\\dfrac{341}{14}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{26}{11} + \\dfrac{\\sqrt{4115}}{11}$, $P_{\\min}=- \\dfrac{40}{11} + \\dfrac{2 \\sqrt{4115}}{11}$.",
+    "params": {
+      "b": "11",
+      "C": "31",
+      "m": "14",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{30-xy}{20x+4y}=12xy+20x+4y-361$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-4 + \\dfrac{20 \\sqrt{11}}{3}$.\nB. $P_{\\min}=2 - \\dfrac{10 \\sqrt{11}}{3}$.\nC. $P_{\\min}=-1 + \\dfrac{10 \\sqrt{11}}{3}$.\nD. $P_{\\min}=-2 + \\dfrac{10 \\sqrt{11}}{3}$.",
+    "dap_an": "D. $P_{\\min}=-2 + \\dfrac{10 \\sqrt{11}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(30-xy)\\right)=f(20x+4y)$, suy ra $12(30-xy)=20x+4y\\Rightarrow y=\\dfrac{360-20x}{12x+4}$ (với $0<x<18$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{3} + \\dfrac{5 \\sqrt{11}}{3}$, $P_{\\min}=-2 + \\dfrac{10 \\sqrt{11}}{3}$.",
+    "params": {
+      "b": "12",
+      "C": "30",
+      "m": "20",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{14-xy}{22x+26y}=10xy+22x+26y-141$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{19}{5} + \\dfrac{2 \\sqrt{493}}{5}$.\nB. $P_{\\min}=\\dfrac{24}{5} - \\dfrac{2 \\sqrt{493}}{5}$.\nC. $P_{\\min}=- \\dfrac{24}{5} + \\dfrac{2 \\sqrt{493}}{5}$.\nD. $P_{\\min}=- \\dfrac{48}{5} + \\dfrac{4 \\sqrt{493}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{24}{5} + \\dfrac{2 \\sqrt{493}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(14-xy)\\right)=f(22x+26y)$, suy ra $10(14-xy)=22x+26y\\Rightarrow y=\\dfrac{140-22x}{10x+26}$ (với $0<x<\\dfrac{70}{11}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{13}{5} + \\dfrac{\\sqrt{493}}{5}$, $P_{\\min}=- \\dfrac{24}{5} + \\dfrac{2 \\sqrt{493}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "14",
+      "m": "22",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{13-xy}{14x+33y}=12xy+14x+33y-157$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{47}{12} - \\dfrac{\\sqrt{2334}}{6}$.\nB. $P_{\\min}=- \\dfrac{47}{6} + \\dfrac{\\sqrt{2334}}{3}$.\nC. $P_{\\min}=- \\dfrac{35}{12} + \\dfrac{\\sqrt{2334}}{6}$.\nD. $P_{\\min}=- \\dfrac{47}{12} + \\dfrac{\\sqrt{2334}}{6}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{47}{12} + \\dfrac{\\sqrt{2334}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(13-xy)\\right)=f(14x+33y)$, suy ra $12(13-xy)=14x+33y\\Rightarrow y=\\dfrac{156-14x}{12x+33}$ (với $0<x<\\dfrac{78}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{11}{4} + \\dfrac{\\sqrt{2334}}{12}$, $P_{\\min}=- \\dfrac{47}{12} + \\dfrac{\\sqrt{2334}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "13",
+      "m": "14",
+      "n": "33"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{8-xy}{8x+10y}=10xy+8x+10y-81$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{4}{5} + \\dfrac{4 \\sqrt{55}}{5}$.\nB. $P_{\\min}=- \\dfrac{18}{5} + \\dfrac{8 \\sqrt{55}}{5}$.\nC. $P_{\\min}=- \\dfrac{9}{5} + \\dfrac{4 \\sqrt{55}}{5}$.\nD. $P_{\\min}=\\dfrac{9}{5} - \\dfrac{4 \\sqrt{55}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{9}{5} + \\dfrac{4 \\sqrt{55}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(8-xy)\\right)=f(8x+10y)$, suy ra $10(8-xy)=8x+10y\\Rightarrow y=\\dfrac{80-8x}{10x+10}$ (với $0<x<10$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{2 \\sqrt{55}}{5}$, $P_{\\min}=- \\dfrac{9}{5} + \\dfrac{4 \\sqrt{55}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "8",
+      "m": "8",
+      "n": "10"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{20-xy}{15x+34y}=6xy+15x+34y-121$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{49}{6} - \\dfrac{\\sqrt{1230}}{3}$.\nB. $P_{\\min}=- \\dfrac{49}{3} + \\dfrac{2 \\sqrt{1230}}{3}$.\nC. $P_{\\min}=- \\dfrac{43}{6} + \\dfrac{\\sqrt{1230}}{3}$.\nD. $P_{\\min}=- \\dfrac{49}{6} + \\dfrac{\\sqrt{1230}}{3}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{49}{6} + \\dfrac{\\sqrt{1230}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(20-xy)\\right)=f(15x+34y)$, suy ra $6(20-xy)=15x+34y\\Rightarrow y=\\dfrac{120-15x}{6x+34}$ (với $0<x<8$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{17}{3} + \\dfrac{\\sqrt{1230}}{6}$, $P_{\\min}=- \\dfrac{49}{6} + \\dfrac{\\sqrt{1230}}{3}$.",
+    "params": {
+      "b": "6",
+      "C": "20",
+      "m": "15",
+      "n": "34"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{4}\\dfrac{38-xy}{3x+18y}=4xy+3x+18y-153$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{17}{4} + \\dfrac{\\sqrt{662}}{2}$.\nB. $P_{\\min}=- \\dfrac{21}{2} + \\sqrt{662}$.\nC. $P_{\\min}=\\dfrac{21}{4} - \\dfrac{\\sqrt{662}}{2}$.\nD. $P_{\\min}=- \\dfrac{21}{4} + \\dfrac{\\sqrt{662}}{2}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{21}{4} + \\dfrac{\\sqrt{662}}{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{4}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(4(38-xy)\\right)=f(3x+18y)$, suy ra $4(38-xy)=3x+18y\\Rightarrow y=\\dfrac{152-3x}{4x+18}$ (với $0<x<\\dfrac{152}{3}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{9}{2} + \\dfrac{\\sqrt{662}}{4}$, $P_{\\min}=- \\dfrac{21}{4} + \\dfrac{\\sqrt{662}}{2}$.",
+    "params": {
+      "b": "4",
+      "C": "38",
+      "m": "3",
+      "n": "18"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{34-xy}{8x+26y}=5xy+8x+26y-171$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{34}{5} + \\dfrac{46 \\sqrt{2}}{5}$.\nB. $P_{\\min}=- \\dfrac{29}{5} + \\dfrac{46 \\sqrt{2}}{5}$.\nC. $P_{\\min}=\\dfrac{34}{5} - \\dfrac{46 \\sqrt{2}}{5}$.\nD. $P_{\\min}=- \\dfrac{68}{5} + \\dfrac{92 \\sqrt{2}}{5}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{34}{5} + \\dfrac{46 \\sqrt{2}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(34-xy)\\right)=f(8x+26y)$, suy ra $5(34-xy)=8x+26y\\Rightarrow y=\\dfrac{170-8x}{5x+26}$ (với $0<x<\\dfrac{85}{4}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{26}{5} + \\dfrac{23 \\sqrt{2}}{5}$, $P_{\\min}=- \\dfrac{34}{5} + \\dfrac{46 \\sqrt{2}}{5}$.",
+    "params": {
+      "b": "5",
+      "C": "34",
+      "m": "8",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{18-xy}{x+29y}=9xy+x+29y-163$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{7}{3} + \\dfrac{2 \\sqrt{1487}}{9}$.\nB. $P_{\\min}=- \\dfrac{10}{3} + \\dfrac{2 \\sqrt{1487}}{9}$.\nC. $P_{\\min}=\\dfrac{10}{3} - \\dfrac{2 \\sqrt{1487}}{9}$.\nD. $P_{\\min}=- \\dfrac{20}{3} + \\dfrac{4 \\sqrt{1487}}{9}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{10}{3} + \\dfrac{2 \\sqrt{1487}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(18-xy)\\right)=f(x+29y)$, suy ra $9(18-xy)=x+29y\\Rightarrow y=\\dfrac{162-x}{9x+29}$ (với $0<x<162$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{29}{9} + \\dfrac{\\sqrt{1487}}{9}$, $P_{\\min}=- \\dfrac{10}{3} + \\dfrac{2 \\sqrt{1487}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "18",
+      "m": "1",
+      "n": "29"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{19-xy}{20x+15y}=3xy+20x+15y-58$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{70}{3} + \\dfrac{4 \\sqrt{471}}{3}$.\nB. $P_{\\min}=- \\dfrac{32}{3} + \\dfrac{2 \\sqrt{471}}{3}$.\nC. $P_{\\min}=\\dfrac{35}{3} - \\dfrac{2 \\sqrt{471}}{3}$.\nD. $P_{\\min}=- \\dfrac{35}{3} + \\dfrac{2 \\sqrt{471}}{3}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{35}{3} + \\dfrac{2 \\sqrt{471}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(19-xy)\\right)=f(20x+15y)$, suy ra $3(19-xy)=20x+15y\\Rightarrow y=\\dfrac{57-20x}{3x+15}$ (với $0<x<\\dfrac{57}{20}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-5 + \\dfrac{\\sqrt{471}}{3}$, $P_{\\min}=- \\dfrac{35}{3} + \\dfrac{2 \\sqrt{471}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "19",
+      "m": "20",
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{13-xy}{21x+33y}=10xy+21x+33y-131$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{54}{5} + \\dfrac{2 \\sqrt{1993}}{5}$.\nB. $P_{\\min}=- \\dfrac{27}{5} + \\dfrac{\\sqrt{1993}}{5}$.\nC. $P_{\\min}=- \\dfrac{22}{5} + \\dfrac{\\sqrt{1993}}{5}$.\nD. $P_{\\min}=\\dfrac{27}{5} - \\dfrac{\\sqrt{1993}}{5}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{27}{5} + \\dfrac{\\sqrt{1993}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(13-xy)\\right)=f(21x+33y)$, suy ra $10(13-xy)=21x+33y\\Rightarrow y=\\dfrac{130-21x}{10x+33}$ (với $0<x<\\dfrac{130}{21}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{33}{10} + \\dfrac{\\sqrt{1993}}{10}$, $P_{\\min}=- \\dfrac{27}{5} + \\dfrac{\\sqrt{1993}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "13",
+      "m": "21",
+      "n": "33"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{16-xy}{31x+38y}=8xy+31x+38y-129$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{69}{8} + \\dfrac{\\sqrt{2202}}{4}$.\nB. $P_{\\min}=- \\dfrac{69}{4} + \\dfrac{\\sqrt{2202}}{2}$.\nC. $P_{\\min}=- \\dfrac{61}{8} + \\dfrac{\\sqrt{2202}}{4}$.\nD. $P_{\\min}=\\dfrac{69}{8} - \\dfrac{\\sqrt{2202}}{4}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{69}{8} + \\dfrac{\\sqrt{2202}}{4}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(16-xy)\\right)=f(31x+38y)$, suy ra $8(16-xy)=31x+38y\\Rightarrow y=\\dfrac{128-31x}{8x+38}$ (với $0<x<\\dfrac{128}{31}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{19}{4} + \\dfrac{\\sqrt{2202}}{8}$, $P_{\\min}=- \\dfrac{69}{8} + \\dfrac{\\sqrt{2202}}{4}$.",
+    "params": {
+      "b": "8",
+      "C": "16",
+      "m": "31",
+      "n": "38"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{30-xy}{19x+8y}=8xy+19x+8y-241$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{19}{8} + \\dfrac{\\sqrt{518}}{2}$.\nB. $P_{\\min}=\\dfrac{27}{8} - \\dfrac{\\sqrt{518}}{2}$.\nC. $P_{\\min}=- \\dfrac{27}{4} + \\sqrt{518}$.\nD. $P_{\\min}=- \\dfrac{27}{8} + \\dfrac{\\sqrt{518}}{2}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{27}{8} + \\dfrac{\\sqrt{518}}{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(30-xy)\\right)=f(19x+8y)$, suy ra $8(30-xy)=19x+8y\\Rightarrow y=\\dfrac{240-19x}{8x+8}$ (với $0<x<\\dfrac{240}{19}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{\\sqrt{518}}{4}$, $P_{\\min}=- \\dfrac{27}{8} + \\dfrac{\\sqrt{518}}{2}$.",
+    "params": {
+      "b": "8",
+      "C": "30",
+      "m": "19",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{9}\\dfrac{15-xy}{26x+34y}=9xy+26x+34y-136$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{20}{3} - \\dfrac{2 \\sqrt{2099}}{9}$.\nB. $P_{\\min}=- \\dfrac{17}{3} + \\dfrac{2 \\sqrt{2099}}{9}$.\nC. $P_{\\min}=- \\dfrac{20}{3} + \\dfrac{2 \\sqrt{2099}}{9}$.\nD. $P_{\\min}=- \\dfrac{40}{3} + \\dfrac{4 \\sqrt{2099}}{9}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{20}{3} + \\dfrac{2 \\sqrt{2099}}{9}$.",
+    "loi_giai": "Xét $f(t)=\\log_{9}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(9(15-xy)\\right)=f(26x+34y)$, suy ra $9(15-xy)=26x+34y\\Rightarrow y=\\dfrac{135-26x}{9x+34}$ (với $0<x<\\dfrac{135}{26}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{34}{9} + \\dfrac{\\sqrt{2099}}{9}$, $P_{\\min}=- \\dfrac{20}{3} + \\dfrac{2 \\sqrt{2099}}{9}$.",
+    "params": {
+      "b": "9",
+      "C": "15",
+      "m": "26",
+      "n": "34"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{11}\\dfrac{6-xy}{40x+36y}=11xy+40x+36y-67$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{76}{11} - \\dfrac{38 \\sqrt{6}}{11}$.\nB. $P_{\\min}=- \\dfrac{76}{11} + \\dfrac{38 \\sqrt{6}}{11}$.\nC. $P_{\\min}=- \\dfrac{65}{11} + \\dfrac{38 \\sqrt{6}}{11}$.\nD. $P_{\\min}=- \\dfrac{152}{11} + \\dfrac{76 \\sqrt{6}}{11}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{76}{11} + \\dfrac{38 \\sqrt{6}}{11}$.",
+    "loi_giai": "Xét $f(t)=\\log_{11}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(11(6-xy)\\right)=f(40x+36y)$, suy ra $11(6-xy)=40x+36y\\Rightarrow y=\\dfrac{66-40x}{11x+36}$ (với $0<x<\\dfrac{33}{20}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{36}{11} + \\dfrac{19 \\sqrt{6}}{11}$, $P_{\\min}=- \\dfrac{76}{11} + \\dfrac{38 \\sqrt{6}}{11}$.",
+    "params": {
+      "b": "11",
+      "C": "6",
+      "m": "40",
+      "n": "36"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{14-xy}{31x+14y}=10xy+31x+14y-141$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-9 + \\dfrac{2 \\sqrt{1834}}{5}$.\nB. $P_{\\min}=\\dfrac{9}{2} - \\dfrac{\\sqrt{1834}}{5}$.\nC. $P_{\\min}=- \\dfrac{9}{2} + \\dfrac{\\sqrt{1834}}{5}$.\nD. $P_{\\min}=- \\dfrac{7}{2} + \\dfrac{\\sqrt{1834}}{5}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{9}{2} + \\dfrac{\\sqrt{1834}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(14-xy)\\right)=f(31x+14y)$, suy ra $10(14-xy)=31x+14y\\Rightarrow y=\\dfrac{140-31x}{10x+14}$ (với $0<x<\\dfrac{140}{31}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{7}{5} + \\dfrac{\\sqrt{1834}}{10}$, $P_{\\min}=- \\dfrac{9}{2} + \\dfrac{\\sqrt{1834}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "14",
+      "m": "31",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{30-xy}{31x+17y}=12xy+31x+17y-361$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-3 + \\dfrac{\\sqrt{4847}}{6}$.\nB. $P_{\\min}=-4 + \\dfrac{\\sqrt{4847}}{6}$.\nC. $P_{\\min}=-8 + \\dfrac{\\sqrt{4847}}{3}$.\nD. $P_{\\min}=4 - \\dfrac{\\sqrt{4847}}{6}$.",
+    "dap_an": "B. $P_{\\min}=-4 + \\dfrac{\\sqrt{4847}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(30-xy)\\right)=f(31x+17y)$, suy ra $12(30-xy)=31x+17y\\Rightarrow y=\\dfrac{360-31x}{12x+17}$ (với $0<x<\\dfrac{360}{31}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{17}{12} + \\dfrac{\\sqrt{4847}}{12}$, $P_{\\min}=-4 + \\dfrac{\\sqrt{4847}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "30",
+      "m": "31",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{21-xy}{14x+37y}=12xy+14x+37y-253$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{302}{485}} \\cdot 3^{\\dfrac{101}{485}} \\cdot 5^{\\dfrac{148}{485}} \\cdot 7^{\\dfrac{301}{485}}}{14}$.\nB. $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{302}{485}} \\cdot 3^{\\dfrac{101}{485}} \\cdot 5^{\\dfrac{148}{485}} \\cdot 7^{\\dfrac{301}{485}}}{28}$.\nC. $P_{\\min}=- \\dfrac{15 \\cdot 2^{\\dfrac{302}{485}} \\cdot 3^{\\dfrac{101}{485}} \\cdot 5^{\\dfrac{148}{485}} \\cdot 7^{\\dfrac{301}{485}}}{28}$.\nD. $P_{\\min}=- \\dfrac{13}{4} + \\dfrac{\\sqrt{3542}}{6}$.",
+    "dap_an": "B. $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{302}{485}} \\cdot 3^{\\dfrac{101}{485}} \\cdot 5^{\\dfrac{148}{485}} \\cdot 7^{\\dfrac{301}{485}}}{28}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(21-xy)\\right)=f(14x+37y)$, suy ra $12(21-xy)=14x+37y\\Rightarrow y=\\dfrac{252-14x}{12x+37}$ (với $0<x<18$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{37}{12} + \\dfrac{\\sqrt{3542}}{12}$, $P_{\\min}=\\dfrac{15 \\cdot 2^{\\dfrac{302}{485}} \\cdot 3^{\\dfrac{101}{485}} \\cdot 5^{\\dfrac{148}{485}} \\cdot 7^{\\dfrac{301}{485}}}{28}$.",
+    "params": {
+      "b": "12",
+      "C": "21",
+      "m": "14",
+      "n": "37"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{7}\\dfrac{22-xy}{8x+21y}=7xy+8x+21y-155$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{58}{7} + \\dfrac{4 \\sqrt{1246}}{7}$.\nB. $P_{\\min}=\\dfrac{29}{7} - \\dfrac{2 \\sqrt{1246}}{7}$.\nC. $P_{\\min}=- \\dfrac{22}{7} + \\dfrac{2 \\sqrt{1246}}{7}$.\nD. $P_{\\min}=- \\dfrac{29}{7} + \\dfrac{2 \\sqrt{1246}}{7}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{29}{7} + \\dfrac{2 \\sqrt{1246}}{7}$.",
+    "loi_giai": "Xét $f(t)=\\log_{7}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(7(22-xy)\\right)=f(8x+21y)$, suy ra $7(22-xy)=8x+21y\\Rightarrow y=\\dfrac{154-8x}{7x+21}$ (với $0<x<\\dfrac{77}{4}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-3 + \\dfrac{\\sqrt{1246}}{7}$, $P_{\\min}=- \\dfrac{29}{7} + \\dfrac{2 \\sqrt{1246}}{7}$.",
+    "params": {
+      "b": "7",
+      "C": "22",
+      "m": "8",
+      "n": "21"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{12}\\dfrac{8-xy}{38x+17y}=12xy+38x+17y-97$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{55}{6} + \\dfrac{\\sqrt{1798}}{3}$.\nB. $P_{\\min}=\\dfrac{55}{12} - \\dfrac{\\sqrt{1798}}{6}$.\nC. $P_{\\min}=- \\dfrac{43}{12} + \\dfrac{\\sqrt{1798}}{6}$.\nD. $P_{\\min}=- \\dfrac{55}{12} + \\dfrac{\\sqrt{1798}}{6}$.",
+    "dap_an": "D. $P_{\\min}=- \\dfrac{55}{12} + \\dfrac{\\sqrt{1798}}{6}$.",
+    "loi_giai": "Xét $f(t)=\\log_{12}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(12(8-xy)\\right)=f(38x+17y)$, suy ra $12(8-xy)=38x+17y\\Rightarrow y=\\dfrac{96-38x}{12x+17}$ (với $0<x<\\dfrac{48}{19}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{17}{12} + \\dfrac{\\sqrt{1798}}{12}$, $P_{\\min}=- \\dfrac{55}{12} + \\dfrac{\\sqrt{1798}}{6}$.",
+    "params": {
+      "b": "12",
+      "C": "8",
+      "m": "38",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{19-xy}{36x+26y}=5xy+36x+26y-96$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{57}{5} + \\dfrac{2 \\sqrt{1411}}{5}$.\nB. $P_{\\min}=- \\dfrac{62}{5} + \\dfrac{2 \\sqrt{1411}}{5}$.\nC. $P_{\\min}=- \\dfrac{124}{5} + \\dfrac{4 \\sqrt{1411}}{5}$.\nD. $P_{\\min}=\\dfrac{62}{5} - \\dfrac{2 \\sqrt{1411}}{5}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{62}{5} + \\dfrac{2 \\sqrt{1411}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(19-xy)\\right)=f(36x+26y)$, suy ra $5(19-xy)=36x+26y\\Rightarrow y=\\dfrac{95-36x}{5x+26}$ (với $0<x<\\dfrac{95}{36}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{26}{5} + \\dfrac{\\sqrt{1411}}{5}$, $P_{\\min}=- \\dfrac{62}{5} + \\dfrac{2 \\sqrt{1411}}{5}$.",
+    "params": {
+      "b": "5",
+      "C": "19",
+      "m": "36",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{10}\\dfrac{17-xy}{30x+19y}=10xy+30x+19y-171$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{49}{5} + \\dfrac{2 \\sqrt{2270}}{5}$.\nB. $P_{\\min}=- \\dfrac{49}{10} + \\dfrac{\\sqrt{2270}}{5}$.\nC. $P_{\\min}=- \\dfrac{39}{10} + \\dfrac{\\sqrt{2270}}{5}$.\nD. $P_{\\min}=\\dfrac{49}{10} - \\dfrac{\\sqrt{2270}}{5}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{49}{10} + \\dfrac{\\sqrt{2270}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{10}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(10(17-xy)\\right)=f(30x+19y)$, suy ra $10(17-xy)=30x+19y\\Rightarrow y=\\dfrac{170-30x}{10x+19}$ (với $0<x<\\dfrac{17}{3}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{19}{10} + \\dfrac{\\sqrt{2270}}{10}$, $P_{\\min}=- \\dfrac{49}{10} + \\dfrac{\\sqrt{2270}}{5}$.",
+    "params": {
+      "b": "10",
+      "C": "17",
+      "m": "30",
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{6}\\dfrac{26-xy}{14x+24y}=6xy+14x+24y-157$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{38}{3} + \\dfrac{4 \\sqrt{318}}{3}$.\nB. $P_{\\min}=- \\dfrac{16}{3} + \\dfrac{2 \\sqrt{318}}{3}$.\nC. $P_{\\min}=- \\dfrac{19}{3} + \\dfrac{2 \\sqrt{318}}{3}$.\nD. $P_{\\min}=\\dfrac{19}{3} - \\dfrac{2 \\sqrt{318}}{3}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{19}{3} + \\dfrac{2 \\sqrt{318}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{6}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(6(26-xy)\\right)=f(14x+24y)$, suy ra $6(26-xy)=14x+24y\\Rightarrow y=\\dfrac{156-14x}{6x+24}$ (với $0<x<\\dfrac{78}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-4 + \\dfrac{\\sqrt{318}}{3}$, $P_{\\min}=- \\dfrac{19}{3} + \\dfrac{2 \\sqrt{318}}{3}$.",
+    "params": {
+      "b": "6",
+      "C": "26",
+      "m": "14",
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{5}\\dfrac{36-xy}{x+4y}=5xy+x+4y-181$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-1 + \\dfrac{4 \\sqrt{226}}{5}$.\nB. $P_{\\min}=1 - \\dfrac{4 \\sqrt{226}}{5}$.\nC. $P_{\\min}=-2 + \\dfrac{8 \\sqrt{226}}{5}$.\nD. $P_{\\min}=\\dfrac{4 \\sqrt{226}}{5}$.",
+    "dap_an": "A. $P_{\\min}=-1 + \\dfrac{4 \\sqrt{226}}{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{5}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(5(36-xy)\\right)=f(x+4y)$, suy ra $5(36-xy)=x+4y\\Rightarrow y=\\dfrac{180-x}{5x+4}$ (với $0<x<180$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{4}{5} + \\dfrac{2 \\sqrt{226}}{5}$, $P_{\\min}=-1 + \\dfrac{4 \\sqrt{226}}{5}$.",
+    "params": {
+      "b": "5",
+      "C": "36",
+      "m": "1",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Minimize a two-variable expression under a logarithmic constraint",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{8}\\dfrac{30-xy}{14x+6y}=8xy+14x+6y-241$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\dfrac{5}{2} - \\dfrac{\\sqrt{501}}{2}$.\nB. $P_{\\min}=- \\dfrac{5}{2} + \\dfrac{\\sqrt{501}}{2}$.\nC. $P_{\\min}=- \\dfrac{3}{2} + \\dfrac{\\sqrt{501}}{2}$.\nD. $P_{\\min}=-5 + \\sqrt{501}$.",
+    "dap_an": "B. $P_{\\min}=- \\dfrac{5}{2} + \\dfrac{\\sqrt{501}}{2}$.",
+    "loi_giai": "Xét $f(t)=\\log_{8}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(8(30-xy)\\right)=f(14x+6y)$, suy ra $8(30-xy)=14x+6y\\Rightarrow y=\\dfrac{240-14x}{8x+6}$ (với $0<x<\\dfrac{120}{7}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{3}{4} + \\dfrac{\\sqrt{501}}{4}$, $P_{\\min}=- \\dfrac{5}{2} + \\dfrac{\\sqrt{501}}{2}$.",
+    "params": {
+      "b": "8",
+      "C": "30",
+      "m": "14",
+      "n": "6"
     }
   }
 ]

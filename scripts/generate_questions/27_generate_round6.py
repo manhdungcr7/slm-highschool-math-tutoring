@@ -2,6 +2,8 @@
 """Round 6: D79 (cong thuc dong dua tren nguong x^2-x<threshold, thay vi do
 luoi tren y khong bi chan - chinh xac va nhanh hon nhieu)."""
 import json
+import random
+import re
 import sys
 from importlib import import_module
 
@@ -140,6 +142,37 @@ def verify_D89(params):
     return True
 
 
+def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=5000):
+    rng = random.Random(seed)
+    current = [r for r in ROWS if r["ma_dang"] == code]
+    seen = {tuple(sorted(r["params"].items())) for r in current}
+    questions = {r["de_bai"] for r in current}
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        try:
+            q, ans, sol, params = gen(*sampler(rng))
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen or q in questions:
+            continue
+        opts = re.findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [re.sub(r"[\s$.,]", "", v) for _, v in opts]
+        if len(opts) != 4 or {k for k,_ in opts} != set("ABCD") or len(set(norm)) != 4:
+            continue
+        try:
+            if not verify(params):
+                continue
+        except Exception:
+            continue
+        add_row(code, name, source_id, q, ans, sol, params)
+        seen.add(key); questions.add(q); made += 1
+    print(f"{code}: {made}/{target}")
+    return made
+
+
 def main():
     fails = []
     for p, q, N0 in [(4, 3, 242), (9, 5, 300), (4, 3, 100), (3, 2, 150), (8, 5, 200)]:
@@ -163,6 +196,14 @@ def main():
                             "chứa hàm mũ e^x", "p230_q45", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D89", params))
+
+    expand_type("D79", "Count integers satisfying a logarithmic inequality threshold", "p204_q49",
+                gen_D79, verify_D79,
+                lambda r: (lambda p, q: (p, q if q < p else p-1, r.randint(20, 500)))(r.randint(3, 30), r.randint(2, 29)), seed=7901)
+    expand_type("D89", "Count positive integer parameters for an exponential equation", "p230_q45",
+                gen_D89, verify_D89,
+                lambda r: (r.randint(1, 15), r.randint(1, 12), r.randint(0, 30),
+                           (lo := r.randint(1, 8)), lo + r.randint(2, 12)), seed=8901)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round6.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)

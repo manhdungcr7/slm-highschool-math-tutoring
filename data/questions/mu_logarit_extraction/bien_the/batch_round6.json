@@ -5,7 +5,7 @@
     "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $55$.\nB. $57$.\nC. $58$.\nD. $56$.",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $57$.\nB. $58$.\nC. $55$.\nD. $56$.",
     "dap_an": "D. $56$.",
     "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 242 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(243)\\approx781.00$. Giải ra $x\\in\\{-27,\\ldots,28\\}$, có $56$ số nguyên $x$.",
     "params": {
@@ -22,8 +22,8 @@
     "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 300 số nguyên $y$ thỏa mãn $\\log_{9}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $91$.\nB. $92$.\nC. $94$.\nD. $93$.",
-    "dap_an": "B. $92$.",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 300 số nguyên $y$ thỏa mãn $\\log_{9}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $92$.\nB. $93$.\nC. $94$.\nD. $91$.",
+    "dap_an": "A. $92$.",
     "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}9}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 300 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(301)\\approx2118.75$. Giải ra $x\\in\\{-45,\\ldots,46\\}$, có $92$ số nguyên $x$.",
     "params": {
       "p": "9",
@@ -39,8 +39,8 @@
     "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 100 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $30$.\nB. $31$.\nC. $32$.\nD. $29$.",
-    "dap_an": "A. $30$.",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 100 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $31$.\nB. $32$.\nC. $29$.\nD. $30$.",
+    "dap_an": "D. $30$.",
     "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 100 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(101)\\approx237.20$. Giải ra $x\\in\\{-14,\\ldots,15\\}$, có $30$ số nguyên $x$.",
     "params": {
       "p": "4",
@@ -56,8 +56,8 @@
     "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 150 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $103$.\nB. $105$.\nC. $106$.\nD. $104$.",
-    "dap_an": "D. $104$.",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 150 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $104$.\nB. $103$.\nC. $106$.\nD. $105$.",
+    "dap_an": "A. $104$.",
     "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 150 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(151)\\approx2690.82$. Giải ra $x\\in\\{-51,\\ldots,52\\}$, có $104$ số nguyên $x$.",
     "params": {
       "p": "3",
@@ -73,8 +73,8 @@
     "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 200 số nguyên $y$ thỏa mãn $\\log_{8}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $54$.\nB. $53$.\nC. $56$.\nD. $55$.",
-    "dap_an": "A. $54$.",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 200 số nguyên $y$ thỏa mãn $\\log_{8}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $55$.\nB. $53$.\nC. $54$.\nD. $56$.",
+    "dap_an": "C. $54$.",
     "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}8}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 200 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(201)\\approx744.80$. Giải ra $x\\in\\{-26,\\ldots,27\\}$, có $54$ số nguyên $x$.",
     "params": {
       "p": "8",
@@ -90,7 +90,7 @@
     "ten_dang": "Đếm số nguyên dương một biến sao cho tồn tại biến kia thỏa mãn phương trình chứa hàm mũ e^x",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-2x^2-3)$?\n\nA. $12$.\nB. $13$.\nC. $14$.\nD. $11$.",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-2x^2-3)$?\n\nA. $12$.\nB. $11$.\nC. $13$.\nD. $14$.",
     "dap_an": "A. $12$.",
     "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-2x^2-3)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{3,\\ldots,14\\}$, có $12$ giá trị.",
     "params": {
@@ -109,8 +109,8 @@
     "ten_dang": "Đếm số nguyên dương một biến sao cho tồn tại biến kia thỏa mãn phương trình chứa hàm mũ e^x",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;6)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-2x^2-4)$?\n\nA. $11$.\nB. $12$.\nC. $10$.\nD. $13$.",
-    "dap_an": "A. $11$.",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;6)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-2x^2-4)$?\n\nA. $10$.\nB. $11$.\nC. $13$.\nD. $12$.",
+    "dap_an": "B. $11$.",
     "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-2x^2-4)$ trên $[1;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;6)$ khi và chỉ khi $f(1)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{4,\\ldots,14\\}$, có $11$ giá trị.",
     "params": {
       "A": "3",
@@ -139,6 +139,3104 @@
       "hi": "5",
       "found_lo": "2",
       "found_hi": "12"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 192 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $128$.\nB. $127$.\nC. $125$.\nD. $126$.",
+    "dap_an": "D. $126$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 192 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(193)\\approx3999.98$. Giải ra $x\\in\\{-62,\\ldots,63\\}$, có $126$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "192",
+      "lo_i": "-62",
+      "hi_i": "63"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 83 số nguyên $y$ thỏa mãn $\\log_{14}(x^2+y)\\ge \\log_{13}(x+y)$?\n\nA. $6$.\nB. $5$.\nC. $7$.\nD. $8$.",
+    "dap_an": "A. $6$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{13}14}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 83 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(84)\\approx11.47$. Giải ra $x\\in\\{-2,\\ldots,3\\}$, có $6$ số nguyên $x$.",
+    "params": {
+      "p": "14",
+      "q": "13",
+      "N0": "83",
+      "lo_i": "-2",
+      "hi_i": "3"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 222 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $143$.\nB. $141$.\nC. $142$.\nD. $144$.",
+    "dap_an": "C. $142$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 222 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(223)\\approx5049.00$. Giải ra $x\\in\\{-70,\\ldots,71\\}$, có $142$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "222",
+      "lo_i": "-70",
+      "hi_i": "71"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 165 số nguyên $y$ thỏa mãn $\\log_{23}(x^2+y)\\ge \\log_{22}(x+y)$?\n\nA. $8$.\nB. $10$.\nC. $9$.\nD. $7$.",
+    "dap_an": "A. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{22}23}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 165 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(166)\\approx12.66$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "23",
+      "q": "22",
+      "N0": "165",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 282 số nguyên $y$ thỏa mãn $\\log_{22}(x^2+y)\\ge \\log_{21}(x+y)$?\n\nA. $11$.\nB. $12$.\nC. $9$.\nD. $10$.",
+    "dap_an": "D. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{21}22}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 282 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(283)\\approx25.50$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "22",
+      "q": "21",
+      "N0": "282",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 55 số nguyên $y$ thỏa mãn $\\log_{10}(x^2+y)\\ge \\log_{9}(x+y)$?\n\nA. $8$.\nB. $6$.\nC. $5$.\nD. $7$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{9}10}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 55 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(56)\\approx11.92$. Giải ra $x\\in\\{-2,\\ldots,3\\}$, có $6$ số nguyên $x$.",
+    "params": {
+      "p": "10",
+      "q": "9",
+      "N0": "55",
+      "lo_i": "-2",
+      "hi_i": "3"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 105 số nguyên $y$ thỏa mãn $\\log_{14}(x^2+y)\\ge \\log_{13}(x+y)$?\n\nA. $8$.\nB. $7$.\nC. $10$.\nD. $9$.",
+    "dap_an": "A. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{13}14}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 105 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(106)\\approx15.29$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "14",
+      "q": "13",
+      "N0": "105",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 352 số nguyên $y$ thỏa mãn $\\log_{23}(x^2+y)\\ge \\log_{22}(x+y)$?\n\nA. $14$.\nB. $12$.\nC. $13$.\nD. $11$.",
+    "dap_an": "B. $12$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{22}23}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 352 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(353)\\approx31.07$. Giải ra $x\\in\\{-5,\\ldots,6\\}$, có $12$ số nguyên $x$.",
+    "params": {
+      "p": "23",
+      "q": "22",
+      "N0": "352",
+      "lo_i": "-5",
+      "hi_i": "6"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 303 số nguyên $y$ thỏa mãn $\\log_{10}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $116$.\nB. $113$.\nC. $115$.\nD. $114$.",
+    "dap_an": "D. $114$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}10}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 303 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(304)\\approx3262.06$. Giải ra $x\\in\\{-56,\\ldots,57\\}$, có $114$ số nguyên $x$.",
+    "params": {
+      "p": "10",
+      "q": "5",
+      "N0": "303",
+      "lo_i": "-56",
+      "hi_i": "57"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\\log_{30}(x^2+y)\\ge \\log_{25}(x+y)$?\n\nA. $17$.\nB. $18$.\nC. $20$.\nD. $19$.",
+    "dap_an": "B. $18$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{25}30}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 242 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(243)\\approx88.69$. Giải ra $x\\in\\{-8,\\ldots,9\\}$, có $18$ số nguyên $x$.",
+    "params": {
+      "p": "30",
+      "q": "25",
+      "N0": "242",
+      "lo_i": "-8",
+      "hi_i": "9"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 212 số nguyên $y$ thỏa mãn $\\log_{16}(x^2+y)\\ge \\log_{9}(x+y)$?\n\nA. $51$.\nB. $54$.\nC. $53$.\nD. $52$.",
+    "dap_an": "D. $52$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{9}16}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 212 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(213)\\approx654.14$. Giải ra $x\\in\\{-25,\\ldots,26\\}$, có $52$ số nguyên $x$.",
+    "params": {
+      "p": "16",
+      "q": "9",
+      "N0": "212",
+      "lo_i": "-25",
+      "hi_i": "26"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 154 số nguyên $y$ thỏa mãn $\\log_{18}(x^2+y)\\ge \\log_{7}(x+y)$?\n\nA. $79$.\nB. $81$.\nC. $80$.\nD. $82$.",
+    "dap_an": "C. $80$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{7}18}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 154 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(155)\\approx1637.36$. Giải ra $x\\in\\{-39,\\ldots,40\\}$, có $80$ số nguyên $x$.",
+    "params": {
+      "p": "18",
+      "q": "7",
+      "N0": "154",
+      "lo_i": "-39",
+      "hi_i": "40"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 373 số nguyên $y$ thỏa mãn $\\log_{17}(x^2+y)\\ge \\log_{14}(x+y)$?\n\nA. $30$.\nB. $27$.\nC. $29$.\nD. $28$.",
+    "dap_an": "D. $28$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{14}17}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 373 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(374)\\approx204.31$. Giải ra $x\\in\\{-13,\\ldots,14\\}$, có $28$ số nguyên $x$.",
+    "params": {
+      "p": "17",
+      "q": "14",
+      "N0": "373",
+      "lo_i": "-13",
+      "hi_i": "14"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 36 số nguyên $y$ thỏa mãn $\\log_{23}(x^2+y)\\ge \\log_{12}(x+y)$?\n\nA. $15$.\nB. $18$.\nC. $17$.\nD. $16$.",
+    "dap_an": "D. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{12}23}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 36 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(37)\\approx58.23$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "23",
+      "q": "12",
+      "N0": "36",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 161 số nguyên $y$ thỏa mãn $\\log_{27}(x^2+y)\\ge \\log_{26}(x+y)$?\n\nA. $8$.\nB. $6$.\nC. $7$.\nD. $5$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{26}27}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 161 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(162)\\approx9.83$. Giải ra $x\\in\\{-2,\\ldots,3\\}$, có $6$ số nguyên $x$.",
+    "params": {
+      "p": "27",
+      "q": "26",
+      "N0": "161",
+      "lo_i": "-2",
+      "hi_i": "3"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 117 số nguyên $y$ thỏa mãn $\\log_{5}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $25$.\nB. $26$.\nC. $23$.\nD. $24$.",
+    "dap_an": "D. $24$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}5}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 117 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(118)\\approx136.32$. Giải ra $x\\in\\{-11,\\ldots,12\\}$, có $24$ số nguyên $x$.",
+    "params": {
+      "p": "5",
+      "q": "4",
+      "N0": "117",
+      "lo_i": "-11",
+      "hi_i": "12"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 205 số nguyên $y$ thỏa mãn $\\log_{6}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $25$.\nB. $28$.\nC. $27$.\nD. $26$.",
+    "dap_an": "D. $26$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}6}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 205 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(206)\\approx170.69$. Giải ra $x\\in\\{-12,\\ldots,13\\}$, có $26$ số nguyên $x$.",
+    "params": {
+      "p": "6",
+      "q": "5",
+      "N0": "205",
+      "lo_i": "-12",
+      "hi_i": "13"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 152 số nguyên $y$ thỏa mãn $\\log_{23}(x^2+y)\\ge \\log_{22}(x+y)$?\n\nA. $7$.\nB. $6$.\nC. $8$.\nD. $5$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{22}23}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 152 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(153)\\approx11.48$. Giải ra $x\\in\\{-2,\\ldots,3\\}$, có $6$ số nguyên $x$.",
+    "params": {
+      "p": "23",
+      "q": "22",
+      "N0": "152",
+      "lo_i": "-2",
+      "hi_i": "3"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 267 số nguyên $y$ thỏa mãn $\\log_{20}(x^2+y)\\ge \\log_{10}(x+y)$?\n\nA. $68$.\nB. $70$.\nC. $69$.\nD. $67$.",
+    "dap_an": "A. $68$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{10}20}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 267 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(268)\\approx1174.37$. Giải ra $x\\in\\{-33,\\ldots,34\\}$, có $68$ số nguyên $x$.",
+    "params": {
+      "p": "20",
+      "q": "10",
+      "N0": "267",
+      "lo_i": "-33",
+      "hi_i": "34"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 95 số nguyên $y$ thỏa mãn $\\log_{29}(x^2+y)\\ge \\log_{26}(x+y)$?\n\nA. $7$.\nB. $8$.\nC. $9$.\nD. $10$.",
+    "dap_an": "B. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{26}29}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 95 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(96)\\approx15.87$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "29",
+      "q": "26",
+      "N0": "95",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 110 số nguyên $y$ thỏa mãn $\\log_{19}(x^2+y)\\ge \\log_{18}(x+y)$?\n\nA. $5$.\nB. $8$.\nC. $6$.\nD. $7$.",
+    "dap_an": "C. $6$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{18}19}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 110 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(111)\\approx10.22$. Giải ra $x\\in\\{-2,\\ldots,3\\}$, có $6$ số nguyên $x$.",
+    "params": {
+      "p": "19",
+      "q": "18",
+      "N0": "110",
+      "lo_i": "-2",
+      "hi_i": "3"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 174 số nguyên $y$ thỏa mãn $\\log_{19}(x^2+y)\\ge \\log_{18}(x+y)$?\n\nA. $10$.\nB. $7$.\nC. $9$.\nD. $8$.",
+    "dap_an": "D. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{18}19}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 174 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(175)\\approx17.75$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "19",
+      "q": "18",
+      "N0": "174",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 234 số nguyên $y$ thỏa mãn $\\log_{7}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $46$.\nB. $43$.\nC. $44$.\nD. $45$.",
+    "dap_an": "C. $44$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}7}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 234 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(235)\\approx500.81$. Giải ra $x\\in\\{-21,\\ldots,22\\}$, có $44$ số nguyên $x$.",
+    "params": {
+      "p": "7",
+      "q": "5",
+      "N0": "234",
+      "lo_i": "-21",
+      "hi_i": "22"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 240 số nguyên $y$ thỏa mãn $\\log_{18}(x^2+y)\\ge \\log_{11}(x+y)$?\n\nA. $44$.\nB. $46$.\nC. $43$.\nD. $45$.",
+    "dap_an": "A. $44$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{11}18}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 240 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(241)\\approx502.42$. Giải ra $x\\in\\{-21,\\ldots,22\\}$, có $44$ số nguyên $x$.",
+    "params": {
+      "p": "18",
+      "q": "11",
+      "N0": "240",
+      "lo_i": "-21",
+      "hi_i": "22"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 94 số nguyên $y$ thỏa mãn $\\log_{18}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $231$.\nB. $232$.\nC. $230$.\nD. $229$.",
+    "dap_an": "C. $230$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}18}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 94 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(95)\\approx13193.61$. Giải ra $x\\in\\{-114,\\ldots,115\\}$, có $230$ số nguyên $x$.",
+    "params": {
+      "p": "18",
+      "q": "4",
+      "N0": "94",
+      "lo_i": "-114",
+      "hi_i": "115"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 328 số nguyên $y$ thỏa mãn $\\log_{13}(x^2+y)\\ge \\log_{11}(x+y)$?\n\nA. $25$.\nB. $26$.\nC. $28$.\nD. $27$.",
+    "dap_an": "B. $26$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{11}13}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 328 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(329)\\approx163.68$. Giải ra $x\\in\\{-12,\\ldots,13\\}$, có $26$ số nguyên $x$.",
+    "params": {
+      "p": "13",
+      "q": "11",
+      "N0": "328",
+      "lo_i": "-12",
+      "hi_i": "13"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 107 số nguyên $y$ thỏa mãn $\\log_{12}(x^2+y)\\ge \\log_{11}(x+y)$?\n\nA. $8$.\nB. $9$.\nC. $7$.\nD. $10$.",
+    "dap_an": "A. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{11}12}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 107 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(108)\\approx20.00$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "12",
+      "q": "11",
+      "N0": "107",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 85 số nguyên $y$ thỏa mãn $\\log_{8}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $134$.\nB. $136$.\nC. $133$.\nD. $135$.",
+    "dap_an": "A. $134$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}8}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 85 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(86)\\approx4501.73$. Giải ra $x\\in\\{-66,\\ldots,67\\}$, có $134$ số nguyên $x$.",
+    "params": {
+      "p": "8",
+      "q": "3",
+      "N0": "85",
+      "lo_i": "-66",
+      "hi_i": "67"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 40 số nguyên $y$ thỏa mãn $\\log_{24}(x^2+y)\\ge \\log_{21}(x+y)$?\n\nA. $7$.\nB. $6$.\nC. $8$.\nD. $5$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{21}24}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 40 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(41)\\approx7.25$. Giải ra $x\\in\\{-2,\\ldots,3\\}$, có $6$ số nguyên $x$.",
+    "params": {
+      "p": "24",
+      "q": "21",
+      "N0": "40",
+      "lo_i": "-2",
+      "hi_i": "3"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 30 số nguyên $y$ thỏa mãn $\\log_{5}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $9$.\nB. $10$.\nC. $12$.\nD. $11$.",
+    "dap_an": "B. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}5}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 30 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(31)\\approx22.88$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "5",
+      "q": "4",
+      "N0": "30",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 380 số nguyên $y$ thỏa mãn $\\log_{11}(x^2+y)\\ge \\log_{10}(x+y)$?\n\nA. $21$.\nB. $22$.\nC. $19$.\nD. $20$.",
+    "dap_an": "D. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{10}11}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 380 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(381)\\approx106.26$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "11",
+      "q": "10",
+      "N0": "380",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 71 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $56$.\nB. $55$.\nC. $58$.\nD. $57$.",
+    "dap_an": "A. $56$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 71 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(72)\\approx806.62$. Giải ra $x\\in\\{-27,\\ldots,28\\}$, có $56$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "71",
+      "lo_i": "-27",
+      "hi_i": "28"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 232 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $148$.\nB. $150$.\nC. $149$.\nD. $147$.",
+    "dap_an": "A. $148$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 232 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(233)\\approx5418.59$. Giải ra $x\\in\\{-73,\\ldots,74\\}$, có $148$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "232",
+      "lo_i": "-73",
+      "hi_i": "74"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 130 số nguyên $y$ thỏa mãn $\\log_{15}(x^2+y)\\ge \\log_{7}(x+y)$?\n\nA. $55$.\nB. $53$.\nC. $56$.\nD. $54$.",
+    "dap_an": "D. $54$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{7}15}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 130 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(131)\\approx753.15$. Giải ra $x\\in\\{-26,\\ldots,27\\}$, có $54$ số nguyên $x$.",
+    "params": {
+      "p": "15",
+      "q": "7",
+      "N0": "130",
+      "lo_i": "-26",
+      "hi_i": "27"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 359 số nguyên $y$ thỏa mãn $\\log_{15}(x^2+y)\\ge \\log_{14}(x+y)$?\n\nA. $15$.\nB. $18$.\nC. $17$.\nD. $16$.",
+    "dap_an": "D. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{14}15}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 359 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(360)\\approx59.89$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "15",
+      "q": "14",
+      "N0": "359",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 208 số nguyên $y$ thỏa mãn $\\log_{25}(x^2+y)\\ge \\log_{24}(x+y)$?\n\nA. $10$.\nB. $9$.\nC. $7$.\nD. $8$.",
+    "dap_an": "D. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{24}25}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 208 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(209)\\approx14.85$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "25",
+      "q": "24",
+      "N0": "208",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 315 số nguyên $y$ thỏa mãn $\\log_{25}(x^2+y)\\ge \\log_{12}(x+y)$?\n\nA. $77$.\nB. $76$.\nC. $75$.\nD. $78$.",
+    "dap_an": "B. $76$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{12}25}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 315 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(316)\\approx1413.90$. Giải ra $x\\in\\{-37,\\ldots,38\\}$, có $76$ số nguyên $x$.",
+    "params": {
+      "p": "25",
+      "q": "12",
+      "N0": "315",
+      "lo_i": "-37",
+      "hi_i": "38"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 224 số nguyên $y$ thỏa mãn $\\log_{5}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $37$.\nB. $36$.\nC. $35$.\nD. $38$.",
+    "dap_an": "B. $36$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}5}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 224 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(225)\\approx313.02$. Giải ra $x\\in\\{-17,\\ldots,18\\}$, có $36$ số nguyên $x$.",
+    "params": {
+      "p": "5",
+      "q": "4",
+      "N0": "224",
+      "lo_i": "-17",
+      "hi_i": "18"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 199 số nguyên $y$ thỏa mãn $\\log_{6}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $25$.\nB. $27$.\nC. $28$.\nD. $26$.",
+    "dap_an": "D. $26$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}6}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 199 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(200)\\approx164.50$. Giải ra $x\\in\\{-12,\\ldots,13\\}$, có $26$ số nguyên $x$.",
+    "params": {
+      "p": "6",
+      "q": "5",
+      "N0": "199",
+      "lo_i": "-12",
+      "hi_i": "13"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 226 số nguyên $y$ thỏa mãn $\\log_{30}(x^2+y)\\ge \\log_{26}(x+y)$?\n\nA. $17$.\nB. $18$.\nC. $16$.\nD. $15$.",
+    "dap_an": "C. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{26}30}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 226 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(227)\\approx61.08$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "30",
+      "q": "26",
+      "N0": "226",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 147 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $102$.\nB. $103$.\nC. $104$.\nD. $101$.",
+    "dap_an": "A. $102$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 147 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(148)\\approx2604.86$. Giải ra $x\\in\\{-50,\\ldots,51\\}$, có $102$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "147",
+      "lo_i": "-50",
+      "hi_i": "51"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 131 số nguyên $y$ thỏa mãn $\\log_{6}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $20$.\nB. $19$.\nC. $21$.\nD. $22$.",
+    "dap_an": "A. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}6}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 131 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(132)\\approx97.51$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "6",
+      "q": "5",
+      "N0": "131",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 96 số nguyên $y$ thỏa mãn $\\log_{6}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $15$.\nB. $18$.\nC. $17$.\nD. $16$.",
+    "dap_an": "D. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}6}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 96 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(97)\\approx65.87$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "6",
+      "q": "5",
+      "N0": "96",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 264 số nguyên $y$ thỏa mãn $\\log_{9}(x^2+y)\\ge \\log_{8}(x+y)$?\n\nA. $19$.\nB. $20$.\nC. $22$.\nD. $21$.",
+    "dap_an": "B. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{8}9}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 264 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(265)\\approx98.50$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "9",
+      "q": "8",
+      "N0": "264",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 210 số nguyên $y$ thỏa mãn $\\log_{13}(x^2+y)\\ge \\log_{12}(x+y)$?\n\nA. $12$.\nB. $14$.\nC. $11$.\nD. $13$.",
+    "dap_an": "A. $12$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{12}13}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 210 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(211)\\approx39.70$. Giải ra $x\\in\\{-5,\\ldots,6\\}$, có $12$ số nguyên $x$.",
+    "params": {
+      "p": "13",
+      "q": "12",
+      "N0": "210",
+      "lo_i": "-5",
+      "hi_i": "6"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 246 số nguyên $y$ thỏa mãn $\\log_{26}(x^2+y)\\ge \\log_{17}(x+y)$?\n\nA. $38$.\nB. $35$.\nC. $37$.\nD. $36$.",
+    "dap_an": "D. $36$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{17}26}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 246 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(247)\\approx317.31$. Giải ra $x\\in\\{-17,\\ldots,18\\}$, có $36$ số nguyên $x$.",
+    "params": {
+      "p": "26",
+      "q": "17",
+      "N0": "246",
+      "lo_i": "-17",
+      "hi_i": "18"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 123 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $90$.\nB. $88$.\nC. $87$.\nD. $89$.",
+    "dap_an": "B. $88$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 123 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(124)\\approx1955.67$. Giải ra $x\\in\\{-43,\\ldots,44\\}$, có $88$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "123",
+      "lo_i": "-43",
+      "hi_i": "44"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 191 số nguyên $y$ thỏa mãn $\\log_{28}(x^2+y)\\ge \\log_{22}(x+y)$?\n\nA. $19$.\nB. $21$.\nC. $22$.\nD. $20$.",
+    "dap_an": "D. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{22}28}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 191 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(192)\\approx97.36$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "28",
+      "q": "22",
+      "N0": "191",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 260 số nguyên $y$ thỏa mãn $\\log_{29}(x^2+y)\\ge \\log_{21}(x+y)$?\n\nA. $29$.\nB. $30$.\nC. $28$.\nD. $27$.",
+    "dap_an": "C. $28$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{21}29}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 260 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(261)\\approx209.81$. Giải ra $x\\in\\{-13,\\ldots,14\\}$, có $28$ số nguyên $x$.",
+    "params": {
+      "p": "29",
+      "q": "21",
+      "N0": "260",
+      "lo_i": "-13",
+      "hi_i": "14"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 328 số nguyên $y$ thỏa mãn $\\log_{7}(x^2+y)\\ge \\log_{6}(x+y)$?\n\nA. $29$.\nB. $32$.\nC. $30$.\nD. $31$.",
+    "dap_an": "C. $30$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{6}7}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 328 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(329)\\approx212.70$. Giải ra $x\\in\\{-14,\\ldots,15\\}$, có $30$ số nguyên $x$.",
+    "params": {
+      "p": "7",
+      "q": "6",
+      "N0": "328",
+      "lo_i": "-14",
+      "hi_i": "15"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 275 số nguyên $y$ thỏa mãn $\\log_{22}(x^2+y)\\ge \\log_{21}(x+y)$?\n\nA. $12$.\nB. $11$.\nC. $9$.\nD. $10$.",
+    "dap_an": "D. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{21}22}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 275 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(276)\\approx24.75$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "22",
+      "q": "21",
+      "N0": "275",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 199 số nguyên $y$ thỏa mãn $\\log_{22}(x^2+y)\\ge \\log_{13}(x+y)$?\n\nA. $40$.\nB. $41$.\nC. $39$.\nD. $42$.",
+    "dap_an": "A. $40$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{13}22}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 199 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(200)\\approx392.91$. Giải ra $x\\in\\{-19,\\ldots,20\\}$, có $40$ số nguyên $x$.",
+    "params": {
+      "p": "22",
+      "q": "13",
+      "N0": "199",
+      "lo_i": "-19",
+      "hi_i": "20"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 254 số nguyên $y$ thỏa mãn $\\log_{27}(x^2+y)\\ge \\log_{14}(x+y)$?\n\nA. $56$.\nB. $57$.\nC. $58$.\nD. $55$.",
+    "dap_an": "A. $56$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{14}27}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 254 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(255)\\approx757.64$. Giải ra $x\\in\\{-27,\\ldots,28\\}$, có $56$ số nguyên $x$.",
+    "params": {
+      "p": "27",
+      "q": "14",
+      "N0": "254",
+      "lo_i": "-27",
+      "hi_i": "28"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 297 số nguyên $y$ thỏa mãn $\\log_{14}(x^2+y)\\ge \\log_{6}(x+y)$?\n\nA. $127$.\nB. $130$.\nC. $128$.\nD. $129$.",
+    "dap_an": "C. $128$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{6}14}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 297 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(298)\\approx4109.97$. Giải ra $x\\in\\{-63,\\ldots,64\\}$, có $128$ số nguyên $x$.",
+    "params": {
+      "p": "14",
+      "q": "6",
+      "N0": "297",
+      "lo_i": "-63",
+      "hi_i": "64"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 378 số nguyên $y$ thỏa mãn $\\log_{11}(x^2+y)\\ge \\log_{10}(x+y)$?\n\nA. $20$.\nB. $21$.\nC. $19$.\nD. $22$.",
+    "dap_an": "A. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{10}11}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 378 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(379)\\approx105.59$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "11",
+      "q": "10",
+      "N0": "378",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 233 số nguyên $y$ thỏa mãn $\\log_{20}(x^2+y)\\ge \\log_{10}(x+y)$?\n\nA. $64$.\nB. $61$.\nC. $62$.\nD. $63$.",
+    "dap_an": "C. $62$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{10}20}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 233 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(234)\\approx974.98$. Giải ra $x\\in\\{-30,\\ldots,31\\}$, có $62$ số nguyên $x$.",
+    "params": {
+      "p": "20",
+      "q": "10",
+      "N0": "233",
+      "lo_i": "-30",
+      "hi_i": "31"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 235 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $56$.\nB. $53$.\nC. $55$.\nD. $54$.",
+    "dap_an": "D. $54$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 235 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(236)\\approx750.92$. Giải ra $x\\in\\{-26,\\ldots,27\\}$, có $54$ số nguyên $x$.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "N0": "235",
+      "lo_i": "-26",
+      "hi_i": "27"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 50 số nguyên $y$ thỏa mãn $\\log_{26}(x^2+y)\\ge \\log_{20}(x+y)$?\n\nA. $10$.\nB. $12$.\nC. $11$.\nD. $9$.",
+    "dap_an": "A. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{20}26}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 50 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(51)\\approx20.96$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "26",
+      "q": "20",
+      "N0": "50",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 21 số nguyên $y$ thỏa mãn $\\log_{15}(x^2+y)\\ge \\log_{7}(x+y)$?\n\nA. $13$.\nB. $14$.\nC. $16$.\nD. $15$.",
+    "dap_an": "B. $14$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{7}15}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 21 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(22)\\approx51.82$. Giải ra $x\\in\\{-6,\\ldots,7\\}$, có $14$ số nguyên $x$.",
+    "params": {
+      "p": "15",
+      "q": "7",
+      "N0": "21",
+      "lo_i": "-6",
+      "hi_i": "7"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 24 số nguyên $y$ thỏa mãn $\\log_{11}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $32$.\nB. $29$.\nC. $30$.\nD. $31$.",
+    "dap_an": "C. $30$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}11}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 24 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(25)\\approx236.84$. Giải ra $x\\in\\{-14,\\ldots,15\\}$, có $30$ số nguyên $x$.",
+    "params": {
+      "p": "11",
+      "q": "4",
+      "N0": "24",
+      "lo_i": "-14",
+      "hi_i": "15"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 174 số nguyên $y$ thỏa mãn $\\log_{8}(x^2+y)\\ge \\log_{7}(x+y)$?\n\nA. $19$.\nB. $17$.\nC. $20$.\nD. $18$.",
+    "dap_an": "D. $18$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{7}8}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 174 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(175)\\approx74.44$. Giải ra $x\\in\\{-8,\\ldots,9\\}$, có $18$ số nguyên $x$.",
+    "params": {
+      "p": "8",
+      "q": "7",
+      "N0": "174",
+      "lo_i": "-8",
+      "hi_i": "9"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 383 số nguyên $y$ thỏa mãn $\\log_{10}(x^2+y)\\ge \\log_{9}(x+y)$?\n\nA. $24$.\nB. $23$.\nC. $21$.\nD. $22$.",
+    "dap_an": "D. $22$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{9}10}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 383 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(384)\\approx126.80$. Giải ra $x\\in\\{-10,\\ldots,11\\}$, có $22$ số nguyên $x$.",
+    "params": {
+      "p": "10",
+      "q": "9",
+      "N0": "383",
+      "lo_i": "-10",
+      "hi_i": "11"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 230 số nguyên $y$ thỏa mãn $\\log_{5}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $35$.\nB. $36$.\nC. $38$.\nD. $37$.",
+    "dap_an": "B. $36$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}5}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 230 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(231)\\approx323.71$. Giải ra $x\\in\\{-17,\\ldots,18\\}$, có $36$ số nguyên $x$.",
+    "params": {
+      "p": "5",
+      "q": "4",
+      "N0": "230",
+      "lo_i": "-17",
+      "hi_i": "18"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 49 số nguyên $y$ thỏa mãn $\\log_{24}(x^2+y)\\ge \\log_{8}(x+y)$?\n\nA. $37$.\nB. $38$.\nC. $40$.\nD. $39$.",
+    "dap_an": "B. $38$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{8}24}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 49 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(50)\\approx344.98$. Giải ra $x\\in\\{-18,\\ldots,19\\}$, có $38$ số nguyên $x$.",
+    "params": {
+      "p": "24",
+      "q": "8",
+      "N0": "49",
+      "lo_i": "-18",
+      "hi_i": "19"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 54 số nguyên $y$ thỏa mãn $\\log_{14}(x^2+y)\\ge \\log_{8}(x+y)$?\n\nA. $20$.\nB. $22$.\nC. $19$.\nD. $21$.",
+    "dap_an": "A. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{8}14}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 54 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(55)\\approx106.71$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "14",
+      "q": "8",
+      "N0": "54",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 130 số nguyên $y$ thỏa mãn $\\log_{23}(x^2+y)\\ge \\log_{18}(x+y)$?\n\nA. $15$.\nB. $17$.\nC. $18$.\nD. $16$.",
+    "dap_an": "D. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{18}23}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 130 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(131)\\approx67.08$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "23",
+      "q": "18",
+      "N0": "130",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 231 số nguyên $y$ thỏa mãn $\\log_{11}(x^2+y)\\ge \\log_{10}(x+y)$?\n\nA. $16$.\nB. $17$.\nC. $18$.\nD. $15$.",
+    "dap_an": "A. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{10}11}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 231 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(232)\\approx58.67$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "11",
+      "q": "10",
+      "N0": "231",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 312 số nguyên $y$ thỏa mãn $\\log_{27}(x^2+y)\\ge \\log_{20}(x+y)$?\n\nA. $32$.\nB. $34$.\nC. $31$.\nD. $33$.",
+    "dap_an": "A. $32$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{20}27}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 312 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(313)\\approx243.60$. Giải ra $x\\in\\{-15,\\ldots,16\\}$, có $32$ số nguyên $x$.",
+    "params": {
+      "p": "27",
+      "q": "20",
+      "N0": "312",
+      "lo_i": "-15",
+      "hi_i": "16"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 252 số nguyên $y$ thỏa mãn $\\log_{7}(x^2+y)\\ge \\log_{4}(x+y)$?\n\nA. $92$.\nB. $91$.\nC. $94$.\nD. $93$.",
+    "dap_an": "A. $92$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{4}7}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 252 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(253)\\approx2108.60$. Giải ra $x\\in\\{-45,\\ldots,46\\}$, có $92$ số nguyên $x$.",
+    "params": {
+      "p": "7",
+      "q": "4",
+      "N0": "252",
+      "lo_i": "-45",
+      "hi_i": "46"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 295 số nguyên $y$ thỏa mãn $\\log_{17}(x^2+y)\\ge \\log_{16}(x+y)$?\n\nA. $14$.\nB. $11$.\nC. $13$.\nD. $12$.",
+    "dap_an": "D. $12$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{16}17}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 295 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(296)\\approx39.22$. Giải ra $x\\in\\{-5,\\ldots,6\\}$, có $12$ số nguyên $x$.",
+    "params": {
+      "p": "17",
+      "q": "16",
+      "N0": "295",
+      "lo_i": "-5",
+      "hi_i": "6"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 249 số nguyên $y$ thỏa mãn $\\log_{28}(x^2+y)\\ge \\log_{15}(x+y)$?\n\nA. $51$.\nB. $50$.\nC. $49$.\nD. $52$.",
+    "dap_an": "B. $50$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{15}28}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 249 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(250)\\approx642.52$. Giải ra $x\\in\\{-24,\\ldots,25\\}$, có $50$ số nguyên $x$.",
+    "params": {
+      "p": "28",
+      "q": "15",
+      "N0": "249",
+      "lo_i": "-24",
+      "hi_i": "25"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 304 số nguyên $y$ thỏa mãn $\\log_{10}(x^2+y)\\ge \\log_{9}(x+y)$?\n\nA. $21$.\nB. $20$.\nC. $19$.\nD. $22$.",
+    "dap_an": "B. $20$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{9}10}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 304 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(305)\\approx96.26$. Giải ra $x\\in\\{-9,\\ldots,10\\}$, có $20$ số nguyên $x$.",
+    "params": {
+      "p": "10",
+      "q": "9",
+      "N0": "304",
+      "lo_i": "-9",
+      "hi_i": "10"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 39 số nguyên $y$ thỏa mãn $\\log_{13}(x^2+y)\\ge \\log_{10}(x+y)$?\n\nA. $12$.\nB. $11$.\nC. $9$.\nD. $10$.",
+    "dap_an": "D. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{10}13}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 39 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(40)\\approx20.90$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "13",
+      "q": "10",
+      "N0": "39",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 253 số nguyên $y$ thỏa mãn $\\log_{7}(x^2+y)\\ge \\log_{6}(x+y)$?\n\nA. $25$.\nB. $26$.\nC. $24$.\nD. $23$.",
+    "dap_an": "C. $24$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{6}7}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 253 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(254)\\approx155.01$. Giải ra $x\\in\\{-11,\\ldots,12\\}$, có $24$ số nguyên $x$.",
+    "params": {
+      "p": "7",
+      "q": "6",
+      "N0": "253",
+      "lo_i": "-11",
+      "hi_i": "12"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 185 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $45$.\nB. $47$.\nC. $48$.\nD. $46$.",
+    "dap_an": "D. $46$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 185 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(186)\\approx544.81$. Giải ra $x\\in\\{-22,\\ldots,23\\}$, có $46$ số nguyên $x$.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "N0": "185",
+      "lo_i": "-22",
+      "hi_i": "23"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 63 số nguyên $y$ thỏa mãn $\\log_{8}(x^2+y)\\ge \\log_{7}(x+y)$?\n\nA. $9$.\nB. $11$.\nC. $12$.\nD. $10$.",
+    "dap_an": "D. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{7}8}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 63 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(64)\\approx21.14$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "8",
+      "q": "7",
+      "N0": "63",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 100 số nguyên $y$ thỏa mãn $\\log_{6}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $15$.\nB. $16$.\nC. $17$.\nD. $18$.",
+    "dap_an": "B. $16$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}6}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 100 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(101)\\approx69.36$. Giải ra $x\\in\\{-7,\\ldots,8\\}$, có $16$ số nguyên $x$.",
+    "params": {
+      "p": "6",
+      "q": "5",
+      "N0": "100",
+      "lo_i": "-7",
+      "hi_i": "8"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 23 số nguyên $y$ thỏa mãn $\\log_{30}(x^2+y)\\ge \\log_{20}(x+y)$?\n\nA. $8$.\nB. $9$.\nC. $7$.\nD. $10$.",
+    "dap_an": "A. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{20}30}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 23 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(24)\\approx12.90$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "30",
+      "q": "20",
+      "N0": "23",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 198 số nguyên $y$ thỏa mãn $\\log_{22}(x^2+y)\\ge \\log_{21}(x+y)$?\n\nA. $7$.\nB. $8$.\nC. $10$.\nD. $9$.",
+    "dap_an": "B. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{21}22}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 198 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(199)\\approx16.76$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "22",
+      "q": "21",
+      "N0": "198",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 276 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $64$.\nB. $61$.\nC. $62$.\nD. $63$.",
+    "dap_an": "C. $62$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 276 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(277)\\approx931.00$. Giải ra $x\\in\\{-30,\\ldots,31\\}$, có $62$ số nguyên $x$.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "N0": "276",
+      "lo_i": "-30",
+      "hi_i": "31"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 92 số nguyên $y$ thỏa mãn $\\log_{28}(x^2+y)\\ge \\log_{14}(x+y)$?\n\nA. $31$.\nB. $32$.\nC. $29$.\nD. $30$.",
+    "dap_an": "D. $30$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{14}28}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 92 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(93)\\approx212.85$. Giải ra $x\\in\\{-14,\\ldots,15\\}$, có $30$ số nguyên $x$.",
+    "params": {
+      "p": "28",
+      "q": "14",
+      "N0": "92",
+      "lo_i": "-14",
+      "hi_i": "15"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 123 số nguyên $y$ thỏa mãn $\\log_{17}(x^2+y)\\ge \\log_{16}(x+y)$?\n\nA. $10$.\nB. $7$.\nC. $9$.\nD. $8$.",
+    "dap_an": "D. $8$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{16}17}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 123 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(124)\\approx13.78$. Giải ra $x\\in\\{-3,\\ldots,4\\}$, có $8$ số nguyên $x$.",
+    "params": {
+      "p": "17",
+      "q": "16",
+      "N0": "123",
+      "lo_i": "-3",
+      "hi_i": "4"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 316 số nguyên $y$ thỏa mãn $\\log_{23}(x^2+y)\\ge \\log_{12}(x+y)$?\n\nA. $65$.\nB. $66$.\nC. $67$.\nD. $68$.",
+    "dap_an": "B. $66$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{12}23}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 316 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(317)\\approx1114.78$. Giải ra $x\\in\\{-32,\\ldots,33\\}$, có $66$ số nguyên $x$.",
+    "params": {
+      "p": "23",
+      "q": "12",
+      "N0": "316",
+      "lo_i": "-32",
+      "hi_i": "33"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 131 số nguyên $y$ thỏa mãn $\\log_{12}(x^2+y)\\ge \\log_{11}(x+y)$?\n\nA. $12$.\nB. $9$.\nC. $11$.\nD. $10$.",
+    "dap_an": "D. $10$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{11}12}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 131 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(132)\\approx25.59$. Giải ra $x\\in\\{-4,\\ldots,5\\}$, có $10$ số nguyên $x$.",
+    "params": {
+      "p": "12",
+      "q": "11",
+      "N0": "131",
+      "lo_i": "-4",
+      "hi_i": "5"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Count integers satisfying a logarithmic inequality threshold",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 219 số nguyên $y$ thỏa mãn $\\log_{20}(x^2+y)\\ge \\log_{8}(x+y)$?\n\nA. $93$.\nB. $92$.\nC. $94$.\nD. $91$.",
+    "dap_an": "B. $92$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{8}20}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 219 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(220)\\approx2149.16$. Giải ra $x\\in\\{-45,\\ldots,46\\}$, có $92$ số nguyên $x$.",
+    "params": {
+      "p": "20",
+      "q": "8",
+      "N0": "219",
+      "lo_i": "-45",
+      "hi_i": "46"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;13)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-2x^2-0)$?\n\nA. $9$.\nB. $11$.\nC. $8$.\nD. $10$.",
+    "dap_an": "A. $9$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-2x^2-0)$ trên $[3;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;13)$ khi và chỉ khi $f(3)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{4,\\ldots,12\\}$, có $9$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "lo": "3",
+      "hi": "13",
+      "found_lo": "4",
+      "found_hi": "12"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;13)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-2x^2-29)$?\n\nA. $6$.\nB. $9$.\nC. $8$.\nD. $7$.",
+    "dap_an": "D. $7$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-2x^2-29)$ trên $[6;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;13)$ khi và chỉ khi $f(6)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{6,\\ldots,12\\}$, có $7$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "2",
+      "C": "29",
+      "lo": "6",
+      "hi": "13",
+      "found_lo": "6",
+      "found_hi": "12"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;11)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-11x^2-19)$?\n\nA. $9$.\nB. $7$.\nC. $8$.\nD. $6$.",
+    "dap_an": "B. $7$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-11x^2-19)$ trên $[7;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;11)$ khi và chỉ khi $f(7)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{34,\\ldots,40\\}$, có $7$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "11",
+      "C": "19",
+      "lo": "7",
+      "hi": "11",
+      "found_lo": "34",
+      "found_hi": "40"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(8;11)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-11x^2-19)$?\n\nA. $11$.\nB. $10$.\nC. $9$.\nD. $12$.",
+    "dap_an": "B. $10$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-11x^2-19)$ trên $[8;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(8;11)$ khi và chỉ khi $f(8)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{41,\\ldots,50\\}$, có $10$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "11",
+      "C": "19",
+      "lo": "8",
+      "hi": "11",
+      "found_lo": "41",
+      "found_hi": "50"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;4)$ thỏa mãn $15(x-1)e^x=y(e^x+xy-7x^2-16)$?\n\nA. $17$.\nB. $15$.\nC. $16$.\nD. $14$.",
+    "dap_an": "B. $15$.",
+    "loi_giai": "Xét $f(x)=15(x-1)e^x-y(e^x+xy-7x^2-16)$ trên $[1;4]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/15$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;4)$ khi và chỉ khi $f(1)\\cdot f(4)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{21,\\ldots,35\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "15",
+      "B": "7",
+      "C": "16",
+      "lo": "1",
+      "hi": "4",
+      "found_lo": "21",
+      "found_hi": "35"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;5)$ thỏa mãn $14(x-1)e^x=y(e^x+xy-8x^2-10)$?\n\nA. $20$.\nB. $19$.\nC. $22$.\nD. $21$.",
+    "dap_an": "A. $20$.",
+    "loi_giai": "Xét $f(x)=14(x-1)e^x-y(e^x+xy-8x^2-10)$ trên $[3;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/14$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;5)$ khi và chỉ khi $f(3)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{28,\\ldots,47\\}$, có $20$ giá trị.",
+    "params": {
+      "A": "14",
+      "B": "8",
+      "C": "10",
+      "lo": "3",
+      "hi": "5",
+      "found_lo": "28",
+      "found_hi": "47"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(8;20)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-5x^2-11)$?\n\nA. $13$.\nB. $11$.\nC. $12$.\nD. $14$.",
+    "dap_an": "C. $12$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-5x^2-11)$ trên $[8;20]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(8;20)$ khi và chỉ khi $f(8)\\cdot f(20)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{8,\\ldots,19\\}$, có $12$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "5",
+      "C": "11",
+      "lo": "8",
+      "hi": "20",
+      "found_lo": "8",
+      "found_hi": "19"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;5)$ thỏa mãn $10(x-1)e^x=y(e^x+xy-2x^2-17)$?\n\nA. $17$.\nB. $15$.\nC. $16$.\nD. $18$.",
+    "dap_an": "C. $16$.",
+    "loi_giai": "Xét $f(x)=10(x-1)e^x-y(e^x+xy-2x^2-17)$ trên $[2;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/10$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;5)$ khi và chỉ khi $f(2)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{12,\\ldots,27\\}$, có $16$ giá trị.",
+    "params": {
+      "A": "10",
+      "B": "2",
+      "C": "17",
+      "lo": "2",
+      "hi": "5",
+      "found_lo": "12",
+      "found_hi": "27"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;8)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-11x^2-18)$?\n\nA. $10$.\nB. $9$.\nC. $11$.\nD. $12$.",
+    "dap_an": "A. $10$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-11x^2-18)$ trên $[2;8]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;8)$ khi và chỉ khi $f(2)\\cdot f(8)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{18,\\ldots,27\\}$, có $10$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "11",
+      "C": "18",
+      "lo": "2",
+      "hi": "8",
+      "found_lo": "18",
+      "found_hi": "27"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;6)$ thỏa mãn $11(x-1)e^x=y(e^x+xy-8x^2-22)$?\n\nA. $25$.\nB. $28$.\nC. $27$.\nD. $26$.",
+    "dap_an": "D. $26$.",
+    "loi_giai": "Xét $f(x)=11(x-1)e^x-y(e^x+xy-8x^2-22)$ trên $[1;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/11$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;6)$ khi và chỉ khi $f(1)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{28,\\ldots,53\\}$, có $26$ giá trị.",
+    "params": {
+      "A": "11",
+      "B": "8",
+      "C": "22",
+      "lo": "1",
+      "hi": "6",
+      "found_lo": "28",
+      "found_hi": "53"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;15)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-x^2-9)$?\n\nA. $36$.\nB. $33$.\nC. $35$.\nD. $34$.",
+    "dap_an": "D. $34$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-x^2-9)$ trên $[4;15]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;15)$ khi và chỉ khi $f(4)\\cdot f(15)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{8,\\ldots,41\\}$, có $34$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "1",
+      "C": "9",
+      "lo": "4",
+      "hi": "15",
+      "found_lo": "8",
+      "found_hi": "41"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;7)$ thỏa mãn $8(x-1)e^x=y(e^x+xy-4x^2-26)$?\n\nA. $28$.\nB. $27$.\nC. $26$.\nD. $25$.",
+    "dap_an": "C. $26$.",
+    "loi_giai": "Xét $f(x)=8(x-1)e^x-y(e^x+xy-4x^2-26)$ trên $[2;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/8$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;7)$ khi và chỉ khi $f(2)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,44\\}$, có $26$ giá trị.",
+    "params": {
+      "A": "8",
+      "B": "4",
+      "C": "26",
+      "lo": "2",
+      "hi": "7",
+      "found_lo": "19",
+      "found_hi": "44"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;9)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-4x^2-2)$?\n\nA. $19$.\nB. $17$.\nC. $20$.\nD. $18$.",
+    "dap_an": "D. $18$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-4x^2-2)$ trên $[2;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;9)$ khi và chỉ khi $f(2)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{7,\\ldots,24\\}$, có $18$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "lo": "2",
+      "hi": "9",
+      "found_lo": "7",
+      "found_hi": "24"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;13)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-10x^2-28)$?\n\nA. $23$.\nB. $24$.\nC. $22$.\nD. $21$.",
+    "dap_an": "C. $22$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-10x^2-28)$ trên $[4;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;13)$ khi và chỉ khi $f(4)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{13,\\ldots,34\\}$, có $22$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "10",
+      "C": "28",
+      "lo": "4",
+      "hi": "13",
+      "found_lo": "13",
+      "found_hi": "34"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $15(x-1)e^x=y(e^x+xy-6x^2-27)$?\n\nA. $16$.\nB. $14$.\nC. $15$.\nD. $17$.",
+    "dap_an": "C. $15$.",
+    "loi_giai": "Xét $f(x)=15(x-1)e^x-y(e^x+xy-6x^2-27)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/15$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{31,\\ldots,45\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "15",
+      "B": "6",
+      "C": "27",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "31",
+      "found_hi": "45"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;18)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-7x^2-3)$?\n\nA. $17$.\nB. $19$.\nC. $20$.\nD. $18$.",
+    "dap_an": "D. $18$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-7x^2-3)$ trên $[6;18]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;18)$ khi và chỉ khi $f(6)\\cdot f(18)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{17,\\ldots,34\\}$, có $18$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "7",
+      "C": "3",
+      "lo": "6",
+      "hi": "18",
+      "found_lo": "17",
+      "found_hi": "34"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(8;14)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-7x^2-29)$?\n\nA. $11$.\nB. $13$.\nC. $10$.\nD. $12$.",
+    "dap_an": "A. $11$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-7x^2-29)$ trên $[8;14]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(8;14)$ khi và chỉ khi $f(8)\\cdot f(14)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{16,\\ldots,26\\}$, có $11$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "7",
+      "C": "29",
+      "lo": "8",
+      "hi": "14",
+      "found_lo": "16",
+      "found_hi": "26"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-8x^2-13)$?\n\nA. $14$.\nB. $12$.\nC. $15$.\nD. $13$.",
+    "dap_an": "D. $13$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-8x^2-13)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,31\\}$, có $13$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "8",
+      "C": "13",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "19",
+      "found_hi": "31"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;13)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-6x^2-17)$?\n\nA. $30$.\nB. $33$.\nC. $32$.\nD. $31$.",
+    "dap_an": "D. $31$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-6x^2-17)$ trên $[2;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;13)$ khi và chỉ khi $f(2)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{18,\\ldots,48\\}$, có $31$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "6",
+      "C": "17",
+      "lo": "2",
+      "hi": "13",
+      "found_lo": "18",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;4)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-4x^2-21)$?\n\nA. $11$.\nB. $8$.\nC. $10$.\nD. $9$.",
+    "dap_an": "D. $9$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-4x^2-21)$ trên $[1;4]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;4)$ khi và chỉ khi $f(1)\\cdot f(4)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{14,\\ldots,22\\}$, có $9$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "4",
+      "C": "21",
+      "lo": "1",
+      "hi": "4",
+      "found_lo": "14",
+      "found_hi": "22"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(5;14)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-3x^2-9)$?\n\nA. $36$.\nB. $37$.\nC. $34$.\nD. $35$.",
+    "dap_an": "D. $35$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-3x^2-9)$ trên $[5;14]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(5;14)$ khi và chỉ khi $f(5)\\cdot f(14)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{17,\\ldots,51\\}$, có $35$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "3",
+      "C": "9",
+      "lo": "5",
+      "hi": "14",
+      "found_lo": "17",
+      "found_hi": "51"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;10)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-5x^2-25)$?\n\nA. $26$.\nB. $28$.\nC. $27$.\nD. $25$.",
+    "dap_an": "A. $26$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-5x^2-25)$ trên $[3;10]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;10)$ khi và chỉ khi $f(3)\\cdot f(10)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{20,\\ldots,45\\}$, có $26$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "5",
+      "C": "25",
+      "lo": "3",
+      "hi": "10",
+      "found_lo": "20",
+      "found_hi": "45"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;13)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-6x^2-19)$?\n\nA. $15$.\nB. $17$.\nC. $16$.\nD. $18$.",
+    "dap_an": "C. $16$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-6x^2-19)$ trên $[6;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;13)$ khi và chỉ khi $f(6)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{21,\\ldots,36\\}$, có $16$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "6",
+      "C": "19",
+      "lo": "6",
+      "hi": "13",
+      "found_lo": "21",
+      "found_hi": "36"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;7)$ thỏa mãn $7(x-1)e^x=y(e^x+xy-12x^2-23)$?\n\nA. $22$.\nB. $21$.\nC. $23$.\nD. $20$.",
+    "dap_an": "B. $21$.",
+    "loi_giai": "Xét $f(x)=7(x-1)e^x-y(e^x+xy-12x^2-23)$ trên $[2;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/7$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;7)$ khi và chỉ khi $f(2)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{33,\\ldots,53\\}$, có $21$ giá trị.",
+    "params": {
+      "A": "7",
+      "B": "12",
+      "C": "23",
+      "lo": "2",
+      "hi": "7",
+      "found_lo": "33",
+      "found_hi": "53"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;13)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-6x^2-29)$?\n\nA. $25$.\nB. $26$.\nC. $24$.\nD. $27$.",
+    "dap_an": "A. $25$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-6x^2-29)$ trên $[2;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;13)$ khi và chỉ khi $f(2)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{24,\\ldots,48\\}$, có $25$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "6",
+      "C": "29",
+      "lo": "2",
+      "hi": "13",
+      "found_lo": "24",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;12)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-12x^2-8)$?\n\nA. $40$.\nB. $38$.\nC. $37$.\nD. $39$.",
+    "dap_an": "B. $38$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-12x^2-8)$ trên $[1;12]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;12)$ khi và chỉ khi $f(1)\\cdot f(12)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{18,\\ldots,55\\}$, có $38$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "12",
+      "C": "8",
+      "lo": "1",
+      "hi": "12",
+      "found_lo": "18",
+      "found_hi": "55"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;11)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-2x^2-30)$?\n\nA. $11$.\nB. $12$.\nC. $9$.\nD. $10$.",
+    "dap_an": "D. $10$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-2x^2-30)$ trên $[1;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;11)$ khi và chỉ khi $f(1)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{30,\\ldots,39\\}$, có $10$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "2",
+      "C": "30",
+      "lo": "1",
+      "hi": "11",
+      "found_lo": "30",
+      "found_hi": "39"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;9)$ thỏa mãn $7(x-1)e^x=y(e^x+xy-8x^2-9)$?\n\nA. $16$.\nB. $19$.\nC. $18$.\nD. $17$.",
+    "dap_an": "D. $17$.",
+    "loi_giai": "Xét $f(x)=7(x-1)e^x-y(e^x+xy-8x^2-9)$ trên $[6;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/7$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;9)$ khi và chỉ khi $f(6)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{41,\\ldots,57\\}$, có $17$ giá trị.",
+    "params": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "lo": "6",
+      "hi": "9",
+      "found_lo": "41",
+      "found_hi": "57"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(5;11)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-5x^2-9)$?\n\nA. $5$.\nB. $6$.\nC. $7$.\nD. $8$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-5x^2-9)$ trên $[5;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(5;11)$ khi và chỉ khi $f(5)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{15,\\ldots,20\\}$, có $6$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "5",
+      "C": "9",
+      "lo": "5",
+      "hi": "11",
+      "found_lo": "15",
+      "found_hi": "20"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;10)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-7x^2-28)$?\n\nA. $8$.\nB. $6$.\nC. $7$.\nD. $5$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-7x^2-28)$ trên $[4;10]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;10)$ khi và chỉ khi $f(4)\\cdot f(10)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,24\\}$, có $6$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "7",
+      "C": "28",
+      "lo": "4",
+      "hi": "10",
+      "found_lo": "19",
+      "found_hi": "24"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;9)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-4x^2-22)$?\n\nA. $25$.\nB. $22$.\nC. $24$.\nD. $23$.",
+    "dap_an": "D. $23$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-4x^2-22)$ trên $[2;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;9)$ khi và chỉ khi $f(2)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{17,\\ldots,39\\}$, có $23$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "4",
+      "C": "22",
+      "lo": "2",
+      "hi": "9",
+      "found_lo": "17",
+      "found_hi": "39"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;8)$ thỏa mãn $8(x-1)e^x=y(e^x+xy-3x^2-7)$?\n\nA. $33$.\nB. $34$.\nC. $36$.\nD. $35$.",
+    "dap_an": "B. $34$.",
+    "loi_giai": "Xét $f(x)=8(x-1)e^x-y(e^x+xy-3x^2-7)$ trên $[4;8]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/8$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;8)$ khi và chỉ khi $f(4)\\cdot f(8)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,52\\}$, có $34$ giá trị.",
+    "params": {
+      "A": "8",
+      "B": "3",
+      "C": "7",
+      "lo": "4",
+      "hi": "8",
+      "found_lo": "19",
+      "found_hi": "52"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;13)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-12x^2-23)$?\n\nA. $7$.\nB. $9$.\nC. $8$.\nD. $10$.",
+    "dap_an": "C. $8$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-12x^2-23)$ trên $[7;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;13)$ khi và chỉ khi $f(7)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{29,\\ldots,36\\}$, có $8$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "12",
+      "C": "23",
+      "lo": "7",
+      "hi": "13",
+      "found_lo": "29",
+      "found_hi": "36"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;4)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-5x^2-1)$?\n\nA. $9$.\nB. $7$.\nC. $10$.\nD. $8$.",
+    "dap_an": "D. $8$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-5x^2-1)$ trên $[2;4]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;4)$ khi và chỉ khi $f(2)\\cdot f(4)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{9,\\ldots,16\\}$, có $8$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "5",
+      "C": "1",
+      "lo": "2",
+      "hi": "4",
+      "found_lo": "9",
+      "found_hi": "16"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;8)$ thỏa mãn $6(x-1)e^x=y(e^x+xy-4x^2-20)$?\n\nA. $27$.\nB. $28$.\nC. $26$.\nD. $25$.",
+    "dap_an": "C. $26$.",
+    "loi_giai": "Xét $f(x)=6(x-1)e^x-y(e^x+xy-4x^2-20)$ trên $[2;8]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/6$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;8)$ khi và chỉ khi $f(2)\\cdot f(8)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{16,\\ldots,41\\}$, có $26$ giá trị.",
+    "params": {
+      "A": "6",
+      "B": "4",
+      "C": "20",
+      "lo": "2",
+      "hi": "8",
+      "found_lo": "16",
+      "found_hi": "41"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;13)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-12x^2-24)$?\n\nA. $21$.\nB. $20$.\nC. $22$.\nD. $19$.",
+    "dap_an": "B. $20$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-12x^2-24)$ trên $[2;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;13)$ khi và chỉ khi $f(2)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{13,\\ldots,32\\}$, có $20$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "12",
+      "C": "24",
+      "lo": "2",
+      "hi": "13",
+      "found_lo": "13",
+      "found_hi": "32"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;9)$ thỏa mãn $6(x-1)e^x=y(e^x+xy-12x^2-8)$?\n\nA. $9$.\nB. $8$.\nC. $10$.\nD. $11$.",
+    "dap_an": "A. $9$.",
+    "loi_giai": "Xét $f(x)=6(x-1)e^x-y(e^x+xy-12x^2-8)$ trên $[4;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/6$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;9)$ khi và chỉ khi $f(4)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{43,\\ldots,51\\}$, có $9$ giá trị.",
+    "params": {
+      "A": "6",
+      "B": "12",
+      "C": "8",
+      "lo": "4",
+      "hi": "9",
+      "found_lo": "43",
+      "found_hi": "51"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(8;17)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-11x^2-10)$?\n\nA. $24$.\nB. $23$.\nC. $25$.\nD. $22$.",
+    "dap_an": "B. $23$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-11x^2-10)$ trên $[8;17]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(8;17)$ khi và chỉ khi $f(8)\\cdot f(17)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{26,\\ldots,48\\}$, có $23$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "11",
+      "C": "10",
+      "lo": "8",
+      "hi": "17",
+      "found_lo": "26",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;17)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-9x^2-23)$?\n\nA. $8$.\nB. $6$.\nC. $7$.\nD. $9$.",
+    "dap_an": "C. $7$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-9x^2-23)$ trên $[7;17]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;17)$ khi và chỉ khi $f(7)\\cdot f(17)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{10,\\ldots,16\\}$, có $7$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "9",
+      "C": "23",
+      "lo": "7",
+      "hi": "17",
+      "found_lo": "10",
+      "found_hi": "16"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;14)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-5x^2-7)$?\n\nA. $28$.\nB. $29$.\nC. $31$.\nD. $30$.",
+    "dap_an": "B. $29$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-5x^2-7)$ trên $[2;14]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;14)$ khi và chỉ khi $f(2)\\cdot f(14)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{11,\\ldots,39\\}$, có $29$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "lo": "2",
+      "hi": "14",
+      "found_lo": "11",
+      "found_hi": "39"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;6)$ thỏa mãn $14(x-1)e^x=y(e^x+xy-3x^2-13)$?\n\nA. $35$.\nB. $36$.\nC. $34$.\nD. $37$.",
+    "dap_an": "A. $35$.",
+    "loi_giai": "Xét $f(x)=14(x-1)e^x-y(e^x+xy-3x^2-13)$ trên $[1;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/14$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;6)$ khi và chỉ khi $f(1)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{14,\\ldots,48\\}$, có $35$ giá trị.",
+    "params": {
+      "A": "14",
+      "B": "3",
+      "C": "13",
+      "lo": "1",
+      "hi": "6",
+      "found_lo": "14",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;7)$ thỏa mãn $6(x-1)e^x=y(e^x+xy-2x^2-24)$?\n\nA. $9$.\nB. $10$.\nC. $11$.\nD. $8$.",
+    "dap_an": "A. $9$.",
+    "loi_giai": "Xét $f(x)=6(x-1)e^x-y(e^x+xy-2x^2-24)$ trên $[1;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/6$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;7)$ khi và chỉ khi $f(1)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{24,\\ldots,32\\}$, có $9$ giá trị.",
+    "params": {
+      "A": "6",
+      "B": "2",
+      "C": "24",
+      "lo": "1",
+      "hi": "7",
+      "found_lo": "24",
+      "found_hi": "32"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(5;17)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-3x^2-22)$?\n\nA. $36$.\nB. $33$.\nC. $34$.\nD. $35$.",
+    "dap_an": "C. $34$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-3x^2-22)$ trên $[5;17]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(5;17)$ khi và chỉ khi $f(5)\\cdot f(17)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{15,\\ldots,48\\}$, có $34$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "3",
+      "C": "22",
+      "lo": "5",
+      "hi": "17",
+      "found_lo": "15",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;15)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-2x^2-15)$?\n\nA. $31$.\nB. $33$.\nC. $32$.\nD. $30$.",
+    "dap_an": "A. $31$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-2x^2-15)$ trên $[4;15]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;15)$ khi và chỉ khi $f(4)\\cdot f(15)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{11,\\ldots,41\\}$, có $31$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "2",
+      "C": "15",
+      "lo": "4",
+      "hi": "15",
+      "found_lo": "11",
+      "found_hi": "41"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;7)$ thỏa mãn $6(x-1)e^x=y(e^x+xy-3x^2-25)$?\n\nA. $16$.\nB. $15$.\nC. $14$.\nD. $17$.",
+    "dap_an": "B. $15$.",
+    "loi_giai": "Xét $f(x)=6(x-1)e^x-y(e^x+xy-3x^2-25)$ trên $[4;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/6$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;7)$ khi và chỉ khi $f(4)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,33\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "6",
+      "B": "3",
+      "C": "25",
+      "lo": "4",
+      "hi": "7",
+      "found_lo": "19",
+      "found_hi": "33"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;5)$ thỏa mãn $13(x-1)e^x=y(e^x+xy-9x^2-25)$?\n\nA. $21$.\nB. $24$.\nC. $22$.\nD. $23$.",
+    "dap_an": "C. $22$.",
+    "loi_giai": "Xét $f(x)=13(x-1)e^x-y(e^x+xy-9x^2-25)$ trên $[2;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/13$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;5)$ khi và chỉ khi $f(2)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{29,\\ldots,50\\}$, có $22$ giá trị.",
+    "params": {
+      "A": "13",
+      "B": "9",
+      "C": "25",
+      "lo": "2",
+      "hi": "5",
+      "found_lo": "29",
+      "found_hi": "50"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;4)$ thỏa mãn $15(x-1)e^x=y(e^x+xy-12x^2-29)$?\n\nA. $16$.\nB. $14$.\nC. $17$.\nD. $15$.",
+    "dap_an": "D. $15$.",
+    "loi_giai": "Xét $f(x)=15(x-1)e^x-y(e^x+xy-12x^2-29)$ trên $[1;4]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/15$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;4)$ khi và chỉ khi $f(1)\\cdot f(4)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{39,\\ldots,53\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "15",
+      "B": "12",
+      "C": "29",
+      "lo": "1",
+      "hi": "4",
+      "found_lo": "39",
+      "found_hi": "53"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;13)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-3x^2-23)$?\n\nA. $25$.\nB. $24$.\nC. $22$.\nD. $23$.",
+    "dap_an": "D. $23$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-3x^2-23)$ trên $[4;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;13)$ khi và chỉ khi $f(4)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{14,\\ldots,36\\}$, có $23$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "3",
+      "C": "23",
+      "lo": "4",
+      "hi": "13",
+      "found_lo": "14",
+      "found_hi": "36"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;16)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-2x^2-2)$?\n\nA. $30$.\nB. $31$.\nC. $29$.\nD. $32$.",
+    "dap_an": "A. $30$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-2x^2-2)$ trên $[6;16]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;16)$ khi và chỉ khi $f(6)\\cdot f(16)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{15,\\ldots,44\\}$, có $30$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "2",
+      "C": "2",
+      "lo": "6",
+      "hi": "16",
+      "found_lo": "15",
+      "found_hi": "44"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;6)$ thỏa mãn $12(x-1)e^x=y(e^x+xy-4x^2-10)$?\n\nA. $36$.\nB. $34$.\nC. $35$.\nD. $33$.",
+    "dap_an": "B. $34$.",
+    "loi_giai": "Xét $f(x)=12(x-1)e^x-y(e^x+xy-4x^2-10)$ trên $[2;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/12$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;6)$ khi và chỉ khi $f(2)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{13,\\ldots,46\\}$, có $34$ giá trị.",
+    "params": {
+      "A": "12",
+      "B": "4",
+      "C": "10",
+      "lo": "2",
+      "hi": "6",
+      "found_lo": "13",
+      "found_hi": "46"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;5)$ thỏa mãn $13(x-1)e^x=y(e^x+xy-7x^2-14)$?\n\nA. $24$.\nB. $25$.\nC. $26$.\nD. $23$.",
+    "dap_an": "A. $24$.",
+    "loi_giai": "Xét $f(x)=13(x-1)e^x-y(e^x+xy-7x^2-14)$ trên $[2;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/13$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;5)$ khi và chỉ khi $f(2)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{20,\\ldots,43\\}$, có $24$ giá trị.",
+    "params": {
+      "A": "13",
+      "B": "7",
+      "C": "14",
+      "lo": "2",
+      "hi": "5",
+      "found_lo": "20",
+      "found_hi": "43"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;3)$ thỏa mãn $10(x-1)e^x=y(e^x+xy-7x^2-1)$?\n\nA. $17$.\nB. $15$.\nC. $16$.\nD. $18$.",
+    "dap_an": "C. $16$.",
+    "loi_giai": "Xét $f(x)=10(x-1)e^x-y(e^x+xy-7x^2-1)$ trên $[1;3]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/10$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;3)$ khi và chỉ khi $f(1)\\cdot f(3)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{6,\\ldots,21\\}$, có $16$ giá trị.",
+    "params": {
+      "A": "10",
+      "B": "7",
+      "C": "1",
+      "lo": "1",
+      "hi": "3",
+      "found_lo": "6",
+      "found_hi": "21"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $9(x-1)e^x=y(e^x+xy-9x^2-13)$?\n\nA. $25$.\nB. $23$.\nC. $22$.\nD. $24$.",
+    "dap_an": "B. $23$.",
+    "loi_giai": "Xét $f(x)=9(x-1)e^x-y(e^x+xy-9x^2-13)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/9$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{20,\\ldots,42\\}$, có $23$ giá trị.",
+    "params": {
+      "A": "9",
+      "B": "9",
+      "C": "13",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "20",
+      "found_hi": "42"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;11)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-3x^2-24)$?\n\nA. $14$.\nB. $16$.\nC. $17$.\nD. $15$.",
+    "dap_an": "D. $15$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-3x^2-24)$ trên $[7;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;11)$ khi và chỉ khi $f(7)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{25,\\ldots,39\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "3",
+      "C": "24",
+      "lo": "7",
+      "hi": "11",
+      "found_lo": "25",
+      "found_hi": "39"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;12)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-11x^2-4)$?\n\nA. $14$.\nB. $17$.\nC. $16$.\nD. $15$.",
+    "dap_an": "D. $15$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-11x^2-4)$ trên $[6;12]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;12)$ khi và chỉ khi $f(6)\\cdot f(12)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{41,\\ldots,55\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "11",
+      "C": "4",
+      "lo": "6",
+      "hi": "12",
+      "found_lo": "41",
+      "found_hi": "55"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;6)$ thỏa mãn $8(x-1)e^x=y(e^x+xy-10x^2-19)$?\n\nA. $22$.\nB. $23$.\nC. $24$.\nD. $25$.",
+    "dap_an": "B. $23$.",
+    "loi_giai": "Xét $f(x)=8(x-1)e^x-y(e^x+xy-10x^2-19)$ trên $[2;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/8$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;6)$ khi và chỉ khi $f(2)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{27,\\ldots,49\\}$, có $23$ giá trị.",
+    "params": {
+      "A": "8",
+      "B": "10",
+      "C": "19",
+      "lo": "2",
+      "hi": "6",
+      "found_lo": "27",
+      "found_hi": "49"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;9)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-6x^2-0)$?\n\nA. $24$.\nB. $25$.\nC. $26$.\nD. $27$.",
+    "dap_an": "B. $25$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-6x^2-0)$ trên $[3;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;9)$ khi và chỉ khi $f(3)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{16,\\ldots,40\\}$, có $25$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "6",
+      "C": "0",
+      "lo": "3",
+      "hi": "9",
+      "found_lo": "16",
+      "found_hi": "40"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(8;19)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-7x^2-21)$?\n\nA. $20$.\nB. $23$.\nC. $21$.\nD. $22$.",
+    "dap_an": "C. $21$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-7x^2-21)$ trên $[8;19]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(8;19)$ khi và chỉ khi $f(8)\\cdot f(19)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{16,\\ldots,36\\}$, có $21$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "7",
+      "C": "21",
+      "lo": "8",
+      "hi": "19",
+      "found_lo": "16",
+      "found_hi": "36"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(5;16)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-8x^2-1)$?\n\nA. $21$.\nB. $23$.\nC. $22$.\nD. $20$.",
+    "dap_an": "A. $21$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-8x^2-1)$ trên $[5;16]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(5;16)$ khi và chỉ khi $f(5)\\cdot f(16)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{25,\\ldots,45\\}$, có $21$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "8",
+      "C": "1",
+      "lo": "5",
+      "hi": "16",
+      "found_lo": "25",
+      "found_hi": "45"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;7)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-12x^2-13)$?\n\nA. $13$.\nB. $10$.\nC. $12$.\nD. $11$.",
+    "dap_an": "D. $11$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-12x^2-13)$ trên $[1;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;7)$ khi và chỉ khi $f(1)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{12,\\ldots,22\\}$, có $11$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "12",
+      "C": "13",
+      "lo": "1",
+      "hi": "7",
+      "found_lo": "12",
+      "found_hi": "22"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;11)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-x^2-23)$?\n\nA. $9$.\nB. $7$.\nC. $8$.\nD. $10$.",
+    "dap_an": "C. $8$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-x^2-23)$ trên $[1;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;11)$ khi và chỉ khi $f(1)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{22,\\ldots,29\\}$, có $8$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "1",
+      "C": "23",
+      "lo": "1",
+      "hi": "11",
+      "found_lo": "22",
+      "found_hi": "29"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-2x^2-26)$?\n\nA. $8$.\nB. $7$.\nC. $6$.\nD. $9$.",
+    "dap_an": "B. $7$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-2x^2-26)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,25\\}$, có $7$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "2",
+      "C": "26",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "19",
+      "found_hi": "25"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;13)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-2x^2-21)$?\n\nA. $10$.\nB. $7$.\nC. $9$.\nD. $8$.",
+    "dap_an": "D. $8$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-2x^2-21)$ trên $[1;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;13)$ khi và chỉ khi $f(1)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{13,\\ldots,20\\}$, có $8$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "2",
+      "C": "21",
+      "lo": "1",
+      "hi": "13",
+      "found_lo": "13",
+      "found_hi": "20"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;9)$ thỏa mãn $6(x-1)e^x=y(e^x+xy-6x^2-23)$?\n\nA. $23$.\nB. $21$.\nC. $22$.\nD. $24$.",
+    "dap_an": "C. $22$.",
+    "loi_giai": "Xét $f(x)=6(x-1)e^x-y(e^x+xy-6x^2-23)$ trên $[1;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/6$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;9)$ khi và chỉ khi $f(1)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{27,\\ldots,48\\}$, có $22$ giá trị.",
+    "params": {
+      "A": "6",
+      "B": "6",
+      "C": "23",
+      "lo": "1",
+      "hi": "9",
+      "found_lo": "27",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;17)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-7x^2-15)$?\n\nA. $16$.\nB. $18$.\nC. $19$.\nD. $17$.",
+    "dap_an": "D. $17$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-7x^2-15)$ trên $[7;17]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;17)$ khi và chỉ khi $f(7)\\cdot f(17)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{16,\\ldots,32\\}$, có $17$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "7",
+      "C": "15",
+      "lo": "7",
+      "hi": "17",
+      "found_lo": "16",
+      "found_hi": "32"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;14)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-4x^2-28)$?\n\nA. $20$.\nB. $21$.\nC. $22$.\nD. $19$.",
+    "dap_an": "A. $20$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-4x^2-28)$ trên $[7;14]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;14)$ khi và chỉ khi $f(7)\\cdot f(14)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{20,\\ldots,39\\}$, có $20$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "4",
+      "C": "28",
+      "lo": "7",
+      "hi": "14",
+      "found_lo": "20",
+      "found_hi": "39"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;13)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-10x^2-24)$?\n\nA. $19$.\nB. $17$.\nC. $18$.\nD. $16$.",
+    "dap_an": "B. $17$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-10x^2-24)$ trên $[1;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;13)$ khi và chỉ khi $f(1)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{32,\\ldots,48\\}$, có $17$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "10",
+      "C": "24",
+      "lo": "1",
+      "hi": "13",
+      "found_lo": "32",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;13)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-4x^2-6)$?\n\nA. $28$.\nB. $29$.\nC. $27$.\nD. $26$.",
+    "dap_an": "C. $27$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-4x^2-6)$ trên $[6;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;13)$ khi và chỉ khi $f(6)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{22,\\ldots,48\\}$, có $27$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "4",
+      "C": "6",
+      "lo": "6",
+      "hi": "13",
+      "found_lo": "22",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(2;10)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-11x^2-19)$?\n\nA. $9$.\nB. $10$.\nC. $11$.\nD. $8$.",
+    "dap_an": "A. $9$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-11x^2-19)$ trên $[2;10]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(2;10)$ khi và chỉ khi $f(2)\\cdot f(10)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{29,\\ldots,37\\}$, có $9$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "11",
+      "C": "19",
+      "lo": "2",
+      "hi": "10",
+      "found_lo": "29",
+      "found_hi": "37"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;7)$ thỏa mãn $11(x-1)e^x=y(e^x+xy-x^2-12)$?\n\nA. $34$.\nB. $35$.\nC. $33$.\nD. $32$.",
+    "dap_an": "C. $33$.",
+    "loi_giai": "Xét $f(x)=11(x-1)e^x-y(e^x+xy-x^2-12)$ trên $[4;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/11$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;7)$ khi và chỉ khi $f(4)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{19,\\ldots,51\\}$, có $33$ giá trị.",
+    "params": {
+      "A": "11",
+      "B": "1",
+      "C": "12",
+      "lo": "4",
+      "hi": "7",
+      "found_lo": "19",
+      "found_hi": "51"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;9)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-9x^2-25)$?\n\nA. $21$.\nB. $23$.\nC. $20$.\nD. $22$.",
+    "dap_an": "A. $21$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-9x^2-25)$ trên $[3;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;9)$ khi và chỉ khi $f(3)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{9,\\ldots,29\\}$, có $21$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "9",
+      "C": "25",
+      "lo": "3",
+      "hi": "9",
+      "found_lo": "9",
+      "found_hi": "29"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;9)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-4x^2-6)$?\n\nA. $14$.\nB. $15$.\nC. $16$.\nD. $13$.",
+    "dap_an": "A. $14$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-4x^2-6)$ trên $[3;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;9)$ khi và chỉ khi $f(3)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{11,\\ldots,24\\}$, có $14$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "lo": "3",
+      "hi": "9",
+      "found_lo": "11",
+      "found_hi": "24"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;11)$ thỏa mãn $5(x-1)e^x=y(e^x+xy-2x^2-15)$?\n\nA. $23$.\nB. $21$.\nC. $24$.\nD. $22$.",
+    "dap_an": "D. $22$.",
+    "loi_giai": "Xét $f(x)=5(x-1)e^x-y(e^x+xy-2x^2-15)$ trên $[7;11]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/5$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;11)$ khi và chỉ khi $f(7)\\cdot f(11)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{28,\\ldots,49\\}$, có $22$ giá trị.",
+    "params": {
+      "A": "5",
+      "B": "2",
+      "C": "15",
+      "lo": "7",
+      "hi": "11",
+      "found_lo": "28",
+      "found_hi": "49"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;10)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-4x^2-2)$?\n\nA. $23$.\nB. $24$.\nC. $25$.\nD. $26$.",
+    "dap_an": "B. $24$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-4x^2-2)$ trên $[1;10]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;10)$ khi và chỉ khi $f(1)\\cdot f(10)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{4,\\ldots,27\\}$, có $24$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "lo": "1",
+      "hi": "10",
+      "found_lo": "4",
+      "found_hi": "27"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;7)$ thỏa mãn $1(x-1)e^x=y(e^x+xy-7x^2-0)$?\n\nA. $10$.\nB. $7$.\nC. $9$.\nD. $8$.",
+    "dap_an": "D. $8$.",
+    "loi_giai": "Xét $f(x)=1(x-1)e^x-y(e^x+xy-7x^2-0)$ trên $[4;7]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/1$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;7)$ khi và chỉ khi $f(4)\\cdot f(7)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{9,\\ldots,16\\}$, có $8$ giá trị.",
+    "params": {
+      "A": "1",
+      "B": "7",
+      "C": "0",
+      "lo": "4",
+      "hi": "7",
+      "found_lo": "9",
+      "found_hi": "16"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;16)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-6x^2-22)$?\n\nA. $16$.\nB. $14$.\nC. $15$.\nD. $17$.",
+    "dap_an": "C. $15$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-6x^2-22)$ trên $[6;16]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;16)$ khi và chỉ khi $f(6)\\cdot f(16)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{16,\\ldots,30\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "6",
+      "C": "22",
+      "lo": "6",
+      "hi": "16",
+      "found_lo": "16",
+      "found_hi": "30"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;9)$ thỏa mãn $6(x-1)e^x=y(e^x+xy-6x^2-15)$?\n\nA. $10$.\nB. $11$.\nC. $12$.\nD. $13$.",
+    "dap_an": "B. $11$.",
+    "loi_giai": "Xét $f(x)=6(x-1)e^x-y(e^x+xy-6x^2-15)$ trên $[7;9]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/6$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;9)$ khi và chỉ khi $f(7)\\cdot f(9)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{38,\\ldots,48\\}$, có $11$ giá trị.",
+    "params": {
+      "A": "6",
+      "B": "6",
+      "C": "15",
+      "lo": "7",
+      "hi": "9",
+      "found_lo": "38",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;3)$ thỏa mãn $9(x-1)e^x=y(e^x+xy-11x^2-4)$?\n\nA. $18$.\nB. $19$.\nC. $20$.\nD. $21$.",
+    "dap_an": "B. $19$.",
+    "loi_giai": "Xét $f(x)=9(x-1)e^x-y(e^x+xy-11x^2-4)$ trên $[1;3]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/9$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;3)$ khi và chỉ khi $f(1)\\cdot f(3)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{13,\\ldots,31\\}$, có $19$ giá trị.",
+    "params": {
+      "A": "9",
+      "B": "11",
+      "C": "4",
+      "lo": "1",
+      "hi": "3",
+      "found_lo": "13",
+      "found_hi": "31"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;6)$ thỏa mãn $8(x-1)e^x=y(e^x+xy-2x^2-16)$?\n\nA. $15$.\nB. $14$.\nC. $13$.\nD. $16$.",
+    "dap_an": "B. $14$.",
+    "loi_giai": "Xét $f(x)=8(x-1)e^x-y(e^x+xy-2x^2-16)$ trên $[4;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/8$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;6)$ khi và chỉ khi $f(4)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{18,\\ldots,31\\}$, có $14$ giá trị.",
+    "params": {
+      "A": "8",
+      "B": "2",
+      "C": "16",
+      "lo": "4",
+      "hi": "6",
+      "found_lo": "18",
+      "found_hi": "31"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(3;8)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-x^2-8)$?\n\nA. $16$.\nB. $14$.\nC. $15$.\nD. $17$.",
+    "dap_an": "C. $15$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-x^2-8)$ trên $[3;8]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(3;8)$ khi và chỉ khi $f(3)\\cdot f(8)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{6,\\ldots,20\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "1",
+      "C": "8",
+      "lo": "3",
+      "hi": "8",
+      "found_lo": "6",
+      "found_hi": "20"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(7;17)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-12x^2-9)$?\n\nA. $21$.\nB. $19$.\nC. $22$.\nD. $20$.",
+    "dap_an": "D. $20$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-12x^2-9)$ trên $[7;17]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(7;17)$ khi và chỉ khi $f(7)\\cdot f(17)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{29,\\ldots,48\\}$, có $20$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "12",
+      "C": "9",
+      "lo": "7",
+      "hi": "17",
+      "found_lo": "29",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(5;13)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-10x^2-30)$?\n\nA. $12$.\nB. $10$.\nC. $11$.\nD. $9$.",
+    "dap_an": "B. $10$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-10x^2-30)$ trên $[5;13]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(5;13)$ khi và chỉ khi $f(5)\\cdot f(13)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{39,\\ldots,48\\}$, có $10$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "10",
+      "C": "30",
+      "lo": "5",
+      "hi": "13",
+      "found_lo": "39",
+      "found_hi": "48"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(4;12)$ thỏa mãn $2(x-1)e^x=y(e^x+xy-2x^2-4)$?\n\nA. $14$.\nB. $15$.\nC. $16$.\nD. $17$.",
+    "dap_an": "B. $15$.",
+    "loi_giai": "Xét $f(x)=2(x-1)e^x-y(e^x+xy-2x^2-4)$ trên $[4;12]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/2$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(4;12)$ khi và chỉ khi $f(4)\\cdot f(12)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{8,\\ldots,22\\}$, có $15$ giá trị.",
+    "params": {
+      "A": "2",
+      "B": "2",
+      "C": "4",
+      "lo": "4",
+      "hi": "12",
+      "found_lo": "8",
+      "found_hi": "22"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $11(x-1)e^x=y(e^x+xy-4x^2-5)$?\n\nA. $27$.\nB. $26$.\nC. $25$.\nD. $28$.",
+    "dap_an": "B. $26$.",
+    "loi_giai": "Xét $f(x)=11(x-1)e^x-y(e^x+xy-4x^2-5)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/11$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{7,\\ldots,32\\}$, có $26$ giá trị.",
+    "params": {
+      "A": "11",
+      "B": "4",
+      "C": "5",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "7",
+      "found_hi": "32"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $13(x-1)e^x=y(e^x+xy-10x^2-14)$?\n\nA. $33$.\nB. $30$.\nC. $32$.\nD. $31$.",
+    "dap_an": "D. $31$.",
+    "loi_giai": "Xét $f(x)=13(x-1)e^x-y(e^x+xy-10x^2-14)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/13$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{22,\\ldots,52\\}$, có $31$ giá trị.",
+    "params": {
+      "A": "13",
+      "B": "10",
+      "C": "14",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "22",
+      "found_hi": "52"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(8;16)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-6x^2-21)$?\n\nA. $22$.\nB. $23$.\nC. $24$.\nD. $25$.",
+    "dap_an": "B. $23$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-6x^2-21)$ trên $[8;16]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(8;16)$ khi và chỉ khi $f(8)\\cdot f(16)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{23,\\ldots,45\\}$, có $23$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "6",
+      "C": "21",
+      "lo": "8",
+      "hi": "16",
+      "found_lo": "23",
+      "found_hi": "45"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Count positive integer parameters for an exponential equation",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(6;16)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-6x^2-23)$?\n\nA. $26$.\nB. $27$.\nC. $25$.\nD. $24$.",
+    "dap_an": "C. $25$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-6x^2-23)$ trên $[6;16]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(6;16)$ khi và chỉ khi $f(6)\\cdot f(16)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{21,\\ldots,45\\}$, có $25$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "6",
+      "C": "23",
+      "lo": "6",
+      "hi": "16",
+      "found_lo": "21",
+      "found_hi": "45"
     }
   }
 ]
