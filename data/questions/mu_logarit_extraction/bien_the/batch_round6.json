@@ -1,0 +1,144 @@
+[
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $55$.\nB. $57$.\nC. $58$.\nD. $56$.",
+    "dap_an": "D. $56$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 242 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(243)\\approx781.00$. Giải ra $x\\in\\{-27,\\ldots,28\\}$, có $56$ số nguyên $x$.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "N0": "242",
+      "lo_i": "-27",
+      "hi_i": "28"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 300 số nguyên $y$ thỏa mãn $\\log_{9}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $91$.\nB. $92$.\nC. $94$.\nD. $93$.",
+    "dap_an": "B. $92$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}9}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 300 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(301)\\approx2118.75$. Giải ra $x\\in\\{-45,\\ldots,46\\}$, có $92$ số nguyên $x$.",
+    "params": {
+      "p": "9",
+      "q": "5",
+      "N0": "300",
+      "lo_i": "-45",
+      "hi_i": "46"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 100 số nguyên $y$ thỏa mãn $\\log_{4}(x^2+y)\\ge \\log_{3}(x+y)$?\n\nA. $30$.\nB. $31$.\nC. $32$.\nD. $29$.",
+    "dap_an": "A. $30$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 100 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(101)\\approx237.20$. Giải ra $x\\in\\{-14,\\ldots,15\\}$, có $30$ số nguyên $x$.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "N0": "100",
+      "lo_i": "-14",
+      "hi_i": "15"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 150 số nguyên $y$ thỏa mãn $\\log_{3}(x^2+y)\\ge \\log_{2}(x+y)$?\n\nA. $103$.\nB. $105$.\nC. $106$.\nD. $104$.",
+    "dap_an": "D. $104$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 150 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(151)\\approx2690.82$. Giải ra $x\\in\\{-51,\\ldots,52\\}$, có $104$ số nguyên $x$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "N0": "150",
+      "lo_i": "-51",
+      "hi_i": "52"
+    }
+  },
+  {
+    "id_goc": "p204_q49",
+    "ma_dang": "D79",
+    "ten_dang": "Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa mãn bất phương trình lôgarit không vượt một ngưỡng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 200 số nguyên $y$ thỏa mãn $\\log_{8}(x^2+y)\\ge \\log_{5}(x+y)$?\n\nA. $54$.\nB. $53$.\nC. $56$.\nD. $55$.",
+    "dap_an": "A. $54$.",
+    "loi_giai": "Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình $\\Leftrightarrow x^2-x\\ge t^{\\log_{5}8}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. Có không quá 200 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(201)\\approx744.80$. Giải ra $x\\in\\{-26,\\ldots,27\\}$, có $54$ số nguyên $x$.",
+    "params": {
+      "p": "8",
+      "q": "5",
+      "N0": "200",
+      "lo_i": "-26",
+      "hi_i": "27"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Đếm số nguyên dương một biến sao cho tồn tại biến kia thỏa mãn phương trình chứa hàm mũ e^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-2x^2-3)$?\n\nA. $12$.\nB. $13$.\nC. $14$.\nD. $11$.",
+    "dap_an": "A. $12$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-2x^2-3)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{3,\\ldots,14\\}$, có $12$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "3",
+      "found_hi": "14"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Đếm số nguyên dương một biến sao cho tồn tại biến kia thỏa mãn phương trình chứa hàm mũ e^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;6)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-2x^2-4)$?\n\nA. $11$.\nB. $12$.\nC. $10$.\nD. $13$.",
+    "dap_an": "A. $11$.",
+    "loi_giai": "Xét $f(x)=3(x-1)e^x-y(e^x+xy-2x^2-4)$ trên $[1;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;6)$ khi và chỉ khi $f(1)\\cdot f(6)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{4,\\ldots,14\\}$, có $11$ giá trị.",
+    "params": {
+      "A": "3",
+      "B": "2",
+      "C": "4",
+      "lo": "1",
+      "hi": "6",
+      "found_lo": "4",
+      "found_hi": "14"
+    }
+  },
+  {
+    "id_goc": "p230_q45",
+    "ma_dang": "D89",
+    "ten_dang": "Đếm số nguyên dương một biến sao cho tồn tại biến kia thỏa mãn phương trình chứa hàm mũ e^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-x^2-3)$?\n\nA. $13$.\nB. $11$.\nC. $12$.\nD. $10$.",
+    "dap_an": "B. $11$.",
+    "loi_giai": "Xét $f(x)=4(x-1)e^x-y(e^x+xy-x^2-3)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\\in(1;5)$ khi và chỉ khi $f(1)\\cdot f(5)\\le0$. Kiểm tra trực tiếp cho $y\\in\\mathbb{Z}^+$ ta được $y\\in\\{2,\\ldots,12\\}$, có $11$ giá trị.",
+    "params": {
+      "A": "4",
+      "B": "1",
+      "C": "3",
+      "lo": "1",
+      "hi": "5",
+      "found_lo": "2",
+      "found_hi": "12"
+    }
+  }
+]

@@ -3772,3 +3772,51 @@ A. $64$.
 B. $66$.
 C. $63$.
 D. $65$.",A. $64$.,Xét hai trường hợp $b>1$ và $b<1$ (dấu của $2^b-2$) rồi tìm khoảng của $a$ tương ứng để đúng 3 giá trị nguyên $b$ thỏa mãn ở mỗi trường hợp; gộp lại được tổng cộng $64$ giá trị nguyên dương $a$.
+640,D79,Nhân bản,p204_q49,chuan,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\log_{4}(x^2+y)\ge \log_{3}(x+y)$?
+
+A. $55$.
+B. $57$.
+C. $58$.
+D. $56$.",D. $56$.,"Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\ge1$ do $x,y$ nguyên). Bất phương trình $\Leftrightarrow x^2-x\ge t^{\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\infty)$. Có không quá 242 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(243)\approx781.00$. Giải ra $x\in\{-27,\ldots,28\}$, có $56$ số nguyên $x$."
+641,D79,Nhân bản,p204_q49,chuan,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 300 số nguyên $y$ thỏa mãn $\log_{9}(x^2+y)\ge \log_{5}(x+y)$?
+
+A. $91$.
+B. $92$.
+C. $94$.
+D. $93$.",B. $92$.,"Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\ge1$ do $x,y$ nguyên). Bất phương trình $\Leftrightarrow x^2-x\ge t^{\log_{5}9}-t=f(t)$, với $f$ đồng biến trên $[1;+\infty)$. Có không quá 300 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(301)\approx2118.75$. Giải ra $x\in\{-45,\ldots,46\}$, có $92$ số nguyên $x$."
+642,D79,Nhân bản,p204_q49,chuan,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 100 số nguyên $y$ thỏa mãn $\log_{4}(x^2+y)\ge \log_{3}(x+y)$?
+
+A. $30$.
+B. $31$.
+C. $32$.
+D. $29$.",A. $30$.,"Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\ge1$ do $x,y$ nguyên). Bất phương trình $\Leftrightarrow x^2-x\ge t^{\log_{3}4}-t=f(t)$, với $f$ đồng biến trên $[1;+\infty)$. Có không quá 100 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(101)\approx237.20$. Giải ra $x\in\{-14,\ldots,15\}$, có $30$ số nguyên $x$."
+643,D79,Nhân bản,p204_q49,chuan,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 150 số nguyên $y$ thỏa mãn $\log_{3}(x^2+y)\ge \log_{2}(x+y)$?
+
+A. $103$.
+B. $105$.
+C. $106$.
+D. $104$.",D. $104$.,"Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\ge1$ do $x,y$ nguyên). Bất phương trình $\Leftrightarrow x^2-x\ge t^{\log_{2}3}-t=f(t)$, với $f$ đồng biến trên $[1;+\infty)$. Có không quá 150 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(151)\approx2690.82$. Giải ra $x\in\{-51,\ldots,52\}$, có $104$ số nguyên $x$."
+644,D79,Nhân bản,p204_q49,chuan,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 200 số nguyên $y$ thỏa mãn $\log_{8}(x^2+y)\ge \log_{5}(x+y)$?
+
+A. $54$.
+B. $53$.
+C. $56$.
+D. $55$.",A. $54$.,"Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\ge1$ do $x,y$ nguyên). Bất phương trình $\Leftrightarrow x^2-x\ge t^{\log_{5}8}-t=f(t)$, với $f$ đồng biến trên $[1;+\infty)$. Có không quá 200 số nguyên $y$ (tức $t$) thỏa mãn khi $x^2-x<f(201)\approx744.80$. Giải ra $x\in\{-26,\ldots,27\}$, có $54$ số nguyên $x$."
+645,D89,Nhân bản,p230_q45,chuan,"Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-2x^2-3)$?
+
+A. $12$.
+B. $13$.
+C. $14$.
+D. $11$.",A. $12$.,"Xét $f(x)=4(x-1)e^x-y(e^x+xy-2x^2-3)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\in(1;5)$ khi và chỉ khi $f(1)\cdot f(5)\le0$. Kiểm tra trực tiếp cho $y\in\mathbb{Z}^+$ ta được $y\in\{3,\ldots,14\}$, có $12$ giá trị."
+646,D89,Nhân bản,p230_q45,chuan,"Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\in(1;6)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-2x^2-4)$?
+
+A. $11$.
+B. $12$.
+C. $10$.
+D. $13$.",A. $11$.,"Xét $f(x)=3(x-1)e^x-y(e^x+xy-2x^2-4)$ trên $[1;6]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/3$ (tương tự bản gốc), nên phương trình có nghiệm $x\in(1;6)$ khi và chỉ khi $f(1)\cdot f(6)\le0$. Kiểm tra trực tiếp cho $y\in\mathbb{Z}^+$ ta được $y\in\{4,\ldots,14\}$, có $11$ giá trị."
+647,D89,Nhân bản,p230_q45,chuan,"Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-x^2-3)$?
+
+A. $13$.
+B. $11$.
+C. $12$.
+D. $10$.",B. $11$.,"Xét $f(x)=4(x-1)e^x-y(e^x+xy-x^2-3)$ trên $[1;5]$. Có thể chứng minh $f$ đơn điệu theo từng khoảng ứng với $x=y/4$ (tương tự bản gốc), nên phương trình có nghiệm $x\in(1;5)$ khi và chỉ khi $f(1)\cdot f(5)\le0$. Kiểm tra trực tiếp cho $y\in\mathbb{Z}^+$ ta được $y\in\{2,\ldots,12\}$, có $11$ giá trị."
