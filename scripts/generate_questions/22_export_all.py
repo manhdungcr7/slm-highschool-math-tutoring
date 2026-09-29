@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Gop TOAN BO cau goc (112 cau) + bien the da sinh (pilot D01/D12/D18/D53 +
+Gop TOAN BO cau goc (110 cau) + bien the da sinh (pilot D01/D12/D18/D53 +
 batch A/B/C) thanh 1 file CSV/Excel. Chi xuat neu moi bien the da qua kiem
 tra doc lap tuong ung (khong kiem tra lai o day, cac script sinh da lam).
 """
@@ -9,7 +9,7 @@ import json
 import pandas as pd
 
 df_goc = pd.read_csv(
-    "data/questions/mu_logarit_extraction/Mu_Logarit_112_cau_phan_dang.csv",
+    "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_phan_dang.csv",
     encoding="utf-8-sig",
 )
 

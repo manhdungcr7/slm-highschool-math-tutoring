@@ -37,29 +37,21 @@ Each directory has its own README with further details.
 
 ## Status
 
-**Exponential and Logarithm**: 112 questions extracted, transcribed, and
-classified into 91 problem types (Mã dạng; originally computed as 94, then
-two pairs/triples of problem types — D03/D53 and D26/D36/D70 — were found
-to share the identical classification criterion and merged). From the 123
-originally selected candidates, 2 exact duplicates and 9 real-world
+**Exponential and Logarithm**: 112 questions were transcribed, then D09 and D11 were excluded because they are general symbolic questions without numeric inputs to vary. The retained set has 110 questions across 89 problem types. Classification originally yielded 94 types; D03/D53 and D26/D36/D70 were later merged because they share the same criterion. From the 123 originally selected candidates, 2 exact duplicates and 9 real-world
 application questions (compound interest, loan repayment,
 bacterial/population growth, ad-campaign and forest-area growth models)
 were removed to keep the scope to exponential/logarithmic equations and
-inequalities. Zero-shot model-solving results on these 112 questions:
-ChatGPT 92 correct / 18 incorrect / 2 undetermined, Gemini 111 correct / 1
-incorrect, Qwen3-4B 102 correct / 10 undetermined.
+inequalities. On the retained 110-question set, zero-shot results are: ChatGPT 90 correct / 18 incorrect / 2 undetermined, Gemini 109 correct / 1 incorrect, and Qwen3-4B 100 correct / 10 undetermined.
 
-Evaluation-variant generation now covers 88 of the 91 problem types
-(607 independently verified variants; 719 combined source and
+Evaluation-variant generation now covers 88 of the 89 retained problem types
+(607 independently verified variants; 717 retained source and
 variant rows). Every batch also passes a repository-wide scan for duplicate
-answer choices. The three uncovered types are D09 and D11, whose answers are
-general symbolic relations with no numerical values to vary, and D84,
-which was skipped after a low-precision numeric check appeared to
-contradict its source answer — a high-precision re-check (60 decimal
-digits, since the two boundary-case roots the source's own solution
-depends on turn out to sit in an interval only ~1e-15 wide) confirmed the
-source answer (14) is correct after all, so D84 stays in the source
-question set; it just hasn't had a variant generator written for it yet.
+answer choices. D09 and D11 are excluded because they are general symbolic
+relations with no numerical values to vary. D84 is the only retained type
+without generated variants. A 60-digit-precision re-check confirmed its
+source answer (14): the two boundary-case roots lie in an interval only
+about 1e-15 wide, which can fool ordinary-precision solvers. D84 remains in
+the source set but has no variant generator yet.
 Round 8 extended coverage to D08, D23, D47, D52, D57, and D78. See
 [`scripts/generate_questions/README.md`](scripts/generate_questions/README.md)
 for the generation and verification methods.

@@ -5,9 +5,9 @@ Each generator computes the answer and then verifies it independently with a
 different method. A repository-wide scan also checks that every generated
 question has exactly four distinct answer choices labeled A-D.
 
-**Current coverage: 88 of 91 problem types** (607 generated
-variants; 112 source questions + 607 variants = 719 rows in the
-combined CSV/XLSX). The remaining three types are explained below.
+**Current coverage: 88 of 89 retained problem types** (607 generated
+variants; 110 retained source questions + 607 variants = 717 rows in the
+combined CSV/XLSX). The remaining uncovered retained type is explained below.
 
 An initial pass treated many types as unsafe to vary. Later rounds recovered
 types by deriving only the final answer independently, designing parameters
@@ -40,13 +40,11 @@ python scripts/generate_questions/29_generate_round8.py
 python scripts/generate_questions/22_export_all.py
 ```
 
-### Not yet covered (3 problem types)
+D09 and D11 are excluded from the retained source set because they are general symbolic questions without numbers to vary.
 
-D09, D11, D84.
+### Not yet covered (1 retained problem type)
 
-- **D09 and D11:** their answers are general symbolic relationships, with no
-  concrete numerical values to change into variants.
-- **D84:** initially set aside after a low-precision numeric check
+D84: initially set aside after a low-precision numeric check
   (naive `nsolve`/grid search) appeared to contradict the source answer.
   A high-precision re-check (60 decimal digits) confirmed the source
   answer (14) is correct: the two boundary-case roots ("y=-1, y=-2 thỏa

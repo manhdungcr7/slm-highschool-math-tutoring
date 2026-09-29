@@ -20,7 +20,7 @@ GOC_IDS = {
 }
 
 df_goc = pd.read_csv(
-    "data/questions/mu_logarit_extraction/Mu_Logarit_112_cau_phan_dang.csv",
+    "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_phan_dang.csv",
     encoding="utf-8-sig",
 )
 

@@ -8,11 +8,13 @@ same source review document used for the Complex Numbers topic, produced with
 The source PDF and the rendered page images used for transcription are not
 included in this repository.
 
+`Mu_Logarit_112_*` files are preserved as pre-exclusion snapshots for provenance. The `Mu_Logarit_110_*` files below are the retained evaluation set; D09 and D11 are not included. The original 112-question model-result files are archival as well.
+
 - `candidates_all.jsonl`, `review.csv`, `selected_no_visual.jsonl`,
   `summary.json`: output of the extraction script, recording which candidate
   questions were kept, which needed a figure/graph and were excluded, and
   which turned out to belong to a different topic.
-- `Mu_Logarit_112_cau_goc.jsonl` / `.csv` / `.xlsx`: the 112 selected
+- `Mu_Logarit_110_cau_goc.jsonl` / `.csv` / `.xlsx`: the 110 retained
   questions, manually transcribed from the rendered page images with their
   original question, four answer choices, correct answer, and solution.
   Eight questions required a correction relative to the source document (a
@@ -26,18 +28,18 @@ included in this repository.
   (compound interest, loan repayment, bacterial/population growth,
   ad-campaign and forest-area growth models — kept out to focus the scope on
   exponential/logarithmic equations and inequalities) were removed.
-- `Mu_Logarit_112_cau_phan_dang.jsonl` / `.csv` / `.xlsx`: problem-type
-  classification of the same 112 questions (columns: `Ma dang`, `Ten dang`,
+- `Mu_Logarit_110_cau_phan_dang.jsonl` / `.csv` / `.xlsx`: problem-type
+  classification of the same 110 retained questions (columns: `Ma dang`, `Ten dang`,
   plus the question text and correct answer for reference). Grouping
   criterion: two questions share a Mã dạng only when they share the same
   given-data form, the same thing to compute/decide, and the same solution
-  method. 91 unique problem types (11 of them group 2-4 questions, the rest
+  method. 89 unique retained problem types (11 of them group 2-4 questions, the rest
   are singletons). Two classification errors found while writing variant
   generators — D03/D53 and, separately, D26/D36/D70 — were each merging two
   or three problem types that had turned out to share the identical
-  criterion; fixing them dropped the count from the original 94 to 91.
-- `Mu_Logarit_112_cau_goc_ket_qua_mo_hinh.csv` / `.xlsx`: ChatGPT (`gpt-4o`)
-  and Gemini (`gemini-2.5-flash`) zero-shot answers on the 112 questions,
+  criterion; fixing them dropped the count from the original 94 to 91. Excluding D09 and D11 then leaves 89 retained types.
+- `Mu_Logarit_110_cau_goc_ket_qua_mo_hinh.csv` / `.xlsx`: ChatGPT (`gpt-4o`)
+  and Gemini (`gemini-2.5-flash`) zero-shot answers on the 110 retained questions,
   produced with
   [`../scripts/pdf_to_markdown/21_solve_mu_logarit_with_models.py`](../scripts/pdf_to_markdown/21_solve_mu_logarit_with_models.py)
   and graded with
@@ -52,24 +54,18 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: 88 of 91 problem types**, 607 generated variants.
-  The three uncovered types are D09 and D11 (symbolic relations without
-  numerical inputs to vary) and D84 (skipped after a low-precision numeric
-  check seemed to contradict the source answer; a 60-digit-precision
-  re-check later confirmed the source answer, 14, is actually correct —
-  the two roots it depends on sit in an interval only ~1e-15 wide, thin
-  enough to fool an ordinary numeric solve — so D84 stays a valid source
-  question, it just has no variant generator yet). Round 8 added D08,
+  **Coverage: 88 of 89 retained problem types**, 607 generated variants.
+  D09 and D11 are excluded from the retained set because they are general symbolic questions without numerical inputs to vary. The only retained type without generated variants is D84; a 60-digit-precision re-check confirmed its source answer (14) is correct, with two roots lying in an interval only about 1e-15 wide. Round 8 added D08,
   D23, D47, D52, D57, and D78 using independent verifiers; see the generator
   README for each method.
-- `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 112 source questions plus
-  607 generated variants combined into one file (719 rows), produced
+- `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 110 retained source questions plus
+  607 generated variants combined into one file (717 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`
 
-- `ketqua_Qwen3-4B_think_mulogarit112.csv` / `.xlsx`: Qwen3-4B zero-shot
-  answers on the same 112 questions, run on Kaggle (2×T4 GPU, vLLM) with the
+- `ketqua_Qwen3-4B_think_mulogarit110.csv`: Qwen3-4B zero-shot
+  answers on the same 110 retained questions, run on Kaggle (2×T4 GPU, vLLM) with the
   same prompt and generation settings used for the Complex Numbers topic
   (`ENABLE_THINKING=True`, temperature 0.6, top_p 0.95, top_k 20, seed 42,
   max_new_tokens 9216).
