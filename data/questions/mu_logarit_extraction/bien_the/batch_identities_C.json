@@ -1,0 +1,170 @@
+[
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{2}$ bằng\n\nA. $\\log_{2} a+1$.\nB. $\\log_{2} a-1$.\nC. $1-\\log_{2} a$.\nD. $\\log_{2} a-2$.",
+    "dap_an": "B. $\\log_{2} a-1$.",
+    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{2}=\\log_{2} a-\\log_{2}2=\\log_{2} a-1$.",
+    "params": {
+      "c": "2",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{3}$ bằng\n\nA. $\\log_{3} a-3$.\nB. $\\log_{3} a-1$.\nC. $1-\\log_{3} a$.\nD. $\\log_{3} a+1$.",
+    "dap_an": "B. $\\log_{3} a-1$.",
+    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{3}=\\log_{3} a-\\log_{3}3=\\log_{3} a-1$.",
+    "params": {
+      "c": "3",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{5}\\dfrac{a}{5}$ bằng\n\nA. $\\log_{5} a-5$.\nB. $\\log_{5} a-1$.\nC. $\\log_{5} a+1$.\nD. $1-\\log_{5} a$.",
+    "dap_an": "B. $\\log_{5} a-1$.",
+    "loi_giai": "Ta có $\\log_{5}\\dfrac{a}{5}=\\log_{5} a-\\log_{5}5=\\log_{5} a-1$.",
+    "params": {
+      "c": "5",
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{4}$ bằng\n\nA. $\\log_{2} a-4$.\nB. $\\log_{2} a+2$.\nC. $2-\\log_{2} a$.\nD. $\\log_{2} a-2$.",
+    "dap_an": "D. $\\log_{2} a-2$.",
+    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{4}=\\log_{2} a-\\log_{2}4=\\log_{2} a-2$.",
+    "params": {
+      "c": "2",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{9}$ bằng\n\nA. $\\log_{3} a-9$.\nB. $2-\\log_{3} a$.\nC. $\\log_{3} a-2$.\nD. $\\log_{3} a+2$.",
+    "dap_an": "C. $\\log_{3} a-2$.",
+    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{9}=\\log_{3} a-\\log_{3}9=\\log_{3} a-2$.",
+    "params": {
+      "c": "3",
+      "k": "9"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{8}$ bằng\n\nA. $\\log_{2} a+3$.\nB. $\\log_{2} a-3$.\nC. $\\log_{2} a-8$.\nD. $3-\\log_{2} a$.",
+    "dap_an": "B. $\\log_{2} a-3$.",
+    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{8}=\\log_{2} a-\\log_{2}8=\\log_{2} a-3$.",
+    "params": {
+      "c": "2",
+      "k": "8"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=6$.\nB. $P=1$.\nC. $P=7$.\nD. $P=9$.",
+    "dap_an": "D. $P=9$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{3}=\\dfrac{3}{1/3}\\log_a a=9$.",
+    "params": {
+      "m": "3",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{4}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=6$.\nB. $P=3$.\nC. $P=8$.\nD. $P=2$.",
+    "dap_an": "C. $P=8$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{4}=\\dfrac{4}{1/2}\\log_a a=8$.",
+    "params": {
+      "m": "2",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=8$.\nB. $P=-2$.\nC. $P=6$.\nD. $P=\\dfrac{1}{2}$.",
+    "dap_an": "A. $P=8$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{2}=\\dfrac{2}{1/4}\\log_a a=8$.",
+    "params": {
+      "m": "4",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{6}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=18$.\nB. $P=3$.\nC. $P=9$.\nD. $P=2$.",
+    "dap_an": "A. $P=18$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{6}=\\dfrac{6}{1/3}\\log_a a=18$.",
+    "params": {
+      "m": "3",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{5}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=7$.\nB. $P=3$.\nC. $P=\\dfrac{5}{2}$.\nD. $P=10$.",
+    "dap_an": "D. $P=10$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{5}=\\dfrac{5}{1/2}\\log_a a=10$.",
+    "params": {
+      "m": "2",
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-3$.\nB. $P=10$.\nC. $P=\\dfrac{2}{5}$.\nD. $P=7$.",
+    "dap_an": "B. $P=10$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{2}=\\dfrac{2}{1/5}\\log_a a=10$.",
+    "params": {
+      "m": "5",
+      "n": "2"
+    }
+  }
+]

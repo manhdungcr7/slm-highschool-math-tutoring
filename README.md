@@ -38,9 +38,10 @@ Each directory has its own README with further details.
 ## Status
 
 **Exponential and Logarithm**: 112 questions extracted, transcribed, and
-classified into 93 problem types (Mã dạng; originally computed as 94, then
-D03 and D53 were found to be the same problem type and merged). From the
-123 originally selected candidates, 2 exact duplicates and 9 real-world
+classified into 91 problem types (Mã dạng; originally computed as 94, then
+two pairs/triples of problem types — D03/D53 and D26/D36/D70 — were found
+to share the identical classification criterion and merged). From the 123
+originally selected candidates, 2 exact duplicates and 9 real-world
 application questions (compound interest, loan repayment,
 bacterial/population growth, ad-campaign and forest-area growth models)
 were removed to keep the scope to exponential/logarithmic equations and
@@ -48,7 +49,12 @@ inequalities. Zero-shot model-solving results on these 112 questions:
 ChatGPT 92 correct / 18 incorrect / 2 undetermined, Gemini 111 correct / 1
 incorrect, Qwen3-4B 102 correct / 10 undetermined.
 
-Evaluation-variant generation has started as a pilot covering 4 of the 93
-problem types (D01, D12, D18, D53 — 16 source questions), producing 96
-SymPy-generated variants, each checked by an independent verifier. The
-remaining 89 problem types still need their own generator.
+Evaluation-variant generation now covers 56 of the 91 problem types (404
+SymPy-generated variants), each checked by an independent verifier that
+re-derives the answer through a different method than the one used to
+build the question, plus a repo-wide duplicate-answer-choice scan. The
+remaining 35 problem types — mostly ones needing case-based bảng biến
+thiên, transcendental critical points, or multi-variable inequality
+arguments that are harder to parametrize safely — are listed in
+[`scripts/generate_questions/README.md`](scripts/generate_questions/README.md)
+as not yet covered, rather than silently omitted.
