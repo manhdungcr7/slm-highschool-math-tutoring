@@ -10,6 +10,9 @@ Bo qua D39 (dang co 3 co so khac nhau voi rang buoc dac biet 9=3^2,6=2*3,
 chu ro trong bao cao thay vi ep sinh co the sai.
 """
 import json
+import math
+import random
+import re
 import sys
 from importlib import import_module
 
@@ -330,13 +333,73 @@ def verify_D87(params):
 
 # =============================================================================
 def try_add(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, args_list):
+    """Search the same integer parameter intervals represented by the seed set."""
     fails = []
-    for args in args_list:
-        de_bai, dap_an, loi_giai, params = gen_fn(*args)
-        if verify_fn(params):
-            add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params)
+    existing = [r for r in ROWS if r["ma_dang"] == ma_dang]
+    seen_params = {tuple(sorted(r["params"].items())) for r in existing}
+    seen_questions = {r["de_bai"] for r in existing}
+    target = 90
+    if len(existing) >= target or not args_list:
+        return fails
+    width = max(len(args) for args in args_list)
+    domains = []
+    for index in range(width):
+        values = [args[index] for args in args_list if index < len(args)]
+        if all(isinstance(v, int) for v in values):
+            margin = 8 if ma_dang in {"D07", "D21", "D28", "D37", "D44", "D64", "D77", "D86"} else 3
+            lo, hi = min(values) - margin, max(values) + margin
+            if min(values) > 1:
+                lo = max(2, lo)
+            elif min(values) >= 0:
+                lo = max(0, lo)
+            domains.append((lo, hi))
         else:
+            domains.append(tuple(sorted(set(values), key=str)))
+    if ma_dang in {"D02", "D42", "D80"}:
+        domains[0] = (2, 91)
+    elif ma_dang == "D43":
+        domains[0] = (-10, 10)
+    rng = random.Random(sum(ord(ch) for ch in ma_dang) + len(ROWS))
+    cardinalities = [hi - lo + 1 if len(d) == 2 and all(isinstance(v, int) for v in d) else len(d)
+                     for d in domains for lo, hi in ([d] if len(d) == 2 and all(isinstance(v, int) for v in d) else [(0, 0)])]
+    combination_count = math.prod(cardinalities)
+    max_tries = min(1000, max(50, combination_count * 5))
+    tries = 0
+    seen_args = set()
+    while len(existing) < target and tries < max_tries:
+        tries += 1
+        sampled = []
+        for domain in domains:
+            if len(domain) == 2 and all(isinstance(v, int) for v in domain):
+                sampled.append(rng.randint(domain[0], domain[1]))
+            else:
+                sampled.append(rng.choice(domain))
+        args = tuple(sampled)
+        if args in seen_args:
+            continue
+        seen_args.add(args)
+        try:
+            de_bai, dap_an, loi_giai, params = gen_fn(*args)
+        except (AssertionError, ValueError, ZeroDivisionError):
+            continue
+        choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", de_bai)
+        normalized = [re.sub(r"[\s$.,]", "", value) for _, value in choices]
+        if len(choices) != 4 or {letter for letter, _ in choices} != set("ABCD") or len(set(normalized)) != 4:
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen_params or de_bai in seen_questions:
+            continue
+        try:
+            valid = verify_fn(params)
+        except Exception:
+            valid = False
+        if not valid:
             fails.append((ma_dang, params))
+            continue
+        add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params)
+        seen_params.add(key); seen_questions.add(de_bai)
+        existing.append(ROWS[-1])
+    print(f"{ma_dang}: {len(existing)}/90; tried={tries}")
     return fails
 
 
