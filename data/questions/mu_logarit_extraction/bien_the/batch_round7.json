@@ -5,8 +5,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 4\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=7$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=8$.\nD. $P_{\\min}=9$.",
-    "dap_an": "C. $P_{\\min}=8$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 4\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=9$.\nB. $P_{\\min}=8$.\nC. $P_{\\min}=16$.\nD. $P_{\\min}=7$.",
+    "dap_an": "B. $P_{\\min}=8$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{4}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{4}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=8$ là giá trị nhỏ nhất. Vậy $P_{\\min}=8$.",
     "params": {
       "k1": "1",
@@ -20,8 +20,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 8\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=32$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=17$.\nD. $P_{\\min}=15$.",
-    "dap_an": "B. $P_{\\min}=16$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 8\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=32$.\nB. $P_{\\min}=17$.\nC. $P_{\\min}=16$.\nD. $P_{\\min}=15$.",
+    "dap_an": "C. $P_{\\min}=16$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{8}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{8}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=16$ là giá trị nhỏ nhất. Vậy $P_{\\min}=16$.",
     "params": {
       "k1": "2",
@@ -35,8 +35,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 12\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=23$.\nB. $P_{\\min}=25$.\nC. $P_{\\min}=24$.\nD. $P_{\\min}=48$.",
-    "dap_an": "C. $P_{\\min}=24$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 3\\log^2_{\\frac{a}{b}}a + 12\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=48$.\nB. $P_{\\min}=24$.\nC. $P_{\\min}=25$.\nD. $P_{\\min}=23$.",
+    "dap_an": "B. $P_{\\min}=24$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=3(1+t)^2+\\dfrac{12}{t}=f(t)$. Xét $f'(t)=6(1+t)-\\dfrac{12}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=24$ là giá trị nhỏ nhất. Vậy $P_{\\min}=24$.",
     "params": {
       "k1": "3",
@@ -50,7 +50,7 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 3\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=30$.\nB. $P_{\\min}=16$.\nC. $P_{\\min}=15$.\nD. $P_{\\min}=14$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 4\\log^2_{\\frac{a}{b}}a + 3\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=16$.\nB. $P_{\\min}=14$.\nC. $P_{\\min}=15$.\nD. $P_{\\min}=30$.",
     "dap_an": "C. $P_{\\min}=15$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=4(1+t)^2+\\dfrac{3}{t}=f(t)$. Xét $f'(t)=8(1+t)-\\dfrac{3}{t^2}$, $f'(t)=0$ tại $t=\\dfrac{1}{2}$ (nghiệm dương duy nhất). $f\\left(\\dfrac{1}{2}\\right)=15$ là giá trị nhỏ nhất. Vậy $P_{\\min}=15$.",
     "params": {
@@ -65,8 +65,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 20\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=39$.\nB. $P_{\\min}=40$.\nC. $P_{\\min}=80$.\nD. $P_{\\min}=41$.",
-    "dap_an": "B. $P_{\\min}=40$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 5\\log^2_{\\frac{a}{b}}a + 20\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=40$.\nB. $P_{\\min}=80$.\nC. $P_{\\min}=41$.\nD. $P_{\\min}=39$.",
+    "dap_an": "A. $P_{\\min}=40$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=5(1+t)^2+\\dfrac{20}{t}=f(t)$. Xét $f'(t)=10(1+t)-\\dfrac{20}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=40$ là giá trị nhỏ nhất. Vậy $P_{\\min}=40$.",
     "params": {
       "k1": "5",
@@ -80,8 +80,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 6\\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=48$.\nB. $P_{\\min}=49$.\nC. $P_{\\min}=47$.\nD. $P_{\\min}=96$.",
-    "dap_an": "A. $P_{\\min}=48$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 6\\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=96$.\nB. $P_{\\min}=48$.\nC. $P_{\\min}=49$.\nD. $P_{\\min}=47$.",
+    "dap_an": "B. $P_{\\min}=48$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=6(1+t)^2+\\dfrac{24}{t}=f(t)$. Xét $f'(t)=12(1+t)-\\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=48$ là giá trị nhỏ nhất. Vậy $P_{\\min}=48$.",
     "params": {
       "k1": "6",
@@ -95,8 +95,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 7\\log^2_{\\frac{a}{b}}a + 28\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=55$.\nB. $P_{\\min}=57$.\nC. $P_{\\min}=56$.\nD. $P_{\\min}=112$.",
-    "dap_an": "C. $P_{\\min}=56$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 7\\log^2_{\\frac{a}{b}}a + 28\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=55$.\nB. $P_{\\min}=56$.\nC. $P_{\\min}=57$.\nD. $P_{\\min}=112$.",
+    "dap_an": "B. $P_{\\min}=56$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=7(1+t)^2+\\dfrac{28}{t}=f(t)$. Xét $f'(t)=14(1+t)-\\dfrac{28}{t^2}$, $f'(t)=0$ tại $t=1$ (nghiệm dương duy nhất). $f\\left(1\\right)=56$ là giá trị nhỏ nhất. Vậy $P_{\\min}=56$.",
     "params": {
       "k1": "7",
@@ -110,7 +110,7 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=42$.\nB. $P_{\\min}=21$.\nC. $P_{\\min}=22$.\nD. $P_{\\min}=20$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 24\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=22$.\nB. $P_{\\min}=21$.\nC. $P_{\\min}=42$.\nD. $P_{\\min}=20$.",
     "dap_an": "B. $P_{\\min}=21$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=(1+t)^2+\\dfrac{24}{t}=f(t)$. Xét $f'(t)=2(1+t)-\\dfrac{24}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=21$ là giá trị nhỏ nhất. Vậy $P_{\\min}=21$.",
     "params": {
@@ -125,8 +125,8 @@
     "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 48\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=84$.\nB. $P_{\\min}=42$.\nC. $P_{\\min}=43$.\nD. $P_{\\min}=41$.",
-    "dap_an": "B. $P_{\\min}=42$.",
+    "de_bai": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = 2\\log^2_{\\frac{a}{b}}a + 48\\log_b\\left(\\dfrac{a}{b}\\right)$.\n\nA. $P_{\\min}=42$.\nB. $P_{\\min}=43$.\nC. $P_{\\min}=84$.\nD. $P_{\\min}=41$.",
+    "dap_an": "A. $P_{\\min}=42$.",
     "loi_giai": "Đặt $t=\\log_{a/b}b>0$. Ta có $\\log_{a/b}a=1+t$ và $\\log_b(a/b)=\\dfrac1t$, nên $P=2(1+t)^2+\\dfrac{48}{t}=f(t)$. Xét $f'(t)=4(1+t)-\\dfrac{48}{t^2}$, $f'(t)=0$ tại $t=2$ (nghiệm dương duy nhất). $f\\left(2\\right)=42$ là giá trị nhỏ nhất. Vậy $P_{\\min}=42$.",
     "params": {
       "k1": "2",
@@ -147,6 +147,86 @@
       "k1": "3",
       "k2": "72",
       "t0": "2"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.\nB. $P_{\\min}=-2 + \\dfrac{4 \\sqrt{11}}{3}$.\nC. $P_{\\min}=1 - \\dfrac{2 \\sqrt{11}}{3}$.\nD. $P_{\\min}=\\dfrac{2 \\sqrt{11}}{3}$.",
+    "dap_an": "A. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(1-xy)\\right)=f(x+2y)$, suy ra $3(1-xy)=x+2y\\Rightarrow y=\\dfrac{3-x}{3x+2}$ (với $0<x<3$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{2}{3} + \\dfrac{\\sqrt{11}}{3}$, $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "1",
+      "m": "1",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{1-xy}{x+y}=2xy+x+y-3$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=\\sqrt{5}$.\nB. $P_{\\min}=1 - \\sqrt{5}$.\nC. $P_{\\min}=-1 + \\sqrt{5}$.\nD. $P_{\\min}=-2 + 2 \\sqrt{5}$.",
+    "dap_an": "C. $P_{\\min}=-1 + \\sqrt{5}$.",
+    "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(1-xy)\\right)=f(x+y)$, suy ra $2(1-xy)=x+y\\Rightarrow y=\\dfrac{2-x}{2x+1}$ (với $0<x<2$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{2} + \\dfrac{\\sqrt{5}}{2}$, $P_{\\min}=-1 + \\sqrt{5}$.",
+    "params": {
+      "b": "2",
+      "C": "1",
+      "m": "1",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{2-xy}{x+3y}=3xy+x+3y-7$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.\nB. $P_{\\min}=- \\dfrac{8}{3} + \\dfrac{4 \\sqrt{21}}{3}$.\nC. $P_{\\min}=\\dfrac{4}{3} - \\dfrac{2 \\sqrt{21}}{3}$.\nD. $P_{\\min}=- \\dfrac{1}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
+    "dap_an": "A. $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(2-xy)\\right)=f(x+3y)$, suy ra $3(2-xy)=x+3y\\Rightarrow y=\\dfrac{6-x}{3x+3}$ (với $0<x<6$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{\\sqrt{21}}{3}$, $P_{\\min}=- \\dfrac{4}{3} + \\dfrac{2 \\sqrt{21}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "2",
+      "m": "1",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{2}\\dfrac{2-xy}{x+2y}=2xy+x+2y-5$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=-3 + 2 \\sqrt{10}$.\nB. $P_{\\min}=- \\dfrac{1}{2} + \\sqrt{10}$.\nC. $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.\nD. $P_{\\min}=\\dfrac{3}{2} - \\sqrt{10}$.",
+    "dap_an": "C. $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.",
+    "loi_giai": "Xét $f(t)=\\log_{2}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(2(2-xy)\\right)=f(x+2y)$, suy ra $2(2-xy)=x+2y\\Rightarrow y=\\dfrac{4-x}{2x+2}$ (với $0<x<4$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=-1 + \\dfrac{\\sqrt{10}}{2}$, $P_{\\min}=- \\dfrac{3}{2} + \\sqrt{10}$.",
+    "params": {
+      "b": "2",
+      "C": "2",
+      "m": "1",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p148_q47",
+    "ma_dang": "D65",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $x,y$ thỏa mãn $\\log_{3}\\dfrac{1-xy}{2x+y}=3xy+2x+y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$.\n\nA. $P_{\\min}=1 - \\dfrac{2 \\sqrt{11}}{3}$.\nB. $P_{\\min}=-2 + \\dfrac{4 \\sqrt{11}}{3}$.\nC. $P_{\\min}=\\dfrac{2 \\sqrt{11}}{3}$.\nD. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "dap_an": "D. $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "loi_giai": "Xét $f(t)=\\log_{3}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng $f\\left(3(1-xy)\\right)=f(2x+y)$, suy ra $3(1-xy)=2x+y\\Rightarrow y=\\dfrac{3-2x}{3x+1}$ (với $0<x<\\dfrac{3}{2}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \\dfrac{1}{3} + \\dfrac{\\sqrt{11}}{3}$, $P_{\\min}=-1 + \\dfrac{2 \\sqrt{11}}{3}$.",
+    "params": {
+      "b": "3",
+      "C": "1",
+      "m": "2",
+      "n": "1"
     }
   }
 ]

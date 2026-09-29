@@ -76,6 +76,70 @@ def verify_D17(params):
     return abs(numeric_min - Pmin_claimed) < 0.05 and Pmin_claimed <= numeric_min + 1e-6
 
 
+# ===================== D65: log_b((C-xy)/(mx+ny))=bxy+mx+ny-K, K=1+bC ======
+def gen_D65(b, C, m, n):
+    b, C, m, n = sp.Integer(b), sp.Integer(C), sp.Integer(m), sp.Integer(n)
+    K = 1 + b * C
+    xv = sp.Symbol("xv", positive=True)
+    yv_expr = (b * C - m * xv) / (b * xv + n)
+    P = xv + yv_expr
+    Pd = sp.diff(P, xv)
+    crit = [c for c in sp.solve(sp.Eq(sp.numer(sp.together(Pd)), 0), xv) if c.is_real and c > 0]
+    assert len(crit) == 1
+    x0 = crit[0]
+    y0 = yv_expr.subs(xv, x0)
+    assert y0 > 0
+    Pmin = sp.simplify(sp.radsimp(P.subs(xv, x0)))
+    assert Pmin.is_real and not Pmin.is_rational  # dang can dep nhu ban goc
+    correct = latex(Pmin)
+    wrong1 = latex(-Pmin)
+    wrong2 = latex(Pmin + 1)
+    wrong3 = latex(2 * Pmin)
+    vals_ok = len({correct, wrong1, wrong2, wrong3}) == 4
+    assert vals_ok
+    my_str = f"{m}x" if m != 1 else "x"
+    ny_str = f"{n}y" if n != 1 else "y"
+    de_bai = (
+        f"Xét các số thực dương $x,y$ thỏa mãn $\\log_{{{b}}}\\dfrac{{{C}-xy}}{{{my_str}+{ny_str}}}="
+        f"{b}xy+{my_str}+{ny_str}-{K}$. Tìm giá trị nhỏ nhất $P_{{\\min}}$ của $P=x+y$.\n\n"
+    )
+    lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0, prefix="P_{\\min}=")
+    de_bai += "\n".join(lines)
+    loi_giai = (
+        f"Xét $f(t)=\\log_{{{b}}}t+t$ đồng biến trên $(0;+\\infty)$. Biến đổi giả thiết về dạng "
+        f"$f\\left({b}({C}-xy)\\right)=f({my_str}+{ny_str})$, suy ra ${b}({C}-xy)={my_str}+{ny_str}"
+        f"\\Rightarrow y=\\dfrac{{{b*C}-{my_str}}}{{{b}x+{n}}}$ (với $0<x<{latex(sp.Rational(b*C,m)) if m!=0 else C}$ để $y>0$). "
+        f"Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x={latex(x0)}$, "
+        f"$P_{{\\min}}={correct}$."
+    )
+    return de_bai, dap_an, loi_giai, dict(b=str(b), C=str(C), m=str(m), n=str(n))
+
+
+def verify_D65(params):
+    b, C, m, n = (sp.sympify(params[k]) for k in ("b", "C", "m", "n"))
+    xv = sp.Symbol("xv", positive=True)
+    yv_expr = (b * C - m * xv) / (b * xv + n)
+    P = xv + yv_expr
+    # doc lap: lay mau nhieu diem tren mien hop le, tim min so hoc, so sanh voi gia tri claim
+    x_hi = sp.Rational(b * C, m) if m != 0 else 100
+    samples = []
+    N = 2000
+    for i in range(1, N):
+        xv_s = sp.Rational(i, N) * x_hi
+        yv_s = yv_expr.subs(xv, xv_s)
+        if yv_s > 0:
+            samples.append(float(xv_s + yv_s))
+    if not samples:
+        return False
+    numeric_min = min(samples)
+    Pd = sp.diff(P, xv)
+    crit = [c for c in sp.solve(sp.Eq(sp.numer(sp.together(Pd)), 0), xv) if c.is_real and c > 0]
+    if len(crit) != 1:
+        return False
+    Pmin_claimed = float(P.subs(xv, crit[0]))
+    return abs(numeric_min - Pmin_claimed) < 0.02
+
+
 def main():
     fails = []
     candidates = [(1, 1, 1), (2, 1, 1), (3, 1, 1), (4, 1, 2), (5, 1, 1), (6, 1, 1), (7, 1, 1),
@@ -90,6 +154,17 @@ def main():
                      "p021_q21", de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D17", params))
+
+    for b, C, m, n in [(3, 1, 1, 2), (2, 1, 1, 1), (3, 2, 1, 3), (2, 2, 1, 2), (3, 1, 2, 1)]:
+        try:
+            de_bai, dap_an, loi_giai, params = gen_D65(b, C, m, n)
+        except AssertionError:
+            continue
+        if verify_D65(params):
+            add_row("D65", "Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm "
+                            "đặc trưng", "p148_q47", de_bai, dap_an, loi_giai, params)
+        else:
+            fails.append(("D65", params))
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round7.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
