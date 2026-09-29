@@ -1,0 +1,2272 @@
+[
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=2^x$ là\n\nA. $y'=2^x$.\nB. $y'=x\\cdot2^{x-1}$.\nC. $y'=2^x\\ln 2$.\nD. $y'=\\dfrac{2^x}{\\ln 2}$.",
+    "dap_an": "C. $y'=2^x\\ln 2$.",
+    "loi_giai": "Ta có $y'=(2^x)'=2^x\\ln 2$.",
+    "params": {
+      "a": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=5^x$ là\n\nA. $y'=\\dfrac{5^x}{\\ln 5}$.\nB. $y'=5^x$.\nC. $y'=x\\cdot5^{x-1}$.\nD. $y'=5^x\\ln 5$.",
+    "dap_an": "D. $y'=5^x\\ln 5$.",
+    "loi_giai": "Ta có $y'=(5^x)'=5^x\\ln 5$.",
+    "params": {
+      "a": "5"
+    }
+  },
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=6^x$ là\n\nA. $y'=\\dfrac{6^x}{\\ln 6}$.\nB. $y'=6^x$.\nC. $y'=6^x\\ln 6$.\nD. $y'=x\\cdot6^{x-1}$.",
+    "dap_an": "C. $y'=6^x\\ln 6$.",
+    "loi_giai": "Ta có $y'=(6^x)'=6^x\\ln 6$.",
+    "params": {
+      "a": "6"
+    }
+  },
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=7^x$ là\n\nA. $y'=x\\cdot7^{x-1}$.\nB. $y'=\\dfrac{7^x}{\\ln 7}$.\nC. $y'=7^x$.\nD. $y'=7^x\\ln 7$.",
+    "dap_an": "D. $y'=7^x\\ln 7$.",
+    "loi_giai": "Ta có $y'=(7^x)'=7^x\\ln 7$.",
+    "params": {
+      "a": "7"
+    }
+  },
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=8^x$ là\n\nA. $y'=8^x$.\nB. $y'=\\dfrac{8^x}{\\ln 8}$.\nC. $y'=x\\cdot8^{x-1}$.\nD. $y'=8^x\\ln 8$.",
+    "dap_an": "D. $y'=8^x\\ln 8$.",
+    "loi_giai": "Ta có $y'=(8^x)'=8^x\\ln 8$.",
+    "params": {
+      "a": "8"
+    }
+  },
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=9^x$ là\n\nA. $y'=\\dfrac{9^x}{\\ln 9}$.\nB. $y'=9^x$.\nC. $y'=x\\cdot9^{x-1}$.\nD. $y'=9^x\\ln 9$.",
+    "dap_an": "D. $y'=9^x\\ln 9$.",
+    "loi_giai": "Ta có $y'=(9^x)'=9^x\\ln 9$.",
+    "params": {
+      "a": "9"
+    }
+  },
+  {
+    "id_goc": "p006_q15",
+    "ma_dang": "D04",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{2}(x^{2} - 2 x - 3)$.\n\nA. $\\mathscr{D}=(-\\infty;-1)\\cup(3;+\\infty)$.\nB. $\\mathscr{D}=(-1;3)$.\nC. $\\mathscr{D}=[-1;3]$.\nD. $\\mathscr{D}=(-\\infty;-1]\\cup[3;+\\infty)$.",
+    "dap_an": "A. $\\mathscr{D}=(-\\infty;-1)\\cup(3;+\\infty)$.",
+    "loi_giai": "Điều kiện $x^{2} - 2 x - 3>0 \\Leftrightarrow x<-1$ hoặc $x>3$.",
+    "params": {
+      "c": "2",
+      "r1": "-1",
+      "r2": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q15",
+    "ma_dang": "D04",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{3}(x^{2} - 3 x - 10)$.\n\nA. $\\mathscr{D}=[-2;5]$.\nB. $\\mathscr{D}=(-2;5)$.\nC. $\\mathscr{D}=(-\\infty;-2]\\cup[5;+\\infty)$.\nD. $\\mathscr{D}=(-\\infty;-2)\\cup(5;+\\infty)$.",
+    "dap_an": "D. $\\mathscr{D}=(-\\infty;-2)\\cup(5;+\\infty)$.",
+    "loi_giai": "Điều kiện $x^{2} - 3 x - 10>0 \\Leftrightarrow x<-2$ hoặc $x>5$.",
+    "params": {
+      "c": "3",
+      "r1": "-2",
+      "r2": "5"
+    }
+  },
+  {
+    "id_goc": "p006_q15",
+    "ma_dang": "D04",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{2}(x^{2} + 2 x - 3)$.\n\nA. $\\mathscr{D}=(-\\infty;-3]\\cup[1;+\\infty)$.\nB. $\\mathscr{D}=(-\\infty;-3)\\cup(1;+\\infty)$.\nC. $\\mathscr{D}=(-3;1)$.\nD. $\\mathscr{D}=[-3;1]$.",
+    "dap_an": "B. $\\mathscr{D}=(-\\infty;-3)\\cup(1;+\\infty)$.",
+    "loi_giai": "Điều kiện $x^{2} + 2 x - 3>0 \\Leftrightarrow x<-3$ hoặc $x>1$.",
+    "params": {
+      "c": "2",
+      "r1": "-3",
+      "r2": "1"
+    }
+  },
+  {
+    "id_goc": "p006_q15",
+    "ma_dang": "D04",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{5}(x^{2} + 2 x - 8)$.\n\nA. $\\mathscr{D}=(-\\infty;-4)\\cup(2;+\\infty)$.\nB. $\\mathscr{D}=(-\\infty;-4]\\cup[2;+\\infty)$.\nC. $\\mathscr{D}=(-4;2)$.\nD. $\\mathscr{D}=[-4;2]$.",
+    "dap_an": "A. $\\mathscr{D}=(-\\infty;-4)\\cup(2;+\\infty)$.",
+    "loi_giai": "Điều kiện $x^{2} + 2 x - 8>0 \\Leftrightarrow x<-4$ hoặc $x>2$.",
+    "params": {
+      "c": "5",
+      "r1": "-4",
+      "r2": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q15",
+    "ma_dang": "D04",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{2}(x^{2} - 6 x)$.\n\nA. $\\mathscr{D}=(-\\infty;0)\\cup(6;+\\infty)$.\nB. $\\mathscr{D}=(-\\infty;0]\\cup[6;+\\infty)$.\nC. $\\mathscr{D}=[0;6]$.\nD. $\\mathscr{D}=(0;6)$.",
+    "dap_an": "A. $\\mathscr{D}=(-\\infty;0)\\cup(6;+\\infty)$.",
+    "loi_giai": "Điều kiện $x^{2} - 6 x>0 \\Leftrightarrow x<0$ hoặc $x>6$.",
+    "params": {
+      "c": "2",
+      "r1": "0",
+      "r2": "6"
+    }
+  },
+  {
+    "id_goc": "p006_q15",
+    "ma_dang": "D04",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{3}(x^{2} - 3 x - 4)$.\n\nA. $\\mathscr{D}=(-\\infty;-1)\\cup(4;+\\infty)$.\nB. $\\mathscr{D}=(-1;4)$.\nC. $\\mathscr{D}=(-\\infty;-1]\\cup[4;+\\infty)$.\nD. $\\mathscr{D}=[-1;4]$.",
+    "dap_an": "A. $\\mathscr{D}=(-\\infty;-1)\\cup(4;+\\infty)$.",
+    "loi_giai": "Điều kiện $x^{2} - 3 x - 4>0 \\Leftrightarrow x<-1$ hoặc $x>4$.",
+    "params": {
+      "c": "3",
+      "r1": "-1",
+      "r2": "4"
+    }
+  },
+  {
+    "id_goc": "p007_q18",
+    "ma_dang": "D07",
+    "ten_dang": "Đạo hàm hàm số dạng thương chứa hàm số mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\dfrac{x+1}{4^x}$.\n\nA. $y'=\\dfrac{1-(x + 1)\\ln 4}{4^x}$.\nB. $y'=\\dfrac{1+(x + 1)\\ln 4}{4^x}$.\nC. $y'=\\dfrac{-(x + 1)\\ln 4}{4^x}$.\nD. $y'=\\dfrac{1-(x + 1)\\ln 4}{4^{2x}}$.",
+    "dap_an": "A. $y'=\\dfrac{1-(x + 1)\\ln 4}{4^x}$.",
+    "loi_giai": "$y'=\\dfrac{4^x-(x+1)4^x\\ln4}{(4^x)^2}=\\dfrac{1-(x+1)\\ln4}{4^x}$.",
+    "params": {
+      "k": "1",
+      "a": "4"
+    }
+  },
+  {
+    "id_goc": "p007_q18",
+    "ma_dang": "D07",
+    "ten_dang": "Đạo hàm hàm số dạng thương chứa hàm số mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\dfrac{x+2}{3^x}$.\n\nA. $y'=\\dfrac{1-(x + 2)\\ln 3}{3^x}$.\nB. $y'=\\dfrac{-(x + 2)\\ln 3}{3^x}$.\nC. $y'=\\dfrac{1+(x + 2)\\ln 3}{3^x}$.\nD. $y'=\\dfrac{1-(x + 2)\\ln 3}{3^{2x}}$.",
+    "dap_an": "A. $y'=\\dfrac{1-(x + 2)\\ln 3}{3^x}$.",
+    "loi_giai": "$y'=\\dfrac{3^x-(x+2)3^x\\ln3}{(3^x)^2}=\\dfrac{1-(x+2)\\ln3}{3^x}$.",
+    "params": {
+      "k": "2",
+      "a": "3"
+    }
+  },
+  {
+    "id_goc": "p007_q18",
+    "ma_dang": "D07",
+    "ten_dang": "Đạo hàm hàm số dạng thương chứa hàm số mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\dfrac{x+1}{2^x}$.\n\nA. $y'=\\dfrac{1+(x + 1)\\ln 2}{2^x}$.\nB. $y'=\\dfrac{1-(x + 1)\\ln 2}{2^{2x}}$.\nC. $y'=\\dfrac{1-(x + 1)\\ln 2}{2^x}$.\nD. $y'=\\dfrac{-(x + 1)\\ln 2}{2^x}$.",
+    "dap_an": "C. $y'=\\dfrac{1-(x + 1)\\ln 2}{2^x}$.",
+    "loi_giai": "$y'=\\dfrac{2^x-(x+1)2^x\\ln2}{(2^x)^2}=\\dfrac{1-(x+1)\\ln2}{2^x}$.",
+    "params": {
+      "k": "1",
+      "a": "2"
+    }
+  },
+  {
+    "id_goc": "p007_q18",
+    "ma_dang": "D07",
+    "ten_dang": "Đạo hàm hàm số dạng thương chứa hàm số mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\dfrac{x+3}{5^x}$.\n\nA. $y'=\\dfrac{1+(x + 3)\\ln 5}{5^x}$.\nB. $y'=\\dfrac{1-(x + 3)\\ln 5}{5^x}$.\nC. $y'=\\dfrac{1-(x + 3)\\ln 5}{5^{2x}}$.\nD. $y'=\\dfrac{-(x + 3)\\ln 5}{5^x}$.",
+    "dap_an": "B. $y'=\\dfrac{1-(x + 3)\\ln 5}{5^x}$.",
+    "loi_giai": "$y'=\\dfrac{5^x-(x+3)5^x\\ln5}{(5^x)^2}=\\dfrac{1-(x+3)\\ln5}{5^x}$.",
+    "params": {
+      "k": "3",
+      "a": "5"
+    }
+  },
+  {
+    "id_goc": "p007_q18",
+    "ma_dang": "D07",
+    "ten_dang": "Đạo hàm hàm số dạng thương chứa hàm số mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\dfrac{x+2}{5^x}$.\n\nA. $y'=\\dfrac{1+(x + 2)\\ln 5}{5^x}$.\nB. $y'=\\dfrac{-(x + 2)\\ln 5}{5^x}$.\nC. $y'=\\dfrac{1-(x + 2)\\ln 5}{5^x}$.\nD. $y'=\\dfrac{1-(x + 2)\\ln 5}{5^{2x}}$.",
+    "dap_an": "C. $y'=\\dfrac{1-(x + 2)\\ln 5}{5^x}$.",
+    "loi_giai": "$y'=\\dfrac{5^x-(x+2)5^x\\ln5}{(5^x)^2}=\\dfrac{1-(x+2)\\ln5}{5^x}$.",
+    "params": {
+      "k": "2",
+      "a": "5"
+    }
+  },
+  {
+    "id_goc": "p007_q18",
+    "ma_dang": "D07",
+    "ten_dang": "Đạo hàm hàm số dạng thương chứa hàm số mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính đạo hàm của hàm số $y = \\dfrac{x+1}{3^x}$.\n\nA. $y'=\\dfrac{1+(x + 1)\\ln 3}{3^x}$.\nB. $y'=\\dfrac{1-(x + 1)\\ln 3}{3^{2x}}$.\nC. $y'=\\dfrac{-(x + 1)\\ln 3}{3^x}$.\nD. $y'=\\dfrac{1-(x + 1)\\ln 3}{3^x}$.",
+    "dap_an": "D. $y'=\\dfrac{1-(x + 1)\\ln 3}{3^x}$.",
+    "loi_giai": "$y'=\\dfrac{3^x-(x+1)3^x\\ln3}{(3^x)^2}=\\dfrac{1-(x+1)\\ln3}{3^x}$.",
+    "params": {
+      "k": "1",
+      "a": "3"
+    }
+  },
+  {
+    "id_goc": "p020_q17",
+    "ma_dang": "D14",
+    "ten_dang": "Giải bất phương trình lôgarit cơ số nhỏ hơn 1",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+1) < \\log_{\\frac12}(2x-1)$.\n\nA. $S=(\\dfrac{1}{2};+\\infty)$.\nB. $S=(2;+\\infty)$.\nC. $S=\\left(\\dfrac{1}{2};2\\right)$.\nD. $S=(-\\infty;2)$.",
+    "dap_an": "C. $S=\\left(\\dfrac{1}{2};2\\right)$.",
+    "loi_giai": "Điều kiện: $x>\\dfrac{1}{2}$. Bất phương trình $\\Leftrightarrow x+1>2x-1 \\Leftrightarrow x<2$.\nKết hợp điều kiện, $S=\\left(\\dfrac{1}{2};2\\right)$.",
+    "params": {
+      "p": "1",
+      "q": "2",
+      "r": "-1"
+    }
+  },
+  {
+    "id_goc": "p020_q17",
+    "ma_dang": "D14",
+    "ten_dang": "Giải bất phương trình lôgarit cơ số nhỏ hơn 1",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+2) < \\log_{\\frac12}(3x-1)$.\n\nA. $S=(\\dfrac{3}{2};+\\infty)$.\nB. $S=(\\dfrac{1}{3};+\\infty)$.\nC. $S=(-\\infty;\\dfrac{3}{2})$.\nD. $S=\\left(\\dfrac{1}{3};\\dfrac{3}{2}\\right)$.",
+    "dap_an": "D. $S=\\left(\\dfrac{1}{3};\\dfrac{3}{2}\\right)$.",
+    "loi_giai": "Điều kiện: $x>\\dfrac{1}{3}$. Bất phương trình $\\Leftrightarrow x+2>3x-1 \\Leftrightarrow x<\\dfrac{3}{2}$.\nKết hợp điều kiện, $S=\\left(\\dfrac{1}{3};\\dfrac{3}{2}\\right)$.",
+    "params": {
+      "p": "2",
+      "q": "3",
+      "r": "-1"
+    }
+  },
+  {
+    "id_goc": "p020_q17",
+    "ma_dang": "D14",
+    "ten_dang": "Giải bất phương trình lôgarit cơ số nhỏ hơn 1",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+1) < \\log_{\\frac12}(3x-2)$.\n\nA. $S=(\\dfrac{3}{2};+\\infty)$.\nB. $S=(\\dfrac{2}{3};+\\infty)$.\nC. $S=(-\\infty;\\dfrac{3}{2})$.\nD. $S=\\left(\\dfrac{2}{3};\\dfrac{3}{2}\\right)$.",
+    "dap_an": "D. $S=\\left(\\dfrac{2}{3};\\dfrac{3}{2}\\right)$.",
+    "loi_giai": "Điều kiện: $x>\\dfrac{2}{3}$. Bất phương trình $\\Leftrightarrow x+1>3x-2 \\Leftrightarrow x<\\dfrac{3}{2}$.\nKết hợp điều kiện, $S=\\left(\\dfrac{2}{3};\\dfrac{3}{2}\\right)$.",
+    "params": {
+      "p": "1",
+      "q": "3",
+      "r": "-2"
+    }
+  },
+  {
+    "id_goc": "p020_q17",
+    "ma_dang": "D14",
+    "ten_dang": "Giải bất phương trình lôgarit cơ số nhỏ hơn 1",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+2) < \\log_{\\frac12}(2x-1)$.\n\nA. $S=(\\dfrac{1}{2};+\\infty)$.\nB. $S=\\left(\\dfrac{1}{2};3\\right)$.\nC. $S=(3;+\\infty)$.\nD. $S=(-\\infty;3)$.",
+    "dap_an": "B. $S=\\left(\\dfrac{1}{2};3\\right)$.",
+    "loi_giai": "Điều kiện: $x>\\dfrac{1}{2}$. Bất phương trình $\\Leftrightarrow x+2>2x-1 \\Leftrightarrow x<3$.\nKết hợp điều kiện, $S=\\left(\\dfrac{1}{2};3\\right)$.",
+    "params": {
+      "p": "2",
+      "q": "2",
+      "r": "-1"
+    }
+  },
+  {
+    "id_goc": "p020_q17",
+    "ma_dang": "D14",
+    "ten_dang": "Giải bất phương trình lôgarit cơ số nhỏ hơn 1",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+1) < \\log_{\\frac12}(4x-3)$.\n\nA. $S=\\left(\\dfrac{3}{4};\\dfrac{4}{3}\\right)$.\nB. $S=(-\\infty;\\dfrac{4}{3})$.\nC. $S=(\\dfrac{4}{3};+\\infty)$.\nD. $S=(\\dfrac{3}{4};+\\infty)$.",
+    "dap_an": "A. $S=\\left(\\dfrac{3}{4};\\dfrac{4}{3}\\right)$.",
+    "loi_giai": "Điều kiện: $x>\\dfrac{3}{4}$. Bất phương trình $\\Leftrightarrow x+1>4x-3 \\Leftrightarrow x<\\dfrac{4}{3}$.\nKết hợp điều kiện, $S=\\left(\\dfrac{3}{4};\\dfrac{4}{3}\\right)$.",
+    "params": {
+      "p": "1",
+      "q": "4",
+      "r": "-3"
+    }
+  },
+  {
+    "id_goc": "p020_q17",
+    "ma_dang": "D14",
+    "ten_dang": "Giải bất phương trình lôgarit cơ số nhỏ hơn 1",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+3) < \\log_{\\frac12}(2x-1)$.\n\nA. $S=\\left(\\dfrac{1}{2};4\\right)$.\nB. $S=(\\dfrac{1}{2};+\\infty)$.\nC. $S=(4;+\\infty)$.\nD. $S=(-\\infty;4)$.",
+    "dap_an": "A. $S=\\left(\\dfrac{1}{2};4\\right)$.",
+    "loi_giai": "Điều kiện: $x>\\dfrac{1}{2}$. Bất phương trình $\\Leftrightarrow x+3>2x-1 \\Leftrightarrow x<4$.\nKết hợp điều kiện, $S=\\left(\\dfrac{1}{2};4\\right)$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "r": "-1"
+    }
+  },
+  {
+    "id_goc": "p031_q03",
+    "ma_dang": "D19",
+    "ten_dang": "Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm của bất phương trình $5^{1x+1}} - 5^{-1} > 0$.\n\nA. $S=(-1;+\\infty)$.\nB. $S=(-2;+\\infty)$.\nC. $S=(-\\infty;-2)$.\nD. $S=(0;+\\infty)$.",
+    "dap_an": "B. $S=(-2;+\\infty)$.",
+    "loi_giai": "$5^{1x+1}} - 5^{-1} > 0 \\Leftrightarrow 5^{1x+1} > 5^{-1} \\Leftrightarrow 1x+1>-1 \\Leftrightarrow x>-2$.",
+    "params": {
+      "a": "5",
+      "m": "1",
+      "c": "1",
+      "k": "-1"
+    }
+  },
+  {
+    "id_goc": "p031_q03",
+    "ma_dang": "D19",
+    "ten_dang": "Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm của bất phương trình $2^{1x+2}} - 2^{3} > 0$.\n\nA. $S=(-\\infty;1)$.\nB. $S=(5;+\\infty)$.\nC. $S=(1;+\\infty)$.\nD. $S=(2;+\\infty)$.",
+    "dap_an": "C. $S=(1;+\\infty)$.",
+    "loi_giai": "$2^{1x+2}} - 2^{3} > 0 \\Leftrightarrow 2^{1x+2} > 2^{3} \\Leftrightarrow 1x+2>3 \\Leftrightarrow x>1$.",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "2",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p031_q03",
+    "ma_dang": "D19",
+    "ten_dang": "Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm của bất phương trình $3^{2x-1}} - 3^{5} > 0$.\n\nA. $S=(3;+\\infty)$.\nB. $S=(2;+\\infty)$.\nC. $S=(6;+\\infty)$.\nD. $S=(-\\infty;3)$.",
+    "dap_an": "A. $S=(3;+\\infty)$.",
+    "loi_giai": "$3^{2x-1}} - 3^{5} > 0 \\Leftrightarrow 3^{2x-1} > 3^{5} \\Leftrightarrow 2x-1>5 \\Leftrightarrow x>3$.",
+    "params": {
+      "a": "3",
+      "m": "2",
+      "c": "-1",
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p031_q03",
+    "ma_dang": "D19",
+    "ten_dang": "Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm của bất phương trình $2^{1x-3}} - 2^{4} > 0$.\n\nA. $S=(8;+\\infty)$.\nB. $S=(7;+\\infty)$.\nC. $S=(-\\infty;7)$.\nD. $S=(1;+\\infty)$.",
+    "dap_an": "B. $S=(7;+\\infty)$.",
+    "loi_giai": "$2^{1x-3}} - 2^{4} > 0 \\Leftrightarrow 2^{1x-3} > 2^{4} \\Leftrightarrow 1x-3>4 \\Leftrightarrow x>7$.",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "-3",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p031_q03",
+    "ma_dang": "D19",
+    "ten_dang": "Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm của bất phương trình $5^{2x+1}} - 5^{3} > 0$.\n\nA. $S=(1;+\\infty)$.\nB. $S=(2;+\\infty)$.\nC. $S=(-\\infty;1)$.\nD. $S=(3;+\\infty)$.",
+    "dap_an": "A. $S=(1;+\\infty)$.",
+    "loi_giai": "$5^{2x+1}} - 5^{3} > 0 \\Leftrightarrow 5^{2x+1} > 5^{3} \\Leftrightarrow 2x+1>3 \\Leftrightarrow x>1$.",
+    "params": {
+      "a": "5",
+      "m": "2",
+      "c": "1",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p031_q03",
+    "ma_dang": "D19",
+    "ten_dang": "Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm của bất phương trình $3^{1x+2}} - 3^{-1} > 0$.\n\nA. $S=(-2;+\\infty)$.\nB. $S=(-\\infty;-3)$.\nC. $S=(-3;+\\infty)$.\nD. $S=(1;+\\infty)$.",
+    "dap_an": "C. $S=(-3;+\\infty)$.",
+    "loi_giai": "$3^{1x+2}} - 3^{-1} > 0 \\Leftrightarrow 3^{1x+2} > 3^{-1} \\Leftrightarrow 1x+2>-1 \\Leftrightarrow x>-3$.",
+    "params": {
+      "a": "3",
+      "m": "1",
+      "c": "2",
+      "k": "-1"
+    }
+  },
+  {
+    "id_goc": "p035_q22",
+    "ma_dang": "D21",
+    "ten_dang": "Giải phương trình lôgarit dùng công thức cộng hai lôgarit cùng cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của phương trình $\\log_{2}(x-1)+\\log_{2}(x+1)=3$.\n\nA. $S=\\{2\\}$.\nB. $S=\\{-3;3\\}$.\nC. $S=\\{3\\}$.\nD. $S=\\{-\\sqrt{9};\\sqrt{9}\\}$.",
+    "dap_an": "C. $S=\\{3\\}$.",
+    "loi_giai": "Điều kiện $x>1$. $\\log_{2}[(x-1)(x+1)]=3\\Leftrightarrow x^2-1=2^{3}\\Leftrightarrow x=\\pm3$. Kết hợp điều kiện, $S=\\{3\\}$.",
+    "params": {
+      "a": "2",
+      "p": "1",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p035_q22",
+    "ma_dang": "D21",
+    "ten_dang": "Giải phương trình lôgarit dùng công thức cộng hai lôgarit cùng cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của phương trình $\\log_{2}(x-3)+\\log_{2}(x+3)=4$.\n\nA. $S=\\{5\\}$.\nB. $S=\\{-5;5\\}$.\nC. $S=\\{4\\}$.\nD. $S=\\{-\\sqrt{25};\\sqrt{25}\\}$.",
+    "dap_an": "A. $S=\\{5\\}$.",
+    "loi_giai": "Điều kiện $x>3$. $\\log_{2}[(x-3)(x+3)]=4\\Leftrightarrow x^2-9=2^{4}\\Leftrightarrow x=\\pm5$. Kết hợp điều kiện, $S=\\{5\\}$.",
+    "params": {
+      "a": "2",
+      "p": "3",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p049_q13",
+    "ma_dang": "D27",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{2x} < 2^{1x+6}$ là\n\nA. $S=(-6;+\\infty)$.\nB. $S=(-\\infty;-6)$.\nC. $S=(-\\infty;6)$.\nD. $S=(6;+\\infty)$.",
+    "dap_an": "C. $S=(-\\infty;6)$.",
+    "loi_giai": "$2^{2x}<2^{1x+6} \\Leftrightarrow 2x<1x+6 \\Leftrightarrow x<6$.",
+    "params": {
+      "a": "2",
+      "m1": "2",
+      "c1": "0",
+      "m2": "1",
+      "c2": "6"
+    }
+  },
+  {
+    "id_goc": "p049_q13",
+    "ma_dang": "D27",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^{1x} < 3^{2x-4}$ là\n\nA. $S=(-4;+\\infty)$.\nB. $S=(-\\infty;-4)$.\nC. $S=(-\\infty;4)$.\nD. $S=(4;+\\infty)$.",
+    "dap_an": "D. $S=(4;+\\infty)$.",
+    "loi_giai": "$3^{1x}<3^{2x-4} \\Leftrightarrow 1x<2x-4 \\Leftrightarrow x>4$.",
+    "params": {
+      "a": "3",
+      "m1": "1",
+      "c1": "0",
+      "m2": "2",
+      "c2": "-4"
+    }
+  },
+  {
+    "id_goc": "p049_q13",
+    "ma_dang": "D27",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{1x+1} < 2^{2x-3}$ là\n\nA. $S=(-4;+\\infty)$.\nB. $S=(-\\infty;4)$.\nC. $S=(-\\infty;-4)$.\nD. $S=(4;+\\infty)$.",
+    "dap_an": "D. $S=(4;+\\infty)$.",
+    "loi_giai": "$2^{1x+1}<2^{2x-3} \\Leftrightarrow 1x+1<2x-3 \\Leftrightarrow x>4$.",
+    "params": {
+      "a": "2",
+      "m1": "1",
+      "c1": "1",
+      "m2": "2",
+      "c2": "-3"
+    }
+  },
+  {
+    "id_goc": "p049_q13",
+    "ma_dang": "D27",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $5^{2x+1} < 5^{1x-2}$ là\n\nA. $S=(-\\infty;-3)$.\nB. $S=(-3;+\\infty)$.\nC. $S=(3;+\\infty)$.\nD. $S=(-\\infty;3)$.",
+    "dap_an": "A. $S=(-\\infty;-3)$.",
+    "loi_giai": "$5^{2x+1}<5^{1x-2} \\Leftrightarrow 2x+1<1x-2 \\Leftrightarrow x<-3$.",
+    "params": {
+      "a": "5",
+      "m1": "2",
+      "c1": "1",
+      "m2": "1",
+      "c2": "-2"
+    }
+  },
+  {
+    "id_goc": "p049_q13",
+    "ma_dang": "D27",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{3x} < 2^{1x+5}$ là\n\nA. $S=(-\\infty;- \\dfrac{5}{2})$.\nB. $S=(-\\infty;\\dfrac{5}{2})$.\nC. $S=(\\dfrac{5}{2};+\\infty)$.\nD. $S=(- \\dfrac{5}{2};+\\infty)$.",
+    "dap_an": "B. $S=(-\\infty;\\dfrac{5}{2})$.",
+    "loi_giai": "$2^{3x}<2^{1x+5} \\Leftrightarrow 3x<1x+5 \\Leftrightarrow x<\\dfrac{5}{2}$.",
+    "params": {
+      "a": "2",
+      "m1": "3",
+      "c1": "0",
+      "m2": "1",
+      "c2": "5"
+    }
+  },
+  {
+    "id_goc": "p049_q13",
+    "ma_dang": "D27",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^{2x+1} < 3^{1x-2}$ là\n\nA. $S=(-\\infty;-3)$.\nB. $S=(-\\infty;3)$.\nC. $S=(3;+\\infty)$.\nD. $S=(-3;+\\infty)$.",
+    "dap_an": "A. $S=(-\\infty;-3)$.",
+    "loi_giai": "$3^{2x+1}<3^{1x-2} \\Leftrightarrow 2x+1<1x-2 \\Leftrightarrow x<-3$.",
+    "params": {
+      "a": "3",
+      "m1": "2",
+      "c1": "1",
+      "m2": "1",
+      "c2": "-2"
+    }
+  },
+  {
+    "id_goc": "p053_q27",
+    "ma_dang": "D28",
+    "ten_dang": "Giải phương trình tích nhiều lôgarit cùng cơ số bằng đổi cơ số và đặt ẩn phụ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính tổng các nghiệm thực của phương trình $\\log_{3}x.\\log_{9}x.\\log_{27}x.\\log_{81}x=\\dfrac{2}{3}$ bằng\n\nA. $9$.\nB. $\\dfrac{82}{9}$.\nC. $0$.\nD. $\\dfrac{80}{9}$.",
+    "dap_an": "B. $\\dfrac{82}{9}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\left(1\\cdot\\dfrac12\\cdot\\dfrac13\\cdot\\dfrac14\\right)(\\log_{3}x)^4=\\dfrac{2}{3}\\Leftrightarrow (\\log_{3}x)^4=16 \\Leftrightarrow \\log_{3}x=\\pm2\\Leftrightarrow x=9\\text{ hoặc }x=1/9$. Tổng các nghiệm là $\\dfrac{82}{9}$.",
+    "params": {
+      "b": "3",
+      "K_num": "2",
+      "K_den": "3"
+    }
+  },
+  {
+    "id_goc": "p053_q27",
+    "ma_dang": "D28",
+    "ten_dang": "Giải phương trình tích nhiều lôgarit cùng cơ số bằng đổi cơ số và đặt ẩn phụ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính tổng các nghiệm thực của phương trình $\\log_{5}x.\\log_{25}x.\\log_{125}x.\\log_{625}x=\\dfrac{2}{3}$ bằng\n\nA. $25$.\nB. $0$.\nC. $\\dfrac{624}{25}$.\nD. $\\dfrac{626}{25}$.",
+    "dap_an": "D. $\\dfrac{626}{25}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\left(1\\cdot\\dfrac12\\cdot\\dfrac13\\cdot\\dfrac14\\right)(\\log_{5}x)^4=\\dfrac{2}{3}\\Leftrightarrow (\\log_{5}x)^4=16 \\Leftrightarrow \\log_{5}x=\\pm2\\Leftrightarrow x=25\\text{ hoặc }x=1/25$. Tổng các nghiệm là $\\dfrac{626}{25}$.",
+    "params": {
+      "b": "5",
+      "K_num": "2",
+      "K_den": "3"
+    }
+  },
+  {
+    "id_goc": "p053_q27",
+    "ma_dang": "D28",
+    "ten_dang": "Giải phương trình tích nhiều lôgarit cùng cơ số bằng đổi cơ số và đặt ẩn phụ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tính tổng các nghiệm thực của phương trình $\\log_{2}x.\\log_{4}x.\\log_{8}x.\\log_{16}x=\\dfrac{2}{3}$ bằng\n\nA. $4$.\nB. $0$.\nC. $\\dfrac{17}{4}$.\nD. $\\dfrac{15}{4}$.",
+    "dap_an": "C. $\\dfrac{17}{4}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\left(1\\cdot\\dfrac12\\cdot\\dfrac13\\cdot\\dfrac14\\right)(\\log_{2}x)^4=\\dfrac{2}{3}\\Leftrightarrow (\\log_{2}x)^4=16 \\Leftrightarrow \\log_{2}x=\\pm2\\Leftrightarrow x=4\\text{ hoặc }x=1/4$. Tổng các nghiệm là $\\dfrac{17}{4}$.",
+    "params": {
+      "b": "2",
+      "K_num": "2",
+      "K_den": "3"
+    }
+  },
+  {
+    "id_goc": "p066_q08",
+    "ma_dang": "D31",
+    "ten_dang": "Giải phương trình lôgarit cơ bản chứa tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của phương trình $\\log_{2}(x^{2} - x + 2)=1$ là\n\nA. $\\{1;2\\}$.\nB. $\\{0;1\\}$.\nC. $\\{0;-1\\}$.\nD. $\\{0\\}$.",
+    "dap_an": "B. $\\{0;1\\}$.",
+    "loi_giai": "$\\log_{2}(x^{2} - x + 2)=1\\Leftrightarrow x^{2} - x + 2=2^{1}\\Leftrightarrow x=0$ hoặc $x=1$.",
+    "params": {
+      "a": "2",
+      "b": "-1",
+      "d": "2",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p066_q08",
+    "ma_dang": "D31",
+    "ten_dang": "Giải phương trình lôgarit cơ bản chứa tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của phương trình $\\log_{2}(x^{2} - 1)=3$ là\n\nA. $\\{3;-3\\}$.\nB. $\\{-3;3\\}$.\nC. $\\{-3\\}$.\nD. $\\{-2;4\\}$.",
+    "dap_an": "B. $\\{-3;3\\}$.",
+    "loi_giai": "$\\log_{2}(x^{2} - 1)=3\\Leftrightarrow x^{2} - 1=2^{3}\\Leftrightarrow x=-3$ hoặc $x=3$.",
+    "params": {
+      "a": "2",
+      "b": "0",
+      "d": "-1",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p066_q08",
+    "ma_dang": "D31",
+    "ten_dang": "Giải phương trình lôgarit cơ bản chứa tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của phương trình $\\log_{3}(x^{2} - 2 x - 5)=2$ là\n\nA. $\\{1 - \\sqrt{15};1 + \\sqrt{15}\\}$.\nB. $\\{-1 + \\sqrt{15};- \\sqrt{15} - 1\\}$.\nC. $\\{1 - \\sqrt{15}\\}$.\nD. $\\{2 - \\sqrt{15};2 + \\sqrt{15}\\}$.",
+    "dap_an": "A. $\\{1 - \\sqrt{15};1 + \\sqrt{15}\\}$.",
+    "loi_giai": "$\\log_{3}(x^{2} - 2 x - 5)=2\\Leftrightarrow x^{2} - 2 x - 5=3^{2}\\Leftrightarrow x=1 - \\sqrt{15}$ hoặc $x=1 + \\sqrt{15}$.",
+    "params": {
+      "a": "3",
+      "b": "-2",
+      "d": "-5",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p066_q08",
+    "ma_dang": "D31",
+    "ten_dang": "Giải phương trình lôgarit cơ bản chứa tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của phương trình $\\log_{2}(x^{2} - 4)=2$ là\n\nA. $\\{2 \\sqrt{2};- 2 \\sqrt{2}\\}$.\nB. $\\{1 - 2 \\sqrt{2};1 + 2 \\sqrt{2}\\}$.\nC. $\\{- 2 \\sqrt{2};2 \\sqrt{2}\\}$.\nD. $\\{- 2 \\sqrt{2}\\}$.",
+    "dap_an": "C. $\\{- 2 \\sqrt{2};2 \\sqrt{2}\\}$.",
+    "loi_giai": "$\\log_{2}(x^{2} - 4)=2\\Leftrightarrow x^{2} - 4=2^{2}\\Leftrightarrow x=- 2 \\sqrt{2}$ hoặc $x=2 \\sqrt{2}$.",
+    "params": {
+      "a": "2",
+      "b": "0",
+      "d": "-4",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p066_q08",
+    "ma_dang": "D31",
+    "ten_dang": "Giải phương trình lôgarit cơ bản chứa tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của phương trình $\\log_{5}(x^{2} - 4 x + 2)=2$ là\n\nA. $\\{-2 + 3 \\sqrt{3};- 3 \\sqrt{3} - 2\\}$.\nB. $\\{2 - 3 \\sqrt{3};2 + 3 \\sqrt{3}\\}$.\nC. $\\{3 - 3 \\sqrt{3};3 + 3 \\sqrt{3}\\}$.\nD. $\\{2 - 3 \\sqrt{3}\\}$.",
+    "dap_an": "B. $\\{2 - 3 \\sqrt{3};2 + 3 \\sqrt{3}\\}$.",
+    "loi_giai": "$\\log_{5}(x^{2} - 4 x + 2)=2\\Leftrightarrow x^{2} - 4 x + 2=5^{2}\\Leftrightarrow x=2 - 3 \\sqrt{3}$ hoặc $x=2 + 3 \\sqrt{3}$.",
+    "params": {
+      "a": "5",
+      "b": "-4",
+      "d": "2",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p066_q08",
+    "ma_dang": "D31",
+    "ten_dang": "Giải phương trình lôgarit cơ bản chứa tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của phương trình $\\log_{2}(x^{2} + 2 x - 3)=3$ là\n\nA. $\\{- 2 \\sqrt{3};2 \\sqrt{3}\\}$.\nB. $\\{1 + 2 \\sqrt{3};1 - 2 \\sqrt{3}\\}$.\nC. $\\{- 2 \\sqrt{3} - 1;-1 + 2 \\sqrt{3}\\}$.\nD. $\\{- 2 \\sqrt{3} - 1\\}$.",
+    "dap_an": "C. $\\{- 2 \\sqrt{3} - 1;-1 + 2 \\sqrt{3}\\}$.",
+    "loi_giai": "$\\log_{2}(x^{2} + 2 x - 3)=3\\Leftrightarrow x^{2} + 2 x - 3=2^{3}\\Leftrightarrow x=- 2 \\sqrt{3} - 1$ hoặc $x=-1 + 2 \\sqrt{3}$.",
+    "params": {
+      "a": "2",
+      "b": "2",
+      "d": "-3",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p068_q23",
+    "ma_dang": "D33",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^{x^{2} - 2 x}<3^{3}$ là\n\nA. $(3;+\\infty)$.\nB. $(-\\infty;-1)\\cup(3;+\\infty)$.\nC. $(-\\infty;-1)$.\nD. $(-1;3)$.",
+    "dap_an": "D. $(-1;3)$.",
+    "loi_giai": "$3^{x^{2} - 2 x}<3^{3}\\Leftrightarrow x^{2} - 2 x<3\\Leftrightarrow -1;3$.",
+    "params": {
+      "a": "3",
+      "b": "-2",
+      "d": "0",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p068_q23",
+    "ma_dang": "D33",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{x^{2} - 23}<2^{2}$ là\n\nA. $(5;+\\infty)$.\nB. $(-\\infty;-5)$.\nC. $(-\\infty;-5)\\cup(5;+\\infty)$.\nD. $(-5;5)$.",
+    "dap_an": "D. $(-5;5)$.",
+    "loi_giai": "$2^{x^{2} - 23}<2^{2}\\Leftrightarrow x^{2} - 23<2\\Leftrightarrow -5;5$.",
+    "params": {
+      "a": "2",
+      "b": "0",
+      "d": "-23",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p068_q23",
+    "ma_dang": "D33",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $5^{x^{2} - 4 x}<5^{1}$ là\n\nA. $(-\\infty;2 - \\sqrt{5})$.\nB. $(-\\infty;2 - \\sqrt{5})\\cup(2 + \\sqrt{5};+\\infty)$.\nC. $(2 + \\sqrt{5};+\\infty)$.\nD. $(2 - \\sqrt{5};2 + \\sqrt{5})$.",
+    "dap_an": "D. $(2 - \\sqrt{5};2 + \\sqrt{5})$.",
+    "loi_giai": "$5^{x^{2} - 4 x}<5^{1}\\Leftrightarrow x^{2} - 4 x<1\\Leftrightarrow 2 - \\sqrt{5};2 + \\sqrt{5}$.",
+    "params": {
+      "a": "5",
+      "b": "-4",
+      "d": "0",
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p068_q23",
+    "ma_dang": "D33",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^{x^{2} + 2 x}<3^{3}$ là\n\nA. $(-3;1)$.\nB. $(-\\infty;-3)$.\nC. $(-\\infty;-3)\\cup(1;+\\infty)$.\nD. $(1;+\\infty)$.",
+    "dap_an": "A. $(-3;1)$.",
+    "loi_giai": "$3^{x^{2} + 2 x}<3^{3}\\Leftrightarrow x^{2} + 2 x<3\\Leftrightarrow -3;1$.",
+    "params": {
+      "a": "3",
+      "b": "2",
+      "d": "0",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p068_q23",
+    "ma_dang": "D33",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{x^{2} - 6 x}<2^{4}$ là\n\nA. $(3 - \\sqrt{13};3 + \\sqrt{13})$.\nB. $(-\\infty;3 - \\sqrt{13})$.\nC. $(3 + \\sqrt{13};+\\infty)$.\nD. $(-\\infty;3 - \\sqrt{13})\\cup(3 + \\sqrt{13};+\\infty)$.",
+    "dap_an": "A. $(3 - \\sqrt{13};3 + \\sqrt{13})$.",
+    "loi_giai": "$2^{x^{2} - 6 x}<2^{4}\\Leftrightarrow x^{2} - 6 x<4\\Leftrightarrow 3 - \\sqrt{13};3 + \\sqrt{13}$.",
+    "params": {
+      "a": "2",
+      "b": "-6",
+      "d": "0",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p068_q23",
+    "ma_dang": "D33",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^{x^{2} - 8}<3^{2}$ là\n\nA. $(-\\infty;- \\sqrt{10})\\cup(\\sqrt{10};+\\infty)$.\nB. $(\\sqrt{10};+\\infty)$.\nC. $(-\\infty;- \\sqrt{10})$.\nD. $(- \\sqrt{10};\\sqrt{10})$.",
+    "dap_an": "D. $(- \\sqrt{10};\\sqrt{10})$.",
+    "loi_giai": "$3^{x^{2} - 8}<3^{2}\\Leftrightarrow x^{2} - 8<2\\Leftrightarrow - \\sqrt{10};\\sqrt{10}$.",
+    "params": {
+      "a": "3",
+      "b": "0",
+      "d": "-8",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p069_q28",
+    "ma_dang": "D34",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $f(x)=\\log_{2}(x^{2} - 2 x)$ có đạo hàm\n\nA. $f'(x)=\\dfrac{1}{(x^{2} - 2 x)\\ln 2}$.\nB. $f'(x)=\\dfrac{(2 x - 2)\\ln 2}{x^{2} - 2 x}$.\nC. $f'(x)=\\dfrac{\\ln 2}{x^{2} - 2 x}$.\nD. $f'(x)=\\dfrac{2 x - 2}{(x^{2} - 2 x)\\ln 2}$.",
+    "dap_an": "D. $f'(x)=\\dfrac{2 x - 2}{(x^{2} - 2 x)\\ln 2}$.",
+    "loi_giai": "$f'(x)=\\dfrac{(x^{2} - 2 x)'}{(x^{2} - 2 x)\\ln 2}=\\dfrac{2 x - 2}{(x^{2} - 2 x)\\ln 2}$.",
+    "params": {
+      "a": "2",
+      "b": "-2"
+    }
+  },
+  {
+    "id_goc": "p069_q28",
+    "ma_dang": "D34",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $f(x)=\\log_{3}(x^{2} + 4 x)$ có đạo hàm\n\nA. $f'(x)=\\dfrac{2 x + 4}{(x^{2} + 4 x)\\ln 3}$.\nB. $f'(x)=\\dfrac{\\ln 3}{x^{2} + 4 x}$.\nC. $f'(x)=\\dfrac{(2 x + 4)\\ln 3}{x^{2} + 4 x}$.\nD. $f'(x)=\\dfrac{1}{(x^{2} + 4 x)\\ln 3}$.",
+    "dap_an": "A. $f'(x)=\\dfrac{2 x + 4}{(x^{2} + 4 x)\\ln 3}$.",
+    "loi_giai": "$f'(x)=\\dfrac{(x^{2} + 4 x)'}{(x^{2} + 4 x)\\ln 3}=\\dfrac{2 x + 4}{(x^{2} + 4 x)\\ln 3}$.",
+    "params": {
+      "a": "3",
+      "b": "4"
+    }
+  },
+  {
+    "id_goc": "p069_q28",
+    "ma_dang": "D34",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $f(x)=\\log_{2}(x^{2} + 2 x)$ có đạo hàm\n\nA. $f'(x)=\\dfrac{(2 x + 2)\\ln 2}{x^{2} + 2 x}$.\nB. $f'(x)=\\dfrac{2 x + 2}{(x^{2} + 2 x)\\ln 2}$.\nC. $f'(x)=\\dfrac{\\ln 2}{x^{2} + 2 x}$.\nD. $f'(x)=\\dfrac{1}{(x^{2} + 2 x)\\ln 2}$.",
+    "dap_an": "B. $f'(x)=\\dfrac{2 x + 2}{(x^{2} + 2 x)\\ln 2}$.",
+    "loi_giai": "$f'(x)=\\dfrac{(x^{2} + 2 x)'}{(x^{2} + 2 x)\\ln 2}=\\dfrac{2 x + 2}{(x^{2} + 2 x)\\ln 2}$.",
+    "params": {
+      "a": "2",
+      "b": "2"
+    }
+  },
+  {
+    "id_goc": "p069_q28",
+    "ma_dang": "D34",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $f(x)=\\log_{5}(x^{2} - 3 x)$ có đạo hàm\n\nA. $f'(x)=\\dfrac{\\ln 5}{x^{2} - 3 x}$.\nB. $f'(x)=\\dfrac{1}{(x^{2} - 3 x)\\ln 5}$.\nC. $f'(x)=\\dfrac{2 x - 3}{(x^{2} - 3 x)\\ln 5}$.\nD. $f'(x)=\\dfrac{(2 x - 3)\\ln 5}{x^{2} - 3 x}$.",
+    "dap_an": "C. $f'(x)=\\dfrac{2 x - 3}{(x^{2} - 3 x)\\ln 5}$.",
+    "loi_giai": "$f'(x)=\\dfrac{(x^{2} - 3 x)'}{(x^{2} - 3 x)\\ln 5}=\\dfrac{2 x - 3}{(x^{2} - 3 x)\\ln 5}$.",
+    "params": {
+      "a": "5",
+      "b": "-3"
+    }
+  },
+  {
+    "id_goc": "p069_q28",
+    "ma_dang": "D34",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $f(x)=\\log_{3}(x^{2} - x)$ có đạo hàm\n\nA. $f'(x)=\\dfrac{1}{(x^{2} - x)\\ln 3}$.\nB. $f'(x)=\\dfrac{\\ln 3}{x^{2} - x}$.\nC. $f'(x)=\\dfrac{2 x - 1}{(x^{2} - x)\\ln 3}$.\nD. $f'(x)=\\dfrac{(2 x - 1)\\ln 3}{x^{2} - x}$.",
+    "dap_an": "C. $f'(x)=\\dfrac{2 x - 1}{(x^{2} - x)\\ln 3}$.",
+    "loi_giai": "$f'(x)=\\dfrac{(x^{2} - x)'}{(x^{2} - x)\\ln 3}=\\dfrac{2 x - 1}{(x^{2} - x)\\ln 3}$.",
+    "params": {
+      "a": "3",
+      "b": "-1"
+    }
+  },
+  {
+    "id_goc": "p069_q28",
+    "ma_dang": "D34",
+    "ten_dang": "Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $f(x)=\\log_{2}(x^{2} + 6 x)$ có đạo hàm\n\nA. $f'(x)=\\dfrac{\\ln 2}{x^{2} + 6 x}$.\nB. $f'(x)=\\dfrac{1}{(x^{2} + 6 x)\\ln 2}$.\nC. $f'(x)=\\dfrac{(2 x + 6)\\ln 2}{x^{2} + 6 x}$.\nD. $f'(x)=\\dfrac{2 x + 6}{(x^{2} + 6 x)\\ln 2}$.",
+    "dap_an": "D. $f'(x)=\\dfrac{2 x + 6}{(x^{2} + 6 x)\\ln 2}$.",
+    "loi_giai": "$f'(x)=\\dfrac{(x^{2} + 6 x)'}{(x^{2} + 6 x)\\ln 2}=\\dfrac{2 x + 6}{(x^{2} + 6 x)\\ln 2}$.",
+    "params": {
+      "a": "2",
+      "b": "6"
+    }
+  },
+  {
+    "id_goc": "p082_q21",
+    "ma_dang": "D38",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $5^{-1x}\\ge 5^{x^{2} - x - 9}$ là\n\nA. $[-3;3]$.\nB. $[-4;4]$.\nC. $(-\\infty;-3]\\cup[3;+\\infty)$.\nD. $(-\\infty;-4]\\cup[4;+\\infty)$.",
+    "dap_an": "A. $[-3;3]$.",
+    "loi_giai": "$5^{-1x}\\ge 5^{x^{2} - x - 9}\\Leftrightarrow -1x\\ge x^{2} - x - 9\\Leftrightarrow -3\\le x\\le 3$.",
+    "params": {
+      "a": "5",
+      "m": "-1",
+      "c": "0",
+      "b": "-1",
+      "d": "-9"
+    }
+  },
+  {
+    "id_goc": "p082_q21",
+    "ma_dang": "D38",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{0x+5}\\ge 2^{x^{2} - 2 x - 3}$ là\n\nA. $[-3;5]$.\nB. $(-\\infty;-2]\\cup[4;+\\infty)$.\nC. $[-2;4]$.\nD. $(-\\infty;-3]\\cup[5;+\\infty)$.",
+    "dap_an": "C. $[-2;4]$.",
+    "loi_giai": "$2^{0x+5}\\ge 2^{x^{2} - 2 x - 3}\\Leftrightarrow 0x+5\\ge x^{2} - 2 x - 3\\Leftrightarrow -2\\le x\\le 4$.",
+    "params": {
+      "a": "2",
+      "m": "0",
+      "c": "5",
+      "b": "-2",
+      "d": "-3"
+    }
+  },
+  {
+    "id_goc": "p082_q21",
+    "ma_dang": "D38",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^{1x+2}\\ge 3^{x^{2} - 4}$ là\n\nA. $[-2;3]$.\nB. $[-3;4]$.\nC. $(-\\infty;-3]\\cup[4;+\\infty)$.\nD. $(-\\infty;-2]\\cup[3;+\\infty)$.",
+    "dap_an": "A. $[-2;3]$.",
+    "loi_giai": "$3^{1x+2}\\ge 3^{x^{2} - 4}\\Leftrightarrow 1x+2\\ge x^{2} - 4\\Leftrightarrow -2\\le x\\le 3$.",
+    "params": {
+      "a": "3",
+      "m": "1",
+      "c": "2",
+      "b": "0",
+      "d": "-4"
+    }
+  },
+  {
+    "id_goc": "p082_q21",
+    "ma_dang": "D38",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{-2x+1}\\ge 2^{x^{2} - x - 8}$ là\n\nA. $[- \\dfrac{\\sqrt{37}}{2} - \\dfrac{1}{2};- \\dfrac{1}{2} + \\dfrac{\\sqrt{37}}{2}]$.\nB. $(-\\infty;- \\dfrac{\\sqrt{37}}{2} - \\dfrac{1}{2}]\\cup[- \\dfrac{1}{2} + \\dfrac{\\sqrt{37}}{2};+\\infty)$.\nC. $(-\\infty;- \\dfrac{\\sqrt{37}}{2} - \\dfrac{3}{2}]\\cup[\\dfrac{1}{2} + \\dfrac{\\sqrt{37}}{2};+\\infty)$.\nD. $[- \\dfrac{\\sqrt{37}}{2} - \\dfrac{3}{2};\\dfrac{1}{2} + \\dfrac{\\sqrt{37}}{2}]$.",
+    "dap_an": "A. $[- \\dfrac{\\sqrt{37}}{2} - \\dfrac{1}{2};- \\dfrac{1}{2} + \\dfrac{\\sqrt{37}}{2}]$.",
+    "loi_giai": "$2^{-2x+1}\\ge 2^{x^{2} - x - 8}\\Leftrightarrow -2x+1\\ge x^{2} - x - 8\\Leftrightarrow - \\dfrac{\\sqrt{37}}{2} - \\dfrac{1}{2}\\le x\\le - \\dfrac{1}{2} + \\dfrac{\\sqrt{37}}{2}$.",
+    "params": {
+      "a": "2",
+      "m": "-2",
+      "c": "1",
+      "b": "-1",
+      "d": "-8"
+    }
+  },
+  {
+    "id_goc": "p082_q21",
+    "ma_dang": "D38",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $5^{2x}\\ge 5^{x^{2} - x - 6}$ là\n\nA. $[\\dfrac{3}{2} - \\dfrac{\\sqrt{33}}{2};\\dfrac{3}{2} + \\dfrac{\\sqrt{33}}{2}]$.\nB. $[\\dfrac{1}{2} - \\dfrac{\\sqrt{33}}{2};\\dfrac{5}{2} + \\dfrac{\\sqrt{33}}{2}]$.\nC. $(-\\infty;\\dfrac{3}{2} - \\dfrac{\\sqrt{33}}{2}]\\cup[\\dfrac{3}{2} + \\dfrac{\\sqrt{33}}{2};+\\infty)$.\nD. $(-\\infty;\\dfrac{1}{2} - \\dfrac{\\sqrt{33}}{2}]\\cup[\\dfrac{5}{2} + \\dfrac{\\sqrt{33}}{2};+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{3}{2} - \\dfrac{\\sqrt{33}}{2};\\dfrac{3}{2} + \\dfrac{\\sqrt{33}}{2}]$.",
+    "loi_giai": "$5^{2x}\\ge 5^{x^{2} - x - 6}\\Leftrightarrow 2x\\ge x^{2} - x - 6\\Leftrightarrow \\dfrac{3}{2} - \\dfrac{\\sqrt{33}}{2}\\le x\\le \\dfrac{3}{2} + \\dfrac{\\sqrt{33}}{2}$.",
+    "params": {
+      "a": "5",
+      "m": "2",
+      "c": "0",
+      "b": "-1",
+      "d": "-6"
+    }
+  },
+  {
+    "id_goc": "p082_q21",
+    "ma_dang": "D38",
+    "ten_dang": "Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^{1x+3}\\ge 2^{x^{2} - 5}$ là\n\nA. $(-\\infty;\\dfrac{1}{2} - \\dfrac{\\sqrt{33}}{2}]\\cup[\\dfrac{1}{2} + \\dfrac{\\sqrt{33}}{2};+\\infty)$.\nB. $[- \\dfrac{\\sqrt{33}}{2} - \\dfrac{1}{2};\\dfrac{3}{2} + \\dfrac{\\sqrt{33}}{2}]$.\nC. $[\\dfrac{1}{2} - \\dfrac{\\sqrt{33}}{2};\\dfrac{1}{2} + \\dfrac{\\sqrt{33}}{2}]$.\nD. $(-\\infty;- \\dfrac{\\sqrt{33}}{2} - \\dfrac{1}{2}]\\cup[\\dfrac{3}{2} + \\dfrac{\\sqrt{33}}{2};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{1}{2} - \\dfrac{\\sqrt{33}}{2};\\dfrac{1}{2} + \\dfrac{\\sqrt{33}}{2}]$.",
+    "loi_giai": "$2^{1x+3}\\ge 2^{x^{2} - 5}\\Leftrightarrow 1x+3\\ge x^{2} - 5\\Leftrightarrow \\dfrac{1}{2} - \\dfrac{\\sqrt{33}}{2}\\le x\\le \\dfrac{1}{2} + \\dfrac{\\sqrt{33}}{2}$.",
+    "params": {
+      "a": "2",
+      "m": "1",
+      "c": "3",
+      "b": "0",
+      "d": "-5"
+    }
+  },
+  {
+    "id_goc": "p093_q05",
+    "ma_dang": "D42",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit cơ bản y=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{3}x$ là\n\nA. $(0;+\\infty)$.\nB. $[0;+\\infty)$.\nC. $[3;+\\infty)$.\nD. $(-\\infty;+\\infty)$.",
+    "dap_an": "A. $(0;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. Vậy tập xác định là $\\mathscr{D}=(0;+\\infty)$.",
+    "params": {
+      "a": "3"
+    }
+  },
+  {
+    "id_goc": "p093_q05",
+    "ma_dang": "D42",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit cơ bản y=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{4}x$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;+\\infty)$.\nC. $[0;+\\infty)$.\nD. $[4;+\\infty)$.",
+    "dap_an": "A. $(0;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. Vậy tập xác định là $\\mathscr{D}=(0;+\\infty)$.",
+    "params": {
+      "a": "4"
+    }
+  },
+  {
+    "id_goc": "p093_q05",
+    "ma_dang": "D42",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit cơ bản y=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{5}x$ là\n\nA. $(0;+\\infty)$.\nB. $[5;+\\infty)$.\nC. $(-\\infty;+\\infty)$.\nD. $[0;+\\infty)$.",
+    "dap_an": "A. $(0;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. Vậy tập xác định là $\\mathscr{D}=(0;+\\infty)$.",
+    "params": {
+      "a": "5"
+    }
+  },
+  {
+    "id_goc": "p093_q05",
+    "ma_dang": "D42",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit cơ bản y=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{7}x$ là\n\nA. $(0;+\\infty)$.\nB. $[0;+\\infty)$.\nC. $[7;+\\infty)$.\nD. $(-\\infty;+\\infty)$.",
+    "dap_an": "A. $(0;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. Vậy tập xác định là $\\mathscr{D}=(0;+\\infty)$.",
+    "params": {
+      "a": "7"
+    }
+  },
+  {
+    "id_goc": "p093_q05",
+    "ma_dang": "D42",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit cơ bản y=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{8}x$ là\n\nA. $[8;+\\infty)$.\nB. $[0;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;+\\infty)$.",
+    "dap_an": "C. $(0;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. Vậy tập xác định là $\\mathscr{D}=(0;+\\infty)$.",
+    "params": {
+      "a": "8"
+    }
+  },
+  {
+    "id_goc": "p093_q05",
+    "ma_dang": "D42",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit cơ bản y=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{9}x$ là\n\nA. $(-\\infty;+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[9;+\\infty)$.\nD. $[0;+\\infty)$.",
+    "dap_an": "B. $(0;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. Vậy tập xác định là $\\mathscr{D}=(0;+\\infty)$.",
+    "params": {
+      "a": "9"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 1$ là\n\nA. $(0;+\\infty)$.\nB. $(10;+\\infty)$.\nC. $[10;+\\infty)$.\nD. $(-\\infty;10)$.",
+    "dap_an": "C. $[10;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 1\\Leftrightarrow x\\ge 10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10;+\\infty)$.",
+    "params": {
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 2$ là\n\nA. $(100;+\\infty)$.\nB. $(-\\infty;100)$.\nC. $(0;+\\infty)$.\nD. $[100;+\\infty)$.",
+    "dap_an": "D. $[100;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 2\\Leftrightarrow x\\ge 100$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100;+\\infty)$.",
+    "params": {
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 3$ là\n\nA. $[1000;+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(1000;+\\infty)$.\nD. $(-\\infty;1000)$.",
+    "dap_an": "A. $[1000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 3\\Leftrightarrow x\\ge 1000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000;+\\infty)$.",
+    "params": {
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -1$ là\n\nA. $(-\\infty;1/10)$.\nB. $(1/10;+\\infty)$.\nC. $[1/10;+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[1/10;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -1\\Leftrightarrow x\\ge 1/10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1/10;+\\infty)$.",
+    "params": {
+      "k": "-1"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 0$ là\n\nA. $(-\\infty;1)$.\nB. $[1;+\\infty)$.\nC. $(1;+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[1;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 0\\Leftrightarrow x\\ge 1$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1;+\\infty)$.",
+    "params": {
+      "k": "0"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 4$ là\n\nA. $(10000;+\\infty)$.\nB. $[10000;+\\infty)$.\nC. $(-\\infty;10000)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[10000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 4\\Leftrightarrow x\\ge 10000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000;+\\infty)$.",
+    "params": {
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p109_q07",
+    "ma_dang": "D48",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^x>6$ là\n\nA. $(\\log_{2} 6;+\\infty)$.\nB. $(-\\infty;\\log_{2} 6)$.\nC. $(\\log_{6} 2;+\\infty)$.\nD. $(-\\infty;\\log_{6} 2)$.",
+    "dap_an": "A. $(\\log_{2} 6;+\\infty)$.",
+    "loi_giai": "Ta có $2^x>6\\Leftrightarrow x>\\log_{2}6$.",
+    "params": {
+      "a": "2",
+      "c": "6",
+      "direction": ">"
+    }
+  },
+  {
+    "id_goc": "p109_q07",
+    "ma_dang": "D48",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^x>10$ là\n\nA. $(-\\infty;\\log_{3} 10)$.\nB. $(\\log_{10} 3;+\\infty)$.\nC. $(\\log_{3} 10;+\\infty)$.\nD. $(-\\infty;\\log_{10} 3)$.",
+    "dap_an": "C. $(\\log_{3} 10;+\\infty)$.",
+    "loi_giai": "Ta có $3^x>10\\Leftrightarrow x>\\log_{3}10$.",
+    "params": {
+      "a": "3",
+      "c": "10",
+      "direction": ">"
+    }
+  },
+  {
+    "id_goc": "p109_q07",
+    "ma_dang": "D48",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^x>7$ là\n\nA. $(\\log_{2} 7;+\\infty)$.\nB. $(\\log_{7} 2;+\\infty)$.\nC. $(-\\infty;\\log_{7} 2)$.\nD. $(-\\infty;\\log_{2} 7)$.",
+    "dap_an": "A. $(\\log_{2} 7;+\\infty)$.",
+    "loi_giai": "Ta có $2^x>7\\Leftrightarrow x>\\log_{2}7$.",
+    "params": {
+      "a": "2",
+      "c": "7",
+      "direction": ">"
+    }
+  },
+  {
+    "id_goc": "p109_q07",
+    "ma_dang": "D48",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $5^x>30$ là\n\nA. $(-\\infty;\\log_{5} 30)$.\nB. $(\\log_{5} 30;+\\infty)$.\nC. $(\\log_{30} 5;+\\infty)$.\nD. $(-\\infty;\\log_{30} 5)$.",
+    "dap_an": "B. $(\\log_{5} 30;+\\infty)$.",
+    "loi_giai": "Ta có $5^x>30\\Leftrightarrow x>\\log_{5}30$.",
+    "params": {
+      "a": "5",
+      "c": "30",
+      "direction": ">"
+    }
+  },
+  {
+    "id_goc": "p109_q07",
+    "ma_dang": "D48",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^x>5$ là\n\nA. $(-\\infty;\\log_{5} 3)$.\nB. $(\\log_{5} 3;+\\infty)$.\nC. $(-\\infty;\\log_{3} 5)$.\nD. $(\\log_{3} 5;+\\infty)$.",
+    "dap_an": "D. $(\\log_{3} 5;+\\infty)$.",
+    "loi_giai": "Ta có $3^x>5\\Leftrightarrow x>\\log_{3}5$.",
+    "params": {
+      "a": "3",
+      "c": "5",
+      "direction": ">"
+    }
+  },
+  {
+    "id_goc": "p109_q07",
+    "ma_dang": "D48",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^x>11$ là\n\nA. $(\\log_{11} 2;+\\infty)$.\nB. $(-\\infty;\\log_{11} 2)$.\nC. $(\\log_{2} 11;+\\infty)$.\nD. $(-\\infty;\\log_{2} 11)$.",
+    "dap_an": "C. $(\\log_{2} 11;+\\infty)$.",
+    "loi_giai": "Ta có $2^x>11\\Leftrightarrow x>\\log_{2}11$.",
+    "params": {
+      "a": "2",
+      "c": "11",
+      "direction": ">"
+    }
+  },
+  {
+    "id_goc": "p210_q26",
+    "ma_dang": "D82",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^x<5$ là\n\nA. $(-\\infty;\\log_{2} 5)$.\nB. $(-\\infty;\\log_{5} 2)$.\nC. $(\\log_{5} 2;+\\infty)$.\nD. $(\\log_{2} 5;+\\infty)$.",
+    "dap_an": "A. $(-\\infty;\\log_{2} 5)$.",
+    "loi_giai": "Ta có $2^x<5\\Leftrightarrow x<\\log_{2}5$.",
+    "params": {
+      "a": "2",
+      "c": "5",
+      "direction": "<"
+    }
+  },
+  {
+    "id_goc": "p210_q26",
+    "ma_dang": "D82",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^x<7$ là\n\nA. $(-\\infty;\\log_{7} 3)$.\nB. $(\\log_{3} 7;+\\infty)$.\nC. $(-\\infty;\\log_{3} 7)$.\nD. $(\\log_{7} 3;+\\infty)$.",
+    "dap_an": "C. $(-\\infty;\\log_{3} 7)$.",
+    "loi_giai": "Ta có $3^x<7\\Leftrightarrow x<\\log_{3}7$.",
+    "params": {
+      "a": "3",
+      "c": "7",
+      "direction": "<"
+    }
+  },
+  {
+    "id_goc": "p210_q26",
+    "ma_dang": "D82",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^x<9$ là\n\nA. $(-\\infty;\\log_{9} 2)$.\nB. $(-\\infty;\\log_{2} 9)$.\nC. $(\\log_{2} 9;+\\infty)$.\nD. $(\\log_{9} 2;+\\infty)$.",
+    "dap_an": "B. $(-\\infty;\\log_{2} 9)$.",
+    "loi_giai": "Ta có $2^x<9\\Leftrightarrow x<\\log_{2}9$.",
+    "params": {
+      "a": "2",
+      "c": "9",
+      "direction": "<"
+    }
+  },
+  {
+    "id_goc": "p210_q26",
+    "ma_dang": "D82",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $5^x<20$ là\n\nA. $(-\\infty;\\log_{20} 5)$.\nB. $(\\log_{20} 5;+\\infty)$.\nC. $(-\\infty;\\log_{5} 20)$.\nD. $(\\log_{5} 20;+\\infty)$.",
+    "dap_an": "C. $(-\\infty;\\log_{5} 20)$.",
+    "loi_giai": "Ta có $5^x<20\\Leftrightarrow x<\\log_{5}20$.",
+    "params": {
+      "a": "5",
+      "c": "20",
+      "direction": "<"
+    }
+  },
+  {
+    "id_goc": "p210_q26",
+    "ma_dang": "D82",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $3^x<8$ là\n\nA. $(\\log_{8} 3;+\\infty)$.\nB. $(\\log_{3} 8;+\\infty)$.\nC. $(-\\infty;\\log_{8} 3)$.\nD. $(-\\infty;\\log_{3} 8)$.",
+    "dap_an": "D. $(-\\infty;\\log_{3} 8)$.",
+    "loi_giai": "Ta có $3^x<8\\Leftrightarrow x<\\log_{3}8$.",
+    "params": {
+      "a": "3",
+      "c": "8",
+      "direction": "<"
+    }
+  },
+  {
+    "id_goc": "p210_q26",
+    "ma_dang": "D82",
+    "ten_dang": "Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $2^x<13$ là\n\nA. $(\\log_{13} 2;+\\infty)$.\nB. $(\\log_{2} 13;+\\infty)$.\nC. $(-\\infty;\\log_{13} 2)$.\nD. $(-\\infty;\\log_{2} 13)$.",
+    "dap_an": "D. $(-\\infty;\\log_{2} 13)$.",
+    "loi_giai": "Ta có $2^x<13\\Leftrightarrow x<\\log_{2}13$.",
+    "params": {
+      "a": "2",
+      "c": "13",
+      "direction": "<"
+    }
+  },
+  {
+    "id_goc": "p127_q34",
+    "ma_dang": "D55",
+    "ten_dang": "Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tích tất cả các nghiệm của phương trình $\\ln^2 x + 2\\ln x + -3 = 0$ bằng\n\nA. $e^{-4}$.\nB. $-3$.\nC. $e^{-2}$.\nD. $-2$.",
+    "dap_an": "C. $e^{-2}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\ln^2x+2\\ln x+-3=0 \\Leftrightarrow \\ln x=-3$ hay $\\ln x=1$. Vậy tích các nghiệm là $e^{-3}\\cdot e^{1}=e^{-2}$.",
+    "params": {
+      "p": "2",
+      "q": "-3"
+    }
+  },
+  {
+    "id_goc": "p127_q34",
+    "ma_dang": "D55",
+    "ten_dang": "Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tích tất cả các nghiệm của phương trình $\\ln^2 x + 1\\ln x + -2 = 0$ bằng\n\nA. $e^{-1}$.\nB. $-2$.\nC. $e^{-3}$.\nD. $-1$.",
+    "dap_an": "A. $e^{-1}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\ln^2x+1\\ln x+-2=0 \\Leftrightarrow \\ln x=-2$ hay $\\ln x=1$. Vậy tích các nghiệm là $e^{-2}\\cdot e^{1}=e^{-1}$.",
+    "params": {
+      "p": "1",
+      "q": "-2"
+    }
+  },
+  {
+    "id_goc": "p127_q34",
+    "ma_dang": "D55",
+    "ten_dang": "Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tích tất cả các nghiệm của phương trình $\\ln^2 x + 3\\ln x + -4 = 0$ bằng\n\nA. $e^{-3}$.\nB. $-3$.\nC. $e^{-5}$.\nD. $-4$.",
+    "dap_an": "A. $e^{-3}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\ln^2x+3\\ln x+-4=0 \\Leftrightarrow \\ln x=-4$ hay $\\ln x=1$. Vậy tích các nghiệm là $e^{-4}\\cdot e^{1}=e^{-3}$.",
+    "params": {
+      "p": "3",
+      "q": "-4"
+    }
+  },
+  {
+    "id_goc": "p127_q34",
+    "ma_dang": "D55",
+    "ten_dang": "Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tích tất cả các nghiệm của phương trình $\\ln^2 x + 2\\ln x + -8 = 0$ bằng\n\nA. $-2$.\nB. $-8$.\nC. $e^{-6}$.\nD. $e^{-2}$.",
+    "dap_an": "D. $e^{-2}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\ln^2x+2\\ln x+-8=0 \\Leftrightarrow \\ln x=-4$ hay $\\ln x=2$. Vậy tích các nghiệm là $e^{-4}\\cdot e^{2}=e^{-2}$.",
+    "params": {
+      "p": "2",
+      "q": "-8"
+    }
+  },
+  {
+    "id_goc": "p127_q34",
+    "ma_dang": "D55",
+    "ten_dang": "Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tích tất cả các nghiệm của phương trình $\\ln^2 x + 1\\ln x + -6 = 0$ bằng\n\nA. $-1$.\nB. $e^{-1}$.\nC. $e^{-5}$.\nD. $-6$.",
+    "dap_an": "B. $e^{-1}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\ln^2x+1\\ln x+-6=0 \\Leftrightarrow \\ln x=-3$ hay $\\ln x=2$. Vậy tích các nghiệm là $e^{-3}\\cdot e^{2}=e^{-1}$.",
+    "params": {
+      "p": "1",
+      "q": "-6"
+    }
+  },
+  {
+    "id_goc": "p127_q34",
+    "ma_dang": "D55",
+    "ten_dang": "Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tích tất cả các nghiệm của phương trình $\\ln^2 x + 4\\ln x + -5 = 0$ bằng\n\nA. $-5$.\nB. $e^{-4}$.\nC. $e^{-6}$.\nD. $-4$.",
+    "dap_an": "B. $e^{-4}$.",
+    "loi_giai": "Điều kiện $x>0$. $\\ln^2x+4\\ln x+-5=0 \\Leftrightarrow \\ln x=-5$ hay $\\ln x=1$. Vậy tích các nghiệm là $e^{-5}\\cdot e^{1}=e^{-4}$.",
+    "params": {
+      "p": "4",
+      "q": "-5"
+    }
+  },
+  {
+    "id_goc": "p137_q01",
+    "ma_dang": "D58",
+    "ten_dang": "Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $2^{2x}+1\\cdot2^{x+1}-3=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-3=0$.\nB. $t^2-2t-3=0$.\nC. $t^2+t-3=0$.\nD. $t^2+2t+3=0$.",
+    "dap_an": "A. $t^2+2t-3=0$.",
+    "loi_giai": "Ta có $2^{2x}+1\\cdot2^{x+1}-3=0 \\Leftrightarrow (2^x)^2+12\\cdot2^x-3=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-3=0$.",
+    "params": {
+      "a": "2",
+      "k": "1",
+      "c": "3"
+    }
+  },
+  {
+    "id_goc": "p137_q01",
+    "ma_dang": "D58",
+    "ten_dang": "Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-5=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-4t-5=0$.\nB. $t^2+4t+5=0$.\nC. $t^2+2t-5=0$.\nD. $t^2+4t-5=0$.",
+    "dap_an": "D. $t^2+4t-5=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-5=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-5=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-5=0$.",
+    "params": {
+      "a": "2",
+      "k": "2",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p137_q01",
+    "ma_dang": "D58",
+    "ten_dang": "Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $3^{2x}+1\\cdot3^{x+1}-4=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-3t-4=0$.\nB. $t^2+3t+4=0$.\nC. $t^2+3t-4=0$.\nD. $t^2+t-4=0$.",
+    "dap_an": "C. $t^2+3t-4=0$.",
+    "loi_giai": "Ta có $3^{2x}+1\\cdot3^{x+1}-4=0 \\Leftrightarrow (3^x)^2+13\\cdot3^x-4=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+3t-4=0$.",
+    "params": {
+      "a": "3",
+      "k": "1",
+      "c": "4"
+    }
+  },
+  {
+    "id_goc": "p137_q01",
+    "ma_dang": "D58",
+    "ten_dang": "Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $2^{2x}+1\\cdot2^{x+1}-8=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-2t-8=0$.\nB. $t^2+2t-8=0$.\nC. $t^2+t-8=0$.\nD. $t^2+2t+8=0$.",
+    "dap_an": "B. $t^2+2t-8=0$.",
+    "loi_giai": "Ta có $2^{2x}+1\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+12\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-8=0$.",
+    "params": {
+      "a": "2",
+      "k": "1",
+      "c": "8"
+    }
+  },
+  {
+    "id_goc": "p137_q01",
+    "ma_dang": "D58",
+    "ten_dang": "Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $3^{2x}+2\\cdot3^{x+1}-7=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t+7=0$.\nB. $t^2+6t-7=0$.\nC. $t^2+2t-7=0$.\nD. $t^2-6t-7=0$.",
+    "dap_an": "B. $t^2+6t-7=0$.",
+    "loi_giai": "Ta có $3^{2x}+2\\cdot3^{x+1}-7=0 \\Leftrightarrow (3^x)^2+23\\cdot3^x-7=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+6t-7=0$.",
+    "params": {
+      "a": "3",
+      "k": "2",
+      "c": "7"
+    }
+  },
+  {
+    "id_goc": "p137_q01",
+    "ma_dang": "D58",
+    "ten_dang": "Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $2^{2x}+3\\cdot2^{x+1}-9=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-6t-9=0$.\nB. $t^2+6t-9=0$.\nC. $t^2+6t+9=0$.\nD. $t^2+3t-9=0$.",
+    "dap_an": "B. $t^2+6t-9=0$.",
+    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-9=0 \\Leftrightarrow (2^x)^2+32\\cdot2^x-9=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-9=0$.",
+    "params": {
+      "a": "2",
+      "k": "3",
+      "c": "9"
+    }
+  },
+  {
+    "id_goc": "p139_q16",
+    "ma_dang": "D61",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của một phân thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $D$ của hàm số $y=\\log_{5}\\dfrac{x-3}{x+2}$.\n\nA. $D=(-\\infty;-2]\\cup[3;+\\infty)$.\nB. $D=(-2;3)$.\nC. $D=\\mathbb{R}\\setminus\\{-2\\}$.\nD. $D=(-\\infty;-2)\\cup(3;+\\infty)$.",
+    "dap_an": "D. $D=(-\\infty;-2)\\cup(3;+\\infty)$.",
+    "loi_giai": "ĐK: $\\dfrac{x-3}{x+2}>0 \\Leftrightarrow x<-2$ hoặc $x>3$.",
+    "params": {
+      "c": "5",
+      "p": "3",
+      "q": "2"
+    }
+  },
+  {
+    "id_goc": "p139_q16",
+    "ma_dang": "D61",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của một phân thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $D$ của hàm số $y=\\log_{2}\\dfrac{x-4}{x+1}$.\n\nA. $D=\\mathbb{R}\\setminus\\{-1\\}$.\nB. $D=(-1;4)$.\nC. $D=(-\\infty;-1)\\cup(4;+\\infty)$.\nD. $D=(-\\infty;-1]\\cup[4;+\\infty)$.",
+    "dap_an": "C. $D=(-\\infty;-1)\\cup(4;+\\infty)$.",
+    "loi_giai": "ĐK: $\\dfrac{x-4}{x+1}>0 \\Leftrightarrow x<-1$ hoặc $x>4$.",
+    "params": {
+      "c": "2",
+      "p": "4",
+      "q": "1"
+    }
+  },
+  {
+    "id_goc": "p139_q16",
+    "ma_dang": "D61",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của một phân thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $D$ của hàm số $y=\\log_{3}\\dfrac{x-5}{x+3}$.\n\nA. $D=(-3;5)$.\nB. $D=(-\\infty;-3]\\cup[5;+\\infty)$.\nC. $D=(-\\infty;-3)\\cup(5;+\\infty)$.\nD. $D=\\mathbb{R}\\setminus\\{-3\\}$.",
+    "dap_an": "C. $D=(-\\infty;-3)\\cup(5;+\\infty)$.",
+    "loi_giai": "ĐK: $\\dfrac{x-5}{x+3}>0 \\Leftrightarrow x<-3$ hoặc $x>5$.",
+    "params": {
+      "c": "3",
+      "p": "5",
+      "q": "3"
+    }
+  },
+  {
+    "id_goc": "p139_q16",
+    "ma_dang": "D61",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của một phân thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $D$ của hàm số $y=\\log_{7}\\dfrac{x-2}{x+5}$.\n\nA. $D=(-\\infty;-5)\\cup(2;+\\infty)$.\nB. $D=(-\\infty;-5]\\cup[2;+\\infty)$.\nC. $D=(-5;2)$.\nD. $D=\\mathbb{R}\\setminus\\{-5\\}$.",
+    "dap_an": "A. $D=(-\\infty;-5)\\cup(2;+\\infty)$.",
+    "loi_giai": "ĐK: $\\dfrac{x-2}{x+5}>0 \\Leftrightarrow x<-5$ hoặc $x>2$.",
+    "params": {
+      "c": "7",
+      "p": "2",
+      "q": "5"
+    }
+  },
+  {
+    "id_goc": "p139_q16",
+    "ma_dang": "D61",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của một phân thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $D$ của hàm số $y=\\log_{2}\\dfrac{x-6}{x+2}$.\n\nA. $D=\\mathbb{R}\\setminus\\{-2\\}$.\nB. $D=(-\\infty;-2)\\cup(6;+\\infty)$.\nC. $D=(-\\infty;-2]\\cup[6;+\\infty)$.\nD. $D=(-2;6)$.",
+    "dap_an": "B. $D=(-\\infty;-2)\\cup(6;+\\infty)$.",
+    "loi_giai": "ĐK: $\\dfrac{x-6}{x+2}>0 \\Leftrightarrow x<-2$ hoặc $x>6$.",
+    "params": {
+      "c": "2",
+      "p": "6",
+      "q": "2"
+    }
+  },
+  {
+    "id_goc": "p139_q16",
+    "ma_dang": "D61",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit của một phân thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập xác định $D$ của hàm số $y=\\log_{5}\\dfrac{x-1}{x+4}$.\n\nA. $D=\\mathbb{R}\\setminus\\{-4\\}$.\nB. $D=(-\\infty;-4]\\cup[1;+\\infty)$.\nC. $D=(-\\infty;-4)\\cup(1;+\\infty)$.\nD. $D=(-4;1)$.",
+    "dap_an": "C. $D=(-\\infty;-4)\\cup(1;+\\infty)$.",
+    "loi_giai": "ĐK: $\\dfrac{x-1}{x+4}>0 \\Leftrightarrow x<-4$ hoặc $x>1$.",
+    "params": {
+      "c": "5",
+      "p": "1",
+      "q": "4"
+    }
+  },
+  {
+    "id_goc": "p139_q17",
+    "ma_dang": "D62",
+    "ten_dang": "Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{2}^2 x-5\\log_{2} x+4\\ge 0$.\n\nA. $(0;2]\\cup[16;+\\infty)$.\nB. $(-\\infty;2]\\cup[16;+\\infty)$.\nC. $[2;16]$.\nD. $(0;2)\\cup(16;+\\infty)$.",
+    "dap_an": "A. $(0;2]\\cup[16;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. $\\log_{2}x\\le1$ hoặc $\\log_{2}x\\ge4$ $\\Leftrightarrow 0<x\\le2$ hoặc $x\\ge16$.",
+    "params": {
+      "a": "2",
+      "r1": "1",
+      "r2": "4"
+    }
+  },
+  {
+    "id_goc": "p139_q17",
+    "ma_dang": "D62",
+    "ten_dang": "Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{3}^2 x-2\\log_{3} x\\ge 0$.\n\nA. $(0;1]\\cup[9;+\\infty)$.\nB. $(-\\infty;1]\\cup[9;+\\infty)$.\nC. $(0;1)\\cup(9;+\\infty)$.\nD. $[1;9]$.",
+    "dap_an": "A. $(0;1]\\cup[9;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. $\\log_{3}x\\le0$ hoặc $\\log_{3}x\\ge2$ $\\Leftrightarrow 0<x\\le1$ hoặc $x\\ge9$.",
+    "params": {
+      "a": "3",
+      "r1": "0",
+      "r2": "2"
+    }
+  },
+  {
+    "id_goc": "p139_q17",
+    "ma_dang": "D62",
+    "ten_dang": "Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{2}^2 x-2\\log_{2} x-3\\ge 0$.\n\nA. $(0;1/2)\\cup(8;+\\infty)$.\nB. $(-\\infty;1/2]\\cup[8;+\\infty)$.\nC. $(0;1/2]\\cup[8;+\\infty)$.\nD. $[1/2;8]$.",
+    "dap_an": "C. $(0;1/2]\\cup[8;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. $\\log_{2}x\\le-1$ hoặc $\\log_{2}x\\ge3$ $\\Leftrightarrow 0<x\\le1/2$ hoặc $x\\ge8$.",
+    "params": {
+      "a": "2",
+      "r1": "-1",
+      "r2": "3"
+    }
+  },
+  {
+    "id_goc": "p139_q17",
+    "ma_dang": "D62",
+    "ten_dang": "Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{5}^2 x-3\\log_{5} x+2\\ge 0$.\n\nA. $[5;25]$.\nB. $(-\\infty;5]\\cup[25;+\\infty)$.\nC. $(0;5]\\cup[25;+\\infty)$.\nD. $(0;5)\\cup(25;+\\infty)$.",
+    "dap_an": "C. $(0;5]\\cup[25;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. $\\log_{5}x\\le1$ hoặc $\\log_{5}x\\ge2$ $\\Leftrightarrow 0<x\\le5$ hoặc $x\\ge25$.",
+    "params": {
+      "a": "5",
+      "r1": "1",
+      "r2": "2"
+    }
+  },
+  {
+    "id_goc": "p139_q17",
+    "ma_dang": "D62",
+    "ten_dang": "Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{2}^2 x-3\\log_{2} x\\ge 0$.\n\nA. $(-\\infty;1]\\cup[8;+\\infty)$.\nB. $[1;8]$.\nC. $(0;1)\\cup(8;+\\infty)$.\nD. $(0;1]\\cup[8;+\\infty)$.",
+    "dap_an": "D. $(0;1]\\cup[8;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. $\\log_{2}x\\le0$ hoặc $\\log_{2}x\\ge3$ $\\Leftrightarrow 0<x\\le1$ hoặc $x\\ge8$.",
+    "params": {
+      "a": "2",
+      "r1": "0",
+      "r2": "3"
+    }
+  },
+  {
+    "id_goc": "p139_q17",
+    "ma_dang": "D62",
+    "ten_dang": "Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{3}^2 x-1\\log_{3} x-2\\ge 0$.\n\nA. $(0;1/3]\\cup[9;+\\infty)$.\nB. $(0;1/3)\\cup(9;+\\infty)$.\nC. $(-\\infty;1/3]\\cup[9;+\\infty)$.\nD. $[1/3;9]$.",
+    "dap_an": "A. $(0;1/3]\\cup[9;+\\infty)$.",
+    "loi_giai": "Điều kiện $x>0$. $\\log_{3}x\\le-1$ hoặc $\\log_{3}x\\ge2$ $\\Leftrightarrow 0<x\\le1/3$ hoặc $x\\ge9$.",
+    "params": {
+      "a": "3",
+      "r1": "-1",
+      "r2": "2"
+    }
+  },
+  {
+    "id_goc": "p145_q39",
+    "ma_dang": "D63",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm giá trị thực của tham số $m$ để phương trình $\\log_{3}^2 x-m\\log_{3} x+2m-7=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=81$.\n\nA. $m=12$.\nB. $m=81$.\nC. $m=-4$.\nD. $m=4$.",
+    "dap_an": "D. $m=4$.",
+    "loi_giai": "ĐK $x>0$. $x_1x_2=81\\Leftrightarrow \\log_{3}x_1+\\log_{3}x_2=4\\Leftrightarrow t_1+t_2=4$.\nĐặt $t=\\log_{3}x$: $t^2-mt+2m-7=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m=4\\Leftrightarrow m=4$.",
+    "params": {
+      "a": "3",
+      "k_coef": "2",
+      "C": "7",
+      "N_exp": "4"
+    }
+  },
+  {
+    "id_goc": "p145_q39",
+    "ma_dang": "D63",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm giá trị thực của tham số $m$ để phương trình $\\log_{2}^2 x-m\\log_{2} x+1m-3=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=8$.\n\nA. $m=-3$.\nB. $m=3$.\nC. $m=8$.\nD. $m=6$.",
+    "dap_an": "B. $m=3$.",
+    "loi_giai": "ĐK $x>0$. $x_1x_2=8\\Leftrightarrow \\log_{2}x_1+\\log_{2}x_2=3\\Leftrightarrow t_1+t_2=3$.\nĐặt $t=\\log_{2}x$: $t^2-mt+1m-3=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m=3\\Leftrightarrow m=3$.",
+    "params": {
+      "a": "2",
+      "k_coef": "1",
+      "C": "3",
+      "N_exp": "3"
+    }
+  },
+  {
+    "id_goc": "p145_q39",
+    "ma_dang": "D63",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm giá trị thực của tham số $m$ để phương trình $\\log_{3}^2 x-m\\log_{3} x+3m-10=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=243$.\n\nA. $m=15$.\nB. $m=5$.\nC. $m=243$.\nD. $m=-5$.",
+    "dap_an": "B. $m=5$.",
+    "loi_giai": "ĐK $x>0$. $x_1x_2=243\\Leftrightarrow \\log_{3}x_1+\\log_{3}x_2=5\\Leftrightarrow t_1+t_2=5$.\nĐặt $t=\\log_{3}x$: $t^2-mt+3m-10=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m=5\\Leftrightarrow m=5$.",
+    "params": {
+      "a": "3",
+      "k_coef": "3",
+      "C": "10",
+      "N_exp": "5"
+    }
+  },
+  {
+    "id_goc": "p145_q39",
+    "ma_dang": "D63",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm giá trị thực của tham số $m$ để phương trình $\\log_{5}^2 x-m\\log_{5} x+1m-2=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=25$.\n\nA. $m=2$.\nB. $m=10$.\nC. $m=25$.\nD. $m=-2$.",
+    "dap_an": "A. $m=2$.",
+    "loi_giai": "ĐK $x>0$. $x_1x_2=25\\Leftrightarrow \\log_{5}x_1+\\log_{5}x_2=2\\Leftrightarrow t_1+t_2=2$.\nĐặt $t=\\log_{5}x$: $t^2-mt+1m-2=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m=2\\Leftrightarrow m=2$.",
+    "params": {
+      "a": "5",
+      "k_coef": "1",
+      "C": "2",
+      "N_exp": "2"
+    }
+  },
+  {
+    "id_goc": "p145_q39",
+    "ma_dang": "D63",
+    "ten_dang": "Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm giá trị thực của tham số $m$ để phương trình $\\log_{2}^2 x-m\\log_{2} x+1m-5=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=32$.\n\nA. $m=5$.\nB. $m=-5$.\nC. $m=10$.\nD. $m=32$.",
+    "dap_an": "A. $m=5$.",
+    "loi_giai": "ĐK $x>0$. $x_1x_2=32\\Leftrightarrow \\log_{2}x_1+\\log_{2}x_2=5\\Leftrightarrow t_1+t_2=5$.\nĐặt $t=\\log_{2}x$: $t^2-mt+1m-5=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m=5\\Leftrightarrow m=5$.",
+    "params": {
+      "a": "2",
+      "k_coef": "1",
+      "C": "5",
+      "N_exp": "5"
+    }
+  },
+  {
+    "id_goc": "p173_q16",
+    "ma_dang": "D71",
+    "ten_dang": "Giải phương trình lôgarit chuyển vế rồi dùng công thức cộng lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x+1)=1+\\log_{2}(x+-1)$ là\n\nA. $x=3$.\nB. $x=2$.\nC. $x=-3$.\nD. $x=4$.",
+    "dap_an": "A. $x=3$.",
+    "loi_giai": "Điều kiện $x>1$. $\\log_{2}(x+1)=1+\\log_{2}(x+-1)\\Leftrightarrow x+1=2(x+-1)\\Leftrightarrow x=3$.",
+    "params": {
+      "a": "2",
+      "p": "1",
+      "q": "-1"
+    }
+  },
+  {
+    "id_goc": "p173_q16",
+    "ma_dang": "D71",
+    "ten_dang": "Giải phương trình lôgarit chuyển vế rồi dùng công thức cộng lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(x+2)=1+\\log_{3}(x+-1)$ là\n\nA. $x=\\dfrac{5}{2}$.\nB. $x=\\dfrac{7}{2}$.\nC. $x=- \\dfrac{5}{2}$.\nD. $x=\\dfrac{3}{2}$.",
+    "dap_an": "A. $x=\\dfrac{5}{2}$.",
+    "loi_giai": "Điều kiện $x>1$. $\\log_{3}(x+2)=1+\\log_{3}(x+-1)\\Leftrightarrow x+2=3(x+-1)\\Leftrightarrow x=\\dfrac{5}{2}$.",
+    "params": {
+      "a": "3",
+      "p": "2",
+      "q": "-1"
+    }
+  },
+  {
+    "id_goc": "p173_q16",
+    "ma_dang": "D71",
+    "ten_dang": "Giải phương trình lôgarit chuyển vế rồi dùng công thức cộng lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{2}(x+3)=1+\\log_{2}(x+1)$ là\n\nA. $x=-1$.\nB. $x=1$.\nC. $x=0$.\nD. $x=2$.",
+    "dap_an": "B. $x=1$.",
+    "loi_giai": "Điều kiện $x>-1$. $\\log_{2}(x+3)=1+\\log_{2}(x+1)\\Leftrightarrow x+3=2(x+1)\\Leftrightarrow x=1$.",
+    "params": {
+      "a": "2",
+      "p": "3",
+      "q": "1"
+    }
+  },
+  {
+    "id_goc": "p173_q16",
+    "ma_dang": "D71",
+    "ten_dang": "Giải phương trình lôgarit chuyển vế rồi dùng công thức cộng lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{5}(x+1)=1+\\log_{5}(x+-2)$ là\n\nA. $x=\\dfrac{7}{4}$.\nB. $x=- \\dfrac{11}{4}$.\nC. $x=\\dfrac{11}{4}$.\nD. $x=\\dfrac{15}{4}$.",
+    "dap_an": "C. $x=\\dfrac{11}{4}$.",
+    "loi_giai": "Điều kiện $x>2$. $\\log_{5}(x+1)=1+\\log_{5}(x+-2)\\Leftrightarrow x+1=5(x+-2)\\Leftrightarrow x=\\dfrac{11}{4}$.",
+    "params": {
+      "a": "5",
+      "p": "1",
+      "q": "-2"
+    }
+  },
+  {
+    "id_goc": "p173_q16",
+    "ma_dang": "D71",
+    "ten_dang": "Giải phương trình lôgarit chuyển vế rồi dùng công thức cộng lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $\\log_{3}(x+1)=1+\\log_{3}(x+-2)$ là\n\nA. $x=- \\dfrac{7}{2}$.\nB. $x=\\dfrac{9}{2}$.\nC. $x=\\dfrac{5}{2}$.\nD. $x=\\dfrac{7}{2}$.",
+    "dap_an": "D. $x=\\dfrac{7}{2}$.",
+    "loi_giai": "Điều kiện $x>2$. $\\log_{3}(x+1)=1+\\log_{3}(x+-2)\\Leftrightarrow x+1=3(x+-2)\\Leftrightarrow x=\\dfrac{7}{2}$.",
+    "params": {
+      "a": "3",
+      "p": "1",
+      "q": "-2"
+    }
+  },
+  {
+    "id_goc": "p176_q26",
+    "ma_dang": "D73",
+    "ten_dang": "Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $y=3^{x^{2} - 3 x}$ có đạo hàm là\n\nA. $(2 x - 3)\\cdot3^{x^{2} - 3 x}$.\nB. $(2 x - 3)\\cdot3^{x^{2} - 3 x}\\cdot\\ln3$.\nC. $3^{x^{2} - 3 x}\\cdot\\ln3$.\nD. $(x^{2} - 3 x)\\cdot3^{x^{2} - 3 x-1}$.",
+    "dap_an": "B. $(2 x - 3)\\cdot3^{x^{2} - 3 x}\\cdot\\ln3$.",
+    "loi_giai": "$y'=\\left(x^{2} - 3 x\\right)'\\cdot3^{x^{2} - 3 x}\\cdot\\ln3=(2 x - 3)\\cdot3^{x^{2} - 3 x}\\cdot\\ln3$.",
+    "params": {
+      "a": "3",
+      "b": "-3"
+    }
+  },
+  {
+    "id_goc": "p176_q26",
+    "ma_dang": "D73",
+    "ten_dang": "Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $y=2^{x^{2} - x}$ có đạo hàm là\n\nA. $2^{x^{2} - x}\\cdot\\ln2$.\nB. $(2 x - 1)\\cdot2^{x^{2} - x}\\cdot\\ln2$.\nC. $(x^{2} - x)\\cdot2^{x^{2} - x-1}$.\nD. $(2 x - 1)\\cdot2^{x^{2} - x}$.",
+    "dap_an": "B. $(2 x - 1)\\cdot2^{x^{2} - x}\\cdot\\ln2$.",
+    "loi_giai": "$y'=\\left(x^{2} - x\\right)'\\cdot2^{x^{2} - x}\\cdot\\ln2=(2 x - 1)\\cdot2^{x^{2} - x}\\cdot\\ln2$.",
+    "params": {
+      "a": "2",
+      "b": "-1"
+    }
+  },
+  {
+    "id_goc": "p176_q26",
+    "ma_dang": "D73",
+    "ten_dang": "Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $y=5^{x^{2} + 2 x}$ có đạo hàm là\n\nA. $(2 x + 2)\\cdot5^{x^{2} + 2 x}$.\nB. $(x^{2} + 2 x)\\cdot5^{x^{2} + 2 x-1}$.\nC. $(2 x + 2)\\cdot5^{x^{2} + 2 x}\\cdot\\ln5$.\nD. $5^{x^{2} + 2 x}\\cdot\\ln5$.",
+    "dap_an": "C. $(2 x + 2)\\cdot5^{x^{2} + 2 x}\\cdot\\ln5$.",
+    "loi_giai": "$y'=\\left(x^{2} + 2 x\\right)'\\cdot5^{x^{2} + 2 x}\\cdot\\ln5=(2 x + 2)\\cdot5^{x^{2} + 2 x}\\cdot\\ln5$.",
+    "params": {
+      "a": "5",
+      "b": "2"
+    }
+  },
+  {
+    "id_goc": "p176_q26",
+    "ma_dang": "D73",
+    "ten_dang": "Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $y=3^{x^{2} + 4 x}$ có đạo hàm là\n\nA. $3^{x^{2} + 4 x}\\cdot\\ln3$.\nB. $(2 x + 4)\\cdot3^{x^{2} + 4 x}$.\nC. $(x^{2} + 4 x)\\cdot3^{x^{2} + 4 x-1}$.\nD. $(2 x + 4)\\cdot3^{x^{2} + 4 x}\\cdot\\ln3$.",
+    "dap_an": "D. $(2 x + 4)\\cdot3^{x^{2} + 4 x}\\cdot\\ln3$.",
+    "loi_giai": "$y'=\\left(x^{2} + 4 x\\right)'\\cdot3^{x^{2} + 4 x}\\cdot\\ln3=(2 x + 4)\\cdot3^{x^{2} + 4 x}\\cdot\\ln3$.",
+    "params": {
+      "a": "3",
+      "b": "4"
+    }
+  },
+  {
+    "id_goc": "p176_q26",
+    "ma_dang": "D73",
+    "ten_dang": "Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $y=2^{x^{2} - 5 x}$ có đạo hàm là\n\nA. $(2 x - 5)\\cdot2^{x^{2} - 5 x}\\cdot\\ln2$.\nB. $(2 x - 5)\\cdot2^{x^{2} - 5 x}$.\nC. $2^{x^{2} - 5 x}\\cdot\\ln2$.\nD. $(x^{2} - 5 x)\\cdot2^{x^{2} - 5 x-1}$.",
+    "dap_an": "A. $(2 x - 5)\\cdot2^{x^{2} - 5 x}\\cdot\\ln2$.",
+    "loi_giai": "$y'=\\left(x^{2} - 5 x\\right)'\\cdot2^{x^{2} - 5 x}\\cdot\\ln2=(2 x - 5)\\cdot2^{x^{2} - 5 x}\\cdot\\ln2$.",
+    "params": {
+      "a": "2",
+      "b": "-5"
+    }
+  },
+  {
+    "id_goc": "p176_q26",
+    "ma_dang": "D73",
+    "ten_dang": "Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hàm số $y=5^{x^{2} - 2 x}$ có đạo hàm là\n\nA. $(x^{2} - 2 x)\\cdot5^{x^{2} - 2 x-1}$.\nB. $5^{x^{2} - 2 x}\\cdot\\ln5$.\nC. $(2 x - 2)\\cdot5^{x^{2} - 2 x}$.\nD. $(2 x - 2)\\cdot5^{x^{2} - 2 x}\\cdot\\ln5$.",
+    "dap_an": "D. $(2 x - 2)\\cdot5^{x^{2} - 2 x}\\cdot\\ln5$.",
+    "loi_giai": "$y'=\\left(x^{2} - 2 x\\right)'\\cdot5^{x^{2} - 2 x}\\cdot\\ln5=(2 x - 2)\\cdot5^{x^{2} - 2 x}\\cdot\\ln5$.",
+    "params": {
+      "a": "5",
+      "b": "-2"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=7^x$ là\n\nA. $(0;+\\infty)$.\nB. $\\mathbb{R}\\setminus\\{0\\}$.\nC. $[0;+\\infty)$.\nD. $\\mathbb{R}$.",
+    "dap_an": "D. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=7^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "7"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=2^x$ là\n\nA. $\\mathbb{R}\\setminus\\{0\\}$.\nB. $[0;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $\\mathbb{R}$.",
+    "dap_an": "D. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=2^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "2"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=3^x$ là\n\nA. $\\mathbb{R}\\setminus\\{0\\}$.\nB. $\\mathbb{R}$.\nC. $(0;+\\infty)$.\nD. $[0;+\\infty)$.",
+    "dap_an": "B. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=3^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "3"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=5^x$ là\n\nA. $(0;+\\infty)$.\nB. $\\mathbb{R}\\setminus\\{0\\}$.\nC. $[0;+\\infty)$.\nD. $\\mathbb{R}$.",
+    "dap_an": "D. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=5^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "5"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=9^x$ là\n\nA. $(0;+\\infty)$.\nB. $\\mathbb{R}\\setminus\\{0\\}$.\nC. $\\mathbb{R}$.\nD. $[0;+\\infty)$.",
+    "dap_an": "C. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=9^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "9"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=11^x$ là\n\nA. $(0;+\\infty)$.\nB. $\\mathbb{R}$.\nC. $\\mathbb{R}\\setminus\\{0\\}$.\nD. $[0;+\\infty)$.",
+    "dap_an": "B. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=11^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "11"
+    }
+  },
+  {
+    "id_goc": "p220_q04",
+    "ma_dang": "D85",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit dạng log_a(x-c)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{3}(x-4)$ là\n\nA. $[4;+\\infty)$.\nB. $(4;+\\infty)$.\nC. $(-\\infty;4)$.\nD. $(-\\infty;4]$.",
+    "dap_an": "B. $(4;+\\infty)$.",
+    "loi_giai": "Hàm số xác định khi $x-4>0 \\Leftrightarrow x>4$.",
+    "params": {
+      "a": "3",
+      "c": "4"
+    }
+  },
+  {
+    "id_goc": "p220_q04",
+    "ma_dang": "D85",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit dạng log_a(x-c)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{2}(x-5)$ là\n\nA. $(5;+\\infty)$.\nB. $[5;+\\infty)$.\nC. $(-\\infty;5)$.\nD. $(-\\infty;5]$.",
+    "dap_an": "A. $(5;+\\infty)$.",
+    "loi_giai": "Hàm số xác định khi $x-5>0 \\Leftrightarrow x>5$.",
+    "params": {
+      "a": "2",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p220_q04",
+    "ma_dang": "D85",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit dạng log_a(x-c)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{5}(x-2)$ là\n\nA. $(-\\infty;2)$.\nB. $(-\\infty;2]$.\nC. $(2;+\\infty)$.\nD. $[2;+\\infty)$.",
+    "dap_an": "C. $(2;+\\infty)$.",
+    "loi_giai": "Hàm số xác định khi $x-2>0 \\Leftrightarrow x>2$.",
+    "params": {
+      "a": "5",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p220_q04",
+    "ma_dang": "D85",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit dạng log_a(x-c)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{7}(x-1)$ là\n\nA. $(1;+\\infty)$.\nB. $(-\\infty;1)$.\nC. $(-\\infty;1]$.\nD. $[1;+\\infty)$.",
+    "dap_an": "A. $(1;+\\infty)$.",
+    "loi_giai": "Hàm số xác định khi $x-1>0 \\Leftrightarrow x>1$.",
+    "params": {
+      "a": "7",
+      "c": "1"
+    }
+  },
+  {
+    "id_goc": "p220_q04",
+    "ma_dang": "D85",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit dạng log_a(x-c)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{2}(x-6)$ là\n\nA. $(6;+\\infty)$.\nB. $(-\\infty;6)$.\nC. $(-\\infty;6]$.\nD. $[6;+\\infty)$.",
+    "dap_an": "A. $(6;+\\infty)$.",
+    "loi_giai": "Hàm số xác định khi $x-6>0 \\Leftrightarrow x>6$.",
+    "params": {
+      "a": "2",
+      "c": "6"
+    }
+  },
+  {
+    "id_goc": "p220_q04",
+    "ma_dang": "D85",
+    "ten_dang": "Tìm tập xác định hàm số lôgarit dạng log_a(x-c)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=\\log_{3}(x-8)$ là\n\nA. $[8;+\\infty)$.\nB. $(-\\infty;8)$.\nC. $(8;+\\infty)$.\nD. $(-\\infty;8]$.",
+    "dap_an": "C. $(8;+\\infty)$.",
+    "loi_giai": "Hàm số xác định khi $x-8>0 \\Leftrightarrow x>8$.",
+    "params": {
+      "a": "3",
+      "c": "8"
+    }
+  },
+  {
+    "id_goc": "p223_q22",
+    "ma_dang": "D86",
+    "ten_dang": "Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $5^x=2$ là\n\nA. $x=\\log_{2}5$.\nB. $x=\\sqrt{2}$.\nC. $x=\\log_{5}2$.\nD. $x=\\dfrac{2}{5}$.",
+    "dap_an": "C. $x=\\log_{5}2$.",
+    "loi_giai": "Ta có $5^x=2\\Leftrightarrow x=\\log_{5}2$.",
+    "params": {
+      "a": "5",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p223_q22",
+    "ma_dang": "D86",
+    "ten_dang": "Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $3^x=7$ là\n\nA. $x=\\dfrac{7}{3}$.\nB. $x=\\log_{3}7$.\nC. $x=\\log_{7}3$.\nD. $x=\\sqrt{7}$.",
+    "dap_an": "B. $x=\\log_{3}7$.",
+    "loi_giai": "Ta có $3^x=7\\Leftrightarrow x=\\log_{3}7$.",
+    "params": {
+      "a": "3",
+      "c": "7"
+    }
+  },
+  {
+    "id_goc": "p223_q22",
+    "ma_dang": "D86",
+    "ten_dang": "Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $2^x=5$ là\n\nA. $x=\\dfrac{5}{2}$.\nB. $x=\\log_{2}5$.\nC. $x=\\sqrt{5}$.\nD. $x=\\log_{5}2$.",
+    "dap_an": "B. $x=\\log_{2}5$.",
+    "loi_giai": "Ta có $2^x=5\\Leftrightarrow x=\\log_{2}5$.",
+    "params": {
+      "a": "2",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p223_q22",
+    "ma_dang": "D86",
+    "ten_dang": "Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $7^x=3$ là\n\nA. $x=\\log_{7}3$.\nB. $x=\\log_{3}7$.\nC. $x=\\dfrac{3}{7}$.\nD. $x=\\sqrt{3}$.",
+    "dap_an": "A. $x=\\log_{7}3$.",
+    "loi_giai": "Ta có $7^x=3\\Leftrightarrow x=\\log_{7}3$.",
+    "params": {
+      "a": "7",
+      "c": "3"
+    }
+  },
+  {
+    "id_goc": "p223_q22",
+    "ma_dang": "D86",
+    "ten_dang": "Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $2^x=9$ là\n\nA. $x=\\sqrt{9}$.\nB. $x=\\log_{2}9$.\nC. $x=\\dfrac{9}{2}$.\nD. $x=\\log_{9}2$.",
+    "dap_an": "B. $x=\\log_{2}9$.",
+    "loi_giai": "Ta có $2^x=9\\Leftrightarrow x=\\log_{2}9$.",
+    "params": {
+      "a": "2",
+      "c": "9"
+    }
+  },
+  {
+    "id_goc": "p223_q22",
+    "ma_dang": "D86",
+    "ten_dang": "Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $5^x=3$ là\n\nA. $x=\\log_{5}3$.\nB. $x=\\sqrt{3}$.\nC. $x=\\log_{3}5$.\nD. $x=\\dfrac{3}{5}$.",
+    "dap_an": "A. $x=\\log_{5}3$.",
+    "loi_giai": "Ta có $5^x=3\\Leftrightarrow x=\\log_{5}3$.",
+    "params": {
+      "a": "5",
+      "c": "3"
+    }
+  },
+  {
+    "id_goc": "p238_q21",
+    "ma_dang": "D91",
+    "ten_dang": "Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $3^{2x+1}=3^{1x+2}$ là\n\nA. $x=-1$.\nB. $x=1$.\nC. $x=0$.\nD. $x=2$.",
+    "dap_an": "B. $x=1$.",
+    "loi_giai": "Xét phương trình $3^{2x+1}=3^{1x+2}\\Leftrightarrow 2x+1=1x+2\\Leftrightarrow x=1$.",
+    "params": {
+      "a": "3",
+      "m1": "2",
+      "c1": "1",
+      "m2": "1",
+      "c2": "2"
+    }
+  },
+  {
+    "id_goc": "p238_q21",
+    "ma_dang": "D91",
+    "ten_dang": "Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $2^{1x+3}=2^{2x-1}$ là\n\nA. $x=-4$.\nB. $x=5$.\nC. $x=3$.\nD. $x=4$.",
+    "dap_an": "D. $x=4$.",
+    "loi_giai": "Xét phương trình $2^{1x+3}=2^{2x-1}\\Leftrightarrow 1x+3=2x-1\\Leftrightarrow x=4$.",
+    "params": {
+      "a": "2",
+      "m1": "1",
+      "c1": "3",
+      "m2": "2",
+      "c2": "-1"
+    }
+  },
+  {
+    "id_goc": "p238_q21",
+    "ma_dang": "D91",
+    "ten_dang": "Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $5^{3x-1}=5^{1x+4}$ là\n\nA. $x=\\dfrac{3}{2}$.\nB. $x=\\dfrac{5}{2}$.\nC. $x=\\dfrac{7}{2}$.\nD. $x=- \\dfrac{5}{2}$.",
+    "dap_an": "B. $x=\\dfrac{5}{2}$.",
+    "loi_giai": "Xét phương trình $5^{3x-1}=5^{1x+4}\\Leftrightarrow 3x-1=1x+4\\Leftrightarrow x=\\dfrac{5}{2}$.",
+    "params": {
+      "a": "5",
+      "m1": "3",
+      "c1": "-1",
+      "m2": "1",
+      "c2": "4"
+    }
+  },
+  {
+    "id_goc": "p238_q21",
+    "ma_dang": "D91",
+    "ten_dang": "Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $2^{2x+1}=2^{1x-2}$ là\n\nA. $x=3$.\nB. $x=-2$.\nC. $x=-3$.\nD. $x=-4$.",
+    "dap_an": "C. $x=-3$.",
+    "loi_giai": "Xét phương trình $2^{2x+1}=2^{1x-2}\\Leftrightarrow 2x+1=1x-2\\Leftrightarrow x=-3$.",
+    "params": {
+      "a": "2",
+      "m1": "2",
+      "c1": "1",
+      "m2": "1",
+      "c2": "-2"
+    }
+  },
+  {
+    "id_goc": "p238_q21",
+    "ma_dang": "D91",
+    "ten_dang": "Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $3^{1x+4}=3^{2x+1}$ là\n\nA. $x=4$.\nB. $x=-3$.\nC. $x=2$.\nD. $x=3$.",
+    "dap_an": "D. $x=3$.",
+    "loi_giai": "Xét phương trình $3^{1x+4}=3^{2x+1}\\Leftrightarrow 1x+4=2x+1\\Leftrightarrow x=3$.",
+    "params": {
+      "a": "3",
+      "m1": "1",
+      "c1": "4",
+      "m2": "2",
+      "c2": "1"
+    }
+  },
+  {
+    "id_goc": "p238_q21",
+    "ma_dang": "D91",
+    "ten_dang": "Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Nghiệm của phương trình $2^{3x-2}=2^{1x+3}$ là\n\nA. $x=\\dfrac{5}{2}$.\nB. $x=\\dfrac{7}{2}$.\nC. $x=\\dfrac{3}{2}$.\nD. $x=- \\dfrac{5}{2}$.",
+    "dap_an": "A. $x=\\dfrac{5}{2}$.",
+    "loi_giai": "Xét phương trình $2^{3x-2}=2^{1x+3}\\Leftrightarrow 3x-2=1x+3\\Leftrightarrow x=\\dfrac{5}{2}$.",
+    "params": {
+      "a": "2",
+      "m1": "3",
+      "c1": "-2",
+      "m2": "1",
+      "c2": "3"
+    }
+  }
+]

@@ -1,0 +1,806 @@
+[
+  {
+    "id_goc": "p068_q20",
+    "ma_dang": "D32",
+    "ten_dang": "Đổi cơ số lôgarit qua ẩn phụ cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $\\log_{3} 2=a$ khi đó $\\log_{16}27$ bằng\n\nA. $\\dfrac{3}{4a}$.\nB. $\\dfrac{4}{3a}$.\nC. $\\dfrac{4a}{3}$.\nD. $\\dfrac{3a}{4}$.",
+    "dap_an": "A. $\\dfrac{3}{4a}$.",
+    "loi_giai": "$\\log_{16}27=\\log_{2^{4}}3^{3}=\\dfrac{3}{4}\\log_{2} 3=\\dfrac{3}{4\\log_{3} 2}=\\dfrac{3}{4a}$.",
+    "params": {
+      "p": "2",
+      "q": "3",
+      "m": "4",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p068_q20",
+    "ma_dang": "D32",
+    "ten_dang": "Đổi cơ số lôgarit qua ẩn phụ cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $\\log_{5} 2=a$ khi đó $\\log_{8}25$ bằng\n\nA. $\\dfrac{3}{2a}$.\nB. $\\dfrac{2a}{3}$.\nC. $\\dfrac{2}{3a}$.\nD. $\\dfrac{3a}{2}$.",
+    "dap_an": "C. $\\dfrac{2}{3a}$.",
+    "loi_giai": "$\\log_{8}25=\\log_{2^{3}}5^{2}=\\dfrac{2}{3}\\log_{2} 5=\\dfrac{2}{3\\log_{5} 2}=\\dfrac{2}{3a}$.",
+    "params": {
+      "p": "2",
+      "q": "5",
+      "m": "3",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p068_q20",
+    "ma_dang": "D32",
+    "ten_dang": "Đổi cơ số lôgarit qua ẩn phụ cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $\\log_{2} 3=a$ khi đó $\\log_{81}32$ bằng\n\nA. $\\dfrac{5}{4a}$.\nB. $\\dfrac{4}{5a}$.\nC. $\\dfrac{5a}{4}$.\nD. $\\dfrac{4a}{5}$.",
+    "dap_an": "A. $\\dfrac{5}{4a}$.",
+    "loi_giai": "$\\log_{81}32=\\log_{3^{4}}2^{5}=\\dfrac{5}{4}\\log_{3} 2=\\dfrac{5}{4\\log_{2} 3}=\\dfrac{5}{4a}$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "m": "4",
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p068_q20",
+    "ma_dang": "D32",
+    "ten_dang": "Đổi cơ số lôgarit qua ẩn phụ cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $\\log_{2} 5=a$ khi đó $\\log_{125}16$ bằng\n\nA. $\\dfrac{3}{4a}$.\nB. $\\dfrac{4a}{3}$.\nC. $\\dfrac{4}{3a}$.\nD. $\\dfrac{3a}{4}$.",
+    "dap_an": "C. $\\dfrac{4}{3a}$.",
+    "loi_giai": "$\\log_{125}16=\\log_{5^{3}}2^{4}=\\dfrac{4}{3}\\log_{5} 2=\\dfrac{4}{3\\log_{2} 5}=\\dfrac{4}{3a}$.",
+    "params": {
+      "p": "5",
+      "q": "2",
+      "m": "3",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p068_q20",
+    "ma_dang": "D32",
+    "ten_dang": "Đổi cơ số lôgarit qua ẩn phụ cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $\\log_{7} 2=a$ khi đó $\\log_{4}343$ bằng\n\nA. $\\dfrac{3a}{2}$.\nB. $\\dfrac{2}{3a}$.\nC. $\\dfrac{3}{2a}$.\nD. $\\dfrac{2a}{3}$.",
+    "dap_an": "C. $\\dfrac{3}{2a}$.",
+    "loi_giai": "$\\log_{4}343=\\log_{2^{2}}7^{3}=\\dfrac{3}{2}\\log_{2} 7=\\dfrac{3}{2\\log_{7} 2}=\\dfrac{3}{2a}$.",
+    "params": {
+      "p": "2",
+      "q": "7",
+      "m": "2",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p068_q20",
+    "ma_dang": "D32",
+    "ten_dang": "Đổi cơ số lôgarit qua ẩn phụ cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $\\log_{5} 3=a$ khi đó $\\log_{81}125$ bằng\n\nA. $\\dfrac{4a}{3}$.\nB. $\\dfrac{4}{3a}$.\nC. $\\dfrac{3a}{4}$.\nD. $\\dfrac{3}{4a}$.",
+    "dap_an": "D. $\\dfrac{3}{4a}$.",
+    "loi_giai": "$\\log_{81}125=\\log_{3^{4}}5^{3}=\\dfrac{3}{4}\\log_{3} 5=\\dfrac{3}{4\\log_{5} 3}=\\dfrac{3}{4a}$.",
+    "params": {
+      "p": "3",
+      "q": "5",
+      "m": "4",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p081_q20",
+    "ma_dang": "D37",
+    "ten_dang": "Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_{2} a=\\log_{8}(ab)$.\nMệnh đề nào dưới đây đúng?\n\nA. $a^{2}=b$.\nB. $a=b^{2}$.\nC. $a=b$.\nD. $a^{3}=b$.",
+    "dap_an": "A. $a^{2}=b$.",
+    "loi_giai": "$\\log_{2} a=\\log_{2^{3}}(ab) \\Leftrightarrow \\log_{2} a=\\dfrac{1}{3}\\log_{2}(ab)\\Leftrightarrow 3\\log_{2} a=\\log_{2}(ab) \\Leftrightarrow a^{3}=ab \\Leftrightarrow a^{2}=b$.",
+    "params": {
+      "p": "2",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p081_q20",
+    "ma_dang": "D37",
+    "ten_dang": "Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_{3} a=\\log_{9}(ab)$.\nMệnh đề nào dưới đây đúng?\n\nA. $a=b^{2}$.\nB. $a=2b$.\nC. $a=b$.\nD. $a^{2}=b$.",
+    "dap_an": "C. $a=b$.",
+    "loi_giai": "$\\log_{3} a=\\log_{3^{2}}(ab) \\Leftrightarrow \\log_{3} a=\\dfrac{1}{2}\\log_{3}(ab)\\Leftrightarrow 2\\log_{3} a=\\log_{3}(ab) \\Leftrightarrow a^{2}=ab \\Leftrightarrow a=b$.",
+    "params": {
+      "p": "3",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p081_q20",
+    "ma_dang": "D37",
+    "ten_dang": "Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_{5} a=\\log_{125}(ab)$.\nMệnh đề nào dưới đây đúng?\n\nA. $a^{2}=b$.\nB. $a=b$.\nC. $a=b^{2}$.\nD. $a^{3}=b$.",
+    "dap_an": "A. $a^{2}=b$.",
+    "loi_giai": "$\\log_{5} a=\\log_{5^{3}}(ab) \\Leftrightarrow \\log_{5} a=\\dfrac{1}{3}\\log_{5}(ab)\\Leftrightarrow 3\\log_{5} a=\\log_{5}(ab) \\Leftrightarrow a^{3}=ab \\Leftrightarrow a^{2}=b$.",
+    "params": {
+      "p": "5",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p081_q20",
+    "ma_dang": "D37",
+    "ten_dang": "Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_{2} a=\\log_{16}(ab)$.\nMệnh đề nào dưới đây đúng?\n\nA. $a^{3}=b$.\nB. $a=b$.\nC. $a=b^{3}$.\nD. $a^{4}=b$.",
+    "dap_an": "A. $a^{3}=b$.",
+    "loi_giai": "$\\log_{2} a=\\log_{2^{4}}(ab) \\Leftrightarrow \\log_{2} a=\\dfrac{1}{4}\\log_{2}(ab)\\Leftrightarrow 4\\log_{2} a=\\log_{2}(ab) \\Leftrightarrow a^{4}=ab \\Leftrightarrow a^{3}=b$.",
+    "params": {
+      "p": "2",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p081_q20",
+    "ma_dang": "D37",
+    "ten_dang": "Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_{3} a=\\log_{81}(ab)$.\nMệnh đề nào dưới đây đúng?\n\nA. $a=b$.\nB. $a=b^{3}$.\nC. $a^{3}=b$.\nD. $a^{4}=b$.",
+    "dap_an": "C. $a^{3}=b$.",
+    "loi_giai": "$\\log_{3} a=\\log_{3^{4}}(ab) \\Leftrightarrow \\log_{3} a=\\dfrac{1}{4}\\log_{3}(ab)\\Leftrightarrow 4\\log_{3} a=\\log_{3}(ab) \\Leftrightarrow a^{4}=ab \\Leftrightarrow a^{3}=b$.",
+    "params": {
+      "p": "3",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p081_q20",
+    "ma_dang": "D37",
+    "ten_dang": "Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_{2} a=\\log_{4}(ab)$.\nMệnh đề nào dưới đây đúng?\n\nA. $a=2b$.\nB. $a=b^{2}$.\nC. $a=b$.\nD. $a^{2}=b$.",
+    "dap_an": "C. $a=b$.",
+    "loi_giai": "$\\log_{2} a=\\log_{2^{2}}(ab) \\Leftrightarrow \\log_{2} a=\\dfrac{1}{2}\\log_{2}(ab)\\Leftrightarrow 2\\log_{2} a=\\log_{2}(ab) \\Leftrightarrow a^{2}=ab \\Leftrightarrow a=b$.",
+    "params": {
+      "p": "2",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p098_q29",
+    "ma_dang": "D44",
+    "ten_dang": "Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét số thực $a$ và $b$ thỏa mãn $\\log_2(2^a\\cdot4^b)=\\log_{4}2$. Mệnh đề nào dưới đây đúng\n\nA. $2a+4b=1$.\nB. $2a-4b=1$.\nC. $2a+2b=1$.\nD. $a+4b=1$.",
+    "dap_an": "A. $2a+4b=1$.",
+    "loi_giai": "$\\log_2(2^a\\cdot 2^{2b})=\\log_{4}2 \\Leftrightarrow a+2b=\\dfrac{1}{2} \\Leftrightarrow 2a+4b=1$.",
+    "params": {
+      "c": "2",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p098_q29",
+    "ma_dang": "D44",
+    "ten_dang": "Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét số thực $a$ và $b$ thỏa mãn $\\log_2(2^a\\cdot8^b)=\\log_{4}2$. Mệnh đề nào dưới đây đúng\n\nA. $2a+3b=1$.\nB. $2a-6b=1$.\nC. $a+6b=1$.\nD. $2a+6b=1$.",
+    "dap_an": "D. $2a+6b=1$.",
+    "loi_giai": "$\\log_2(2^a\\cdot 2^{3b})=\\log_{4}2 \\Leftrightarrow a+3b=\\dfrac{1}{2} \\Leftrightarrow 2a+6b=1$.",
+    "params": {
+      "c": "3",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p098_q29",
+    "ma_dang": "D44",
+    "ten_dang": "Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét số thực $a$ và $b$ thỏa mãn $\\log_2(2^a\\cdot4^b)=\\log_{8}2$. Mệnh đề nào dưới đây đúng\n\nA. $3a-6b=1$.\nB. $3a+6b=1$.\nC. $a+6b=1$.\nD. $3a+2b=1$.",
+    "dap_an": "B. $3a+6b=1$.",
+    "loi_giai": "$\\log_2(2^a\\cdot 2^{2b})=\\log_{8}2 \\Leftrightarrow a+2b=\\dfrac{1}{3} \\Leftrightarrow 3a+6b=1$.",
+    "params": {
+      "c": "2",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p098_q29",
+    "ma_dang": "D44",
+    "ten_dang": "Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét số thực $a$ và $b$ thỏa mãn $\\log_2(2^a\\cdot16^b)=\\log_{4}2$. Mệnh đề nào dưới đây đúng\n\nA. $2a-8b=1$.\nB. $a+8b=1$.\nC. $2a+8b=1$.\nD. $2a+4b=1$.",
+    "dap_an": "C. $2a+8b=1$.",
+    "loi_giai": "$\\log_2(2^a\\cdot 2^{4b})=\\log_{4}2 \\Leftrightarrow a+4b=\\dfrac{1}{2} \\Leftrightarrow 2a+8b=1$.",
+    "params": {
+      "c": "4",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p098_q29",
+    "ma_dang": "D44",
+    "ten_dang": "Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét số thực $a$ và $b$ thỏa mãn $\\log_2(2^a\\cdot8^b)=\\log_{8}2$. Mệnh đề nào dưới đây đúng\n\nA. $3a+3b=1$.\nB. $3a-9b=1$.\nC. $3a+9b=1$.\nD. $a+9b=1$.",
+    "dap_an": "C. $3a+9b=1$.",
+    "loi_giai": "$\\log_2(2^a\\cdot 2^{3b})=\\log_{8}2 \\Leftrightarrow a+3b=\\dfrac{1}{3} \\Leftrightarrow 3a+9b=1$.",
+    "params": {
+      "c": "3",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p098_q29",
+    "ma_dang": "D44",
+    "ten_dang": "Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét số thực $a$ và $b$ thỏa mãn $\\log_2(2^a\\cdot4^b)=\\log_{16}2$. Mệnh đề nào dưới đây đúng\n\nA. $4a+2b=1$.\nB. $4a+8b=1$.\nC. $4a-8b=1$.\nD. $a+8b=1$.",
+    "dap_an": "B. $4a+8b=1$.",
+    "loi_giai": "$\\log_2(2^a\\cdot 2^{2b})=\\log_{16}2 \\Leftrightarrow a+2b=\\dfrac{1}{4} \\Leftrightarrow 4a+8b=1$.",
+    "params": {
+      "c": "2",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p113_q31",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a,b$ thỏa mãn $\\log_{2} a-3\\log_{2} b=2$, khẳng định nào dưới đây đúng?\n\nA. $a=4b^{3}$.\nB. $a=\\dfrac{4}{b^{3}}$.\nC. $a=3b+4$.\nD. $a=3b+2$.",
+    "dap_an": "A. $a=4b^{3}$.",
+    "loi_giai": "$\\log_{2} a-3\\log_{2} b=2 \\Leftrightarrow \\log_{2}\\dfrac{a}{b^{3}}=2\\Leftrightarrow \\dfrac{a}{b^{3}}=2^{2} \\Leftrightarrow a=4b^{3}$.",
+    "params": {
+      "c": "2",
+      "m": "3",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p113_q31",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a,b$ thỏa mãn $\\log_{3} a-2\\log_{3} b=1$, khẳng định nào dưới đây đúng?\n\nA. $a=3b^{2}$.\nB. $a=2b+3$.\nC. $a=\\dfrac{3}{b^{2}}$.\nD. $a=2b+1$.",
+    "dap_an": "A. $a=3b^{2}$.",
+    "loi_giai": "$\\log_{3} a-2\\log_{3} b=1 \\Leftrightarrow \\log_{3}\\dfrac{a}{b^{2}}=1\\Leftrightarrow \\dfrac{a}{b^{2}}=3^{1} \\Leftrightarrow a=3b^{2}$.",
+    "params": {
+      "c": "3",
+      "m": "2",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p113_q31",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a,b$ thỏa mãn $\\log_{2} a-2\\log_{2} b=3$, khẳng định nào dưới đây đúng?\n\nA. $a=2b+8$.\nB. $a=\\dfrac{8}{b^{2}}$.\nC. $a=2b+3$.\nD. $a=8b^{2}$.",
+    "dap_an": "D. $a=8b^{2}$.",
+    "loi_giai": "$\\log_{2} a-2\\log_{2} b=3 \\Leftrightarrow \\log_{2}\\dfrac{a}{b^{2}}=3\\Leftrightarrow \\dfrac{a}{b^{2}}=2^{3} \\Leftrightarrow a=8b^{2}$.",
+    "params": {
+      "c": "2",
+      "m": "2",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p113_q31",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a,b$ thỏa mãn $\\log_{5} a-3\\log_{5} b=1$, khẳng định nào dưới đây đúng?\n\nA. $a=3b+5$.\nB. $a=\\dfrac{5}{b^{3}}$.\nC. $a=5b^{3}$.\nD. $a=3b+1$.",
+    "dap_an": "C. $a=5b^{3}$.",
+    "loi_giai": "$\\log_{5} a-3\\log_{5} b=1 \\Leftrightarrow \\log_{5}\\dfrac{a}{b^{3}}=1\\Leftrightarrow \\dfrac{a}{b^{3}}=5^{1} \\Leftrightarrow a=5b^{3}$.",
+    "params": {
+      "c": "5",
+      "m": "3",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p113_q31",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a,b$ thỏa mãn $\\log_{2} a-4\\log_{2} b=2$, khẳng định nào dưới đây đúng?\n\nA. $a=4b+2$.\nB. $a=4b^{4}$.\nC. $a=\\dfrac{4}{b^{4}}$.\nD. $a=4b+4$.",
+    "dap_an": "B. $a=4b^{4}$.",
+    "loi_giai": "$\\log_{2} a-4\\log_{2} b=2 \\Leftrightarrow \\log_{2}\\dfrac{a}{b^{4}}=2\\Leftrightarrow \\dfrac{a}{b^{4}}=2^{2} \\Leftrightarrow a=4b^{4}$.",
+    "params": {
+      "c": "2",
+      "m": "4",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p113_q31",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a,b$ thỏa mãn $\\log_{3} a-3\\log_{3} b=2$, khẳng định nào dưới đây đúng?\n\nA. $a=\\dfrac{9}{b^{3}}$.\nB. $a=9b^{3}$.\nC. $a=3b+2$.\nD. $a=3b+9$.",
+    "dap_an": "B. $a=9b^{3}$.",
+    "loi_giai": "$\\log_{3} a-3\\log_{3} b=2 \\Leftrightarrow \\log_{3}\\dfrac{a}{b^{3}}=2\\Leftrightarrow \\dfrac{a}{b^{3}}=3^{2} \\Leftrightarrow a=9b^{3}$.",
+    "params": {
+      "c": "3",
+      "m": "3",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p213_q38",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a, b$ thỏa mãn $\\log_{2} a^{3}+\\log_{2} b=8$, khẳng định nào sau đây là đúng?\n\nA. $a^{3}+b=16$.\nB. $a^{3} b=16$.\nC. $a^{3} b=256$.\nD. $a^{3}+b=256$.",
+    "dap_an": "C. $a^{3} b=256$.",
+    "loi_giai": "$\\log_{2} a^{3}+\\log_{2} b=8 \\Leftrightarrow \\log_{2}(a^{3} b)=8 \\Leftrightarrow a^{3} b=256$.",
+    "params": {
+      "c": "2",
+      "p": "3",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p213_q38",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a, b$ thỏa mãn $\\log_{3} a^{2}+\\log_{3} b=4$, khẳng định nào sau đây là đúng?\n\nA. $a^{2}+b=81$.\nB. $a^{2} b=81$.\nC. $a^{2}+b=12$.\nD. $a^{2} b=12$.",
+    "dap_an": "B. $a^{2} b=81$.",
+    "loi_giai": "$\\log_{3} a^{2}+\\log_{3} b=4 \\Leftrightarrow \\log_{3}(a^{2} b)=4 \\Leftrightarrow a^{2} b=81$.",
+    "params": {
+      "c": "3",
+      "p": "2",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p213_q38",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a, b$ thỏa mãn $\\log_{2} a^{2}+\\log_{2} b=6$, khẳng định nào sau đây là đúng?\n\nA. $a^{2} b=12$.\nB. $a^{2}+b=12$.\nC. $a^{2}+b=64$.\nD. $a^{2} b=64$.",
+    "dap_an": "D. $a^{2} b=64$.",
+    "loi_giai": "$\\log_{2} a^{2}+\\log_{2} b=6 \\Leftrightarrow \\log_{2}(a^{2} b)=6 \\Leftrightarrow a^{2} b=64$.",
+    "params": {
+      "c": "2",
+      "p": "2",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p213_q38",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a, b$ thỏa mãn $\\log_{5} a^{2}+\\log_{5} b=3$, khẳng định nào sau đây là đúng?\n\nA. $a^{2}+b=125$.\nB. $a^{2} b=15$.\nC. $a^{2} b=125$.\nD. $a^{2}+b=15$.",
+    "dap_an": "C. $a^{2} b=125$.",
+    "loi_giai": "$\\log_{5} a^{2}+\\log_{5} b=3 \\Leftrightarrow \\log_{5}(a^{2} b)=3 \\Leftrightarrow a^{2} b=125$.",
+    "params": {
+      "c": "5",
+      "p": "2",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p213_q38",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a, b$ thỏa mãn $\\log_{2} a^{4}+\\log_{2} b=9$, khẳng định nào sau đây là đúng?\n\nA. $a^{4}+b=512$.\nB. $a^{4} b=512$.\nC. $a^{4} b=18$.\nD. $a^{4}+b=18$.",
+    "dap_an": "B. $a^{4} b=512$.",
+    "loi_giai": "$\\log_{2} a^{4}+\\log_{2} b=9 \\Leftrightarrow \\log_{2}(a^{4} b)=9 \\Leftrightarrow a^{4} b=512$.",
+    "params": {
+      "c": "2",
+      "p": "4",
+      "n": "9"
+    }
+  },
+  {
+    "id_goc": "p213_q38",
+    "ma_dang": "D50",
+    "ten_dang": "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi $a, b$ thỏa mãn $\\log_{3} a^{3}+\\log_{3} b=5$, khẳng định nào sau đây là đúng?\n\nA. $a^{3}+b=15$.\nB. $a^{3} b=243$.\nC. $a^{3} b=15$.\nD. $a^{3}+b=243$.",
+    "dap_an": "B. $a^{3} b=243$.",
+    "loi_giai": "$\\log_{3} a^{3}+\\log_{3} b=5 \\Leftrightarrow \\log_{3}(a^{3} b)=5 \\Leftrightarrow a^{3} b=243$.",
+    "params": {
+      "c": "3",
+      "p": "3",
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p146_q42",
+    "ma_dang": "D64",
+    "ten_dang": "Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $\\log_a x=3$, $\\log_b x=4$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$.\n\nA. $P=\\dfrac{7}{12}$.\nB. $P=\\dfrac{12}{7}$.\nC. $P=7$.\nD. $P=-12$.",
+    "dap_an": "B. $P=\\dfrac{12}{7}$.",
+    "loi_giai": "$\\log_a x=3\\Rightarrow\\log_x a=\\dfrac1{3}$; $\\log_b x=4\\Rightarrow\\log_x b=\\dfrac1{4}$. $P=\\log_{ab}x=\\dfrac{1}{\\log_x(ab)}=\\dfrac{1}{\\log_x a+\\log_x b}=\\dfrac{12}{7}$.",
+    "params": {
+      "p": "3",
+      "q": "4"
+    }
+  },
+  {
+    "id_goc": "p146_q42",
+    "ma_dang": "D64",
+    "ten_dang": "Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $\\log_a x=2$, $\\log_b x=5$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$.\n\nA. $P=7$.\nB. $P=\\dfrac{10}{7}$.\nC. $P=- \\dfrac{10}{3}$.\nD. $P=\\dfrac{7}{10}$.",
+    "dap_an": "B. $P=\\dfrac{10}{7}$.",
+    "loi_giai": "$\\log_a x=2\\Rightarrow\\log_x a=\\dfrac1{2}$; $\\log_b x=5\\Rightarrow\\log_x b=\\dfrac1{5}$. $P=\\log_{ab}x=\\dfrac{1}{\\log_x(ab)}=\\dfrac{1}{\\log_x a+\\log_x b}=\\dfrac{10}{7}$.",
+    "params": {
+      "p": "2",
+      "q": "5"
+    }
+  },
+  {
+    "id_goc": "p146_q42",
+    "ma_dang": "D64",
+    "ten_dang": "Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $\\log_a x=4$, $\\log_b x=3$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$.\n\nA. $P=12$.\nB. $P=\\dfrac{7}{12}$.\nC. $P=\\dfrac{12}{7}$.\nD. $P=7$.",
+    "dap_an": "C. $P=\\dfrac{12}{7}$.",
+    "loi_giai": "$\\log_a x=4\\Rightarrow\\log_x a=\\dfrac1{4}$; $\\log_b x=3\\Rightarrow\\log_x b=\\dfrac1{3}$. $P=\\log_{ab}x=\\dfrac{1}{\\log_x(ab)}=\\dfrac{1}{\\log_x a+\\log_x b}=\\dfrac{12}{7}$.",
+    "params": {
+      "p": "4",
+      "q": "3"
+    }
+  },
+  {
+    "id_goc": "p146_q42",
+    "ma_dang": "D64",
+    "ten_dang": "Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $\\log_a x=5$, $\\log_b x=2$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$.\n\nA. $P=\\dfrac{7}{10}$.\nB. $P=\\dfrac{10}{3}$.\nC. $P=7$.\nD. $P=\\dfrac{10}{7}$.",
+    "dap_an": "D. $P=\\dfrac{10}{7}$.",
+    "loi_giai": "$\\log_a x=5\\Rightarrow\\log_x a=\\dfrac1{5}$; $\\log_b x=2\\Rightarrow\\log_x b=\\dfrac1{2}$. $P=\\log_{ab}x=\\dfrac{1}{\\log_x(ab)}=\\dfrac{1}{\\log_x a+\\log_x b}=\\dfrac{10}{7}$.",
+    "params": {
+      "p": "5",
+      "q": "2"
+    }
+  },
+  {
+    "id_goc": "p146_q42",
+    "ma_dang": "D64",
+    "ten_dang": "Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $\\log_a x=2$, $\\log_b x=7$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$.\n\nA. $P=\\dfrac{14}{9}$.\nB. $P=\\dfrac{9}{14}$.\nC. $P=9$.\nD. $P=- \\dfrac{14}{5}$.",
+    "dap_an": "A. $P=\\dfrac{14}{9}$.",
+    "loi_giai": "$\\log_a x=2\\Rightarrow\\log_x a=\\dfrac1{2}$; $\\log_b x=7\\Rightarrow\\log_x b=\\dfrac1{7}$. $P=\\log_{ab}x=\\dfrac{1}{\\log_x(ab)}=\\dfrac{1}{\\log_x a+\\log_x b}=\\dfrac{14}{9}$.",
+    "params": {
+      "p": "2",
+      "q": "7"
+    }
+  },
+  {
+    "id_goc": "p146_q42",
+    "ma_dang": "D64",
+    "ten_dang": "Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $\\log_a x=3$, $\\log_b x=5$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$.\n\nA. $P=8$.\nB. $P=\\dfrac{8}{15}$.\nC. $P=\\dfrac{15}{8}$.\nD. $P=- \\dfrac{15}{2}$.",
+    "dap_an": "C. $P=\\dfrac{15}{8}$.",
+    "loi_giai": "$\\log_a x=3\\Rightarrow\\log_x a=\\dfrac1{3}$; $\\log_b x=5\\Rightarrow\\log_x b=\\dfrac1{5}$. $P=\\log_{ab}x=\\dfrac{1}{\\log_x(ab)}=\\dfrac{1}{\\log_x a+\\log_x b}=\\dfrac{15}{8}$.",
+    "params": {
+      "p": "3",
+      "q": "5"
+    }
+  },
+  {
+    "id_goc": "p176_q25",
+    "ma_dang": "D72",
+    "ten_dang": "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{3}b^{2}=32$. Giá trị của $3\\log_{2}a+2\\log_{2}b$ bằng\n\nA. $6$.\nB. $32$.\nC. $5$.\nD. $10$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Ta có $\\log_{2}(a^{3}b^{2})=\\log_{2}32\\Leftrightarrow 3\\log_{2}a+2\\log_{2}b=5$.",
+    "params": {
+      "c": "2",
+      "p": "3",
+      "q": "2",
+      "r": "5"
+    }
+  },
+  {
+    "id_goc": "p176_q25",
+    "ma_dang": "D72",
+    "ten_dang": "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{2}b^{1}=81$. Giá trị của $2\\log_{3}a+1\\log_{3}b$ bằng\n\nA. $3$.\nB. $4$.\nC. $81$.\nD. $8$.",
+    "dap_an": "B. $4$.",
+    "loi_giai": "Ta có $\\log_{3}(a^{2}b^{1})=\\log_{3}81\\Leftrightarrow 2\\log_{3}a+1\\log_{3}b=4$.",
+    "params": {
+      "c": "3",
+      "p": "2",
+      "q": "1",
+      "r": "4"
+    }
+  },
+  {
+    "id_goc": "p176_q25",
+    "ma_dang": "D72",
+    "ten_dang": "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{2}b^{3}=64$. Giá trị của $2\\log_{2}a+3\\log_{2}b$ bằng\n\nA. $5$.\nB. $6$.\nC. $12$.\nD. $64$.",
+    "dap_an": "B. $6$.",
+    "loi_giai": "Ta có $\\log_{2}(a^{2}b^{3})=\\log_{2}64\\Leftrightarrow 2\\log_{2}a+3\\log_{2}b=6$.",
+    "params": {
+      "c": "2",
+      "p": "2",
+      "q": "3",
+      "r": "6"
+    }
+  },
+  {
+    "id_goc": "p176_q25",
+    "ma_dang": "D72",
+    "ten_dang": "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{1}b^{2}=125$. Giá trị của $1\\log_{5}a+2\\log_{5}b$ bằng\n\nA. $3$.\nB. $4$.\nC. $6$.\nD. $125$.",
+    "dap_an": "A. $3$.",
+    "loi_giai": "Ta có $\\log_{5}(a^{1}b^{2})=\\log_{5}125\\Leftrightarrow 1\\log_{5}a+2\\log_{5}b=3$.",
+    "params": {
+      "c": "5",
+      "p": "1",
+      "q": "2",
+      "r": "3"
+    }
+  },
+  {
+    "id_goc": "p176_q25",
+    "ma_dang": "D72",
+    "ten_dang": "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{4}b^{1}=32$. Giá trị của $4\\log_{2}a+1\\log_{2}b$ bằng\n\nA. $6$.\nB. $32$.\nC. $5$.\nD. $10$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Ta có $\\log_{2}(a^{4}b^{1})=\\log_{2}32\\Leftrightarrow 4\\log_{2}a+1\\log_{2}b=5$.",
+    "params": {
+      "c": "2",
+      "p": "4",
+      "q": "1",
+      "r": "5"
+    }
+  },
+  {
+    "id_goc": "p176_q25",
+    "ma_dang": "D72",
+    "ten_dang": "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{1}b^{3}=81$. Giá trị của $1\\log_{3}a+3\\log_{3}b$ bằng\n\nA. $81$.\nB. $4$.\nC. $8$.\nD. $5$.",
+    "dap_an": "B. $4$.",
+    "loi_giai": "Ta có $\\log_{3}(a^{1}b^{3})=\\log_{3}81\\Leftrightarrow 1\\log_{3}a+3\\log_{3}b=4$.",
+    "params": {
+      "c": "3",
+      "p": "1",
+      "q": "3",
+      "r": "4"
+    }
+  },
+  {
+    "id_goc": "p195_q30",
+    "ma_dang": "D77",
+    "ten_dang": "Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=3a$. Giá trị của $ab^{2}$ bằng\n\nA. $2$.\nB. $4$.\nC. $6$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "$4^{\\log_2(ab)}=3a \\Leftrightarrow \\log_2(ab)=\\log_{2}(3a)^{1/2} \\Leftrightarrow (ab)^{2}=3a \\Leftrightarrow ab^{2}=3$.",
+    "params": {
+      "s": "2",
+      "m": "3"
+    }
+  },
+  {
+    "id_goc": "p195_q30",
+    "ma_dang": "D77",
+    "ten_dang": "Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=2a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $1$.\nB. $3$.\nC. $4$.\nD. $2$.",
+    "dap_an": "D. $2$.",
+    "loi_giai": "$8^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/3} \\Leftrightarrow (ab)^{3}=2a \\Leftrightarrow a^{2} b^{3}=2$.",
+    "params": {
+      "s": "3",
+      "m": "2"
+    }
+  },
+  {
+    "id_goc": "p195_q30",
+    "ma_dang": "D77",
+    "ten_dang": "Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=5a$. Giá trị của $ab^{2}$ bằng\n\nA. $5$.\nB. $6$.\nC. $4$.\nD. $10$.",
+    "dap_an": "A. $5$.",
+    "loi_giai": "$4^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/2} \\Leftrightarrow (ab)^{2}=5a \\Leftrightarrow ab^{2}=5$.",
+    "params": {
+      "s": "2",
+      "m": "5"
+    }
+  },
+  {
+    "id_goc": "p195_q30",
+    "ma_dang": "D77",
+    "ten_dang": "Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=3a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $4$.\nB. $6$.\nC. $3$.\nD. $2$.",
+    "dap_an": "C. $3$.",
+    "loi_giai": "$16^{\\log_2(ab)}=3a \\Leftrightarrow \\log_2(ab)=\\log_{2}(3a)^{1/4} \\Leftrightarrow (ab)^{4}=3a \\Leftrightarrow a^{3} b^{4}=3$.",
+    "params": {
+      "s": "4",
+      "m": "3"
+    }
+  },
+  {
+    "id_goc": "p195_q30",
+    "ma_dang": "D77",
+    "ten_dang": "Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=7a$. Giá trị của $ab^{2}$ bằng\n\nA. $14$.\nB. $7$.\nC. $8$.\nD. $6$.",
+    "dap_an": "B. $7$.",
+    "loi_giai": "$4^{\\log_2(ab)}=7a \\Leftrightarrow \\log_2(ab)=\\log_{2}(7a)^{1/2} \\Leftrightarrow (ab)^{2}=7a \\Leftrightarrow ab^{2}=7$.",
+    "params": {
+      "s": "2",
+      "m": "7"
+    }
+  },
+  {
+    "id_goc": "p195_q30",
+    "ma_dang": "D77",
+    "ten_dang": "Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=4a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $8$.\nB. $4$.\nC. $3$.\nD. $5$.",
+    "dap_an": "B. $4$.",
+    "loi_giai": "$8^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/3} \\Leftrightarrow (ab)^{3}=4a \\Leftrightarrow a^{2} b^{3}=4$.",
+    "params": {
+      "s": "3",
+      "m": "4"
+    }
+  },
+  {
+    "id_goc": "p225_q31",
+    "ma_dang": "D87",
+    "ten_dang": "Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a>0$, đặt $\\log_{2}(2a)=b$, khi đó $\\log_{2}(4a^{3})$ bằng\n\nA. $3b$.\nB. $3b+1$.\nC. $6b-1$.\nD. $3b-1$.",
+    "dap_an": "D. $3b-1$.",
+    "loi_giai": "$\\log_{2}(2a)=b\\Leftrightarrow 1+\\log_{2}a=b\\Leftrightarrow\\log_{2}a=b-1$.\n$\\log_{2}(4a^{3})=2+3\\log_{2}a=2+3(b-1)=3b-1$.",
+    "params": {
+      "c": "2",
+      "s": "1",
+      "u": "2",
+      "p": "3"
+    }
+  },
+  {
+    "id_goc": "p225_q31",
+    "ma_dang": "D87",
+    "ten_dang": "Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a>0$, đặt $\\log_{2}(4a)=b$, khi đó $\\log_{2}(2a^{2})$ bằng\n\nA. $4b-3$.\nB. $2b-3$.\nC. $2b-1$.\nD. $2b$.",
+    "dap_an": "B. $2b-3$.",
+    "loi_giai": "$\\log_{2}(4a)=b\\Leftrightarrow 2+\\log_{2}a=b\\Leftrightarrow\\log_{2}a=b-2$.\n$\\log_{2}(2a^{2})=1+2\\log_{2}a=1+2(b-2)=2b-3$.",
+    "params": {
+      "c": "2",
+      "s": "2",
+      "u": "1",
+      "p": "2"
+    }
+  },
+  {
+    "id_goc": "p225_q31",
+    "ma_dang": "D87",
+    "ten_dang": "Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a>0$, đặt $\\log_{3}(3a)=b$, khi đó $\\log_{3}(27a^{2})$ bằng\n\nA. $2b+1$.\nB. $4b+1$.\nC. $2b$.\nD. $2b+3$.",
+    "dap_an": "A. $2b+1$.",
+    "loi_giai": "$\\log_{3}(3a)=b\\Leftrightarrow 1+\\log_{3}a=b\\Leftrightarrow\\log_{3}a=b-1$.\n$\\log_{3}(27a^{2})=3+2\\log_{3}a=3+2(b-1)=2b+1$.",
+    "params": {
+      "c": "3",
+      "s": "1",
+      "u": "3",
+      "p": "2"
+    }
+  },
+  {
+    "id_goc": "p225_q31",
+    "ma_dang": "D87",
+    "ten_dang": "Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a>0$, đặt $\\log_{2}(2a)=b$, khi đó $\\log_{2}(16a^{3})$ bằng\n\nA. $3b+3$.\nB. $3b$.\nC. $3b+1$.\nD. $6b+1$.",
+    "dap_an": "C. $3b+1$.",
+    "loi_giai": "$\\log_{2}(2a)=b\\Leftrightarrow 1+\\log_{2}a=b\\Leftrightarrow\\log_{2}a=b-1$.\n$\\log_{2}(16a^{3})=4+3\\log_{2}a=4+3(b-1)=3b+1$.",
+    "params": {
+      "c": "2",
+      "s": "1",
+      "u": "4",
+      "p": "3"
+    }
+  },
+  {
+    "id_goc": "p225_q31",
+    "ma_dang": "D87",
+    "ten_dang": "Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a>0$, đặt $\\log_{3}(9a)=b$, khi đó $\\log_{3}(9a^{3})$ bằng\n\nA. $6b-4$.\nB. $3b$.\nC. $3b-4$.\nD. $3b-2$.",
+    "dap_an": "C. $3b-4$.",
+    "loi_giai": "$\\log_{3}(9a)=b\\Leftrightarrow 2+\\log_{3}a=b\\Leftrightarrow\\log_{3}a=b-2$.\n$\\log_{3}(9a^{3})=2+3\\log_{3}a=2+3(b-2)=3b-4$.",
+    "params": {
+      "c": "3",
+      "s": "2",
+      "u": "2",
+      "p": "3"
+    }
+  },
+  {
+    "id_goc": "p225_q31",
+    "ma_dang": "D87",
+    "ten_dang": "Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a>0$, đặt $\\log_{2}(8a)=b$, khi đó $\\log_{2}(2a^{2})$ bằng\n\nA. $2b-5$.\nB. $4b-5$.\nC. $2b$.\nD. $2b-3$.",
+    "dap_an": "A. $2b-5$.",
+    "loi_giai": "$\\log_{2}(8a)=b\\Leftrightarrow 3+\\log_{2}a=b\\Leftrightarrow\\log_{2}a=b-3$.\n$\\log_{2}(2a^{2})=1+2\\log_{2}a=1+2(b-3)=2b-5$.",
+    "params": {
+      "c": "2",
+      "s": "3",
+      "u": "1",
+      "p": "2"
+    }
+  }
+]

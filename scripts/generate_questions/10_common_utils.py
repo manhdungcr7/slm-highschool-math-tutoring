@@ -51,3 +51,24 @@ def rrange(lo, hi, exclude=(0,), rnd=None):
         v = rnd.randint(lo, hi)
         if v not in exclude:
             return v
+
+
+def render_mc(opt_strs, correct_index, prefix=""):
+    """opt_strs: list 4 chuoi latex (khong bao gom $...$). correct_index: vi
+    tri (0-3) cua dap an dung trong opt_strs TRUOC KHI xao tron. Tra ve
+    (danh_sach_dong_ABCD, dap_an_dung_chuoi, correct_letter) sau khi xao tron
+    ngau nhien vi tri hien thi."""
+    letters = ["A", "B", "C", "D"]
+    order = [0, 1, 2, 3]
+    random.shuffle(order)
+    lines = []
+    correct_letter = None
+    correct_str = None
+    for pos, idx in enumerate(order):
+        letter = letters[pos]
+        if idx == correct_index:
+            correct_letter = letter
+            correct_str = opt_strs[idx]
+        lines.append(f"{letter}. ${prefix}{opt_strs[idx]}$.")
+    dap_an = f"{correct_letter}. ${prefix}{correct_str}$."
+    return lines, dap_an

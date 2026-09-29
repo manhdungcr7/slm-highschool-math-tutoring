@@ -1,0 +1,895 @@
+[
+  {
+    "id_goc": "p006_q17",
+    "ma_dang": "D06",
+    "ten_dang": "D06",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho các số thực dương $a, b$ với $a \\neq 1$. Mệnh đề nào sau đây đúng?\n\nA. $\\log_{a^{2}}(ab) = 2 + 2\\log_a b$.\nB. $\\log_{a^{2}}(ab) = \\dfrac{1}{2} + 2\\log_a b$.\nC. $\\log_{a^{2}}(ab) = \\dfrac{1}{4}\\log_a b$.\nD. $\\log_{a^{2}}(ab) = \\dfrac{1}{2} + \\dfrac{1}{2}\\log_a b$.",
+    "dap_an": "D. $\\log_{a^{2}}(ab) = \\dfrac{1}{2} + \\dfrac{1}{2}\\log_a b$.",
+    "loi_giai": "$\\log_{a^{2}}(ab)=\\dfrac{1}{2}\\log_a(ab)=\\dfrac{1}{2}(1+\\log_a b)=\\dfrac{1}{2}+\\dfrac{1}{2}\\log_a b$.",
+    "params": {
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p006_q17",
+    "ma_dang": "D06",
+    "ten_dang": "D06",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho các số thực dương $a, b$ với $a \\neq 1$. Mệnh đề nào sau đây đúng?\n\nA. $\\log_{a^{3}}(ab) = \\dfrac{1}{3} + \\dfrac{1}{3}\\log_a b$.\nB. $\\log_{a^{3}}(ab) = \\dfrac{1}{3} + 3\\log_a b$.\nC. $\\log_{a^{3}}(ab) = 3 + 3\\log_a b$.\nD. $\\log_{a^{3}}(ab) = \\dfrac{1}{9}\\log_a b$.",
+    "dap_an": "A. $\\log_{a^{3}}(ab) = \\dfrac{1}{3} + \\dfrac{1}{3}\\log_a b$.",
+    "loi_giai": "$\\log_{a^{3}}(ab)=\\dfrac{1}{3}\\log_a(ab)=\\dfrac{1}{3}(1+\\log_a b)=\\dfrac{1}{3}+\\dfrac{1}{3}\\log_a b$.",
+    "params": {
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p006_q17",
+    "ma_dang": "D06",
+    "ten_dang": "D06",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho các số thực dương $a, b$ với $a \\neq 1$. Mệnh đề nào sau đây đúng?\n\nA. $\\log_{a^{4}}(ab) = \\dfrac{1}{16}\\log_a b$.\nB. $\\log_{a^{4}}(ab) = \\dfrac{1}{4} + 4\\log_a b$.\nC. $\\log_{a^{4}}(ab) = \\dfrac{1}{4} + \\dfrac{1}{4}\\log_a b$.\nD. $\\log_{a^{4}}(ab) = 4 + 4\\log_a b$.",
+    "dap_an": "C. $\\log_{a^{4}}(ab) = \\dfrac{1}{4} + \\dfrac{1}{4}\\log_a b$.",
+    "loi_giai": "$\\log_{a^{4}}(ab)=\\dfrac{1}{4}\\log_a(ab)=\\dfrac{1}{4}(1+\\log_a b)=\\dfrac{1}{4}+\\dfrac{1}{4}\\log_a b$.",
+    "params": {
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p006_q17",
+    "ma_dang": "D06",
+    "ten_dang": "D06",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho các số thực dương $a, b$ với $a \\neq 1$. Mệnh đề nào sau đây đúng?\n\nA. $\\log_{a^{5}}(ab) = \\dfrac{1}{25}\\log_a b$.\nB. $\\log_{a^{5}}(ab) = \\dfrac{1}{5} + \\dfrac{1}{5}\\log_a b$.\nC. $\\log_{a^{5}}(ab) = 5 + 5\\log_a b$.\nD. $\\log_{a^{5}}(ab) = \\dfrac{1}{5} + 5\\log_a b$.",
+    "dap_an": "B. $\\log_{a^{5}}(ab) = \\dfrac{1}{5} + \\dfrac{1}{5}\\log_a b$.",
+    "loi_giai": "$\\log_{a^{5}}(ab)=\\dfrac{1}{5}\\log_a(ab)=\\dfrac{1}{5}(1+\\log_a b)=\\dfrac{1}{5}+\\dfrac{1}{5}\\log_a b$.",
+    "params": {
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p006_q17",
+    "ma_dang": "D06",
+    "ten_dang": "D06",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho các số thực dương $a, b$ với $a \\neq 1$. Mệnh đề nào sau đây đúng?\n\nA. $\\log_{a^{6}}(ab) = \\dfrac{1}{6} + 6\\log_a b$.\nB. $\\log_{a^{6}}(ab) = \\dfrac{1}{36}\\log_a b$.\nC. $\\log_{a^{6}}(ab) = \\dfrac{1}{6} + \\dfrac{1}{6}\\log_a b$.\nD. $\\log_{a^{6}}(ab) = 6 + 6\\log_a b$.",
+    "dap_an": "C. $\\log_{a^{6}}(ab) = \\dfrac{1}{6} + \\dfrac{1}{6}\\log_a b$.",
+    "loi_giai": "$\\log_{a^{6}}(ab)=\\dfrac{1}{6}\\log_a(ab)=\\dfrac{1}{6}(1+\\log_a b)=\\dfrac{1}{6}+\\dfrac{1}{6}\\log_a b$.",
+    "params": {
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p020_q16",
+    "ma_dang": "D13",
+    "ten_dang": "D13",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?\n\nA. $\\log_{2}\\left(\\dfrac{2a^{3}}{b}\\right) = \\log_{2}2+3\\log_{2} a-\\log_{2} b$.\nB. $\\log_{2}\\left(\\dfrac{2a^{3}}{b}\\right) = \\log_{2}2+\\dfrac{1}{3}\\log_{2} a-\\log_{2} b$.\nC. $\\log_{2}\\left(\\dfrac{2a^{3}}{b}\\right) = \\log_{2}2+3\\log_{2} a+\\log_{2} b$.\nD. $\\log_{2}\\left(\\dfrac{2a^{3}}{b}\\right) = 3(\\log_{2}2+\\log_{2} a-\\log_{2} b)$.",
+    "dap_an": "A. $\\log_{2}\\left(\\dfrac{2a^{3}}{b}\\right) = \\log_{2}2+3\\log_{2} a-\\log_{2} b$.",
+    "loi_giai": "$\\log_{2}\\left(\\dfrac{2a^{3}}{b}\\right)=\\log_{2}(2a^{3})-\\log_{2} b=\\log_{2}2+3\\log_{2} a-\\log_{2} b$.",
+    "params": {
+      "c": "2",
+      "k": "2",
+      "p": "3"
+    }
+  },
+  {
+    "id_goc": "p020_q16",
+    "ma_dang": "D13",
+    "ten_dang": "D13",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?\n\nA. $\\log_{3}\\left(\\dfrac{a^{2}}{b}\\right) = 2\\log_{3} a+\\log_{3} b$.\nB. $\\log_{3}\\left(\\dfrac{a^{2}}{b}\\right) = 2\\log_{3} a-\\log_{3} b$.\nC. $\\log_{3}\\left(\\dfrac{a^{2}}{b}\\right) = 2(\\log_{3} a-\\log_{3} b)$.\nD. $\\log_{3}\\left(\\dfrac{a^{2}}{b}\\right) = \\dfrac{1}{2}\\log_{3} a-\\log_{3} b$.",
+    "dap_an": "B. $\\log_{3}\\left(\\dfrac{a^{2}}{b}\\right) = 2\\log_{3} a-\\log_{3} b$.",
+    "loi_giai": "$\\log_{3}\\left(\\dfrac{a^{2}}{b}\\right)=\\log_{3}(a^{2})-\\log_{3} b=2\\log_{3} a-\\log_{3} b$.",
+    "params": {
+      "c": "3",
+      "k": "1",
+      "p": "2"
+    }
+  },
+  {
+    "id_goc": "p020_q16",
+    "ma_dang": "D13",
+    "ten_dang": "D13",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?\n\nA. $\\log_{5}\\left(\\dfrac{3a^{4}}{b}\\right) = 4(\\log_{5}3+\\log_{5} a-\\log_{5} b)$.\nB. $\\log_{5}\\left(\\dfrac{3a^{4}}{b}\\right) = \\log_{5}3+4\\log_{5} a+\\log_{5} b$.\nC. $\\log_{5}\\left(\\dfrac{3a^{4}}{b}\\right) = \\log_{5}3+4\\log_{5} a-\\log_{5} b$.\nD. $\\log_{5}\\left(\\dfrac{3a^{4}}{b}\\right) = \\log_{5}3+\\dfrac{1}{4}\\log_{5} a-\\log_{5} b$.",
+    "dap_an": "C. $\\log_{5}\\left(\\dfrac{3a^{4}}{b}\\right) = \\log_{5}3+4\\log_{5} a-\\log_{5} b$.",
+    "loi_giai": "$\\log_{5}\\left(\\dfrac{3a^{4}}{b}\\right)=\\log_{5}(3a^{4})-\\log_{5} b=\\log_{5}3+4\\log_{5} a-\\log_{5} b$.",
+    "params": {
+      "c": "5",
+      "k": "3",
+      "p": "4"
+    }
+  },
+  {
+    "id_goc": "p020_q16",
+    "ma_dang": "D13",
+    "ten_dang": "D13",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?\n\nA. $\\log_{2}\\left(\\dfrac{4a^{2}}{b}\\right) = \\log_{2}4+\\dfrac{1}{2}\\log_{2} a-\\log_{2} b$.\nB. $\\log_{2}\\left(\\dfrac{4a^{2}}{b}\\right) = 2(\\log_{2}4+\\log_{2} a-\\log_{2} b)$.\nC. $\\log_{2}\\left(\\dfrac{4a^{2}}{b}\\right) = \\log_{2}4+2\\log_{2} a+\\log_{2} b$.\nD. $\\log_{2}\\left(\\dfrac{4a^{2}}{b}\\right) = \\log_{2}4+2\\log_{2} a-\\log_{2} b$.",
+    "dap_an": "D. $\\log_{2}\\left(\\dfrac{4a^{2}}{b}\\right) = \\log_{2}4+2\\log_{2} a-\\log_{2} b$.",
+    "loi_giai": "$\\log_{2}\\left(\\dfrac{4a^{2}}{b}\\right)=\\log_{2}(4a^{2})-\\log_{2} b=\\log_{2}4+2\\log_{2} a-\\log_{2} b$.",
+    "params": {
+      "c": "2",
+      "k": "4",
+      "p": "2"
+    }
+  },
+  {
+    "id_goc": "p020_q16",
+    "ma_dang": "D13",
+    "ten_dang": "D13",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?\n\nA. $\\log_{3}\\left(\\dfrac{5a^{3}}{b}\\right) = \\log_{3}5+3\\log_{3} a+\\log_{3} b$.\nB. $\\log_{3}\\left(\\dfrac{5a^{3}}{b}\\right) = 3(\\log_{3}5+\\log_{3} a-\\log_{3} b)$.\nC. $\\log_{3}\\left(\\dfrac{5a^{3}}{b}\\right) = \\log_{3}5+3\\log_{3} a-\\log_{3} b$.\nD. $\\log_{3}\\left(\\dfrac{5a^{3}}{b}\\right) = \\log_{3}5+\\dfrac{1}{3}\\log_{3} a-\\log_{3} b$.",
+    "dap_an": "C. $\\log_{3}\\left(\\dfrac{5a^{3}}{b}\\right) = \\log_{3}5+3\\log_{3} a-\\log_{3} b$.",
+    "loi_giai": "$\\log_{3}\\left(\\dfrac{5a^{3}}{b}\\right)=\\log_{3}(5a^{3})-\\log_{3} b=\\log_{3}5+3\\log_{3} a-\\log_{3} b$.",
+    "params": {
+      "c": "3",
+      "k": "5",
+      "p": "3"
+    }
+  },
+  {
+    "id_goc": "p020_q16",
+    "ma_dang": "D13",
+    "ten_dang": "D13",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?\n\nA. $\\log_{4}\\left(\\dfrac{a^{3}}{b}\\right) = 3(\\log_{4} a-\\log_{4} b)$.\nB. $\\log_{4}\\left(\\dfrac{a^{3}}{b}\\right) = 3\\log_{4} a+\\log_{4} b$.\nC. $\\log_{4}\\left(\\dfrac{a^{3}}{b}\\right) = 3\\log_{4} a-\\log_{4} b$.\nD. $\\log_{4}\\left(\\dfrac{a^{3}}{b}\\right) = \\dfrac{1}{3}\\log_{4} a-\\log_{4} b$.",
+    "dap_an": "C. $\\log_{4}\\left(\\dfrac{a^{3}}{b}\\right) = 3\\log_{4} a-\\log_{4} b$.",
+    "loi_giai": "$\\log_{4}\\left(\\dfrac{a^{3}}{b}\\right)=\\log_{4}(a^{3})-\\log_{4} b=3\\log_{4} a-\\log_{4} b$.",
+    "params": {
+      "c": "4",
+      "k": "1",
+      "p": "3"
+    }
+  },
+  {
+    "id_goc": "p079_q10",
+    "ma_dang": "D36",
+    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{2}(a^{2})$ bằng\n\nA. $2\\log_{2} a$.\nB. $\\dfrac{1}{2}+\\log_{2} a$.\nC. $\\dfrac{1}{2}\\log_{2} a$.\nD. $2+\\log_{2} a$.",
+    "dap_an": "A. $2\\log_{2} a$.",
+    "loi_giai": "Ta có $\\log_{2}(a^{2})=2\\log_{2} a$.",
+    "params": {
+      "base": "2",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p094_q11",
+    "ma_dang": "D36",
+    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{3}(a^{4})$ bằng\n\nA. $\\dfrac{1}{4}\\log_{3} a$.\nB. $4+\\log_{3} a$.\nC. $\\dfrac{1}{4}+\\log_{3} a$.\nD. $4\\log_{3} a$.",
+    "dap_an": "D. $4\\log_{3} a$.",
+    "loi_giai": "Ta có $\\log_{3}(a^{4})=4\\log_{3} a$.",
+    "params": {
+      "base": "3",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36",
+    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{5}(a^{3})$ bằng\n\nA. $\\dfrac{1}{3}\\log_{5} a$.\nB. $\\dfrac{1}{3}+\\log_{5} a$.\nC. $3\\log_{5} a$.\nD. $3+\\log_{5} a$.",
+    "dap_an": "C. $3\\log_{5} a$.",
+    "loi_giai": "Ta có $\\log_{5}(a^{3})=3\\log_{5} a$.",
+    "params": {
+      "base": "5",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p171_q05",
+    "ma_dang": "D36",
+    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{7}(a^{2})$ bằng\n\nA. $2\\log_{7} a$.\nB. $2+\\log_{7} a$.\nC. $\\dfrac{1}{2}+\\log_{7} a$.\nD. $\\dfrac{1}{2}\\log_{7} a$.",
+    "dap_an": "A. $2\\log_{7} a$.",
+    "loi_giai": "Ta có $\\log_{7}(a^{2})=2\\log_{7} a$.",
+    "params": {
+      "base": "7",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p079_q10",
+    "ma_dang": "D36",
+    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{2}(a^{5})$ bằng\n\nA. $\\dfrac{1}{5}+\\log_{2} a$.\nB. $\\dfrac{1}{5}\\log_{2} a$.\nC. $5\\log_{2} a$.\nD. $5+\\log_{2} a$.",
+    "dap_an": "C. $5\\log_{2} a$.",
+    "loi_giai": "Ta có $\\log_{2}(a^{5})=5\\log_{2} a$.",
+    "params": {
+      "base": "2",
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p079_q10",
+    "ma_dang": "D36",
+    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{10}(a^{3})$ bằng\n\nA. $3\\log_{10} a$.\nB. $3+\\log_{10} a$.\nC. $\\dfrac{1}{3}+\\log_{10} a$.\nD. $\\dfrac{1}{3}\\log_{10} a$.",
+    "dap_an": "A. $3\\log_{10} a$.",
+    "loi_giai": "Ta có $\\log_{10}(a^{3})=3\\log_{10} a$.",
+    "params": {
+      "base": "10",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p065_q05",
+    "ma_dang": "D30",
+    "ten_dang": "D30",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log_{2}(ab^{2})$ bằng\n\nA. $\\log_{2} a+2\\log_{2} b$.\nB. $\\log_{2} a+\\dfrac{1}{2}\\log_{2} b$.\nC. $\\log_{2} a-2\\log_{2} b$.\nD. $2(\\log_{2} a+\\log_{2} b)$.",
+    "dap_an": "A. $\\log_{2} a+2\\log_{2} b$.",
+    "loi_giai": "$\\log_{2}(ab^{2})=\\log_{2} a+\\log_{2} b^{2}=\\log_{2} a+2\\log_{2} b$.",
+    "params": {
+      "c": "2",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p065_q05",
+    "ma_dang": "D30",
+    "ten_dang": "D30",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log_{3}(ab^{3})$ bằng\n\nA. $\\log_{3} a+\\dfrac{1}{3}\\log_{3} b$.\nB. $\\log_{3} a+3\\log_{3} b$.\nC. $3(\\log_{3} a+\\log_{3} b)$.\nD. $\\log_{3} a-3\\log_{3} b$.",
+    "dap_an": "B. $\\log_{3} a+3\\log_{3} b$.",
+    "loi_giai": "$\\log_{3}(ab^{3})=\\log_{3} a+\\log_{3} b^{3}=\\log_{3} a+3\\log_{3} b$.",
+    "params": {
+      "c": "3",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p065_q05",
+    "ma_dang": "D30",
+    "ten_dang": "D30",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log_{5}(ab^{2})$ bằng\n\nA. $\\log_{5} a-2\\log_{5} b$.\nB. $\\log_{5} a+2\\log_{5} b$.\nC. $\\log_{5} a+\\dfrac{1}{2}\\log_{5} b$.\nD. $2(\\log_{5} a+\\log_{5} b)$.",
+    "dap_an": "B. $\\log_{5} a+2\\log_{5} b$.",
+    "loi_giai": "$\\log_{5}(ab^{2})=\\log_{5} a+\\log_{5} b^{2}=\\log_{5} a+2\\log_{5} b$.",
+    "params": {
+      "c": "5",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p065_q05",
+    "ma_dang": "D30",
+    "ten_dang": "D30",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log_{10}(ab^{4})$ bằng\n\nA. $\\log_{10} a-4\\log_{10} b$.\nB. $\\log_{10} a+\\dfrac{1}{4}\\log_{10} b$.\nC. $4(\\log_{10} a+\\log_{10} b)$.\nD. $\\log_{10} a+4\\log_{10} b$.",
+    "dap_an": "D. $\\log_{10} a+4\\log_{10} b$.",
+    "loi_giai": "$\\log_{10}(ab^{4})=\\log_{10} a+\\log_{10} b^{4}=\\log_{10} a+4\\log_{10} b$.",
+    "params": {
+      "c": "10",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p065_q05",
+    "ma_dang": "D30",
+    "ten_dang": "D30",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log_{7}(ab^{3})$ bằng\n\nA. $\\log_{7} a-3\\log_{7} b$.\nB. $\\log_{7} a+3\\log_{7} b$.\nC. $3(\\log_{7} a+\\log_{7} b)$.\nD. $\\log_{7} a+\\dfrac{1}{3}\\log_{7} b$.",
+    "dap_an": "B. $\\log_{7} a+3\\log_{7} b$.",
+    "loi_giai": "$\\log_{7}(ab^{3})=\\log_{7} a+\\log_{7} b^{3}=\\log_{7} a+3\\log_{7} b$.",
+    "params": {
+      "c": "7",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p065_q05",
+    "ma_dang": "D30",
+    "ten_dang": "D30",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log_{2}(ab^{4})$ bằng\n\nA. $\\log_{2} a+\\dfrac{1}{4}\\log_{2} b$.\nB. $4(\\log_{2} a+\\log_{2} b)$.\nC. $\\log_{2} a-4\\log_{2} b$.\nD. $\\log_{2} a+4\\log_{2} b$.",
+    "dap_an": "D. $\\log_{2} a+4\\log_{2} b$.",
+    "loi_giai": "$\\log_{2}(ab^{4})=\\log_{2} a+\\log_{2} b^{4}=\\log_{2} a+4\\log_{2} b$.",
+    "params": {
+      "c": "2",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p125_q28",
+    "ma_dang": "D54",
+    "ten_dang": "D54",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\ln(3a)-\\ln(2a)$ bằng\n\nA. $\\ln\\dfrac{3}{2}$.\nB. $\\ln a$.\nC. $\\ln(3\\cdot2a^2)$.\nD. $\\ln\\dfrac{2}{3}$.",
+    "dap_an": "A. $\\ln\\dfrac{3}{2}$.",
+    "loi_giai": "Ta có $\\ln(3a)-\\ln(2a)=\\ln\\left(\\dfrac{3a}{2a}\\right)=\\ln\\dfrac{3}{2}$.",
+    "params": {
+      "p": "3",
+      "q": "2"
+    }
+  },
+  {
+    "id_goc": "p125_q28",
+    "ma_dang": "D54",
+    "ten_dang": "D54",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\ln(5a)-\\ln(3a)$ bằng\n\nA. $\\ln\\dfrac{3}{5}$.\nB. $\\ln(5\\cdot3a^2)$.\nC. $\\ln\\dfrac{5}{3}$.\nD. $\\ln a$.",
+    "dap_an": "C. $\\ln\\dfrac{5}{3}$.",
+    "loi_giai": "Ta có $\\ln(5a)-\\ln(3a)=\\ln\\left(\\dfrac{5a}{3a}\\right)=\\ln\\dfrac{5}{3}$.",
+    "params": {
+      "p": "5",
+      "q": "3"
+    }
+  },
+  {
+    "id_goc": "p125_q28",
+    "ma_dang": "D54",
+    "ten_dang": "D54",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\ln(7a)-\\ln(4a)$ bằng\n\nA. $\\ln\\dfrac{7}{4}$.\nB. $\\ln(7\\cdot4a^2)$.\nC. $\\ln\\dfrac{4}{7}$.\nD. $\\ln a$.",
+    "dap_an": "A. $\\ln\\dfrac{7}{4}$.",
+    "loi_giai": "Ta có $\\ln(7a)-\\ln(4a)=\\ln\\left(\\dfrac{7a}{4a}\\right)=\\ln\\dfrac{7}{4}$.",
+    "params": {
+      "p": "7",
+      "q": "4"
+    }
+  },
+  {
+    "id_goc": "p125_q28",
+    "ma_dang": "D54",
+    "ten_dang": "D54",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\ln(4a)-\\ln(3a)$ bằng\n\nA. $\\ln(4\\cdot3a^2)$.\nB. $\\ln\\dfrac{3}{4}$.\nC. $\\ln a$.\nD. $\\ln\\dfrac{4}{3}$.",
+    "dap_an": "D. $\\ln\\dfrac{4}{3}$.",
+    "loi_giai": "Ta có $\\ln(4a)-\\ln(3a)=\\ln\\left(\\dfrac{4a}{3a}\\right)=\\ln\\dfrac{4}{3}$.",
+    "params": {
+      "p": "4",
+      "q": "3"
+    }
+  },
+  {
+    "id_goc": "p125_q28",
+    "ma_dang": "D54",
+    "ten_dang": "D54",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\ln(9a)-\\ln(5a)$ bằng\n\nA. $\\ln\\dfrac{5}{9}$.\nB. $\\ln\\dfrac{9}{5}$.\nC. $\\ln a$.\nD. $\\ln(9\\cdot5a^2)$.",
+    "dap_an": "B. $\\ln\\dfrac{9}{5}$.",
+    "loi_giai": "Ta có $\\ln(9a)-\\ln(5a)=\\ln\\left(\\dfrac{9a}{5a}\\right)=\\ln\\dfrac{9}{5}$.",
+    "params": {
+      "p": "9",
+      "q": "5"
+    }
+  },
+  {
+    "id_goc": "p125_q28",
+    "ma_dang": "D54",
+    "ten_dang": "D54",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $\\ln(5a)-\\ln(2a)$ bằng\n\nA. $\\ln\\dfrac{5}{2}$.\nB. $\\ln(5\\cdot2a^2)$.\nC. $\\ln a$.\nD. $\\ln\\dfrac{2}{5}$.",
+    "dap_an": "A. $\\ln\\dfrac{5}{2}$.",
+    "loi_giai": "Ta có $\\ln(5a)-\\ln(2a)=\\ln\\left(\\dfrac{5a}{2a}\\right)=\\ln\\dfrac{5}{2}$.",
+    "params": {
+      "p": "5",
+      "q": "2"
+    }
+  },
+  {
+    "id_goc": "p138_q06",
+    "ma_dang": "D59",
+    "ten_dang": "D59",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương khác 1. Tính $I=\\log_{\\sqrt{a}}a$.\n\nA. $I=0$.\nB. $I=2$.\nC. $I=-2$.\nD. $I=\\dfrac{1}{2}$.",
+    "dap_an": "B. $I=2$.",
+    "loi_giai": "$\\log_{\\sqrt{a}}a=\\log_{a^{1/2}}a=2\\log_a a=2$.",
+    "params": {
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p138_q06",
+    "ma_dang": "D59",
+    "ten_dang": "D59",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương khác 1. Tính $I=\\log_{\\sqrt[3]{a}}a$.\n\nA. $I=-3$.\nB. $I=3$.\nC. $I=\\dfrac{1}{3}$.\nD. $I=0$.",
+    "dap_an": "B. $I=3$.",
+    "loi_giai": "$\\log_{\\sqrt[3]{a}}a=\\log_{a^{1/3}}a=3\\log_a a=3$.",
+    "params": {
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p138_q06",
+    "ma_dang": "D59",
+    "ten_dang": "D59",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương khác 1. Tính $I=\\log_{\\sqrt[4]{a}}a$.\n\nA. $I=0$.\nB. $I=-4$.\nC. $I=\\dfrac{1}{4}$.\nD. $I=4$.",
+    "dap_an": "D. $I=4$.",
+    "loi_giai": "$\\log_{\\sqrt[4]{a}}a=\\log_{a^{1/4}}a=4\\log_a a=4$.",
+    "params": {
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p138_q06",
+    "ma_dang": "D59",
+    "ten_dang": "D59",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương khác 1. Tính $I=\\log_{\\sqrt[5]{a}}a$.\n\nA. $I=0$.\nB. $I=5$.\nC. $I=-5$.\nD. $I=\\dfrac{1}{5}$.",
+    "dap_an": "B. $I=5$.",
+    "loi_giai": "$\\log_{\\sqrt[5]{a}}a=\\log_{a^{1/5}}a=5\\log_a a=5$.",
+    "params": {
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p138_q06",
+    "ma_dang": "D59",
+    "ten_dang": "D59",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương khác 1. Tính $I=\\log_{\\sqrt[6]{a}}a$.\n\nA. $I=6$.\nB. $I=0$.\nC. $I=\\dfrac{1}{6}$.\nD. $I=-6$.",
+    "dap_an": "A. $I=6$.",
+    "loi_giai": "$\\log_{\\sqrt[6]{a}}a=\\log_{a^{1/6}}a=6\\log_a a=6$.",
+    "params": {
+      "k": "6"
+    }
+  },
+  {
+    "id_goc": "p138_q06",
+    "ma_dang": "D59",
+    "ten_dang": "D59",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương khác 1. Tính $I=\\log_{\\sqrt[7]{a}}a$.\n\nA. $I=-7$.\nB. $I=0$.\nC. $I=7$.\nD. $I=\\dfrac{1}{7}$.",
+    "dap_an": "C. $I=7$.",
+    "loi_giai": "$\\log_{\\sqrt[7]{a}}a=\\log_{a^{1/7}}a=7\\log_a a=7$.",
+    "params": {
+      "k": "7"
+    }
+  },
+  {
+    "id_goc": "p139_q15",
+    "ma_dang": "D60",
+    "ten_dang": "D60",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^{3}+\\log_{a^{2}}b^{6}$. Mệnh đề nào dưới đây đúng?\n\nA. $P=5\\log_a b$.\nB. $P=9\\log_a b$.\nC. $P=6\\log_a b$.\nD. $P=3\\log_a b$.",
+    "dap_an": "C. $P=6\\log_a b$.",
+    "loi_giai": "Ta có $\\log_a b^{3}=3\\log_a b$ và $\\log_{a^{2}}b^{6}=\\dfrac{6}{2}\\log_a b=3\\log_a b$. Do đó $P=6\\log_a b$.",
+    "params": {
+      "p": "3",
+      "m": "2"
+    }
+  },
+  {
+    "id_goc": "p139_q15",
+    "ma_dang": "D60",
+    "ten_dang": "D60",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^{2}+\\log_{a^{3}}b^{6}$. Mệnh đề nào dưới đây đúng?\n\nA. $P=5\\log_a b$.\nB. $P=\\dfrac{4}{3}\\log_a b$.\nC. $P=4\\log_a b$.\nD. $P=6\\log_a b$.",
+    "dap_an": "C. $P=4\\log_a b$.",
+    "loi_giai": "Ta có $\\log_a b^{2}=2\\log_a b$ và $\\log_{a^{3}}b^{6}=\\dfrac{6}{3}\\log_a b=2\\log_a b$. Do đó $P=4\\log_a b$.",
+    "params": {
+      "p": "2",
+      "m": "3"
+    }
+  },
+  {
+    "id_goc": "p139_q15",
+    "ma_dang": "D60",
+    "ten_dang": "D60",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^{1}+\\log_{a^{4}}b^{4}$. Mệnh đề nào dưới đây đúng?\n\nA. $P=5\\log_a b$.\nB. $P=\\dfrac{1}{2}\\log_a b$.\nC. $P=1\\log_a b$.\nD. $P=2\\log_a b$.",
+    "dap_an": "D. $P=2\\log_a b$.",
+    "loi_giai": "Ta có $\\log_a b^{1}=1\\log_a b$ và $\\log_{a^{4}}b^{4}=\\dfrac{4}{4}\\log_a b=1\\log_a b$. Do đó $P=2\\log_a b$.",
+    "params": {
+      "p": "1",
+      "m": "4"
+    }
+  },
+  {
+    "id_goc": "p139_q15",
+    "ma_dang": "D60",
+    "ten_dang": "D60",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^{4}+\\log_{a^{2}}b^{8}$. Mệnh đề nào dưới đây đúng?\n\nA. $P=8\\log_a b$.\nB. $P=16\\log_a b$.\nC. $P=6\\log_a b$.\nD. $P=4\\log_a b$.",
+    "dap_an": "A. $P=8\\log_a b$.",
+    "loi_giai": "Ta có $\\log_a b^{4}=4\\log_a b$ và $\\log_{a^{2}}b^{8}=\\dfrac{8}{2}\\log_a b=4\\log_a b$. Do đó $P=8\\log_a b$.",
+    "params": {
+      "p": "4",
+      "m": "2"
+    }
+  },
+  {
+    "id_goc": "p139_q15",
+    "ma_dang": "D60",
+    "ten_dang": "D60",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^{2}+\\log_{a^{5}}b^{10}$. Mệnh đề nào dưới đây đúng?\n\nA. $P=4\\log_a b$.\nB. $P=7\\log_a b$.\nC. $P=\\dfrac{4}{5}\\log_a b$.\nD. $P=5\\log_a b$.",
+    "dap_an": "A. $P=4\\log_a b$.",
+    "loi_giai": "Ta có $\\log_a b^{2}=2\\log_a b$ và $\\log_{a^{5}}b^{10}=\\dfrac{10}{5}\\log_a b=2\\log_a b$. Do đó $P=4\\log_a b$.",
+    "params": {
+      "p": "2",
+      "m": "5"
+    }
+  },
+  {
+    "id_goc": "p139_q15",
+    "ma_dang": "D60",
+    "ten_dang": "D60",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^{3}+\\log_{a^{3}}b^{9}$. Mệnh đề nào dưới đây đúng?\n\nA. $P=7\\log_a b$.\nB. $P=9\\log_a b$.\nC. $P=6\\log_a b$.\nD. $P=2\\log_a b$.",
+    "dap_an": "C. $P=6\\log_a b$.",
+    "loi_giai": "Ta có $\\log_a b^{3}=3\\log_a b$ và $\\log_{a^{3}}b^{9}=\\dfrac{9}{3}\\log_a b=3\\log_a b$. Do đó $P=6\\log_a b$.",
+    "params": {
+      "p": "3",
+      "m": "3"
+    }
+  },
+  {
+    "id_goc": "p154_q11",
+    "ma_dang": "D66",
+    "ten_dang": "D66",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tuỳ ý, $\\log_{3}(3a)$ bằng\n\nA. $1+\\log_{3} a$.\nB. $\\log_{3} a-1$.\nC. $3\\log_{3} a$.\nD. $1-\\log_{3} a$.",
+    "dap_an": "A. $1+\\log_{3} a$.",
+    "loi_giai": "Ta có $\\log_{3}(3a)=\\log_{3}3+\\log_{3} a=1+\\log_{3} a$.",
+    "params": {
+      "c": "3",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p154_q11",
+    "ma_dang": "D66",
+    "ten_dang": "D66",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tuỳ ý, $\\log_{2}(4a)$ bằng\n\nA. $2-\\log_{2} a$.\nB. $4\\log_{2} a$.\nC. $\\log_{2} a-2$.\nD. $2+\\log_{2} a$.",
+    "dap_an": "D. $2+\\log_{2} a$.",
+    "loi_giai": "Ta có $\\log_{2}(4a)=\\log_{2}4+\\log_{2} a=2+\\log_{2} a$.",
+    "params": {
+      "c": "2",
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p154_q11",
+    "ma_dang": "D66",
+    "ten_dang": "D66",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tuỳ ý, $\\log_{5}(5a)$ bằng\n\nA. $1-\\log_{5} a$.\nB. $5\\log_{5} a$.\nC. $1+\\log_{5} a$.\nD. $\\log_{5} a-1$.",
+    "dap_an": "C. $1+\\log_{5} a$.",
+    "loi_giai": "Ta có $\\log_{5}(5a)=\\log_{5}5+\\log_{5} a=1+\\log_{5} a$.",
+    "params": {
+      "c": "5",
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p154_q11",
+    "ma_dang": "D66",
+    "ten_dang": "D66",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tuỳ ý, $\\log_{2}(8a)$ bằng\n\nA. $\\log_{2} a-3$.\nB. $3+\\log_{2} a$.\nC. $8\\log_{2} a$.\nD. $3-\\log_{2} a$.",
+    "dap_an": "B. $3+\\log_{2} a$.",
+    "loi_giai": "Ta có $\\log_{2}(8a)=\\log_{2}8+\\log_{2} a=3+\\log_{2} a$.",
+    "params": {
+      "c": "2",
+      "k": "8"
+    }
+  },
+  {
+    "id_goc": "p154_q11",
+    "ma_dang": "D66",
+    "ten_dang": "D66",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tuỳ ý, $\\log_{10}(10a)$ bằng\n\nA. $\\log_{10} a-1$.\nB. $1-\\log_{10} a$.\nC. $1+\\log_{10} a$.\nD. $10\\log_{10} a$.",
+    "dap_an": "C. $1+\\log_{10} a$.",
+    "loi_giai": "Ta có $\\log_{10}(10a)=\\log_{10}10+\\log_{10} a=1+\\log_{10} a$.",
+    "params": {
+      "c": "10",
+      "k": "10"
+    }
+  },
+  {
+    "id_goc": "p154_q11",
+    "ma_dang": "D66",
+    "ten_dang": "D66",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tuỳ ý, $\\log_{3}(9a)$ bằng\n\nA. $\\log_{3} a-2$.\nB. $2-\\log_{3} a$.\nC. $9\\log_{3} a$.\nD. $2+\\log_{3} a$.",
+    "dap_an": "D. $2+\\log_{3} a$.",
+    "loi_giai": "Ta có $\\log_{3}(9a)=\\log_{3}9+\\log_{3} a=2+\\log_{3} a$.",
+    "params": {
+      "c": "3",
+      "k": "9"
+    }
+  },
+  {
+    "id_goc": "p191_q12",
+    "ma_dang": "D76",
+    "ten_dang": "D76",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^{2}} b$ bằng\n\nA. $2+\\log_a b$.\nB. $\\dfrac{1}{2}\\log_a b$.\nC. $\\dfrac{1}{2}+\\log_a b$.\nD. $2\\log_a b$.",
+    "dap_an": "B. $\\dfrac{1}{2}\\log_a b$.",
+    "loi_giai": "Ta có $\\log_{a^{2}} b=\\dfrac{1}{2}\\log_a b$.",
+    "params": {
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p191_q12",
+    "ma_dang": "D76",
+    "ten_dang": "D76",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^{3}} b$ bằng\n\nA. $\\dfrac{1}{3}\\log_a b$.\nB. $3\\log_a b$.\nC. $\\dfrac{1}{3}+\\log_a b$.\nD. $3+\\log_a b$.",
+    "dap_an": "A. $\\dfrac{1}{3}\\log_a b$.",
+    "loi_giai": "Ta có $\\log_{a^{3}} b=\\dfrac{1}{3}\\log_a b$.",
+    "params": {
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p191_q12",
+    "ma_dang": "D76",
+    "ten_dang": "D76",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^{4}} b$ bằng\n\nA. $\\dfrac{1}{4}+\\log_a b$.\nB. $4\\log_a b$.\nC. $\\dfrac{1}{4}\\log_a b$.\nD. $4+\\log_a b$.",
+    "dap_an": "C. $\\dfrac{1}{4}\\log_a b$.",
+    "loi_giai": "Ta có $\\log_{a^{4}} b=\\dfrac{1}{4}\\log_a b$.",
+    "params": {
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p191_q12",
+    "ma_dang": "D76",
+    "ten_dang": "D76",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^{5}} b$ bằng\n\nA. $\\dfrac{1}{5}\\log_a b$.\nB. $\\dfrac{1}{5}+\\log_a b$.\nC. $5+\\log_a b$.\nD. $5\\log_a b$.",
+    "dap_an": "A. $\\dfrac{1}{5}\\log_a b$.",
+    "loi_giai": "Ta có $\\log_{a^{5}} b=\\dfrac{1}{5}\\log_a b$.",
+    "params": {
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p191_q12",
+    "ma_dang": "D76",
+    "ten_dang": "D76",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^{6}} b$ bằng\n\nA. $6+\\log_a b$.\nB. $\\dfrac{1}{6}+\\log_a b$.\nC. $\\dfrac{1}{6}\\log_a b$.\nD. $6\\log_a b$.",
+    "dap_an": "C. $\\dfrac{1}{6}\\log_a b$.",
+    "loi_giai": "Ta có $\\log_{a^{6}} b=\\dfrac{1}{6}\\log_a b$.",
+    "params": {
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p191_q12",
+    "ma_dang": "D76",
+    "ten_dang": "D76",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^{7}} b$ bằng\n\nA. $7+\\log_a b$.\nB. $\\dfrac{1}{7}\\log_a b$.\nC. $\\dfrac{1}{7}+\\log_a b$.\nD. $7\\log_a b$.",
+    "dap_an": "B. $\\dfrac{1}{7}\\log_a b$.",
+    "loi_giai": "Ta có $\\log_{a^{7}} b=\\dfrac{1}{7}\\log_a b$.",
+    "params": {
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p208_q17",
+    "ma_dang": "D81",
+    "ten_dang": "D81",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt[3]{a}$ bằng\n\nA. $3$.\nB. $\\dfrac{1}{3}$.\nC. $-\\dfrac{1}{3}$.\nD. $-3$.",
+    "dap_an": "B. $\\dfrac{1}{3}$.",
+    "loi_giai": "Ta có $\\log_a \\sqrt[3]{a}=\\log_a a^{1/3}=\\dfrac{1}{3}$.",
+    "params": {
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p208_q17",
+    "ma_dang": "D81",
+    "ten_dang": "D81",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt{a}$ bằng\n\nA. $2$.\nB. $-\\dfrac{1}{2}$.\nC. $-2$.\nD. $\\dfrac{1}{2}$.",
+    "dap_an": "D. $\\dfrac{1}{2}$.",
+    "loi_giai": "Ta có $\\log_a \\sqrt{a}=\\log_a a^{1/2}=\\dfrac{1}{2}$.",
+    "params": {
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p208_q17",
+    "ma_dang": "D81",
+    "ten_dang": "D81",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt[4]{a}$ bằng\n\nA. $\\dfrac{1}{4}$.\nB. $4$.\nC. $-\\dfrac{1}{4}$.\nD. $-4$.",
+    "dap_an": "A. $\\dfrac{1}{4}$.",
+    "loi_giai": "Ta có $\\log_a \\sqrt[4]{a}=\\log_a a^{1/4}=\\dfrac{1}{4}$.",
+    "params": {
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p208_q17",
+    "ma_dang": "D81",
+    "ten_dang": "D81",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt[5]{a}$ bằng\n\nA. $\\dfrac{1}{5}$.\nB. $-5$.\nC. $5$.\nD. $-\\dfrac{1}{5}$.",
+    "dap_an": "A. $\\dfrac{1}{5}$.",
+    "loi_giai": "Ta có $\\log_a \\sqrt[5]{a}=\\log_a a^{1/5}=\\dfrac{1}{5}$.",
+    "params": {
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p208_q17",
+    "ma_dang": "D81",
+    "ten_dang": "D81",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt[6]{a}$ bằng\n\nA. $6$.\nB. $-6$.\nC. $\\dfrac{1}{6}$.\nD. $-\\dfrac{1}{6}$.",
+    "dap_an": "C. $\\dfrac{1}{6}$.",
+    "loi_giai": "Ta có $\\log_a \\sqrt[6]{a}=\\log_a a^{1/6}=\\dfrac{1}{6}$.",
+    "params": {
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p208_q17",
+    "ma_dang": "D81",
+    "ten_dang": "D81",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt[7]{a}$ bằng\n\nA. $\\dfrac{1}{7}$.\nB. $-\\dfrac{1}{7}$.\nC. $7$.\nD. $-7$.",
+    "dap_an": "A. $\\dfrac{1}{7}$.",
+    "loi_giai": "Ta có $\\log_a \\sqrt[7]{a}=\\log_a a^{1/7}=\\dfrac{1}{7}$.",
+    "params": {
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p237_q17",
+    "ma_dang": "D90",
+    "ten_dang": "D90",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $4\\log\\sqrt{a}$ bằng\n\nA. $-2\\log a$.\nB. $8\\log a$.\nC. $-4\\log a$.\nD. $2\\log a$.",
+    "dap_an": "D. $2\\log a$.",
+    "loi_giai": "Ta có $4\\log\\sqrt a=4\\log a^{1/2}=4\\cdot\\dfrac12\\log a=2\\log a$.",
+    "params": {
+      "coef": "4",
+      "c": "10"
+    }
+  },
+  {
+    "id_goc": "p237_q17",
+    "ma_dang": "D90",
+    "ten_dang": "D90",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $2\\log_{3}\\sqrt{a}$ bằng\n\nA. $1\\log_{3} a$.\nB. $4\\log_{3} a$.\nC. $-1\\log_{3} a$.\nD. $-2\\log_{3} a$.",
+    "dap_an": "A. $1\\log_{3} a$.",
+    "loi_giai": "Ta có $2\\log_{3}\\sqrt a=2\\log_{3} a^{1/2}=2\\cdot\\dfrac12\\log_{3} a=1\\log_{3} a$.",
+    "params": {
+      "coef": "2",
+      "c": "3"
+    }
+  },
+  {
+    "id_goc": "p237_q17",
+    "ma_dang": "D90",
+    "ten_dang": "D90",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $6\\log_{5}\\sqrt{a}$ bằng\n\nA. $3\\log_{5} a$.\nB. $-3\\log_{5} a$.\nC. $12\\log_{5} a$.\nD. $-6\\log_{5} a$.",
+    "dap_an": "A. $3\\log_{5} a$.",
+    "loi_giai": "Ta có $6\\log_{5}\\sqrt a=6\\log_{5} a^{1/2}=6\\cdot\\dfrac12\\log_{5} a=3\\log_{5} a$.",
+    "params": {
+      "coef": "6",
+      "c": "5"
+    }
+  },
+  {
+    "id_goc": "p237_q17",
+    "ma_dang": "D90",
+    "ten_dang": "D90",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $4\\log_{2}\\sqrt{a}$ bằng\n\nA. $-2\\log_{2} a$.\nB. $2\\log_{2} a$.\nC. $8\\log_{2} a$.\nD. $-4\\log_{2} a$.",
+    "dap_an": "B. $2\\log_{2} a$.",
+    "loi_giai": "Ta có $4\\log_{2}\\sqrt a=4\\log_{2} a^{1/2}=4\\cdot\\dfrac12\\log_{2} a=2\\log_{2} a$.",
+    "params": {
+      "coef": "4",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p237_q17",
+    "ma_dang": "D90",
+    "ten_dang": "D90",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $2\\log\\sqrt{a}$ bằng\n\nA. $4\\log a$.\nB. $1\\log a$.\nC. $-1\\log a$.\nD. $-2\\log a$.",
+    "dap_an": "B. $1\\log a$.",
+    "loi_giai": "Ta có $2\\log\\sqrt a=2\\log a^{1/2}=2\\cdot\\dfrac12\\log a=1\\log a$.",
+    "params": {
+      "coef": "2",
+      "c": "10"
+    }
+  },
+  {
+    "id_goc": "p237_q17",
+    "ma_dang": "D90",
+    "ten_dang": "D90",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương tùy ý, $6\\log_{3}\\sqrt{a}$ bằng\n\nA. $12\\log_{3} a$.\nB. $-3\\log_{3} a$.\nC. $-6\\log_{3} a$.\nD. $3\\log_{3} a$.",
+    "dap_an": "D. $3\\log_{3} a$.",
+    "loi_giai": "Ta có $6\\log_{3}\\sqrt a=6\\log_{3} a^{1/2}=6\\cdot\\dfrac12\\log_{3} a=3\\log_{3} a$.",
+    "params": {
+      "coef": "6",
+      "c": "3"
+    }
+  }
+]

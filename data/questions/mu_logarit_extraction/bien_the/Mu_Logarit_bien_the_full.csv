@@ -1,0 +1,2796 @@
+﻿STT,Mã dạng,Nguồn,id_goc,Loại biến thể,Đề bài,Đáp án đúng,Lời giải
+1,D01,Câu gốc,p006_q12,,"Giải phương trình $\log_4(x-1) = 3$.
+A. $x = 63$.
+B. $x = 65$.
+C. $x = 80$.
+D. $x = 82$.",B. x = 65,
+2,D02,Câu gốc,p006_q13,,"Tính đạo hàm của hàm số $y = 13^x$.
+A. $y' = x \cdot 13^{x-1}$.
+B. $y' = 13^x \cdot \ln 13$.
+C. $y' = 13^x$.
+D. $y' = \dfrac{13x^x}{\ln 13}$.",B. y' = 13^x . ln 13,
+3,D53,Câu gốc,p006_q14,,"Giải bất phương trình $\log_2(3x-1) > 3$.
+A. $x > 3$.
+B. $\dfrac{1}{3} < x < 3$.
+C. $x < 3$.
+D. $x > \dfrac{10}{3}$.",A. x > 3,
+4,D04,Câu gốc,p006_q15,,"Tìm tập xác định $\mathscr{D}$ của hàm số $y = \log_2(x^2 - 2x - 3)$.
+A. $\mathscr{D} = (-\infty; -1] \cup [3; +\infty)$.
+B. $\mathscr{D} = [-1; 3]$.
+C. $\mathscr{D} = (-\infty; -1) \cup (3; +\infty)$.
+D. $\mathscr{D} = (-1; 3)$.",C. D = (-∞;-1) ∪ (3;+∞),
+5,D05,Câu gốc,p006_q16,,"Cho hàm số $y = f(x) = 2^x \cdot 7^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?
+A. $f(x) < 1 \Leftrightarrow x + x^2\log_2 7 < 0$.
+B. $f(x) < 1 \Leftrightarrow x\ln 2 + x^2 \ln 7 < 0$.
+C. $f(x) < 1 \Leftrightarrow x\log_7 2 + x^2 < 0$.
+D. $f(x) < 1 \Leftrightarrow 1 + x\log_2 7 < 0$.",D. f(x) < 1 \Leftrightarrow 1 + x\log_2 7 < 0,
+6,D06,Câu gốc,p006_q17,,"Cho các số thực dương $a, b$ với $a \neq 1$. Khẳng định nào sau đây là khẳng định đúng?
+A. $\log_{a^2}(ab) = \dfrac{1}{2}\log_a b$.
+B. $\log_{a^2}(ab) = 2 + 2\log_a b$.
+C. $\log_{a^2}(ab) = \dfrac{1}{4}\log_a b$.
+D. $\log_{a^2}(ab) = \dfrac{1}{2} + \dfrac{1}{2}\log_a b$.",D. log_{a^2}(ab) = 1/2 + (1/2)log_a b,
+7,D07,Câu gốc,p007_q18,,"Tính đạo hàm của hàm số $y = \dfrac{x+1}{4^x}$.
+A. $y' = \dfrac{1 - 2(x+1)\ln 2}{2^{2x}}$.
+B. $y' = \dfrac{1 + 2(x+1)\ln 2}{2^{2x}}$.
+C. $y' = \dfrac{1 - 2(x+1)\ln 2}{2^{x^2}}$.
+D. $y' = \dfrac{1 + 2(x+1)\ln 2}{2^{x^2}}$.",A. y' = [1-2(x+1)ln2]/2^{2x},
+8,D08,Câu gốc,p007_q19,,"Đặt $a = \log_2 3, b = \log_5 3$. Hãy biểu diễn $\log_6 45$ theo $a$ và $b$.
+A. $\log_6 45 = \dfrac{a+2ab}{ab}$.
+B. $\log_6 45 = \dfrac{2a^2-2ab}{ab}$.
+C. $\log_6 45 = \dfrac{a+2ab}{ab+b}$.
+D. $\log_6 45\dfrac{2a^2-2ab}{ab+b}$.",C. log6 45 = (a+2ab)/(ab+b),
+9,D09,Câu gốc,p007_q20,,"Cho hai số thực $a$ và $b$, với $1 < a < b$. Khẳng định nào dưới đây là khẳng định đúng?
+A. $\log_a b < 1 < \log_b a$.
+B. $1 < \log_a b < \log_b a$.
+C. $\log_b a < \log_a b < 1$.
+D. $\log_b a < 1 < \log_a b$.",D. log_b a < 1 < log_a b,
+10,D10,Câu gốc,p018_q09,,"Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \ln(x^2+1) - mx + 1$ đồng biến trên khoảng $(-\infty; +\infty)$.
+A. $(-\infty; -1]$.
+B. $(-\infty; -1)$.
+C. $[-1; 1]$.
+D. $[1; +\infty)$.",A. (-∞;-1],
+11,D11,Câu gốc,p020_q12,,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+A. $\ln(ab) = \ln a + \ln b$.
+B. $\ln(ab) = \ln a . \ln b$.
+C. $\ln\dfrac{a}{b} = \dfrac{\ln a}{\ln b}$.
+D. $\ln\dfrac{a}{b} = \ln b - \ln a$.",A. ln(ab) = ln a + ln b,
+12,D12,Câu gốc,p020_q13,,"Tìm nghiệm của phương trình $3^{x-1} = 27$.
+A. $x = 9$.
+B. $x = 3$.
+C. $x = 4$.
+D. $x = 10$.",C. x = 4,
+13,D13,Câu gốc,p020_q16,,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+A. $\log_2\left(\dfrac{2a^3}{b}\right) = 1 + 3\log_2 a - \log_2 b$.
+B. $\log_2\left(\dfrac{2a^3}{b}\right) = 1 + \dfrac{1}{3}\log_2 a - \log_2 b$.
+C. $\log_2\left(\dfrac{2a^3}{b}\right) = 1 + 3\log_2 a + \log_2 b$.
+D. $\log_2\left(\dfrac{2a^3}{b}\right) = 1 + \dfrac{1}{3}\log_2 a + \log_2 b$.",A. log2(2a^3/b) = 1 + 3log2 a - log2 b,
+14,D14,Câu gốc,p020_q17,,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac{1}{2}}(x+1) < \log_{\frac{1}{2}}(2x-1)$.
+A. $S = (2; +\infty)$.
+B. $S = (-\infty; 2)$.
+C. $S = \left(\dfrac{1}{2}; 2\right)$.
+D. $S = (-1; 2)$.",C. S = (1/2; 2),
+15,D15,Câu gốc,p021_q18,,"Tính đạo hàm của hàm số $y = \ln(1+\sqrt{x+1})$.
+A. $y' = \dfrac{1}{2\sqrt{x+1}(1+\sqrt{x+1})}$.
+B. $y' = \dfrac{1}{1+\sqrt{x+1}}$.
+C. $y' = \dfrac{1}{\sqrt{x+1}(1+\sqrt{x+1})}$.
+D. $y' = \dfrac{2}{\sqrt{x+1}(1+\sqrt{x+1})}$.",A. y' = 1/[2√(x+1)(1+√(x+1))],
+16,D16,Câu gốc,p021_q20,,"Tìm tập hợp tất cả các giá trị của tham số thực $m$để phương trình $6^x + (3-m)2^x - m = 0$ có nghiệm thuộc khoảng $(0;1)$.
+A. $[3;4]$.
+B. $[2;4]$.
+C. $(2;4)$.
+D. $(3;4)$.",C. (2;4),
+17,D17,Câu gốc,p021_q21,,"Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{min}$ của biểu thức $P = \log^2_{\frac{a}{b}}(a^2) + 3\log_b\left(\dfrac{a}{b}\right)$.
+A. $P_{min}=19$.
+B. $P_{min}=13$.
+C. $P_{min}=14$.
+D. $P_{min}=15$.",D. Pmin = 15,
+18,D18,Câu gốc,p031_q02,,"Tìm đạo hàm của hàm số $y = \log x$.
+A. $y' = \dfrac{1}{x}$.
+B. $y' = \dfrac{\ln 10}{x}$.
+C. $y' = \dfrac{1}{x\ln 10}$.
+D. $y' = \dfrac{1}{10\ln x}$.",C. y' = 1/(x ln10),
+19,D19,Câu gốc,p031_q03,,"Tìm tập nghiệm của bất phương trình $5^{x+1} - \dfrac{1}{5} > 0$.
+A. $S = (1;+\infty)$.
+B. $S = (-1;+\infty)$.
+C. $S = (-2;+\infty)$.
+D. $S = (-\infty;-2)$.",C. S = (-2;+∞),
+20,D20,Câu gốc,p033_q13,,"Cho $a$ là số thực dương, $a\neq 1$ và $P = \log_{\sqrt[3]{a}} a^3$. Mệnh đề nào dưới đây là đúng?
+A. $P=3$.
+B. $P=1$.
+C. $P=9$.
+D. $P=\dfrac{1}{3}$.",C. P = 9,
+21,D21,Câu gốc,p035_q22,,"Tìm tập nghiệm $S$ của phương trình $\log_2(x-1) + \log_2(x+1) = 3$.
+A. $S = \{-3;3\}$.
+B. $S = \{4\}$.
+C. $S = \{3\}$.
+D. $S = \{-\sqrt{10};\sqrt{10}\}$.",C. S = {3},
+22,D22,Câu gốc,p038_q33,,"Cho $a, b$ là các số thực dương thỏa mãn $a\neq 1, a\neq\sqrt{b}$ và $\log_a b = \sqrt{3}$. Tính $P = \log_{\frac{\sqrt{b}}{a}}\sqrt{\dfrac{b}{a}}$.
+A. $P=-5+3\sqrt{3}$.
+B. $P=-1+\sqrt{3}$.
+C. $P=-1-\sqrt{3}$.
+D. $P=-5-3\sqrt{3}$.",C. P = -1-√3,
+23,D23,Câu gốc,p039_q35,,"Hỏi phương trình $3x^2-6x+\ln(x+1)^3+1=0$ có bao nhiêu nghiệm phân biệt?
+A. 2.
+B. 1.
+C. 3.
+D. 4.",C. 3,
+24,D24,Câu gốc,p041_q40,,"Cho hàm số $y = \dfrac{\ln x}{x}$, mệnh đề nào dưới đây đúng?
+A. $2y'+xy''=-\dfrac{1}{x^2}$.
+B. $y'+xy''=\dfrac{1}{x^2}$.
+C. $y'+xy''=-\dfrac{1}{x^2}$.
+D. $2y'+xy''=\dfrac{1}{x^2}$.",A. 2y' + xy'' = -1/x^2,
+25,D25,Câu gốc,p042_q45,,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-2017;2017]$ để phương trình $\log(mx) = 2\log(x+1)$ có nghiệm duy nhất?
+A. 2017.
+B. 4014.
+C. 2018.
+D. 4015.",C. 2018,
+26,D36,Câu gốc,p049_q10,,"Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?
+A. $\log(3a)=3\log a$.
+B. $\log(a^3)=\dfrac{1}{3}\log a$.
+C. $\log(a^3)=3\log a$.
+D. $\log(3a)=\dfrac{1}{3}\log a$.",C. log(a^3) = 3log a,
+27,D27,Câu gốc,p049_q13,,"Tập nghiệm của bất phương trình $2^{2x} < 2^{x+6}$ là
+A. $(0;6)$.
+B. $(-\infty;6)$.
+C. $(0;64)$.
+D. $(6;+\infty)$.",B. (-∞;6),
+28,D28,Câu gốc,p053_q27,,"Tính tổng các nghiệm thực của phương trình $\log_3 x.\log_9 x.\log_{27}x.\log_{81}x = \dfrac{2}{3}$ bằng
+A. $\dfrac{82}{9}$.
+B. $\dfrac{80}{9}$.
+C. $9$.
+D. $0$.",A. 82/9,
+29,D29,Câu gốc,p056_q34,,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x - 2\cdot 12^x + (m-2)\cdot 9^x = 0$?
+A. 1.
+B. 2.
+C. 4.
+D. 3.",B. 2.,
+30,D30,Câu gốc,p065_q05,,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log(ab^2)$ bằng
+A. $2\log a+\log b$.
+B. $\log a+2\log b$.
+C. $2(\log a+\log b)$.
+D. $\log a+\dfrac{1}{2}\log b$.",B. $\log a+2\log b$.,
+31,D31,Câu gốc,p066_q08,,"Tập nghiệm của phương trình $\log_2(x^2-x+2)=1$
+A. $\{0\}$.
+B. $\{0;1\}$.
+C. $\{-1;0\}$.
+D. $\{1\}$.",B. $\{0;1\}$.,
+32,D32,Câu gốc,p068_q20,,"Đặt $\log_3 2=a$ khi đó $\log_{16}27$ bằng
+A. $\dfrac{3a}{4}$.
+B. $\dfrac{3}{4a}$.
+C. $\dfrac{4}{3a}$.
+D. $\dfrac{4a}{3}$.",B. $\dfrac{3}{4a}$.,
+33,D33,Câu gốc,p068_q23,,"Tập nghiệm của bất phương trình $3^{x^2-2x}<27$ là
+A. $(-\infty;-1)$.
+B. $(3;+\infty)$.
+C. $(-1;3)$.
+D. $(-\infty;-1)\cup(3;+\infty)$.",C. $(-1;3)$.,
+34,D34,Câu gốc,p069_q28,,"Hàm số $f(x)=\log_2(x^2-2x)$ có đạo hàm
+A. $f'(x)=\dfrac{\ln 2}{x^2-2x}$.
+B. $f'(x)=\dfrac{1}{(x^2-2x)\ln 2}$.
+C. $f'(x)=\dfrac{(2x-2)\ln 2}{x^2-2x}$.
+D. $f'(x)=\dfrac{2x-2}{(x^2-2x)\ln 2}$.",D. $f'(x)=\dfrac{2x-2}{(x^2-2x)\ln 2}$.,
+35,D35,Câu gốc,p070_q31,,"Tổng tất cả các nghiệm của phương trình $\log_3(7-3^x)=2-x$
+A. 2.
+B. 1.
+C. 7.
+D. 3.",A. 2.,
+36,D01,Câu gốc,p079_q06,,"Nghiệm của phương trình $\log_3(2x-1)=2$ là
+A. $x=3$.
+B. $x=5$.
+C. $x=\dfrac{9}{2}$.
+D. $x=\dfrac{7}{2}$.",B. $x=5$.,
+37,D36,Câu gốc,p079_q10,,"Với $a$ là số thực dương tùy ý, $\log_2(a^2)$ bằng
+A. $2+\log_2 a$.
+B. $\dfrac{1}{2}+\log_2 a$.
+C. $2\log_2 a$.
+D. $\dfrac{1}{2}\log_2 a$.",C. $2\log_2 a$.,
+38,D37,Câu gốc,p081_q20,,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_2 a=\log_8(ab)$.
+Mệnh đề nào dưới đây đúng?
+A. $a=b^2$.
+B. $a^3=b$.
+C. $a=b$.
+D. $a^2=b$.",D. $a^2=b$.,
+39,D38,Câu gốc,p082_q21,,"Tập nghiệm của bất phương trình $5^{x-1}\ge 5^{x^2-x-9}$
+A. $[-2;4]$.
+B. $[-4;2]$.
+C. $(-\infty;-2]\cup[4;+\infty)$.
+D. $(-\infty;-4]\cup[2;+\infty)$.",A. $[-2;4]$.,
+40,D39,Câu gốc,p087_q41,,"Cho $x,y$ là các số thực dương thỏa mãn $\log_9 x=\log_6 y=\log_4(2x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+A. 2.
+B. $\dfrac{1}{2}$.
+C. $\log_2\left(\dfrac{3}{2}\right)$.
+D. $\log_{\frac{3}{2}}2$.",B. $\dfrac{1}{2}$.,
+41,D40,Câu gốc,p088_q43,,"Cho phương trình $\log_2^2(2x)-(m+2)\log_2 x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
+A. $(1;2)$.
+B. $[1;2]$.
+C. $[1;2)$.
+D. $[2;+\infty)$.",C. $[1;2)$.,
+42,D41,Câu gốc,p090_q47,,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 2020$ và $\log_3(3x+3)+x=2y+9^y$?
+A. 2019.
+B. 6.
+C. 2020.
+D. 4.",D. 4.,
+43,D12,Câu gốc,p093_q03,,"Nghiệm của phương trình $3^{x-1}=27$ là
+A. $x=4$.
+B. $x=3$.
+C. $x=2$.
+D. $x=1$.",A. $x=4$.,
+44,D42,Câu gốc,p093_q05,,"Tập xác định của hàm số $y=\log_2 x$ là
+A. $[0;+\infty)$.
+B. $(-\infty;+\infty)$.
+C. $(0;+\infty)$.
+D. $[2;+\infty)$.",C. $(0;+\infty)$.,
+45,D36,Câu gốc,p094_q11,,"Với $a$ là hai số thực dương tùy ý, $\log_2(a^3)$ bằng
+A. $\dfrac{3}{2}\log_2 a$.
+B. $\dfrac{1}{3}\log_2 a$.
+C. $3+\log_2 a$.
+D. $3\log_2 a$.",D. $3\log_2 a$.,
+46,D43,Câu gốc,p095_q16,,"Tập nghiệm của bất phương trình $\log x\ge 1$ là
+A. $(10;+\infty)$.
+B. $(0;+\infty)$.
+C. $[10;+\infty)$.
+D. $(-\infty;10)$.",C. $[10;+\infty)$.,
+47,D44,Câu gốc,p098_q29,,"Xét số thực $a$ và $b$ thỏa mãn $\log_3(3^a\cdot 9^b)=\log_9 3$. Mệnh đề nào dưới đây đúng
+A. $a+2b=2$.
+B. $4a+2b=1$.
+C. $4ab=1$.
+D. $2a+4b=1$.",D. $2a+4b=1$.,
+48,D45,Câu gốc,p099_q31,,"Tập nghiệm của bất phương trình $9^x+2\cdot 3^x-3>0$ là
+A. $[0;+\infty)$.
+B. $(0;+\infty)$.
+C. $(1;+\infty)$.
+D. $[1;+\infty)$.",B. $(0;+\infty)$.,
+49,D46,Câu gốc,p105_q47,,"Xét các số thực dương $a,b,x,y$ thỏa mãn $a>1,b>1$ và $a^x=b^y=\sqrt{ab}$. Giá trị nhỏ nhất của biểu thức $P=x+2y$ thuộc tập nào dưới đây?
+A. $(1;2)$.
+B. $\left[2;\dfrac{5}{2}\right)$.
+C. $[3;4)$.
+D. $\left[\dfrac{5}{2};3\right)$.",D. $\left[\dfrac{5}{2};3\right)$.,
+50,D47,Câu gốc,p106_q50,,"Có bao nhiêu số nguyên $x$ sao cho tồn tại số thực $y$ thỏa mãn $\log_3(x+y)=\log_4(x^2+y^2)$?
+A. 3.
+B. 2.
+C. 1.
+D. Vô số.",B. 2.,
+51,D48,Câu gốc,p109_q07,,"Tập nghiệm của bất phương trình $2^x > 6$ là
+A. $(\log_2 6; +\infty)$.
+B. $(-\infty; 3)$.
+C. $(3; +\infty)$.
+D. $(-\infty; \log_2 6)$.",A. $(\log_2 6; +\infty)$.,
+52,D01,Câu gốc,p109_q10,,"Nghiệm của phương trình $\log_2(x+4)=3$ là
+A. $x=5$.
+B. $x=4$.
+C. $x=2$.
+D. $x=12$.",B. $x=4$.,
+53,D49,Câu gốc,p110_q17,,"Với mọi số thực $a$ dương, $\log_2\dfrac{a}{2}$ bằng
+A. $\dfrac{1}{2}\log_2 a$.
+B. $\log_2 a+1$.
+C. $\log_2 a-1$.
+D. $\log_2 a-2$.",C. $\log_2 a-1$.,
+54,D18,Câu gốc,p111_q22,,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_2 x$ là
+A. $y'=\dfrac{1}{x\ln 2}$.
+B. $y'=\dfrac{\ln 2}{x}$.
+C. $y'=\dfrac{1}{x}$.
+D. $y'=\dfrac{1}{2x}$.",A. $y'=\dfrac{1}{x\ln 2}$.,
+55,D50,Câu gốc,p113_q31,,"Với mọi $a,b$ thỏa mãn $\log_2 a-3\log_2 b=2$, khẳng định nào dưới đây đúng?
+A. $a=4b^3$.
+B. $a=3b+4$.
+C. $a=3b+2$.
+D. $a=\dfrac{4}{b^3}$.",A. $a=4b^3$.,
+56,D51,Câu gốc,p115_q39,,"Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5.2^{x+2}+64)\sqrt{2-\log(4x)}\ge 0$?
+A. 22.
+B. 25.
+C. 23.
+D. 24.",D. 24.,
+57,D52,Câu gốc,p119_q48,,"Có bao nhiêu số nguyên $a$ sao cho ứng với mỗi $a$, tồn tại ít nhất bốn số nguyên $b \in (-12;12)$ thỏa mãn $4^{a^2+b} \le 3^{b-a} + 65$?
+A. 4.
+B. 6.
+C. 5.
+D. 7.",D. 7.,
+58,D18,Câu gốc,p121_q02,,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_3 x$ là
+A. $y'=\dfrac{1}{x}$.
+B. $y'=\dfrac{1}{x\ln3}$.
+C. $y'=\dfrac{\ln3}{x}$.
+D. $y'=-\dfrac{1}{x\ln3}$.",B. $y'=\dfrac{1}{x\ln3}$.,
+59,D27,Câu gốc,p121_q04,,"Tập nghiệm của bất phương trình $2^{x+1}<4$ là
+A. $(-\infty;1]$.
+B. $(1;+\infty)$.
+C. $[1;+\infty)$.
+D. $(-\infty;1)$.",D. $(-\infty;1)$.,
+60,D53,Câu gốc,p124_q21,,"Tập nghiệm của bất phương trình $\log(x-2)>0$ là
+A. $(2;3)$.
+B. $(-\infty;3)$.
+C. $(3;+\infty)$.
+D. $(12;+\infty)$.",C. $(3;+\infty)$.,
+61,D54,Câu gốc,p125_q28,,"Với $a$ là số thực dương tùy ý, $\ln(3a)-\ln(2a)$ bằng
+A. $\ln a$.
+B. $\ln\dfrac{2}{3}$.
+C. $\ln(6a^2)$.
+D. $\ln\dfrac{3}{2}$.",D. $\ln\dfrac{3}{2}$.,
+62,D55,Câu gốc,p127_q34,,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x - 3 = 0$ bằng
+A. $\dfrac{1}{e^3}$.
+B. $-2$.
+C. $-3$.
+D. $\dfrac{1}{e^2}$.",D. $\dfrac{1}{e^2}$.,
+63,D56,Câu gốc,p128_q39,,"Có bao nhiêu số nguyên $x$ thỏa mãn $\log_3\dfrac{x^2-16}{343} < \log_7\dfrac{x^2-16}{27}$?
+A. 193.
+B. 92.
+C. 186.
+D. 184.",D. 184.,
+64,D57,Câu gốc,p133_q47,,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn
+$$\log_3\left(x^2+y^2+x\right)+\log_2\left(x^2+y^2\right) \le \log_3 x + \log_2\left(x^2+y^2+24x\right)?$$
+A. 89.
+B. 48.
+C. 90.
+D. 49.",B. 48.,
+65,D58,Câu gốc,p137_q01,,"Cho phương trình $4^x+2^{x+1}-3=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?
+A. $2t^2-3=0$.
+B. $t^2+t-3=0$.
+C. $4t-3=0$.
+D. $t^2+2t-3=0$.",D. $t^2+2t-3=0$.,
+66,D59,Câu gốc,p138_q06,,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt{a}}a$.
+A. $I=\dfrac{1}{2}$.
+B. $I=0$.
+C. $I=-2$.
+D. $I=2$.",D. $I=2$.,
+67,D60,Câu gốc,p139_q15,,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^3+\log_{a^2}b^6$. Mệnh đề nào dưới đây đúng?
+A. $P=9\log_a b$.
+B. $P=27\log_a b$.
+C. $P=15\log_a b$.
+D. $P=6\log_a b$.",D. $P=6\log_a b$.,
+68,D61,Câu gốc,p139_q16,,"Tìm tập xác định $D$ của hàm số $y=\log_5\dfrac{x-3}{x+2}$.
+A. $D=\mathbb{R}\setminus\{-2\}$.
+B. $D=(-\infty;-2)\cup[3;+\infty)$.
+C. $D=(-2;3)$.
+D. $D=(-\infty;-2)\cup(3;+\infty)$.",D. $D=(-\infty;-2)\cup(3;+\infty)$.,
+69,D62,Câu gốc,p139_q17,,"Tìm tập nghiệm $S$ của bất phương trình $\log_2^2 x - 5\log_2 x + 4 \ge 0$.
+A. $S = (-\infty; 2] \cup [16; +\infty)$.
+B. $S = [2; 16]$.
+C. $S = (0; 2] \cup [16; +\infty)$.
+D. $S = (-\infty; 1] \cup [4; +\infty)$.",C. $S = (0; 2] \cup [16; +\infty)$.,
+70,D63,Câu gốc,p145_q39,,"Tìm giá trị thực của tham số $m$ để phương trình $\log_3^2 x-m\log_3 x+2m-7=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=81$.
+A. $m=-4$.
+B. $m=4$.
+C. $m=81$.
+D. $m=44$.",B. $m=4$.,
+71,D64,Câu gốc,p146_q42,,"Cho $\log_a x=3$, $\log_b x=4$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+A. $P=\dfrac{7}{2}$.
+B. $P=\dfrac{1}{12}$.
+C. $P=12$.
+D. $P=\dfrac{12}{7}$.",D. $P=\dfrac{12}{7}$.,
+72,D65,Câu gốc,p148_q47,,"Xét các số thực dương $x,y$ thỏa mãn $\log_3\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. Tìm giá trị nhỏ nhất $P_{\min}$ của $P=x+y$.
+A. $P_{\min}=\dfrac{9\sqrt{11}-19}{9}$.
+B. $P_{\min}=\dfrac{9\sqrt{11}+19}{9}$.
+C. $P_{\min}=\dfrac{18\sqrt{11}-29}{21}$.
+D. $P_{\min}=\dfrac{2\sqrt{11}-3}{3}$.",D. $P_{\min}=\dfrac{2\sqrt{11}-3}{3}$.,
+73,D31,Câu gốc,p152_q03,,"Tập nghiệm của phương trình $\log_2(x^2-1)=3$ là
+A. $\{-3;3\}$.
+B. $\{-3\}$.
+C. $\{3\}$.
+D. $\{-\sqrt{10};\sqrt{10}\}$.",A. $\{-3;3\}$.,
+74,D66,Câu gốc,p154_q11,,"Với $a$ là số thực dương tuỳ ý, $\log_3(3a)$ bằng
+A. $3\log_3 a$.
+B. $3+\log_3 a$.
+C. $1+\log_3 a$.
+D. $1-\log_3 a$.",C. $1+\log_3 a$.,
+75,D67,Câu gốc,p161_q35,,"Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $25^x-m\cdot5^{x+1}+7m^2-7=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?
+A. 7.
+B. 1.
+C. 2.
+D. 3.",C. 2.,
+76,D68,Câu gốc,p161_q37,,"Cho $a>0,b>0$ thỏa mãn
+$$\log_{10a+3b+1}(25a^2+b^2+1)+\log_{10ab+1}(10a+3b+1)=2.$$
+Giá trị của $a+2b$ bằng
+A. $\dfrac{5}{2}$.
+B. 6.
+C. 22.
+D. $\dfrac{11}{2}$.",D. $\dfrac{11}{2}$.,
+77,D69,Câu gốc,p166_q45,,"Cho phương trình $3^x+m=\log_3(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-15;15)$ để phương trình đã cho có nghiệm?
+A. 16.
+B. 9.
+C. 14.
+D. 15.",C. 14.,
+78,D36,Câu gốc,p171_q05,,"Với $a$ là số thực dương tùy ý, $\log_5 a^3$ bằng
+A. $\dfrac{1}{3}\log_5 a$.
+B. $\dfrac{1}{3}+\log_5 a$.
+C. $3+\log_5 a$.
+D. $3\log_5 a$.",D. $3\log_5 a$.,
+79,D12,Câu gốc,p172_q13,,"Nghiệm của phương trình $3^{2x+1}=27$ là
+A. 2.
+B. 1.
+C. 5.
+D. 4.",B. 1.,
+80,D71,Câu gốc,p173_q16,,"Nghiệm của phương trình $\log_2(x+1)=1+\log_2(x-1)$ là
+A. $x=1$.
+B. $x=-2$.
+C. $x=3$.
+D. $x=2$.",C. $x=3$.,
+81,D72,Câu gốc,p176_q25,,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^3b^2=32$. Giá trị của $3\log_2a+2\log_2b$ bằng
+A. 5.
+B. 2.
+C. 32.
+D. 4.",A. 5.,
+82,D73,Câu gốc,p176_q26,,"Hàm số $y=3^{x^2-3x}$ có đạo hàm là
+A. $(2x-3)\cdot3^{x^2-3x}$.
+B. $3^{x^2-3x}\cdot\ln3$.
+C. $(x^2-3x)\cdot3^{x^2-3x-1}$.
+D. $(2x-3)\cdot3^{x^2-3x}\cdot\ln3$.",D. $(2x-3)\cdot3^{x^2-3x}\cdot\ln3$.,
+83,D74,Câu gốc,p179_q37,,"Cho phương trình $\log_9x^2-\log_3(6x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. 6.
+B. 5.
+C. Vô số.
+D. 7.",B. 5.,
+84,D75,Câu gốc,p186_q47,,"Cho phương trình $\left(2\log_2^2x-3\log_2x-2\right)\sqrt{3^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. 79.
+B. 80.
+C. Vô số.
+D. 81.",A. 79.,
+85,D01,Câu gốc,p191_q08,,"Nghiệm của phương trình $\log_2(x-1)=3$ là
+A. $x=10$.
+B. $x=8$.
+C. $x=9$.
+D. $x=7$.",C. $x=9$.,
+86,D76,Câu gốc,p191_q12,,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^2} b$ bằng
+A. $\dfrac{1}{2} + \log_a b$.
+B. $\dfrac{1}{2}\log_a b$.
+C. $2 + \log_a b$.
+D. $2\log_a b$.",B. $\dfrac{1}{2}\log_a b$,
+87,D12,Câu gốc,p192_q13,,"Nghiệm của phương trình $3^{x-2}=9$ là
+A. $x=-3$.
+B. $x=3$.
+C. $x=4$.
+D. $x=-4$.",C. $x=4$,
+88,D42,Câu gốc,p193_q25,,"Tập xác định của hàm số $y=\log_6 x$ là
+A. $[0;+\infty)$.
+B. $(0;+\infty)$.
+C. $(-\infty;0)$.
+D. $(-\infty;+\infty)$.",B. $(0;+\infty)$,
+89,D77,Câu gốc,p195_q30,,"Cho $a, b$ là hai số thực dương thỏa mãn $4^{\log_2(ab)}=3a$. Giá trị của $ab^2$ bằng
+A. 3.
+B. 6.
+C. 2.
+D. 12.",A. 3,
+90,D33,Câu gốc,p197_q37,,"Tập nghiệm của bất phương trình $3^{x^2-23}<9$ là
+A. $(-5;5)$.
+B. $(-\infty;5)$.
+C. $(5;+\infty)$.
+D. $(0;5)$.",A. $(-5;5)$,
+91,D78,Câu gốc,p203_q48,,"Xét các số thực không âm $x$ và $y$ thỏa mãn $2x+y\cdot 4^{x+y-1}\ge 3$. Giá trị nhỏ nhất của biểu thức $P=x^2+y^2+6x+4y$ bằng
+A. $\dfrac{65}{8}$.
+B. $\dfrac{33}{4}$.
+C. $\dfrac{49}{8}$.
+D. $\dfrac{57}{8}$.",A. $\dfrac{65}{8}$,
+92,D79,Câu gốc,p204_q49,,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\log_4(x^2+y)\ge \log_3(x+y)$?
+A. 55.
+B. 28.
+C. 29.
+D. 56.",D. 56,
+93,D80,Câu gốc,p206_q04,,"Tập xác định của hàm số $y=7^x$ là
+A. $\mathbb{R}\setminus\{0\}$.
+B. $[0;+\infty)$.
+C. $(0;+\infty)$.
+D. $\mathbb{R}$.",D. $\mathbb{R}$,
+94,D81,Câu gốc,p208_q17,,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt[3]{a}$ bằng
+A. $-3$.
+B. $\dfrac13$.
+C. $-\dfrac13$.
+D. 3.",B. $\dfrac13$,
+95,D82,Câu gốc,p210_q26,,"Tập nghiệm của bất phương trình $2^x<5$ là
+A. $(-\infty;\log_2 5)$.
+B. $(\log_2 5;+\infty)$.
+C. $(-\infty;\log_5 2)$.
+D. $(\log_5 2;+\infty)$.",A. $(-\infty;\log_2 5)$,
+96,D01,Câu gốc,p210_q27,,"Nghiệm của phương trình $\log_5(3x)=2$ là
+A. 25.
+B. $\dfrac{32}{3}$.
+C. 32.
+D. $\dfrac{25}{3}$.",D. $\dfrac{25}{3}$,
+97,D50,Câu gốc,p213_q38,,"Với mọi $a, b$ thỏa mãn $\log_2 a^3+\log_2 b=8$, khẳng định nào sau đây là đúng?
+A. $a^3+b=64$.
+B. $a^3 b=256$.
+C. $a^3 b=64$.
+D. $a^3+b=256$.",B. $a^3 b=256$,
+98,D83,Câu gốc,p213_q39,,"Có bao nhiêu số nguyên $x$ thỏa mãn $\left(3^{x^2}-9^x\right)\left[\log_2(x+30)-5\right]\le 0$?
+A. 30.
+B. Vô số.
+C. 31.
+D. 29.",C. 31,
+99,D84,Câu gốc,p216_q45,,"Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\in\left(\dfrac13;4\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{12x}$?
+A. 14.
+B. 27.
+C. 12.
+D. 5.",A. 14,
+100,D85,Câu gốc,p220_q04,,"Tập xác định của hàm số $y=\log_3(x-4)$ là
+A. $(-\infty;4]$.
+B. $[4;+\infty)$.
+C. $(4;+\infty)$.
+D. $(-\infty;4)$.",C. $(4;+\infty)$,
+101,D53,Câu gốc,p221_q08,,"Tập nghiệm của bất phương trình $\log_3(2x)>2$ là
+A. $(0;4)$.
+B. $\left(\dfrac92;+\infty\right)$.
+C. $\left(0;\dfrac92\right)$.
+D. $(4;+\infty)$.",B. $\left(\dfrac92;+\infty\right)$,
+102,D02,Câu gốc,p222_q17,,"Đạo hàm của hàm số $y=4^x$ là
+A. $y'=x\cdot4^{x-1}$.
+B. $y'=4^x\ln4$.
+C. $y'=\dfrac{4^x}{\ln4}$.
+D. $y'=4^x$.",B. $y'=4^x\ln4$,
+103,D86,Câu gốc,p223_q22,,"Nghiệm của phương trình $5^x=2$ là
+A. $x=\log_2 5$.
+B. $x=\log_5 2$.
+C. $x=\dfrac25$.
+D. $x=\sqrt5$.",B. $x=\log_5 2$,
+104,D87,Câu gốc,p225_q31,,"Với $a>0$, đặt $\log_2(2a)=b$, khi đó $\log_2(4a^3)$ bằng
+A. $3b+5$.
+B. $3b$.
+C. $3b+2$.
+D. $3b-1$.",D. $3b-1$,
+105,D88,Câu gốc,p227_q40,,"Có bao nhiêu số nguyên $x$ thỏa mãn $\left[\log_3(x^2+1)-\log_3(x+21)\right](16-2^{x-1})\ge 0$?
+A. 17.
+B. 18.
+C. 16.
+D. Vô số.",B. 18,
+106,D89,Câu gốc,p230_q45,,"Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\in(1;5)$ thỏa mãn $4(x-1)e^x=y(e^x+xy-2x^2-3)$?
+A. 14.
+B. 12.
+C. 10.
+D. 11.",B. 12,
+107,D53,Câu gốc,p236_q12,,"Tập nghiệm của bất phương trình $\log_5(x+1)>2$ là
+A. $(9;+\infty)$.
+B. $(25;+\infty)$.
+C. $(31;+\infty)$.
+D. $(24;+\infty)$.",D. $(24;+\infty)$,
+108,D90,Câu gốc,p237_q17,,"Với $a$ là số thực dương tùy ý, $4\log\sqrt{a}$ bằng
+A. $-2\log a$.
+B. $2\log a$.
+C. $-4\log a$.
+D. $8\log a$.",B. $2\log a$,
+109,D91,Câu gốc,p238_q21,,"Nghiệm của phương trình $3^{2x+1}=3^{2-x}$ là
+A. $x=\dfrac13$.
+B. $x=0$.
+C. $x=-1$.
+D. $x=1$.",A. $x=\dfrac13$,
+110,D92,Câu gốc,p240_q31,,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(6-x)(x+2)]$?
+A. 7.
+B. 8.
+C. 9.
+D. Vô số.",A. 7,
+111,D93,Câu gốc,p242_q39,,"Có bao nhiêu số nguyên dương $a$ sao cho ứng với mỗi $a$ có đúng ba số nguyên $b$ thỏa mãn $(3^b-3)(a\cdot2^b-18)<0$?
+A. 72.
+B. 73.
+C. 71.
+D. 74.",B. 73,
+112,D94,Câu gốc,p243_q44,,"Xét tất cả các số thực $x, y$ sao cho $a^{4x-\log_5 a^2}\le 25^{40-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+x-3y$ bằng
+A. $\dfrac{125}{2}$.
+B. 80.
+C. 60.
+D. 20.",C. 60,
+113,D01,Nhân bản,p006_q12,he_so_x_bang_1,"Nghiệm của phương trình $\log_{5}(x+3)=3$ là
+
+A. $x=123$.
+B. $x=0$.
+C. $x=122$.
+D. $x=12$.",C. $x=122$.,Điều kiện: $x+3>0$. Ta có $\log_{5}(x+3)=3 \Leftrightarrow x+3=5^{3}=125 \Leftrightarrow x=122$ (thỏa điều kiện).
+114,D01,Nhân bản,p006_q12,he_so_x_bang_1,"Nghiệm của phương trình $\log_{2}(x-4)=4$ là
+
+A. $x=21$.
+B. $x=20$.
+C. $x=8$.
+D. $x=12$.",B. $x=20$.,Điều kiện: $x-4>0$. Ta có $\log_{2}(x-4)=4 \Leftrightarrow x-4=2^{4}=16 \Leftrightarrow x=20$ (thỏa điều kiện).
+115,D01,Nhân bản,p006_q12,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{7}(3x-5)=4$ là
+
+A. $x=802$.
+B. $x=3$.
+C. $x=2406$.
+D. $x=11$.",A. $x=802$.,Điều kiện: $3x-5>0$. Ta có $\log_{7}(3x-5)=4 \Leftrightarrow 3x-5=7^{4}=2401 \Leftrightarrow x=802$ (thỏa điều kiện).
+116,D01,Nhân bản,p006_q12,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{6}(3x-3)=2$ là
+
+A. $x=39$.
+B. $x=\dfrac{5}{3}$.
+C. $x=13$.
+D. $x=5$.",C. $x=13$.,Điều kiện: $3x-3>0$. Ta có $\log_{6}(3x-3)=2 \Leftrightarrow 3x-3=6^{2}=36 \Leftrightarrow x=13$ (thỏa điều kiện).
+117,D01,Nhân bản,p006_q12,dap_so_phan_so,"Nghiệm của phương trình $\log_{7}(2x-2)=2$ là
+
+A. $x=8$.
+B. $x=51$.
+C. $x=2$.
+D. $x=\dfrac{51}{2}$.",D. $x=\dfrac{51}{2}$.,Điều kiện: $2x-2>0$. Ta có $\log_{7}(2x-2)=2 \Leftrightarrow 2x-2=7^{2}=49 \Leftrightarrow x=\dfrac{51}{2}$ (thỏa điều kiện).
+118,D01,Nhân bản,p006_q12,dap_so_phan_so,"Nghiệm của phương trình $\log_{2}(3x-2)=1$ là
+
+A. $x=\dfrac{7}{3}$.
+B. $x=4$.
+C. $x=1$.
+D. $x=\dfrac{4}{3}$.",D. $x=\dfrac{4}{3}$.,Điều kiện: $3x-2>0$. Ta có $\log_{2}(3x-2)=1 \Leftrightarrow 3x-2=2^{1}=2 \Leftrightarrow x=\dfrac{4}{3}$ (thỏa điều kiện).
+119,D01,Nhân bản,p079_q06,he_so_x_bang_1,"Nghiệm của phương trình $\log_{2}(x-7)=4$ là
+
+A. $x=15$.
+B. $x=24$.
+C. $x=23$.
+D. $x=11$.",C. $x=23$.,Điều kiện: $x-7>0$. Ta có $\log_{2}(x-7)=4 \Leftrightarrow x-7=2^{4}=16 \Leftrightarrow x=23$ (thỏa điều kiện).
+120,D01,Nhân bản,p079_q06,he_so_x_bang_1,"Nghiệm của phương trình $\log_{3}(x+2)=4$ là
+
+A. $x=79$.
+B. $x=2$.
+C. $x=80$.
+D. $x=10$.",A. $x=79$.,Điều kiện: $x+2>0$. Ta có $\log_{3}(x+2)=4 \Leftrightarrow x+2=3^{4}=81 \Leftrightarrow x=79$ (thỏa điều kiện).
+121,D01,Nhân bản,p079_q06,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{6}(2x-8)=1$ là
+
+A. $x=8$.
+B. $x=\dfrac{9}{2}$.
+C. $x=14$.
+D. $x=7$.",D. $x=7$.,Điều kiện: $2x-8>0$. Ta có $\log_{6}(2x-8)=1 \Leftrightarrow 2x-8=6^{1}=6 \Leftrightarrow x=7$ (thỏa điều kiện).
+122,D01,Nhân bản,p079_q06,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{2}(2x+4)=2$ là
+
+A. $x=-1$.
+B. $x=1$.
+C. $x=0$.
+D. $x=2$.",C. $x=0$.,Điều kiện: $2x+4>0$. Ta có $\log_{2}(2x+4)=2 \Leftrightarrow 2x+4=2^{2}=4 \Leftrightarrow x=0$ (thỏa điều kiện).
+123,D01,Nhân bản,p079_q06,dap_so_phan_so,"Nghiệm của phương trình $\log_{2}(3x)=1$ là
+
+A. $x=\dfrac{5}{3}$.
+B. $x=\dfrac{2}{3}$.
+C. $x=2$.
+D. $x=\dfrac{1}{3}$.",B. $x=\dfrac{2}{3}$.,Điều kiện: $3x>0$. Ta có $\log_{2}(3x)=1 \Leftrightarrow 3x=2^{1}=2 \Leftrightarrow x=\dfrac{2}{3}$ (thỏa điều kiện).
+124,D01,Nhân bản,p079_q06,dap_so_phan_so,"Nghiệm của phương trình $\log_{6}(3x-5)=3$ là
+
+A. $x=\dfrac{221}{3}$.
+B. $x=221$.
+C. $x=\dfrac{23}{3}$.
+D. $x=\dfrac{8}{3}$.",A. $x=\dfrac{221}{3}$.,Điều kiện: $3x-5>0$. Ta có $\log_{6}(3x-5)=3 \Leftrightarrow 3x-5=6^{3}=216 \Leftrightarrow x=\dfrac{221}{3}$ (thỏa điều kiện).
+125,D01,Nhân bản,p109_q10,he_so_x_bang_1,"Nghiệm của phương trình $\log_{6}(x-2)=2$ là
+
+A. $x=14$.
+B. $x=39$.
+C. $x=4$.
+D. $x=38$.",D. $x=38$.,Điều kiện: $x-2>0$. Ta có $\log_{6}(x-2)=2 \Leftrightarrow x-2=6^{2}=36 \Leftrightarrow x=38$ (thỏa điều kiện).
+126,D01,Nhân bản,p109_q10,he_so_x_bang_1,"Nghiệm của phương trình $\log_{3}(x+6)=2$ là
+
+A. $x=-4$.
+B. $x=0$.
+C. $x=4$.
+D. $x=3$.",D. $x=3$.,Điều kiện: $x+6>0$. Ta có $\log_{3}(x+6)=2 \Leftrightarrow x+6=3^{2}=9 \Leftrightarrow x=3$ (thỏa điều kiện).
+127,D01,Nhân bản,p109_q10,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{6}(3x)=1$ là
+
+A. $x=3$.
+B. $x=6$.
+C. $x=\dfrac{1}{3}$.
+D. $x=2$.",D. $x=2$.,Điều kiện: $3x>0$. Ta có $\log_{6}(3x)=1 \Leftrightarrow 3x=6^{1}=6 \Leftrightarrow x=2$ (thỏa điều kiện).
+128,D01,Nhân bản,p109_q10,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{2}(3x-7)=1$ là
+
+A. $x=9$.
+B. $x=4$.
+C. $x=\dfrac{8}{3}$.
+D. $x=3$.",D. $x=3$.,Điều kiện: $3x-7>0$. Ta có $\log_{2}(3x-7)=1 \Leftrightarrow 3x-7=2^{1}=2 \Leftrightarrow x=3$ (thỏa điều kiện).
+129,D01,Nhân bản,p109_q10,dap_so_phan_so,"Nghiệm của phương trình $\log_{5}(3x+6)=2$ là
+
+A. $x=\dfrac{4}{3}$.
+B. $x=- \dfrac{4}{3}$.
+C. $x=\dfrac{19}{3}$.
+D. $x=19$.",C. $x=\dfrac{19}{3}$.,Điều kiện: $3x+6>0$. Ta có $\log_{5}(3x+6)=2 \Leftrightarrow 3x+6=5^{2}=25 \Leftrightarrow x=\dfrac{19}{3}$ (thỏa điều kiện).
+130,D01,Nhân bản,p109_q10,dap_so_phan_so,"Nghiệm của phương trình $\log_{6}(3x-5)=4$ là
+
+A. $x=\dfrac{1301}{3}$.
+B. $x=3$.
+C. $x=\dfrac{29}{3}$.
+D. $x=1301$.",A. $x=\dfrac{1301}{3}$.,Điều kiện: $3x-5>0$. Ta có $\log_{6}(3x-5)=4 \Leftrightarrow 3x-5=6^{4}=1296 \Leftrightarrow x=\dfrac{1301}{3}$ (thỏa điều kiện).
+131,D01,Nhân bản,p191_q08,he_so_x_bang_1,"Nghiệm của phương trình $\log_{5}(x-2)=4$ là
+
+A. $x=627$.
+B. $x=628$.
+C. $x=6$.
+D. $x=22$.",A. $x=627$.,Điều kiện: $x-2>0$. Ta có $\log_{5}(x-2)=4 \Leftrightarrow x-2=5^{4}=625 \Leftrightarrow x=627$ (thỏa điều kiện).
+132,D01,Nhân bản,p191_q08,he_so_x_bang_1,"Nghiệm của phương trình $\log_{5}(x+3)=1$ là
+
+A. $x=-2$.
+B. $x=4$.
+C. $x=3$.
+D. $x=2$.",D. $x=2$.,Điều kiện: $x+3>0$. Ta có $\log_{5}(x+3)=1 \Leftrightarrow x+3=5^{1}=5 \Leftrightarrow x=2$ (thỏa điều kiện).
+133,D01,Nhân bản,p191_q08,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{4}(2x+8)=1$ là
+
+A. $x=- \dfrac{7}{2}$.
+B. $x=-4$.
+C. $x=-1$.
+D. $x=-2$.",D. $x=-2$.,Điều kiện: $2x+8>0$. Ta có $\log_{4}(2x+8)=1 \Leftrightarrow 2x+8=4^{1}=4 \Leftrightarrow x=-2$ (thỏa điều kiện).
+134,D01,Nhân bản,p191_q08,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{4}(3x-5)=3$ là
+
+A. $x=23$.
+B. $x=\dfrac{17}{3}$.
+C. $x=\dfrac{8}{3}$.
+D. $x=69$.",A. $x=23$.,Điều kiện: $3x-5>0$. Ta có $\log_{4}(3x-5)=3 \Leftrightarrow 3x-5=4^{3}=64 \Leftrightarrow x=23$ (thỏa điều kiện).
+135,D01,Nhân bản,p191_q08,dap_so_phan_so,"Nghiệm của phương trình $\log_{5}(3x-3)=2$ là
+
+A. $x=\dfrac{5}{3}$.
+B. $x=28$.
+C. $x=\dfrac{13}{3}$.
+D. $x=\dfrac{28}{3}$.",D. $x=\dfrac{28}{3}$.,Điều kiện: $3x-3>0$. Ta có $\log_{5}(3x-3)=2 \Leftrightarrow 3x-3=5^{2}=25 \Leftrightarrow x=\dfrac{28}{3}$ (thỏa điều kiện).
+136,D01,Nhân bản,p191_q08,dap_so_phan_so,"Nghiệm của phương trình $\log_{4}(3x+6)=2$ là
+
+A. $x=\dfrac{2}{3}$.
+B. $x=\dfrac{10}{3}$.
+C. $x=10$.
+D. $x=- \dfrac{4}{3}$.",B. $x=\dfrac{10}{3}$.,Điều kiện: $3x+6>0$. Ta có $\log_{4}(3x+6)=2 \Leftrightarrow 3x+6=4^{2}=16 \Leftrightarrow x=\dfrac{10}{3}$ (thỏa điều kiện).
+137,D01,Nhân bản,p210_q27,he_so_x_bang_1,"Nghiệm của phương trình $\log_{5}(x+8)=2$ là
+
+A. $x=2$.
+B. $x=18$.
+C. $x=17$.
+D. $x=-6$.",C. $x=17$.,Điều kiện: $x+8>0$. Ta có $\log_{5}(x+8)=2 \Leftrightarrow x+8=5^{2}=25 \Leftrightarrow x=17$ (thỏa điều kiện).
+138,D01,Nhân bản,p210_q27,he_so_x_bang_1,"Nghiệm của phương trình $\log_{3}(x-8)=2$ là
+
+A. $x=18$.
+B. $x=14$.
+C. $x=10$.
+D. $x=17$.",D. $x=17$.,Điều kiện: $x-8>0$. Ta có $\log_{3}(x-8)=2 \Leftrightarrow x-8=3^{2}=9 \Leftrightarrow x=17$ (thỏa điều kiện).
+139,D01,Nhân bản,p210_q27,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{7}(2x-5)=1$ là
+
+A. $x=7$.
+B. $x=3$.
+C. $x=12$.
+D. $x=6$.",D. $x=6$.,Điều kiện: $2x-5>0$. Ta có $\log_{7}(2x-5)=1 \Leftrightarrow 2x-5=7^{1}=7 \Leftrightarrow x=6$ (thỏa điều kiện).
+140,D01,Nhân bản,p210_q27,he_so_x_lon_hon_1,"Nghiệm của phương trình $\log_{3}(2x-7)=3$ là
+
+A. $x=17$.
+B. $x=8$.
+C. $x=5$.
+D. $x=34$.",A. $x=17$.,Điều kiện: $2x-7>0$. Ta có $\log_{3}(2x-7)=3 \Leftrightarrow 2x-7=3^{3}=27 \Leftrightarrow x=17$ (thỏa điều kiện).
+141,D01,Nhân bản,p210_q27,dap_so_phan_so,"Nghiệm của phương trình $\log_{5}(3x-6)=1$ là
+
+A. $x=11$.
+B. $x=\dfrac{7}{3}$.
+C. $x=\dfrac{14}{3}$.
+D. $x=\dfrac{11}{3}$.",D. $x=\dfrac{11}{3}$.,Điều kiện: $3x-6>0$. Ta có $\log_{5}(3x-6)=1 \Leftrightarrow 3x-6=5^{1}=5 \Leftrightarrow x=\dfrac{11}{3}$ (thỏa điều kiện).
+142,D01,Nhân bản,p210_q27,dap_so_phan_so,"Nghiệm của phương trình $\log_{4}(2x-3)=1$ là
+
+A. $x=\dfrac{7}{2}$.
+B. $x=7$.
+C. $x=2$.
+D. $x=\dfrac{9}{2}$.",A. $x=\dfrac{7}{2}$.,Điều kiện: $2x-3>0$. Ta có $\log_{4}(2x-3)=1 \Leftrightarrow 2x-3=4^{1}=4 \Leftrightarrow x=\dfrac{7}{2}$ (thỏa điều kiện).
+143,D12,Nhân bản,p020_q13,he_so_x_bang_1,"Nghiệm của phương trình $5^{x+6}=625$ là
+
+A. $x=-2$.
+B. $x=-1$.
+C. $x=619$.
+D. $x=10$.",A. $x=-2$.,Ta có $5^{x+6}=625=5^{4} \Leftrightarrow x+6=4 \Leftrightarrow x=-2$.
+144,D12,Nhân bản,p020_q13,he_so_x_bang_1,"Nghiệm của phương trình $4^{x+3}=16$ là
+
+A. $x=0$.
+B. $x=-1$.
+C. $x=5$.
+D. $x=13$.",B. $x=-1$.,Ta có $4^{x+3}=16=4^{2} \Leftrightarrow x+3=2 \Leftrightarrow x=-1$.
+145,D12,Nhân bản,p020_q13,he_so_x_lon_hon_1,"Nghiệm của phương trình $5^{2x+4}=25$ là
+
+A. $x=-3$.
+B. $x=-1$.
+C. $x=\dfrac{21}{2}$.
+D. $x=3$.",B. $x=-1$.,Ta có $5^{2x+4}=25=5^{2} \Leftrightarrow 2x+4=2 \Leftrightarrow x=-1$.
+146,D12,Nhân bản,p020_q13,he_so_x_lon_hon_1,"Nghiệm của phương trình $2^{2x+5}=2$ là
+
+A. $x=- \dfrac{9}{2}$.
+B. $x=- \dfrac{3}{2}$.
+C. $x=3$.
+D. $x=-2$.",D. $x=-2$.,Ta có $2^{2x+5}=2=2^{1} \Leftrightarrow 2x+5=1 \Leftrightarrow x=-2$.
+147,D12,Nhân bản,p020_q13,dap_so_phan_so,"Nghiệm của phương trình $3^{3x+5}=3$ là
+
+A. $x=- \dfrac{14}{3}$.
+B. $x=- \dfrac{4}{3}$.
+C. $x=- \dfrac{2}{3}$.
+D. $x=2$.",B. $x=- \dfrac{4}{3}$.,Ta có $3^{3x+5}=3=3^{1} \Leftrightarrow 3x+5=1 \Leftrightarrow x=- \dfrac{4}{3}$.
+148,D12,Nhân bản,p020_q13,dap_so_phan_so,"Nghiệm của phương trình $5^{2x-1}=25$ là
+
+A. $x=\dfrac{1}{2}$.
+B. $x=\dfrac{3}{2}$.
+C. $x=13$.
+D. $x=2$.",B. $x=\dfrac{3}{2}$.,Ta có $5^{2x-1}=25=5^{2} \Leftrightarrow 2x-1=2 \Leftrightarrow x=\dfrac{3}{2}$.
+149,D12,Nhân bản,p093_q03,he_so_x_bang_1,"Nghiệm của phương trình $2^{x+6}=2$ là
+
+A. $x=-3$.
+B. $x=7$.
+C. $x=-5$.
+D. $x=-4$.",C. $x=-5$.,Ta có $2^{x+6}=2=2^{1} \Leftrightarrow x+6=1 \Leftrightarrow x=-5$.
+150,D12,Nhân bản,p093_q03,he_so_x_bang_1,"Nghiệm của phương trình $2^{x+3}=4$ là
+
+A. $x=5$.
+B. $x=0$.
+C. $x=1$.
+D. $x=-1$.",D. $x=-1$.,Ta có $2^{x+3}=4=2^{2} \Leftrightarrow x+3=2 \Leftrightarrow x=-1$.
+151,D12,Nhân bản,p093_q03,he_so_x_lon_hon_1,"Nghiệm của phương trình $5^{3x-2}=5$ là
+
+A. $x=\dfrac{10}{3}$.
+B. $x=- \dfrac{1}{3}$.
+C. $x=\dfrac{7}{3}$.
+D. $x=1$.",D. $x=1$.,Ta có $5^{3x-2}=5=5^{1} \Leftrightarrow 3x-2=1 \Leftrightarrow x=1$.
+152,D12,Nhân bản,p093_q03,he_so_x_lon_hon_1,"Nghiệm của phương trình $3^{2x+2}=9$ là
+
+A. $x=-1$.
+B. $x=\dfrac{7}{2}$.
+C. $x=2$.
+D. $x=0$.",D. $x=0$.,Ta có $3^{2x+2}=9=3^{2} \Leftrightarrow 2x+2=2 \Leftrightarrow x=0$.
+153,D12,Nhân bản,p093_q03,dap_so_phan_so,"Nghiệm của phương trình $5^{2x-4}=125$ là
+
+A. $x=\dfrac{129}{2}$.
+B. $x=- \dfrac{1}{2}$.
+C. $x=\dfrac{11}{2}$.
+D. $x=\dfrac{7}{2}$.",D. $x=\dfrac{7}{2}$.,Ta có $5^{2x-4}=125=5^{3} \Leftrightarrow 2x-4=3 \Leftrightarrow x=\dfrac{7}{2}$.
+154,D12,Nhân bản,p093_q03,dap_so_phan_so,"Nghiệm của phương trình $5^{3x+6}=5$ là
+
+A. $x=- \dfrac{1}{3}$.
+B. $x=\dfrac{7}{3}$.
+C. $x=- \dfrac{5}{3}$.
+D. $x=- \dfrac{17}{3}$.",C. $x=- \dfrac{5}{3}$.,Ta có $5^{3x+6}=5=5^{1} \Leftrightarrow 3x+6=1 \Leftrightarrow x=- \dfrac{5}{3}$.
+155,D12,Nhân bản,p172_q13,he_so_x_bang_1,"Nghiệm của phương trình $2^{x+6}=2$ là
+
+A. $x=7$.
+B. $x=-4$.
+C. $x=-3$.
+D. $x=-5$.",D. $x=-5$.,Ta có $2^{x+6}=2=2^{1} \Leftrightarrow x+6=1 \Leftrightarrow x=-5$.
+156,D12,Nhân bản,p172_q13,he_so_x_bang_1,"Nghiệm của phương trình $4^{x+3}=4$ là
+
+A. $x=-1$.
+B. $x=1$.
+C. $x=4$.
+D. $x=-2$.",D. $x=-2$.,Ta có $4^{x+3}=4=4^{1} \Leftrightarrow x+3=1 \Leftrightarrow x=-2$.
+157,D12,Nhân bản,p172_q13,he_so_x_lon_hon_1,"Nghiệm của phương trình $2^{2x-1}=8$ là
+
+A. $x=\dfrac{9}{2}$.
+B. $x=2$.
+C. $x=1$.
+D. $x=\dfrac{5}{2}$.",B. $x=2$.,Ta có $2^{2x-1}=8=2^{3} \Leftrightarrow 2x-1=3 \Leftrightarrow x=2$.
+158,D12,Nhân bản,p172_q13,he_so_x_lon_hon_1,"Nghiệm của phương trình $4^{2x+1}=4$ là
+
+A. $x=\dfrac{3}{2}$.
+B. $x=1$.
+C. $x=- \dfrac{1}{2}$.
+D. $x=0$.",D. $x=0$.,Ta có $4^{2x+1}=4=4^{1} \Leftrightarrow 2x+1=1 \Leftrightarrow x=0$.
+159,D12,Nhân bản,p172_q13,dap_so_phan_so,"Nghiệm của phương trình $4^{3x+5}=256$ là
+
+A. $x=3$.
+B. $x=- \dfrac{1}{3}$.
+C. $x=\dfrac{251}{3}$.
+D. $x=- \dfrac{11}{3}$.",B. $x=- \dfrac{1}{3}$.,Ta có $4^{3x+5}=256=4^{4} \Leftrightarrow 3x+5=4 \Leftrightarrow x=- \dfrac{1}{3}$.
+160,D12,Nhân bản,p172_q13,dap_so_phan_so,"Nghiệm của phương trình $4^{3x+3}=4$ là
+
+A. $x=\dfrac{4}{3}$.
+B. $x=- \dfrac{8}{3}$.
+C. $x=\dfrac{1}{3}$.
+D. $x=- \dfrac{2}{3}$.",D. $x=- \dfrac{2}{3}$.,Ta có $4^{3x+3}=4=4^{1} \Leftrightarrow 3x+3=1 \Leftrightarrow x=- \dfrac{2}{3}$.
+161,D12,Nhân bản,p192_q13,he_so_x_bang_1,"Nghiệm của phương trình $2^{x-2}=8$ là
+
+A. $x=5$.
+B. $x=6$.
+C. $x=1$.
+D. $x=10$.",A. $x=5$.,Ta có $2^{x-2}=8=2^{3} \Leftrightarrow x-2=3 \Leftrightarrow x=5$.
+162,D12,Nhân bản,p192_q13,he_so_x_bang_1,"Nghiệm của phương trình $5^{x+5}=25$ là
+
+A. $x=-3$.
+B. $x=7$.
+C. $x=-2$.
+D. $x=20$.",A. $x=-3$.,Ta có $5^{x+5}=25=5^{2} \Leftrightarrow x+5=2 \Leftrightarrow x=-3$.
+163,D12,Nhân bản,p192_q13,he_so_x_lon_hon_1,"Nghiệm của phương trình $5^{2x+2}=625$ là
+
+A. $x=1$.
+B. $x=3$.
+C. $x=\dfrac{623}{2}$.
+D. $x=0$.",A. $x=1$.,Ta có $5^{2x+2}=625=5^{4} \Leftrightarrow 2x+2=4 \Leftrightarrow x=1$.
+164,D12,Nhân bản,p192_q13,he_so_x_lon_hon_1,"Nghiệm của phương trình $5^{3x-5}=5$ là
+
+A. $x=\dfrac{16}{3}$.
+B. $x=2$.
+C. $x=- \dfrac{4}{3}$.
+D. $x=\dfrac{10}{3}$.",B. $x=2$.,Ta có $5^{3x-5}=5=5^{1} \Leftrightarrow 3x-5=1 \Leftrightarrow x=2$.
+165,D12,Nhân bản,p192_q13,dap_so_phan_so,"Nghiệm của phương trình $4^{3x+2}=4$ là
+
+A. $x=\dfrac{2}{3}$.
+B. $x=1$.
+C. $x=- \dfrac{5}{3}$.
+D. $x=- \dfrac{1}{3}$.",D. $x=- \dfrac{1}{3}$.,Ta có $4^{3x+2}=4=4^{1} \Leftrightarrow 3x+2=1 \Leftrightarrow x=- \dfrac{1}{3}$.
+166,D12,Nhân bản,p192_q13,dap_so_phan_so,"Nghiệm của phương trình $2^{2x-4}=2$ là
+
+A. $x=3$.
+B. $x=\dfrac{9}{2}$.
+C. $x=\dfrac{5}{2}$.
+D. $x=- \dfrac{3}{2}$.",C. $x=\dfrac{5}{2}$.,Ta có $2^{2x-4}=2=2^{1} \Leftrightarrow 2x-4=1 \Leftrightarrow x=\dfrac{5}{2}$.
+167,D18,Nhân bản,p031_q02,co_so_nho,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{2} x$ là
+
+A. $y'=\dfrac{1}{x\ln 2}$.
+B. $y'=\dfrac{1}{x}$.
+C. $y'=\dfrac{\ln 2}{x}$.
+D. $y'=\dfrac{1}{2x}$.",A. $y'=\dfrac{1}{x\ln 2}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=2$, ta có $y'=\dfrac{1}{x\ln 2}$."
+168,D18,Nhân bản,p031_q02,co_so_nho,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{3} x$ là
+
+A. $y'=\dfrac{1}{3x}$.
+B. $y'=\dfrac{\ln 3}{x}$.
+C. $y'=\dfrac{1}{x\ln 3}$.
+D. $y'=\dfrac{1}{x}$.",C. $y'=\dfrac{1}{x\ln 3}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=3$, ta có $y'=\dfrac{1}{x\ln 3}$."
+169,D18,Nhân bản,p031_q02,co_so_trung_binh,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{4} x$ là
+
+A. $y'=\dfrac{1}{x\ln 4}$.
+B. $y'=\dfrac{1}{x}$.
+C. $y'=\dfrac{1}{4x}$.
+D. $y'=\dfrac{\ln 4}{x}$.",A. $y'=\dfrac{1}{x\ln 4}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=4$, ta có $y'=\dfrac{1}{x\ln 4}$."
+170,D18,Nhân bản,p031_q02,co_so_trung_binh,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{6} x$ là
+
+A. $y'=\dfrac{1}{x\ln 6}$.
+B. $y'=\dfrac{1}{6x}$.
+C. $y'=\dfrac{1}{x}$.
+D. $y'=\dfrac{\ln 6}{x}$.",A. $y'=\dfrac{1}{x\ln 6}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=6$, ta có $y'=\dfrac{1}{x\ln 6}$."
+171,D18,Nhân bản,p031_q02,co_so_lon,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=log x$ là
+
+A. $y'=\dfrac{1}{x\ln 10}$.
+B. $y'=\dfrac{1}{x}$.
+C. $y'=\dfrac{1}{10x}$.
+D. $y'=\dfrac{\ln 10}{x}$.",A. $y'=\dfrac{1}{x\ln 10}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=10$, ta có $y'=\dfrac{1}{x\ln 10}$."
+172,D18,Nhân bản,p031_q02,co_so_lon,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{9} x$ là
+
+A. $y'=\dfrac{1}{9x}$.
+B. $y'=\dfrac{1}{x\ln 9}$.
+C. $y'=\dfrac{\ln 9}{x}$.
+D. $y'=\dfrac{1}{x}$.",B. $y'=\dfrac{1}{x\ln 9}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=9$, ta có $y'=\dfrac{1}{x\ln 9}$."
+173,D18,Nhân bản,p111_q22,co_so_nho,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{3} x$ là
+
+A. $y'=\dfrac{1}{3x}$.
+B. $y'=\dfrac{1}{x}$.
+C. $y'=\dfrac{\ln 3}{x}$.
+D. $y'=\dfrac{1}{x\ln 3}$.",D. $y'=\dfrac{1}{x\ln 3}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=3$, ta có $y'=\dfrac{1}{x\ln 3}$."
+174,D18,Nhân bản,p111_q22,co_so_nho,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{2} x$ là
+
+A. $y'=\dfrac{\ln 2}{x}$.
+B. $y'=\dfrac{1}{x\ln 2}$.
+C. $y'=\dfrac{1}{2x}$.
+D. $y'=\dfrac{1}{x}$.",B. $y'=\dfrac{1}{x\ln 2}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=2$, ta có $y'=\dfrac{1}{x\ln 2}$."
+175,D18,Nhân bản,p111_q22,co_so_trung_binh,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{6} x$ là
+
+A. $y'=\dfrac{1}{6x}$.
+B. $y'=\dfrac{1}{x\ln 6}$.
+C. $y'=\dfrac{1}{x}$.
+D. $y'=\dfrac{\ln 6}{x}$.",B. $y'=\dfrac{1}{x\ln 6}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=6$, ta có $y'=\dfrac{1}{x\ln 6}$."
+176,D18,Nhân bản,p111_q22,co_so_trung_binh,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{5} x$ là
+
+A. $y'=\dfrac{1}{x\ln 5}$.
+B. $y'=\dfrac{\ln 5}{x}$.
+C. $y'=\dfrac{1}{5x}$.
+D. $y'=\dfrac{1}{x}$.",A. $y'=\dfrac{1}{x\ln 5}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=5$, ta có $y'=\dfrac{1}{x\ln 5}$."
+177,D18,Nhân bản,p111_q22,co_so_lon,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=log x$ là
+
+A. $y'=\dfrac{1}{x\ln 10}$.
+B. $y'=\dfrac{1}{10x}$.
+C. $y'=\dfrac{\ln 10}{x}$.
+D. $y'=\dfrac{1}{x}$.",A. $y'=\dfrac{1}{x\ln 10}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=10$, ta có $y'=\dfrac{1}{x\ln 10}$."
+178,D18,Nhân bản,p111_q22,co_so_lon,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{11} x$ là
+
+A. $y'=\dfrac{1}{x\ln 11}$.
+B. $y'=\dfrac{\ln 11}{x}$.
+C. $y'=\dfrac{1}{11x}$.
+D. $y'=\dfrac{1}{x}$.",A. $y'=\dfrac{1}{x\ln 11}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=11$, ta có $y'=\dfrac{1}{x\ln 11}$."
+179,D18,Nhân bản,p121_q02,co_so_nho,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{2} x$ là
+
+A. $y'=\dfrac{1}{x\ln 2}$.
+B. $y'=\dfrac{1}{x}$.
+C. $y'=\dfrac{\ln 2}{x}$.
+D. $y'=\dfrac{1}{2x}$.",A. $y'=\dfrac{1}{x\ln 2}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=2$, ta có $y'=\dfrac{1}{x\ln 2}$."
+180,D18,Nhân bản,p121_q02,co_so_nho,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{3} x$ là
+
+A. $y'=\dfrac{1}{x\ln 3}$.
+B. $y'=\dfrac{1}{3x}$.
+C. $y'=\dfrac{1}{x}$.
+D. $y'=\dfrac{\ln 3}{x}$.",A. $y'=\dfrac{1}{x\ln 3}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=3$, ta có $y'=\dfrac{1}{x\ln 3}$."
+181,D18,Nhân bản,p121_q02,co_so_trung_binh,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{4} x$ là
+
+A. $y'=\dfrac{1}{x}$.
+B. $y'=\dfrac{1}{x\ln 4}$.
+C. $y'=\dfrac{\ln 4}{x}$.
+D. $y'=\dfrac{1}{4x}$.",B. $y'=\dfrac{1}{x\ln 4}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=4$, ta có $y'=\dfrac{1}{x\ln 4}$."
+182,D18,Nhân bản,p121_q02,co_so_trung_binh,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{7} x$ là
+
+A. $y'=\dfrac{1}{x}$.
+B. $y'=\dfrac{1}{7x}$.
+C. $y'=\dfrac{1}{x\ln 7}$.
+D. $y'=\dfrac{\ln 7}{x}$.",C. $y'=\dfrac{1}{x\ln 7}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=7$, ta có $y'=\dfrac{1}{x\ln 7}$."
+183,D18,Nhân bản,p121_q02,co_so_lon,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{11} x$ là
+
+A. $y'=\dfrac{1}{11x}$.
+B. $y'=\dfrac{1}{x}$.
+C. $y'=\dfrac{\ln 11}{x}$.
+D. $y'=\dfrac{1}{x\ln 11}$.",D. $y'=\dfrac{1}{x\ln 11}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=11$, ta có $y'=\dfrac{1}{x\ln 11}$."
+184,D18,Nhân bản,p121_q02,co_so_lon,"Trên khoảng $(0;+\infty)$, đạo hàm của hàm số $y=\log_{8} x$ là
+
+A. $y'=\dfrac{1}{x}$.
+B. $y'=\dfrac{1}{8x}$.
+C. $y'=\dfrac{1}{x\ln 8}$.
+D. $y'=\dfrac{\ln 8}{x}$.",C. $y'=\dfrac{1}{x\ln 8}$.,"Áp dụng công thức $(\log_a x)' = \dfrac{1}{x\ln a}$ với $a=8$, ta có $y'=\dfrac{1}{x\ln 8}$."
+185,D53,Nhân bản,p006_q14,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{2}(x+2)>3$ là
+
+A. $\left(4;+\infty\right)$.
+B. $\left(7;+\infty\right)$.
+C. $\left(6;+\infty\right)$.
+D. $\left(-\infty;6\right)$.",C. $\left(6;+\infty\right)$.,Điều kiện: $x+2>0$. Vì $a=2>1$ nên $\log_{2}(x+2)>3 \Leftrightarrow x+2>2^{3}=8 \Leftrightarrow x>6$. Vậy tập nghiệm là $\left(6;+\infty\right)$.
+186,D53,Nhân bản,p006_q14,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{4}(x+3)>2$ là
+
+A. $\left(13;+\infty\right)$.
+B. $\left(-\infty;13\right)$.
+C. $\left(5;+\infty\right)$.
+D. $\left(14;+\infty\right)$.",A. $\left(13;+\infty\right)$.,Điều kiện: $x+3>0$. Vì $a=4>1$ nên $\log_{4}(x+3)>2 \Leftrightarrow x+3>4^{2}=16 \Leftrightarrow x>13$. Vậy tập nghiệm là $\left(13;+\infty\right)$.
+187,D53,Nhân bản,p006_q14,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{5}(3x+4)>0$ là
+
+A. $\left(-3;+\infty\right)$.
+B. $\left(-\infty;-1\right)$.
+C. $\left(-1;+\infty\right)$.
+D. $\left(- \dfrac{4}{3};+\infty\right)$.",C. $\left(-1;+\infty\right)$.,Điều kiện: $3x+4>0$. Vì $a=5>1$ nên $\log_{5}(3x+4)>0 \Leftrightarrow 3x+4>5^{0}=1 \Leftrightarrow x>-1$. Vậy tập nghiệm là $\left(-1;+\infty\right)$.
+188,D53,Nhân bản,p006_q14,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{4}(3x+4)>0$ là
+
+A. $\left(- \dfrac{4}{3};+\infty\right)$.
+B. $\left(-3;+\infty\right)$.
+C. $\left(-1;+\infty\right)$.
+D. $\left(-\infty;-1\right)$.",C. $\left(-1;+\infty\right)$.,Điều kiện: $3x+4>0$. Vì $a=4>1$ nên $\log_{4}(3x+4)>0 \Leftrightarrow 3x+4>4^{0}=1 \Leftrightarrow x>-1$. Vậy tập nghiệm là $\left(-1;+\infty\right)$.
+189,D53,Nhân bản,p006_q14,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{7}(3x+3)>2$ là
+
+A. $\left(46;+\infty\right)$.
+B. $\left(\dfrac{46}{3};+\infty\right)$.
+C. $\left(\dfrac{11}{3};+\infty\right)$.
+D. $\left(-\infty;\dfrac{46}{3}\right)$.",B. $\left(\dfrac{46}{3};+\infty\right)$.,Điều kiện: $3x+3>0$. Vì $a=7>1$ nên $\log_{7}(3x+3)>2 \Leftrightarrow 3x+3>7^{2}=49 \Leftrightarrow x>\dfrac{46}{3}$. Vậy tập nghiệm là $\left(\dfrac{46}{3};+\infty\right)$.
+190,D53,Nhân bản,p006_q14,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{2}(2x-6)>0$ là
+
+A. $\left(-\infty;\dfrac{7}{2}\right)$.
+B. $\left(\dfrac{7}{2};+\infty\right)$.
+C. $\left(7;+\infty\right)$.
+D. $\left(3;+\infty\right)$.",B. $\left(\dfrac{7}{2};+\infty\right)$.,Điều kiện: $2x-6>0$. Vì $a=2>1$ nên $\log_{2}(2x-6)>0 \Leftrightarrow 2x-6>2^{0}=1 \Leftrightarrow x>\dfrac{7}{2}$. Vậy tập nghiệm là $\left(\dfrac{7}{2};+\infty\right)$.
+191,D53,Nhân bản,p124_q21,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{5}(x+1)>3$ là
+
+A. $\left(-\infty;124\right)$.
+B. $\left(14;+\infty\right)$.
+C. $\left(124;+\infty\right)$.
+D. $\left(125;+\infty\right)$.",C. $\left(124;+\infty\right)$.,Điều kiện: $x+1>0$. Vì $a=5>1$ nên $\log_{5}(x+1)>3 \Leftrightarrow x+1>5^{3}=125 \Leftrightarrow x>124$. Vậy tập nghiệm là $\left(124;+\infty\right)$.
+192,D53,Nhân bản,p124_q21,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{5}(x-6)>3$ là
+
+A. $\left(131;+\infty\right)$.
+B. $\left(132;+\infty\right)$.
+C. $\left(-\infty;131\right)$.
+D. $\left(21;+\infty\right)$.",A. $\left(131;+\infty\right)$.,Điều kiện: $x-6>0$. Vì $a=5>1$ nên $\log_{5}(x-6)>3 \Leftrightarrow x-6>5^{3}=125 \Leftrightarrow x>131$. Vậy tập nghiệm là $\left(131;+\infty\right)$.
+193,D53,Nhân bản,p124_q21,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{3}(2x+3)>1$ là
+
+A. $\left(2;+\infty\right)$.
+B. $\left(1;+\infty\right)$.
+C. $\left(0;+\infty\right)$.
+D. $\left(-\infty;0\right)$.",C. $\left(0;+\infty\right)$.,Điều kiện: $2x+3>0$. Vì $a=3>1$ nên $\log_{3}(2x+3)>1 \Leftrightarrow 2x+3>3^{1}=3 \Leftrightarrow x>0$. Vậy tập nghiệm là $\left(0;+\infty\right)$.
+194,D53,Nhân bản,p124_q21,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{6}(2x+6)>1$ là
+
+A. $\left(1;+\infty\right)$.
+B. $\left(2;+\infty\right)$.
+C. $\left(-\infty;0\right)$.
+D. $\left(0;+\infty\right)$.",D. $\left(0;+\infty\right)$.,Điều kiện: $2x+6>0$. Vì $a=6>1$ nên $\log_{6}(2x+6)>1 \Leftrightarrow 2x+6>6^{1}=6 \Leftrightarrow x>0$. Vậy tập nghiệm là $\left(0;+\infty\right)$.
+195,D53,Nhân bản,p124_q21,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{3}(2x-6)>1$ là
+
+A. $\left(9;+\infty\right)$.
+B. $\left(\dfrac{9}{2};+\infty\right)$.
+C. $\left(\dfrac{11}{2};+\infty\right)$.
+D. $\left(-\infty;\dfrac{9}{2}\right)$.",B. $\left(\dfrac{9}{2};+\infty\right)$.,Điều kiện: $2x-6>0$. Vì $a=3>1$ nên $\log_{3}(2x-6)>1 \Leftrightarrow 2x-6>3^{1}=3 \Leftrightarrow x>\dfrac{9}{2}$. Vậy tập nghiệm là $\left(\dfrac{9}{2};+\infty\right)$.
+196,D53,Nhân bản,p124_q21,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{7}(2x-4)>3$ là
+
+A. $\left(\dfrac{347}{2};+\infty\right)$.
+B. $\left(\dfrac{25}{2};+\infty\right)$.
+C. $\left(347;+\infty\right)$.
+D. $\left(-\infty;\dfrac{347}{2}\right)$.",A. $\left(\dfrac{347}{2};+\infty\right)$.,Điều kiện: $2x-4>0$. Vì $a=7>1$ nên $\log_{7}(2x-4)>3 \Leftrightarrow 2x-4>7^{3}=343 \Leftrightarrow x>\dfrac{347}{2}$. Vậy tập nghiệm là $\left(\dfrac{347}{2};+\infty\right)$.
+197,D53,Nhân bản,p221_q08,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{6}(x+3)>3$ là
+
+A. $\left(213;+\infty\right)$.
+B. $\left(-\infty;213\right)$.
+C. $\left(214;+\infty\right)$.
+D. $\left(15;+\infty\right)$.",A. $\left(213;+\infty\right)$.,Điều kiện: $x+3>0$. Vì $a=6>1$ nên $\log_{6}(x+3)>3 \Leftrightarrow x+3>6^{3}=216 \Leftrightarrow x>213$. Vậy tập nghiệm là $\left(213;+\infty\right)$.
+198,D53,Nhân bản,p221_q08,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{7}(x+5)>1$ là
+
+A. $\left(-\infty;2\right)$.
+B. $\left(3;+\infty\right)$.
+C. $\left(2;+\infty\right)$.
+D. $\left(4;+\infty\right)$.",C. $\left(2;+\infty\right)$.,Điều kiện: $x+5>0$. Vì $a=7>1$ nên $\log_{7}(x+5)>1 \Leftrightarrow x+5>7^{1}=7 \Leftrightarrow x>2$. Vậy tập nghiệm là $\left(2;+\infty\right)$.
+199,D53,Nhân bản,p221_q08,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{7}(3x-5)>1$ là
+
+A. $\left(-\infty;4\right)$.
+B. $\left(4;+\infty\right)$.
+C. $\left(5;+\infty\right)$.
+D. $\left(12;+\infty\right)$.",B. $\left(4;+\infty\right)$.,Điều kiện: $3x-5>0$. Vì $a=7>1$ nên $\log_{7}(3x-5)>1 \Leftrightarrow 3x-5>7^{1}=7 \Leftrightarrow x>4$. Vậy tập nghiệm là $\left(4;+\infty\right)$.
+200,D53,Nhân bản,p221_q08,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{3}(2x+5)>0$ là
+
+A. $\left(-4;+\infty\right)$.
+B. $\left(- \dfrac{5}{2};+\infty\right)$.
+C. $\left(-\infty;-2\right)$.
+D. $\left(-2;+\infty\right)$.",D. $\left(-2;+\infty\right)$.,Điều kiện: $2x+5>0$. Vì $a=3>1$ nên $\log_{3}(2x+5)>0 \Leftrightarrow 2x+5>3^{0}=1 \Leftrightarrow x>-2$. Vậy tập nghiệm là $\left(-2;+\infty\right)$.
+201,D53,Nhân bản,p221_q08,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{6}(3x-2)>1$ là
+
+A. $\left(\dfrac{11}{3};+\infty\right)$.
+B. $\left(8;+\infty\right)$.
+C. $\left(-\infty;\dfrac{8}{3}\right)$.
+D. $\left(\dfrac{8}{3};+\infty\right)$.",D. $\left(\dfrac{8}{3};+\infty\right)$.,Điều kiện: $3x-2>0$. Vì $a=6>1$ nên $\log_{6}(3x-2)>1 \Leftrightarrow 3x-2>6^{1}=6 \Leftrightarrow x>\dfrac{8}{3}$. Vậy tập nghiệm là $\left(\dfrac{8}{3};+\infty\right)$.
+202,D53,Nhân bản,p221_q08,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{7}(3x+5)>0$ là
+
+A. $\left(- \dfrac{5}{3};+\infty\right)$.
+B. $\left(- \dfrac{4}{3};+\infty\right)$.
+C. $\left(-4;+\infty\right)$.
+D. $\left(-\infty;- \dfrac{4}{3}\right)$.",B. $\left(- \dfrac{4}{3};+\infty\right)$.,Điều kiện: $3x+5>0$. Vì $a=7>1$ nên $\log_{7}(3x+5)>0 \Leftrightarrow 3x+5>7^{0}=1 \Leftrightarrow x>- \dfrac{4}{3}$. Vậy tập nghiệm là $\left(- \dfrac{4}{3};+\infty\right)$.
+203,D53,Nhân bản,p236_q12,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{4}(x-2)>0$ là
+
+A. $\left(-\infty;3\right)$.
+B. $\left(2;+\infty\right)$.
+C. $\left(4;+\infty\right)$.
+D. $\left(3;+\infty\right)$.",D. $\left(3;+\infty\right)$.,Điều kiện: $x-2>0$. Vì $a=4>1$ nên $\log_{4}(x-2)>0 \Leftrightarrow x-2>4^{0}=1 \Leftrightarrow x>3$. Vậy tập nghiệm là $\left(3;+\infty\right)$.
+204,D53,Nhân bản,p236_q12,he_so_x_bang_1,"Tập nghiệm của bất phương trình $\log_{2}(x-3)>0$ là
+
+A. $\left(-\infty;4\right)$.
+B. $\left(4;+\infty\right)$.
+C. $\left(3;+\infty\right)$.
+D. $\left(5;+\infty\right)$.",B. $\left(4;+\infty\right)$.,Điều kiện: $x-3>0$. Vì $a=2>1$ nên $\log_{2}(x-3)>0 \Leftrightarrow x-3>2^{0}=1 \Leftrightarrow x>4$. Vậy tập nghiệm là $\left(4;+\infty\right)$.
+205,D53,Nhân bản,p236_q12,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{6}(2x+2)>2$ là
+
+A. $\left(5;+\infty\right)$.
+B. $\left(34;+\infty\right)$.
+C. $\left(17;+\infty\right)$.
+D. $\left(-\infty;17\right)$.",C. $\left(17;+\infty\right)$.,Điều kiện: $2x+2>0$. Vì $a=6>1$ nên $\log_{6}(2x+2)>2 \Leftrightarrow 2x+2>6^{2}=36 \Leftrightarrow x>17$. Vậy tập nghiệm là $\left(17;+\infty\right)$.
+206,D53,Nhân bản,p236_q12,he_so_x_lon_hon_1,"Tập nghiệm của bất phương trình $\log_{5}(2x-3)>1$ là
+
+A. $\left(5;+\infty\right)$.
+B. $\left(4;+\infty\right)$.
+C. $\left(8;+\infty\right)$.
+D. $\left(-\infty;4\right)$.",B. $\left(4;+\infty\right)$.,Điều kiện: $2x-3>0$. Vì $a=5>1$ nên $\log_{5}(2x-3)>1 \Leftrightarrow 2x-3>5^{1}=5 \Leftrightarrow x>4$. Vậy tập nghiệm là $\left(4;+\infty\right)$.
+207,D53,Nhân bản,p236_q12,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{2}(2x+1)>1$ là
+
+A. $\left(1;+\infty\right)$.
+B. $\left(\dfrac{3}{2};+\infty\right)$.
+C. $\left(-\infty;\dfrac{1}{2}\right)$.
+D. $\left(\dfrac{1}{2};+\infty\right)$.",D. $\left(\dfrac{1}{2};+\infty\right)$.,Điều kiện: $2x+1>0$. Vì $a=2>1$ nên $\log_{2}(2x+1)>1 \Leftrightarrow 2x+1>2^{1}=2 \Leftrightarrow x>\dfrac{1}{2}$. Vậy tập nghiệm là $\left(\dfrac{1}{2};+\infty\right)$.
+208,D53,Nhân bản,p236_q12,dap_so_phan_so,"Tập nghiệm của bất phương trình $\log_{7}(3x+3)>1$ là
+
+A. $\left(4;+\infty\right)$.
+B. $\left(-\infty;\dfrac{4}{3}\right)$.
+C. $\left(\dfrac{4}{3};+\infty\right)$.
+D. $\left(\dfrac{7}{3};+\infty\right)$.",C. $\left(\dfrac{4}{3};+\infty\right)$.,Điều kiện: $3x+3>0$. Vì $a=7>1$ nên $\log_{7}(3x+3)>1 \Leftrightarrow 3x+3>7^{1}=7 \Leftrightarrow x>\dfrac{4}{3}$. Vậy tập nghiệm là $\left(\dfrac{4}{3};+\infty\right)$.
+209,D06,Nhân bản,p006_q17,chuan,"Cho các số thực dương $a, b$ với $a \neq 1$. Mệnh đề nào sau đây đúng?
+
+A. $\log_{a^{2}}(ab) = 2 + 2\log_a b$.
+B. $\log_{a^{2}}(ab) = \dfrac{1}{2} + 2\log_a b$.
+C. $\log_{a^{2}}(ab) = \dfrac{1}{4}\log_a b$.
+D. $\log_{a^{2}}(ab) = \dfrac{1}{2} + \dfrac{1}{2}\log_a b$.",D. $\log_{a^{2}}(ab) = \dfrac{1}{2} + \dfrac{1}{2}\log_a b$.,$\log_{a^{2}}(ab)=\dfrac{1}{2}\log_a(ab)=\dfrac{1}{2}(1+\log_a b)=\dfrac{1}{2}+\dfrac{1}{2}\log_a b$.
+210,D06,Nhân bản,p006_q17,chuan,"Cho các số thực dương $a, b$ với $a \neq 1$. Mệnh đề nào sau đây đúng?
+
+A. $\log_{a^{3}}(ab) = \dfrac{1}{3} + \dfrac{1}{3}\log_a b$.
+B. $\log_{a^{3}}(ab) = \dfrac{1}{3} + 3\log_a b$.
+C. $\log_{a^{3}}(ab) = 3 + 3\log_a b$.
+D. $\log_{a^{3}}(ab) = \dfrac{1}{9}\log_a b$.",A. $\log_{a^{3}}(ab) = \dfrac{1}{3} + \dfrac{1}{3}\log_a b$.,$\log_{a^{3}}(ab)=\dfrac{1}{3}\log_a(ab)=\dfrac{1}{3}(1+\log_a b)=\dfrac{1}{3}+\dfrac{1}{3}\log_a b$.
+211,D06,Nhân bản,p006_q17,chuan,"Cho các số thực dương $a, b$ với $a \neq 1$. Mệnh đề nào sau đây đúng?
+
+A. $\log_{a^{4}}(ab) = \dfrac{1}{16}\log_a b$.
+B. $\log_{a^{4}}(ab) = \dfrac{1}{4} + 4\log_a b$.
+C. $\log_{a^{4}}(ab) = \dfrac{1}{4} + \dfrac{1}{4}\log_a b$.
+D. $\log_{a^{4}}(ab) = 4 + 4\log_a b$.",C. $\log_{a^{4}}(ab) = \dfrac{1}{4} + \dfrac{1}{4}\log_a b$.,$\log_{a^{4}}(ab)=\dfrac{1}{4}\log_a(ab)=\dfrac{1}{4}(1+\log_a b)=\dfrac{1}{4}+\dfrac{1}{4}\log_a b$.
+212,D06,Nhân bản,p006_q17,chuan,"Cho các số thực dương $a, b$ với $a \neq 1$. Mệnh đề nào sau đây đúng?
+
+A. $\log_{a^{5}}(ab) = \dfrac{1}{25}\log_a b$.
+B. $\log_{a^{5}}(ab) = \dfrac{1}{5} + \dfrac{1}{5}\log_a b$.
+C. $\log_{a^{5}}(ab) = 5 + 5\log_a b$.
+D. $\log_{a^{5}}(ab) = \dfrac{1}{5} + 5\log_a b$.",B. $\log_{a^{5}}(ab) = \dfrac{1}{5} + \dfrac{1}{5}\log_a b$.,$\log_{a^{5}}(ab)=\dfrac{1}{5}\log_a(ab)=\dfrac{1}{5}(1+\log_a b)=\dfrac{1}{5}+\dfrac{1}{5}\log_a b$.
+213,D06,Nhân bản,p006_q17,chuan,"Cho các số thực dương $a, b$ với $a \neq 1$. Mệnh đề nào sau đây đúng?
+
+A. $\log_{a^{6}}(ab) = \dfrac{1}{6} + 6\log_a b$.
+B. $\log_{a^{6}}(ab) = \dfrac{1}{36}\log_a b$.
+C. $\log_{a^{6}}(ab) = \dfrac{1}{6} + \dfrac{1}{6}\log_a b$.
+D. $\log_{a^{6}}(ab) = 6 + 6\log_a b$.",C. $\log_{a^{6}}(ab) = \dfrac{1}{6} + \dfrac{1}{6}\log_a b$.,$\log_{a^{6}}(ab)=\dfrac{1}{6}\log_a(ab)=\dfrac{1}{6}(1+\log_a b)=\dfrac{1}{6}+\dfrac{1}{6}\log_a b$.
+214,D13,Nhân bản,p020_q16,chuan,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+
+A. $\log_{2}\left(\dfrac{2a^{3}}{b}\right) = \log_{2}2+3\log_{2} a-\log_{2} b$.
+B. $\log_{2}\left(\dfrac{2a^{3}}{b}\right) = \log_{2}2+\dfrac{1}{3}\log_{2} a-\log_{2} b$.
+C. $\log_{2}\left(\dfrac{2a^{3}}{b}\right) = \log_{2}2+3\log_{2} a+\log_{2} b$.
+D. $\log_{2}\left(\dfrac{2a^{3}}{b}\right) = 3(\log_{2}2+\log_{2} a-\log_{2} b)$.",A. $\log_{2}\left(\dfrac{2a^{3}}{b}\right) = \log_{2}2+3\log_{2} a-\log_{2} b$.,$\log_{2}\left(\dfrac{2a^{3}}{b}\right)=\log_{2}(2a^{3})-\log_{2} b=\log_{2}2+3\log_{2} a-\log_{2} b$.
+215,D13,Nhân bản,p020_q16,chuan,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+
+A. $\log_{3}\left(\dfrac{a^{2}}{b}\right) = 2\log_{3} a+\log_{3} b$.
+B. $\log_{3}\left(\dfrac{a^{2}}{b}\right) = 2\log_{3} a-\log_{3} b$.
+C. $\log_{3}\left(\dfrac{a^{2}}{b}\right) = 2(\log_{3} a-\log_{3} b)$.
+D. $\log_{3}\left(\dfrac{a^{2}}{b}\right) = \dfrac{1}{2}\log_{3} a-\log_{3} b$.",B. $\log_{3}\left(\dfrac{a^{2}}{b}\right) = 2\log_{3} a-\log_{3} b$.,$\log_{3}\left(\dfrac{a^{2}}{b}\right)=\log_{3}(a^{2})-\log_{3} b=2\log_{3} a-\log_{3} b$.
+216,D13,Nhân bản,p020_q16,chuan,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+
+A. $\log_{5}\left(\dfrac{3a^{4}}{b}\right) = 4(\log_{5}3+\log_{5} a-\log_{5} b)$.
+B. $\log_{5}\left(\dfrac{3a^{4}}{b}\right) = \log_{5}3+4\log_{5} a+\log_{5} b$.
+C. $\log_{5}\left(\dfrac{3a^{4}}{b}\right) = \log_{5}3+4\log_{5} a-\log_{5} b$.
+D. $\log_{5}\left(\dfrac{3a^{4}}{b}\right) = \log_{5}3+\dfrac{1}{4}\log_{5} a-\log_{5} b$.",C. $\log_{5}\left(\dfrac{3a^{4}}{b}\right) = \log_{5}3+4\log_{5} a-\log_{5} b$.,$\log_{5}\left(\dfrac{3a^{4}}{b}\right)=\log_{5}(3a^{4})-\log_{5} b=\log_{5}3+4\log_{5} a-\log_{5} b$.
+217,D13,Nhân bản,p020_q16,chuan,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+
+A. $\log_{2}\left(\dfrac{4a^{2}}{b}\right) = \log_{2}4+\dfrac{1}{2}\log_{2} a-\log_{2} b$.
+B. $\log_{2}\left(\dfrac{4a^{2}}{b}\right) = 2(\log_{2}4+\log_{2} a-\log_{2} b)$.
+C. $\log_{2}\left(\dfrac{4a^{2}}{b}\right) = \log_{2}4+2\log_{2} a+\log_{2} b$.
+D. $\log_{2}\left(\dfrac{4a^{2}}{b}\right) = \log_{2}4+2\log_{2} a-\log_{2} b$.",D. $\log_{2}\left(\dfrac{4a^{2}}{b}\right) = \log_{2}4+2\log_{2} a-\log_{2} b$.,$\log_{2}\left(\dfrac{4a^{2}}{b}\right)=\log_{2}(4a^{2})-\log_{2} b=\log_{2}4+2\log_{2} a-\log_{2} b$.
+218,D13,Nhân bản,p020_q16,chuan,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+
+A. $\log_{3}\left(\dfrac{5a^{3}}{b}\right) = \log_{3}5+3\log_{3} a+\log_{3} b$.
+B. $\log_{3}\left(\dfrac{5a^{3}}{b}\right) = 3(\log_{3}5+\log_{3} a-\log_{3} b)$.
+C. $\log_{3}\left(\dfrac{5a^{3}}{b}\right) = \log_{3}5+3\log_{3} a-\log_{3} b$.
+D. $\log_{3}\left(\dfrac{5a^{3}}{b}\right) = \log_{3}5+\dfrac{1}{3}\log_{3} a-\log_{3} b$.",C. $\log_{3}\left(\dfrac{5a^{3}}{b}\right) = \log_{3}5+3\log_{3} a-\log_{3} b$.,$\log_{3}\left(\dfrac{5a^{3}}{b}\right)=\log_{3}(5a^{3})-\log_{3} b=\log_{3}5+3\log_{3} a-\log_{3} b$.
+219,D13,Nhân bản,p020_q16,chuan,"Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?
+
+A. $\log_{4}\left(\dfrac{a^{3}}{b}\right) = 3(\log_{4} a-\log_{4} b)$.
+B. $\log_{4}\left(\dfrac{a^{3}}{b}\right) = 3\log_{4} a+\log_{4} b$.
+C. $\log_{4}\left(\dfrac{a^{3}}{b}\right) = 3\log_{4} a-\log_{4} b$.
+D. $\log_{4}\left(\dfrac{a^{3}}{b}\right) = \dfrac{1}{3}\log_{4} a-\log_{4} b$.",C. $\log_{4}\left(\dfrac{a^{3}}{b}\right) = 3\log_{4} a-\log_{4} b$.,$\log_{4}\left(\dfrac{a^{3}}{b}\right)=\log_{4}(a^{3})-\log_{4} b=3\log_{4} a-\log_{4} b$.
+220,D36,Nhân bản,p079_q10,chuan,"Với $a$ là số thực dương tùy ý, $\log_{2}(a^{2})$ bằng
+
+A. $2\log_{2} a$.
+B. $\dfrac{1}{2}+\log_{2} a$.
+C. $\dfrac{1}{2}\log_{2} a$.
+D. $2+\log_{2} a$.",A. $2\log_{2} a$.,Ta có $\log_{2}(a^{2})=2\log_{2} a$.
+221,D36,Nhân bản,p094_q11,chuan,"Với $a$ là số thực dương tùy ý, $\log_{3}(a^{4})$ bằng
+
+A. $\dfrac{1}{4}\log_{3} a$.
+B. $4+\log_{3} a$.
+C. $\dfrac{1}{4}+\log_{3} a$.
+D. $4\log_{3} a$.",D. $4\log_{3} a$.,Ta có $\log_{3}(a^{4})=4\log_{3} a$.
+222,D36,Nhân bản,p049_q10,chuan,"Với $a$ là số thực dương tùy ý, $\log_{5}(a^{3})$ bằng
+
+A. $\dfrac{1}{3}\log_{5} a$.
+B. $\dfrac{1}{3}+\log_{5} a$.
+C. $3\log_{5} a$.
+D. $3+\log_{5} a$.",C. $3\log_{5} a$.,Ta có $\log_{5}(a^{3})=3\log_{5} a$.
+223,D36,Nhân bản,p171_q05,chuan,"Với $a$ là số thực dương tùy ý, $\log_{7}(a^{2})$ bằng
+
+A. $2\log_{7} a$.
+B. $2+\log_{7} a$.
+C. $\dfrac{1}{2}+\log_{7} a$.
+D. $\dfrac{1}{2}\log_{7} a$.",A. $2\log_{7} a$.,Ta có $\log_{7}(a^{2})=2\log_{7} a$.
+224,D36,Nhân bản,p079_q10,chuan,"Với $a$ là số thực dương tùy ý, $\log_{2}(a^{5})$ bằng
+
+A. $\dfrac{1}{5}+\log_{2} a$.
+B. $\dfrac{1}{5}\log_{2} a$.
+C. $5\log_{2} a$.
+D. $5+\log_{2} a$.",C. $5\log_{2} a$.,Ta có $\log_{2}(a^{5})=5\log_{2} a$.
+225,D36,Nhân bản,p079_q10,chuan,"Với $a$ là số thực dương tùy ý, $\log_{10}(a^{3})$ bằng
+
+A. $3\log_{10} a$.
+B. $3+\log_{10} a$.
+C. $\dfrac{1}{3}+\log_{10} a$.
+D. $\dfrac{1}{3}\log_{10} a$.",A. $3\log_{10} a$.,Ta có $\log_{10}(a^{3})=3\log_{10} a$.
+226,D30,Nhân bản,p065_q05,chuan,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log_{2}(ab^{2})$ bằng
+
+A. $\log_{2} a+2\log_{2} b$.
+B. $\log_{2} a+\dfrac{1}{2}\log_{2} b$.
+C. $\log_{2} a-2\log_{2} b$.
+D. $2(\log_{2} a+\log_{2} b)$.",A. $\log_{2} a+2\log_{2} b$.,$\log_{2}(ab^{2})=\log_{2} a+\log_{2} b^{2}=\log_{2} a+2\log_{2} b$.
+227,D30,Nhân bản,p065_q05,chuan,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log_{3}(ab^{3})$ bằng
+
+A. $\log_{3} a+\dfrac{1}{3}\log_{3} b$.
+B. $\log_{3} a+3\log_{3} b$.
+C. $3(\log_{3} a+\log_{3} b)$.
+D. $\log_{3} a-3\log_{3} b$.",B. $\log_{3} a+3\log_{3} b$.,$\log_{3}(ab^{3})=\log_{3} a+\log_{3} b^{3}=\log_{3} a+3\log_{3} b$.
+228,D30,Nhân bản,p065_q05,chuan,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log_{5}(ab^{2})$ bằng
+
+A. $\log_{5} a-2\log_{5} b$.
+B. $\log_{5} a+2\log_{5} b$.
+C. $\log_{5} a+\dfrac{1}{2}\log_{5} b$.
+D. $2(\log_{5} a+\log_{5} b)$.",B. $\log_{5} a+2\log_{5} b$.,$\log_{5}(ab^{2})=\log_{5} a+\log_{5} b^{2}=\log_{5} a+2\log_{5} b$.
+229,D30,Nhân bản,p065_q05,chuan,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log_{10}(ab^{4})$ bằng
+
+A. $\log_{10} a-4\log_{10} b$.
+B. $\log_{10} a+\dfrac{1}{4}\log_{10} b$.
+C. $4(\log_{10} a+\log_{10} b)$.
+D. $\log_{10} a+4\log_{10} b$.",D. $\log_{10} a+4\log_{10} b$.,$\log_{10}(ab^{4})=\log_{10} a+\log_{10} b^{4}=\log_{10} a+4\log_{10} b$.
+230,D30,Nhân bản,p065_q05,chuan,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log_{7}(ab^{3})$ bằng
+
+A. $\log_{7} a-3\log_{7} b$.
+B. $\log_{7} a+3\log_{7} b$.
+C. $3(\log_{7} a+\log_{7} b)$.
+D. $\log_{7} a+\dfrac{1}{3}\log_{7} b$.",B. $\log_{7} a+3\log_{7} b$.,$\log_{7}(ab^{3})=\log_{7} a+\log_{7} b^{3}=\log_{7} a+3\log_{7} b$.
+231,D30,Nhân bản,p065_q05,chuan,"Với $a$ và $b$ là hai số thực dương tùy ý, $\log_{2}(ab^{4})$ bằng
+
+A. $\log_{2} a+\dfrac{1}{4}\log_{2} b$.
+B. $4(\log_{2} a+\log_{2} b)$.
+C. $\log_{2} a-4\log_{2} b$.
+D. $\log_{2} a+4\log_{2} b$.",D. $\log_{2} a+4\log_{2} b$.,$\log_{2}(ab^{4})=\log_{2} a+\log_{2} b^{4}=\log_{2} a+4\log_{2} b$.
+232,D54,Nhân bản,p125_q28,chuan,"Với $a$ là số thực dương tùy ý, $\ln(3a)-\ln(2a)$ bằng
+
+A. $\ln\dfrac{3}{2}$.
+B. $\ln a$.
+C. $\ln(3\cdot2a^2)$.
+D. $\ln\dfrac{2}{3}$.",A. $\ln\dfrac{3}{2}$.,Ta có $\ln(3a)-\ln(2a)=\ln\left(\dfrac{3a}{2a}\right)=\ln\dfrac{3}{2}$.
+233,D54,Nhân bản,p125_q28,chuan,"Với $a$ là số thực dương tùy ý, $\ln(5a)-\ln(3a)$ bằng
+
+A. $\ln\dfrac{3}{5}$.
+B. $\ln(5\cdot3a^2)$.
+C. $\ln\dfrac{5}{3}$.
+D. $\ln a$.",C. $\ln\dfrac{5}{3}$.,Ta có $\ln(5a)-\ln(3a)=\ln\left(\dfrac{5a}{3a}\right)=\ln\dfrac{5}{3}$.
+234,D54,Nhân bản,p125_q28,chuan,"Với $a$ là số thực dương tùy ý, $\ln(7a)-\ln(4a)$ bằng
+
+A. $\ln\dfrac{7}{4}$.
+B. $\ln(7\cdot4a^2)$.
+C. $\ln\dfrac{4}{7}$.
+D. $\ln a$.",A. $\ln\dfrac{7}{4}$.,Ta có $\ln(7a)-\ln(4a)=\ln\left(\dfrac{7a}{4a}\right)=\ln\dfrac{7}{4}$.
+235,D54,Nhân bản,p125_q28,chuan,"Với $a$ là số thực dương tùy ý, $\ln(4a)-\ln(3a)$ bằng
+
+A. $\ln(4\cdot3a^2)$.
+B. $\ln\dfrac{3}{4}$.
+C. $\ln a$.
+D. $\ln\dfrac{4}{3}$.",D. $\ln\dfrac{4}{3}$.,Ta có $\ln(4a)-\ln(3a)=\ln\left(\dfrac{4a}{3a}\right)=\ln\dfrac{4}{3}$.
+236,D54,Nhân bản,p125_q28,chuan,"Với $a$ là số thực dương tùy ý, $\ln(9a)-\ln(5a)$ bằng
+
+A. $\ln\dfrac{5}{9}$.
+B. $\ln\dfrac{9}{5}$.
+C. $\ln a$.
+D. $\ln(9\cdot5a^2)$.",B. $\ln\dfrac{9}{5}$.,Ta có $\ln(9a)-\ln(5a)=\ln\left(\dfrac{9a}{5a}\right)=\ln\dfrac{9}{5}$.
+237,D54,Nhân bản,p125_q28,chuan,"Với $a$ là số thực dương tùy ý, $\ln(5a)-\ln(2a)$ bằng
+
+A. $\ln\dfrac{5}{2}$.
+B. $\ln(5\cdot2a^2)$.
+C. $\ln a$.
+D. $\ln\dfrac{2}{5}$.",A. $\ln\dfrac{5}{2}$.,Ta có $\ln(5a)-\ln(2a)=\ln\left(\dfrac{5a}{2a}\right)=\ln\dfrac{5}{2}$.
+238,D59,Nhân bản,p138_q06,chuan,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt{a}}a$.
+
+A. $I=0$.
+B. $I=2$.
+C. $I=-2$.
+D. $I=\dfrac{1}{2}$.",B. $I=2$.,$\log_{\sqrt{a}}a=\log_{a^{1/2}}a=2\log_a a=2$.
+239,D59,Nhân bản,p138_q06,chuan,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt[3]{a}}a$.
+
+A. $I=-3$.
+B. $I=3$.
+C. $I=\dfrac{1}{3}$.
+D. $I=0$.",B. $I=3$.,$\log_{\sqrt[3]{a}}a=\log_{a^{1/3}}a=3\log_a a=3$.
+240,D59,Nhân bản,p138_q06,chuan,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt[4]{a}}a$.
+
+A. $I=0$.
+B. $I=-4$.
+C. $I=\dfrac{1}{4}$.
+D. $I=4$.",D. $I=4$.,$\log_{\sqrt[4]{a}}a=\log_{a^{1/4}}a=4\log_a a=4$.
+241,D59,Nhân bản,p138_q06,chuan,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt[5]{a}}a$.
+
+A. $I=0$.
+B. $I=5$.
+C. $I=-5$.
+D. $I=\dfrac{1}{5}$.",B. $I=5$.,$\log_{\sqrt[5]{a}}a=\log_{a^{1/5}}a=5\log_a a=5$.
+242,D59,Nhân bản,p138_q06,chuan,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt[6]{a}}a$.
+
+A. $I=6$.
+B. $I=0$.
+C. $I=\dfrac{1}{6}$.
+D. $I=-6$.",A. $I=6$.,$\log_{\sqrt[6]{a}}a=\log_{a^{1/6}}a=6\log_a a=6$.
+243,D59,Nhân bản,p138_q06,chuan,"Cho $a$ là số thực dương khác 1. Tính $I=\log_{\sqrt[7]{a}}a$.
+
+A. $I=-7$.
+B. $I=0$.
+C. $I=7$.
+D. $I=\dfrac{1}{7}$.",C. $I=7$.,$\log_{\sqrt[7]{a}}a=\log_{a^{1/7}}a=7\log_a a=7$.
+244,D60,Nhân bản,p139_q15,chuan,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^{3}+\log_{a^{2}}b^{6}$. Mệnh đề nào dưới đây đúng?
+
+A. $P=5\log_a b$.
+B. $P=9\log_a b$.
+C. $P=6\log_a b$.
+D. $P=3\log_a b$.",C. $P=6\log_a b$.,Ta có $\log_a b^{3}=3\log_a b$ và $\log_{a^{2}}b^{6}=\dfrac{6}{2}\log_a b=3\log_a b$. Do đó $P=6\log_a b$.
+245,D60,Nhân bản,p139_q15,chuan,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^{2}+\log_{a^{3}}b^{6}$. Mệnh đề nào dưới đây đúng?
+
+A. $P=5\log_a b$.
+B. $P=\dfrac{4}{3}\log_a b$.
+C. $P=4\log_a b$.
+D. $P=6\log_a b$.",C. $P=4\log_a b$.,Ta có $\log_a b^{2}=2\log_a b$ và $\log_{a^{3}}b^{6}=\dfrac{6}{3}\log_a b=2\log_a b$. Do đó $P=4\log_a b$.
+246,D60,Nhân bản,p139_q15,chuan,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^{1}+\log_{a^{4}}b^{4}$. Mệnh đề nào dưới đây đúng?
+
+A. $P=5\log_a b$.
+B. $P=\dfrac{1}{2}\log_a b$.
+C. $P=1\log_a b$.
+D. $P=2\log_a b$.",D. $P=2\log_a b$.,Ta có $\log_a b^{1}=1\log_a b$ và $\log_{a^{4}}b^{4}=\dfrac{4}{4}\log_a b=1\log_a b$. Do đó $P=2\log_a b$.
+247,D60,Nhân bản,p139_q15,chuan,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^{4}+\log_{a^{2}}b^{8}$. Mệnh đề nào dưới đây đúng?
+
+A. $P=8\log_a b$.
+B. $P=16\log_a b$.
+C. $P=6\log_a b$.
+D. $P=4\log_a b$.",A. $P=8\log_a b$.,Ta có $\log_a b^{4}=4\log_a b$ và $\log_{a^{2}}b^{8}=\dfrac{8}{2}\log_a b=4\log_a b$. Do đó $P=8\log_a b$.
+248,D60,Nhân bản,p139_q15,chuan,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^{2}+\log_{a^{5}}b^{10}$. Mệnh đề nào dưới đây đúng?
+
+A. $P=4\log_a b$.
+B. $P=7\log_a b$.
+C. $P=\dfrac{4}{5}\log_a b$.
+D. $P=5\log_a b$.",A. $P=4\log_a b$.,Ta có $\log_a b^{2}=2\log_a b$ và $\log_{a^{5}}b^{10}=\dfrac{10}{5}\log_a b=2\log_a b$. Do đó $P=4\log_a b$.
+249,D60,Nhân bản,p139_q15,chuan,"Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\log_a b^{3}+\log_{a^{3}}b^{9}$. Mệnh đề nào dưới đây đúng?
+
+A. $P=7\log_a b$.
+B. $P=9\log_a b$.
+C. $P=6\log_a b$.
+D. $P=2\log_a b$.",C. $P=6\log_a b$.,Ta có $\log_a b^{3}=3\log_a b$ và $\log_{a^{3}}b^{9}=\dfrac{9}{3}\log_a b=3\log_a b$. Do đó $P=6\log_a b$.
+250,D66,Nhân bản,p154_q11,chuan,"Với $a$ là số thực dương tuỳ ý, $\log_{3}(3a)$ bằng
+
+A. $1+\log_{3} a$.
+B. $\log_{3} a-1$.
+C. $3\log_{3} a$.
+D. $1-\log_{3} a$.",A. $1+\log_{3} a$.,Ta có $\log_{3}(3a)=\log_{3}3+\log_{3} a=1+\log_{3} a$.
+251,D66,Nhân bản,p154_q11,chuan,"Với $a$ là số thực dương tuỳ ý, $\log_{2}(4a)$ bằng
+
+A. $2-\log_{2} a$.
+B. $4\log_{2} a$.
+C. $\log_{2} a-2$.
+D. $2+\log_{2} a$.",D. $2+\log_{2} a$.,Ta có $\log_{2}(4a)=\log_{2}4+\log_{2} a=2+\log_{2} a$.
+252,D66,Nhân bản,p154_q11,chuan,"Với $a$ là số thực dương tuỳ ý, $\log_{5}(5a)$ bằng
+
+A. $1-\log_{5} a$.
+B. $5\log_{5} a$.
+C. $1+\log_{5} a$.
+D. $\log_{5} a-1$.",C. $1+\log_{5} a$.,Ta có $\log_{5}(5a)=\log_{5}5+\log_{5} a=1+\log_{5} a$.
+253,D66,Nhân bản,p154_q11,chuan,"Với $a$ là số thực dương tuỳ ý, $\log_{2}(8a)$ bằng
+
+A. $\log_{2} a-3$.
+B. $3+\log_{2} a$.
+C. $8\log_{2} a$.
+D. $3-\log_{2} a$.",B. $3+\log_{2} a$.,Ta có $\log_{2}(8a)=\log_{2}8+\log_{2} a=3+\log_{2} a$.
+254,D66,Nhân bản,p154_q11,chuan,"Với $a$ là số thực dương tuỳ ý, $\log_{10}(10a)$ bằng
+
+A. $\log_{10} a-1$.
+B. $1-\log_{10} a$.
+C. $1+\log_{10} a$.
+D. $10\log_{10} a$.",C. $1+\log_{10} a$.,Ta có $\log_{10}(10a)=\log_{10}10+\log_{10} a=1+\log_{10} a$.
+255,D66,Nhân bản,p154_q11,chuan,"Với $a$ là số thực dương tuỳ ý, $\log_{3}(9a)$ bằng
+
+A. $\log_{3} a-2$.
+B. $2-\log_{3} a$.
+C. $9\log_{3} a$.
+D. $2+\log_{3} a$.",D. $2+\log_{3} a$.,Ta có $\log_{3}(9a)=\log_{3}9+\log_{3} a=2+\log_{3} a$.
+256,D76,Nhân bản,p191_q12,chuan,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^{2}} b$ bằng
+
+A. $2+\log_a b$.
+B. $\dfrac{1}{2}\log_a b$.
+C. $\dfrac{1}{2}+\log_a b$.
+D. $2\log_a b$.",B. $\dfrac{1}{2}\log_a b$.,Ta có $\log_{a^{2}} b=\dfrac{1}{2}\log_a b$.
+257,D76,Nhân bản,p191_q12,chuan,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^{3}} b$ bằng
+
+A. $\dfrac{1}{3}\log_a b$.
+B. $3\log_a b$.
+C. $\dfrac{1}{3}+\log_a b$.
+D. $3+\log_a b$.",A. $\dfrac{1}{3}\log_a b$.,Ta có $\log_{a^{3}} b=\dfrac{1}{3}\log_a b$.
+258,D76,Nhân bản,p191_q12,chuan,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^{4}} b$ bằng
+
+A. $\dfrac{1}{4}+\log_a b$.
+B. $4\log_a b$.
+C. $\dfrac{1}{4}\log_a b$.
+D. $4+\log_a b$.",C. $\dfrac{1}{4}\log_a b$.,Ta có $\log_{a^{4}} b=\dfrac{1}{4}\log_a b$.
+259,D76,Nhân bản,p191_q12,chuan,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^{5}} b$ bằng
+
+A. $\dfrac{1}{5}\log_a b$.
+B. $\dfrac{1}{5}+\log_a b$.
+C. $5+\log_a b$.
+D. $5\log_a b$.",A. $\dfrac{1}{5}\log_a b$.,Ta có $\log_{a^{5}} b=\dfrac{1}{5}\log_a b$.
+260,D76,Nhân bản,p191_q12,chuan,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^{6}} b$ bằng
+
+A. $6+\log_a b$.
+B. $\dfrac{1}{6}+\log_a b$.
+C. $\dfrac{1}{6}\log_a b$.
+D. $6\log_a b$.",C. $\dfrac{1}{6}\log_a b$.,Ta có $\log_{a^{6}} b=\dfrac{1}{6}\log_a b$.
+261,D76,Nhân bản,p191_q12,chuan,"Với $a, b$ là các số thực dương tuỳ ý và $a \neq 1$, $\log_{a^{7}} b$ bằng
+
+A. $7+\log_a b$.
+B. $\dfrac{1}{7}\log_a b$.
+C. $\dfrac{1}{7}+\log_a b$.
+D. $7\log_a b$.",B. $\dfrac{1}{7}\log_a b$.,Ta có $\log_{a^{7}} b=\dfrac{1}{7}\log_a b$.
+262,D81,Nhân bản,p208_q17,chuan,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt[3]{a}$ bằng
+
+A. $3$.
+B. $\dfrac{1}{3}$.
+C. $-\dfrac{1}{3}$.
+D. $-3$.",B. $\dfrac{1}{3}$.,Ta có $\log_a \sqrt[3]{a}=\log_a a^{1/3}=\dfrac{1}{3}$.
+263,D81,Nhân bản,p208_q17,chuan,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt{a}$ bằng
+
+A. $2$.
+B. $-\dfrac{1}{2}$.
+C. $-2$.
+D. $\dfrac{1}{2}$.",D. $\dfrac{1}{2}$.,Ta có $\log_a \sqrt{a}=\log_a a^{1/2}=\dfrac{1}{2}$.
+264,D81,Nhân bản,p208_q17,chuan,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt[4]{a}$ bằng
+
+A. $\dfrac{1}{4}$.
+B. $4$.
+C. $-\dfrac{1}{4}$.
+D. $-4$.",A. $\dfrac{1}{4}$.,Ta có $\log_a \sqrt[4]{a}=\log_a a^{1/4}=\dfrac{1}{4}$.
+265,D81,Nhân bản,p208_q17,chuan,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt[5]{a}$ bằng
+
+A. $\dfrac{1}{5}$.
+B. $-5$.
+C. $5$.
+D. $-\dfrac{1}{5}$.",A. $\dfrac{1}{5}$.,Ta có $\log_a \sqrt[5]{a}=\log_a a^{1/5}=\dfrac{1}{5}$.
+266,D81,Nhân bản,p208_q17,chuan,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt[6]{a}$ bằng
+
+A. $6$.
+B. $-6$.
+C. $\dfrac{1}{6}$.
+D. $-\dfrac{1}{6}$.",C. $\dfrac{1}{6}$.,Ta có $\log_a \sqrt[6]{a}=\log_a a^{1/6}=\dfrac{1}{6}$.
+267,D81,Nhân bản,p208_q17,chuan,"Cho $a>0$ và $a\neq 1$, khi đó $\log_a \sqrt[7]{a}$ bằng
+
+A. $\dfrac{1}{7}$.
+B. $-\dfrac{1}{7}$.
+C. $7$.
+D. $-7$.",A. $\dfrac{1}{7}$.,Ta có $\log_a \sqrt[7]{a}=\log_a a^{1/7}=\dfrac{1}{7}$.
+268,D90,Nhân bản,p237_q17,chuan,"Với $a$ là số thực dương tùy ý, $4\log\sqrt{a}$ bằng
+
+A. $-2\log a$.
+B. $8\log a$.
+C. $-4\log a$.
+D. $2\log a$.",D. $2\log a$.,Ta có $4\log\sqrt a=4\log a^{1/2}=4\cdot\dfrac12\log a=2\log a$.
+269,D90,Nhân bản,p237_q17,chuan,"Với $a$ là số thực dương tùy ý, $2\log_{3}\sqrt{a}$ bằng
+
+A. $1\log_{3} a$.
+B. $4\log_{3} a$.
+C. $-1\log_{3} a$.
+D. $-2\log_{3} a$.",A. $1\log_{3} a$.,Ta có $2\log_{3}\sqrt a=2\log_{3} a^{1/2}=2\cdot\dfrac12\log_{3} a=1\log_{3} a$.
+270,D90,Nhân bản,p237_q17,chuan,"Với $a$ là số thực dương tùy ý, $6\log_{5}\sqrt{a}$ bằng
+
+A. $3\log_{5} a$.
+B. $-3\log_{5} a$.
+C. $12\log_{5} a$.
+D. $-6\log_{5} a$.",A. $3\log_{5} a$.,Ta có $6\log_{5}\sqrt a=6\log_{5} a^{1/2}=6\cdot\dfrac12\log_{5} a=3\log_{5} a$.
+271,D90,Nhân bản,p237_q17,chuan,"Với $a$ là số thực dương tùy ý, $4\log_{2}\sqrt{a}$ bằng
+
+A. $-2\log_{2} a$.
+B. $2\log_{2} a$.
+C. $8\log_{2} a$.
+D. $-4\log_{2} a$.",B. $2\log_{2} a$.,Ta có $4\log_{2}\sqrt a=4\log_{2} a^{1/2}=4\cdot\dfrac12\log_{2} a=2\log_{2} a$.
+272,D90,Nhân bản,p237_q17,chuan,"Với $a$ là số thực dương tùy ý, $2\log\sqrt{a}$ bằng
+
+A. $4\log a$.
+B. $1\log a$.
+C. $-1\log a$.
+D. $-2\log a$.",B. $1\log a$.,Ta có $2\log\sqrt a=2\log a^{1/2}=2\cdot\dfrac12\log a=1\log a$.
+273,D90,Nhân bản,p237_q17,chuan,"Với $a$ là số thực dương tùy ý, $6\log_{3}\sqrt{a}$ bằng
+
+A. $12\log_{3} a$.
+B. $-3\log_{3} a$.
+C. $-6\log_{3} a$.
+D. $3\log_{3} a$.",D. $3\log_{3} a$.,Ta có $6\log_{3}\sqrt a=6\log_{3} a^{1/2}=6\cdot\dfrac12\log_{3} a=3\log_{3} a$.
+274,D32,Nhân bản,p068_q20,chuan,"Đặt $\log_{3} 2=a$ khi đó $\log_{16}27$ bằng
+
+A. $\dfrac{3}{4a}$.
+B. $\dfrac{4}{3a}$.
+C. $\dfrac{4a}{3}$.
+D. $\dfrac{3a}{4}$.",A. $\dfrac{3}{4a}$.,$\log_{16}27=\log_{2^{4}}3^{3}=\dfrac{3}{4}\log_{2} 3=\dfrac{3}{4\log_{3} 2}=\dfrac{3}{4a}$.
+275,D32,Nhân bản,p068_q20,chuan,"Đặt $\log_{5} 2=a$ khi đó $\log_{8}25$ bằng
+
+A. $\dfrac{3}{2a}$.
+B. $\dfrac{2a}{3}$.
+C. $\dfrac{2}{3a}$.
+D. $\dfrac{3a}{2}$.",C. $\dfrac{2}{3a}$.,$\log_{8}25=\log_{2^{3}}5^{2}=\dfrac{2}{3}\log_{2} 5=\dfrac{2}{3\log_{5} 2}=\dfrac{2}{3a}$.
+276,D32,Nhân bản,p068_q20,chuan,"Đặt $\log_{2} 3=a$ khi đó $\log_{81}32$ bằng
+
+A. $\dfrac{5}{4a}$.
+B. $\dfrac{4}{5a}$.
+C. $\dfrac{5a}{4}$.
+D. $\dfrac{4a}{5}$.",A. $\dfrac{5}{4a}$.,$\log_{81}32=\log_{3^{4}}2^{5}=\dfrac{5}{4}\log_{3} 2=\dfrac{5}{4\log_{2} 3}=\dfrac{5}{4a}$.
+277,D32,Nhân bản,p068_q20,chuan,"Đặt $\log_{2} 5=a$ khi đó $\log_{125}16$ bằng
+
+A. $\dfrac{3}{4a}$.
+B. $\dfrac{4a}{3}$.
+C. $\dfrac{4}{3a}$.
+D. $\dfrac{3a}{4}$.",C. $\dfrac{4}{3a}$.,$\log_{125}16=\log_{5^{3}}2^{4}=\dfrac{4}{3}\log_{5} 2=\dfrac{4}{3\log_{2} 5}=\dfrac{4}{3a}$.
+278,D32,Nhân bản,p068_q20,chuan,"Đặt $\log_{7} 2=a$ khi đó $\log_{4}343$ bằng
+
+A. $\dfrac{3a}{2}$.
+B. $\dfrac{2}{3a}$.
+C. $\dfrac{3}{2a}$.
+D. $\dfrac{2a}{3}$.",C. $\dfrac{3}{2a}$.,$\log_{4}343=\log_{2^{2}}7^{3}=\dfrac{3}{2}\log_{2} 7=\dfrac{3}{2\log_{7} 2}=\dfrac{3}{2a}$.
+279,D32,Nhân bản,p068_q20,chuan,"Đặt $\log_{5} 3=a$ khi đó $\log_{81}125$ bằng
+
+A. $\dfrac{4a}{3}$.
+B. $\dfrac{4}{3a}$.
+C. $\dfrac{3a}{4}$.
+D. $\dfrac{3}{4a}$.",D. $\dfrac{3}{4a}$.,$\log_{81}125=\log_{3^{4}}5^{3}=\dfrac{3}{4}\log_{3} 5=\dfrac{3}{4\log_{5} 3}=\dfrac{3}{4a}$.
+280,D37,Nhân bản,p081_q20,chuan,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_{2} a=\log_{8}(ab)$.
+Mệnh đề nào dưới đây đúng?
+
+A. $a^{2}=b$.
+B. $a=b^{2}$.
+C. $a=b$.
+D. $a^{3}=b$.",A. $a^{2}=b$.,$\log_{2} a=\log_{2^{3}}(ab) \Leftrightarrow \log_{2} a=\dfrac{1}{3}\log_{2}(ab)\Leftrightarrow 3\log_{2} a=\log_{2}(ab) \Leftrightarrow a^{3}=ab \Leftrightarrow a^{2}=b$.
+281,D37,Nhân bản,p081_q20,chuan,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_{3} a=\log_{9}(ab)$.
+Mệnh đề nào dưới đây đúng?
+
+A. $a=b^{2}$.
+B. $a=2b$.
+C. $a=b$.
+D. $a^{2}=b$.",C. $a=b$.,$\log_{3} a=\log_{3^{2}}(ab) \Leftrightarrow \log_{3} a=\dfrac{1}{2}\log_{3}(ab)\Leftrightarrow 2\log_{3} a=\log_{3}(ab) \Leftrightarrow a^{2}=ab \Leftrightarrow a=b$.
+282,D37,Nhân bản,p081_q20,chuan,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_{5} a=\log_{125}(ab)$.
+Mệnh đề nào dưới đây đúng?
+
+A. $a^{2}=b$.
+B. $a=b$.
+C. $a=b^{2}$.
+D. $a^{3}=b$.",A. $a^{2}=b$.,$\log_{5} a=\log_{5^{3}}(ab) \Leftrightarrow \log_{5} a=\dfrac{1}{3}\log_{5}(ab)\Leftrightarrow 3\log_{5} a=\log_{5}(ab) \Leftrightarrow a^{3}=ab \Leftrightarrow a^{2}=b$.
+283,D37,Nhân bản,p081_q20,chuan,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_{2} a=\log_{16}(ab)$.
+Mệnh đề nào dưới đây đúng?
+
+A. $a^{3}=b$.
+B. $a=b$.
+C. $a=b^{3}$.
+D. $a^{4}=b$.",A. $a^{3}=b$.,$\log_{2} a=\log_{2^{4}}(ab) \Leftrightarrow \log_{2} a=\dfrac{1}{4}\log_{2}(ab)\Leftrightarrow 4\log_{2} a=\log_{2}(ab) \Leftrightarrow a^{4}=ab \Leftrightarrow a^{3}=b$.
+284,D37,Nhân bản,p081_q20,chuan,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_{3} a=\log_{81}(ab)$.
+Mệnh đề nào dưới đây đúng?
+
+A. $a=b$.
+B. $a=b^{3}$.
+C. $a^{3}=b$.
+D. $a^{4}=b$.",C. $a^{3}=b$.,$\log_{3} a=\log_{3^{4}}(ab) \Leftrightarrow \log_{3} a=\dfrac{1}{4}\log_{3}(ab)\Leftrightarrow 4\log_{3} a=\log_{3}(ab) \Leftrightarrow a^{4}=ab \Leftrightarrow a^{3}=b$.
+285,D37,Nhân bản,p081_q20,chuan,"Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\log_{2} a=\log_{4}(ab)$.
+Mệnh đề nào dưới đây đúng?
+
+A. $a=2b$.
+B. $a=b^{2}$.
+C. $a=b$.
+D. $a^{2}=b$.",C. $a=b$.,$\log_{2} a=\log_{2^{2}}(ab) \Leftrightarrow \log_{2} a=\dfrac{1}{2}\log_{2}(ab)\Leftrightarrow 2\log_{2} a=\log_{2}(ab) \Leftrightarrow a^{2}=ab \Leftrightarrow a=b$.
+286,D44,Nhân bản,p098_q29,chuan,"Xét số thực $a$ và $b$ thỏa mãn $\log_2(2^a\cdot4^b)=\log_{4}2$. Mệnh đề nào dưới đây đúng
+
+A. $2a+4b=1$.
+B. $2a-4b=1$.
+C. $2a+2b=1$.
+D. $a+4b=1$.",A. $2a+4b=1$.,$\log_2(2^a\cdot 2^{2b})=\log_{4}2 \Leftrightarrow a+2b=\dfrac{1}{2} \Leftrightarrow 2a+4b=1$.
+287,D44,Nhân bản,p098_q29,chuan,"Xét số thực $a$ và $b$ thỏa mãn $\log_2(2^a\cdot8^b)=\log_{4}2$. Mệnh đề nào dưới đây đúng
+
+A. $2a+3b=1$.
+B. $2a-6b=1$.
+C. $a+6b=1$.
+D. $2a+6b=1$.",D. $2a+6b=1$.,$\log_2(2^a\cdot 2^{3b})=\log_{4}2 \Leftrightarrow a+3b=\dfrac{1}{2} \Leftrightarrow 2a+6b=1$.
+288,D44,Nhân bản,p098_q29,chuan,"Xét số thực $a$ và $b$ thỏa mãn $\log_2(2^a\cdot4^b)=\log_{8}2$. Mệnh đề nào dưới đây đúng
+
+A. $3a-6b=1$.
+B. $3a+6b=1$.
+C. $a+6b=1$.
+D. $3a+2b=1$.",B. $3a+6b=1$.,$\log_2(2^a\cdot 2^{2b})=\log_{8}2 \Leftrightarrow a+2b=\dfrac{1}{3} \Leftrightarrow 3a+6b=1$.
+289,D44,Nhân bản,p098_q29,chuan,"Xét số thực $a$ và $b$ thỏa mãn $\log_2(2^a\cdot16^b)=\log_{4}2$. Mệnh đề nào dưới đây đúng
+
+A. $2a-8b=1$.
+B. $a+8b=1$.
+C. $2a+8b=1$.
+D. $2a+4b=1$.",C. $2a+8b=1$.,$\log_2(2^a\cdot 2^{4b})=\log_{4}2 \Leftrightarrow a+4b=\dfrac{1}{2} \Leftrightarrow 2a+8b=1$.
+290,D44,Nhân bản,p098_q29,chuan,"Xét số thực $a$ và $b$ thỏa mãn $\log_2(2^a\cdot8^b)=\log_{8}2$. Mệnh đề nào dưới đây đúng
+
+A. $3a+3b=1$.
+B. $3a-9b=1$.
+C. $3a+9b=1$.
+D. $a+9b=1$.",C. $3a+9b=1$.,$\log_2(2^a\cdot 2^{3b})=\log_{8}2 \Leftrightarrow a+3b=\dfrac{1}{3} \Leftrightarrow 3a+9b=1$.
+291,D44,Nhân bản,p098_q29,chuan,"Xét số thực $a$ và $b$ thỏa mãn $\log_2(2^a\cdot4^b)=\log_{16}2$. Mệnh đề nào dưới đây đúng
+
+A. $4a+2b=1$.
+B. $4a+8b=1$.
+C. $4a-8b=1$.
+D. $a+8b=1$.",B. $4a+8b=1$.,$\log_2(2^a\cdot 2^{2b})=\log_{16}2 \Leftrightarrow a+2b=\dfrac{1}{4} \Leftrightarrow 4a+8b=1$.
+292,D50,Nhân bản,p113_q31,chuan,"Với mọi $a,b$ thỏa mãn $\log_{2} a-3\log_{2} b=2$, khẳng định nào dưới đây đúng?
+
+A. $a=4b^{3}$.
+B. $a=\dfrac{4}{b^{3}}$.
+C. $a=3b+4$.
+D. $a=3b+2$.",A. $a=4b^{3}$.,$\log_{2} a-3\log_{2} b=2 \Leftrightarrow \log_{2}\dfrac{a}{b^{3}}=2\Leftrightarrow \dfrac{a}{b^{3}}=2^{2} \Leftrightarrow a=4b^{3}$.
+293,D50,Nhân bản,p113_q31,chuan,"Với mọi $a,b$ thỏa mãn $\log_{3} a-2\log_{3} b=1$, khẳng định nào dưới đây đúng?
+
+A. $a=3b^{2}$.
+B. $a=2b+3$.
+C. $a=\dfrac{3}{b^{2}}$.
+D. $a=2b+1$.",A. $a=3b^{2}$.,$\log_{3} a-2\log_{3} b=1 \Leftrightarrow \log_{3}\dfrac{a}{b^{2}}=1\Leftrightarrow \dfrac{a}{b^{2}}=3^{1} \Leftrightarrow a=3b^{2}$.
+294,D50,Nhân bản,p113_q31,chuan,"Với mọi $a,b$ thỏa mãn $\log_{2} a-2\log_{2} b=3$, khẳng định nào dưới đây đúng?
+
+A. $a=2b+8$.
+B. $a=\dfrac{8}{b^{2}}$.
+C. $a=2b+3$.
+D. $a=8b^{2}$.",D. $a=8b^{2}$.,$\log_{2} a-2\log_{2} b=3 \Leftrightarrow \log_{2}\dfrac{a}{b^{2}}=3\Leftrightarrow \dfrac{a}{b^{2}}=2^{3} \Leftrightarrow a=8b^{2}$.
+295,D50,Nhân bản,p113_q31,chuan,"Với mọi $a,b$ thỏa mãn $\log_{5} a-3\log_{5} b=1$, khẳng định nào dưới đây đúng?
+
+A. $a=3b+5$.
+B. $a=\dfrac{5}{b^{3}}$.
+C. $a=5b^{3}$.
+D. $a=3b+1$.",C. $a=5b^{3}$.,$\log_{5} a-3\log_{5} b=1 \Leftrightarrow \log_{5}\dfrac{a}{b^{3}}=1\Leftrightarrow \dfrac{a}{b^{3}}=5^{1} \Leftrightarrow a=5b^{3}$.
+296,D50,Nhân bản,p113_q31,chuan,"Với mọi $a,b$ thỏa mãn $\log_{2} a-4\log_{2} b=2$, khẳng định nào dưới đây đúng?
+
+A. $a=4b+2$.
+B. $a=4b^{4}$.
+C. $a=\dfrac{4}{b^{4}}$.
+D. $a=4b+4$.",B. $a=4b^{4}$.,$\log_{2} a-4\log_{2} b=2 \Leftrightarrow \log_{2}\dfrac{a}{b^{4}}=2\Leftrightarrow \dfrac{a}{b^{4}}=2^{2} \Leftrightarrow a=4b^{4}$.
+297,D50,Nhân bản,p113_q31,chuan,"Với mọi $a,b$ thỏa mãn $\log_{3} a-3\log_{3} b=2$, khẳng định nào dưới đây đúng?
+
+A. $a=\dfrac{9}{b^{3}}$.
+B. $a=9b^{3}$.
+C. $a=3b+2$.
+D. $a=3b+9$.",B. $a=9b^{3}$.,$\log_{3} a-3\log_{3} b=2 \Leftrightarrow \log_{3}\dfrac{a}{b^{3}}=2\Leftrightarrow \dfrac{a}{b^{3}}=3^{2} \Leftrightarrow a=9b^{3}$.
+298,D50,Nhân bản,p213_q38,chuan,"Với mọi $a, b$ thỏa mãn $\log_{2} a^{3}+\log_{2} b=8$, khẳng định nào sau đây là đúng?
+
+A. $a^{3}+b=16$.
+B. $a^{3} b=16$.
+C. $a^{3} b=256$.
+D. $a^{3}+b=256$.",C. $a^{3} b=256$.,$\log_{2} a^{3}+\log_{2} b=8 \Leftrightarrow \log_{2}(a^{3} b)=8 \Leftrightarrow a^{3} b=256$.
+299,D50,Nhân bản,p213_q38,chuan,"Với mọi $a, b$ thỏa mãn $\log_{3} a^{2}+\log_{3} b=4$, khẳng định nào sau đây là đúng?
+
+A. $a^{2}+b=81$.
+B. $a^{2} b=81$.
+C. $a^{2}+b=12$.
+D. $a^{2} b=12$.",B. $a^{2} b=81$.,$\log_{3} a^{2}+\log_{3} b=4 \Leftrightarrow \log_{3}(a^{2} b)=4 \Leftrightarrow a^{2} b=81$.
+300,D50,Nhân bản,p213_q38,chuan,"Với mọi $a, b$ thỏa mãn $\log_{2} a^{2}+\log_{2} b=6$, khẳng định nào sau đây là đúng?
+
+A. $a^{2} b=12$.
+B. $a^{2}+b=12$.
+C. $a^{2}+b=64$.
+D. $a^{2} b=64$.",D. $a^{2} b=64$.,$\log_{2} a^{2}+\log_{2} b=6 \Leftrightarrow \log_{2}(a^{2} b)=6 \Leftrightarrow a^{2} b=64$.
+301,D50,Nhân bản,p213_q38,chuan,"Với mọi $a, b$ thỏa mãn $\log_{5} a^{2}+\log_{5} b=3$, khẳng định nào sau đây là đúng?
+
+A. $a^{2}+b=125$.
+B. $a^{2} b=15$.
+C. $a^{2} b=125$.
+D. $a^{2}+b=15$.",C. $a^{2} b=125$.,$\log_{5} a^{2}+\log_{5} b=3 \Leftrightarrow \log_{5}(a^{2} b)=3 \Leftrightarrow a^{2} b=125$.
+302,D50,Nhân bản,p213_q38,chuan,"Với mọi $a, b$ thỏa mãn $\log_{2} a^{4}+\log_{2} b=9$, khẳng định nào sau đây là đúng?
+
+A. $a^{4}+b=512$.
+B. $a^{4} b=512$.
+C. $a^{4} b=18$.
+D. $a^{4}+b=18$.",B. $a^{4} b=512$.,$\log_{2} a^{4}+\log_{2} b=9 \Leftrightarrow \log_{2}(a^{4} b)=9 \Leftrightarrow a^{4} b=512$.
+303,D50,Nhân bản,p213_q38,chuan,"Với mọi $a, b$ thỏa mãn $\log_{3} a^{3}+\log_{3} b=5$, khẳng định nào sau đây là đúng?
+
+A. $a^{3}+b=15$.
+B. $a^{3} b=243$.
+C. $a^{3} b=15$.
+D. $a^{3}+b=243$.",B. $a^{3} b=243$.,$\log_{3} a^{3}+\log_{3} b=5 \Leftrightarrow \log_{3}(a^{3} b)=5 \Leftrightarrow a^{3} b=243$.
+304,D64,Nhân bản,p146_q42,chuan,"Cho $\log_a x=3$, $\log_b x=4$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+
+A. $P=\dfrac{7}{12}$.
+B. $P=\dfrac{12}{7}$.
+C. $P=7$.
+D. $P=-12$.",B. $P=\dfrac{12}{7}$.,$\log_a x=3\Rightarrow\log_x a=\dfrac1{3}$; $\log_b x=4\Rightarrow\log_x b=\dfrac1{4}$. $P=\log_{ab}x=\dfrac{1}{\log_x(ab)}=\dfrac{1}{\log_x a+\log_x b}=\dfrac{12}{7}$.
+305,D64,Nhân bản,p146_q42,chuan,"Cho $\log_a x=2$, $\log_b x=5$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+
+A. $P=7$.
+B. $P=\dfrac{10}{7}$.
+C. $P=- \dfrac{10}{3}$.
+D. $P=\dfrac{7}{10}$.",B. $P=\dfrac{10}{7}$.,$\log_a x=2\Rightarrow\log_x a=\dfrac1{2}$; $\log_b x=5\Rightarrow\log_x b=\dfrac1{5}$. $P=\log_{ab}x=\dfrac{1}{\log_x(ab)}=\dfrac{1}{\log_x a+\log_x b}=\dfrac{10}{7}$.
+306,D64,Nhân bản,p146_q42,chuan,"Cho $\log_a x=4$, $\log_b x=3$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+
+A. $P=12$.
+B. $P=\dfrac{7}{12}$.
+C. $P=\dfrac{12}{7}$.
+D. $P=7$.",C. $P=\dfrac{12}{7}$.,$\log_a x=4\Rightarrow\log_x a=\dfrac1{4}$; $\log_b x=3\Rightarrow\log_x b=\dfrac1{3}$. $P=\log_{ab}x=\dfrac{1}{\log_x(ab)}=\dfrac{1}{\log_x a+\log_x b}=\dfrac{12}{7}$.
+307,D64,Nhân bản,p146_q42,chuan,"Cho $\log_a x=5$, $\log_b x=2$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+
+A. $P=\dfrac{7}{10}$.
+B. $P=\dfrac{10}{3}$.
+C. $P=7$.
+D. $P=\dfrac{10}{7}$.",D. $P=\dfrac{10}{7}$.,$\log_a x=5\Rightarrow\log_x a=\dfrac1{5}$; $\log_b x=2\Rightarrow\log_x b=\dfrac1{2}$. $P=\log_{ab}x=\dfrac{1}{\log_x(ab)}=\dfrac{1}{\log_x a+\log_x b}=\dfrac{10}{7}$.
+308,D64,Nhân bản,p146_q42,chuan,"Cho $\log_a x=2$, $\log_b x=7$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+
+A. $P=\dfrac{14}{9}$.
+B. $P=\dfrac{9}{14}$.
+C. $P=9$.
+D. $P=- \dfrac{14}{5}$.",A. $P=\dfrac{14}{9}$.,$\log_a x=2\Rightarrow\log_x a=\dfrac1{2}$; $\log_b x=7\Rightarrow\log_x b=\dfrac1{7}$. $P=\log_{ab}x=\dfrac{1}{\log_x(ab)}=\dfrac{1}{\log_x a+\log_x b}=\dfrac{14}{9}$.
+309,D64,Nhân bản,p146_q42,chuan,"Cho $\log_a x=3$, $\log_b x=5$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\log_{ab}x$.
+
+A. $P=8$.
+B. $P=\dfrac{8}{15}$.
+C. $P=\dfrac{15}{8}$.
+D. $P=- \dfrac{15}{2}$.",C. $P=\dfrac{15}{8}$.,$\log_a x=3\Rightarrow\log_x a=\dfrac1{3}$; $\log_b x=5\Rightarrow\log_x b=\dfrac1{5}$. $P=\log_{ab}x=\dfrac{1}{\log_x(ab)}=\dfrac{1}{\log_x a+\log_x b}=\dfrac{15}{8}$.
+310,D72,Nhân bản,p176_q25,chuan,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{3}b^{2}=32$. Giá trị của $3\log_{2}a+2\log_{2}b$ bằng
+
+A. $6$.
+B. $32$.
+C. $5$.
+D. $10$.",C. $5$.,Ta có $\log_{2}(a^{3}b^{2})=\log_{2}32\Leftrightarrow 3\log_{2}a+2\log_{2}b=5$.
+311,D72,Nhân bản,p176_q25,chuan,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{2}b^{1}=81$. Giá trị của $2\log_{3}a+1\log_{3}b$ bằng
+
+A. $3$.
+B. $4$.
+C. $81$.
+D. $8$.",B. $4$.,Ta có $\log_{3}(a^{2}b^{1})=\log_{3}81\Leftrightarrow 2\log_{3}a+1\log_{3}b=4$.
+312,D72,Nhân bản,p176_q25,chuan,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{2}b^{3}=64$. Giá trị của $2\log_{2}a+3\log_{2}b$ bằng
+
+A. $5$.
+B. $6$.
+C. $12$.
+D. $64$.",B. $6$.,Ta có $\log_{2}(a^{2}b^{3})=\log_{2}64\Leftrightarrow 2\log_{2}a+3\log_{2}b=6$.
+313,D72,Nhân bản,p176_q25,chuan,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{1}b^{2}=125$. Giá trị của $1\log_{5}a+2\log_{5}b$ bằng
+
+A. $3$.
+B. $4$.
+C. $6$.
+D. $125$.",A. $3$.,Ta có $\log_{5}(a^{1}b^{2})=\log_{5}125\Leftrightarrow 1\log_{5}a+2\log_{5}b=3$.
+314,D72,Nhân bản,p176_q25,chuan,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{4}b^{1}=32$. Giá trị của $4\log_{2}a+1\log_{2}b$ bằng
+
+A. $6$.
+B. $32$.
+C. $5$.
+D. $10$.",C. $5$.,Ta có $\log_{2}(a^{4}b^{1})=\log_{2}32\Leftrightarrow 4\log_{2}a+1\log_{2}b=5$.
+315,D72,Nhân bản,p176_q25,chuan,"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{1}b^{3}=81$. Giá trị của $1\log_{3}a+3\log_{3}b$ bằng
+
+A. $81$.
+B. $4$.
+C. $8$.
+D. $5$.",B. $4$.,Ta có $\log_{3}(a^{1}b^{3})=\log_{3}81\Leftrightarrow 1\log_{3}a+3\log_{3}b=4$.
+316,D77,Nhân bản,p195_q30,chuan,"Cho $a, b$ là hai số thực dương thỏa mãn $4^{\log_2(ab)}=3a$. Giá trị của $ab^{2}$ bằng
+
+A. $2$.
+B. $4$.
+C. $6$.
+D. $3$.",D. $3$.,$4^{\log_2(ab)}=3a \Leftrightarrow \log_2(ab)=\log_{2}(3a)^{1/2} \Leftrightarrow (ab)^{2}=3a \Leftrightarrow ab^{2}=3$.
+317,D77,Nhân bản,p195_q30,chuan,"Cho $a, b$ là hai số thực dương thỏa mãn $8^{\log_2(ab)}=2a$. Giá trị của $a^{2}b^{3}$ bằng
+
+A. $1$.
+B. $3$.
+C. $4$.
+D. $2$.",D. $2$.,$8^{\log_2(ab)}=2a \Leftrightarrow \log_2(ab)=\log_{2}(2a)^{1/3} \Leftrightarrow (ab)^{3}=2a \Leftrightarrow a^{2} b^{3}=2$.
+318,D77,Nhân bản,p195_q30,chuan,"Cho $a, b$ là hai số thực dương thỏa mãn $4^{\log_2(ab)}=5a$. Giá trị của $ab^{2}$ bằng
+
+A. $5$.
+B. $6$.
+C. $4$.
+D. $10$.",A. $5$.,$4^{\log_2(ab)}=5a \Leftrightarrow \log_2(ab)=\log_{2}(5a)^{1/2} \Leftrightarrow (ab)^{2}=5a \Leftrightarrow ab^{2}=5$.
+319,D77,Nhân bản,p195_q30,chuan,"Cho $a, b$ là hai số thực dương thỏa mãn $16^{\log_2(ab)}=3a$. Giá trị của $a^{3}b^{4}$ bằng
+
+A. $4$.
+B. $6$.
+C. $3$.
+D. $2$.",C. $3$.,$16^{\log_2(ab)}=3a \Leftrightarrow \log_2(ab)=\log_{2}(3a)^{1/4} \Leftrightarrow (ab)^{4}=3a \Leftrightarrow a^{3} b^{4}=3$.
+320,D77,Nhân bản,p195_q30,chuan,"Cho $a, b$ là hai số thực dương thỏa mãn $4^{\log_2(ab)}=7a$. Giá trị của $ab^{2}$ bằng
+
+A. $14$.
+B. $7$.
+C. $8$.
+D. $6$.",B. $7$.,$4^{\log_2(ab)}=7a \Leftrightarrow \log_2(ab)=\log_{2}(7a)^{1/2} \Leftrightarrow (ab)^{2}=7a \Leftrightarrow ab^{2}=7$.
+321,D77,Nhân bản,p195_q30,chuan,"Cho $a, b$ là hai số thực dương thỏa mãn $8^{\log_2(ab)}=4a$. Giá trị của $a^{2}b^{3}$ bằng
+
+A. $8$.
+B. $4$.
+C. $3$.
+D. $5$.",B. $4$.,$8^{\log_2(ab)}=4a \Leftrightarrow \log_2(ab)=\log_{2}(4a)^{1/3} \Leftrightarrow (ab)^{3}=4a \Leftrightarrow a^{2} b^{3}=4$.
+322,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(2a)=b$, khi đó $\log_{2}(4a^{3})$ bằng
+
+A. $3b$.
+B. $3b+1$.
+C. $6b-1$.
+D. $3b-1$.",D. $3b-1$.,"$\log_{2}(2a)=b\Leftrightarrow 1+\log_{2}a=b\Leftrightarrow\log_{2}a=b-1$.
+$\log_{2}(4a^{3})=2+3\log_{2}a=2+3(b-1)=3b-1$."
+323,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(4a)=b$, khi đó $\log_{2}(2a^{2})$ bằng
+
+A. $4b-3$.
+B. $2b-3$.
+C. $2b-1$.
+D. $2b$.",B. $2b-3$.,"$\log_{2}(4a)=b\Leftrightarrow 2+\log_{2}a=b\Leftrightarrow\log_{2}a=b-2$.
+$\log_{2}(2a^{2})=1+2\log_{2}a=1+2(b-2)=2b-3$."
+324,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{3}(3a)=b$, khi đó $\log_{3}(27a^{2})$ bằng
+
+A. $2b+1$.
+B. $4b+1$.
+C. $2b$.
+D. $2b+3$.",A. $2b+1$.,"$\log_{3}(3a)=b\Leftrightarrow 1+\log_{3}a=b\Leftrightarrow\log_{3}a=b-1$.
+$\log_{3}(27a^{2})=3+2\log_{3}a=3+2(b-1)=2b+1$."
+325,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(2a)=b$, khi đó $\log_{2}(16a^{3})$ bằng
+
+A. $3b+3$.
+B. $3b$.
+C. $3b+1$.
+D. $6b+1$.",C. $3b+1$.,"$\log_{2}(2a)=b\Leftrightarrow 1+\log_{2}a=b\Leftrightarrow\log_{2}a=b-1$.
+$\log_{2}(16a^{3})=4+3\log_{2}a=4+3(b-1)=3b+1$."
+326,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{3}(9a)=b$, khi đó $\log_{3}(9a^{3})$ bằng
+
+A. $6b-4$.
+B. $3b$.
+C. $3b-4$.
+D. $3b-2$.",C. $3b-4$.,"$\log_{3}(9a)=b\Leftrightarrow 2+\log_{3}a=b\Leftrightarrow\log_{3}a=b-2$.
+$\log_{3}(9a^{3})=2+3\log_{3}a=2+3(b-2)=3b-4$."
+327,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(8a)=b$, khi đó $\log_{2}(2a^{2})$ bằng
+
+A. $2b-5$.
+B. $4b-5$.
+C. $2b$.
+D. $2b-3$.",A. $2b-5$.,"$\log_{2}(8a)=b\Leftrightarrow 3+\log_{2}a=b\Leftrightarrow\log_{2}a=b-3$.
+$\log_{2}(2a^{2})=1+2\log_{2}a=1+2(b-3)=2b-5$."
+328,D02,Nhân bản,p006_q13,chuan,"Đạo hàm của hàm số $y=2^x$ là
+
+A. $y'=2^x$.
+B. $y'=x\cdot2^{x-1}$.
+C. $y'=2^x\ln 2$.
+D. $y'=\dfrac{2^x}{\ln 2}$.",C. $y'=2^x\ln 2$.,Ta có $y'=(2^x)'=2^x\ln 2$.
+329,D02,Nhân bản,p006_q13,chuan,"Đạo hàm của hàm số $y=5^x$ là
+
+A. $y'=\dfrac{5^x}{\ln 5}$.
+B. $y'=5^x$.
+C. $y'=x\cdot5^{x-1}$.
+D. $y'=5^x\ln 5$.",D. $y'=5^x\ln 5$.,Ta có $y'=(5^x)'=5^x\ln 5$.
+330,D02,Nhân bản,p006_q13,chuan,"Đạo hàm của hàm số $y=6^x$ là
+
+A. $y'=\dfrac{6^x}{\ln 6}$.
+B. $y'=6^x$.
+C. $y'=6^x\ln 6$.
+D. $y'=x\cdot6^{x-1}$.",C. $y'=6^x\ln 6$.,Ta có $y'=(6^x)'=6^x\ln 6$.
+331,D02,Nhân bản,p006_q13,chuan,"Đạo hàm của hàm số $y=7^x$ là
+
+A. $y'=x\cdot7^{x-1}$.
+B. $y'=\dfrac{7^x}{\ln 7}$.
+C. $y'=7^x$.
+D. $y'=7^x\ln 7$.",D. $y'=7^x\ln 7$.,Ta có $y'=(7^x)'=7^x\ln 7$.
+332,D02,Nhân bản,p006_q13,chuan,"Đạo hàm của hàm số $y=8^x$ là
+
+A. $y'=8^x$.
+B. $y'=\dfrac{8^x}{\ln 8}$.
+C. $y'=x\cdot8^{x-1}$.
+D. $y'=8^x\ln 8$.",D. $y'=8^x\ln 8$.,Ta có $y'=(8^x)'=8^x\ln 8$.
+333,D02,Nhân bản,p006_q13,chuan,"Đạo hàm của hàm số $y=9^x$ là
+
+A. $y'=\dfrac{9^x}{\ln 9}$.
+B. $y'=9^x$.
+C. $y'=x\cdot9^{x-1}$.
+D. $y'=9^x\ln 9$.",D. $y'=9^x\ln 9$.,Ta có $y'=(9^x)'=9^x\ln 9$.
+334,D04,Nhân bản,p006_q15,chuan,"Tìm tập xác định $\mathscr{D}$ của hàm số $y=\log_{2}(x^{2} - 2 x - 3)$.
+
+A. $\mathscr{D}=(-\infty;-1)\cup(3;+\infty)$.
+B. $\mathscr{D}=(-1;3)$.
+C. $\mathscr{D}=[-1;3]$.
+D. $\mathscr{D}=(-\infty;-1]\cup[3;+\infty)$.",A. $\mathscr{D}=(-\infty;-1)\cup(3;+\infty)$.,Điều kiện $x^{2} - 2 x - 3>0 \Leftrightarrow x<-1$ hoặc $x>3$.
+335,D04,Nhân bản,p006_q15,chuan,"Tìm tập xác định $\mathscr{D}$ của hàm số $y=\log_{3}(x^{2} - 3 x - 10)$.
+
+A. $\mathscr{D}=[-2;5]$.
+B. $\mathscr{D}=(-2;5)$.
+C. $\mathscr{D}=(-\infty;-2]\cup[5;+\infty)$.
+D. $\mathscr{D}=(-\infty;-2)\cup(5;+\infty)$.",D. $\mathscr{D}=(-\infty;-2)\cup(5;+\infty)$.,Điều kiện $x^{2} - 3 x - 10>0 \Leftrightarrow x<-2$ hoặc $x>5$.
+336,D04,Nhân bản,p006_q15,chuan,"Tìm tập xác định $\mathscr{D}$ của hàm số $y=\log_{2}(x^{2} + 2 x - 3)$.
+
+A. $\mathscr{D}=(-\infty;-3]\cup[1;+\infty)$.
+B. $\mathscr{D}=(-\infty;-3)\cup(1;+\infty)$.
+C. $\mathscr{D}=(-3;1)$.
+D. $\mathscr{D}=[-3;1]$.",B. $\mathscr{D}=(-\infty;-3)\cup(1;+\infty)$.,Điều kiện $x^{2} + 2 x - 3>0 \Leftrightarrow x<-3$ hoặc $x>1$.
+337,D04,Nhân bản,p006_q15,chuan,"Tìm tập xác định $\mathscr{D}$ của hàm số $y=\log_{5}(x^{2} + 2 x - 8)$.
+
+A. $\mathscr{D}=(-\infty;-4)\cup(2;+\infty)$.
+B. $\mathscr{D}=(-\infty;-4]\cup[2;+\infty)$.
+C. $\mathscr{D}=(-4;2)$.
+D. $\mathscr{D}=[-4;2]$.",A. $\mathscr{D}=(-\infty;-4)\cup(2;+\infty)$.,Điều kiện $x^{2} + 2 x - 8>0 \Leftrightarrow x<-4$ hoặc $x>2$.
+338,D04,Nhân bản,p006_q15,chuan,"Tìm tập xác định $\mathscr{D}$ của hàm số $y=\log_{2}(x^{2} - 6 x)$.
+
+A. $\mathscr{D}=(-\infty;0)\cup(6;+\infty)$.
+B. $\mathscr{D}=(-\infty;0]\cup[6;+\infty)$.
+C. $\mathscr{D}=[0;6]$.
+D. $\mathscr{D}=(0;6)$.",A. $\mathscr{D}=(-\infty;0)\cup(6;+\infty)$.,Điều kiện $x^{2} - 6 x>0 \Leftrightarrow x<0$ hoặc $x>6$.
+339,D04,Nhân bản,p006_q15,chuan,"Tìm tập xác định $\mathscr{D}$ của hàm số $y=\log_{3}(x^{2} - 3 x - 4)$.
+
+A. $\mathscr{D}=(-\infty;-1)\cup(4;+\infty)$.
+B. $\mathscr{D}=(-1;4)$.
+C. $\mathscr{D}=(-\infty;-1]\cup[4;+\infty)$.
+D. $\mathscr{D}=[-1;4]$.",A. $\mathscr{D}=(-\infty;-1)\cup(4;+\infty)$.,Điều kiện $x^{2} - 3 x - 4>0 \Leftrightarrow x<-1$ hoặc $x>4$.
+340,D07,Nhân bản,p007_q18,chuan,"Tính đạo hàm của hàm số $y = \dfrac{x+1}{4^x}$.
+
+A. $y'=\dfrac{1-(x + 1)\ln 4}{4^x}$.
+B. $y'=\dfrac{1+(x + 1)\ln 4}{4^x}$.
+C. $y'=\dfrac{-(x + 1)\ln 4}{4^x}$.
+D. $y'=\dfrac{1-(x + 1)\ln 4}{4^{2x}}$.",A. $y'=\dfrac{1-(x + 1)\ln 4}{4^x}$.,$y'=\dfrac{4^x-(x+1)4^x\ln4}{(4^x)^2}=\dfrac{1-(x+1)\ln4}{4^x}$.
+341,D07,Nhân bản,p007_q18,chuan,"Tính đạo hàm của hàm số $y = \dfrac{x+2}{3^x}$.
+
+A. $y'=\dfrac{1-(x + 2)\ln 3}{3^x}$.
+B. $y'=\dfrac{-(x + 2)\ln 3}{3^x}$.
+C. $y'=\dfrac{1+(x + 2)\ln 3}{3^x}$.
+D. $y'=\dfrac{1-(x + 2)\ln 3}{3^{2x}}$.",A. $y'=\dfrac{1-(x + 2)\ln 3}{3^x}$.,$y'=\dfrac{3^x-(x+2)3^x\ln3}{(3^x)^2}=\dfrac{1-(x+2)\ln3}{3^x}$.
+342,D07,Nhân bản,p007_q18,chuan,"Tính đạo hàm của hàm số $y = \dfrac{x+1}{2^x}$.
+
+A. $y'=\dfrac{1+(x + 1)\ln 2}{2^x}$.
+B. $y'=\dfrac{1-(x + 1)\ln 2}{2^{2x}}$.
+C. $y'=\dfrac{1-(x + 1)\ln 2}{2^x}$.
+D. $y'=\dfrac{-(x + 1)\ln 2}{2^x}$.",C. $y'=\dfrac{1-(x + 1)\ln 2}{2^x}$.,$y'=\dfrac{2^x-(x+1)2^x\ln2}{(2^x)^2}=\dfrac{1-(x+1)\ln2}{2^x}$.
+343,D07,Nhân bản,p007_q18,chuan,"Tính đạo hàm của hàm số $y = \dfrac{x+3}{5^x}$.
+
+A. $y'=\dfrac{1+(x + 3)\ln 5}{5^x}$.
+B. $y'=\dfrac{1-(x + 3)\ln 5}{5^x}$.
+C. $y'=\dfrac{1-(x + 3)\ln 5}{5^{2x}}$.
+D. $y'=\dfrac{-(x + 3)\ln 5}{5^x}$.",B. $y'=\dfrac{1-(x + 3)\ln 5}{5^x}$.,$y'=\dfrac{5^x-(x+3)5^x\ln5}{(5^x)^2}=\dfrac{1-(x+3)\ln5}{5^x}$.
+344,D07,Nhân bản,p007_q18,chuan,"Tính đạo hàm của hàm số $y = \dfrac{x+2}{5^x}$.
+
+A. $y'=\dfrac{1+(x + 2)\ln 5}{5^x}$.
+B. $y'=\dfrac{-(x + 2)\ln 5}{5^x}$.
+C. $y'=\dfrac{1-(x + 2)\ln 5}{5^x}$.
+D. $y'=\dfrac{1-(x + 2)\ln 5}{5^{2x}}$.",C. $y'=\dfrac{1-(x + 2)\ln 5}{5^x}$.,$y'=\dfrac{5^x-(x+2)5^x\ln5}{(5^x)^2}=\dfrac{1-(x+2)\ln5}{5^x}$.
+345,D07,Nhân bản,p007_q18,chuan,"Tính đạo hàm của hàm số $y = \dfrac{x+1}{3^x}$.
+
+A. $y'=\dfrac{1+(x + 1)\ln 3}{3^x}$.
+B. $y'=\dfrac{1-(x + 1)\ln 3}{3^{2x}}$.
+C. $y'=\dfrac{-(x + 1)\ln 3}{3^x}$.
+D. $y'=\dfrac{1-(x + 1)\ln 3}{3^x}$.",D. $y'=\dfrac{1-(x + 1)\ln 3}{3^x}$.,$y'=\dfrac{3^x-(x+1)3^x\ln3}{(3^x)^2}=\dfrac{1-(x+1)\ln3}{3^x}$.
+346,D14,Nhân bản,p020_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac12}(x+1) < \log_{\frac12}(2x-1)$.
+
+A. $S=(\dfrac{1}{2};+\infty)$.
+B. $S=(2;+\infty)$.
+C. $S=\left(\dfrac{1}{2};2\right)$.
+D. $S=(-\infty;2)$.",C. $S=\left(\dfrac{1}{2};2\right)$.,"Điều kiện: $x>\dfrac{1}{2}$. Bất phương trình $\Leftrightarrow x+1>2x-1 \Leftrightarrow x<2$.
+Kết hợp điều kiện, $S=\left(\dfrac{1}{2};2\right)$."
+347,D14,Nhân bản,p020_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac12}(x+2) < \log_{\frac12}(3x-1)$.
+
+A. $S=(\dfrac{3}{2};+\infty)$.
+B. $S=(\dfrac{1}{3};+\infty)$.
+C. $S=(-\infty;\dfrac{3}{2})$.
+D. $S=\left(\dfrac{1}{3};\dfrac{3}{2}\right)$.",D. $S=\left(\dfrac{1}{3};\dfrac{3}{2}\right)$.,"Điều kiện: $x>\dfrac{1}{3}$. Bất phương trình $\Leftrightarrow x+2>3x-1 \Leftrightarrow x<\dfrac{3}{2}$.
+Kết hợp điều kiện, $S=\left(\dfrac{1}{3};\dfrac{3}{2}\right)$."
+348,D14,Nhân bản,p020_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac12}(x+1) < \log_{\frac12}(3x-2)$.
+
+A. $S=(\dfrac{3}{2};+\infty)$.
+B. $S=(\dfrac{2}{3};+\infty)$.
+C. $S=(-\infty;\dfrac{3}{2})$.
+D. $S=\left(\dfrac{2}{3};\dfrac{3}{2}\right)$.",D. $S=\left(\dfrac{2}{3};\dfrac{3}{2}\right)$.,"Điều kiện: $x>\dfrac{2}{3}$. Bất phương trình $\Leftrightarrow x+1>3x-2 \Leftrightarrow x<\dfrac{3}{2}$.
+Kết hợp điều kiện, $S=\left(\dfrac{2}{3};\dfrac{3}{2}\right)$."
+349,D14,Nhân bản,p020_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac12}(x+2) < \log_{\frac12}(2x-1)$.
+
+A. $S=(\dfrac{1}{2};+\infty)$.
+B. $S=\left(\dfrac{1}{2};3\right)$.
+C. $S=(3;+\infty)$.
+D. $S=(-\infty;3)$.",B. $S=\left(\dfrac{1}{2};3\right)$.,"Điều kiện: $x>\dfrac{1}{2}$. Bất phương trình $\Leftrightarrow x+2>2x-1 \Leftrightarrow x<3$.
+Kết hợp điều kiện, $S=\left(\dfrac{1}{2};3\right)$."
+350,D14,Nhân bản,p020_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac12}(x+1) < \log_{\frac12}(4x-3)$.
+
+A. $S=\left(\dfrac{3}{4};\dfrac{4}{3}\right)$.
+B. $S=(-\infty;\dfrac{4}{3})$.
+C. $S=(\dfrac{4}{3};+\infty)$.
+D. $S=(\dfrac{3}{4};+\infty)$.",A. $S=\left(\dfrac{3}{4};\dfrac{4}{3}\right)$.,"Điều kiện: $x>\dfrac{3}{4}$. Bất phương trình $\Leftrightarrow x+1>4x-3 \Leftrightarrow x<\dfrac{4}{3}$.
+Kết hợp điều kiện, $S=\left(\dfrac{3}{4};\dfrac{4}{3}\right)$."
+351,D14,Nhân bản,p020_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{\frac12}(x+3) < \log_{\frac12}(2x-1)$.
+
+A. $S=\left(\dfrac{1}{2};4\right)$.
+B. $S=(\dfrac{1}{2};+\infty)$.
+C. $S=(4;+\infty)$.
+D. $S=(-\infty;4)$.",A. $S=\left(\dfrac{1}{2};4\right)$.,"Điều kiện: $x>\dfrac{1}{2}$. Bất phương trình $\Leftrightarrow x+3>2x-1 \Leftrightarrow x<4$.
+Kết hợp điều kiện, $S=\left(\dfrac{1}{2};4\right)$."
+352,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $5^{1x+1}} - 5^{-1} > 0$.
+
+A. $S=(-1;+\infty)$.
+B. $S=(-2;+\infty)$.
+C. $S=(-\infty;-2)$.
+D. $S=(0;+\infty)$.",B. $S=(-2;+\infty)$.,$5^{1x+1}} - 5^{-1} > 0 \Leftrightarrow 5^{1x+1} > 5^{-1} \Leftrightarrow 1x+1>-1 \Leftrightarrow x>-2$.
+353,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{1x+2}} - 2^{3} > 0$.
+
+A. $S=(-\infty;1)$.
+B. $S=(5;+\infty)$.
+C. $S=(1;+\infty)$.
+D. $S=(2;+\infty)$.",C. $S=(1;+\infty)$.,$2^{1x+2}} - 2^{3} > 0 \Leftrightarrow 2^{1x+2} > 2^{3} \Leftrightarrow 1x+2>3 \Leftrightarrow x>1$.
+354,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{2x-1}} - 3^{5} > 0$.
+
+A. $S=(3;+\infty)$.
+B. $S=(2;+\infty)$.
+C. $S=(6;+\infty)$.
+D. $S=(-\infty;3)$.",A. $S=(3;+\infty)$.,$3^{2x-1}} - 3^{5} > 0 \Leftrightarrow 3^{2x-1} > 3^{5} \Leftrightarrow 2x-1>5 \Leftrightarrow x>3$.
+355,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{1x-3}} - 2^{4} > 0$.
+
+A. $S=(8;+\infty)$.
+B. $S=(7;+\infty)$.
+C. $S=(-\infty;7)$.
+D. $S=(1;+\infty)$.",B. $S=(7;+\infty)$.,$2^{1x-3}} - 2^{4} > 0 \Leftrightarrow 2^{1x-3} > 2^{4} \Leftrightarrow 1x-3>4 \Leftrightarrow x>7$.
+356,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $5^{2x+1}} - 5^{3} > 0$.
+
+A. $S=(1;+\infty)$.
+B. $S=(2;+\infty)$.
+C. $S=(-\infty;1)$.
+D. $S=(3;+\infty)$.",A. $S=(1;+\infty)$.,$5^{2x+1}} - 5^{3} > 0 \Leftrightarrow 5^{2x+1} > 5^{3} \Leftrightarrow 2x+1>3 \Leftrightarrow x>1$.
+357,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{1x+2}} - 3^{-1} > 0$.
+
+A. $S=(-2;+\infty)$.
+B. $S=(-\infty;-3)$.
+C. $S=(-3;+\infty)$.
+D. $S=(1;+\infty)$.",C. $S=(-3;+\infty)$.,$3^{1x+2}} - 3^{-1} > 0 \Leftrightarrow 3^{1x+2} > 3^{-1} \Leftrightarrow 1x+2>-1 \Leftrightarrow x>-3$.
+358,D21,Nhân bản,p035_q22,chuan,"Tìm tập nghiệm $S$ của phương trình $\log_{2}(x-1)+\log_{2}(x+1)=3$.
+
+A. $S=\{2\}$.
+B. $S=\{-3;3\}$.
+C. $S=\{3\}$.
+D. $S=\{-\sqrt{9};\sqrt{9}\}$.",C. $S=\{3\}$.,"Điều kiện $x>1$. $\log_{2}[(x-1)(x+1)]=3\Leftrightarrow x^2-1=2^{3}\Leftrightarrow x=\pm3$. Kết hợp điều kiện, $S=\{3\}$."
+359,D21,Nhân bản,p035_q22,chuan,"Tìm tập nghiệm $S$ của phương trình $\log_{2}(x-3)+\log_{2}(x+3)=4$.
+
+A. $S=\{5\}$.
+B. $S=\{-5;5\}$.
+C. $S=\{4\}$.
+D. $S=\{-\sqrt{25};\sqrt{25}\}$.",A. $S=\{5\}$.,"Điều kiện $x>3$. $\log_{2}[(x-3)(x+3)]=4\Leftrightarrow x^2-9=2^{4}\Leftrightarrow x=\pm5$. Kết hợp điều kiện, $S=\{5\}$."
+360,D27,Nhân bản,p049_q13,chuan,"Tập nghiệm của bất phương trình $2^{2x} < 2^{1x+6}$ là
+
+A. $S=(-6;+\infty)$.
+B. $S=(-\infty;-6)$.
+C. $S=(-\infty;6)$.
+D. $S=(6;+\infty)$.",C. $S=(-\infty;6)$.,$2^{2x}<2^{1x+6} \Leftrightarrow 2x<1x+6 \Leftrightarrow x<6$.
+361,D27,Nhân bản,p049_q13,chuan,"Tập nghiệm của bất phương trình $3^{1x} < 3^{2x-4}$ là
+
+A. $S=(-4;+\infty)$.
+B. $S=(-\infty;-4)$.
+C. $S=(-\infty;4)$.
+D. $S=(4;+\infty)$.",D. $S=(4;+\infty)$.,$3^{1x}<3^{2x-4} \Leftrightarrow 1x<2x-4 \Leftrightarrow x>4$.
+362,D27,Nhân bản,p049_q13,chuan,"Tập nghiệm của bất phương trình $2^{1x+1} < 2^{2x-3}$ là
+
+A. $S=(-4;+\infty)$.
+B. $S=(-\infty;4)$.
+C. $S=(-\infty;-4)$.
+D. $S=(4;+\infty)$.",D. $S=(4;+\infty)$.,$2^{1x+1}<2^{2x-3} \Leftrightarrow 1x+1<2x-3 \Leftrightarrow x>4$.
+363,D27,Nhân bản,p049_q13,chuan,"Tập nghiệm của bất phương trình $5^{2x+1} < 5^{1x-2}$ là
+
+A. $S=(-\infty;-3)$.
+B. $S=(-3;+\infty)$.
+C. $S=(3;+\infty)$.
+D. $S=(-\infty;3)$.",A. $S=(-\infty;-3)$.,$5^{2x+1}<5^{1x-2} \Leftrightarrow 2x+1<1x-2 \Leftrightarrow x<-3$.
+364,D27,Nhân bản,p049_q13,chuan,"Tập nghiệm của bất phương trình $2^{3x} < 2^{1x+5}$ là
+
+A. $S=(-\infty;- \dfrac{5}{2})$.
+B. $S=(-\infty;\dfrac{5}{2})$.
+C. $S=(\dfrac{5}{2};+\infty)$.
+D. $S=(- \dfrac{5}{2};+\infty)$.",B. $S=(-\infty;\dfrac{5}{2})$.,$2^{3x}<2^{1x+5} \Leftrightarrow 3x<1x+5 \Leftrightarrow x<\dfrac{5}{2}$.
+365,D27,Nhân bản,p049_q13,chuan,"Tập nghiệm của bất phương trình $3^{2x+1} < 3^{1x-2}$ là
+
+A. $S=(-\infty;-3)$.
+B. $S=(-\infty;3)$.
+C. $S=(3;+\infty)$.
+D. $S=(-3;+\infty)$.",A. $S=(-\infty;-3)$.,$3^{2x+1}<3^{1x-2} \Leftrightarrow 2x+1<1x-2 \Leftrightarrow x<-3$.
+366,D28,Nhân bản,p053_q27,chuan,"Tính tổng các nghiệm thực của phương trình $\log_{3}x.\log_{9}x.\log_{27}x.\log_{81}x=\dfrac{2}{3}$ bằng
+
+A. $9$.
+B. $\dfrac{82}{9}$.
+C. $0$.
+D. $\dfrac{80}{9}$.",B. $\dfrac{82}{9}$.,Điều kiện $x>0$. $\left(1\cdot\dfrac12\cdot\dfrac13\cdot\dfrac14\right)(\log_{3}x)^4=\dfrac{2}{3}\Leftrightarrow (\log_{3}x)^4=16 \Leftrightarrow \log_{3}x=\pm2\Leftrightarrow x=9\text{ hoặc }x=1/9$. Tổng các nghiệm là $\dfrac{82}{9}$.
+367,D28,Nhân bản,p053_q27,chuan,"Tính tổng các nghiệm thực của phương trình $\log_{5}x.\log_{25}x.\log_{125}x.\log_{625}x=\dfrac{2}{3}$ bằng
+
+A. $25$.
+B. $0$.
+C. $\dfrac{624}{25}$.
+D. $\dfrac{626}{25}$.",D. $\dfrac{626}{25}$.,Điều kiện $x>0$. $\left(1\cdot\dfrac12\cdot\dfrac13\cdot\dfrac14\right)(\log_{5}x)^4=\dfrac{2}{3}\Leftrightarrow (\log_{5}x)^4=16 \Leftrightarrow \log_{5}x=\pm2\Leftrightarrow x=25\text{ hoặc }x=1/25$. Tổng các nghiệm là $\dfrac{626}{25}$.
+368,D28,Nhân bản,p053_q27,chuan,"Tính tổng các nghiệm thực của phương trình $\log_{2}x.\log_{4}x.\log_{8}x.\log_{16}x=\dfrac{2}{3}$ bằng
+
+A. $4$.
+B. $0$.
+C. $\dfrac{17}{4}$.
+D. $\dfrac{15}{4}$.",C. $\dfrac{17}{4}$.,Điều kiện $x>0$. $\left(1\cdot\dfrac12\cdot\dfrac13\cdot\dfrac14\right)(\log_{2}x)^4=\dfrac{2}{3}\Leftrightarrow (\log_{2}x)^4=16 \Leftrightarrow \log_{2}x=\pm2\Leftrightarrow x=4\text{ hoặc }x=1/4$. Tổng các nghiệm là $\dfrac{17}{4}$.
+369,D31,Nhân bản,p066_q08,chuan,"Tập nghiệm của phương trình $\log_{2}(x^{2} - x + 2)=1$ là
+
+A. $\{1;2\}$.
+B. $\{0;1\}$.
+C. $\{0;-1\}$.
+D. $\{0\}$.",B. $\{0;1\}$.,$\log_{2}(x^{2} - x + 2)=1\Leftrightarrow x^{2} - x + 2=2^{1}\Leftrightarrow x=0$ hoặc $x=1$.
+370,D31,Nhân bản,p066_q08,chuan,"Tập nghiệm của phương trình $\log_{2}(x^{2} - 1)=3$ là
+
+A. $\{3;-3\}$.
+B. $\{-3;3\}$.
+C. $\{-3\}$.
+D. $\{-2;4\}$.",B. $\{-3;3\}$.,$\log_{2}(x^{2} - 1)=3\Leftrightarrow x^{2} - 1=2^{3}\Leftrightarrow x=-3$ hoặc $x=3$.
+371,D31,Nhân bản,p066_q08,chuan,"Tập nghiệm của phương trình $\log_{3}(x^{2} - 2 x - 5)=2$ là
+
+A. $\{1 - \sqrt{15};1 + \sqrt{15}\}$.
+B. $\{-1 + \sqrt{15};- \sqrt{15} - 1\}$.
+C. $\{1 - \sqrt{15}\}$.
+D. $\{2 - \sqrt{15};2 + \sqrt{15}\}$.",A. $\{1 - \sqrt{15};1 + \sqrt{15}\}$.,$\log_{3}(x^{2} - 2 x - 5)=2\Leftrightarrow x^{2} - 2 x - 5=3^{2}\Leftrightarrow x=1 - \sqrt{15}$ hoặc $x=1 + \sqrt{15}$.
+372,D31,Nhân bản,p066_q08,chuan,"Tập nghiệm của phương trình $\log_{2}(x^{2} - 4)=2$ là
+
+A. $\{2 \sqrt{2};- 2 \sqrt{2}\}$.
+B. $\{1 - 2 \sqrt{2};1 + 2 \sqrt{2}\}$.
+C. $\{- 2 \sqrt{2};2 \sqrt{2}\}$.
+D. $\{- 2 \sqrt{2}\}$.",C. $\{- 2 \sqrt{2};2 \sqrt{2}\}$.,$\log_{2}(x^{2} - 4)=2\Leftrightarrow x^{2} - 4=2^{2}\Leftrightarrow x=- 2 \sqrt{2}$ hoặc $x=2 \sqrt{2}$.
+373,D31,Nhân bản,p066_q08,chuan,"Tập nghiệm của phương trình $\log_{5}(x^{2} - 4 x + 2)=2$ là
+
+A. $\{-2 + 3 \sqrt{3};- 3 \sqrt{3} - 2\}$.
+B. $\{2 - 3 \sqrt{3};2 + 3 \sqrt{3}\}$.
+C. $\{3 - 3 \sqrt{3};3 + 3 \sqrt{3}\}$.
+D. $\{2 - 3 \sqrt{3}\}$.",B. $\{2 - 3 \sqrt{3};2 + 3 \sqrt{3}\}$.,$\log_{5}(x^{2} - 4 x + 2)=2\Leftrightarrow x^{2} - 4 x + 2=5^{2}\Leftrightarrow x=2 - 3 \sqrt{3}$ hoặc $x=2 + 3 \sqrt{3}$.
+374,D31,Nhân bản,p066_q08,chuan,"Tập nghiệm của phương trình $\log_{2}(x^{2} + 2 x - 3)=3$ là
+
+A. $\{- 2 \sqrt{3};2 \sqrt{3}\}$.
+B. $\{1 + 2 \sqrt{3};1 - 2 \sqrt{3}\}$.
+C. $\{- 2 \sqrt{3} - 1;-1 + 2 \sqrt{3}\}$.
+D. $\{- 2 \sqrt{3} - 1\}$.",C. $\{- 2 \sqrt{3} - 1;-1 + 2 \sqrt{3}\}$.,$\log_{2}(x^{2} + 2 x - 3)=3\Leftrightarrow x^{2} + 2 x - 3=2^{3}\Leftrightarrow x=- 2 \sqrt{3} - 1$ hoặc $x=-1 + 2 \sqrt{3}$.
+375,D33,Nhân bản,p068_q23,chuan,"Tập nghiệm của bất phương trình $3^{x^{2} - 2 x}<3^{3}$ là
+
+A. $(3;+\infty)$.
+B. $(-\infty;-1)\cup(3;+\infty)$.
+C. $(-\infty;-1)$.
+D. $(-1;3)$.",D. $(-1;3)$.,$3^{x^{2} - 2 x}<3^{3}\Leftrightarrow x^{2} - 2 x<3\Leftrightarrow -1;3$.
+376,D33,Nhân bản,p068_q23,chuan,"Tập nghiệm của bất phương trình $2^{x^{2} - 23}<2^{2}$ là
+
+A. $(5;+\infty)$.
+B. $(-\infty;-5)$.
+C. $(-\infty;-5)\cup(5;+\infty)$.
+D. $(-5;5)$.",D. $(-5;5)$.,$2^{x^{2} - 23}<2^{2}\Leftrightarrow x^{2} - 23<2\Leftrightarrow -5;5$.
+377,D33,Nhân bản,p068_q23,chuan,"Tập nghiệm của bất phương trình $5^{x^{2} - 4 x}<5^{1}$ là
+
+A. $(-\infty;2 - \sqrt{5})$.
+B. $(-\infty;2 - \sqrt{5})\cup(2 + \sqrt{5};+\infty)$.
+C. $(2 + \sqrt{5};+\infty)$.
+D. $(2 - \sqrt{5};2 + \sqrt{5})$.",D. $(2 - \sqrt{5};2 + \sqrt{5})$.,$5^{x^{2} - 4 x}<5^{1}\Leftrightarrow x^{2} - 4 x<1\Leftrightarrow 2 - \sqrt{5};2 + \sqrt{5}$.
+378,D33,Nhân bản,p068_q23,chuan,"Tập nghiệm của bất phương trình $3^{x^{2} + 2 x}<3^{3}$ là
+
+A. $(-3;1)$.
+B. $(-\infty;-3)$.
+C. $(-\infty;-3)\cup(1;+\infty)$.
+D. $(1;+\infty)$.",A. $(-3;1)$.,$3^{x^{2} + 2 x}<3^{3}\Leftrightarrow x^{2} + 2 x<3\Leftrightarrow -3;1$.
+379,D33,Nhân bản,p068_q23,chuan,"Tập nghiệm của bất phương trình $2^{x^{2} - 6 x}<2^{4}$ là
+
+A. $(3 - \sqrt{13};3 + \sqrt{13})$.
+B. $(-\infty;3 - \sqrt{13})$.
+C. $(3 + \sqrt{13};+\infty)$.
+D. $(-\infty;3 - \sqrt{13})\cup(3 + \sqrt{13};+\infty)$.",A. $(3 - \sqrt{13};3 + \sqrt{13})$.,$2^{x^{2} - 6 x}<2^{4}\Leftrightarrow x^{2} - 6 x<4\Leftrightarrow 3 - \sqrt{13};3 + \sqrt{13}$.
+380,D33,Nhân bản,p068_q23,chuan,"Tập nghiệm của bất phương trình $3^{x^{2} - 8}<3^{2}$ là
+
+A. $(-\infty;- \sqrt{10})\cup(\sqrt{10};+\infty)$.
+B. $(\sqrt{10};+\infty)$.
+C. $(-\infty;- \sqrt{10})$.
+D. $(- \sqrt{10};\sqrt{10})$.",D. $(- \sqrt{10};\sqrt{10})$.,$3^{x^{2} - 8}<3^{2}\Leftrightarrow x^{2} - 8<2\Leftrightarrow - \sqrt{10};\sqrt{10}$.
+381,D34,Nhân bản,p069_q28,chuan,"Hàm số $f(x)=\log_{2}(x^{2} - 2 x)$ có đạo hàm
+
+A. $f'(x)=\dfrac{1}{(x^{2} - 2 x)\ln 2}$.
+B. $f'(x)=\dfrac{(2 x - 2)\ln 2}{x^{2} - 2 x}$.
+C. $f'(x)=\dfrac{\ln 2}{x^{2} - 2 x}$.
+D. $f'(x)=\dfrac{2 x - 2}{(x^{2} - 2 x)\ln 2}$.",D. $f'(x)=\dfrac{2 x - 2}{(x^{2} - 2 x)\ln 2}$.,$f'(x)=\dfrac{(x^{2} - 2 x)'}{(x^{2} - 2 x)\ln 2}=\dfrac{2 x - 2}{(x^{2} - 2 x)\ln 2}$.
+382,D34,Nhân bản,p069_q28,chuan,"Hàm số $f(x)=\log_{3}(x^{2} + 4 x)$ có đạo hàm
+
+A. $f'(x)=\dfrac{2 x + 4}{(x^{2} + 4 x)\ln 3}$.
+B. $f'(x)=\dfrac{\ln 3}{x^{2} + 4 x}$.
+C. $f'(x)=\dfrac{(2 x + 4)\ln 3}{x^{2} + 4 x}$.
+D. $f'(x)=\dfrac{1}{(x^{2} + 4 x)\ln 3}$.",A. $f'(x)=\dfrac{2 x + 4}{(x^{2} + 4 x)\ln 3}$.,$f'(x)=\dfrac{(x^{2} + 4 x)'}{(x^{2} + 4 x)\ln 3}=\dfrac{2 x + 4}{(x^{2} + 4 x)\ln 3}$.
+383,D34,Nhân bản,p069_q28,chuan,"Hàm số $f(x)=\log_{2}(x^{2} + 2 x)$ có đạo hàm
+
+A. $f'(x)=\dfrac{(2 x + 2)\ln 2}{x^{2} + 2 x}$.
+B. $f'(x)=\dfrac{2 x + 2}{(x^{2} + 2 x)\ln 2}$.
+C. $f'(x)=\dfrac{\ln 2}{x^{2} + 2 x}$.
+D. $f'(x)=\dfrac{1}{(x^{2} + 2 x)\ln 2}$.",B. $f'(x)=\dfrac{2 x + 2}{(x^{2} + 2 x)\ln 2}$.,$f'(x)=\dfrac{(x^{2} + 2 x)'}{(x^{2} + 2 x)\ln 2}=\dfrac{2 x + 2}{(x^{2} + 2 x)\ln 2}$.
+384,D34,Nhân bản,p069_q28,chuan,"Hàm số $f(x)=\log_{5}(x^{2} - 3 x)$ có đạo hàm
+
+A. $f'(x)=\dfrac{\ln 5}{x^{2} - 3 x}$.
+B. $f'(x)=\dfrac{1}{(x^{2} - 3 x)\ln 5}$.
+C. $f'(x)=\dfrac{2 x - 3}{(x^{2} - 3 x)\ln 5}$.
+D. $f'(x)=\dfrac{(2 x - 3)\ln 5}{x^{2} - 3 x}$.",C. $f'(x)=\dfrac{2 x - 3}{(x^{2} - 3 x)\ln 5}$.,$f'(x)=\dfrac{(x^{2} - 3 x)'}{(x^{2} - 3 x)\ln 5}=\dfrac{2 x - 3}{(x^{2} - 3 x)\ln 5}$.
+385,D34,Nhân bản,p069_q28,chuan,"Hàm số $f(x)=\log_{3}(x^{2} - x)$ có đạo hàm
+
+A. $f'(x)=\dfrac{1}{(x^{2} - x)\ln 3}$.
+B. $f'(x)=\dfrac{\ln 3}{x^{2} - x}$.
+C. $f'(x)=\dfrac{2 x - 1}{(x^{2} - x)\ln 3}$.
+D. $f'(x)=\dfrac{(2 x - 1)\ln 3}{x^{2} - x}$.",C. $f'(x)=\dfrac{2 x - 1}{(x^{2} - x)\ln 3}$.,$f'(x)=\dfrac{(x^{2} - x)'}{(x^{2} - x)\ln 3}=\dfrac{2 x - 1}{(x^{2} - x)\ln 3}$.
+386,D34,Nhân bản,p069_q28,chuan,"Hàm số $f(x)=\log_{2}(x^{2} + 6 x)$ có đạo hàm
+
+A. $f'(x)=\dfrac{\ln 2}{x^{2} + 6 x}$.
+B. $f'(x)=\dfrac{1}{(x^{2} + 6 x)\ln 2}$.
+C. $f'(x)=\dfrac{(2 x + 6)\ln 2}{x^{2} + 6 x}$.
+D. $f'(x)=\dfrac{2 x + 6}{(x^{2} + 6 x)\ln 2}$.",D. $f'(x)=\dfrac{2 x + 6}{(x^{2} + 6 x)\ln 2}$.,$f'(x)=\dfrac{(x^{2} + 6 x)'}{(x^{2} + 6 x)\ln 2}=\dfrac{2 x + 6}{(x^{2} + 6 x)\ln 2}$.
+387,D38,Nhân bản,p082_q21,chuan,"Tập nghiệm của bất phương trình $5^{-1x}\ge 5^{x^{2} - x - 9}$ là
+
+A. $[-3;3]$.
+B. $[-4;4]$.
+C. $(-\infty;-3]\cup[3;+\infty)$.
+D. $(-\infty;-4]\cup[4;+\infty)$.",A. $[-3;3]$.,$5^{-1x}\ge 5^{x^{2} - x - 9}\Leftrightarrow -1x\ge x^{2} - x - 9\Leftrightarrow -3\le x\le 3$.
+388,D38,Nhân bản,p082_q21,chuan,"Tập nghiệm của bất phương trình $2^{0x+5}\ge 2^{x^{2} - 2 x - 3}$ là
+
+A. $[-3;5]$.
+B. $(-\infty;-2]\cup[4;+\infty)$.
+C. $[-2;4]$.
+D. $(-\infty;-3]\cup[5;+\infty)$.",C. $[-2;4]$.,$2^{0x+5}\ge 2^{x^{2} - 2 x - 3}\Leftrightarrow 0x+5\ge x^{2} - 2 x - 3\Leftrightarrow -2\le x\le 4$.
+389,D38,Nhân bản,p082_q21,chuan,"Tập nghiệm của bất phương trình $3^{1x+2}\ge 3^{x^{2} - 4}$ là
+
+A. $[-2;3]$.
+B. $[-3;4]$.
+C. $(-\infty;-3]\cup[4;+\infty)$.
+D. $(-\infty;-2]\cup[3;+\infty)$.",A. $[-2;3]$.,$3^{1x+2}\ge 3^{x^{2} - 4}\Leftrightarrow 1x+2\ge x^{2} - 4\Leftrightarrow -2\le x\le 3$.
+390,D38,Nhân bản,p082_q21,chuan,"Tập nghiệm của bất phương trình $2^{-2x+1}\ge 2^{x^{2} - x - 8}$ là
+
+A. $[- \dfrac{\sqrt{37}}{2} - \dfrac{1}{2};- \dfrac{1}{2} + \dfrac{\sqrt{37}}{2}]$.
+B. $(-\infty;- \dfrac{\sqrt{37}}{2} - \dfrac{1}{2}]\cup[- \dfrac{1}{2} + \dfrac{\sqrt{37}}{2};+\infty)$.
+C. $(-\infty;- \dfrac{\sqrt{37}}{2} - \dfrac{3}{2}]\cup[\dfrac{1}{2} + \dfrac{\sqrt{37}}{2};+\infty)$.
+D. $[- \dfrac{\sqrt{37}}{2} - \dfrac{3}{2};\dfrac{1}{2} + \dfrac{\sqrt{37}}{2}]$.",A. $[- \dfrac{\sqrt{37}}{2} - \dfrac{1}{2};- \dfrac{1}{2} + \dfrac{\sqrt{37}}{2}]$.,$2^{-2x+1}\ge 2^{x^{2} - x - 8}\Leftrightarrow -2x+1\ge x^{2} - x - 8\Leftrightarrow - \dfrac{\sqrt{37}}{2} - \dfrac{1}{2}\le x\le - \dfrac{1}{2} + \dfrac{\sqrt{37}}{2}$.
+391,D38,Nhân bản,p082_q21,chuan,"Tập nghiệm của bất phương trình $5^{2x}\ge 5^{x^{2} - x - 6}$ là
+
+A. $[\dfrac{3}{2} - \dfrac{\sqrt{33}}{2};\dfrac{3}{2} + \dfrac{\sqrt{33}}{2}]$.
+B. $[\dfrac{1}{2} - \dfrac{\sqrt{33}}{2};\dfrac{5}{2} + \dfrac{\sqrt{33}}{2}]$.
+C. $(-\infty;\dfrac{3}{2} - \dfrac{\sqrt{33}}{2}]\cup[\dfrac{3}{2} + \dfrac{\sqrt{33}}{2};+\infty)$.
+D. $(-\infty;\dfrac{1}{2} - \dfrac{\sqrt{33}}{2}]\cup[\dfrac{5}{2} + \dfrac{\sqrt{33}}{2};+\infty)$.",A. $[\dfrac{3}{2} - \dfrac{\sqrt{33}}{2};\dfrac{3}{2} + \dfrac{\sqrt{33}}{2}]$.,$5^{2x}\ge 5^{x^{2} - x - 6}\Leftrightarrow 2x\ge x^{2} - x - 6\Leftrightarrow \dfrac{3}{2} - \dfrac{\sqrt{33}}{2}\le x\le \dfrac{3}{2} + \dfrac{\sqrt{33}}{2}$.
+392,D38,Nhân bản,p082_q21,chuan,"Tập nghiệm của bất phương trình $2^{1x+3}\ge 2^{x^{2} - 5}$ là
+
+A. $(-\infty;\dfrac{1}{2} - \dfrac{\sqrt{33}}{2}]\cup[\dfrac{1}{2} + \dfrac{\sqrt{33}}{2};+\infty)$.
+B. $[- \dfrac{\sqrt{33}}{2} - \dfrac{1}{2};\dfrac{3}{2} + \dfrac{\sqrt{33}}{2}]$.
+C. $[\dfrac{1}{2} - \dfrac{\sqrt{33}}{2};\dfrac{1}{2} + \dfrac{\sqrt{33}}{2}]$.
+D. $(-\infty;- \dfrac{\sqrt{33}}{2} - \dfrac{1}{2}]\cup[\dfrac{3}{2} + \dfrac{\sqrt{33}}{2};+\infty)$.",C. $[\dfrac{1}{2} - \dfrac{\sqrt{33}}{2};\dfrac{1}{2} + \dfrac{\sqrt{33}}{2}]$.,$2^{1x+3}\ge 2^{x^{2} - 5}\Leftrightarrow 1x+3\ge x^{2} - 5\Leftrightarrow \dfrac{1}{2} - \dfrac{\sqrt{33}}{2}\le x\le \dfrac{1}{2} + \dfrac{\sqrt{33}}{2}$.
+393,D42,Nhân bản,p093_q05,chuan,"Tập xác định của hàm số $y=\log_{3}x$ là
+
+A. $(0;+\infty)$.
+B. $[0;+\infty)$.
+C. $[3;+\infty)$.
+D. $(-\infty;+\infty)$.",A. $(0;+\infty)$.,Điều kiện $x>0$. Vậy tập xác định là $\mathscr{D}=(0;+\infty)$.
+394,D42,Nhân bản,p093_q05,chuan,"Tập xác định của hàm số $y=\log_{4}x$ là
+
+A. $(0;+\infty)$.
+B. $(-\infty;+\infty)$.
+C. $[0;+\infty)$.
+D. $[4;+\infty)$.",A. $(0;+\infty)$.,Điều kiện $x>0$. Vậy tập xác định là $\mathscr{D}=(0;+\infty)$.
+395,D42,Nhân bản,p093_q05,chuan,"Tập xác định của hàm số $y=\log_{5}x$ là
+
+A. $(0;+\infty)$.
+B. $[5;+\infty)$.
+C. $(-\infty;+\infty)$.
+D. $[0;+\infty)$.",A. $(0;+\infty)$.,Điều kiện $x>0$. Vậy tập xác định là $\mathscr{D}=(0;+\infty)$.
+396,D42,Nhân bản,p093_q05,chuan,"Tập xác định của hàm số $y=\log_{7}x$ là
+
+A. $(0;+\infty)$.
+B. $[0;+\infty)$.
+C. $[7;+\infty)$.
+D. $(-\infty;+\infty)$.",A. $(0;+\infty)$.,Điều kiện $x>0$. Vậy tập xác định là $\mathscr{D}=(0;+\infty)$.
+397,D42,Nhân bản,p093_q05,chuan,"Tập xác định của hàm số $y=\log_{8}x$ là
+
+A. $[8;+\infty)$.
+B. $[0;+\infty)$.
+C. $(0;+\infty)$.
+D. $(-\infty;+\infty)$.",C. $(0;+\infty)$.,Điều kiện $x>0$. Vậy tập xác định là $\mathscr{D}=(0;+\infty)$.
+398,D42,Nhân bản,p093_q05,chuan,"Tập xác định của hàm số $y=\log_{9}x$ là
+
+A. $(-\infty;+\infty)$.
+B. $(0;+\infty)$.
+C. $[9;+\infty)$.
+D. $[0;+\infty)$.",B. $(0;+\infty)$.,Điều kiện $x>0$. Vậy tập xác định là $\mathscr{D}=(0;+\infty)$.
+399,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 1$ là
+
+A. $(0;+\infty)$.
+B. $(10;+\infty)$.
+C. $[10;+\infty)$.
+D. $(-\infty;10)$.",C. $[10;+\infty)$.,$\log x\ge 1\Leftrightarrow x\ge 10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10;+\infty)$.
+400,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 2$ là
+
+A. $(100;+\infty)$.
+B. $(-\infty;100)$.
+C. $(0;+\infty)$.
+D. $[100;+\infty)$.",D. $[100;+\infty)$.,$\log x\ge 2\Leftrightarrow x\ge 100$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100;+\infty)$.
+401,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 3$ là
+
+A. $[1000;+\infty)$.
+B. $(0;+\infty)$.
+C. $(1000;+\infty)$.
+D. $(-\infty;1000)$.",A. $[1000;+\infty)$.,$\log x\ge 3\Leftrightarrow x\ge 1000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000;+\infty)$.
+402,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -1$ là
+
+A. $(-\infty;1/10)$.
+B. $(1/10;+\infty)$.
+C. $[1/10;+\infty)$.
+D. $(0;+\infty)$.",C. $[1/10;+\infty)$.,$\log x\ge -1\Leftrightarrow x\ge 1/10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1/10;+\infty)$.
+403,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 0$ là
+
+A. $(-\infty;1)$.
+B. $[1;+\infty)$.
+C. $(1;+\infty)$.
+D. $(0;+\infty)$.",B. $[1;+\infty)$.,$\log x\ge 0\Leftrightarrow x\ge 1$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1;+\infty)$.
+404,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 4$ là
+
+A. $(10000;+\infty)$.
+B. $[10000;+\infty)$.
+C. $(-\infty;10000)$.
+D. $(0;+\infty)$.",B. $[10000;+\infty)$.,$\log x\ge 4\Leftrightarrow x\ge 10000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000;+\infty)$.
+405,D48,Nhân bản,p109_q07,chuan,"Tập nghiệm của bất phương trình $2^x>6$ là
+
+A. $(\log_{2} 6;+\infty)$.
+B. $(-\infty;\log_{2} 6)$.
+C. $(\log_{6} 2;+\infty)$.
+D. $(-\infty;\log_{6} 2)$.",A. $(\log_{2} 6;+\infty)$.,Ta có $2^x>6\Leftrightarrow x>\log_{2}6$.
+406,D48,Nhân bản,p109_q07,chuan,"Tập nghiệm của bất phương trình $3^x>10$ là
+
+A. $(-\infty;\log_{3} 10)$.
+B. $(\log_{10} 3;+\infty)$.
+C. $(\log_{3} 10;+\infty)$.
+D. $(-\infty;\log_{10} 3)$.",C. $(\log_{3} 10;+\infty)$.,Ta có $3^x>10\Leftrightarrow x>\log_{3}10$.
+407,D48,Nhân bản,p109_q07,chuan,"Tập nghiệm của bất phương trình $2^x>7$ là
+
+A. $(\log_{2} 7;+\infty)$.
+B. $(\log_{7} 2;+\infty)$.
+C. $(-\infty;\log_{7} 2)$.
+D. $(-\infty;\log_{2} 7)$.",A. $(\log_{2} 7;+\infty)$.,Ta có $2^x>7\Leftrightarrow x>\log_{2}7$.
+408,D48,Nhân bản,p109_q07,chuan,"Tập nghiệm của bất phương trình $5^x>30$ là
+
+A. $(-\infty;\log_{5} 30)$.
+B. $(\log_{5} 30;+\infty)$.
+C. $(\log_{30} 5;+\infty)$.
+D. $(-\infty;\log_{30} 5)$.",B. $(\log_{5} 30;+\infty)$.,Ta có $5^x>30\Leftrightarrow x>\log_{5}30$.
+409,D48,Nhân bản,p109_q07,chuan,"Tập nghiệm của bất phương trình $3^x>5$ là
+
+A. $(-\infty;\log_{5} 3)$.
+B. $(\log_{5} 3;+\infty)$.
+C. $(-\infty;\log_{3} 5)$.
+D. $(\log_{3} 5;+\infty)$.",D. $(\log_{3} 5;+\infty)$.,Ta có $3^x>5\Leftrightarrow x>\log_{3}5$.
+410,D48,Nhân bản,p109_q07,chuan,"Tập nghiệm của bất phương trình $2^x>11$ là
+
+A. $(\log_{11} 2;+\infty)$.
+B. $(-\infty;\log_{11} 2)$.
+C. $(\log_{2} 11;+\infty)$.
+D. $(-\infty;\log_{2} 11)$.",C. $(\log_{2} 11;+\infty)$.,Ta có $2^x>11\Leftrightarrow x>\log_{2}11$.
+411,D82,Nhân bản,p210_q26,chuan,"Tập nghiệm của bất phương trình $2^x<5$ là
+
+A. $(-\infty;\log_{2} 5)$.
+B. $(-\infty;\log_{5} 2)$.
+C. $(\log_{5} 2;+\infty)$.
+D. $(\log_{2} 5;+\infty)$.",A. $(-\infty;\log_{2} 5)$.,Ta có $2^x<5\Leftrightarrow x<\log_{2}5$.
+412,D82,Nhân bản,p210_q26,chuan,"Tập nghiệm của bất phương trình $3^x<7$ là
+
+A. $(-\infty;\log_{7} 3)$.
+B. $(\log_{3} 7;+\infty)$.
+C. $(-\infty;\log_{3} 7)$.
+D. $(\log_{7} 3;+\infty)$.",C. $(-\infty;\log_{3} 7)$.,Ta có $3^x<7\Leftrightarrow x<\log_{3}7$.
+413,D82,Nhân bản,p210_q26,chuan,"Tập nghiệm của bất phương trình $2^x<9$ là
+
+A. $(-\infty;\log_{9} 2)$.
+B. $(-\infty;\log_{2} 9)$.
+C. $(\log_{2} 9;+\infty)$.
+D. $(\log_{9} 2;+\infty)$.",B. $(-\infty;\log_{2} 9)$.,Ta có $2^x<9\Leftrightarrow x<\log_{2}9$.
+414,D82,Nhân bản,p210_q26,chuan,"Tập nghiệm của bất phương trình $5^x<20$ là
+
+A. $(-\infty;\log_{20} 5)$.
+B. $(\log_{20} 5;+\infty)$.
+C. $(-\infty;\log_{5} 20)$.
+D. $(\log_{5} 20;+\infty)$.",C. $(-\infty;\log_{5} 20)$.,Ta có $5^x<20\Leftrightarrow x<\log_{5}20$.
+415,D82,Nhân bản,p210_q26,chuan,"Tập nghiệm của bất phương trình $3^x<8$ là
+
+A. $(\log_{8} 3;+\infty)$.
+B. $(\log_{3} 8;+\infty)$.
+C. $(-\infty;\log_{8} 3)$.
+D. $(-\infty;\log_{3} 8)$.",D. $(-\infty;\log_{3} 8)$.,Ta có $3^x<8\Leftrightarrow x<\log_{3}8$.
+416,D82,Nhân bản,p210_q26,chuan,"Tập nghiệm của bất phương trình $2^x<13$ là
+
+A. $(\log_{13} 2;+\infty)$.
+B. $(\log_{2} 13;+\infty)$.
+C. $(-\infty;\log_{13} 2)$.
+D. $(-\infty;\log_{2} 13)$.",D. $(-\infty;\log_{2} 13)$.,Ta có $2^x<13\Leftrightarrow x<\log_{2}13$.
+417,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x + -3 = 0$ bằng
+
+A. $e^{-4}$.
+B. $-3$.
+C. $e^{-2}$.
+D. $-2$.",C. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x+2\ln x+-3=0 \Leftrightarrow \ln x=-3$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-3}\cdot e^{1}=e^{-2}$.
+418,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 1\ln x + -2 = 0$ bằng
+
+A. $e^{-1}$.
+B. $-2$.
+C. $e^{-3}$.
+D. $-1$.",A. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x+1\ln x+-2=0 \Leftrightarrow \ln x=-2$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-2}\cdot e^{1}=e^{-1}$.
+419,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x + -4 = 0$ bằng
+
+A. $e^{-3}$.
+B. $-3$.
+C. $e^{-5}$.
+D. $-4$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x+3\ln x+-4=0 \Leftrightarrow \ln x=-4$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-4}\cdot e^{1}=e^{-3}$.
+420,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x + -8 = 0$ bằng
+
+A. $-2$.
+B. $-8$.
+C. $e^{-6}$.
+D. $e^{-2}$.",D. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x+2\ln x+-8=0 \Leftrightarrow \ln x=-4$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-4}\cdot e^{2}=e^{-2}$.
+421,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 1\ln x + -6 = 0$ bằng
+
+A. $-1$.
+B. $e^{-1}$.
+C. $e^{-5}$.
+D. $-6$.",B. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x+1\ln x+-6=0 \Leftrightarrow \ln x=-3$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-3}\cdot e^{2}=e^{-1}$.
+422,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x + -5 = 0$ bằng
+
+A. $-5$.
+B. $e^{-4}$.
+C. $e^{-6}$.
+D. $-4$.",B. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x+4\ln x+-5=0 \Leftrightarrow \ln x=-5$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-5}\cdot e^{1}=e^{-4}$.
+423,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $2^{2x}+1\cdot2^{x+1}-3=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?
+
+A. $t^2+2t-3=0$.
+B. $t^2-2t-3=0$.
+C. $t^2+t-3=0$.
+D. $t^2+2t+3=0$.",A. $t^2+2t-3=0$.,"Ta có $2^{2x}+1\cdot2^{x+1}-3=0 \Leftrightarrow (2^x)^2+12\cdot2^x-3=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-3=0$."
+424,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $2^{2x}+2\cdot2^{x+1}-5=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?
+
+A. $t^2-4t-5=0$.
+B. $t^2+4t+5=0$.
+C. $t^2+2t-5=0$.
+D. $t^2+4t-5=0$.",D. $t^2+4t-5=0$.,"Ta có $2^{2x}+2\cdot2^{x+1}-5=0 \Leftrightarrow (2^x)^2+22\cdot2^x-5=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-5=0$."
+425,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $3^{2x}+1\cdot3^{x+1}-4=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?
+
+A. $t^2-3t-4=0$.
+B. $t^2+3t+4=0$.
+C. $t^2+3t-4=0$.
+D. $t^2+t-4=0$.",C. $t^2+3t-4=0$.,"Ta có $3^{2x}+1\cdot3^{x+1}-4=0 \Leftrightarrow (3^x)^2+13\cdot3^x-4=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+3t-4=0$."
+426,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $2^{2x}+1\cdot2^{x+1}-8=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?
+
+A. $t^2-2t-8=0$.
+B. $t^2+2t-8=0$.
+C. $t^2+t-8=0$.
+D. $t^2+2t+8=0$.",B. $t^2+2t-8=0$.,"Ta có $2^{2x}+1\cdot2^{x+1}-8=0 \Leftrightarrow (2^x)^2+12\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-8=0$."
+427,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $3^{2x}+2\cdot3^{x+1}-7=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?
+
+A. $t^2+6t+7=0$.
+B. $t^2+6t-7=0$.
+C. $t^2+2t-7=0$.
+D. $t^2-6t-7=0$.",B. $t^2+6t-7=0$.,"Ta có $3^{2x}+2\cdot3^{x+1}-7=0 \Leftrightarrow (3^x)^2+23\cdot3^x-7=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+6t-7=0$."
+428,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $2^{2x}+3\cdot2^{x+1}-9=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?
+
+A. $t^2-6t-9=0$.
+B. $t^2+6t-9=0$.
+C. $t^2+6t+9=0$.
+D. $t^2+3t-9=0$.",B. $t^2+6t-9=0$.,"Ta có $2^{2x}+3\cdot2^{x+1}-9=0 \Leftrightarrow (2^x)^2+32\cdot2^x-9=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-9=0$."
+429,D61,Nhân bản,p139_q16,chuan,"Tìm tập xác định $D$ của hàm số $y=\log_{5}\dfrac{x-3}{x+2}$.
+
+A. $D=(-\infty;-2]\cup[3;+\infty)$.
+B. $D=(-2;3)$.
+C. $D=\mathbb{R}\setminus\{-2\}$.
+D. $D=(-\infty;-2)\cup(3;+\infty)$.",D. $D=(-\infty;-2)\cup(3;+\infty)$.,ĐK: $\dfrac{x-3}{x+2}>0 \Leftrightarrow x<-2$ hoặc $x>3$.
+430,D61,Nhân bản,p139_q16,chuan,"Tìm tập xác định $D$ của hàm số $y=\log_{2}\dfrac{x-4}{x+1}$.
+
+A. $D=\mathbb{R}\setminus\{-1\}$.
+B. $D=(-1;4)$.
+C. $D=(-\infty;-1)\cup(4;+\infty)$.
+D. $D=(-\infty;-1]\cup[4;+\infty)$.",C. $D=(-\infty;-1)\cup(4;+\infty)$.,ĐK: $\dfrac{x-4}{x+1}>0 \Leftrightarrow x<-1$ hoặc $x>4$.
+431,D61,Nhân bản,p139_q16,chuan,"Tìm tập xác định $D$ của hàm số $y=\log_{3}\dfrac{x-5}{x+3}$.
+
+A. $D=(-3;5)$.
+B. $D=(-\infty;-3]\cup[5;+\infty)$.
+C. $D=(-\infty;-3)\cup(5;+\infty)$.
+D. $D=\mathbb{R}\setminus\{-3\}$.",C. $D=(-\infty;-3)\cup(5;+\infty)$.,ĐK: $\dfrac{x-5}{x+3}>0 \Leftrightarrow x<-3$ hoặc $x>5$.
+432,D61,Nhân bản,p139_q16,chuan,"Tìm tập xác định $D$ của hàm số $y=\log_{7}\dfrac{x-2}{x+5}$.
+
+A. $D=(-\infty;-5)\cup(2;+\infty)$.
+B. $D=(-\infty;-5]\cup[2;+\infty)$.
+C. $D=(-5;2)$.
+D. $D=\mathbb{R}\setminus\{-5\}$.",A. $D=(-\infty;-5)\cup(2;+\infty)$.,ĐK: $\dfrac{x-2}{x+5}>0 \Leftrightarrow x<-5$ hoặc $x>2$.
+433,D61,Nhân bản,p139_q16,chuan,"Tìm tập xác định $D$ của hàm số $y=\log_{2}\dfrac{x-6}{x+2}$.
+
+A. $D=\mathbb{R}\setminus\{-2\}$.
+B. $D=(-\infty;-2)\cup(6;+\infty)$.
+C. $D=(-\infty;-2]\cup[6;+\infty)$.
+D. $D=(-2;6)$.",B. $D=(-\infty;-2)\cup(6;+\infty)$.,ĐK: $\dfrac{x-6}{x+2}>0 \Leftrightarrow x<-2$ hoặc $x>6$.
+434,D61,Nhân bản,p139_q16,chuan,"Tìm tập xác định $D$ của hàm số $y=\log_{5}\dfrac{x-1}{x+4}$.
+
+A. $D=\mathbb{R}\setminus\{-4\}$.
+B. $D=(-\infty;-4]\cup[1;+\infty)$.
+C. $D=(-\infty;-4)\cup(1;+\infty)$.
+D. $D=(-4;1)$.",C. $D=(-\infty;-4)\cup(1;+\infty)$.,ĐK: $\dfrac{x-1}{x+4}>0 \Leftrightarrow x<-4$ hoặc $x>1$.
+435,D62,Nhân bản,p139_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{2}^2 x-5\log_{2} x+4\ge 0$.
+
+A. $(0;2]\cup[16;+\infty)$.
+B. $(-\infty;2]\cup[16;+\infty)$.
+C. $[2;16]$.
+D. $(0;2)\cup(16;+\infty)$.",A. $(0;2]\cup[16;+\infty)$.,Điều kiện $x>0$. $\log_{2}x\le1$ hoặc $\log_{2}x\ge4$ $\Leftrightarrow 0<x\le2$ hoặc $x\ge16$.
+436,D62,Nhân bản,p139_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{3}^2 x-2\log_{3} x\ge 0$.
+
+A. $(0;1]\cup[9;+\infty)$.
+B. $(-\infty;1]\cup[9;+\infty)$.
+C. $(0;1)\cup(9;+\infty)$.
+D. $[1;9]$.",A. $(0;1]\cup[9;+\infty)$.,Điều kiện $x>0$. $\log_{3}x\le0$ hoặc $\log_{3}x\ge2$ $\Leftrightarrow 0<x\le1$ hoặc $x\ge9$.
+437,D62,Nhân bản,p139_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{2}^2 x-2\log_{2} x-3\ge 0$.
+
+A. $(0;1/2)\cup(8;+\infty)$.
+B. $(-\infty;1/2]\cup[8;+\infty)$.
+C. $(0;1/2]\cup[8;+\infty)$.
+D. $[1/2;8]$.",C. $(0;1/2]\cup[8;+\infty)$.,Điều kiện $x>0$. $\log_{2}x\le-1$ hoặc $\log_{2}x\ge3$ $\Leftrightarrow 0<x\le1/2$ hoặc $x\ge8$.
+438,D62,Nhân bản,p139_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{5}^2 x-3\log_{5} x+2\ge 0$.
+
+A. $[5;25]$.
+B. $(-\infty;5]\cup[25;+\infty)$.
+C. $(0;5]\cup[25;+\infty)$.
+D. $(0;5)\cup(25;+\infty)$.",C. $(0;5]\cup[25;+\infty)$.,Điều kiện $x>0$. $\log_{5}x\le1$ hoặc $\log_{5}x\ge2$ $\Leftrightarrow 0<x\le5$ hoặc $x\ge25$.
+439,D62,Nhân bản,p139_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{2}^2 x-3\log_{2} x\ge 0$.
+
+A. $(-\infty;1]\cup[8;+\infty)$.
+B. $[1;8]$.
+C. $(0;1)\cup(8;+\infty)$.
+D. $(0;1]\cup[8;+\infty)$.",D. $(0;1]\cup[8;+\infty)$.,Điều kiện $x>0$. $\log_{2}x\le0$ hoặc $\log_{2}x\ge3$ $\Leftrightarrow 0<x\le1$ hoặc $x\ge8$.
+440,D62,Nhân bản,p139_q17,chuan,"Tìm tập nghiệm $S$ của bất phương trình $\log_{3}^2 x-1\log_{3} x-2\ge 0$.
+
+A. $(0;1/3]\cup[9;+\infty)$.
+B. $(0;1/3)\cup(9;+\infty)$.
+C. $(-\infty;1/3]\cup[9;+\infty)$.
+D. $[1/3;9]$.",A. $(0;1/3]\cup[9;+\infty)$.,Điều kiện $x>0$. $\log_{3}x\le-1$ hoặc $\log_{3}x\ge2$ $\Leftrightarrow 0<x\le1/3$ hoặc $x\ge9$.
+441,D63,Nhân bản,p145_q39,chuan,"Tìm giá trị thực của tham số $m$ để phương trình $\log_{3}^2 x-m\log_{3} x+2m-7=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=81$.
+
+A. $m=12$.
+B. $m=81$.
+C. $m=-4$.
+D. $m=4$.",D. $m=4$.,"ĐK $x>0$. $x_1x_2=81\Leftrightarrow \log_{3}x_1+\log_{3}x_2=4\Leftrightarrow t_1+t_2=4$.
+Đặt $t=\log_{3}x$: $t^2-mt+2m-7=0$. YCBT $\Leftrightarrow \Delta>0$ và $m=4\Leftrightarrow m=4$."
+442,D63,Nhân bản,p145_q39,chuan,"Tìm giá trị thực của tham số $m$ để phương trình $\log_{2}^2 x-m\log_{2} x+1m-3=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=8$.
+
+A. $m=-3$.
+B. $m=3$.
+C. $m=8$.
+D. $m=6$.",B. $m=3$.,"ĐK $x>0$. $x_1x_2=8\Leftrightarrow \log_{2}x_1+\log_{2}x_2=3\Leftrightarrow t_1+t_2=3$.
+Đặt $t=\log_{2}x$: $t^2-mt+1m-3=0$. YCBT $\Leftrightarrow \Delta>0$ và $m=3\Leftrightarrow m=3$."
+443,D63,Nhân bản,p145_q39,chuan,"Tìm giá trị thực của tham số $m$ để phương trình $\log_{3}^2 x-m\log_{3} x+3m-10=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=243$.
+
+A. $m=15$.
+B. $m=5$.
+C. $m=243$.
+D. $m=-5$.",B. $m=5$.,"ĐK $x>0$. $x_1x_2=243\Leftrightarrow \log_{3}x_1+\log_{3}x_2=5\Leftrightarrow t_1+t_2=5$.
+Đặt $t=\log_{3}x$: $t^2-mt+3m-10=0$. YCBT $\Leftrightarrow \Delta>0$ và $m=5\Leftrightarrow m=5$."
+444,D63,Nhân bản,p145_q39,chuan,"Tìm giá trị thực của tham số $m$ để phương trình $\log_{5}^2 x-m\log_{5} x+1m-2=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=25$.
+
+A. $m=2$.
+B. $m=10$.
+C. $m=25$.
+D. $m=-2$.",A. $m=2$.,"ĐK $x>0$. $x_1x_2=25\Leftrightarrow \log_{5}x_1+\log_{5}x_2=2\Leftrightarrow t_1+t_2=2$.
+Đặt $t=\log_{5}x$: $t^2-mt+1m-2=0$. YCBT $\Leftrightarrow \Delta>0$ và $m=2\Leftrightarrow m=2$."
+445,D63,Nhân bản,p145_q39,chuan,"Tìm giá trị thực của tham số $m$ để phương trình $\log_{2}^2 x-m\log_{2} x+1m-5=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=32$.
+
+A. $m=5$.
+B. $m=-5$.
+C. $m=10$.
+D. $m=32$.",A. $m=5$.,"ĐK $x>0$. $x_1x_2=32\Leftrightarrow \log_{2}x_1+\log_{2}x_2=5\Leftrightarrow t_1+t_2=5$.
+Đặt $t=\log_{2}x$: $t^2-mt+1m-5=0$. YCBT $\Leftrightarrow \Delta>0$ và $m=5\Leftrightarrow m=5$."
+446,D71,Nhân bản,p173_q16,chuan,"Nghiệm của phương trình $\log_{2}(x+1)=1+\log_{2}(x+-1)$ là
+
+A. $x=3$.
+B. $x=2$.
+C. $x=-3$.
+D. $x=4$.",A. $x=3$.,Điều kiện $x>1$. $\log_{2}(x+1)=1+\log_{2}(x+-1)\Leftrightarrow x+1=2(x+-1)\Leftrightarrow x=3$.
+447,D71,Nhân bản,p173_q16,chuan,"Nghiệm của phương trình $\log_{3}(x+2)=1+\log_{3}(x+-1)$ là
+
+A. $x=\dfrac{5}{2}$.
+B. $x=\dfrac{7}{2}$.
+C. $x=- \dfrac{5}{2}$.
+D. $x=\dfrac{3}{2}$.",A. $x=\dfrac{5}{2}$.,Điều kiện $x>1$. $\log_{3}(x+2)=1+\log_{3}(x+-1)\Leftrightarrow x+2=3(x+-1)\Leftrightarrow x=\dfrac{5}{2}$.
+448,D71,Nhân bản,p173_q16,chuan,"Nghiệm của phương trình $\log_{2}(x+3)=1+\log_{2}(x+1)$ là
+
+A. $x=-1$.
+B. $x=1$.
+C. $x=0$.
+D. $x=2$.",B. $x=1$.,Điều kiện $x>-1$. $\log_{2}(x+3)=1+\log_{2}(x+1)\Leftrightarrow x+3=2(x+1)\Leftrightarrow x=1$.
+449,D71,Nhân bản,p173_q16,chuan,"Nghiệm của phương trình $\log_{5}(x+1)=1+\log_{5}(x+-2)$ là
+
+A. $x=\dfrac{7}{4}$.
+B. $x=- \dfrac{11}{4}$.
+C. $x=\dfrac{11}{4}$.
+D. $x=\dfrac{15}{4}$.",C. $x=\dfrac{11}{4}$.,Điều kiện $x>2$. $\log_{5}(x+1)=1+\log_{5}(x+-2)\Leftrightarrow x+1=5(x+-2)\Leftrightarrow x=\dfrac{11}{4}$.
+450,D71,Nhân bản,p173_q16,chuan,"Nghiệm của phương trình $\log_{3}(x+1)=1+\log_{3}(x+-2)$ là
+
+A. $x=- \dfrac{7}{2}$.
+B. $x=\dfrac{9}{2}$.
+C. $x=\dfrac{5}{2}$.
+D. $x=\dfrac{7}{2}$.",D. $x=\dfrac{7}{2}$.,Điều kiện $x>2$. $\log_{3}(x+1)=1+\log_{3}(x+-2)\Leftrightarrow x+1=3(x+-2)\Leftrightarrow x=\dfrac{7}{2}$.
+451,D73,Nhân bản,p176_q26,chuan,"Hàm số $y=3^{x^{2} - 3 x}$ có đạo hàm là
+
+A. $(2 x - 3)\cdot3^{x^{2} - 3 x}$.
+B. $(2 x - 3)\cdot3^{x^{2} - 3 x}\cdot\ln3$.
+C. $3^{x^{2} - 3 x}\cdot\ln3$.
+D. $(x^{2} - 3 x)\cdot3^{x^{2} - 3 x-1}$.",B. $(2 x - 3)\cdot3^{x^{2} - 3 x}\cdot\ln3$.,$y'=\left(x^{2} - 3 x\right)'\cdot3^{x^{2} - 3 x}\cdot\ln3=(2 x - 3)\cdot3^{x^{2} - 3 x}\cdot\ln3$.
+452,D73,Nhân bản,p176_q26,chuan,"Hàm số $y=2^{x^{2} - x}$ có đạo hàm là
+
+A. $2^{x^{2} - x}\cdot\ln2$.
+B. $(2 x - 1)\cdot2^{x^{2} - x}\cdot\ln2$.
+C. $(x^{2} - x)\cdot2^{x^{2} - x-1}$.
+D. $(2 x - 1)\cdot2^{x^{2} - x}$.",B. $(2 x - 1)\cdot2^{x^{2} - x}\cdot\ln2$.,$y'=\left(x^{2} - x\right)'\cdot2^{x^{2} - x}\cdot\ln2=(2 x - 1)\cdot2^{x^{2} - x}\cdot\ln2$.
+453,D73,Nhân bản,p176_q26,chuan,"Hàm số $y=5^{x^{2} + 2 x}$ có đạo hàm là
+
+A. $(2 x + 2)\cdot5^{x^{2} + 2 x}$.
+B. $(x^{2} + 2 x)\cdot5^{x^{2} + 2 x-1}$.
+C. $(2 x + 2)\cdot5^{x^{2} + 2 x}\cdot\ln5$.
+D. $5^{x^{2} + 2 x}\cdot\ln5$.",C. $(2 x + 2)\cdot5^{x^{2} + 2 x}\cdot\ln5$.,$y'=\left(x^{2} + 2 x\right)'\cdot5^{x^{2} + 2 x}\cdot\ln5=(2 x + 2)\cdot5^{x^{2} + 2 x}\cdot\ln5$.
+454,D73,Nhân bản,p176_q26,chuan,"Hàm số $y=3^{x^{2} + 4 x}$ có đạo hàm là
+
+A. $3^{x^{2} + 4 x}\cdot\ln3$.
+B. $(2 x + 4)\cdot3^{x^{2} + 4 x}$.
+C. $(x^{2} + 4 x)\cdot3^{x^{2} + 4 x-1}$.
+D. $(2 x + 4)\cdot3^{x^{2} + 4 x}\cdot\ln3$.",D. $(2 x + 4)\cdot3^{x^{2} + 4 x}\cdot\ln3$.,$y'=\left(x^{2} + 4 x\right)'\cdot3^{x^{2} + 4 x}\cdot\ln3=(2 x + 4)\cdot3^{x^{2} + 4 x}\cdot\ln3$.
+455,D73,Nhân bản,p176_q26,chuan,"Hàm số $y=2^{x^{2} - 5 x}$ có đạo hàm là
+
+A. $(2 x - 5)\cdot2^{x^{2} - 5 x}\cdot\ln2$.
+B. $(2 x - 5)\cdot2^{x^{2} - 5 x}$.
+C. $2^{x^{2} - 5 x}\cdot\ln2$.
+D. $(x^{2} - 5 x)\cdot2^{x^{2} - 5 x-1}$.",A. $(2 x - 5)\cdot2^{x^{2} - 5 x}\cdot\ln2$.,$y'=\left(x^{2} - 5 x\right)'\cdot2^{x^{2} - 5 x}\cdot\ln2=(2 x - 5)\cdot2^{x^{2} - 5 x}\cdot\ln2$.
+456,D73,Nhân bản,p176_q26,chuan,"Hàm số $y=5^{x^{2} - 2 x}$ có đạo hàm là
+
+A. $(x^{2} - 2 x)\cdot5^{x^{2} - 2 x-1}$.
+B. $5^{x^{2} - 2 x}\cdot\ln5$.
+C. $(2 x - 2)\cdot5^{x^{2} - 2 x}$.
+D. $(2 x - 2)\cdot5^{x^{2} - 2 x}\cdot\ln5$.",D. $(2 x - 2)\cdot5^{x^{2} - 2 x}\cdot\ln5$.,$y'=\left(x^{2} - 2 x\right)'\cdot5^{x^{2} - 2 x}\cdot\ln5=(2 x - 2)\cdot5^{x^{2} - 2 x}\cdot\ln5$.
+457,D80,Nhân bản,p206_q04,chuan,"Tập xác định của hàm số $y=7^x$ là
+
+A. $(0;+\infty)$.
+B. $\mathbb{R}\setminus\{0\}$.
+C. $[0;+\infty)$.
+D. $\mathbb{R}$.",D. $\mathbb{R}$.,Tập xác định của hàm số $y=7^x$ là $\mathscr{D}=\mathbb{R}$.
+458,D80,Nhân bản,p206_q04,chuan,"Tập xác định của hàm số $y=2^x$ là
+
+A. $\mathbb{R}\setminus\{0\}$.
+B. $[0;+\infty)$.
+C. $(0;+\infty)$.
+D. $\mathbb{R}$.",D. $\mathbb{R}$.,Tập xác định của hàm số $y=2^x$ là $\mathscr{D}=\mathbb{R}$.
+459,D80,Nhân bản,p206_q04,chuan,"Tập xác định của hàm số $y=3^x$ là
+
+A. $\mathbb{R}\setminus\{0\}$.
+B. $\mathbb{R}$.
+C. $(0;+\infty)$.
+D. $[0;+\infty)$.",B. $\mathbb{R}$.,Tập xác định của hàm số $y=3^x$ là $\mathscr{D}=\mathbb{R}$.
+460,D80,Nhân bản,p206_q04,chuan,"Tập xác định của hàm số $y=5^x$ là
+
+A. $(0;+\infty)$.
+B. $\mathbb{R}\setminus\{0\}$.
+C. $[0;+\infty)$.
+D. $\mathbb{R}$.",D. $\mathbb{R}$.,Tập xác định của hàm số $y=5^x$ là $\mathscr{D}=\mathbb{R}$.
+461,D80,Nhân bản,p206_q04,chuan,"Tập xác định của hàm số $y=9^x$ là
+
+A. $(0;+\infty)$.
+B. $\mathbb{R}\setminus\{0\}$.
+C. $\mathbb{R}$.
+D. $[0;+\infty)$.",C. $\mathbb{R}$.,Tập xác định của hàm số $y=9^x$ là $\mathscr{D}=\mathbb{R}$.
+462,D80,Nhân bản,p206_q04,chuan,"Tập xác định của hàm số $y=11^x$ là
+
+A. $(0;+\infty)$.
+B. $\mathbb{R}$.
+C. $\mathbb{R}\setminus\{0\}$.
+D. $[0;+\infty)$.",B. $\mathbb{R}$.,Tập xác định của hàm số $y=11^x$ là $\mathscr{D}=\mathbb{R}$.
+463,D85,Nhân bản,p220_q04,chuan,"Tập xác định của hàm số $y=\log_{3}(x-4)$ là
+
+A. $[4;+\infty)$.
+B. $(4;+\infty)$.
+C. $(-\infty;4)$.
+D. $(-\infty;4]$.",B. $(4;+\infty)$.,Hàm số xác định khi $x-4>0 \Leftrightarrow x>4$.
+464,D85,Nhân bản,p220_q04,chuan,"Tập xác định của hàm số $y=\log_{2}(x-5)$ là
+
+A. $(5;+\infty)$.
+B. $[5;+\infty)$.
+C. $(-\infty;5)$.
+D. $(-\infty;5]$.",A. $(5;+\infty)$.,Hàm số xác định khi $x-5>0 \Leftrightarrow x>5$.
+465,D85,Nhân bản,p220_q04,chuan,"Tập xác định của hàm số $y=\log_{5}(x-2)$ là
+
+A. $(-\infty;2)$.
+B. $(-\infty;2]$.
+C. $(2;+\infty)$.
+D. $[2;+\infty)$.",C. $(2;+\infty)$.,Hàm số xác định khi $x-2>0 \Leftrightarrow x>2$.
+466,D85,Nhân bản,p220_q04,chuan,"Tập xác định của hàm số $y=\log_{7}(x-1)$ là
+
+A. $(1;+\infty)$.
+B. $(-\infty;1)$.
+C. $(-\infty;1]$.
+D. $[1;+\infty)$.",A. $(1;+\infty)$.,Hàm số xác định khi $x-1>0 \Leftrightarrow x>1$.
+467,D85,Nhân bản,p220_q04,chuan,"Tập xác định của hàm số $y=\log_{2}(x-6)$ là
+
+A. $(6;+\infty)$.
+B. $(-\infty;6)$.
+C. $(-\infty;6]$.
+D. $[6;+\infty)$.",A. $(6;+\infty)$.,Hàm số xác định khi $x-6>0 \Leftrightarrow x>6$.
+468,D85,Nhân bản,p220_q04,chuan,"Tập xác định của hàm số $y=\log_{3}(x-8)$ là
+
+A. $[8;+\infty)$.
+B. $(-\infty;8)$.
+C. $(8;+\infty)$.
+D. $(-\infty;8]$.",C. $(8;+\infty)$.,Hàm số xác định khi $x-8>0 \Leftrightarrow x>8$.
+469,D86,Nhân bản,p223_q22,chuan,"Nghiệm của phương trình $5^x=2$ là
+
+A. $x=\log_{2}5$.
+B. $x=\sqrt{2}$.
+C. $x=\log_{5}2$.
+D. $x=\dfrac{2}{5}$.",C. $x=\log_{5}2$.,Ta có $5^x=2\Leftrightarrow x=\log_{5}2$.
+470,D86,Nhân bản,p223_q22,chuan,"Nghiệm của phương trình $3^x=7$ là
+
+A. $x=\dfrac{7}{3}$.
+B. $x=\log_{3}7$.
+C. $x=\log_{7}3$.
+D. $x=\sqrt{7}$.",B. $x=\log_{3}7$.,Ta có $3^x=7\Leftrightarrow x=\log_{3}7$.
+471,D86,Nhân bản,p223_q22,chuan,"Nghiệm của phương trình $2^x=5$ là
+
+A. $x=\dfrac{5}{2}$.
+B. $x=\log_{2}5$.
+C. $x=\sqrt{5}$.
+D. $x=\log_{5}2$.",B. $x=\log_{2}5$.,Ta có $2^x=5\Leftrightarrow x=\log_{2}5$.
+472,D86,Nhân bản,p223_q22,chuan,"Nghiệm của phương trình $7^x=3$ là
+
+A. $x=\log_{7}3$.
+B. $x=\log_{3}7$.
+C. $x=\dfrac{3}{7}$.
+D. $x=\sqrt{3}$.",A. $x=\log_{7}3$.,Ta có $7^x=3\Leftrightarrow x=\log_{7}3$.
+473,D86,Nhân bản,p223_q22,chuan,"Nghiệm của phương trình $2^x=9$ là
+
+A. $x=\sqrt{9}$.
+B. $x=\log_{2}9$.
+C. $x=\dfrac{9}{2}$.
+D. $x=\log_{9}2$.",B. $x=\log_{2}9$.,Ta có $2^x=9\Leftrightarrow x=\log_{2}9$.
+474,D86,Nhân bản,p223_q22,chuan,"Nghiệm của phương trình $5^x=3$ là
+
+A. $x=\log_{5}3$.
+B. $x=\sqrt{3}$.
+C. $x=\log_{3}5$.
+D. $x=\dfrac{3}{5}$.",A. $x=\log_{5}3$.,Ta có $5^x=3\Leftrightarrow x=\log_{5}3$.
+475,D91,Nhân bản,p238_q21,chuan,"Nghiệm của phương trình $3^{2x+1}=3^{1x+2}$ là
+
+A. $x=-1$.
+B. $x=1$.
+C. $x=0$.
+D. $x=2$.",B. $x=1$.,Xét phương trình $3^{2x+1}=3^{1x+2}\Leftrightarrow 2x+1=1x+2\Leftrightarrow x=1$.
+476,D91,Nhân bản,p238_q21,chuan,"Nghiệm của phương trình $2^{1x+3}=2^{2x-1}$ là
+
+A. $x=-4$.
+B. $x=5$.
+C. $x=3$.
+D. $x=4$.",D. $x=4$.,Xét phương trình $2^{1x+3}=2^{2x-1}\Leftrightarrow 1x+3=2x-1\Leftrightarrow x=4$.
+477,D91,Nhân bản,p238_q21,chuan,"Nghiệm của phương trình $5^{3x-1}=5^{1x+4}$ là
+
+A. $x=\dfrac{3}{2}$.
+B. $x=\dfrac{5}{2}$.
+C. $x=\dfrac{7}{2}$.
+D. $x=- \dfrac{5}{2}$.",B. $x=\dfrac{5}{2}$.,Xét phương trình $5^{3x-1}=5^{1x+4}\Leftrightarrow 3x-1=1x+4\Leftrightarrow x=\dfrac{5}{2}$.
+478,D91,Nhân bản,p238_q21,chuan,"Nghiệm của phương trình $2^{2x+1}=2^{1x-2}$ là
+
+A. $x=3$.
+B. $x=-2$.
+C. $x=-3$.
+D. $x=-4$.",C. $x=-3$.,Xét phương trình $2^{2x+1}=2^{1x-2}\Leftrightarrow 2x+1=1x-2\Leftrightarrow x=-3$.
+479,D91,Nhân bản,p238_q21,chuan,"Nghiệm của phương trình $3^{1x+4}=3^{2x+1}$ là
+
+A. $x=4$.
+B. $x=-3$.
+C. $x=2$.
+D. $x=3$.",D. $x=3$.,Xét phương trình $3^{1x+4}=3^{2x+1}\Leftrightarrow 1x+4=2x+1\Leftrightarrow x=3$.
+480,D91,Nhân bản,p238_q21,chuan,"Nghiệm của phương trình $2^{3x-2}=2^{1x+3}$ là
+
+A. $x=\dfrac{5}{2}$.
+B. $x=\dfrac{7}{2}$.
+C. $x=\dfrac{3}{2}$.
+D. $x=- \dfrac{5}{2}$.",A. $x=\dfrac{5}{2}$.,Xét phương trình $2^{3x-2}=2^{1x+3}\Leftrightarrow 3x-2=1x+3\Leftrightarrow x=\dfrac{5}{2}$.
