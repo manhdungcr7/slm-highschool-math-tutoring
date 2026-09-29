@@ -46,5 +46,15 @@ D09, D11, D84.
 
 - **D09 and D11:** their answers are general symbolic relationships, with no
   concrete numerical values to change into variants.
-- **D84:** the source question's stated answer appears inconsistent with the
-  equation. The source page must be checked before generating variants.
+- **D84:** initially set aside after a low-precision numeric check
+  (naive `nsolve`/grid search) appeared to contradict the source answer.
+  A high-precision re-check (60 decimal digits) confirmed the source
+  answer (14) is correct: the two boundary-case roots ("y=-1, y=-2 thỏa
+  mãn" in the original) sit in an x-interval only ~1e-15 wide, thin enough
+  to fool an ordinary-precision solve. This is the same kind of thin-root
+  trap this dataset's build process already ran into once before (see
+  the p216_q45 numeric verification note in the project history) — this
+  question is in fact p216_q45. So D84 stays a valid source question; it
+  simply doesn't have a variant generator written for it yet, since safely
+  reproducing its two-boundary-case structure for arbitrary parameters
+  needs more careful work than the other counting problems.

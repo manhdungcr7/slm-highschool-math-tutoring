@@ -53,9 +53,13 @@ Evaluation-variant generation now covers 88 of the 91 problem types
 (607 independently verified variants; 719 combined source and
 variant rows). Every batch also passes a repository-wide scan for duplicate
 answer choices. The three uncovered types are D09 and D11, whose answers are
-general symbolic relations with no numerical values to vary, and D84, whose
-source answer appears inconsistent with its equation and needs verification
-against the original page. Round 8 extended coverage to D08, D23, D47, D52,
-D57, and D78. See
+general symbolic relations with no numerical values to vary, and D84,
+which was skipped after a low-precision numeric check appeared to
+contradict its source answer — a high-precision re-check (60 decimal
+digits, since the two boundary-case roots the source's own solution
+depends on turn out to sit in an interval only ~1e-15 wide) confirmed the
+source answer (14) is correct after all, so D84 stays in the source
+question set; it just hasn't had a variant generator written for it yet.
+Round 8 extended coverage to D08, D23, D47, D52, D57, and D78. See
 [`scripts/generate_questions/README.md`](scripts/generate_questions/README.md)
 for the generation and verification methods.

@@ -54,8 +54,12 @@ included in this repository.
   four answer choices are not all distinct after rendering.
   **Coverage: 88 of 91 problem types**, 607 generated variants.
   The three uncovered types are D09 and D11 (symbolic relations without
-  numerical inputs to vary) and D84 (the source answer appears inconsistent
-  with its equation and needs source-page verification). Round 8 added D08,
+  numerical inputs to vary) and D84 (skipped after a low-precision numeric
+  check seemed to contradict the source answer; a 60-digit-precision
+  re-check later confirmed the source answer, 14, is actually correct —
+  the two roots it depends on sit in an interval only ~1e-15 wide, thin
+  enough to fool an ordinary numeric solve — so D84 stays a valid source
+  question, it just has no variant generator yet). Round 8 added D08,
   D23, D47, D52, D57, and D78 using independent verifiers; see the generator
   README for each method.
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 112 source questions plus
