@@ -1,0 +1,398 @@
+[
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=\\sqrt{3}$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=1 + \\sqrt{3}$.\nB. $P=\\sqrt{3} + 2$.\nC. $P=- \\sqrt{3}$.\nD. $P=- \\sqrt{3} - 1$.",
+    "dap_an": "D. $P=- \\sqrt{3} - 1$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{\\sqrt{3}-1}{\\sqrt{3}-2}=- \\sqrt{3} - 1$.",
+    "params": {
+      "C_num": "3",
+      "C_is_sqrt": "True"
+    }
+  },
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=\\sqrt{5}$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=\\sqrt{5} + 3$.\nB. $P=-3 - \\sqrt{5}$.\nC. $P=- \\sqrt{5} - 2$.\nD. $P=\\sqrt{5} + 4$.",
+    "dap_an": "A. $P=\\sqrt{5} + 3$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{\\sqrt{5}-1}{\\sqrt{5}-2}=\\sqrt{5} + 3$.",
+    "params": {
+      "C_num": "5",
+      "C_is_sqrt": "True"
+    }
+  },
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=\\sqrt{2}$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=\\dfrac{\\sqrt{2}}{2}$.\nB. $P=\\dfrac{\\sqrt{2}}{2} + 1$.\nC. $P=1 - \\dfrac{\\sqrt{2}}{2}$.\nD. $P=- \\dfrac{\\sqrt{2}}{2}$.",
+    "dap_an": "D. $P=- \\dfrac{\\sqrt{2}}{2}$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{\\sqrt{2}-1}{\\sqrt{2}-2}=- \\dfrac{\\sqrt{2}}{2}$.",
+    "params": {
+      "C_num": "2",
+      "C_is_sqrt": "True"
+    }
+  },
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=\\sqrt{7}$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=\\dfrac{\\sqrt{7}}{3} + \\dfrac{8}{3}$.\nB. $P=- \\dfrac{\\sqrt{7}}{3} - \\dfrac{2}{3}$.\nC. $P=\\dfrac{\\sqrt{7}}{3} + \\dfrac{5}{3}$.\nD. $P=- \\dfrac{5}{3} - \\dfrac{\\sqrt{7}}{3}$.",
+    "dap_an": "C. $P=\\dfrac{\\sqrt{7}}{3} + \\dfrac{5}{3}$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{\\sqrt{7}-1}{\\sqrt{7}-2}=\\dfrac{\\sqrt{7}}{3} + \\dfrac{5}{3}$.",
+    "params": {
+      "C_num": "7",
+      "C_is_sqrt": "True"
+    }
+  },
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=3$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=-1$.\nB. $P=3$.\nC. $P=2$.\nD. $P=-2$.",
+    "dap_an": "C. $P=2$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{3-1}{3-2}=2$.",
+    "params": {
+      "C_num": "3",
+      "C_is_sqrt": "False"
+    }
+  },
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=5$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=- \\dfrac{1}{3}$.\nB. $P=\\dfrac{7}{3}$.\nC. $P=- \\dfrac{4}{3}$.\nD. $P=\\dfrac{4}{3}$.",
+    "dap_an": "D. $P=\\dfrac{4}{3}$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{5-1}{5-2}=\\dfrac{4}{3}$.",
+    "params": {
+      "C_num": "5",
+      "C_is_sqrt": "False"
+    }
+  },
+  {
+    "id_goc": "p038_q33",
+    "ma_dang": "D22",
+    "ten_dang": "Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=10$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$.\n\nA. $P=\\dfrac{17}{8}$.\nB. $P=- \\dfrac{1}{8}$.\nC. $P=\\dfrac{9}{8}$.\nD. $P=- \\dfrac{9}{8}$.",
+    "dap_an": "C. $P=\\dfrac{9}{8}$.",
+    "loi_giai": "$P=\\dfrac{\\log_a\\sqrt{b/a}}{\\log_a(\\sqrt b/a)}=\\dfrac{\\frac12(\\log_a b-1)}{\\frac12\\log_a b-1}=\\dfrac{10-1}{10-2}=\\dfrac{9}{8}$.",
+    "params": {
+      "C_num": "10",
+      "C_is_sqrt": "False"
+    }
+  },
+  {
+    "id_goc": "p041_q40",
+    "ma_dang": "D24",
+    "ten_dang": "Nhận biết tính chất (đạo hàm/đơn điệu) của hàm số chứa lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=\\dfrac{\\ln x}{x^{2}}$, mệnh đề nào dưới đây đúng?\n\nA. $3y'+xy''=\\dfrac{2}{x^{3}}$.\nB. $2y'+xy''=-\\dfrac{2}{x^{3}}$.\nC. $y'+xy''=-\\dfrac{2}{x^{3}}$.\nD. $3y'+xy''=-\\dfrac{2}{x^{3}}$.",
+    "dap_an": "D. $3y'+xy''=-\\dfrac{2}{x^{3}}$.",
+    "loi_giai": "Ta có $x^{2}y=\\ln x$. Lấy đạo hàm hai vế: $2xy+x^{2}y'=\\dfrac1x$. Lấy đạo hàm tiếp rồi rút gọn (thay lại $y$) ta được $3y'+xy''=-\\dfrac{2}{x^{3}}$.",
+    "params": {
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p041_q40",
+    "ma_dang": "D24",
+    "ten_dang": "Nhận biết tính chất (đạo hàm/đơn điệu) của hàm số chứa lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=\\dfrac{\\ln x}{x^{3}}$, mệnh đề nào dưới đây đúng?\n\nA. $3y'+xy''=-\\dfrac{3}{x^{4}}$.\nB. $4y'+xy''=-\\dfrac{3}{x^{4}}$.\nC. $y'+xy''=-\\dfrac{3}{x^{4}}$.\nD. $4y'+xy''=\\dfrac{3}{x^{4}}$.",
+    "dap_an": "B. $4y'+xy''=-\\dfrac{3}{x^{4}}$.",
+    "loi_giai": "Ta có $x^{3}y=\\ln x$. Lấy đạo hàm hai vế: $3x^{2}y+x^{3}y'=\\dfrac1x$. Lấy đạo hàm tiếp rồi rút gọn (thay lại $y$) ta được $4y'+xy''=-\\dfrac{3}{x^{4}}$.",
+    "params": {
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p041_q40",
+    "ma_dang": "D24",
+    "ten_dang": "Nhận biết tính chất (đạo hàm/đơn điệu) của hàm số chứa lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=\\dfrac{\\ln x}{x^{4}}$, mệnh đề nào dưới đây đúng?\n\nA. $5y'+xy''=-\\dfrac{4}{x^{5}}$.\nB. $4y'+xy''=-\\dfrac{4}{x^{5}}$.\nC. $5y'+xy''=\\dfrac{4}{x^{5}}$.\nD. $y'+xy''=-\\dfrac{4}{x^{5}}$.",
+    "dap_an": "A. $5y'+xy''=-\\dfrac{4}{x^{5}}$.",
+    "loi_giai": "Ta có $x^{4}y=\\ln x$. Lấy đạo hàm hai vế: $4x^{3}y+x^{4}y'=\\dfrac1x$. Lấy đạo hàm tiếp rồi rút gọn (thay lại $y$) ta được $5y'+xy''=-\\dfrac{4}{x^{5}}$.",
+    "params": {
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p041_q40",
+    "ma_dang": "D24",
+    "ten_dang": "Nhận biết tính chất (đạo hàm/đơn điệu) của hàm số chứa lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=\\dfrac{\\ln x}{x^{5}}$, mệnh đề nào dưới đây đúng?\n\nA. $6y'+xy''=\\dfrac{5}{x^{6}}$.\nB. $6y'+xy''=-\\dfrac{5}{x^{6}}$.\nC. $5y'+xy''=-\\dfrac{5}{x^{6}}$.\nD. $y'+xy''=-\\dfrac{5}{x^{6}}$.",
+    "dap_an": "B. $6y'+xy''=-\\dfrac{5}{x^{6}}$.",
+    "loi_giai": "Ta có $x^{5}y=\\ln x$. Lấy đạo hàm hai vế: $5x^{4}y+x^{5}y'=\\dfrac1x$. Lấy đạo hàm tiếp rồi rút gọn (thay lại $y$) ta được $6y'+xy''=-\\dfrac{5}{x^{6}}$.",
+    "params": {
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p041_q40",
+    "ma_dang": "D24",
+    "ten_dang": "Nhận biết tính chất (đạo hàm/đơn điệu) của hàm số chứa lôgarit",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho hàm số $y=\\dfrac{\\ln x}{x^{6}}$, mệnh đề nào dưới đây đúng?\n\nA. $6y'+xy''=-\\dfrac{6}{x^{7}}$.\nB. $y'+xy''=-\\dfrac{6}{x^{7}}$.\nC. $7y'+xy''=\\dfrac{6}{x^{7}}$.\nD. $7y'+xy''=-\\dfrac{6}{x^{7}}$.",
+    "dap_an": "D. $7y'+xy''=-\\dfrac{6}{x^{7}}$.",
+    "loi_giai": "Ta có $x^{6}y=\\ln x$. Lấy đạo hàm hai vế: $6x^{5}y+x^{6}y'=\\dfrac1x$. Lấy đạo hàm tiếp rồi rút gọn (thay lại $y$) ta được $7y'+xy''=-\\dfrac{6}{x^{7}}$.",
+    "params": {
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p087_q41",
+    "ma_dang": "D39",
+    "ten_dang": "Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{9}x=\\log_{6}y=\\log_{4}(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $2$.\nB. $\\dfrac{3}{2}$.\nC. $- \\dfrac{1}{2}$.\nD. $\\dfrac{1}{2}$.",
+    "dap_an": "D. $\\dfrac{1}{2}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(9)^t,y=(6)^t,2x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $2u^2+u-1=0\\Rightarrow u=\\dfrac{1}{2}$.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p087_q41",
+    "ma_dang": "D39",
+    "ten_dang": "Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{4}x=\\log_{6}y=\\log_{9}(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2}$.\nB. $2$.\nC. $\\dfrac{3}{2}$.\nD. $- \\dfrac{1}{2}$.",
+    "dap_an": "A. $\\dfrac{1}{2}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(4)^t,y=(6)^t,2x+y=(9)^t$. Chia cả hai vế cho $(9)^t$ và đặt $u=(p/q)^t=x/y$: $2u^2+u-1=0\\Rightarrow u=\\dfrac{1}{2}$.",
+    "params": {
+      "p": "2",
+      "q": "3",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p087_q41",
+    "ma_dang": "D39",
+    "ten_dang": "Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{25}x=\\log_{10}y=\\log_{4}(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{3}{2}$.\nB. $\\dfrac{1}{2}$.\nC. $2$.\nD. $- \\dfrac{1}{2}$.",
+    "dap_an": "B. $\\dfrac{1}{2}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(25)^t,y=(10)^t,2x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $2u^2+u-1=0\\Rightarrow u=\\dfrac{1}{2}$.",
+    "params": {
+      "p": "5",
+      "q": "2",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p087_q41",
+    "ma_dang": "D39",
+    "ten_dang": "Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{16}x=\\log_{12}y=\\log_{9}(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{3}{2}$.\nB. $- \\dfrac{1}{2}$.\nC. $\\dfrac{1}{2}$.\nD. $2$.",
+    "dap_an": "C. $\\dfrac{1}{2}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(16)^t,y=(12)^t,2x+y=(9)^t$. Chia cả hai vế cho $(9)^t$ và đặt $u=(p/q)^t=x/y$: $2u^2+u-1=0\\Rightarrow u=\\dfrac{1}{2}$.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p087_q41",
+    "ma_dang": "D39",
+    "ten_dang": "Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{9}x=\\log_{15}y=\\log_{25}(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $2$.\nB. $\\dfrac{1}{2}$.\nC. $- \\dfrac{1}{2}$.\nD. $\\dfrac{3}{2}$.",
+    "dap_an": "B. $\\dfrac{1}{2}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(9)^t,y=(15)^t,2x+y=(25)^t$. Chia cả hai vế cho $(25)^t$ và đặt $u=(p/q)^t=x/y$: $2u^2+u-1=0\\Rightarrow u=\\dfrac{1}{2}$.",
+    "params": {
+      "p": "3",
+      "q": "5",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p087_q41",
+    "ma_dang": "D39",
+    "ten_dang": "Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{25}x=\\log_{15}y=\\log_{9}(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{3}{2}$.\nB. $- \\dfrac{1}{2}$.\nC. $2$.\nD. $\\dfrac{1}{2}$.",
+    "dap_an": "D. $\\dfrac{1}{2}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(25)^t,y=(15)^t,2x+y=(9)^t$. Chia cả hai vế cho $(9)^t$ và đặt $u=(p/q)^t=x/y$: $2u^2+u-1=0\\Rightarrow u=\\dfrac{1}{2}$.",
+    "params": {
+      "p": "5",
+      "q": "3",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p186_q47",
+    "ma_dang": "D75",
+    "ten_dang": "Đếm giá trị nguyên dương tham số để phương trình tích (lôgarit bậc hai và căn chứa tham số) có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\left(2\\log_{2}^2x-3\\log_{2}x-2\\right)\\sqrt{3^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?\n\nA. $78$.\nB. $79$.\nC. $81$.\nD. $80$.",
+    "dap_an": "B. $79$.",
+    "loi_giai": "Điều kiện $x>0,3^x\\ge m$. Nhân tử đầu có nghiệm $\\log_{2}x=2$ hay $\\log_{2}x=-\\dfrac12$, tức $x=4$ hoặc $x=\\dfrac{\\sqrt{2}}{2}$; nhân tử sau có $x=\\log_{3}m$. Xét các trường hợp theo $m$ tương tự bản gốc (đối chiếu điều kiện $\\ge m$ cho từng nghiệm cố định, cộng thêm miền $m$ để nghiệm thứ ba xuất hiện đúng một lần) cho tổng cộng $79$ giá trị nguyên dương.",
+    "params": {
+      "a": "2",
+      "c": "3",
+      "m_max": "250"
+    }
+  },
+  {
+    "id_goc": "p186_q47",
+    "ma_dang": "D75",
+    "ten_dang": "Đếm giá trị nguyên dương tham số để phương trình tích (lôgarit bậc hai và căn chứa tham số) có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\left(2\\log_{2}^2x-3\\log_{2}x-2\\right)\\sqrt{2^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?\n\nA. $14$.\nB. $16$.\nC. $17$.\nD. $15$.",
+    "dap_an": "D. $15$.",
+    "loi_giai": "Điều kiện $x>0,2^x\\ge m$. Nhân tử đầu có nghiệm $\\log_{2}x=2$ hay $\\log_{2}x=-\\dfrac12$, tức $x=4$ hoặc $x=\\dfrac{\\sqrt{2}}{2}$; nhân tử sau có $x=\\log_{2}m$. Xét các trường hợp theo $m$ tương tự bản gốc (đối chiếu điều kiện $\\ge m$ cho từng nghiệm cố định, cộng thêm miền $m$ để nghiệm thứ ba xuất hiện đúng một lần) cho tổng cộng $15$ giá trị nguyên dương.",
+    "params": {
+      "a": "2",
+      "c": "2",
+      "m_max": "250"
+    }
+  },
+  {
+    "id_goc": "p186_q47",
+    "ma_dang": "D75",
+    "ten_dang": "Đếm giá trị nguyên dương tham số để phương trình tích (lôgarit bậc hai và căn chứa tham số) có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\left(2\\log_{3}^2x-3\\log_{3}x-2\\right)\\sqrt{2^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?\n\nA. $250$.\nB. $248$.\nC. $251$.\nD. $249$.",
+    "dap_an": "D. $249$.",
+    "loi_giai": "Điều kiện $x>0,2^x\\ge m$. Nhân tử đầu có nghiệm $\\log_{3}x=2$ hay $\\log_{3}x=-\\dfrac12$, tức $x=9$ hoặc $x=\\dfrac{\\sqrt{3}}{3}$; nhân tử sau có $x=\\log_{2}m$. Xét các trường hợp theo $m$ tương tự bản gốc (đối chiếu điều kiện $\\ge m$ cho từng nghiệm cố định, cộng thêm miền $m$ để nghiệm thứ ba xuất hiện đúng một lần) cho tổng cộng $249$ giá trị nguyên dương.",
+    "params": {
+      "a": "3",
+      "c": "2",
+      "m_max": "250"
+    }
+  },
+  {
+    "id_goc": "p186_q47",
+    "ma_dang": "D75",
+    "ten_dang": "Đếm giá trị nguyên dương tham số để phương trình tích (lôgarit bậc hai và căn chứa tham số) có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\left(2\\log_{2}^2x-3\\log_{2}x-2\\right)\\sqrt{5^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?\n\nA. $248$.\nB. $249$.\nC. $246$.\nD. $247$.",
+    "dap_an": "D. $247$.",
+    "loi_giai": "Điều kiện $x>0,5^x\\ge m$. Nhân tử đầu có nghiệm $\\log_{2}x=2$ hay $\\log_{2}x=-\\dfrac12$, tức $x=4$ hoặc $x=\\dfrac{\\sqrt{2}}{2}$; nhân tử sau có $x=\\log_{5}m$. Xét các trường hợp theo $m$ tương tự bản gốc (đối chiếu điều kiện $\\ge m$ cho từng nghiệm cố định, cộng thêm miền $m$ để nghiệm thứ ba xuất hiện đúng một lần) cho tổng cộng $247$ giá trị nguyên dương.",
+    "params": {
+      "a": "2",
+      "c": "5",
+      "m_max": "250"
+    }
+  },
+  {
+    "id_goc": "p186_q47",
+    "ma_dang": "D75",
+    "ten_dang": "Đếm giá trị nguyên dương tham số để phương trình tích (lôgarit bậc hai và căn chứa tham số) có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\left(2\\log_{3}^2x-3\\log_{3}x-2\\right)\\sqrt{5^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?\n\nA. $248$.\nB. $247$.\nC. $250$.\nD. $249$.",
+    "dap_an": "A. $248$.",
+    "loi_giai": "Điều kiện $x>0,5^x\\ge m$. Nhân tử đầu có nghiệm $\\log_{3}x=2$ hay $\\log_{3}x=-\\dfrac12$, tức $x=9$ hoặc $x=\\dfrac{\\sqrt{3}}{3}$; nhân tử sau có $x=\\log_{5}m$. Xét các trường hợp theo $m$ tương tự bản gốc (đối chiếu điều kiện $\\ge m$ cho từng nghiệm cố định, cộng thêm miền $m$ để nghiệm thứ ba xuất hiện đúng một lần) cho tổng cộng $248$ giá trị nguyên dương.",
+    "params": {
+      "a": "3",
+      "c": "5",
+      "m_max": "250"
+    }
+  },
+  {
+    "id_goc": "p242_q39",
+    "ma_dang": "D93",
+    "ten_dang": "Đếm số nguyên dương tham số sao cho có đúng k giá trị nguyên biến kia thỏa bất phương trình tích",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $a$ sao cho ứng với mỗi $a$ có đúng ba số nguyên $b$ thỏa mãn $(3^b-3)(a\\cdot2^b-18)<0$?\n\nA. $75$.\nB. $73$.\nC. $72$.\nD. $74$.",
+    "dap_an": "B. $73$.",
+    "loi_giai": "Xét hai trường hợp $b>1$ và $b<1$ (dấu của $3^b-3$) rồi tìm khoảng của $a$ tương ứng để đúng 3 giá trị nguyên $b$ thỏa mãn ở mỗi trường hợp; gộp lại được tổng cộng $73$ giá trị nguyên dương $a$.",
+    "params": {
+      "A": "3",
+      "B": "2",
+      "N": "18",
+      "a_max": "400",
+      "b_range": "10"
+    }
+  },
+  {
+    "id_goc": "p242_q39",
+    "ma_dang": "D93",
+    "ten_dang": "Đếm số nguyên dương tham số sao cho có đúng k giá trị nguyên biến kia thỏa bất phương trình tích",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $a$ sao cho ứng với mỗi $a$ có đúng ba số nguyên $b$ thỏa mãn $(2^b-2)(a\\cdot3^b-24)<0$?\n\nA. $182$.\nB. $183$.\nC. $185$.\nD. $184$.",
+    "dap_an": "B. $183$.",
+    "loi_giai": "Xét hai trường hợp $b>1$ và $b<1$ (dấu của $2^b-2$) rồi tìm khoảng của $a$ tương ứng để đúng 3 giá trị nguyên $b$ thỏa mãn ở mỗi trường hợp; gộp lại được tổng cộng $183$ giá trị nguyên dương $a$.",
+    "params": {
+      "A": "2",
+      "B": "3",
+      "N": "24",
+      "a_max": "400",
+      "b_range": "10"
+    }
+  },
+  {
+    "id_goc": "p242_q39",
+    "ma_dang": "D93",
+    "ten_dang": "Đếm số nguyên dương tham số sao cho có đúng k giá trị nguyên biến kia thỏa bất phương trình tích",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $a$ sao cho ứng với mỗi $a$ có đúng ba số nguyên $b$ thỏa mãn $(3^b-3)(a\\cdot2^b-20)<0$?\n\nA. $82$.\nB. $83$.\nC. $81$.\nD. $80$.",
+    "dap_an": "C. $81$.",
+    "loi_giai": "Xét hai trường hợp $b>1$ và $b<1$ (dấu của $3^b-3$) rồi tìm khoảng của $a$ tương ứng để đúng 3 giá trị nguyên $b$ thỏa mãn ở mỗi trường hợp; gộp lại được tổng cộng $81$ giá trị nguyên dương $a$.",
+    "params": {
+      "A": "3",
+      "B": "2",
+      "N": "20",
+      "a_max": "400",
+      "b_range": "10"
+    }
+  },
+  {
+    "id_goc": "p242_q39",
+    "ma_dang": "D93",
+    "ten_dang": "Đếm số nguyên dương tham số sao cho có đúng k giá trị nguyên biến kia thỏa bất phương trình tích",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên dương $a$ sao cho ứng với mỗi $a$ có đúng ba số nguyên $b$ thỏa mãn $(2^b-2)(a\\cdot2^b-16)<0$?\n\nA. $64$.\nB. $66$.\nC. $63$.\nD. $65$.",
+    "dap_an": "A. $64$.",
+    "loi_giai": "Xét hai trường hợp $b>1$ và $b<1$ (dấu của $2^b-2$) rồi tìm khoảng của $a$ tương ứng để đúng 3 giá trị nguyên $b$ thỏa mãn ở mỗi trường hợp; gộp lại được tổng cộng $64$ giá trị nguyên dương $a$.",
+    "params": {
+      "A": "2",
+      "B": "2",
+      "N": "16",
+      "a_max": "400",
+      "b_range": "10"
+    }
+  }
+]
