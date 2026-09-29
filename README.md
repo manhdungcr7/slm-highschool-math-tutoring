@@ -29,7 +29,8 @@ no separate dedicated repository for it).
 | Directory | Contents |
 |---|---|
 | [`scripts/pdf_to_markdown/`](scripts/pdf_to_markdown/) | Script that extracts candidate questions from the source PDF |
-| [`data/questions/mu_logarit_extraction/`](data/questions/mu_logarit_extraction/) | The extracted/transcribed question set and its problem-type classification |
+| [`scripts/generate_questions/`](scripts/generate_questions/) | Scripts that generate numerical variants of the source questions per problem type |
+| [`data/questions/mu_logarit_extraction/`](data/questions/mu_logarit_extraction/) | The extracted/transcribed question set, its problem-type classification, and generated variants |
 | [`data/results/`](data/results/) | Model-solving results (ChatGPT, Gemini, Qwen3-4B zero-shot) |
 
 Each directory has its own README with further details.
@@ -44,6 +45,9 @@ ad-campaign and forest-area growth models) were removed to keep the scope
 to exponential/logarithmic equations and inequalities. Zero-shot
 model-solving results on these 112 questions: ChatGPT 92 correct / 18
 incorrect / 2 undetermined, Gemini 111 correct / 1 incorrect, Qwen3-4B
-102 correct / 10 undetermined. The next step is generating evaluation
-variants per problem type, following the same process used for the Complex
-Numbers topic.
+102 correct / 10 undetermined.
+
+Evaluation-variant generation has started as a pilot covering 4 of the 94
+problem types (D01, D12, D18, D53 — 15 source questions), producing 90
+SymPy-generated variants, each checked by an independent verifier. The
+remaining 90 problem types still need their own generator.

@@ -40,6 +40,21 @@ included in this repository.
   and graded with
   [`../scripts/pdf_to_markdown/22_grade_mu_logarit_answers.py`](../scripts/pdf_to_markdown/22_grade_mu_logarit_answers.py).
 
+- `bien_the/D01_bien_the.json`, `D12_bien_the.json`, `D18_bien_the.json`,
+  `D53_bien_the.json`: SymPy-generated numerical variants for a first pilot
+  batch of 4 problem types (the ones with the most source questions: D01, 5
+  questions; D12, 4; D18, 3; D53, 3 — 15 source questions total), produced
+  with the scripts in
+  [`../scripts/generate_questions/`](../scripts/generate_questions/). Each
+  source question gets 6 variants (2 per parameter bucket x 3 buckets), for
+  90 variants total. Every variant's answer is checked by an independent
+  verifier (`20_verify_pilot.py`) that re-derives the answer through a
+  different symbolic path than the generator used; all 90 currently pass.
+  The remaining 90 problem types have not been covered yet.
+- `Mu_Logarit_thi_diem_4dang_bien_the.csv` / `.xlsx`: the same 15 source
+  questions plus their 90 generated variants combined into one file
+  (produced by `21_export_pilot.py`).
+
 ## `results/qwen3_4b_zeroshot/`
 
 - `ketqua_Qwen3-4B_think_mulogarit112.csv` / `.xlsx`: Qwen3-4B zero-shot
