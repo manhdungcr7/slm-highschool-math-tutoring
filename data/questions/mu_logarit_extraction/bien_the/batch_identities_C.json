@@ -2,169 +2,2521 @@
   {
     "id_goc": "p110_q17",
     "ma_dang": "D49",
-    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{2}$ bằng\n\nA. $\\log_{2} a+1$.\nB. $\\log_{2} a-1$.\nC. $1-\\log_{2} a$.\nD. $\\log_{2} a-2$.",
-    "dap_an": "B. $\\log_{2} a-1$.",
-    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{2}=\\log_{2} a-\\log_{2}2=\\log_{2} a-1$.",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{22}\\dfrac{a}{57}$ bằng\n\nA. $\\log_{22} a-57$.\nB. $\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(22 \\right)}}-\\log_{22} a$.\nC. $\\log_{22} a+\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(22 \\right)}}$.\nD. $\\log_{22} a-\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "dap_an": "D. $\\log_{22} a-\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{22}\\dfrac{a}{57}=\\log_{22} a-\\log_{22}57=\\log_{22} a-\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(22 \\right)}}$.",
     "params": {
-      "c": "2",
-      "k": "2"
+      "c": "22",
+      "k": "57"
     }
   },
   {
     "id_goc": "p110_q17",
     "ma_dang": "D49",
-    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{3}$ bằng\n\nA. $\\log_{3} a-3$.\nB. $\\log_{3} a-1$.\nC. $1-\\log_{3} a$.\nD. $\\log_{3} a+1$.",
-    "dap_an": "B. $\\log_{3} a-1$.",
-    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{3}=\\log_{3} a-\\log_{3}3=\\log_{3} a-1$.",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{20}\\dfrac{a}{87}$ bằng\n\nA. $\\dfrac{\\log{\\left(87 \\right)}}{\\log{\\left(20 \\right)}}-\\log_{20} a$.\nB. $\\log_{20} a-87$.\nC. $\\log_{20} a-\\dfrac{\\log{\\left(87 \\right)}}{\\log{\\left(20 \\right)}}$.\nD. $\\log_{20} a+\\dfrac{\\log{\\left(87 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "dap_an": "C. $\\log_{20} a-\\dfrac{\\log{\\left(87 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{20}\\dfrac{a}{87}=\\log_{20} a-\\log_{20}87=\\log_{20} a-\\dfrac{\\log{\\left(87 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "params": {
+      "c": "20",
+      "k": "87"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{24}\\dfrac{a}{81}$ bằng\n\nA. $\\log_{24} a-81$.\nB. $\\log_{24} a+\\dfrac{\\log{\\left(81 \\right)}}{\\log{\\left(24 \\right)}}$.\nC. $\\log_{24} a-\\dfrac{\\log{\\left(81 \\right)}}{\\log{\\left(24 \\right)}}$.\nD. $\\dfrac{\\log{\\left(81 \\right)}}{\\log{\\left(24 \\right)}}-\\log_{24} a$.",
+    "dap_an": "C. $\\log_{24} a-\\dfrac{\\log{\\left(81 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{24}\\dfrac{a}{81}=\\log_{24} a-\\log_{24}81=\\log_{24} a-\\dfrac{\\log{\\left(81 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "params": {
+      "c": "24",
+      "k": "81"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{22}\\dfrac{a}{38}$ bằng\n\nA. $\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(22 \\right)}}-\\log_{22} a$.\nB. $\\log_{22} a+\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(22 \\right)}}$.\nC. $\\log_{22} a-38$.\nD. $\\log_{22} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "dap_an": "D. $\\log_{22} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{22}\\dfrac{a}{38}=\\log_{22} a-\\log_{22}38=\\log_{22} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "params": {
+      "c": "22",
+      "k": "38"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{20}\\dfrac{a}{74}$ bằng\n\nA. $\\dfrac{\\log{\\left(74 \\right)}}{\\log{\\left(20 \\right)}}-\\log_{20} a$.\nB. $\\log_{20} a-74$.\nC. $\\log_{20} a-\\dfrac{\\log{\\left(74 \\right)}}{\\log{\\left(20 \\right)}}$.\nD. $\\log_{20} a+\\dfrac{\\log{\\left(74 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "dap_an": "C. $\\log_{20} a-\\dfrac{\\log{\\left(74 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{20}\\dfrac{a}{74}=\\log_{20} a-\\log_{20}74=\\log_{20} a-\\dfrac{\\log{\\left(74 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "params": {
+      "c": "20",
+      "k": "74"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{24}\\dfrac{a}{100}$ bằng\n\nA. $\\log_{24} a-100$.\nB. $\\log_{24} a+\\dfrac{\\log{\\left(100 \\right)}}{\\log{\\left(24 \\right)}}$.\nC. $\\log_{24} a-\\dfrac{\\log{\\left(100 \\right)}}{\\log{\\left(24 \\right)}}$.\nD. $\\dfrac{\\log{\\left(100 \\right)}}{\\log{\\left(24 \\right)}}-\\log_{24} a$.",
+    "dap_an": "C. $\\log_{24} a-\\dfrac{\\log{\\left(100 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{24}\\dfrac{a}{100}=\\log_{24} a-\\log_{24}100=\\log_{24} a-\\dfrac{\\log{\\left(100 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "params": {
+      "c": "24",
+      "k": "100"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{14}\\dfrac{a}{80}$ bằng\n\nA. $\\dfrac{\\log{\\left(80 \\right)}}{\\log{\\left(14 \\right)}}-\\log_{14} a$.\nB. $\\log_{14} a-80$.\nC. $\\log_{14} a+\\dfrac{\\log{\\left(80 \\right)}}{\\log{\\left(14 \\right)}}$.\nD. $\\log_{14} a-\\dfrac{\\log{\\left(80 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "dap_an": "D. $\\log_{14} a-\\dfrac{\\log{\\left(80 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{14}\\dfrac{a}{80}=\\log_{14} a-\\log_{14}80=\\log_{14} a-\\dfrac{\\log{\\left(80 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "params": {
+      "c": "14",
+      "k": "80"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{7}\\dfrac{a}{79}$ bằng\n\nA. $\\log_{7} a+\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(7 \\right)}}$.\nB. $\\log_{7} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(7 \\right)}}$.\nC. $\\log_{7} a-79$.\nD. $\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(7 \\right)}}-\\log_{7} a$.",
+    "dap_an": "B. $\\log_{7} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{7}\\dfrac{a}{79}=\\log_{7} a-\\log_{7}79=\\log_{7} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "params": {
+      "c": "7",
+      "k": "79"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{19}\\dfrac{a}{12}$ bằng\n\nA. $\\log_{19} a-\\dfrac{\\log{\\left(12 \\right)}}{\\log{\\left(19 \\right)}}$.\nB. $\\log_{19} a-12$.\nC. $\\dfrac{\\log{\\left(12 \\right)}}{\\log{\\left(19 \\right)}}-\\log_{19} a$.\nD. $\\log_{19} a+\\dfrac{\\log{\\left(12 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "dap_an": "A. $\\log_{19} a-\\dfrac{\\log{\\left(12 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{19}\\dfrac{a}{12}=\\log_{19} a-\\log_{19}12=\\log_{19} a-\\dfrac{\\log{\\left(12 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "params": {
+      "c": "19",
+      "k": "12"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{14}\\dfrac{a}{48}$ bằng\n\nA. $\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(14 \\right)}}-\\log_{14} a$.\nB. $\\log_{14} a+\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(14 \\right)}}$.\nC. $\\log_{14} a-\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(14 \\right)}}$.\nD. $\\log_{14} a-48$.",
+    "dap_an": "C. $\\log_{14} a-\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{14}\\dfrac{a}{48}=\\log_{14} a-\\log_{14}48=\\log_{14} a-\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "params": {
+      "c": "14",
+      "k": "48"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{27}\\dfrac{a}{45}$ bằng\n\nA. $\\log_{27} a-\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(27 \\right)}}$.\nB. $\\log_{27} a+\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(27 \\right)}}$.\nC. $\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(27 \\right)}}-\\log_{27} a$.\nD. $\\log_{27} a-45$.",
+    "dap_an": "A. $\\log_{27} a-\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{27}\\dfrac{a}{45}=\\log_{27} a-\\log_{27}45=\\log_{27} a-\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "params": {
+      "c": "27",
+      "k": "45"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{28}$ bằng\n\nA. $\\log_{3} a-28$.\nB. $\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(3 \\right)}}-\\log_{3} a$.\nC. $\\log_{3} a+\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(3 \\right)}}$.\nD. $\\log_{3} a-\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "dap_an": "D. $\\log_{3} a-\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{28}=\\log_{3} a-\\log_{3}28=\\log_{3} a-\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(3 \\right)}}$.",
     "params": {
       "c": "3",
+      "k": "28"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{17}\\dfrac{a}{61}$ bằng\n\nA. $\\log_{17} a+\\dfrac{\\log{\\left(61 \\right)}}{\\log{\\left(17 \\right)}}$.\nB. $\\log_{17} a-61$.\nC. $\\dfrac{\\log{\\left(61 \\right)}}{\\log{\\left(17 \\right)}}-\\log_{17} a$.\nD. $\\log_{17} a-\\dfrac{\\log{\\left(61 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "dap_an": "D. $\\log_{17} a-\\dfrac{\\log{\\left(61 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{17}\\dfrac{a}{61}=\\log_{17} a-\\log_{17}61=\\log_{17} a-\\dfrac{\\log{\\left(61 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "params": {
+      "c": "17",
+      "k": "61"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{22}$ bằng\n\nA. $\\log_{3} a+\\dfrac{\\log{\\left(22 \\right)}}{\\log{\\left(3 \\right)}}$.\nB. $\\log_{3} a-22$.\nC. $\\dfrac{\\log{\\left(22 \\right)}}{\\log{\\left(3 \\right)}}-\\log_{3} a$.\nD. $\\log_{3} a-\\dfrac{\\log{\\left(22 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "dap_an": "D. $\\log_{3} a-\\dfrac{\\log{\\left(22 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{22}=\\log_{3} a-\\log_{3}22=\\log_{3} a-\\dfrac{\\log{\\left(22 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "params": {
+      "c": "3",
+      "k": "22"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{18}\\dfrac{a}{79}$ bằng\n\nA. $\\log_{18} a+\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(18 \\right)}}$.\nB. $\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(18 \\right)}}-\\log_{18} a$.\nC. $\\log_{18} a-79$.\nD. $\\log_{18} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "dap_an": "D. $\\log_{18} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{18}\\dfrac{a}{79}=\\log_{18} a-\\log_{18}79=\\log_{18} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "params": {
+      "c": "18",
+      "k": "79"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{27}\\dfrac{a}{92}$ bằng\n\nA. $\\log_{27} a+\\dfrac{\\log{\\left(92 \\right)}}{\\log{\\left(27 \\right)}}$.\nB. $\\log_{27} a-\\dfrac{\\log{\\left(92 \\right)}}{\\log{\\left(27 \\right)}}$.\nC. $\\log_{27} a-92$.\nD. $\\dfrac{\\log{\\left(92 \\right)}}{\\log{\\left(27 \\right)}}-\\log_{27} a$.",
+    "dap_an": "B. $\\log_{27} a-\\dfrac{\\log{\\left(92 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{27}\\dfrac{a}{92}=\\log_{27} a-\\log_{27}92=\\log_{27} a-\\dfrac{\\log{\\left(92 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "params": {
+      "c": "27",
+      "k": "92"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{4}\\dfrac{a}{3}$ bằng\n\nA. $\\log_{4} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}}$.\nB. $\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}}-\\log_{4} a$.\nC. $\\log_{4} a-3$.\nD. $\\log_{4} a+\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}}$.",
+    "dap_an": "A. $\\log_{4} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{4}\\dfrac{a}{3}=\\log_{4} a-\\log_{4}3=\\log_{4} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}}$.",
+    "params": {
+      "c": "4",
       "k": "3"
     }
   },
   {
     "id_goc": "p110_q17",
     "ma_dang": "D49",
-    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Với mọi số thực $a$ dương, $\\log_{5}\\dfrac{a}{5}$ bằng\n\nA. $\\log_{5} a-5$.\nB. $\\log_{5} a-1$.\nC. $\\log_{5} a+1$.\nD. $1-\\log_{5} a$.",
-    "dap_an": "B. $\\log_{5} a-1$.",
-    "loi_giai": "Ta có $\\log_{5}\\dfrac{a}{5}=\\log_{5} a-\\log_{5}5=\\log_{5} a-1$.",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{28}\\dfrac{a}{79}$ bằng\n\nA. $\\log_{28} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(28 \\right)}}$.\nB. $\\log_{28} a+\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(28 \\right)}}$.\nC. $\\log_{28} a-79$.\nD. $\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(28 \\right)}}-\\log_{28} a$.",
+    "dap_an": "A. $\\log_{28} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(28 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{28}\\dfrac{a}{79}=\\log_{28} a-\\log_{28}79=\\log_{28} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(28 \\right)}}$.",
     "params": {
-      "c": "5",
-      "k": "5"
+      "c": "28",
+      "k": "79"
     }
   },
   {
     "id_goc": "p110_q17",
     "ma_dang": "D49",
-    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{4}$ bằng\n\nA. $\\log_{2} a-4$.\nB. $\\log_{2} a+2$.\nC. $2-\\log_{2} a$.\nD. $\\log_{2} a-2$.",
-    "dap_an": "D. $\\log_{2} a-2$.",
-    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{4}=\\log_{2} a-\\log_{2}4=\\log_{2} a-2$.",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{5}\\dfrac{a}{27}$ bằng\n\nA. $\\log_{5} a-\\dfrac{\\log{\\left(27 \\right)}}{\\log{\\left(5 \\right)}}$.\nB. $\\log_{5} a+\\dfrac{\\log{\\left(27 \\right)}}{\\log{\\left(5 \\right)}}$.\nC. $\\dfrac{\\log{\\left(27 \\right)}}{\\log{\\left(5 \\right)}}-\\log_{5} a$.\nD. $\\log_{5} a-27$.",
+    "dap_an": "A. $\\log_{5} a-\\dfrac{\\log{\\left(27 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{5}\\dfrac{a}{27}=\\log_{5} a-\\log_{5}27=\\log_{5} a-\\dfrac{\\log{\\left(27 \\right)}}{\\log{\\left(5 \\right)}}$.",
     "params": {
-      "c": "2",
+      "c": "5",
+      "k": "27"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{25}\\dfrac{a}{75}$ bằng\n\nA. $\\log_{25} a-75$.\nB. $\\log_{25} a+\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(25 \\right)}} + 1$.\nC. $\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(25 \\right)}} + 1-\\log_{25} a$.\nD. $\\log_{25} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(25 \\right)}} + 1$.",
+    "dap_an": "D. $\\log_{25} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(25 \\right)}} + 1$.",
+    "loi_giai": "Ta có $\\log_{25}\\dfrac{a}{75}=\\log_{25} a-\\log_{25}75=\\log_{25} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(25 \\right)}} + 1$.",
+    "params": {
+      "c": "25",
+      "k": "75"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{66}$ bằng\n\nA. $\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(26 \\right)}}-\\log_{26} a$.\nB. $\\log_{26} a+\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(26 \\right)}}$.\nC. $\\log_{26} a-\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(26 \\right)}}$.\nD. $\\log_{26} a-66$.",
+    "dap_an": "C. $\\log_{26} a-\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{66}=\\log_{26} a-\\log_{26}66=\\log_{26} a-\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "params": {
+      "c": "26",
+      "k": "66"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{29}\\dfrac{a}{48}$ bằng\n\nA. $\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(29 \\right)}}-\\log_{29} a$.\nB. $\\log_{29} a-48$.\nC. $\\log_{29} a-\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(29 \\right)}}$.\nD. $\\log_{29} a+\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "dap_an": "C. $\\log_{29} a-\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{29}\\dfrac{a}{48}=\\log_{29} a-\\log_{29}48=\\log_{29} a-\\dfrac{\\log{\\left(48 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "params": {
+      "c": "29",
+      "k": "48"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{21}\\dfrac{a}{62}$ bằng\n\nA. $\\log_{21} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(21 \\right)}}$.\nB. $\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(21 \\right)}}-\\log_{21} a$.\nC. $\\log_{21} a+\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(21 \\right)}}$.\nD. $\\log_{21} a-62$.",
+    "dap_an": "A. $\\log_{21} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{21}\\dfrac{a}{62}=\\log_{21} a-\\log_{21}62=\\log_{21} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "params": {
+      "c": "21",
+      "k": "62"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{11}\\dfrac{a}{75}$ bằng\n\nA. $\\log_{11} a-\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(11 \\right)}}$.\nB. $\\log_{11} a-75$.\nC. $\\log_{11} a+\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(11 \\right)}}$.\nD. $\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(11 \\right)}}-\\log_{11} a$.",
+    "dap_an": "A. $\\log_{11} a-\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(11 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{11}\\dfrac{a}{75}=\\log_{11} a-\\log_{11}75=\\log_{11} a-\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(11 \\right)}}$.",
+    "params": {
+      "c": "11",
+      "k": "75"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{38}$ bằng\n\nA. $\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(26 \\right)}}-\\log_{26} a$.\nB. $\\log_{26} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(26 \\right)}}$.\nC. $\\log_{26} a-38$.\nD. $\\log_{26} a+\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "dap_an": "B. $\\log_{26} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{38}=\\log_{26} a-\\log_{26}38=\\log_{26} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "params": {
+      "c": "26",
+      "k": "38"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{20}\\dfrac{a}{30}$ bằng\n\nA. $\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(20 \\right)}}-\\log_{20} a$.\nB. $\\log_{20} a-30$.\nC. $\\log_{20} a+\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(20 \\right)}}$.\nD. $\\log_{20} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "dap_an": "D. $\\log_{20} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{20}\\dfrac{a}{30}=\\log_{20} a-\\log_{20}30=\\log_{20} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(20 \\right)}}$.",
+    "params": {
+      "c": "20",
+      "k": "30"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{18}\\dfrac{a}{62}$ bằng\n\nA. $\\log_{18} a-62$.\nB. $\\log_{18} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(18 \\right)}}$.\nC. $\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(18 \\right)}}-\\log_{18} a$.\nD. $\\log_{18} a+\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "dap_an": "B. $\\log_{18} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{18}\\dfrac{a}{62}=\\log_{18} a-\\log_{18}62=\\log_{18} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "params": {
+      "c": "18",
+      "k": "62"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{9}\\dfrac{a}{86}$ bằng\n\nA. $\\log_{9} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(9 \\right)}}$.\nB. $\\log_{9} a+\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(9 \\right)}}$.\nC. $\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(9 \\right)}}-\\log_{9} a$.\nD. $\\log_{9} a-86$.",
+    "dap_an": "A. $\\log_{9} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(9 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{9}\\dfrac{a}{86}=\\log_{9} a-\\log_{9}86=\\log_{9} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(9 \\right)}}$.",
+    "params": {
+      "c": "9",
+      "k": "86"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{27}\\dfrac{a}{30}$ bằng\n\nA. $\\log_{27} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(27 \\right)}}$.\nB. $\\log_{27} a-30$.\nC. $\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(27 \\right)}}-\\log_{27} a$.\nD. $\\log_{27} a+\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "dap_an": "A. $\\log_{27} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{27}\\dfrac{a}{30}=\\log_{27} a-\\log_{27}30=\\log_{27} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "params": {
+      "c": "27",
+      "k": "30"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{22}\\dfrac{a}{93}$ bằng\n\nA. $\\dfrac{\\log{\\left(93 \\right)}}{\\log{\\left(22 \\right)}}-\\log_{22} a$.\nB. $\\log_{22} a-93$.\nC. $\\log_{22} a-\\dfrac{\\log{\\left(93 \\right)}}{\\log{\\left(22 \\right)}}$.\nD. $\\log_{22} a+\\dfrac{\\log{\\left(93 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "dap_an": "C. $\\log_{22} a-\\dfrac{\\log{\\left(93 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{22}\\dfrac{a}{93}=\\log_{22} a-\\log_{22}93=\\log_{22} a-\\dfrac{\\log{\\left(93 \\right)}}{\\log{\\left(22 \\right)}}$.",
+    "params": {
+      "c": "22",
+      "k": "93"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{24}\\dfrac{a}{66}$ bằng\n\nA. $\\log_{24} a-66$.\nB. $\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(24 \\right)}}-\\log_{24} a$.\nC. $\\log_{24} a+\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(24 \\right)}}$.\nD. $\\log_{24} a-\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "dap_an": "D. $\\log_{24} a-\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{24}\\dfrac{a}{66}=\\log_{24} a-\\log_{24}66=\\log_{24} a-\\dfrac{\\log{\\left(66 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "params": {
+      "c": "24",
+      "k": "66"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{13}\\dfrac{a}{70}$ bằng\n\nA. $\\log_{13} a-\\dfrac{\\log{\\left(70 \\right)}}{\\log{\\left(13 \\right)}}$.\nB. $\\log_{13} a-70$.\nC. $\\dfrac{\\log{\\left(70 \\right)}}{\\log{\\left(13 \\right)}}-\\log_{13} a$.\nD. $\\log_{13} a+\\dfrac{\\log{\\left(70 \\right)}}{\\log{\\left(13 \\right)}}$.",
+    "dap_an": "A. $\\log_{13} a-\\dfrac{\\log{\\left(70 \\right)}}{\\log{\\left(13 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{13}\\dfrac{a}{70}=\\log_{13} a-\\log_{13}70=\\log_{13} a-\\dfrac{\\log{\\left(70 \\right)}}{\\log{\\left(13 \\right)}}$.",
+    "params": {
+      "c": "13",
+      "k": "70"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{13}\\dfrac{a}{72}$ bằng\n\nA. $\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(13 \\right)}}-\\log_{13} a$.\nB. $\\log_{13} a+\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(13 \\right)}}$.\nC. $\\log_{13} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(13 \\right)}}$.\nD. $\\log_{13} a-72$.",
+    "dap_an": "C. $\\log_{13} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(13 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{13}\\dfrac{a}{72}=\\log_{13} a-\\log_{13}72=\\log_{13} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(13 \\right)}}$.",
+    "params": {
+      "c": "13",
+      "k": "72"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{27}\\dfrac{a}{86}$ bằng\n\nA. $\\log_{27} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(27 \\right)}}$.\nB. $\\log_{27} a-86$.\nC. $\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(27 \\right)}}-\\log_{27} a$.\nD. $\\log_{27} a+\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "dap_an": "A. $\\log_{27} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{27}\\dfrac{a}{86}=\\log_{27} a-\\log_{27}86=\\log_{27} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "params": {
+      "c": "27",
+      "k": "86"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{17}\\dfrac{a}{8}$ bằng\n\nA. $\\log_{17} a-\\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(17 \\right)}}$.\nB. $\\log_{17} a+\\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(17 \\right)}}$.\nC. $\\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(17 \\right)}}-\\log_{17} a$.\nD. $\\log_{17} a-8$.",
+    "dap_an": "A. $\\log_{17} a-\\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{17}\\dfrac{a}{8}=\\log_{17} a-\\log_{17}8=\\log_{17} a-\\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "params": {
+      "c": "17",
+      "k": "8"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{12}\\dfrac{a}{38}$ bằng\n\nA. $\\log_{12} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(12 \\right)}}$.\nB. $\\log_{12} a+\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(12 \\right)}}$.\nC. $\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(12 \\right)}}-\\log_{12} a$.\nD. $\\log_{12} a-38$.",
+    "dap_an": "A. $\\log_{12} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(12 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{12}\\dfrac{a}{38}=\\log_{12} a-\\log_{12}38=\\log_{12} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(12 \\right)}}$.",
+    "params": {
+      "c": "12",
+      "k": "38"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{29}\\dfrac{a}{30}$ bằng\n\nA. $\\log_{29} a+\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(29 \\right)}}$.\nB. $\\log_{29} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(29 \\right)}}$.\nC. $\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(29 \\right)}}-\\log_{29} a$.\nD. $\\log_{29} a-30$.",
+    "dap_an": "B. $\\log_{29} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{29}\\dfrac{a}{30}=\\log_{29} a-\\log_{29}30=\\log_{29} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "params": {
+      "c": "29",
+      "k": "30"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{6}\\dfrac{a}{24}$ bằng\n\nA. $\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(6 \\right)}} + 1-\\log_{6} a$.\nB. $\\log_{6} a-24$.\nC. $\\log_{6} a+\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(6 \\right)}} + 1$.\nD. $\\log_{6} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(6 \\right)}} + 1$.",
+    "dap_an": "D. $\\log_{6} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(6 \\right)}} + 1$.",
+    "loi_giai": "Ta có $\\log_{6}\\dfrac{a}{24}=\\log_{6} a-\\log_{6}24=\\log_{6} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(6 \\right)}} + 1$.",
+    "params": {
+      "c": "6",
+      "k": "24"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{7}\\dfrac{a}{13}$ bằng\n\nA. $\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(7 \\right)}}-\\log_{7} a$.\nB. $\\log_{7} a+\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(7 \\right)}}$.\nC. $\\log_{7} a-\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(7 \\right)}}$.\nD. $\\log_{7} a-13$.",
+    "dap_an": "C. $\\log_{7} a-\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{7}\\dfrac{a}{13}=\\log_{7} a-\\log_{7}13=\\log_{7} a-\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "params": {
+      "c": "7",
+      "k": "13"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{24}\\dfrac{a}{88}$ bằng\n\nA. $\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(24 \\right)}}-\\log_{24} a$.\nB. $\\log_{24} a-88$.\nC. $\\log_{24} a-\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(24 \\right)}}$.\nD. $\\log_{24} a+\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "dap_an": "C. $\\log_{24} a-\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{24}\\dfrac{a}{88}=\\log_{24} a-\\log_{24}88=\\log_{24} a-\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(24 \\right)}}$.",
+    "params": {
+      "c": "24",
+      "k": "88"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{27}\\dfrac{a}{62}$ bằng\n\nA. $\\log_{27} a-62$.\nB. $\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(27 \\right)}}-\\log_{27} a$.\nC. $\\log_{27} a+\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(27 \\right)}}$.\nD. $\\log_{27} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "dap_an": "D. $\\log_{27} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{27}\\dfrac{a}{62}=\\log_{27} a-\\log_{27}62=\\log_{27} a-\\dfrac{\\log{\\left(62 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "params": {
+      "c": "27",
+      "k": "62"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{31}$ bằng\n\nA. $\\dfrac{\\log{\\left(31 \\right)}}{\\log{\\left(26 \\right)}}-\\log_{26} a$.\nB. $\\log_{26} a-31$.\nC. $\\log_{26} a+\\dfrac{\\log{\\left(31 \\right)}}{\\log{\\left(26 \\right)}}$.\nD. $\\log_{26} a-\\dfrac{\\log{\\left(31 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "dap_an": "D. $\\log_{26} a-\\dfrac{\\log{\\left(31 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{31}=\\log_{26} a-\\log_{26}31=\\log_{26} a-\\dfrac{\\log{\\left(31 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "params": {
+      "c": "26",
+      "k": "31"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{21}\\dfrac{a}{4}$ bằng\n\nA. $\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(21 \\right)}}-\\log_{21} a$.\nB. $\\log_{21} a-4$.\nC. $\\log_{21} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(21 \\right)}}$.\nD. $\\log_{21} a+\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "dap_an": "C. $\\log_{21} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{21}\\dfrac{a}{4}=\\log_{21} a-\\log_{21}4=\\log_{21} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "params": {
+      "c": "21",
       "k": "4"
     }
   },
   {
     "id_goc": "p110_q17",
     "ma_dang": "D49",
-    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{9}$ bằng\n\nA. $\\log_{3} a-9$.\nB. $2-\\log_{3} a$.\nC. $\\log_{3} a-2$.\nD. $\\log_{3} a+2$.",
-    "dap_an": "C. $\\log_{3} a-2$.",
-    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{9}=\\log_{3} a-\\log_{3}9=\\log_{3} a-2$.",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{12}\\dfrac{a}{33}$ bằng\n\nA. $\\log_{12} a-33$.\nB. $\\log_{12} a+\\dfrac{\\log{\\left(33 \\right)}}{\\log{\\left(12 \\right)}}$.\nC. $\\log_{12} a-\\dfrac{\\log{\\left(33 \\right)}}{\\log{\\left(12 \\right)}}$.\nD. $\\dfrac{\\log{\\left(33 \\right)}}{\\log{\\left(12 \\right)}}-\\log_{12} a$.",
+    "dap_an": "C. $\\log_{12} a-\\dfrac{\\log{\\left(33 \\right)}}{\\log{\\left(12 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{12}\\dfrac{a}{33}=\\log_{12} a-\\log_{12}33=\\log_{12} a-\\dfrac{\\log{\\left(33 \\right)}}{\\log{\\left(12 \\right)}}$.",
     "params": {
-      "c": "3",
-      "k": "9"
+      "c": "12",
+      "k": "33"
     }
   },
   {
     "id_goc": "p110_q17",
     "ma_dang": "D49",
-    "ten_dang": "Tách lôgarit của một thương thành hiệu hai lôgarit",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{8}$ bằng\n\nA. $\\log_{2} a+3$.\nB. $\\log_{2} a-3$.\nC. $\\log_{2} a-8$.\nD. $3-\\log_{2} a$.",
-    "dap_an": "B. $\\log_{2} a-3$.",
-    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{8}=\\log_{2} a-\\log_{2}8=\\log_{2} a-3$.",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{8}\\dfrac{a}{38}$ bằng\n\nA. $\\log_{8} a+\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(8 \\right)}}$.\nB. $\\log_{8} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(8 \\right)}}$.\nC. $\\log_{8} a-38$.\nD. $\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(8 \\right)}}-\\log_{8} a$.",
+    "dap_an": "B. $\\log_{8} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{8}\\dfrac{a}{38}=\\log_{8} a-\\log_{8}38=\\log_{8} a-\\dfrac{\\log{\\left(38 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "params": {
+      "c": "8",
+      "k": "38"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{4}\\dfrac{a}{48}$ bằng\n\nA. $\\log_{4} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}} + 2$.\nB. $\\log_{4} a-48$.\nC. $\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}} + 2-\\log_{4} a$.\nD. $\\log_{4} a+\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}} + 2$.",
+    "dap_an": "A. $\\log_{4} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}} + 2$.",
+    "loi_giai": "Ta có $\\log_{4}\\dfrac{a}{48}=\\log_{4} a-\\log_{4}48=\\log_{4} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(4 \\right)}} + 2$.",
+    "params": {
+      "c": "4",
+      "k": "48"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{12}\\dfrac{a}{50}$ bằng\n\nA. $\\log_{12} a-50$.\nB. $\\dfrac{\\log{\\left(50 \\right)}}{\\log{\\left(12 \\right)}}-\\log_{12} a$.\nC. $\\log_{12} a-\\dfrac{\\log{\\left(50 \\right)}}{\\log{\\left(12 \\right)}}$.\nD. $\\log_{12} a+\\dfrac{\\log{\\left(50 \\right)}}{\\log{\\left(12 \\right)}}$.",
+    "dap_an": "C. $\\log_{12} a-\\dfrac{\\log{\\left(50 \\right)}}{\\log{\\left(12 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{12}\\dfrac{a}{50}=\\log_{12} a-\\log_{12}50=\\log_{12} a-\\dfrac{\\log{\\left(50 \\right)}}{\\log{\\left(12 \\right)}}$.",
+    "params": {
+      "c": "12",
+      "k": "50"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{19}\\dfrac{a}{32}$ bằng\n\nA. $\\log_{19} a+\\dfrac{\\log{\\left(32 \\right)}}{\\log{\\left(19 \\right)}}$.\nB. $\\dfrac{\\log{\\left(32 \\right)}}{\\log{\\left(19 \\right)}}-\\log_{19} a$.\nC. $\\log_{19} a-32$.\nD. $\\log_{19} a-\\dfrac{\\log{\\left(32 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "dap_an": "D. $\\log_{19} a-\\dfrac{\\log{\\left(32 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{19}\\dfrac{a}{32}=\\log_{19} a-\\log_{19}32=\\log_{19} a-\\dfrac{\\log{\\left(32 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "params": {
+      "c": "19",
+      "k": "32"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{28}\\dfrac{a}{56}$ bằng\n\nA. $\\log_{28} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(28 \\right)}} + 1$.\nB. $\\log_{28} a+\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(28 \\right)}} + 1$.\nC. $\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(28 \\right)}} + 1-\\log_{28} a$.\nD. $\\log_{28} a-56$.",
+    "dap_an": "A. $\\log_{28} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(28 \\right)}} + 1$.",
+    "loi_giai": "Ta có $\\log_{28}\\dfrac{a}{56}=\\log_{28} a-\\log_{28}56=\\log_{28} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(28 \\right)}} + 1$.",
+    "params": {
+      "c": "28",
+      "k": "56"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{29}\\dfrac{a}{11}$ bằng\n\nA. $\\log_{29} a-\\dfrac{\\log{\\left(11 \\right)}}{\\log{\\left(29 \\right)}}$.\nB. $\\log_{29} a+\\dfrac{\\log{\\left(11 \\right)}}{\\log{\\left(29 \\right)}}$.\nC. $\\dfrac{\\log{\\left(11 \\right)}}{\\log{\\left(29 \\right)}}-\\log_{29} a$.\nD. $\\log_{29} a-11$.",
+    "dap_an": "A. $\\log_{29} a-\\dfrac{\\log{\\left(11 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{29}\\dfrac{a}{11}=\\log_{29} a-\\log_{29}11=\\log_{29} a-\\dfrac{\\log{\\left(11 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "params": {
+      "c": "29",
+      "k": "11"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{19}\\dfrac{a}{88}$ bằng\n\nA. $\\log_{19} a-\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(19 \\right)}}$.\nB. $\\log_{19} a+\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(19 \\right)}}$.\nC. $\\log_{19} a-88$.\nD. $\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(19 \\right)}}-\\log_{19} a$.",
+    "dap_an": "A. $\\log_{19} a-\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{19}\\dfrac{a}{88}=\\log_{19} a-\\log_{19}88=\\log_{19} a-\\dfrac{\\log{\\left(88 \\right)}}{\\log{\\left(19 \\right)}}$.",
+    "params": {
+      "c": "19",
+      "k": "88"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{14}\\dfrac{a}{25}$ bằng\n\nA. $\\log_{14} a+\\dfrac{\\log{\\left(25 \\right)}}{\\log{\\left(14 \\right)}}$.\nB. $\\dfrac{\\log{\\left(25 \\right)}}{\\log{\\left(14 \\right)}}-\\log_{14} a$.\nC. $\\log_{14} a-\\dfrac{\\log{\\left(25 \\right)}}{\\log{\\left(14 \\right)}}$.\nD. $\\log_{14} a-25$.",
+    "dap_an": "C. $\\log_{14} a-\\dfrac{\\log{\\left(25 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{14}\\dfrac{a}{25}=\\log_{14} a-\\log_{14}25=\\log_{14} a-\\dfrac{\\log{\\left(25 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "params": {
+      "c": "14",
+      "k": "25"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{9}\\dfrac{a}{91}$ bằng\n\nA. $\\dfrac{\\log{\\left(91 \\right)}}{\\log{\\left(9 \\right)}}-\\log_{9} a$.\nB. $\\log_{9} a+\\dfrac{\\log{\\left(91 \\right)}}{\\log{\\left(9 \\right)}}$.\nC. $\\log_{9} a-91$.\nD. $\\log_{9} a-\\dfrac{\\log{\\left(91 \\right)}}{\\log{\\left(9 \\right)}}$.",
+    "dap_an": "D. $\\log_{9} a-\\dfrac{\\log{\\left(91 \\right)}}{\\log{\\left(9 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{9}\\dfrac{a}{91}=\\log_{9} a-\\log_{9}91=\\log_{9} a-\\dfrac{\\log{\\left(91 \\right)}}{\\log{\\left(9 \\right)}}$.",
+    "params": {
+      "c": "9",
+      "k": "91"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{30}$ bằng\n\nA. $1 + \\dfrac{\\log{\\left(10 \\right)}}{\\log{\\left(3 \\right)}}-\\log_{3} a$.\nB. $\\log_{3} a-30$.\nC. $\\log_{3} a+1 + \\dfrac{\\log{\\left(10 \\right)}}{\\log{\\left(3 \\right)}}$.\nD. $\\log_{3} a-1 + \\dfrac{\\log{\\left(10 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "dap_an": "D. $\\log_{3} a-1 + \\dfrac{\\log{\\left(10 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{30}=\\log_{3} a-\\log_{3}30=\\log_{3} a-1 + \\dfrac{\\log{\\left(10 \\right)}}{\\log{\\left(3 \\right)}}$.",
+    "params": {
+      "c": "3",
+      "k": "30"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{16}\\dfrac{a}{36}$ bằng\n\nA. $\\log_{16} a-36$.\nB. $\\log_{16} a+\\dfrac{\\log{\\left(36 \\right)}}{\\log{\\left(16 \\right)}}$.\nC. $\\log_{16} a-\\dfrac{\\log{\\left(36 \\right)}}{\\log{\\left(16 \\right)}}$.\nD. $\\dfrac{\\log{\\left(36 \\right)}}{\\log{\\left(16 \\right)}}-\\log_{16} a$.",
+    "dap_an": "C. $\\log_{16} a-\\dfrac{\\log{\\left(36 \\right)}}{\\log{\\left(16 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{16}\\dfrac{a}{36}=\\log_{16} a-\\log_{16}36=\\log_{16} a-\\dfrac{\\log{\\left(36 \\right)}}{\\log{\\left(16 \\right)}}$.",
+    "params": {
+      "c": "16",
+      "k": "36"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{8}\\dfrac{a}{71}$ bằng\n\nA. $\\log_{8} a-\\dfrac{\\log{\\left(71 \\right)}}{\\log{\\left(8 \\right)}}$.\nB. $\\log_{8} a-71$.\nC. $\\log_{8} a+\\dfrac{\\log{\\left(71 \\right)}}{\\log{\\left(8 \\right)}}$.\nD. $\\dfrac{\\log{\\left(71 \\right)}}{\\log{\\left(8 \\right)}}-\\log_{8} a$.",
+    "dap_an": "A. $\\log_{8} a-\\dfrac{\\log{\\left(71 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{8}\\dfrac{a}{71}=\\log_{8} a-\\log_{8}71=\\log_{8} a-\\dfrac{\\log{\\left(71 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "params": {
+      "c": "8",
+      "k": "71"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{6}\\dfrac{a}{78}$ bằng\n\nA. $\\log_{6} a-1 + \\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(6 \\right)}}$.\nB. $\\log_{6} a-78$.\nC. $\\log_{6} a+1 + \\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(6 \\right)}}$.\nD. $1 + \\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(6 \\right)}}-\\log_{6} a$.",
+    "dap_an": "A. $\\log_{6} a-1 + \\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(6 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{6}\\dfrac{a}{78}=\\log_{6} a-\\log_{6}78=\\log_{6} a-1 + \\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(6 \\right)}}$.",
+    "params": {
+      "c": "6",
+      "k": "78"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{3}\\dfrac{a}{18}$ bằng\n\nA. $\\log_{3} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}} + 2$.\nB. $\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}} + 2-\\log_{3} a$.\nC. $\\log_{3} a-18$.\nD. $\\log_{3} a+\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}} + 2$.",
+    "dap_an": "A. $\\log_{3} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}} + 2$.",
+    "loi_giai": "Ta có $\\log_{3}\\dfrac{a}{18}=\\log_{3} a-\\log_{3}18=\\log_{3} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(3 \\right)}} + 2$.",
+    "params": {
+      "c": "3",
+      "k": "18"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{5}\\dfrac{a}{67}$ bằng\n\nA. $\\log_{5} a-67$.\nB. $\\dfrac{\\log{\\left(67 \\right)}}{\\log{\\left(5 \\right)}}-\\log_{5} a$.\nC. $\\log_{5} a-\\dfrac{\\log{\\left(67 \\right)}}{\\log{\\left(5 \\right)}}$.\nD. $\\log_{5} a+\\dfrac{\\log{\\left(67 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "dap_an": "C. $\\log_{5} a-\\dfrac{\\log{\\left(67 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{5}\\dfrac{a}{67}=\\log_{5} a-\\log_{5}67=\\log_{5} a-\\dfrac{\\log{\\left(67 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "params": {
+      "c": "5",
+      "k": "67"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{6}$ bằng\n\nA. $1 + \\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(2 \\right)}}-\\log_{2} a$.\nB. $\\log_{2} a-1 + \\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(2 \\right)}}$.\nC. $\\log_{2} a+1 + \\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(2 \\right)}}$.\nD. $\\log_{2} a-6$.",
+    "dap_an": "B. $\\log_{2} a-1 + \\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(2 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{6}=\\log_{2} a-\\log_{2}6=\\log_{2} a-1 + \\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(2 \\right)}}$.",
     "params": {
       "c": "2",
-      "k": "8"
+      "k": "6"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{82}$ bằng\n\nA. $\\log_{26} a-82$.\nB. $\\log_{26} a+\\dfrac{2^{\\dfrac{649}{843}} \\cdot 3^{\\dfrac{107}{281}} \\cdot 5^{\\dfrac{349}{843}} \\cdot 7^{\\dfrac{127}{843}}}{5}$.\nC. $\\dfrac{2^{\\dfrac{649}{843}} \\cdot 3^{\\dfrac{107}{281}} \\cdot 5^{\\dfrac{349}{843}} \\cdot 7^{\\dfrac{127}{843}}}{5}-\\log_{26} a$.\nD. $\\log_{26} a-\\dfrac{2^{\\dfrac{649}{843}} \\cdot 3^{\\dfrac{107}{281}} \\cdot 5^{\\dfrac{349}{843}} \\cdot 7^{\\dfrac{127}{843}}}{5}$.",
+    "dap_an": "D. $\\log_{26} a-\\dfrac{2^{\\dfrac{649}{843}} \\cdot 3^{\\dfrac{107}{281}} \\cdot 5^{\\dfrac{349}{843}} \\cdot 7^{\\dfrac{127}{843}}}{5}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{82}=\\log_{26} a-\\log_{26}82=\\log_{26} a-\\dfrac{2^{\\dfrac{649}{843}} \\cdot 3^{\\dfrac{107}{281}} \\cdot 5^{\\dfrac{349}{843}} \\cdot 7^{\\dfrac{127}{843}}}{5}$.",
+    "params": {
+      "c": "26",
+      "k": "82"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{2}\\dfrac{a}{34}$ bằng\n\nA. $\\log_{2} a-1 + \\dfrac{\\log{\\left(17 \\right)}}{\\log{\\left(2 \\right)}}$.\nB. $1 + \\dfrac{\\log{\\left(17 \\right)}}{\\log{\\left(2 \\right)}}-\\log_{2} a$.\nC. $\\log_{2} a-34$.\nD. $\\log_{2} a+1 + \\dfrac{\\log{\\left(17 \\right)}}{\\log{\\left(2 \\right)}}$.",
+    "dap_an": "A. $\\log_{2} a-1 + \\dfrac{\\log{\\left(17 \\right)}}{\\log{\\left(2 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{2}\\dfrac{a}{34}=\\log_{2} a-\\log_{2}34=\\log_{2} a-1 + \\dfrac{\\log{\\left(17 \\right)}}{\\log{\\left(2 \\right)}}$.",
+    "params": {
+      "c": "2",
+      "k": "34"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{30}$ bằng\n\nA. $\\log_{26} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(26 \\right)}}$.\nB. $\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(26 \\right)}}-\\log_{26} a$.\nC. $\\log_{26} a+\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(26 \\right)}}$.\nD. $\\log_{26} a-30$.",
+    "dap_an": "A. $\\log_{26} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{30}=\\log_{26} a-\\log_{26}30=\\log_{26} a-\\dfrac{\\log{\\left(30 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "params": {
+      "c": "26",
+      "k": "30"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{8}\\dfrac{a}{15}$ bằng\n\nA. $\\log_{8} a+\\dfrac{\\log{\\left(15 \\right)}}{\\log{\\left(8 \\right)}}$.\nB. $\\dfrac{\\log{\\left(15 \\right)}}{\\log{\\left(8 \\right)}}-\\log_{8} a$.\nC. $\\log_{8} a-15$.\nD. $\\log_{8} a-\\dfrac{\\log{\\left(15 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "dap_an": "D. $\\log_{8} a-\\dfrac{\\log{\\left(15 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{8}\\dfrac{a}{15}=\\log_{8} a-\\log_{8}15=\\log_{8} a-\\dfrac{\\log{\\left(15 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "params": {
+      "c": "8",
+      "k": "15"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{27}\\dfrac{a}{5}$ bằng\n\nA. $\\log_{27} a-5$.\nB. $\\dfrac{\\log{\\left(5 \\right)}}{\\log{\\left(27 \\right)}}-\\log_{27} a$.\nC. $\\log_{27} a-\\dfrac{\\log{\\left(5 \\right)}}{\\log{\\left(27 \\right)}}$.\nD. $\\log_{27} a+\\dfrac{\\log{\\left(5 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "dap_an": "C. $\\log_{27} a-\\dfrac{\\log{\\left(5 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{27}\\dfrac{a}{5}=\\log_{27} a-\\log_{27}5=\\log_{27} a-\\dfrac{\\log{\\left(5 \\right)}}{\\log{\\left(27 \\right)}}$.",
+    "params": {
+      "c": "27",
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{10}\\dfrac{a}{84}$ bằng\n\nA. $\\log_{10} a-\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(10 \\right)}}$.\nB. $\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(10 \\right)}}-\\log_{10} a$.\nC. $\\log_{10} a+\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(10 \\right)}}$.\nD. $\\log_{10} a-84$.",
+    "dap_an": "A. $\\log_{10} a-\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{10}\\dfrac{a}{84}=\\log_{10} a-\\log_{10}84=\\log_{10} a-\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "params": {
+      "c": "10",
+      "k": "84"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{5}\\dfrac{a}{51}$ bằng\n\nA. $\\dfrac{\\log{\\left(51 \\right)}}{\\log{\\left(5 \\right)}}-\\log_{5} a$.\nB. $\\log_{5} a-51$.\nC. $\\log_{5} a+\\dfrac{\\log{\\left(51 \\right)}}{\\log{\\left(5 \\right)}}$.\nD. $\\log_{5} a-\\dfrac{\\log{\\left(51 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "dap_an": "D. $\\log_{5} a-\\dfrac{\\log{\\left(51 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{5}\\dfrac{a}{51}=\\log_{5} a-\\log_{5}51=\\log_{5} a-\\dfrac{\\log{\\left(51 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "params": {
+      "c": "5",
+      "k": "51"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{5}\\dfrac{a}{40}$ bằng\n\nA. $\\log_{5} a-1 + \\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(5 \\right)}}$.\nB. $\\log_{5} a+1 + \\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(5 \\right)}}$.\nC. $\\log_{5} a-40$.\nD. $1 + \\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(5 \\right)}}-\\log_{5} a$.",
+    "dap_an": "A. $\\log_{5} a-1 + \\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{5}\\dfrac{a}{40}=\\log_{5} a-\\log_{5}40=\\log_{5} a-1 + \\dfrac{\\log{\\left(8 \\right)}}{\\log{\\left(5 \\right)}}$.",
+    "params": {
+      "c": "5",
+      "k": "40"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{11}\\dfrac{a}{42}$ bằng\n\nA. $\\log_{11} a-42$.\nB. $\\log_{11} a+\\dfrac{\\log{\\left(42 \\right)}}{\\log{\\left(11 \\right)}}$.\nC. $\\log_{11} a-\\dfrac{\\log{\\left(42 \\right)}}{\\log{\\left(11 \\right)}}$.\nD. $\\dfrac{\\log{\\left(42 \\right)}}{\\log{\\left(11 \\right)}}-\\log_{11} a$.",
+    "dap_an": "C. $\\log_{11} a-\\dfrac{\\log{\\left(42 \\right)}}{\\log{\\left(11 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{11}\\dfrac{a}{42}=\\log_{11} a-\\log_{11}42=\\log_{11} a-\\dfrac{\\log{\\left(42 \\right)}}{\\log{\\left(11 \\right)}}$.",
+    "params": {
+      "c": "11",
+      "k": "42"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{6}\\dfrac{a}{2}$ bằng\n\nA. $\\log_{6} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(6 \\right)}}$.\nB. $\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(6 \\right)}}-\\log_{6} a$.\nC. $\\log_{6} a+\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(6 \\right)}}$.\nD. $\\log_{6} a-2$.",
+    "dap_an": "A. $\\log_{6} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(6 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{6}\\dfrac{a}{2}=\\log_{6} a-\\log_{6}2=\\log_{6} a-\\dfrac{\\log{\\left(2 \\right)}}{\\log{\\left(6 \\right)}}$.",
+    "params": {
+      "c": "6",
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{18}\\dfrac{a}{57}$ bằng\n\nA. $\\log_{18} a-\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(18 \\right)}}$.\nB. $\\log_{18} a-57$.\nC. $\\log_{18} a+\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(18 \\right)}}$.\nD. $\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(18 \\right)}}-\\log_{18} a$.",
+    "dap_an": "A. $\\log_{18} a-\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{18}\\dfrac{a}{57}=\\log_{18} a-\\log_{18}57=\\log_{18} a-\\dfrac{\\log{\\left(57 \\right)}}{\\log{\\left(18 \\right)}}$.",
+    "params": {
+      "c": "18",
+      "k": "57"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{8}\\dfrac{a}{45}$ bằng\n\nA. $\\log_{8} a+\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(8 \\right)}}$.\nB. $\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(8 \\right)}}-\\log_{8} a$.\nC. $\\log_{8} a-\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(8 \\right)}}$.\nD. $\\log_{8} a-45$.",
+    "dap_an": "C. $\\log_{8} a-\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{8}\\dfrac{a}{45}=\\log_{8} a-\\log_{8}45=\\log_{8} a-\\dfrac{\\log{\\left(45 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "params": {
+      "c": "8",
+      "k": "45"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{13}$ bằng\n\nA. $\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(26 \\right)}}-\\log_{26} a$.\nB. $\\log_{26} a+\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(26 \\right)}}$.\nC. $\\log_{26} a-\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(26 \\right)}}$.\nD. $\\log_{26} a-13$.",
+    "dap_an": "C. $\\log_{26} a-\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{13}=\\log_{26} a-\\log_{26}13=\\log_{26} a-\\dfrac{\\log{\\left(13 \\right)}}{\\log{\\left(26 \\right)}}$.",
+    "params": {
+      "c": "26",
+      "k": "13"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{14}\\dfrac{a}{95}$ bằng\n\nA. $\\dfrac{\\log{\\left(95 \\right)}}{\\log{\\left(14 \\right)}}-\\log_{14} a$.\nB. $\\log_{14} a-95$.\nC. $\\log_{14} a-\\dfrac{\\log{\\left(95 \\right)}}{\\log{\\left(14 \\right)}}$.\nD. $\\log_{14} a+\\dfrac{\\log{\\left(95 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "dap_an": "C. $\\log_{14} a-\\dfrac{\\log{\\left(95 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{14}\\dfrac{a}{95}=\\log_{14} a-\\log_{14}95=\\log_{14} a-\\dfrac{\\log{\\left(95 \\right)}}{\\log{\\left(14 \\right)}}$.",
+    "params": {
+      "c": "14",
+      "k": "95"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{17}\\dfrac{a}{79}$ bằng\n\nA. $\\log_{17} a-79$.\nB. $\\log_{17} a+\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(17 \\right)}}$.\nC. $\\log_{17} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(17 \\right)}}$.\nD. $\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(17 \\right)}}-\\log_{17} a$.",
+    "dap_an": "C. $\\log_{17} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{17}\\dfrac{a}{79}=\\log_{17} a-\\log_{17}79=\\log_{17} a-\\dfrac{\\log{\\left(79 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "params": {
+      "c": "17",
+      "k": "79"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{17}\\dfrac{a}{68}$ bằng\n\nA. $\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(17 \\right)}} + 1-\\log_{17} a$.\nB. $\\log_{17} a-68$.\nC. $\\log_{17} a+\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(17 \\right)}} + 1$.\nD. $\\log_{17} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(17 \\right)}} + 1$.",
+    "dap_an": "D. $\\log_{17} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(17 \\right)}} + 1$.",
+    "loi_giai": "Ta có $\\log_{17}\\dfrac{a}{68}=\\log_{17} a-\\log_{17}68=\\log_{17} a-\\dfrac{\\log{\\left(4 \\right)}}{\\log{\\left(17 \\right)}} + 1$.",
+    "params": {
+      "c": "17",
+      "k": "68"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{23}\\dfrac{a}{28}$ bằng\n\nA. $\\log_{23} a-28$.\nB. $\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(23 \\right)}}-\\log_{23} a$.\nC. $\\log_{23} a+\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(23 \\right)}}$.\nD. $\\log_{23} a-\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(23 \\right)}}$.",
+    "dap_an": "D. $\\log_{23} a-\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(23 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{23}\\dfrac{a}{28}=\\log_{23} a-\\log_{23}28=\\log_{23} a-\\dfrac{\\log{\\left(28 \\right)}}{\\log{\\left(23 \\right)}}$.",
+    "params": {
+      "c": "23",
+      "k": "28"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{10}\\dfrac{a}{65}$ bằng\n\nA. $\\log_{10} a-65$.\nB. $\\log_{10} a-\\dfrac{\\log{\\left(65 \\right)}}{\\log{\\left(10 \\right)}}$.\nC. $\\log_{10} a+\\dfrac{\\log{\\left(65 \\right)}}{\\log{\\left(10 \\right)}}$.\nD. $\\dfrac{\\log{\\left(65 \\right)}}{\\log{\\left(10 \\right)}}-\\log_{10} a$.",
+    "dap_an": "B. $\\log_{10} a-\\dfrac{\\log{\\left(65 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{10}\\dfrac{a}{65}=\\log_{10} a-\\log_{10}65=\\log_{10} a-\\dfrac{\\log{\\left(65 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "params": {
+      "c": "10",
+      "k": "65"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{28}\\dfrac{a}{86}$ bằng\n\nA. $\\log_{28} a+\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(28 \\right)}}$.\nB. $\\log_{28} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(28 \\right)}}$.\nC. $\\log_{28} a-86$.\nD. $\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(28 \\right)}}-\\log_{28} a$.",
+    "dap_an": "B. $\\log_{28} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(28 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{28}\\dfrac{a}{86}=\\log_{28} a-\\log_{28}86=\\log_{28} a-\\dfrac{\\log{\\left(86 \\right)}}{\\log{\\left(28 \\right)}}$.",
+    "params": {
+      "c": "28",
+      "k": "86"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{8}\\dfrac{a}{84}$ bằng\n\nA. $\\log_{8} a-84$.\nB. $\\log_{8} a+\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(8 \\right)}}$.\nC. $\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(8 \\right)}}-\\log_{8} a$.\nD. $\\log_{8} a-\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "dap_an": "D. $\\log_{8} a-\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{8}\\dfrac{a}{84}=\\log_{8} a-\\log_{8}84=\\log_{8} a-\\dfrac{\\log{\\left(84 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "params": {
+      "c": "8",
+      "k": "84"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{23}\\dfrac{a}{5}$ bằng\n\nA. $\\log_{23} a-\\dfrac{5 \\cdot 2^{\\dfrac{91}{181}} \\cdot 3^{\\dfrac{153}{181}} \\cdot 5^{\\dfrac{156}{181}} \\cdot 7^{\\dfrac{146}{181}}}{672}$.\nB. $\\dfrac{5 \\cdot 2^{\\dfrac{91}{181}} \\cdot 3^{\\dfrac{153}{181}} \\cdot 5^{\\dfrac{156}{181}} \\cdot 7^{\\dfrac{146}{181}}}{672}-\\log_{23} a$.\nC. $\\log_{23} a-5$.\nD. $\\log_{23} a+\\dfrac{5 \\cdot 2^{\\dfrac{91}{181}} \\cdot 3^{\\dfrac{153}{181}} \\cdot 5^{\\dfrac{156}{181}} \\cdot 7^{\\dfrac{146}{181}}}{672}$.",
+    "dap_an": "A. $\\log_{23} a-\\dfrac{5 \\cdot 2^{\\dfrac{91}{181}} \\cdot 3^{\\dfrac{153}{181}} \\cdot 5^{\\dfrac{156}{181}} \\cdot 7^{\\dfrac{146}{181}}}{672}$.",
+    "loi_giai": "Ta có $\\log_{23}\\dfrac{a}{5}=\\log_{23} a-\\log_{23}5=\\log_{23} a-\\dfrac{5 \\cdot 2^{\\dfrac{91}{181}} \\cdot 3^{\\dfrac{153}{181}} \\cdot 5^{\\dfrac{156}{181}} \\cdot 7^{\\dfrac{146}{181}}}{672}$.",
+    "params": {
+      "c": "23",
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{17}\\dfrac{a}{3}$ bằng\n\nA. $\\log_{17} a+\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(17 \\right)}}$.\nB. $\\log_{17} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(17 \\right)}}$.\nC. $\\log_{17} a-3$.\nD. $\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(17 \\right)}}-\\log_{17} a$.",
+    "dap_an": "B. $\\log_{17} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{17}\\dfrac{a}{3}=\\log_{17} a-\\log_{17}3=\\log_{17} a-\\dfrac{\\log{\\left(3 \\right)}}{\\log{\\left(17 \\right)}}$.",
+    "params": {
+      "c": "17",
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{29}\\dfrac{a}{72}$ bằng\n\nA. $\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(29 \\right)}}-\\log_{29} a$.\nB. $\\log_{29} a-72$.\nC. $\\log_{29} a+\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(29 \\right)}}$.\nD. $\\log_{29} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "dap_an": "D. $\\log_{29} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{29}\\dfrac{a}{72}=\\log_{29} a-\\log_{29}72=\\log_{29} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(29 \\right)}}$.",
+    "params": {
+      "c": "29",
+      "k": "72"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{10}\\dfrac{a}{73}$ bằng\n\nA. $\\log_{10} a-73$.\nB. $\\log_{10} a+\\dfrac{\\log{\\left(73 \\right)}}{\\log{\\left(10 \\right)}}$.\nC. $\\log_{10} a-\\dfrac{\\log{\\left(73 \\right)}}{\\log{\\left(10 \\right)}}$.\nD. $\\dfrac{\\log{\\left(73 \\right)}}{\\log{\\left(10 \\right)}}-\\log_{10} a$.",
+    "dap_an": "C. $\\log_{10} a-\\dfrac{\\log{\\left(73 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{10}\\dfrac{a}{73}=\\log_{10} a-\\log_{10}73=\\log_{10} a-\\dfrac{\\log{\\left(73 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "params": {
+      "c": "10",
+      "k": "73"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{28}\\dfrac{a}{24}$ bằng\n\nA. $\\log_{28} a-\\dfrac{\\log{\\left(24 \\right)}}{\\log{\\left(28 \\right)}}$.\nB. $\\log_{28} a+\\dfrac{\\log{\\left(24 \\right)}}{\\log{\\left(28 \\right)}}$.\nC. $\\dfrac{\\log{\\left(24 \\right)}}{\\log{\\left(28 \\right)}}-\\log_{28} a$.\nD. $\\log_{28} a-24$.",
+    "dap_an": "A. $\\log_{28} a-\\dfrac{\\log{\\left(24 \\right)}}{\\log{\\left(28 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{28}\\dfrac{a}{24}=\\log_{28} a-\\log_{28}24=\\log_{28} a-\\dfrac{\\log{\\left(24 \\right)}}{\\log{\\left(28 \\right)}}$.",
+    "params": {
+      "c": "28",
+      "k": "24"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{21}\\dfrac{a}{29}$ bằng\n\nA. $\\log_{21} a-29$.\nB. $\\log_{21} a-\\dfrac{\\log{\\left(29 \\right)}}{\\log{\\left(21 \\right)}}$.\nC. $\\dfrac{\\log{\\left(29 \\right)}}{\\log{\\left(21 \\right)}}-\\log_{21} a$.\nD. $\\log_{21} a+\\dfrac{\\log{\\left(29 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "dap_an": "B. $\\log_{21} a-\\dfrac{\\log{\\left(29 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{21}\\dfrac{a}{29}=\\log_{21} a-\\log_{21}29=\\log_{21} a-\\dfrac{\\log{\\left(29 \\right)}}{\\log{\\left(21 \\right)}}$.",
+    "params": {
+      "c": "21",
+      "k": "29"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{26}\\dfrac{a}{77}$ bằng\n\nA. $\\log_{26} a-77$.\nB. $\\log_{26} a-\\dfrac{243 \\cdot 2^{\\dfrac{93}{136}} \\cdot 3^{\\dfrac{117}{136}} \\cdot 5^{\\dfrac{79}{136}} \\cdot 7^{\\dfrac{25}{136}}}{2744}$.\nC. $\\dfrac{243 \\cdot 2^{\\dfrac{93}{136}} \\cdot 3^{\\dfrac{117}{136}} \\cdot 5^{\\dfrac{79}{136}} \\cdot 7^{\\dfrac{25}{136}}}{2744}-\\log_{26} a$.\nD. $\\log_{26} a+\\dfrac{243 \\cdot 2^{\\dfrac{93}{136}} \\cdot 3^{\\dfrac{117}{136}} \\cdot 5^{\\dfrac{79}{136}} \\cdot 7^{\\dfrac{25}{136}}}{2744}$.",
+    "dap_an": "B. $\\log_{26} a-\\dfrac{243 \\cdot 2^{\\dfrac{93}{136}} \\cdot 3^{\\dfrac{117}{136}} \\cdot 5^{\\dfrac{79}{136}} \\cdot 7^{\\dfrac{25}{136}}}{2744}$.",
+    "loi_giai": "Ta có $\\log_{26}\\dfrac{a}{77}=\\log_{26} a-\\log_{26}77=\\log_{26} a-\\dfrac{243 \\cdot 2^{\\dfrac{93}{136}} \\cdot 3^{\\dfrac{117}{136}} \\cdot 5^{\\dfrac{79}{136}} \\cdot 7^{\\dfrac{25}{136}}}{2744}$.",
+    "params": {
+      "c": "26",
+      "k": "77"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{7}\\dfrac{a}{19}$ bằng\n\nA. $\\dfrac{\\log{\\left(19 \\right)}}{\\log{\\left(7 \\right)}}-\\log_{7} a$.\nB. $\\log_{7} a-19$.\nC. $\\log_{7} a-\\dfrac{\\log{\\left(19 \\right)}}{\\log{\\left(7 \\right)}}$.\nD. $\\log_{7} a+\\dfrac{\\log{\\left(19 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "dap_an": "C. $\\log_{7} a-\\dfrac{\\log{\\left(19 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{7}\\dfrac{a}{19}=\\log_{7} a-\\log_{7}19=\\log_{7} a-\\dfrac{\\log{\\left(19 \\right)}}{\\log{\\left(7 \\right)}}$.",
+    "params": {
+      "c": "7",
+      "k": "19"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{8}\\dfrac{a}{75}$ bằng\n\nA. $\\log_{8} a-75$.\nB. $\\log_{8} a+\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(8 \\right)}}$.\nC. $\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(8 \\right)}}-\\log_{8} a$.\nD. $\\log_{8} a-\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "dap_an": "D. $\\log_{8} a-\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{8}\\dfrac{a}{75}=\\log_{8} a-\\log_{8}75=\\log_{8} a-\\dfrac{\\log{\\left(75 \\right)}}{\\log{\\left(8 \\right)}}$.",
+    "params": {
+      "c": "8",
+      "k": "75"
+    }
+  },
+  {
+    "id_goc": "p110_q17",
+    "ma_dang": "D49",
+    "ten_dang": "Expand a logarithm of a quotient as a difference",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với mọi số thực $a$ dương, $\\log_{10}\\dfrac{a}{72}$ bằng\n\nA. $\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(10 \\right)}}-\\log_{10} a$.\nB. $\\log_{10} a-72$.\nC. $\\log_{10} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(10 \\right)}}$.\nD. $\\log_{10} a+\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "dap_an": "C. $\\log_{10} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "loi_giai": "Ta có $\\log_{10}\\dfrac{a}{72}=\\log_{10} a-\\log_{10}72=\\log_{10} a-\\dfrac{\\log{\\left(72 \\right)}}{\\log{\\left(10 \\right)}}$.",
+    "params": {
+      "c": "10",
+      "k": "72"
     }
   },
   {
     "id_goc": "p033_q13",
     "ma_dang": "D20",
-    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=6$.\nB. $P=1$.\nC. $P=7$.\nD. $P=9$.",
-    "dap_an": "D. $P=9$.",
-    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{3}=\\dfrac{3}{1/3}\\log_a a=9$.",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{1}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-10$.\nB. $P=12$.\nC. $P=11$.\nD. $P=\\dfrac{1}{11}$.",
+    "dap_an": "C. $P=11$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{1}=\\dfrac{1}{1/11}\\log_a a=11$.",
     "params": {
-      "m": "3",
+      "m": "11",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{26}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=33$.\nB. $P=\\dfrac{26}{7}$.\nC. $P=182$.\nD. $P=19$.",
+    "dap_an": "C. $P=182$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{26}=\\dfrac{26}{1/7}\\log_a a=182$.",
+    "params": {
+      "m": "7",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{3}{2}$.\nB. $P=1$.\nC. $P=5$.\nD. $P=6$.",
+    "dap_an": "D. $P=6$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{3}=\\dfrac{3}{1/2}\\log_a a=6$.",
+    "params": {
+      "m": "2",
       "n": "3"
     }
   },
   {
     "id_goc": "p033_q13",
     "ma_dang": "D20",
-    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{4}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=6$.\nB. $P=3$.\nC. $P=8$.\nD. $P=2$.",
-    "dap_an": "C. $P=8$.",
-    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{4}=\\dfrac{4}{1/2}\\log_a a=8$.",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{20}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=240$.\nB. $P=8$.\nC. $P=\\dfrac{5}{3}$.\nD. $P=32$.",
+    "dap_an": "A. $P=240$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{20}=\\dfrac{20}{1/12}\\log_a a=240$.",
     "params": {
-      "m": "2",
-      "n": "4"
+      "m": "12",
+      "n": "20"
     }
   },
   {
     "id_goc": "p033_q13",
     "ma_dang": "D20",
-    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=8$.\nB. $P=-2$.\nC. $P=6$.\nD. $P=\\dfrac{1}{2}$.",
-    "dap_an": "A. $P=8$.",
-    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{2}=\\dfrac{2}{1/4}\\log_a a=8$.",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-9$.\nB. $P=\\dfrac{2}{11}$.\nC. $P=22$.\nD. $P=13$.",
+    "dap_an": "C. $P=22$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{2}=\\dfrac{2}{1/11}\\log_a a=22$.",
     "params": {
-      "m": "4",
+      "m": "11",
       "n": "2"
     }
   },
   {
     "id_goc": "p033_q13",
     "ma_dang": "D20",
-    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{6}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=18$.\nB. $P=3$.\nC. $P=9$.\nD. $P=2$.",
-    "dap_an": "A. $P=18$.",
-    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{6}=\\dfrac{6}{1/3}\\log_a a=18$.",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{30}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=330$.\nB. $P=\\dfrac{30}{11}$.\nC. $P=19$.\nD. $P=41$.",
+    "dap_an": "A. $P=330$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{30}=\\dfrac{30}{1/11}\\log_a a=330$.",
     "params": {
-      "m": "3",
+      "m": "11",
+      "n": "30"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{6}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{1}{2}$.\nB. $P=-6$.\nC. $P=18$.\nD. $P=72$.",
+    "dap_an": "D. $P=72$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{6}=\\dfrac{6}{1/12}\\log_a a=72$.",
+    "params": {
+      "m": "12",
       "n": "6"
     }
   },
   {
     "id_goc": "p033_q13",
     "ma_dang": "D20",
-    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{5}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=7$.\nB. $P=3$.\nC. $P=\\dfrac{5}{2}$.\nD. $P=10$.",
-    "dap_an": "D. $P=10$.",
-    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{5}=\\dfrac{5}{1/2}\\log_a a=10$.",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[6]{a}} a^{15}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{5}{2}$.\nB. $P=90$.\nC. $P=9$.\nD. $P=21$.",
+    "dap_an": "B. $P=90$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/6}}a^{15}=\\dfrac{15}{1/6}\\log_a a=90$.",
+    "params": {
+      "m": "6",
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=7$.\nB. $P=12$.\nC. $P=-1$.\nD. $P=\\dfrac{3}{4}$.",
+    "dap_an": "B. $P=12$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{3}=\\dfrac{3}{1/4}\\log_a a=12$.",
+    "params": {
+      "m": "4",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{14}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=168$.\nB. $P=26$.\nC. $P=2$.\nD. $P=\\dfrac{7}{6}$.",
+    "dap_an": "A. $P=168$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{14}=\\dfrac{14}{1/12}\\log_a a=168$.",
+    "params": {
+      "m": "12",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{12}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=36$.\nB. $P=4$.\nC. $P=15$.\nD. $P=9$.",
+    "dap_an": "A. $P=36$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{12}=\\dfrac{12}{1/3}\\log_a a=36$.",
+    "params": {
+      "m": "3",
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{14}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=10$.\nB. $P=56$.\nC. $P=\\dfrac{7}{2}$.\nD. $P=18$.",
+    "dap_an": "B. $P=56$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{14}=\\dfrac{14}{1/4}\\log_a a=56$.",
+    "params": {
+      "m": "4",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{22}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=13$.\nB. $P=\\dfrac{22}{9}$.\nC. $P=31$.\nD. $P=198$.",
+    "dap_an": "D. $P=198$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{22}=\\dfrac{22}{1/9}\\log_a a=198$.",
+    "params": {
+      "m": "9",
+      "n": "22"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{10}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=17$.\nB. $P=70$.\nC. $P=\\dfrac{10}{7}$.\nD. $P=3$.",
+    "dap_an": "B. $P=70$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{10}=\\dfrac{10}{1/7}\\log_a a=70$.",
+    "params": {
+      "m": "7",
+      "n": "10"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{14}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=112$.\nB. $P=\\dfrac{7}{4}$.\nC. $P=22$.\nD. $P=6$.",
+    "dap_an": "A. $P=112$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{14}=\\dfrac{14}{1/8}\\log_a a=112$.",
+    "params": {
+      "m": "8",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{16}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=64$.\nB. $P=4$.\nC. $P=20$.\nD. $P=12$.",
+    "dap_an": "A. $P=64$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{16}=\\dfrac{16}{1/4}\\log_a a=64$.",
+    "params": {
+      "m": "4",
+      "n": "16"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{9}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{9}{8}$.\nB. $P=72$.\nC. $P=17$.\nD. $P=1$.",
+    "dap_an": "B. $P=72$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{9}=\\dfrac{9}{1/8}\\log_a a=72$.",
+    "params": {
+      "m": "8",
+      "n": "9"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{23}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=11$.\nB. $P=\\dfrac{23}{12}$.\nC. $P=35$.\nD. $P=276$.",
+    "dap_an": "D. $P=276$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{23}=\\dfrac{23}{1/12}\\log_a a=276$.",
+    "params": {
+      "m": "12",
+      "n": "23"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{15}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=17$.\nB. $P=30$.\nC. $P=13$.\nD. $P=\\dfrac{15}{2}$.",
+    "dap_an": "B. $P=30$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{15}=\\dfrac{15}{1/2}\\log_a a=30$.",
     "params": {
       "m": "2",
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{8}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-1$.\nB. $P=17$.\nC. $P=\\dfrac{8}{9}$.\nD. $P=72$.",
+    "dap_an": "D. $P=72$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{8}=\\dfrac{8}{1/9}\\log_a a=72$.",
+    "params": {
+      "m": "9",
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{5}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=14$.\nB. $P=45$.\nC. $P=-4$.\nD. $P=\\dfrac{5}{9}$.",
+    "dap_an": "B. $P=45$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{5}=\\dfrac{5}{1/9}\\log_a a=45$.",
+    "params": {
+      "m": "9",
       "n": "5"
     }
   },
   {
     "id_goc": "p033_q13",
     "ma_dang": "D20",
-    "ten_dang": "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-3$.\nB. $P=10$.\nC. $P=\\dfrac{2}{5}$.\nD. $P=7$.",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{27}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=135$.\nB. $P=32$.\nC. $P=\\dfrac{27}{5}$.\nD. $P=22$.",
+    "dap_an": "A. $P=135$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{27}=\\dfrac{27}{1/5}\\log_a a=135$.",
+    "params": {
+      "m": "5",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{6}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=16$.\nB. $P=\\dfrac{3}{5}$.\nC. $P=60$.\nD. $P=-4$.",
+    "dap_an": "C. $P=60$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{6}=\\dfrac{6}{1/10}\\log_a a=60$.",
+    "params": {
+      "m": "10",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{7}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=15$.\nB. $P=-1$.\nC. $P=\\dfrac{7}{8}$.\nD. $P=56$.",
+    "dap_an": "D. $P=56$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{7}=\\dfrac{7}{1/8}\\log_a a=56$.",
+    "params": {
+      "m": "8",
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{17}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{17}{4}$.\nB. $P=68$.\nC. $P=13$.\nD. $P=21$.",
+    "dap_an": "B. $P=68$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{17}=\\dfrac{17}{1/4}\\log_a a=68$.",
+    "params": {
+      "m": "4",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[6]{a}} a^{18}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=3$.\nB. $P=108$.\nC. $P=12$.\nD. $P=24$.",
+    "dap_an": "B. $P=108$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/6}}a^{18}=\\dfrac{18}{1/6}\\log_a a=108$.",
+    "params": {
+      "m": "6",
+      "n": "18"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{25}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=175$.\nB. $P=\\dfrac{25}{7}$.\nC. $P=32$.\nD. $P=18$.",
+    "dap_an": "A. $P=175$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{25}=\\dfrac{25}{1/7}\\log_a a=175$.",
+    "params": {
+      "m": "7",
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{1}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-1$.\nB. $P=\\dfrac{1}{2}$.\nC. $P=3$.\nD. $P=2$.",
+    "dap_an": "D. $P=2$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{1}=\\dfrac{1}{1/2}\\log_a a=2$.",
+    "params": {
+      "m": "2",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{11}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=19$.\nB. $P=\\dfrac{11}{8}$.\nC. $P=88$.\nD. $P=3$.",
+    "dap_an": "C. $P=88$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{11}=\\dfrac{11}{1/8}\\log_a a=88$.",
+    "params": {
+      "m": "8",
+      "n": "11"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{27}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=23$.\nB. $P=\\dfrac{27}{4}$.\nC. $P=108$.\nD. $P=31$.",
+    "dap_an": "C. $P=108$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{27}=\\dfrac{27}{1/4}\\log_a a=108$.",
+    "params": {
+      "m": "4",
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{24}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=288$.\nB. $P=2$.\nC. $P=12$.\nD. $P=36$.",
+    "dap_an": "A. $P=288$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{24}=\\dfrac{24}{1/12}\\log_a a=288$.",
+    "params": {
+      "m": "12",
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{12}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=24$.\nB. $P=1$.\nC. $P=144$.\nD. $P=25$.",
+    "dap_an": "C. $P=144$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{12}=\\dfrac{12}{1/12}\\log_a a=144$.",
+    "params": {
+      "m": "12",
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{13}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=24$.\nB. $P=2$.\nC. $P=143$.\nD. $P=\\dfrac{13}{11}$.",
+    "dap_an": "C. $P=143$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{13}=\\dfrac{13}{1/11}\\log_a a=143$.",
+    "params": {
+      "m": "11",
+      "n": "13"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{29}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=319$.\nB. $P=\\dfrac{29}{11}$.\nC. $P=18$.\nD. $P=40$.",
+    "dap_an": "A. $P=319$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{29}=\\dfrac{29}{1/11}\\log_a a=319$.",
+    "params": {
+      "m": "11",
+      "n": "29"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{11}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=110$.\nB. $P=\\dfrac{11}{10}$.\nC. $P=1$.\nD. $P=21$.",
+    "dap_an": "A. $P=110$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{11}=\\dfrac{11}{1/10}\\log_a a=110$.",
+    "params": {
+      "m": "10",
+      "n": "11"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{4}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{4}{7}$.\nB. $P=11$.\nC. $P=-3$.\nD. $P=28$.",
+    "dap_an": "D. $P=28$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{4}=\\dfrac{4}{1/7}\\log_a a=28$.",
+    "params": {
+      "m": "7",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-7$.\nB. $P=11$.\nC. $P=18$.\nD. $P=\\dfrac{2}{9}$.",
+    "dap_an": "C. $P=18$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{2}=\\dfrac{2}{1/9}\\log_a a=18$.",
+    "params": {
+      "m": "9",
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{9}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=11$.\nB. $P=18$.\nC. $P=7$.\nD. $P=\\dfrac{9}{2}$.",
+    "dap_an": "B. $P=18$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{9}=\\dfrac{9}{1/2}\\log_a a=18$.",
+    "params": {
+      "m": "2",
+      "n": "9"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[6]{a}} a^{24}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=4$.\nB. $P=144$.\nC. $P=30$.\nD. $P=18$.",
+    "dap_an": "B. $P=144$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/6}}a^{24}=\\dfrac{24}{1/6}\\log_a a=144$.",
+    "params": {
+      "m": "6",
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{26}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=260$.\nB. $P=36$.\nC. $P=\\dfrac{13}{5}$.\nD. $P=16$.",
+    "dap_an": "A. $P=260$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{26}=\\dfrac{26}{1/10}\\log_a a=260$.",
+    "params": {
+      "m": "10",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{12}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=21$.\nB. $P=\\dfrac{4}{3}$.\nC. $P=108$.\nD. $P=3$.",
+    "dap_an": "C. $P=108$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{12}=\\dfrac{12}{1/9}\\log_a a=108$.",
+    "params": {
+      "m": "9",
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{25}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=29$.\nB. $P=21$.\nC. $P=\\dfrac{25}{4}$.\nD. $P=100$.",
+    "dap_an": "D. $P=100$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{25}=\\dfrac{25}{1/4}\\log_a a=100$.",
+    "params": {
+      "m": "4",
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{30}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=10$.\nB. $P=27$.\nC. $P=33$.\nD. $P=90$.",
+    "dap_an": "D. $P=90$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{30}=\\dfrac{30}{1/3}\\log_a a=90$.",
+    "params": {
+      "m": "3",
+      "n": "30"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{30}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=20$.\nB. $P=300$.\nC. $P=40$.\nD. $P=3$.",
+    "dap_an": "B. $P=300$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{30}=\\dfrac{30}{1/10}\\log_a a=300$.",
+    "params": {
+      "m": "10",
+      "n": "30"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=12$.\nB. $P=-6$.\nC. $P=27$.\nD. $P=\\dfrac{1}{3}$.",
+    "dap_an": "C. $P=27$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{3}=\\dfrac{3}{1/9}\\log_a a=27$.",
+    "params": {
+      "m": "9",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{22}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{22}{7}$.\nB. $P=15$.\nC. $P=154$.\nD. $P=29$.",
+    "dap_an": "C. $P=154$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{22}=\\dfrac{22}{1/7}\\log_a a=154$.",
+    "params": {
+      "m": "7",
+      "n": "22"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{11}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=6$.\nB. $P=16$.\nC. $P=\\dfrac{11}{5}$.\nD. $P=55$.",
+    "dap_an": "D. $P=55$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{11}=\\dfrac{11}{1/5}\\log_a a=55$.",
+    "params": {
+      "m": "5",
+      "n": "11"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{13}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=18$.\nB. $P=8$.\nC. $P=65$.\nD. $P=\\dfrac{13}{5}$.",
+    "dap_an": "C. $P=65$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{13}=\\dfrac{13}{1/5}\\log_a a=65$.",
+    "params": {
+      "m": "5",
+      "n": "13"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{6}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=1$.\nB. $P=30$.\nC. $P=11$.\nD. $P=\\dfrac{6}{5}$.",
+    "dap_an": "B. $P=30$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{6}=\\dfrac{6}{1/5}\\log_a a=30$.",
+    "params": {
+      "m": "5",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{28}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=7$.\nB. $P=112$.\nC. $P=32$.\nD. $P=24$.",
+    "dap_an": "B. $P=112$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{28}=\\dfrac{28}{1/4}\\log_a a=112$.",
+    "params": {
+      "m": "4",
+      "n": "28"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{7}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=21$.\nB. $P=10$.\nC. $P=\\dfrac{7}{3}$.\nD. $P=4$.",
+    "dap_an": "A. $P=21$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{7}=\\dfrac{7}{1/3}\\log_a a=21$.",
+    "params": {
+      "m": "3",
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{19}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=95$.\nB. $P=24$.\nC. $P=\\dfrac{19}{5}$.\nD. $P=14$.",
+    "dap_an": "A. $P=95$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{19}=\\dfrac{19}{1/5}\\log_a a=95$.",
+    "params": {
+      "m": "5",
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[12]{a}} a^{17}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=29$.\nB. $P=5$.\nC. $P=\\dfrac{17}{12}$.\nD. $P=204$.",
+    "dap_an": "D. $P=204$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/12}}a^{17}=\\dfrac{17}{1/12}\\log_a a=204$.",
+    "params": {
+      "m": "12",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{25}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=22$.\nB. $P=\\dfrac{25}{3}$.\nC. $P=28$.\nD. $P=75$.",
+    "dap_an": "D. $P=75$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{25}=\\dfrac{25}{1/3}\\log_a a=75$.",
+    "params": {
+      "m": "3",
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{17}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=22$.\nB. $P=12$.\nC. $P=\\dfrac{17}{5}$.\nD. $P=85$.",
+    "dap_an": "D. $P=85$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{17}=\\dfrac{17}{1/5}\\log_a a=85$.",
+    "params": {
+      "m": "5",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{2}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{2}{5}$.\nB. $P=10$.\nC. $P=7$.\nD. $P=-3$.",
     "dap_an": "B. $P=10$.",
     "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{2}=\\dfrac{2}{1/5}\\log_a a=10$.",
     "params": {
       "m": "5",
       "n": "2"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{11}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=121$.\nB. $P=1$.\nC. $P=22$.\nD. $P=23$.",
+    "dap_an": "A. $P=121$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{11}=\\dfrac{11}{1/11}\\log_a a=121$.",
+    "params": {
+      "m": "11",
+      "n": "11"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{3}{11}$.\nB. $P=-8$.\nC. $P=14$.\nD. $P=33$.",
+    "dap_an": "D. $P=33$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{3}=\\dfrac{3}{1/11}\\log_a a=33$.",
+    "params": {
+      "m": "11",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{24}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=240$.\nB. $P=34$.\nC. $P=\\dfrac{12}{5}$.\nD. $P=14$.",
+    "dap_an": "A. $P=240$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{24}=\\dfrac{24}{1/10}\\log_a a=240$.",
+    "params": {
+      "m": "10",
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{12}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=84$.\nB. $P=5$.\nC. $P=19$.\nD. $P=\\dfrac{12}{7}$.",
+    "dap_an": "A. $P=84$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{12}=\\dfrac{12}{1/7}\\log_a a=84$.",
+    "params": {
+      "m": "7",
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{19}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=28$.\nB. $P=\\dfrac{19}{9}$.\nC. $P=10$.\nD. $P=171$.",
+    "dap_an": "D. $P=171$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{19}=\\dfrac{19}{1/9}\\log_a a=171$.",
+    "params": {
+      "m": "9",
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{7}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=14$.\nB. $P=9$.\nC. $P=\\dfrac{7}{2}$.\nD. $P=5$.",
+    "dap_an": "A. $P=14$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{7}=\\dfrac{7}{1/2}\\log_a a=14$.",
+    "params": {
+      "m": "2",
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{19}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=38$.\nB. $P=\\dfrac{19}{2}$.\nC. $P=21$.\nD. $P=17$.",
+    "dap_an": "A. $P=38$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{19}=\\dfrac{19}{1/2}\\log_a a=38$.",
+    "params": {
+      "m": "2",
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{14}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=7$.\nB. $P=98$.\nC. $P=21$.\nD. $P=2$.",
+    "dap_an": "B. $P=98$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{14}=\\dfrac{14}{1/7}\\log_a a=98$.",
+    "params": {
+      "m": "7",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{16}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{16}{5}$.\nB. $P=11$.\nC. $P=21$.\nD. $P=80$.",
+    "dap_an": "D. $P=80$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{16}=\\dfrac{16}{1/5}\\log_a a=80$.",
+    "params": {
+      "m": "5",
+      "n": "16"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{21}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=231$.\nB. $P=10$.\nC. $P=32$.\nD. $P=\\dfrac{21}{11}$.",
+    "dap_an": "A. $P=231$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{21}=\\dfrac{21}{1/11}\\log_a a=231$.",
+    "params": {
+      "m": "11",
+      "n": "21"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{5}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-5$.\nB. $P=15$.\nC. $P=50$.\nD. $P=\\dfrac{1}{2}$.",
+    "dap_an": "C. $P=50$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{5}=\\dfrac{5}{1/10}\\log_a a=50$.",
+    "params": {
+      "m": "10",
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[4]{a}} a^{29}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=33$.\nB. $P=25$.\nC. $P=\\dfrac{29}{4}$.\nD. $P=116$.",
+    "dap_an": "D. $P=116$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/4}}a^{29}=\\dfrac{29}{1/4}\\log_a a=116$.",
+    "params": {
+      "m": "4",
+      "n": "29"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{22}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=110$.\nB. $P=27$.\nC. $P=17$.\nD. $P=\\dfrac{22}{5}$.",
+    "dap_an": "A. $P=110$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{22}=\\dfrac{22}{1/5}\\log_a a=110$.",
+    "params": {
+      "m": "5",
+      "n": "22"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{17}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=51$.\nB. $P=20$.\nC. $P=14$.\nD. $P=\\dfrac{17}{3}$.",
+    "dap_an": "A. $P=51$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{17}=\\dfrac{17}{1/3}\\log_a a=51$.",
+    "params": {
+      "m": "3",
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{25}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=125$.\nB. $P=30$.\nC. $P=20$.\nD. $P=5$.",
+    "dap_an": "A. $P=125$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{25}=\\dfrac{25}{1/5}\\log_a a=125$.",
+    "params": {
+      "m": "5",
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{14}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=19$.\nB. $P=9$.\nC. $P=\\dfrac{14}{5}$.\nD. $P=70$.",
+    "dap_an": "D. $P=70$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{14}=\\dfrac{14}{1/5}\\log_a a=70$.",
+    "params": {
+      "m": "5",
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{15}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=10$.\nB. $P=3$.\nC. $P=75$.\nD. $P=20$.",
+    "dap_an": "C. $P=75$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{15}=\\dfrac{15}{1/5}\\log_a a=75$.",
+    "params": {
+      "m": "5",
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{5}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=13$.\nB. $P=-3$.\nC. $P=\\dfrac{5}{8}$.\nD. $P=40$.",
+    "dap_an": "D. $P=40$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{5}=\\dfrac{5}{1/8}\\log_a a=40$.",
+    "params": {
+      "m": "8",
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[5]{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=8$.\nB. $P=\\dfrac{3}{5}$.\nC. $P=-2$.\nD. $P=15$.",
+    "dap_an": "D. $P=15$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/5}}a^{3}=\\dfrac{3}{1/5}\\log_a a=15$.",
+    "params": {
+      "m": "5",
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{1}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=10$.\nB. $P=11$.\nC. $P=\\dfrac{1}{10}$.\nD. $P=-9$.",
+    "dap_an": "A. $P=10$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{1}=\\dfrac{1}{1/10}\\log_a a=10$.",
+    "params": {
+      "m": "10",
+      "n": "1"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[6]{a}} a^{29}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=35$.\nB. $P=23$.\nC. $P=174$.\nD. $P=\\dfrac{29}{6}$.",
+    "dap_an": "C. $P=174$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/6}}a^{29}=\\dfrac{29}{1/6}\\log_a a=174$.",
+    "params": {
+      "m": "6",
+      "n": "29"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{12}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=24$.\nB. $P=10$.\nC. $P=14$.\nD. $P=6$.",
+    "dap_an": "A. $P=24$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{12}=\\dfrac{12}{1/2}\\log_a a=24$.",
+    "params": {
+      "m": "2",
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[11]{a}} a^{6}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=-5$.\nB. $P=17$.\nC. $P=66$.\nD. $P=\\dfrac{6}{11}$.",
+    "dap_an": "C. $P=66$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/11}}a^{6}=\\dfrac{6}{1/11}\\log_a a=66$.",
+    "params": {
+      "m": "11",
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{15}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=\\dfrac{15}{8}$.\nB. $P=120$.\nC. $P=23$.\nD. $P=7$.",
+    "dap_an": "B. $P=120$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{15}=\\dfrac{15}{1/8}\\log_a a=120$.",
+    "params": {
+      "m": "8",
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{24}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=8$.\nB. $P=21$.\nC. $P=27$.\nD. $P=72$.",
+    "dap_an": "D. $P=72$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{24}=\\dfrac{24}{1/3}\\log_a a=72$.",
+    "params": {
+      "m": "3",
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{4}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=12$.\nB. $P=7$.\nC. $P=1$.\nD. $P=\\dfrac{4}{3}$.",
+    "dap_an": "A. $P=12$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{4}=\\dfrac{4}{1/3}\\log_a a=12$.",
+    "params": {
+      "m": "3",
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{24}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=15$.\nB. $P=216$.\nC. $P=\\dfrac{8}{3}$.\nD. $P=33$.",
+    "dap_an": "B. $P=216$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{24}=\\dfrac{24}{1/9}\\log_a a=216$.",
+    "params": {
+      "m": "9",
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{13}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=16$.\nB. $P=39$.\nC. $P=\\dfrac{13}{3}$.\nD. $P=10$.",
+    "dap_an": "B. $P=39$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{13}=\\dfrac{13}{1/3}\\log_a a=39$.",
+    "params": {
+      "m": "3",
+      "n": "13"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[10]{a}} a^{22}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=12$.\nB. $P=220$.\nC. $P=\\dfrac{11}{5}$.\nD. $P=32$.",
+    "dap_an": "B. $P=220$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/10}}a^{22}=\\dfrac{22}{1/10}\\log_a a=220$.",
+    "params": {
+      "m": "10",
+      "n": "22"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{20}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=18$.\nB. $P=22$.\nC. $P=40$.\nD. $P=10$.",
+    "dap_an": "C. $P=40$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/2}}a^{20}=\\dfrac{20}{1/2}\\log_a a=40$.",
+    "params": {
+      "m": "2",
+      "n": "20"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[9]{a}} a^{28}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=252$.\nB. $P=\\dfrac{28}{9}$.\nC. $P=19$.\nD. $P=37$.",
+    "dap_an": "A. $P=252$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/9}}a^{28}=\\dfrac{28}{1/9}\\log_a a=252$.",
+    "params": {
+      "m": "9",
+      "n": "28"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[3]{a}} a^{26}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=78$.\nB. $P=29$.\nC. $P=\\dfrac{26}{3}$.\nD. $P=23$.",
+    "dap_an": "A. $P=78$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/3}}a^{26}=\\dfrac{26}{1/3}\\log_a a=78$.",
+    "params": {
+      "m": "3",
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[7]{a}} a^{23}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=30$.\nB. $P=161$.\nC. $P=\\dfrac{23}{7}$.\nD. $P=16$.",
+    "dap_an": "B. $P=161$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/7}}a^{23}=\\dfrac{23}{1/7}\\log_a a=161$.",
+    "params": {
+      "m": "7",
+      "n": "23"
+    }
+  },
+  {
+    "id_goc": "p033_q13",
+    "ma_dang": "D20",
+    "ten_dang": "Evaluate a logarithm whose base and argument are powers of the same number",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt[8]{a}} a^{26}$. Mệnh đề nào dưới đây là đúng?\n\nA. $P=208$.\nB. $P=\\dfrac{13}{4}$.\nC. $P=34$.\nD. $P=18$.",
+    "dap_an": "A. $P=208$.",
+    "loi_giai": "Ta có $P=\\log_{a^{1/8}}a^{26}=\\dfrac{26}{1/8}\\log_a a=208$.",
+    "params": {
+      "m": "8",
+      "n": "26"
     }
   }
 ]

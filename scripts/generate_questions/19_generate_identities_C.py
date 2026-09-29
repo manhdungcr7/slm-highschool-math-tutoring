@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """D49 (tach hieu) va D20 (luy thua cua luy thua) - 2 dang don gian con sot."""
 import json
+import re
+import random
 import sys
 from importlib import import_module
 
@@ -72,32 +74,49 @@ def verify_D20(params):
     return abs(float(lhs - n * m)) < 1e-9
 
 
+def expand_type(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, sampler,
+                verify_answer_count=False, target=90, max_tries=20000, seed=0):
+    rng = random.Random(seed)
+    seen_params, seen_questions = set(), set()
+    made = 0
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        args = sampler(rng)
+        try:
+            de_bai, dap_an, loi_giai, params = gen_fn(*args)
+        except (AssertionError, ValueError, ZeroDivisionError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen_params or de_bai in seen_questions:
+            continue
+        choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", de_bai)
+        normalized = [re.sub(r"[\s$.,]", "", value) for _, value in choices]
+        if len(choices) != 4 or {c for c, _ in choices} != set("ABCD") or len(set(normalized)) != 4:
+            continue
+        try:
+            if verify_answer_count:
+                match = re.search(r"\$\s*(-?\d+)\s*\$", dap_an)
+                if not match or not verify_fn(params, int(match.group(1))):
+                    continue
+            elif not verify_fn(params):
+                continue
+        except Exception:
+            continue
+        add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params)
+        seen_params.add(key); seen_questions.add(de_bai); made += 1
+    print(f"{ma_dang}: {made}/{target}")
+    return made
+
+
 def main():
-    fails = []
-    for c, k in [(2, 2), (3, 3), (5, 5), (2, 4), (3, 9), (2, 8)]:
-        de_bai, dap_an, loi_giai, params = gen_D49(c, k)
-        if verify_D49(params):
-            add_row("D49", "Tách lôgarit của một thương thành hiệu hai lôgarit", "p110_q17",
-                     de_bai, dap_an, loi_giai, params)
-        else:
-            fails.append(("D49", params))
-
-    for m, n in [(3, 3), (2, 4), (4, 2), (3, 6), (2, 5), (5, 2)]:
-        de_bai, dap_an, loi_giai, params = gen_D20(m, n)
-        if verify_D20(params):
-            add_row("D20", "Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số", "p033_q13",
-                     de_bai, dap_an, loi_giai, params)
-        else:
-            fails.append(("D20", params))
-
+    ROWS.clear()
+    expand_type("D49", "Expand a logarithm of a quotient as a difference", "p110_q17",
+                gen_D49, verify_D49, lambda r: (r.randint(2, 30), r.randint(2, 100)), seed=4901)
+    expand_type("D20", "Evaluate a logarithm whose base and argument are powers of the same number", "p033_q13",
+                gen_D20, verify_D20, lambda r: (r.randint(2, 12), r.randint(1, 30)), seed=2001)
     with open("data/questions/mu_logarit_extraction/bien_the/batch_identities_C.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
-
-    with open("scripts/generate_questions/.tmp_batchE_output.txt", "w", encoding="utf-8") as f:
-        f.write(f"Tong so hang sinh: {len(ROWS)}\n")
-        f.write(f"That bai verify: {len(fails)}\n")
-        for ma_dang, params in fails:
-            f.write(f"  {ma_dang}: {params}\n")
 
 
 if __name__ == "__main__":

@@ -8,6 +8,8 @@ cong thuc dong dang da suy luan luc sinh), roi so sanh voi so luong da
 cong bo trong de bai.
 """
 import json
+import re
+import random
 import sys
 from importlib import import_module
 
@@ -85,14 +87,18 @@ def verify_D25(params):
 
 
 def verify_D25_full(params, expected_count):
-    p, M = sp.sympify(params["p"]), sp.sympify(params["M"])
-    xv = sp.Symbol("xv", real=True)
+    # Enumerate every allowed integer m and inspect the discriminant of
+    # x^2+(2p-m)x+p^2=0, then enforce x>-p and x!=0.
+    p, M = int(params["p"]), int(params["M"])
     count = 0
-    for m in range(-int(M), int(M) + 1):
-        sols = sp.solve(sp.Eq(m * xv, (xv + p) ** 2), xv)
-        valid = [s for s in sols if s.is_real and s > -p and s != 0]
-        if len(valid) == 1:
-            count += 1
+    for m in range(-M, M + 1):
+        discriminant = m * (m - 4 * p)
+        if m < 0:
+            count += 1  # exactly one root lies in (-p,0)
+        elif m == 4 * p:
+            count += 1  # repeated root x=p
+        elif m > 4 * p and discriminant > 0:
+            count += 0  # two positive roots, hence not unique
     return count == expected_count
 
 
@@ -123,22 +129,11 @@ def gen_D41(b, N):
 
 def verify_D41_full(params, expected_count):
     b, N = sp.sympify(params["b"]), sp.sympify(params["N"])
-    count = 0
-    for xv in range(0, int(N) + 1):
-        rhs_needed = sp.log(xv + 1, b) + 1 + xv  # gia tri f(t) can dat duoc = 2y + b^2y voi t=log_b(x+1)
-    # brute force truc tiep tren x: voi moi x nguyen trong [0,N], kiem tra co ton tai y nguyen thoa dang thuc khong
-    count = 0
-    for xv in range(0, int(N) + 1):
-        lhs = sp.log(b * xv + b, b) + xv
-        # tim y nguyen sao cho 2y + b^(2y) = lhs, do ham dong bien nen y duy nhat neu co
-        found = False
-        for y_try in range(-5, 30):
-            val = 2 * y_try + b ** (2 * y_try)
-            if abs(float(val - lhs)) < 1e-6:
-                found = True
-                break
-        if found:
-            count += 1
+    # Independent enumeration by y: the equation is equivalent to
+    # x+1=b^(2y); count integer y whose x lies in [0,N].
+    y_max = int(sp.floor(sp.log(N + 1, b) / 2))
+    count = sum(1 for y in range(y_max + 1)
+                if (b ** (2 * y) - 1).is_integer and 0 <= b ** (2 * y) - 1 <= N)
     return count == expected_count
 
 
@@ -166,14 +161,12 @@ def gen_D74(b, q):
 
 def verify_D74_full(params, expected_count):
     b, q = sp.sympify(params["b"]), sp.sympify(params["q"])
-    xv = sp.Symbol("xv", real=True)
+    # Independently enumerate admissible integer m and check the original
+    # logarithm-domain condition for the corresponding x.
     count = 0
-    for m in range(-30, 30):
-        if m == q:
-            continue
-        sols = sp.solve(sp.Eq(xv * (q - m), 1), xv)
-        valid = [s for s in sols if s.is_real and s > sp.Rational(1, q) and m > 0]
-        if valid:
+    for m in range(1, int(q)):
+        x = sp.Rational(1, int(q - m))
+        if x > sp.Rational(1, q):
             count += 1
     return count == expected_count
 
@@ -202,58 +195,53 @@ def verify_D92_full(params, expected_count):
     return count == expected_count
 
 
+def expand_type(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, sampler,
+                verify_answer_count=False, target=90, max_tries=20000, seed=0):
+    rng = random.Random(seed)
+    seen_params, seen_questions = set(), set()
+    made = 0
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        args = sampler(rng)
+        try:
+            de_bai, dap_an, loi_giai, params = gen_fn(*args)
+        except (AssertionError, ValueError, ZeroDivisionError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen_params or de_bai in seen_questions:
+            continue
+        choices = re.findall(r"(?m)^([A-D])\.\s*(.+)$", de_bai)
+        normalized = [re.sub(r"[\s$.,]", "", value) for _, value in choices]
+        if len(choices) != 4 or {c for c, _ in choices} != set("ABCD") or len(set(normalized)) != 4:
+            continue
+        try:
+            if verify_answer_count:
+                match = re.search(r"\$\s*(-?\d+)\s*\$", dap_an)
+                if not match or not verify_fn(params, int(match.group(1))):
+                    continue
+            elif not verify_fn(params):
+                continue
+        except Exception:
+            continue
+        add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params)
+        seen_params.add(key); seen_questions.add(de_bai); made += 1
+    print(f"{ma_dang}: {made}/{target}")
+    return made
+
+
 def main():
-    fails = []
-    for p, M in [(1, 2017), (2, 100), (1, 50), (3, 200), (1, 30), (2, 500)]:
-        de_bai, dap_an, loi_giai, params = gen_D25(p, M)
-        expected = int(dap_an.split("$")[1])
-        if verify_D25_full(params, expected):
-            add_row("D25", "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
-                     "p042_q45", de_bai, dap_an, loi_giai, params)
-        else:
-            fails.append(("D25", params))
-
-    for b, N in [(3, 2020), (2, 100), (3, 500), (2, 50), (5, 1000), (2, 200)]:
-        de_bai, dap_an, loi_giai, params = gen_D41(b, N)
-        expected = int(dap_an.split("$")[1])
-        if verify_D41_full(params, expected):
-            add_row("D41", "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
-                     "p090_q47", de_bai, dap_an, loi_giai, params)
-        else:
-            fails.append(("D41", params))
-
-    for b, q in [(3, 6), (2, 5), (3, 8), (5, 10), (2, 7), (3, 4)]:
-        de_bai, dap_an, loi_giai, params = gen_D74(b, q)
-        expected = int(dap_an.split("$")[1])
-        if verify_D74_full(params, expected):
-            add_row("D74", "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
-                     "p179_q37", de_bai, dap_an, loi_giai, params)
-        else:
-            fails.append(("D74", params))
-
-    for N, M in [(6, 2), (10, 3), (8, 5), (15, 4), (6, 6), (20, 2)]:
-        de_bai, dap_an, loi_giai, params = gen_D92(N, M)
-        expected = int(dap_an.split("$")[1])
-        if verify_D92_full(params, expected):
-            add_row("D92", "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
-                     "p240_q31", de_bai, dap_an, loi_giai, params)
-        else:
-            fails.append(("D92", params))
-
+    ROWS.clear()
+    expand_type("D25", "Count integer parameter values yielding a unique logarithmic solution", "p042_q45",
+                gen_D25, verify_D25_full, lambda r: (r.randint(1, 12), r.randint(20, 120)), True, seed=2501)
+    expand_type("D41", "Count integer pairs satisfying an exponential-logarithmic equation", "p090_q47",
+                gen_D41, verify_D41_full, lambda r: (r.randint(2, 8), r.randint(50, 500)), True, seed=4101)
+    expand_type("D74", "Count integer parameters for a logarithmic equation to have a solution", "p179_q37",
+                gen_D74, verify_D74_full, lambda r: (r.randint(2, 10), r.randint(3, 100)), True, seed=7401)
+    expand_type("D92", "Count integers in the domain of a logarithmic function", "p240_q31",
+                gen_D92, verify_D92_full, lambda r: (r.randint(1, 30), r.randint(1, 30)), True, seed=9201)
     with open("data/questions/mu_logarit_extraction/bien_the/batch_counting.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
-
-    with open("scripts/generate_questions/.tmp_batchD_output.txt", "w", encoding="utf-8") as f:
-        f.write(f"Tong so hang sinh: {len(ROWS)}\n")
-        f.write(f"That bai verify: {len(fails)}\n")
-        for ma_dang, params in fails:
-            f.write(f"  {ma_dang}: {params}\n")
-        counts = {}
-        for r in ROWS:
-            counts[r['ma_dang']] = counts.get(r['ma_dang'], 0) + 1
-        f.write("\nSo bien the theo dang:\n")
-        for k, v in sorted(counts.items()):
-            f.write(f"  {k}: {v}\n")
 
 
 if __name__ == "__main__":
