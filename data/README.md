@@ -31,8 +31,11 @@ included in this repository.
   plus the question text and correct answer for reference). Grouping
   criterion: two questions share a Mã dạng only when they share the same
   given-data form, the same thing to compute/decide, and the same solution
-  method. 94 unique problem types; 11 of them group 2-5 questions, the
-  remaining 83 are singletons.
+  method. 93 unique problem types; 11 of them group 2-4 questions, the
+  remaining 82 are singletons. (A classification error found during variant
+  generation — D03 and D53 had the identical criterion and should have been
+  one type — was fixed by merging D03 into D53; this dropped the count from
+  the earlier 94 to 93.)
 - `Mu_Logarit_112_cau_goc_ket_qua_mo_hinh.csv` / `.xlsx`: ChatGPT (`gpt-4o`)
   and Gemini (`gemini-2.5-flash`) zero-shot answers on the 112 questions,
   produced with
@@ -43,16 +46,16 @@ included in this repository.
 - `bien_the/D01_bien_the.json`, `D12_bien_the.json`, `D18_bien_the.json`,
   `D53_bien_the.json`: SymPy-generated numerical variants for a first pilot
   batch of 4 problem types (the ones with the most source questions: D01, 5
-  questions; D12, 4; D18, 3; D53, 3 — 15 source questions total), produced
+  questions; D12, 4; D18, 3; D53, 4 — 16 source questions total), produced
   with the scripts in
   [`../scripts/generate_questions/`](../scripts/generate_questions/). Each
   source question gets 6 variants (2 per parameter bucket x 3 buckets), for
-  90 variants total. Every variant's answer is checked by an independent
+  96 variants total. Every variant's answer is checked by an independent
   verifier (`20_verify_pilot.py`) that re-derives the answer through a
-  different symbolic path than the generator used; all 90 currently pass.
-  The remaining 90 problem types have not been covered yet.
-- `Mu_Logarit_thi_diem_4dang_bien_the.csv` / `.xlsx`: the same 15 source
-  questions plus their 90 generated variants combined into one file
+  different symbolic path than the generator used; all 96 currently pass.
+  The remaining 89 problem types have not been covered yet.
+- `Mu_Logarit_thi_diem_4dang_bien_the.csv` / `.xlsx`: the same 16 source
+  questions plus their 96 generated variants combined into one file
   (produced by `21_export_pilot.py`).
 
 ## `results/qwen3_4b_zeroshot/`

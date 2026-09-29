@@ -1,6 +1,8 @@
 """
 Sinh bien the D53 - Giai bat phuong trinh logarit co ban dang
-log_a(f(x))>k, f(x) bac nhat. 3 cau goc: p124_q21, p221_q08, p236_q12.
+log_a(f(x))>k, f(x) bac nhat. 4 cau goc: p006_q14, p124_q21, p221_q08,
+p236_q12 (p006_q14 vốn bị gán nhầm ma dang rieng D03; da gop lai vao D53
+vi cung dang: log_a(bac nhat)>k).
 
 Cong thuc: log_a(m*x + c) > k  (a>1, m>0)  =>  x > (a^k - c) / m
 """
@@ -19,7 +21,7 @@ import sympy as sp
 
 MA_DANG = "D53"
 TEN_DANG = "Giai bat phuong trinh logarit co ban dang log_a(f(x))>k, f(x) bac nhat"
-SOURCE_IDS = ["p124_q21", "p221_q08", "p236_q12"]
+SOURCE_IDS = ["p006_q14", "p124_q21", "p221_q08", "p236_q12"]
 
 
 def mau_D53(a, m, c, k):

@@ -38,16 +38,17 @@ Each directory has its own README with further details.
 ## Status
 
 **Exponential and Logarithm**: 112 questions extracted, transcribed, and
-classified into 94 problem types (Mã dạng). From the 123 originally selected
-candidates, 2 exact duplicates and 9 real-world application questions
-(compound interest, loan repayment, bacterial/population growth,
-ad-campaign and forest-area growth models) were removed to keep the scope
-to exponential/logarithmic equations and inequalities. Zero-shot
-model-solving results on these 112 questions: ChatGPT 92 correct / 18
-incorrect / 2 undetermined, Gemini 111 correct / 1 incorrect, Qwen3-4B
-102 correct / 10 undetermined.
+classified into 93 problem types (Mã dạng; originally computed as 94, then
+D03 and D53 were found to be the same problem type and merged). From the
+123 originally selected candidates, 2 exact duplicates and 9 real-world
+application questions (compound interest, loan repayment,
+bacterial/population growth, ad-campaign and forest-area growth models)
+were removed to keep the scope to exponential/logarithmic equations and
+inequalities. Zero-shot model-solving results on these 112 questions:
+ChatGPT 92 correct / 18 incorrect / 2 undetermined, Gemini 111 correct / 1
+incorrect, Qwen3-4B 102 correct / 10 undetermined.
 
-Evaluation-variant generation has started as a pilot covering 4 of the 94
-problem types (D01, D12, D18, D53 — 15 source questions), producing 90
+Evaluation-variant generation has started as a pilot covering 4 of the 93
+problem types (D01, D12, D18, D53 — 16 source questions), producing 96
 SymPy-generated variants, each checked by an independent verifier. The
-remaining 90 problem types still need their own generator.
+remaining 89 problem types still need their own generator.

@@ -9,7 +9,7 @@ A. $y' = x \cdot 13^{x-1}$.
 B. $y' = 13^x \cdot \ln 13$.
 C. $y' = 13^x$.
 D. $y' = \dfrac{13x^x}{\ln 13}$.",B. y' = 13^x . ln 13
-3,p006_q14,6,14,D03,"Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k, f(x) bậc nhất","Giải bất phương trình $\log_2(3x-1) > 3$.
+3,p006_q14,6,14,D53,Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k,"Giải bất phương trình $\log_2(3x-1) > 3$.
 A. $x > 3$.
 B. $\dfrac{1}{3} < x < 3$.
 C. $x < 3$.
