@@ -5,10 +5,11 @@ Each generator computes the answer and then verifies it independently with a
 different method. A repository-wide scan also checks that every generated
 question has exactly four distinct answer choices labeled A-D.
 
-**Current coverage: all 89 retained problem types** (611 generated
-variants; 110 retained source questions + 611 variants = 721 rows in the
-combined CSV/XLSX). D09 and D11 are excluded because they have no numeric
-inputs to vary.
+**Current coverage: all 89 retained problem types**: 88 types have 90 variants
+each, while D43 has 21 (7,941 generated variants; 110 retained source
+questions + 7,941 variants = 8,051 rows in the combined CSV/XLSX). D09 and D11
+are excluded because they have no numeric inputs to vary. D43 remains within
+its established integer-threshold range rather than being widened to force 90.
 
 An initial pass treated many types as unsafe to vary. Later rounds recovered
 types by deriving only the final answer independently, designing parameters
@@ -43,7 +44,11 @@ python scripts/generate_questions/22_export_all.py
 ```
 
 D09 and D11 are excluded from the retained source set because they are general
-symbolic questions without numbers to vary. D84 is covered by four variants,
-with interval endpoints U = 3, 5, 6, 7 and linked exponent coefficient 3U.
-The generator follows the source solution; an independent verifier counts
-endpoint signs at 80-digit precision.
+symbolic questions without numbers to vary. All other retained types have 90
+variants; D43 has 21 within its established integer-threshold range. For each type, generation changes numeric values within the original
+question form; an independent verifier checks the resulting answer using a
+different computation method. A final repository-wide audit checks that
+question statements are unique within each type and that all four answer
+choices are distinct. D84's 90 variants vary endpoint parameter U over the
+verified range, with the linked exponent coefficient 3U; an independent
+80-digit endpoint-sign verifier checks the count.

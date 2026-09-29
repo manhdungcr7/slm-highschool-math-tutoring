@@ -43,12 +43,13 @@ bacterial/population growth, ad-campaign and forest-area growth models)
 were removed to keep the scope to exponential/logarithmic equations and
 inequalities. On the retained 110-question set, zero-shot results are: ChatGPT 90 correct / 18 incorrect / 2 undetermined, Gemini 109 correct / 1 incorrect, and Qwen3-4B 100 correct / 10 undetermined.
 
-Evaluation-variant generation now covers all 89 retained problem types
-(611 independently verified variants; 721 retained source and
-variant rows). Every batch also passes a repository-wide scan for duplicate
-answer choices. D09 and D11 are excluded because they are general symbolic
-relations with no numeric values to vary. D84 now has four independently
-verified variants; its source answer 14 remains in the retained set. Round 8
-extended coverage to D08, D23, D47, D52, D57, and D78; round 9 adds D84. See
+Evaluation-variant generation covers all 89 retained problem types: 88 types
+have 90 independently verified variants each, and D43 has 21 (7,941 variants
+in total; 8,051 retained source and variant rows). D43 remains at 21 to keep
+its integer threshold within the range used for this question type. Every
+batch passes repository-wide scans for repeated question statements and
+duplicate answer choices. D09 and D11 are excluded because they are general
+symbolic relations with no numeric values to vary. D84 has 90 independently
+verified variants; its source answer 14 remains in the retained set. See
 [`scripts/generate_questions/README.md`](scripts/generate_questions/README.md)
 for the generation and verification methods.

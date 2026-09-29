@@ -353,6 +353,42 @@ TEN_DANG_OVERRIDE = {
 }
 
 
+def expand_type(code, gen_fn, verify_fn, sampler, seed=0, target=90, max_tries=5000):
+    rng = random.Random(seed)
+    current = [r for r in ROWS if r["ma_dang"] == code]
+    seen_params = {tuple(sorted((k,str(v)) for k,v in r["params"].items())) for r in current}
+    seen_questions = {r["de_bai"] for r in current}
+    seen_args = set()
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        args = tuple(sampler(rng))
+        if args in seen_args:
+            continue
+        seen_args.add(args)
+        try:
+            q, ans, sol, params = gen_fn(*args)
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted((k,str(v)) for k,v in params.items()))
+        if key in seen_params or q in seen_questions:
+            continue
+        opts = __import__("re").findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [__import__("re").sub(r"[\s$.,]", "", v) for _,v in opts]
+        if len(opts)!=4 or {c for c,_ in opts}!=set("ABCD") or len(set(norm))!=4:
+            continue
+        try:
+            if not verify_fn(params):
+                continue
+        except Exception:
+            continue
+        add_row(code, TEN_DANG_OVERRIDE.get(code, code), GENERATORS[code][2][0], "chuan", q, ans, sol, params)
+        seen_params.add(key); seen_questions.add(q); made+=1
+    print(f"{code}: {made}/{target}")
+    return made
+
+
 def main():
     all_rows = []
     fail = []
@@ -382,6 +418,22 @@ def main():
                 continue
             add_row(ma_dang, TEN_DANG_OVERRIDE.get(ma_dang, ma_dang), id_list[0], "chuan",
                     de_bai, dap_an, loi_giai, params)
+
+    samplers = {
+        "D06": lambda r: (r.randint(2, 500),),
+        "D13": lambda r: (r.randint(2, 30), r.randint(1, 100), r.randint(2, 100)),
+        "D36": lambda r: (r.randint(2, 60), r.randint(2, 100)),
+        "D30": lambda r: (r.randint(2, 60), r.randint(2, 100)),
+        "D54": lambda r: (r.randint(1, 120), r.randint(1, 120)),
+        "D59": lambda r: (r.randint(2, 500),),
+        "D60": lambda r: (r.randint(2, 100), r.randint(2, 100)),
+        "D66": lambda r: (r.randint(2, 40), r.randint(2, 100)),
+        "D76": lambda r: (r.randint(2, 500),),
+        "D81": lambda r: (r.randint(2, 500),),
+        "D90": lambda r: (r.randint(1, 100), r.randint(2, 60)),
+    }
+    for code, (gen_fn, verify_fn, ids, _) in GENERATORS.items():
+        expand_type(code, gen_fn, verify_fn, samplers[code], seed=int(code[1:])*97+15)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_identities_A.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
