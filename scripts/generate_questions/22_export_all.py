@@ -37,6 +37,7 @@ BIEN_THE_FILES = [
     "data/questions/mu_logarit_extraction/bien_the/batch_identities_C.json",
     "data/questions/mu_logarit_extraction/bien_the/batch_round2.json",
     "data/questions/mu_logarit_extraction/bien_the/batch_round3.json",
+    "data/questions/mu_logarit_extraction/bien_the/batch_round4.json",
 ]
 
 for path in BIEN_THE_FILES:
