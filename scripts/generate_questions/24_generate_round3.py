@@ -8,6 +8,8 @@ dai so (khong do/thu), roi kiem tra doc lap rang diem do thoa dung dinh
 nghia goc cua bai toan.
 """
 import json
+import random
+import re
 import sys
 from importlib import import_module
 
@@ -222,6 +224,37 @@ def verify_D46(params):
     return abs(numeric_min - Pmin_analytic) < 0.01
 
 
+def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=5000):
+    rng = random.Random(seed)
+    current = [row for row in ROWS if row["ma_dang"] == code]
+    seen = {tuple(sorted(row["params"].items())) for row in current}
+    questions = {row["de_bai"] for row in current}
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        try:
+            q, ans, sol, params = gen(*sampler(rng))
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted(params.items()))
+        if key in seen or q in questions:
+            continue
+        opts = re.findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [re.sub(r"[\s$.,]", "", v) for _, v in opts]
+        if len(opts) != 4 or {k for k,_ in opts} != set("ABCD") or len(set(norm)) != 4:
+            continue
+        try:
+            if not verify(params):
+                continue
+        except Exception:
+            continue
+        add_row(code, name, source_id, q, ans, sol, params)
+        seen.add(key); questions.add(q); made += 1
+    print(f"{code}: {made}/{target}")
+    return made
+
+
 def main():
     fails = []
     fails += try_add("D10", "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R", "p018_q09",
@@ -260,6 +293,16 @@ def main():
                      de_bai, dap_an, loi_giai, params)
         else:
             fails.append(("D46", params))
+
+    expand_type("D10", "Monotonicity of a logarithmic function", "p018_q09", gen_D10, verify_D10,
+                lambda r: (r.randint(1, 500),), seed=1001)
+    expand_type("D68", "Evaluate an expression under logarithmic equalities", "p161_q37", gen_D68, verify_D68,
+                lambda r: tuple(r.randint(1, 40) for _ in range(4)), seed=6801)
+    expand_type("D94", "Maximize a quadratic expression under a disk constraint", "p243_q44", gen_D94,
+                verify_D94, lambda r: (None, (c1 := r.randint(1, 40)), (c2 := r.randint(1, 40)))
+                if False else (lambda c1, c2: (c1*c1+c2*c2, c1, c2))(r.randint(1,40),r.randint(1,40)), seed=9401)
+    expand_type("D46", "Locate the minimum of an exponential-logarithmic expression", "p105_q47",
+                gen_D46, verify_D46, lambda r: (r.randint(1, 100), r.randint(1, 100)), seed=4601)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round3.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)
