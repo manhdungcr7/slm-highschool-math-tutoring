@@ -49,17 +49,13 @@ inequalities. Zero-shot model-solving results on these 112 questions:
 ChatGPT 92 correct / 18 incorrect / 2 undetermined, Gemini 111 correct / 1
 incorrect, Qwen3-4B 102 correct / 10 undetermined.
 
-Evaluation-variant generation now covers 78 of the 91 problem types (527
-SymPy-generated variants), each checked by an independent verifier that
-re-derives the answer through a different method than the one used to
-build the question, plus a repo-wide duplicate-answer-choice scan. The
-remaining 13 problem types are listed in
+Evaluation-variant generation now covers 88 of the 91 problem types
+(607 independently verified variants; 719 combined source and
+variant rows). Every batch also passes a repository-wide scan for duplicate
+answer choices. The three uncovered types are D09 and D11, whose answers are
+general symbolic relations with no numerical values to vary, and D84, whose
+source answer appears inconsistent with its equation and needs verification
+against the original page. Round 8 extended coverage to D08, D23, D47, D52,
+D57, and D78. See
 [`scripts/generate_questions/README.md`](scripts/generate_questions/README.md)
-as not yet covered, each with the specific reason, rather than silently
-omitted. (An earlier pass had marked ~35 problem types unsafe to vary;
-four later rounds reclaimed 22 by checking only the FINAL answer
-independently — via Vieta's formulas or brute-force counting — rather
-than every ugly intermediate step, by designing a new variant backwards
-from an inequality's equality point instead of solving forwards for
-arbitrary coefficients, or by finding the answer reduces to a symbolic
-formula that doesn't depend on the specific numbers at all.)
+for the generation and verification methods.

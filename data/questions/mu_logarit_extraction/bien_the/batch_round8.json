@@ -1,0 +1,962 @@
+[
+  {
+    "id_goc": "p007_q19",
+    "ma_dang": "D08",
+    "ten_dang": "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $a=\\log_{2}3,\\ b=\\log_{5}3$. Hãy biểu diễn $\\log_{2\\cdot 3}(3^{2}\\cdot 5)$ theo $a,b$.\n\nA. $\\log_{2\\cdot 3}(3^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nB. $\\log_{2\\cdot 3}(3^{2}\\cdot 5)=- \\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nC. $\\log_{2\\cdot 3}(3^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} + 1$.\nD. $\\log_{2\\cdot 3}(3^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} - 1$.",
+    "dap_an": "A. $\\log_{2\\cdot 3}(3^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "loi_giai": "Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{\\ln C}a$ và $\\ln r=\\dfrac{\\ln C}b$. Do đó giá trị cần tìm bằng $\\dfrac{2\\ln C+\\ln r}{\\ln p+\\ln C}=\\dfrac{a(2b+1)}{b(1+a)}=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "params": {
+      "p": "2",
+      "C": "3",
+      "r": "5",
+      "s": "1",
+      "i": "2",
+      "j": "1"
+    }
+  },
+  {
+    "id_goc": "p007_q19",
+    "ma_dang": "D08",
+    "ten_dang": "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $a=\\log_{2}5,\\ b=\\log_{3}5$. Hãy biểu diễn $\\log_{2\\cdot 5}(5^{2}\\cdot 3)$ theo $a,b$.\n\nA. $\\log_{2\\cdot 5}(5^{2}\\cdot 3)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} - 1$.\nB. $\\log_{2\\cdot 5}(5^{2}\\cdot 3)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} + 1$.\nC. $\\log_{2\\cdot 5}(5^{2}\\cdot 3)=- \\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nD. $\\log_{2\\cdot 5}(5^{2}\\cdot 3)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "dap_an": "D. $\\log_{2\\cdot 5}(5^{2}\\cdot 3)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "loi_giai": "Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{\\ln C}a$ và $\\ln r=\\dfrac{\\ln C}b$. Do đó giá trị cần tìm bằng $\\dfrac{2\\ln C+\\ln r}{\\ln p+\\ln C}=\\dfrac{a(2b+1)}{b(1+a)}=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "params": {
+      "p": "2",
+      "C": "5",
+      "r": "3",
+      "s": "1",
+      "i": "2",
+      "j": "1"
+    }
+  },
+  {
+    "id_goc": "p007_q19",
+    "ma_dang": "D08",
+    "ten_dang": "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $a=\\log_{3}2,\\ b=\\log_{5}2$. Hãy biểu diễn $\\log_{3\\cdot 2}(2^{2}\\cdot 5)$ theo $a,b$.\n\nA. $\\log_{3\\cdot 2}(2^{2}\\cdot 5)=- \\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nB. $\\log_{3\\cdot 2}(2^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nC. $\\log_{3\\cdot 2}(2^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} - 1$.\nD. $\\log_{3\\cdot 2}(2^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} + 1$.",
+    "dap_an": "B. $\\log_{3\\cdot 2}(2^{2}\\cdot 5)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "loi_giai": "Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{\\ln C}a$ và $\\ln r=\\dfrac{\\ln C}b$. Do đó giá trị cần tìm bằng $\\dfrac{2\\ln C+\\ln r}{\\ln p+\\ln C}=\\dfrac{a(2b+1)}{b(1+a)}=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "params": {
+      "p": "3",
+      "C": "2",
+      "r": "5",
+      "s": "1",
+      "i": "2",
+      "j": "1"
+    }
+  },
+  {
+    "id_goc": "p007_q19",
+    "ma_dang": "D08",
+    "ten_dang": "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $a=\\log_{3}5,\\ b=\\log_{2}5$. Hãy biểu diễn $\\log_{3\\cdot 5}(5^{2}\\cdot 2)$ theo $a,b$.\n\nA. $\\log_{3\\cdot 5}(5^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nB. $\\log_{3\\cdot 5}(5^{2}\\cdot 2)=- \\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nC. $\\log_{3\\cdot 5}(5^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} - 1$.\nD. $\\log_{3\\cdot 5}(5^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} + 1$.",
+    "dap_an": "A. $\\log_{3\\cdot 5}(5^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "loi_giai": "Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{\\ln C}a$ và $\\ln r=\\dfrac{\\ln C}b$. Do đó giá trị cần tìm bằng $\\dfrac{2\\ln C+\\ln r}{\\ln p+\\ln C}=\\dfrac{a(2b+1)}{b(1+a)}=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "params": {
+      "p": "3",
+      "C": "5",
+      "r": "2",
+      "s": "1",
+      "i": "2",
+      "j": "1"
+    }
+  },
+  {
+    "id_goc": "p007_q19",
+    "ma_dang": "D08",
+    "ten_dang": "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $a=\\log_{2}3,\\ b=\\log_{7}3$. Hãy biểu diễn $\\log_{2\\cdot 3}(3^{3}\\cdot 7)$ theo $a,b$.\n\nA. $\\log_{2\\cdot 3}(3^{3}\\cdot 7)=\\dfrac{a \\left(3 b + 1\\right)}{b \\left(a + 1\\right)} - 1$.\nB. $\\log_{2\\cdot 3}(3^{3}\\cdot 7)=\\dfrac{a \\left(3 b + 1\\right)}{b \\left(a + 1\\right)} + 1$.\nC. $\\log_{2\\cdot 3}(3^{3}\\cdot 7)=\\dfrac{a \\left(3 b + 1\\right)}{b \\left(a + 1\\right)}$.\nD. $\\log_{2\\cdot 3}(3^{3}\\cdot 7)=- \\dfrac{a \\left(3 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "dap_an": "C. $\\log_{2\\cdot 3}(3^{3}\\cdot 7)=\\dfrac{a \\left(3 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "loi_giai": "Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{\\ln C}a$ và $\\ln r=\\dfrac{\\ln C}b$. Do đó giá trị cần tìm bằng $\\dfrac{3\\ln C+\\ln r}{\\ln p+\\ln C}=\\dfrac{a(3b+1)}{b(1+a)}=\\dfrac{a \\left(3 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "params": {
+      "p": "2",
+      "C": "3",
+      "r": "7",
+      "s": "1",
+      "i": "3",
+      "j": "1"
+    }
+  },
+  {
+    "id_goc": "p007_q19",
+    "ma_dang": "D08",
+    "ten_dang": "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đặt $a=\\log_{5}3,\\ b=\\log_{2}3$. Hãy biểu diễn $\\log_{5\\cdot 3}(3^{2}\\cdot 2)$ theo $a,b$.\n\nA. $\\log_{5\\cdot 3}(3^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nB. $\\log_{5\\cdot 3}(3^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} - 1$.\nC. $\\log_{5\\cdot 3}(3^{2}\\cdot 2)=- \\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.\nD. $\\log_{5\\cdot 3}(3^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)} + 1$.",
+    "dap_an": "A. $\\log_{5\\cdot 3}(3^{2}\\cdot 2)=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "loi_giai": "Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{\\ln C}a$ và $\\ln r=\\dfrac{\\ln C}b$. Do đó giá trị cần tìm bằng $\\dfrac{2\\ln C+\\ln r}{\\ln p+\\ln C}=\\dfrac{a(2b+1)}{b(1+a)}=\\dfrac{a \\left(2 b + 1\\right)}{b \\left(a + 1\\right)}$.",
+    "params": {
+      "p": "5",
+      "C": "3",
+      "r": "2",
+      "s": "1",
+      "i": "2",
+      "j": "1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-6x+\\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $2$.\nB. $5$.\nC. $4$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-6x+3\\ln(x+1)-1$. Ta có $f'(x)=\\dfrac{6x^2-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{2}}{2}$, f đạt cực đại xấp xỉ 1.059>0, còn tại $x=\\frac{\\sqrt{2}}{2}$, f đạt cực tiểu xấp xỉ -2.138<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-6",
+      "m": "3",
+      "C": "-1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-6x+\\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $4$.\nB. $5$.\nC. $2$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-6x+3\\ln(x+1)+0$. Ta có $f'(x)=\\dfrac{6x^2-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{2}}{2}$, f đạt cực đại xấp xỉ 2.059>0, còn tại $x=\\frac{\\sqrt{2}}{2}$, f đạt cực tiểu xấp xỉ -1.138<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-6",
+      "m": "3",
+      "C": "0"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-5x+\\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $5$.\nB. $4$.\nC. $2$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-5x+3\\ln(x+1)-1$. Ta có $f'(x)=\\dfrac{6x^2+1x-2}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{2}{3}$, f đạt cực đại xấp xỉ 0.371>0, còn tại $x=\\frac{1}{2}$, f đạt cực tiểu xấp xỉ -1.534<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-5",
+      "m": "3",
+      "C": "-1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-5x+\\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $5$.\nB. $2$.\nC. $4$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-5x+3\\ln(x+1)+0$. Ta có $f'(x)=\\dfrac{6x^2+1x-2}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{2}{3}$, f đạt cực đại xấp xỉ 1.371>0, còn tại $x=\\frac{1}{2}$, f đạt cực tiểu xấp xỉ -0.534<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-5",
+      "m": "3",
+      "C": "0"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $4x^2-8x+\\ln((x+1)^{3})-2=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $4$.\nB. $5$.\nC. $3$.\nD. $2$.",
+    "dap_an": "C. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\\ln(x+1)-2$. Ta có $f'(x)=\\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 2.134>0, còn tại $x=\\frac{\\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -4.077<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "4",
+      "B": "-8",
+      "m": "3",
+      "C": "-2"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $4x^2-8x+\\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $2$.\nB. $4$.\nC. $3$.\nD. $5$.",
+    "dap_an": "C. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\\ln(x+1)-1$. Ta có $f'(x)=\\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 3.134>0, còn tại $x=\\frac{\\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -3.077<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "4",
+      "B": "-8",
+      "m": "3",
+      "C": "-1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $4x^2-8x+\\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $2$.\nB. $4$.\nC. $5$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\\ln(x+1)+0$. Ta có $f'(x)=\\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 4.134>0, còn tại $x=\\frac{\\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -2.077<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "4",
+      "B": "-8",
+      "m": "3",
+      "C": "0"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $4x^2-8x+\\ln((x+1)^{3})+1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $5$.\nB. $2$.\nC. $4$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\\ln(x+1)+1$. Ta có $f'(x)=\\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 5.134>0, còn tại $x=\\frac{\\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -1.077<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "4",
+      "B": "-8",
+      "m": "3",
+      "C": "1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $4x^2-8x+\\ln((x+1)^{3})+2=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $4$.\nB. $5$.\nC. $2$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\\ln(x+1)+2$. Ta có $f'(x)=\\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \\frac{\\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 6.134>0, còn tại $x=\\frac{\\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -0.077<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "4",
+      "B": "-8",
+      "m": "3",
+      "C": "2"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-7x+\\ln((x+1)^{4})-1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $5$.\nB. $2$.\nC. $4$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-7x+4\\ln(x+1)-1$. Ta có $f'(x)=\\dfrac{6x^2-1x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\\frac{1}{12} - \\frac{\\sqrt{73}}{12}$, f đạt cực đại xấp xỉ 0.624>0, còn tại $x=\\frac{1}{12} + \\frac{\\sqrt{73}}{12}$, f đạt cực tiểu xấp xỉ -2.329<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-7",
+      "m": "4",
+      "C": "-1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-7x+\\ln((x+1)^{4})+0=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $4$.\nB. $3$.\nC. $5$.\nD. $2$.",
+    "dap_an": "B. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-7x+4\\ln(x+1)+0$. Ta có $f'(x)=\\dfrac{6x^2-1x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\\frac{1}{12} - \\frac{\\sqrt{73}}{12}$, f đạt cực đại xấp xỉ 1.624>0, còn tại $x=\\frac{1}{12} + \\frac{\\sqrt{73}}{12}$, f đạt cực tiểu xấp xỉ -1.329<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-7",
+      "m": "4",
+      "C": "0"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $3x^2-7x+\\ln((x+1)^{4})+1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $3$.\nB. $4$.\nC. $5$.\nD. $2$.",
+    "dap_an": "A. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=3x^2-7x+4\\ln(x+1)+1$. Ta có $f'(x)=\\dfrac{6x^2-1x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\\frac{1}{12} - \\frac{\\sqrt{73}}{12}$, f đạt cực đại xấp xỉ 2.624>0, còn tại $x=\\frac{1}{12} + \\frac{\\sqrt{73}}{12}$, f đạt cực tiểu xấp xỉ -0.329<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "3",
+      "B": "-7",
+      "m": "4",
+      "C": "1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $2x^2-6x+\\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $5$.\nB. $3$.\nC. $2$.\nD. $4$.",
+    "dap_an": "B. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=2x^2-6x+3\\ln(x+1)-1$. Ta có $f'(x)=\\dfrac{4x^2-2x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\\frac{1}{4} - \\frac{\\sqrt{13}}{4}$, f đạt cực đại xấp xỉ 0.596>0, còn tại $x=\\frac{1}{4} + \\frac{\\sqrt{13}}{4}$, f đạt cực tiểu xấp xỉ -2.959<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "2",
+      "B": "-6",
+      "m": "3",
+      "C": "-1"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $2x^2-6x+\\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $5$.\nB. $2$.\nC. $4$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=2x^2-6x+3\\ln(x+1)+0$. Ta có $f'(x)=\\dfrac{4x^2-2x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\\frac{1}{4} - \\frac{\\sqrt{13}}{4}$, f đạt cực đại xấp xỉ 1.596>0, còn tại $x=\\frac{1}{4} + \\frac{\\sqrt{13}}{4}$, f đạt cực tiểu xấp xỉ -1.959<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "2",
+      "B": "-6",
+      "m": "3",
+      "C": "0"
+    }
+  },
+  {
+    "id_goc": "p039_q35",
+    "ma_dang": "D23",
+    "ten_dang": "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Phương trình $2x^2-6x+\\ln((x+1)^{3})+1=0$ có bao nhiêu nghiệm phân biệt?\n\nA. $4$.\nB. $3$.\nC. $2$.\nD. $5$.",
+    "dap_an": "B. $3$.",
+    "loi_giai": "Điều kiện $x>-1$. Xét $f(x)=2x^2-6x+3\\ln(x+1)+1$. Ta có $f'(x)=\\dfrac{4x^2-2x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\\frac{1}{4} - \\frac{\\sqrt{13}}{4}$, f đạt cực đại xấp xỉ 2.596>0, còn tại $x=\\frac{1}{4} + \\frac{\\sqrt{13}}{4}$, f đạt cực tiểu xấp xỉ -0.959<0. Kết hợp $\\lim_{x\\to-1^+}f(x)=-\\infty$ và $\\lim_{x\\to+\\infty}f(x)=+\\infty$, phương trình có đúng 3 nghiệm phân biệt.",
+    "params": {
+      "A": "2",
+      "B": "-6",
+      "m": "3",
+      "C": "1"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{32}(x+y)=\\log_{64}(x^2+y^2)$?\n\nA. $4$.\nB. $2$.\nC. $1$.\nD. $3$.",
+    "dap_an": "B. $2$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{6/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{6}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1\\}$, có 2 giá trị.",
+    "params": {
+      "m": "6",
+      "n": "5",
+      "p": "32",
+      "q": "64",
+      "xs": "[0, 1]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{16}(x+y)=\\log_{32}(x^2+y^2)$?\n\nA. $4$.\nB. $1$.\nC. $2$.\nD. $3$.",
+    "dap_an": "C. $2$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{5/4}$. Thay $t=u^{4}$ ($u>0$), ta được $u^{8}-u^{5}-2xu^{4}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1\\}$, có 2 giá trị.",
+    "params": {
+      "m": "5",
+      "n": "4",
+      "p": "16",
+      "q": "32",
+      "xs": "[0, 1]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{32}(x+y)=\\log_{128}(x^2+y^2)$?\n\nA. $3$.\nB. $4$.\nC. $1$.\nD. $2$.",
+    "dap_an": "D. $2$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{7/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{7}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1\\}$, có 2 giá trị.",
+    "params": {
+      "m": "7",
+      "n": "5",
+      "p": "32",
+      "q": "128",
+      "xs": "[0, 1]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{32}(x+y)=\\log_{256}(x^2+y^2)$?\n\nA. $6$.\nB. $4$.\nC. $3$.\nD. $5$.",
+    "dap_an": "B. $4$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{8/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{8}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1,2,3\\}$, có 4 giá trị.",
+    "params": {
+      "m": "8",
+      "n": "5",
+      "p": "32",
+      "q": "256",
+      "xs": "[0, 1, 2, 3]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{16}(x+y)=\\log_{128}(x^2+y^2)$?\n\nA. $10$.\nB. $11$.\nC. $8$.\nD. $9$.",
+    "dap_an": "D. $9$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{7/4}$. Thay $t=u^{4}$ ($u>0$), ta được $u^{8}-u^{7}-2xu^{4}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1,2,3,4,5,6,7,8\\}$, có 9 giá trị.",
+    "params": {
+      "m": "7",
+      "n": "4",
+      "p": "16",
+      "q": "128",
+      "xs": "[0, 1, 2, 3, 4, 5, 6, 7, 8]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{8}(x+y)=\\log_{32}(x^2+y^2)$?\n\nA. $4$.\nB. $6$.\nC. $5$.\nD. $7$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{5/3}$. Thay $t=u^{3}$ ($u>0$), ta được $u^{6}-u^{5}-2xu^{3}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1,2,3,4\\}$, có 5 giá trị.",
+    "params": {
+      "m": "5",
+      "n": "3",
+      "p": "8",
+      "q": "32",
+      "xs": "[0, 1, 2, 3, 4]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{4}(x+y)=\\log_{8}(x^2+y^2)$?\n\nA. $5$.\nB. $4$.\nC. $2$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{3/2}$. Thay $t=u^{2}$ ($u>0$), ta được $u^{4}-u^{3}-2xu^{2}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1,2\\}$, có 3 giá trị.",
+    "params": {
+      "m": "3",
+      "n": "2",
+      "p": "4",
+      "q": "8",
+      "xs": "[0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p106_q50",
+    "ma_dang": "D47",
+    "ten_dang": "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{32}(x+y)=\\log_{512}(x^2+y^2)$?\n\nA. $18$.\nB. $19$.\nC. $16$.\nD. $17$.",
+    "dap_an": "D. $17$.",
+    "loi_giai": "Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{9/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{9}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in\\{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16\\}$, có 17 giá trị.",
+    "params": {
+      "m": "9",
+      "n": "5",
+      "p": "32",
+      "q": "512",
+      "xs": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-8;8)$ thỏa mãn $3^{a^2+b}\\le 2^{b-a}+20$?\n\nA. $4$.\nB. $6$.\nC. $5$.\nD. $7$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-7,\\ldots,7\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\\in\\{-2,-1,0,1,2\\}$. Với $a\\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "C": "20",
+      "N": "8",
+      "k": "4",
+      "M": "4",
+      "good": "[-2, -1, 0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-8;8)$ thỏa mãn $5^{a^2+b}\\le 3^{b-a}+100$?\n\nA. $6$.\nB. $7$.\nC. $5$.\nD. $4$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-7,\\ldots,7\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\\in\\{-2,-1,0,1,2\\}$. Với $a\\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "5",
+      "q": "3",
+      "C": "100",
+      "N": "8",
+      "k": "4",
+      "M": "4",
+      "good": "[-2, -1, 0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-7;7)$ thỏa mãn $3^{a^2+b}\\le 2^{b-a}+50$?\n\nA. $7$.\nB. $6$.\nC. $4$.\nD. $5$.",
+    "dap_an": "D. $5$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-6,\\ldots,6\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\\in\\{-2,-1,0,1,2\\}$. Với $a\\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "3",
+      "q": "2",
+      "C": "50",
+      "N": "7",
+      "k": "4",
+      "M": "4",
+      "good": "[-2, -1, 0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-8;8)$ thỏa mãn $4^{a^2+b}\\le 3^{b-a}+30$?\n\nA. $5$.\nB. $6$.\nC. $7$.\nD. $4$.",
+    "dap_an": "A. $5$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-7,\\ldots,7\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\\in\\{-2,-1,0,1,2\\}$. Với $a\\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "4",
+      "q": "3",
+      "C": "30",
+      "N": "8",
+      "k": "4",
+      "M": "4",
+      "good": "[-2, -1, 0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-9;9)$ thỏa mãn $3^{a^2+b}\\le 5^{b-a}+75$?\n\nA. $4$.\nB. $7$.\nC. $5$.\nD. $6$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-8,\\ldots,8\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\\in\\{-2,-1,0,1,2\\}$. Với $a\\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "3",
+      "q": "5",
+      "C": "75",
+      "N": "9",
+      "k": "4",
+      "M": "4",
+      "good": "[-2, -1, 0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-7;7)$ thỏa mãn $5^{a^2+b}\\le 2^{b-a}+50$?\n\nA. $7$.\nB. $6$.\nC. $4$.\nD. $5$.",
+    "dap_an": "D. $5$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-6,\\ldots,6\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\\in\\{-2,-1,0,1,2\\}$. Với $a\\ge3$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-3$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "5",
+      "q": "2",
+      "C": "50",
+      "N": "7",
+      "k": "4",
+      "M": "3",
+      "good": "[-2, -1, 0, 1, 2]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 3 số nguyên $b\\in(-6;6)$ thỏa mãn $2^{a^2+b}\\le 3^{b-a}+100$?\n\nA. $6$.\nB. $8$.\nC. $9$.\nD. $7$.",
+    "dap_an": "D. $7$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-5,\\ldots,5\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 3 giá trị $b$ đúng với $a\\in\\{-3,-2,-1,0,1,2,3\\}$. Với $a\\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "2",
+      "q": "3",
+      "C": "100",
+      "N": "6",
+      "k": "3",
+      "M": "4",
+      "good": "[-3, -2, -1, 0, 1, 2, 3]"
+    }
+  },
+  {
+    "id_goc": "p119_q48",
+    "ma_dang": "D52",
+    "ten_dang": "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 3 số nguyên $b\\in(-8;8)$ thỏa mãn $2^{a^2+b}\\le 5^{b-a}+100$?\n\nA. $8$.\nB. $9$.\nC. $6$.\nD. $7$.",
+    "dap_an": "D. $7$.",
+    "loi_giai": "Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in\\{-7,\\ldots,7\\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 3 giá trị $b$ đúng với $a\\in\\{-3,-2,-1,0,1,2,3\\}$. Với $a\\ge5$, vế trái tăng còn vế phải giảm theo $a$; với $a\\le-5$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp.",
+    "params": {
+      "p": "2",
+      "q": "5",
+      "C": "100",
+      "N": "8",
+      "k": "3",
+      "M": "5",
+      "good": "[-3, -2, -1, 0, 1, 2, 3]"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+96x)$?\n\nA. $12$.\nB. $13$.\nC. $14$.\nD. $11$.",
+    "dap_an": "A. $12$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+96/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=4$ vì $1+96/4=(4+1)^2$. Do đó $t\\le4$, hay $x^2+y^2\\le4x$. Với mỗi $x=1,\\ldots,4$, số giá trị $y$ là $2\\lfloor\\sqrt{x(4-x)}\\rfloor+1$; tổng bằng 12.",
+    "params": {
+      "T": "4",
+      "C": "96",
+      "count": "12"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+175x)$?\n\nA. $22$.\nB. $21$.\nC. $20$.\nD. $23$.",
+    "dap_an": "B. $21$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+175/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=5$ vì $1+175/5=(5+1)^2$. Do đó $t\\le5$, hay $x^2+y^2\\le5x$. Với mỗi $x=1,\\ldots,5$, số giá trị $y$ là $2\\lfloor\\sqrt{x(5-x)}\\rfloor+1$; tổng bằng 21.",
+    "params": {
+      "T": "5",
+      "C": "175",
+      "count": "21"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+288x)$?\n\nA. $28$.\nB. $30$.\nC. $29$.\nD. $27$.",
+    "dap_an": "A. $28$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+288/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=6$ vì $1+288/6=(6+1)^2$. Do đó $t\\le6$, hay $x^2+y^2\\le6x$. Với mỗi $x=1,\\ldots,6$, số giá trị $y$ là $2\\lfloor\\sqrt{x(6-x)}\\rfloor+1$; tổng bằng 28.",
+    "params": {
+      "T": "6",
+      "C": "288",
+      "count": "28"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+441x)$?\n\nA. $38$.\nB. $40$.\nC. $41$.\nD. $39$.",
+    "dap_an": "D. $39$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+441/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=7$ vì $1+441/7=(7+1)^2$. Do đó $t\\le7$, hay $x^2+y^2\\le7x$. Với mỗi $x=1,\\ldots,7$, số giá trị $y$ là $2\\lfloor\\sqrt{x(7-x)}\\rfloor+1$; tổng bằng 39.",
+    "params": {
+      "T": "7",
+      "C": "441",
+      "count": "39"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+640x)$?\n\nA. $49$.\nB. $48$.\nC. $50$.\nD. $47$.",
+    "dap_an": "B. $48$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+640/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=8$ vì $1+640/8=(8+1)^2$. Do đó $t\\le8$, hay $x^2+y^2\\le8x$. Với mỗi $x=1,\\ldots,8$, số giá trị $y$ là $2\\lfloor\\sqrt{x(8-x)}\\rfloor+1$; tổng bằng 48.",
+    "params": {
+      "T": "8",
+      "C": "640",
+      "count": "48"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+891x)$?\n\nA. $62$.\nB. $63$.\nC. $61$.\nD. $60$.",
+    "dap_an": "C. $61$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+891/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=9$ vì $1+891/9=(9+1)^2$. Do đó $t\\le9$, hay $x^2+y^2\\le9x$. Với mỗi $x=1,\\ldots,9$, số giá trị $y$ là $2\\lfloor\\sqrt{x(9-x)}\\rfloor+1$; tổng bằng 61.",
+    "params": {
+      "T": "9",
+      "C": "891",
+      "count": "61"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+1200x)$?\n\nA. $81$.\nB. $82$.\nC. $80$.\nD. $79$.",
+    "dap_an": "C. $80$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+1200/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=10$ vì $1+1200/10=(10+1)^2$. Do đó $t\\le10$, hay $x^2+y^2\\le10x$. Với mỗi $x=1,\\ldots,10$, số giá trị $y$ là $2\\lfloor\\sqrt{x(10-x)}\\rfloor+1$; tổng bằng 80.",
+    "params": {
+      "T": "10",
+      "C": "1200",
+      "count": "80"
+    }
+  },
+  {
+    "id_goc": "p133_q47",
+    "ma_dang": "D57",
+    "ten_dang": "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+1573x)$?\n\nA. $96$.\nB. $94$.\nC. $95$.\nD. $97$.",
+    "dap_an": "C. $95$.",
+    "loi_giai": "Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\\log_2(1+t)\\le\\log_4(1+1573/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=11$ vì $1+1573/11=(11+1)^2$. Do đó $t\\le11$, hay $x^2+y^2\\le11x$. Với mỗi $x=1,\\ldots,11$, số giá trị $y$ là $2\\lfloor\\sqrt{x(11-x)}\\rfloor+1$; tổng bằng 95.",
+    "params": {
+      "T": "11",
+      "C": "1573",
+      "count": "95"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+y$ bằng\n\nA. $P_{\\min}=\\dfrac{29}{8}$.\nB. $P_{\\min}=\\dfrac{21}{8}$.\nC. $P_{\\min}=\\dfrac{13}{8}$.\nD. $P_{\\min}=\\dfrac{21}{4}$.",
+    "dap_an": "B. $P_{\\min}=\\dfrac{21}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+1(3/2)=\\dfrac{15}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+1y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{3}{4}$, bằng $P_{\\min}=\\dfrac{21}{8}<\\dfrac{15}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "1",
+      "b": "1",
+      "x0": "3/4",
+      "p2": "21/8",
+      "p1": "15/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+2y$ bằng\n\nA. $P_{\\min}=\\dfrac{13}{2}$.\nB. $P_{\\min}=\\dfrac{9}{4}$.\nC. $P_{\\min}=\\dfrac{13}{4}$.\nD. $P_{\\min}=\\dfrac{17}{4}$.",
+    "dap_an": "C. $P_{\\min}=\\dfrac{13}{4}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+1(3/2)=\\dfrac{15}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+2y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=1$, bằng $P_{\\min}=\\dfrac{13}{4}<\\dfrac{15}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "1",
+      "b": "2",
+      "x0": "1",
+      "p2": "13/4",
+      "p1": "15/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+3y$ bằng\n\nA. $P_{\\min}=\\dfrac{29}{4}$.\nB. $P_{\\min}=\\dfrac{21}{8}$.\nC. $P_{\\min}=\\dfrac{37}{8}$.\nD. $P_{\\min}=\\dfrac{29}{8}$.",
+    "dap_an": "D. $P_{\\min}=\\dfrac{29}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+1(3/2)=\\dfrac{15}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+3y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{5}{4}$, bằng $P_{\\min}=\\dfrac{29}{8}<\\dfrac{15}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "1",
+      "b": "3",
+      "x0": "5/4",
+      "p2": "29/8",
+      "p1": "15/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+y$ bằng\n\nA. $P_{\\min}=\\dfrac{9}{4}$.\nB. $P_{\\min}=\\dfrac{13}{4}$.\nC. $P_{\\min}=\\dfrac{17}{4}$.\nD. $P_{\\min}=\\dfrac{13}{2}$.",
+    "dap_an": "B. $P_{\\min}=\\dfrac{13}{4}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+2(3/2)=\\dfrac{21}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+1y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{1}{2}$, bằng $P_{\\min}=\\dfrac{13}{4}<\\dfrac{21}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "2",
+      "b": "1",
+      "x0": "1/2",
+      "p2": "13/4",
+      "p1": "21/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+2y$ bằng\n\nA. $P_{\\min}=\\dfrac{41}{8}$.\nB. $P_{\\min}=\\dfrac{25}{8}$.\nC. $P_{\\min}=\\dfrac{33}{8}$.\nD. $P_{\\min}=\\dfrac{33}{4}$.",
+    "dap_an": "C. $P_{\\min}=\\dfrac{33}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+2(3/2)=\\dfrac{21}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+2y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{3}{4}$, bằng $P_{\\min}=\\dfrac{33}{8}<\\dfrac{21}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "2",
+      "b": "2",
+      "x0": "3/4",
+      "p2": "33/8",
+      "p1": "21/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+3y$ bằng\n\nA. $P_{\\min}=\\dfrac{19}{4}$.\nB. $P_{\\min}=\\dfrac{19}{2}$.\nC. $P_{\\min}=\\dfrac{23}{4}$.\nD. $P_{\\min}=\\dfrac{15}{4}$.",
+    "dap_an": "A. $P_{\\min}=\\dfrac{19}{4}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+2(3/2)=\\dfrac{21}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+3y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=1$, bằng $P_{\\min}=\\dfrac{19}{4}<\\dfrac{21}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "2",
+      "b": "3",
+      "x0": "1",
+      "p2": "19/4",
+      "p1": "21/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+4y$ bằng\n\nA. $P_{\\min}=\\dfrac{33}{8}$.\nB. $P_{\\min}=\\dfrac{49}{8}$.\nC. $P_{\\min}=\\dfrac{41}{4}$.\nD. $P_{\\min}=\\dfrac{41}{8}$.",
+    "dap_an": "D. $P_{\\min}=\\dfrac{41}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+2(3/2)=\\dfrac{21}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+4y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{5}{4}$, bằng $P_{\\min}=\\dfrac{41}{8}<\\dfrac{21}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "2",
+      "b": "4",
+      "x0": "5/4",
+      "p2": "41/8",
+      "p1": "21/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+y$ bằng\n\nA. $P_{\\min}=\\dfrac{29}{4}$.\nB. $P_{\\min}=\\dfrac{21}{8}$.\nC. $P_{\\min}=\\dfrac{37}{8}$.\nD. $P_{\\min}=\\dfrac{29}{8}$.",
+    "dap_an": "D. $P_{\\min}=\\dfrac{29}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+3(3/2)=\\dfrac{27}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+1y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{1}{4}$, bằng $P_{\\min}=\\dfrac{29}{8}<\\dfrac{27}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "3",
+      "b": "1",
+      "x0": "1/4",
+      "p2": "29/8",
+      "p1": "27/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+2y$ bằng\n\nA. $P_{\\min}=\\dfrac{15}{4}$.\nB. $P_{\\min}=\\dfrac{19}{2}$.\nC. $P_{\\min}=\\dfrac{19}{4}$.\nD. $P_{\\min}=\\dfrac{23}{4}$.",
+    "dap_an": "C. $P_{\\min}=\\dfrac{19}{4}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+3(3/2)=\\dfrac{27}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+2y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{1}{2}$, bằng $P_{\\min}=\\dfrac{19}{4}<\\dfrac{27}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "3",
+      "b": "2",
+      "x0": "1/2",
+      "p2": "19/4",
+      "p1": "27/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+3y$ bằng\n\nA. $P_{\\min}=\\dfrac{37}{8}$.\nB. $P_{\\min}=\\dfrac{45}{8}$.\nC. $P_{\\min}=\\dfrac{45}{4}$.\nD. $P_{\\min}=\\dfrac{53}{8}$.",
+    "dap_an": "B. $P_{\\min}=\\dfrac{45}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+3(3/2)=\\dfrac{27}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+3y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{3}{4}$, bằng $P_{\\min}=\\dfrac{45}{8}<\\dfrac{27}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "3",
+      "b": "3",
+      "x0": "3/4",
+      "p2": "45/8",
+      "p1": "27/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+4y$ bằng\n\nA. $P_{\\min}=\\dfrac{25}{2}$.\nB. $P_{\\min}=\\dfrac{25}{4}$.\nC. $P_{\\min}=\\dfrac{21}{4}$.\nD. $P_{\\min}=\\dfrac{29}{4}$.",
+    "dap_an": "B. $P_{\\min}=\\dfrac{25}{4}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+3(3/2)=\\dfrac{27}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+4y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=1$, bằng $P_{\\min}=\\dfrac{25}{4}<\\dfrac{27}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "3",
+      "b": "4",
+      "x0": "1",
+      "p2": "25/4",
+      "p1": "27/4"
+    }
+  },
+  {
+    "id_goc": "p203_q48",
+    "ma_dang": "D78",
+    "ten_dang": "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+5y$ bằng\n\nA. $P_{\\min}=\\dfrac{53}{8}$.\nB. $P_{\\min}=\\dfrac{45}{8}$.\nC. $P_{\\min}=\\dfrac{61}{8}$.\nD. $P_{\\min}=\\dfrac{53}{4}$.",
+    "dap_an": "A. $P_{\\min}=\\dfrac{53}{8}$.",
+    "loi_giai": "Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\\ge3/2$ thì $4^{s-1}\\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\\ge0$, $x+y\\ge3/2$. Với $x\\ge3/2$, $P\\ge(3/2)^2+3(3/2)=\\dfrac{27}{4}$. Với $0\\le x<3/2$, ta có $y\\ge3/2-x$; do $y^2+5y$ tăng theo $y\\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\\dfrac{5}{4}$, bằng $P_{\\min}=\\dfrac{53}{8}<\\dfrac{27}{4}$. Đây là GTNN.",
+    "params": {
+      "a": "3",
+      "b": "5",
+      "x0": "5/4",
+      "p2": "53/8",
+      "p1": "27/4"
+    }
+  }
+]

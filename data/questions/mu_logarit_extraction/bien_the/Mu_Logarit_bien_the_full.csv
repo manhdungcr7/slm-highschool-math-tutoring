@@ -3910,3 +3910,353 @@ A. $P_{\min}=1 - \dfrac{2 \sqrt{11}}{3}$.
 B. $P_{\min}=-2 + \dfrac{4 \sqrt{11}}{3}$.
 C. $P_{\min}=\dfrac{2 \sqrt{11}}{3}$.
 D. $P_{\min}=-1 + \dfrac{2 \sqrt{11}}{3}$.",D. $P_{\min}=-1 + \dfrac{2 \sqrt{11}}{3}$.,"Xét $f(t)=\log_{3}t+t$ đồng biến trên $(0;+\infty)$. Biến đổi giả thiết về dạng $f\left(3(1-xy)\right)=f(2x+y)$, suy ra $3(1-xy)=2x+y\Rightarrow y=\dfrac{3-2x}{3x+1}$ (với $0<x<\dfrac{3}{2}$ để $y>0$). Khảo sát $P=x+y$ theo $x$ trên miền này, đạt giá trị nhỏ nhất tại $x=- \dfrac{1}{3} + \dfrac{\sqrt{11}}{3}$, $P_{\min}=-1 + \dfrac{2 \sqrt{11}}{3}$."
+663,D08,Nhân bản,p007_q19,chuan,"Đặt $a=\log_{2}3,\ b=\log_{5}3$. Hãy biểu diễn $\log_{2\cdot 3}(3^{2}\cdot 5)$ theo $a,b$.
+
+A. $\log_{2\cdot 3}(3^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+B. $\log_{2\cdot 3}(3^{2}\cdot 5)=- \dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+C. $\log_{2\cdot 3}(3^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} + 1$.
+D. $\log_{2\cdot 3}(3^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} - 1$.",A. $\log_{2\cdot 3}(3^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.,Đổi cơ số theo $\ln C$: $\ln p=\dfrac{\ln C}a$ và $\ln r=\dfrac{\ln C}b$. Do đó giá trị cần tìm bằng $\dfrac{2\ln C+\ln r}{\ln p+\ln C}=\dfrac{a(2b+1)}{b(1+a)}=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+664,D08,Nhân bản,p007_q19,chuan,"Đặt $a=\log_{2}5,\ b=\log_{3}5$. Hãy biểu diễn $\log_{2\cdot 5}(5^{2}\cdot 3)$ theo $a,b$.
+
+A. $\log_{2\cdot 5}(5^{2}\cdot 3)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} - 1$.
+B. $\log_{2\cdot 5}(5^{2}\cdot 3)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} + 1$.
+C. $\log_{2\cdot 5}(5^{2}\cdot 3)=- \dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+D. $\log_{2\cdot 5}(5^{2}\cdot 3)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.",D. $\log_{2\cdot 5}(5^{2}\cdot 3)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.,Đổi cơ số theo $\ln C$: $\ln p=\dfrac{\ln C}a$ và $\ln r=\dfrac{\ln C}b$. Do đó giá trị cần tìm bằng $\dfrac{2\ln C+\ln r}{\ln p+\ln C}=\dfrac{a(2b+1)}{b(1+a)}=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+665,D08,Nhân bản,p007_q19,chuan,"Đặt $a=\log_{3}2,\ b=\log_{5}2$. Hãy biểu diễn $\log_{3\cdot 2}(2^{2}\cdot 5)$ theo $a,b$.
+
+A. $\log_{3\cdot 2}(2^{2}\cdot 5)=- \dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+B. $\log_{3\cdot 2}(2^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+C. $\log_{3\cdot 2}(2^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} - 1$.
+D. $\log_{3\cdot 2}(2^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} + 1$.",B. $\log_{3\cdot 2}(2^{2}\cdot 5)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.,Đổi cơ số theo $\ln C$: $\ln p=\dfrac{\ln C}a$ và $\ln r=\dfrac{\ln C}b$. Do đó giá trị cần tìm bằng $\dfrac{2\ln C+\ln r}{\ln p+\ln C}=\dfrac{a(2b+1)}{b(1+a)}=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+666,D08,Nhân bản,p007_q19,chuan,"Đặt $a=\log_{3}5,\ b=\log_{2}5$. Hãy biểu diễn $\log_{3\cdot 5}(5^{2}\cdot 2)$ theo $a,b$.
+
+A. $\log_{3\cdot 5}(5^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+B. $\log_{3\cdot 5}(5^{2}\cdot 2)=- \dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+C. $\log_{3\cdot 5}(5^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} - 1$.
+D. $\log_{3\cdot 5}(5^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} + 1$.",A. $\log_{3\cdot 5}(5^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.,Đổi cơ số theo $\ln C$: $\ln p=\dfrac{\ln C}a$ và $\ln r=\dfrac{\ln C}b$. Do đó giá trị cần tìm bằng $\dfrac{2\ln C+\ln r}{\ln p+\ln C}=\dfrac{a(2b+1)}{b(1+a)}=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+667,D08,Nhân bản,p007_q19,chuan,"Đặt $a=\log_{2}3,\ b=\log_{7}3$. Hãy biểu diễn $\log_{2\cdot 3}(3^{3}\cdot 7)$ theo $a,b$.
+
+A. $\log_{2\cdot 3}(3^{3}\cdot 7)=\dfrac{a \left(3 b + 1\right)}{b \left(a + 1\right)} - 1$.
+B. $\log_{2\cdot 3}(3^{3}\cdot 7)=\dfrac{a \left(3 b + 1\right)}{b \left(a + 1\right)} + 1$.
+C. $\log_{2\cdot 3}(3^{3}\cdot 7)=\dfrac{a \left(3 b + 1\right)}{b \left(a + 1\right)}$.
+D. $\log_{2\cdot 3}(3^{3}\cdot 7)=- \dfrac{a \left(3 b + 1\right)}{b \left(a + 1\right)}$.",C. $\log_{2\cdot 3}(3^{3}\cdot 7)=\dfrac{a \left(3 b + 1\right)}{b \left(a + 1\right)}$.,Đổi cơ số theo $\ln C$: $\ln p=\dfrac{\ln C}a$ và $\ln r=\dfrac{\ln C}b$. Do đó giá trị cần tìm bằng $\dfrac{3\ln C+\ln r}{\ln p+\ln C}=\dfrac{a(3b+1)}{b(1+a)}=\dfrac{a \left(3 b + 1\right)}{b \left(a + 1\right)}$.
+668,D08,Nhân bản,p007_q19,chuan,"Đặt $a=\log_{5}3,\ b=\log_{2}3$. Hãy biểu diễn $\log_{5\cdot 3}(3^{2}\cdot 2)$ theo $a,b$.
+
+A. $\log_{5\cdot 3}(3^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+B. $\log_{5\cdot 3}(3^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} - 1$.
+C. $\log_{5\cdot 3}(3^{2}\cdot 2)=- \dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+D. $\log_{5\cdot 3}(3^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)} + 1$.",A. $\log_{5\cdot 3}(3^{2}\cdot 2)=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.,Đổi cơ số theo $\ln C$: $\ln p=\dfrac{\ln C}a$ và $\ln r=\dfrac{\ln C}b$. Do đó giá trị cần tìm bằng $\dfrac{2\ln C+\ln r}{\ln p+\ln C}=\dfrac{a(2b+1)}{b(1+a)}=\dfrac{a \left(2 b + 1\right)}{b \left(a + 1\right)}$.
+669,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-6x+\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $2$.
+B. $5$.
+C. $4$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-6x+3\ln(x+1)-1$. Ta có $f'(x)=\dfrac{6x^2-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{2}}{2}$, f đạt cực đại xấp xỉ 1.059>0, còn tại $x=\frac{\sqrt{2}}{2}$, f đạt cực tiểu xấp xỉ -2.138<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+670,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-6x+\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $4$.
+B. $5$.
+C. $2$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-6x+3\ln(x+1)+0$. Ta có $f'(x)=\dfrac{6x^2-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{2}}{2}$, f đạt cực đại xấp xỉ 2.059>0, còn tại $x=\frac{\sqrt{2}}{2}$, f đạt cực tiểu xấp xỉ -1.138<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+671,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-5x+\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $5$.
+B. $4$.
+C. $2$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-5x+3\ln(x+1)-1$. Ta có $f'(x)=\dfrac{6x^2+1x-2}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{2}{3}$, f đạt cực đại xấp xỉ 0.371>0, còn tại $x=\frac{1}{2}$, f đạt cực tiểu xấp xỉ -1.534<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+672,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-5x+\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $5$.
+B. $2$.
+C. $4$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-5x+3\ln(x+1)+0$. Ta có $f'(x)=\dfrac{6x^2+1x-2}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{2}{3}$, f đạt cực đại xấp xỉ 1.371>0, còn tại $x=\frac{1}{2}$, f đạt cực tiểu xấp xỉ -0.534<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+673,D23,Nhân bản,p039_q35,chuan,"Phương trình $4x^2-8x+\ln((x+1)^{3})-2=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $4$.
+B. $5$.
+C. $3$.
+D. $2$.",C. $3$.,"Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\ln(x+1)-2$. Ta có $f'(x)=\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 2.134>0, còn tại $x=\frac{\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -4.077<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+674,D23,Nhân bản,p039_q35,chuan,"Phương trình $4x^2-8x+\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $2$.
+B. $4$.
+C. $3$.
+D. $5$.",C. $3$.,"Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\ln(x+1)-1$. Ta có $f'(x)=\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 3.134>0, còn tại $x=\frac{\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -3.077<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+675,D23,Nhân bản,p039_q35,chuan,"Phương trình $4x^2-8x+\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $2$.
+B. $4$.
+C. $5$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\ln(x+1)+0$. Ta có $f'(x)=\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 4.134>0, còn tại $x=\frac{\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -2.077<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+676,D23,Nhân bản,p039_q35,chuan,"Phương trình $4x^2-8x+\ln((x+1)^{3})+1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $5$.
+B. $2$.
+C. $4$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\ln(x+1)+1$. Ta có $f'(x)=\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 5.134>0, còn tại $x=\frac{\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -1.077<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+677,D23,Nhân bản,p039_q35,chuan,"Phương trình $4x^2-8x+\ln((x+1)^{3})+2=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $4$.
+B. $5$.
+C. $2$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=4x^2-8x+3\ln(x+1)+2$. Ta có $f'(x)=\dfrac{8x^2-5}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=- \frac{\sqrt{10}}{4}$, f đạt cực đại xấp xỉ 6.134>0, còn tại $x=\frac{\sqrt{10}}{4}$, f đạt cực tiểu xấp xỉ -0.077<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+678,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-7x+\ln((x+1)^{4})-1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $5$.
+B. $2$.
+C. $4$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-7x+4\ln(x+1)-1$. Ta có $f'(x)=\dfrac{6x^2-1x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\frac{1}{12} - \frac{\sqrt{73}}{12}$, f đạt cực đại xấp xỉ 0.624>0, còn tại $x=\frac{1}{12} + \frac{\sqrt{73}}{12}$, f đạt cực tiểu xấp xỉ -2.329<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+679,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-7x+\ln((x+1)^{4})+0=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $4$.
+B. $3$.
+C. $5$.
+D. $2$.",B. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-7x+4\ln(x+1)+0$. Ta có $f'(x)=\dfrac{6x^2-1x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\frac{1}{12} - \frac{\sqrt{73}}{12}$, f đạt cực đại xấp xỉ 1.624>0, còn tại $x=\frac{1}{12} + \frac{\sqrt{73}}{12}$, f đạt cực tiểu xấp xỉ -1.329<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+680,D23,Nhân bản,p039_q35,chuan,"Phương trình $3x^2-7x+\ln((x+1)^{4})+1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $3$.
+B. $4$.
+C. $5$.
+D. $2$.",A. $3$.,"Điều kiện $x>-1$. Xét $f(x)=3x^2-7x+4\ln(x+1)+1$. Ta có $f'(x)=\dfrac{6x^2-1x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\frac{1}{12} - \frac{\sqrt{73}}{12}$, f đạt cực đại xấp xỉ 2.624>0, còn tại $x=\frac{1}{12} + \frac{\sqrt{73}}{12}$, f đạt cực tiểu xấp xỉ -0.329<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+681,D23,Nhân bản,p039_q35,chuan,"Phương trình $2x^2-6x+\ln((x+1)^{3})-1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $5$.
+B. $3$.
+C. $2$.
+D. $4$.",B. $3$.,"Điều kiện $x>-1$. Xét $f(x)=2x^2-6x+3\ln(x+1)-1$. Ta có $f'(x)=\dfrac{4x^2-2x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\frac{1}{4} - \frac{\sqrt{13}}{4}$, f đạt cực đại xấp xỉ 0.596>0, còn tại $x=\frac{1}{4} + \frac{\sqrt{13}}{4}$, f đạt cực tiểu xấp xỉ -2.959<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+682,D23,Nhân bản,p039_q35,chuan,"Phương trình $2x^2-6x+\ln((x+1)^{3})+0=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $5$.
+B. $2$.
+C. $4$.
+D. $3$.",D. $3$.,"Điều kiện $x>-1$. Xét $f(x)=2x^2-6x+3\ln(x+1)+0$. Ta có $f'(x)=\dfrac{4x^2-2x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\frac{1}{4} - \frac{\sqrt{13}}{4}$, f đạt cực đại xấp xỉ 1.596>0, còn tại $x=\frac{1}{4} + \frac{\sqrt{13}}{4}$, f đạt cực tiểu xấp xỉ -1.959<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+683,D23,Nhân bản,p039_q35,chuan,"Phương trình $2x^2-6x+\ln((x+1)^{3})+1=0$ có bao nhiêu nghiệm phân biệt?
+
+A. $4$.
+B. $3$.
+C. $2$.
+D. $5$.",B. $3$.,"Điều kiện $x>-1$. Xét $f(x)=2x^2-6x+3\ln(x+1)+1$. Ta có $f'(x)=\dfrac{4x^2-2x-3}{x+1}$. Dấu của đạo hàm lần lượt là $+,-,+$; tại $x=\frac{1}{4} - \frac{\sqrt{13}}{4}$, f đạt cực đại xấp xỉ 2.596>0, còn tại $x=\frac{1}{4} + \frac{\sqrt{13}}{4}$, f đạt cực tiểu xấp xỉ -0.959<0. Kết hợp $\lim_{x\to-1^+}f(x)=-\infty$ và $\lim_{x\to+\infty}f(x)=+\infty$, phương trình có đúng 3 nghiệm phân biệt."
+684,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{32}(x+y)=\log_{64}(x^2+y^2)$?
+
+A. $4$.
+B. $2$.
+C. $1$.
+D. $3$.",B. $2$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{6/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{6}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1\}$, có 2 giá trị."
+685,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{16}(x+y)=\log_{32}(x^2+y^2)$?
+
+A. $4$.
+B. $1$.
+C. $2$.
+D. $3$.",C. $2$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{5/4}$. Thay $t=u^{4}$ ($u>0$), ta được $u^{8}-u^{5}-2xu^{4}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1\}$, có 2 giá trị."
+686,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{32}(x+y)=\log_{128}(x^2+y^2)$?
+
+A. $3$.
+B. $4$.
+C. $1$.
+D. $2$.",D. $2$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{7/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{7}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1\}$, có 2 giá trị."
+687,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{32}(x+y)=\log_{256}(x^2+y^2)$?
+
+A. $6$.
+B. $4$.
+C. $3$.
+D. $5$.",B. $4$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{8/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{8}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1,2,3\}$, có 4 giá trị."
+688,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{16}(x+y)=\log_{128}(x^2+y^2)$?
+
+A. $10$.
+B. $11$.
+C. $8$.
+D. $9$.",D. $9$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{7/4}$. Thay $t=u^{4}$ ($u>0$), ta được $u^{8}-u^{7}-2xu^{4}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1,2,3,4,5,6,7,8\}$, có 9 giá trị."
+689,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{8}(x+y)=\log_{32}(x^2+y^2)$?
+
+A. $4$.
+B. $6$.
+C. $5$.
+D. $7$.",C. $5$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{5/3}$. Thay $t=u^{3}$ ($u>0$), ta được $u^{6}-u^{5}-2xu^{3}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1,2,3,4\}$, có 5 giá trị."
+690,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{4}(x+y)=\log_{8}(x^2+y^2)$?
+
+A. $5$.
+B. $4$.
+C. $2$.
+D. $3$.",D. $3$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{3/2}$. Thay $t=u^{2}$ ($u>0$), ta được $u^{4}-u^{3}-2xu^{2}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1,2\}$, có 3 giá trị."
+691,D47,Nhân bản,p106_q50,chuan,"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\log_{32}(x+y)=\log_{512}(x^2+y^2)$?
+
+A. $18$.
+B. $19$.
+C. $16$.
+D. $17$.",D. $17$.,"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{9/5}$. Thay $t=u^{5}$ ($u>0$), ta được $u^{10}-u^{9}-2xu^{5}+2x^2=0$. Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\in\{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16\}$, có 17 giá trị."
+692,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\in(-8;8)$ thỏa mãn $3^{a^2+b}\le 2^{b-a}+20$?
+
+A. $4$.
+B. $6$.
+C. $5$.
+D. $7$.",C. $5$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-7,\ldots,7\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\in\{-2,-1,0,1,2\}$. Với $a\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+693,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\in(-8;8)$ thỏa mãn $5^{a^2+b}\le 3^{b-a}+100$?
+
+A. $6$.
+B. $7$.
+C. $5$.
+D. $4$.",C. $5$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-7,\ldots,7\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\in\{-2,-1,0,1,2\}$. Với $a\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+694,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\in(-7;7)$ thỏa mãn $3^{a^2+b}\le 2^{b-a}+50$?
+
+A. $7$.
+B. $6$.
+C. $4$.
+D. $5$.",D. $5$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-6,\ldots,6\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\in\{-2,-1,0,1,2\}$. Với $a\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+695,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\in(-8;8)$ thỏa mãn $4^{a^2+b}\le 3^{b-a}+30$?
+
+A. $5$.
+B. $6$.
+C. $7$.
+D. $4$.",A. $5$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-7,\ldots,7\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\in\{-2,-1,0,1,2\}$. Với $a\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+696,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\in(-9;9)$ thỏa mãn $3^{a^2+b}\le 5^{b-a}+75$?
+
+A. $4$.
+B. $7$.
+C. $5$.
+D. $6$.",C. $5$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-8,\ldots,8\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\in\{-2,-1,0,1,2\}$. Với $a\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+697,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\in(-7;7)$ thỏa mãn $5^{a^2+b}\le 2^{b-a}+50$?
+
+A. $7$.
+B. $6$.
+C. $4$.
+D. $5$.",D. $5$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-6,\ldots,6\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 4 giá trị $b$ đúng với $a\in\{-2,-1,0,1,2\}$. Với $a\ge3$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-3$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+698,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 3 số nguyên $b\in(-6;6)$ thỏa mãn $2^{a^2+b}\le 3^{b-a}+100$?
+
+A. $6$.
+B. $8$.
+C. $9$.
+D. $7$.",D. $7$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-5,\ldots,5\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 3 giá trị $b$ đúng với $a\in\{-3,-2,-1,0,1,2,3\}$. Với $a\ge4$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-4$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+699,D52,Nhân bản,p119_q48,chuan,"Có bao nhiêu số nguyên $a$ sao cho có ít nhất 3 số nguyên $b\in(-8;8)$ thỏa mãn $2^{a^2+b}\le 5^{b-a}+100$?
+
+A. $8$.
+B. $9$.
+C. $6$.
+D. $7$.",D. $7$.,"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\in\{-7,\ldots,7\}$ thỏa bất đẳng thức. Điều kiện có ít nhất 3 giá trị $b$ đúng với $a\in\{-3,-2,-1,0,1,2,3\}$. Với $a\ge5$, vế trái tăng còn vế phải giảm theo $a$; với $a\le-5$, phần mũ bậc hai làm vế trái tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+700,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+96x)$?
+
+A. $12$.
+B. $13$.
+C. $14$.
+D. $11$.",A. $12$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+96/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=4$ vì $1+96/4=(4+1)^2$. Do đó $t\le4$, hay $x^2+y^2\le4x$. Với mỗi $x=1,\ldots,4$, số giá trị $y$ là $2\lfloor\sqrt{x(4-x)}\rfloor+1$; tổng bằng 12."
+701,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+175x)$?
+
+A. $22$.
+B. $21$.
+C. $20$.
+D. $23$.",B. $21$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+175/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=5$ vì $1+175/5=(5+1)^2$. Do đó $t\le5$, hay $x^2+y^2\le5x$. Với mỗi $x=1,\ldots,5$, số giá trị $y$ là $2\lfloor\sqrt{x(5-x)}\rfloor+1$; tổng bằng 21."
+702,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+288x)$?
+
+A. $28$.
+B. $30$.
+C. $29$.
+D. $27$.",A. $28$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+288/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=6$ vì $1+288/6=(6+1)^2$. Do đó $t\le6$, hay $x^2+y^2\le6x$. Với mỗi $x=1,\ldots,6$, số giá trị $y$ là $2\lfloor\sqrt{x(6-x)}\rfloor+1$; tổng bằng 28."
+703,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+441x)$?
+
+A. $38$.
+B. $40$.
+C. $41$.
+D. $39$.",D. $39$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+441/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=7$ vì $1+441/7=(7+1)^2$. Do đó $t\le7$, hay $x^2+y^2\le7x$. Với mỗi $x=1,\ldots,7$, số giá trị $y$ là $2\lfloor\sqrt{x(7-x)}\rfloor+1$; tổng bằng 39."
+704,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+640x)$?
+
+A. $49$.
+B. $48$.
+C. $50$.
+D. $47$.",B. $48$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+640/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=8$ vì $1+640/8=(8+1)^2$. Do đó $t\le8$, hay $x^2+y^2\le8x$. Với mỗi $x=1,\ldots,8$, số giá trị $y$ là $2\lfloor\sqrt{x(8-x)}\rfloor+1$; tổng bằng 48."
+705,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+891x)$?
+
+A. $62$.
+B. $63$.
+C. $61$.
+D. $60$.",C. $61$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+891/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=9$ vì $1+891/9=(9+1)^2$. Do đó $t\le9$, hay $x^2+y^2\le9x$. Với mỗi $x=1,\ldots,9$, số giá trị $y$ là $2\lfloor\sqrt{x(9-x)}\rfloor+1$; tổng bằng 61."
+706,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+1200x)$?
+
+A. $81$.
+B. $82$.
+C. $80$.
+D. $79$.",C. $80$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+1200/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=10$ vì $1+1200/10=(10+1)^2$. Do đó $t\le10$, hay $x^2+y^2\le10x$. Với mỗi $x=1,\ldots,10$, số giá trị $y$ là $2\lfloor\sqrt{x(10-x)}\rfloor+1$; tổng bằng 80."
+707,D57,Nhân bản,p133_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và
+$\log_2(x^2+y^2+x)+\log_4(x^2+y^2)\le\log_2 x+\log_4(x^2+y^2+1573x)$?
+
+A. $96$.
+B. $94$.
+C. $95$.
+D. $97$.",C. $95$.,"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương $\log_2(1+t)\le\log_4(1+1573/t)$. Vế trái tăng, vế phải giảm; hai vế bằng nhau tại $t=11$ vì $1+1573/11=(11+1)^2$. Do đó $t\le11$, hay $x^2+y^2\le11x$. Với mỗi $x=1,\ldots,11$, số giá trị $y$ là $2\lfloor\sqrt{x(11-x)}\rfloor+1$; tổng bằng 95."
+708,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+y$ bằng
+
+A. $P_{\min}=\dfrac{29}{8}$.
+B. $P_{\min}=\dfrac{21}{8}$.
+C. $P_{\min}=\dfrac{13}{8}$.
+D. $P_{\min}=\dfrac{21}{4}$.",B. $P_{\min}=\dfrac{21}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+1(3/2)=\dfrac{15}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+1y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{3}{4}$, bằng $P_{\min}=\dfrac{21}{8}<\dfrac{15}{4}$. Đây là GTNN."
+709,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+2y$ bằng
+
+A. $P_{\min}=\dfrac{13}{2}$.
+B. $P_{\min}=\dfrac{9}{4}$.
+C. $P_{\min}=\dfrac{13}{4}$.
+D. $P_{\min}=\dfrac{17}{4}$.",C. $P_{\min}=\dfrac{13}{4}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+1(3/2)=\dfrac{15}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+2y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=1$, bằng $P_{\min}=\dfrac{13}{4}<\dfrac{15}{4}$. Đây là GTNN."
+710,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+3y$ bằng
+
+A. $P_{\min}=\dfrac{29}{4}$.
+B. $P_{\min}=\dfrac{21}{8}$.
+C. $P_{\min}=\dfrac{37}{8}$.
+D. $P_{\min}=\dfrac{29}{8}$.",D. $P_{\min}=\dfrac{29}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+1(3/2)=\dfrac{15}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+3y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{5}{4}$, bằng $P_{\min}=\dfrac{29}{8}<\dfrac{15}{4}$. Đây là GTNN."
+711,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+y$ bằng
+
+A. $P_{\min}=\dfrac{9}{4}$.
+B. $P_{\min}=\dfrac{13}{4}$.
+C. $P_{\min}=\dfrac{17}{4}$.
+D. $P_{\min}=\dfrac{13}{2}$.",B. $P_{\min}=\dfrac{13}{4}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+2(3/2)=\dfrac{21}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+1y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{1}{2}$, bằng $P_{\min}=\dfrac{13}{4}<\dfrac{21}{4}$. Đây là GTNN."
+712,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+2y$ bằng
+
+A. $P_{\min}=\dfrac{41}{8}$.
+B. $P_{\min}=\dfrac{25}{8}$.
+C. $P_{\min}=\dfrac{33}{8}$.
+D. $P_{\min}=\dfrac{33}{4}$.",C. $P_{\min}=\dfrac{33}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+2(3/2)=\dfrac{21}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+2y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{3}{4}$, bằng $P_{\min}=\dfrac{33}{8}<\dfrac{21}{4}$. Đây là GTNN."
+713,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+3y$ bằng
+
+A. $P_{\min}=\dfrac{19}{4}$.
+B. $P_{\min}=\dfrac{19}{2}$.
+C. $P_{\min}=\dfrac{23}{4}$.
+D. $P_{\min}=\dfrac{15}{4}$.",A. $P_{\min}=\dfrac{19}{4}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+2(3/2)=\dfrac{21}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+3y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=1$, bằng $P_{\min}=\dfrac{19}{4}<\dfrac{21}{4}$. Đây là GTNN."
+714,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+2x+4y$ bằng
+
+A. $P_{\min}=\dfrac{33}{8}$.
+B. $P_{\min}=\dfrac{49}{8}$.
+C. $P_{\min}=\dfrac{41}{4}$.
+D. $P_{\min}=\dfrac{41}{8}$.",D. $P_{\min}=\dfrac{41}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+2(3/2)=\dfrac{21}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+4y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{5}{4}$, bằng $P_{\min}=\dfrac{41}{8}<\dfrac{21}{4}$. Đây là GTNN."
+715,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+y$ bằng
+
+A. $P_{\min}=\dfrac{29}{4}$.
+B. $P_{\min}=\dfrac{21}{8}$.
+C. $P_{\min}=\dfrac{37}{8}$.
+D. $P_{\min}=\dfrac{29}{8}$.",D. $P_{\min}=\dfrac{29}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+3(3/2)=\dfrac{27}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+1y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{1}{4}$, bằng $P_{\min}=\dfrac{29}{8}<\dfrac{27}{4}$. Đây là GTNN."
+716,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+2y$ bằng
+
+A. $P_{\min}=\dfrac{15}{4}$.
+B. $P_{\min}=\dfrac{19}{2}$.
+C. $P_{\min}=\dfrac{19}{4}$.
+D. $P_{\min}=\dfrac{23}{4}$.",C. $P_{\min}=\dfrac{19}{4}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+3(3/2)=\dfrac{27}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+2y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{1}{2}$, bằng $P_{\min}=\dfrac{19}{4}<\dfrac{27}{4}$. Đây là GTNN."
+717,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+3y$ bằng
+
+A. $P_{\min}=\dfrac{37}{8}$.
+B. $P_{\min}=\dfrac{45}{8}$.
+C. $P_{\min}=\dfrac{45}{4}$.
+D. $P_{\min}=\dfrac{53}{8}$.",B. $P_{\min}=\dfrac{45}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+3(3/2)=\dfrac{27}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+3y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{3}{4}$, bằng $P_{\min}=\dfrac{45}{8}<\dfrac{27}{4}$. Đây là GTNN."
+718,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+4y$ bằng
+
+A. $P_{\min}=\dfrac{25}{2}$.
+B. $P_{\min}=\dfrac{25}{4}$.
+C. $P_{\min}=\dfrac{21}{4}$.
+D. $P_{\min}=\dfrac{29}{4}$.",B. $P_{\min}=\dfrac{25}{4}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+3(3/2)=\dfrac{27}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+4y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=1$, bằng $P_{\min}=\dfrac{25}{4}<\dfrac{27}{4}$. Đây là GTNN."
+719,D78,Nhân bản,p203_q48,chuan,"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\cdot4^{x+y-1}\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+3x+5y$ bằng
+
+A. $P_{\min}=\dfrac{53}{8}$.
+B. $P_{\min}=\dfrac{45}{8}$.
+C. $P_{\min}=\dfrac{61}{8}$.
+D. $P_{\min}=\dfrac{53}{4}$.",A. $P_{\min}=\dfrac{53}{8}$.,"Đặt $s=x+y$. Nếu $s<3/2$ thì $4^{s-1}<2$, nên $2x+y4^{s-1}<2x+2y<3$, trái điều kiện. Nếu $s\ge3/2$ thì $4^{s-1}\ge2$ và điều kiện được thỏa mãn. Vậy miền khả thi là $x,y\ge0$, $x+y\ge3/2$. Với $x\ge3/2$, $P\ge(3/2)^2+3(3/2)=\dfrac{27}{4}$. Với $0\le x<3/2$, ta có $y\ge3/2-x$; do $y^2+5y$ tăng theo $y\ge0$, P không nhỏ hơn giá trị trên biên $y=3/2-x$. Giá trị này nhỏ nhất tại $x=\dfrac{5}{4}$, bằng $P_{\min}=\dfrac{53}{8}<\dfrac{27}{4}$. Đây là GTNN."
