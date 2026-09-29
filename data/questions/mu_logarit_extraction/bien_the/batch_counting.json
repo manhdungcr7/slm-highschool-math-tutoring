@@ -1,0 +1,338 @@
+[
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-2017;2017]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $2018$.\nB. $2017$.\nC. $4035$.\nD. $2019$.",
+    "dap_an": "A. $2018$.",
+    "loi_giai": "Điều kiện $x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-2017;2017]\\cap\\mathbb{Z}$, có $2017$ giá trị âm cộng thêm $m=4$, tổng cộng $2018$ giá trị.",
+    "params": {
+      "p": "1",
+      "M": "2017"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-100;100]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $100$.\nB. $101$.\nC. $102$.\nD. $201$.",
+    "dap_an": "B. $101$.",
+    "loi_giai": "Điều kiện $x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-100;100]\\cap\\mathbb{Z}$, có $100$ giá trị âm cộng thêm $m=8$, tổng cộng $101$ giá trị.",
+    "params": {
+      "p": "2",
+      "M": "100"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-50;50]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $52$.\nB. $50$.\nC. $101$.\nD. $51$.",
+    "dap_an": "D. $51$.",
+    "loi_giai": "Điều kiện $x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-50;50]\\cap\\mathbb{Z}$, có $50$ giá trị âm cộng thêm $m=4$, tổng cộng $51$ giá trị.",
+    "params": {
+      "p": "1",
+      "M": "50"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-200;200]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $401$.\nB. $202$.\nC. $201$.\nD. $200$.",
+    "dap_an": "C. $201$.",
+    "loi_giai": "Điều kiện $x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-200;200]\\cap\\mathbb{Z}$, có $200$ giá trị âm cộng thêm $m=12$, tổng cộng $201$ giá trị.",
+    "params": {
+      "p": "3",
+      "M": "200"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-30;30]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $30$.\nB. $31$.\nC. $61$.\nD. $32$.",
+    "dap_an": "B. $31$.",
+    "loi_giai": "Điều kiện $x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-30;30]\\cap\\mathbb{Z}$, có $30$ giá trị âm cộng thêm $m=4$, tổng cộng $31$ giá trị.",
+    "params": {
+      "p": "1",
+      "M": "30"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-500;500]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $1001$.\nB. $500$.\nC. $502$.\nD. $501$.",
+    "dap_an": "D. $501$.",
+    "loi_giai": "Điều kiện $x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-500;500]\\cap\\mathbb{Z}$, có $500$ giá trị âm cộng thêm $m=8$, tổng cộng $501$ giá trị.",
+    "params": {
+      "p": "2",
+      "M": "500"
+    }
+  },
+  {
+    "id_goc": "p090_q47",
+    "ma_dang": "D41",
+    "ten_dang": "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 2020$ và $\\log_{3}(3x+3)+x=2y+9^y$?\n\nA. $3$.\nB. $2020$.\nC. $5$.\nD. $4$.",
+    "dap_an": "D. $4$.",
+    "loi_giai": "$\\log_{3}(3x+3)+x=2y+3^{2y} \\Leftrightarrow 1+\\log_{3}(x+1)+x=2y+3^{2y}$. Đặt $t=\\log_{3}(x+1)$ suy ra $t+3^t=2y+3^{2y}$. Xét $f(h)=h+3^h$ đồng biến trên $\\mathbb{R}$ nên $t=2y \\Leftrightarrow x+1=3^{2y}$. Do $0\\le x\\le2020$ nên $0\\le y\\le\\log_{3}(2021)/2\\approx3.46$, suy ra $y\\in\\{0,1,\\ldots,3\\}$, có $4$ cặp.",
+    "params": {
+      "b": "3",
+      "N": "2020"
+    }
+  },
+  {
+    "id_goc": "p090_q47",
+    "ma_dang": "D41",
+    "ten_dang": "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 100$ và $\\log_{2}(2x+2)+x=2y+4^y$?\n\nA. $5$.\nB. $4$.\nC. $3$.\nD. $100$.",
+    "dap_an": "B. $4$.",
+    "loi_giai": "$\\log_{2}(2x+2)+x=2y+2^{2y} \\Leftrightarrow 1+\\log_{2}(x+1)+x=2y+2^{2y}$. Đặt $t=\\log_{2}(x+1)$ suy ra $t+2^t=2y+2^{2y}$. Xét $f(h)=h+2^h$ đồng biến trên $\\mathbb{R}$ nên $t=2y \\Leftrightarrow x+1=2^{2y}$. Do $0\\le x\\le100$ nên $0\\le y\\le\\log_{2}(101)/2\\approx3.33$, suy ra $y\\in\\{0,1,\\ldots,3\\}$, có $4$ cặp.",
+    "params": {
+      "b": "2",
+      "N": "100"
+    }
+  },
+  {
+    "id_goc": "p090_q47",
+    "ma_dang": "D41",
+    "ten_dang": "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 500$ và $\\log_{3}(3x+3)+x=2y+9^y$?\n\nA. $4$.\nB. $500$.\nC. $2$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "$\\log_{3}(3x+3)+x=2y+3^{2y} \\Leftrightarrow 1+\\log_{3}(x+1)+x=2y+3^{2y}$. Đặt $t=\\log_{3}(x+1)$ suy ra $t+3^t=2y+3^{2y}$. Xét $f(h)=h+3^h$ đồng biến trên $\\mathbb{R}$ nên $t=2y \\Leftrightarrow x+1=3^{2y}$. Do $0\\le x\\le500$ nên $0\\le y\\le\\log_{3}(501)/2\\approx2.83$, suy ra $y\\in\\{0,1,\\ldots,2\\}$, có $3$ cặp.",
+    "params": {
+      "b": "3",
+      "N": "500"
+    }
+  },
+  {
+    "id_goc": "p090_q47",
+    "ma_dang": "D41",
+    "ten_dang": "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 50$ và $\\log_{2}(2x+2)+x=2y+4^y$?\n\nA. $2$.\nB. $4$.\nC. $50$.\nD. $3$.",
+    "dap_an": "D. $3$.",
+    "loi_giai": "$\\log_{2}(2x+2)+x=2y+2^{2y} \\Leftrightarrow 1+\\log_{2}(x+1)+x=2y+2^{2y}$. Đặt $t=\\log_{2}(x+1)$ suy ra $t+2^t=2y+2^{2y}$. Xét $f(h)=h+2^h$ đồng biến trên $\\mathbb{R}$ nên $t=2y \\Leftrightarrow x+1=2^{2y}$. Do $0\\le x\\le50$ nên $0\\le y\\le\\log_{2}(51)/2\\approx2.84$, suy ra $y\\in\\{0,1,\\ldots,2\\}$, có $3$ cặp.",
+    "params": {
+      "b": "2",
+      "N": "50"
+    }
+  },
+  {
+    "id_goc": "p090_q47",
+    "ma_dang": "D41",
+    "ten_dang": "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 1000$ và $\\log_{5}(5x+5)+x=2y+25^y$?\n\nA. $2$.\nB. $3$.\nC. $1000$.\nD. $4$.",
+    "dap_an": "B. $3$.",
+    "loi_giai": "$\\log_{5}(5x+5)+x=2y+5^{2y} \\Leftrightarrow 1+\\log_{5}(x+1)+x=2y+5^{2y}$. Đặt $t=\\log_{5}(x+1)$ suy ra $t+5^t=2y+5^{2y}$. Xét $f(h)=h+5^h$ đồng biến trên $\\mathbb{R}$ nên $t=2y \\Leftrightarrow x+1=5^{2y}$. Do $0\\le x\\le1000$ nên $0\\le y\\le\\log_{5}(1001)/2\\approx2.15$, suy ra $y\\in\\{0,1,\\ldots,2\\}$, có $3$ cặp.",
+    "params": {
+      "b": "5",
+      "N": "1000"
+    }
+  },
+  {
+    "id_goc": "p090_q47",
+    "ma_dang": "D41",
+    "ten_dang": "Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 200$ và $\\log_{2}(2x+2)+x=2y+4^y$?\n\nA. $5$.\nB. $3$.\nC. $4$.\nD. $200$.",
+    "dap_an": "C. $4$.",
+    "loi_giai": "$\\log_{2}(2x+2)+x=2y+2^{2y} \\Leftrightarrow 1+\\log_{2}(x+1)+x=2y+2^{2y}$. Đặt $t=\\log_{2}(x+1)$ suy ra $t+2^t=2y+2^{2y}$. Xét $f(h)=h+2^h$ đồng biến trên $\\mathbb{R}$ nên $t=2y \\Leftrightarrow x+1=2^{2y}$. Do $0\\le x\\le200$ nên $0\\le y\\le\\log_{2}(201)/2\\approx3.83$, suy ra $y\\in\\{0,1,\\ldots,3\\}$, có $4$ cặp.",
+    "params": {
+      "b": "2",
+      "N": "200"
+    }
+  },
+  {
+    "id_goc": "p179_q37",
+    "ma_dang": "D74",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{9}x^2-\\log_{3}(6x-1)=-\\log_{3}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?\n\nA. $Vô số$.\nB. $7$.\nC. $5$.\nD. $6$.",
+    "dap_an": "C. $5$.",
+    "loi_giai": "Điều kiện $x>\\dfrac1{6}, m>0$. $\\log_{3}x+\\log_{3}m=\\log_{3}(6x-1)\\Leftrightarrow mx=6x-1\\Leftrightarrow x(6-m)=1$. Với $m\\ne6$: $x=\\dfrac1{6-m}>\\dfrac1{6}\\Leftrightarrow 0<m<6$. Vậy $m\\in\\{1,\\ldots,5\\}$, có $5$ giá trị.",
+    "params": {
+      "b": "3",
+      "q": "6"
+    }
+  },
+  {
+    "id_goc": "p179_q37",
+    "ma_dang": "D74",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{4}x^2-\\log_{2}(5x-1)=-\\log_{2}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?\n\nA. $5$.\nB. $4$.\nC. $6$.\nD. $Vô số$.",
+    "dap_an": "B. $4$.",
+    "loi_giai": "Điều kiện $x>\\dfrac1{5}, m>0$. $\\log_{2}x+\\log_{2}m=\\log_{2}(5x-1)\\Leftrightarrow mx=5x-1\\Leftrightarrow x(5-m)=1$. Với $m\\ne5$: $x=\\dfrac1{5-m}>\\dfrac1{5}\\Leftrightarrow 0<m<5$. Vậy $m\\in\\{1,\\ldots,4\\}$, có $4$ giá trị.",
+    "params": {
+      "b": "2",
+      "q": "5"
+    }
+  },
+  {
+    "id_goc": "p179_q37",
+    "ma_dang": "D74",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{9}x^2-\\log_{3}(8x-1)=-\\log_{3}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?\n\nA. $9$.\nB. $Vô số$.\nC. $8$.\nD. $7$.",
+    "dap_an": "D. $7$.",
+    "loi_giai": "Điều kiện $x>\\dfrac1{8}, m>0$. $\\log_{3}x+\\log_{3}m=\\log_{3}(8x-1)\\Leftrightarrow mx=8x-1\\Leftrightarrow x(8-m)=1$. Với $m\\ne8$: $x=\\dfrac1{8-m}>\\dfrac1{8}\\Leftrightarrow 0<m<8$. Vậy $m\\in\\{1,\\ldots,7\\}$, có $7$ giá trị.",
+    "params": {
+      "b": "3",
+      "q": "8"
+    }
+  },
+  {
+    "id_goc": "p179_q37",
+    "ma_dang": "D74",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{25}x^2-\\log_{5}(10x-1)=-\\log_{5}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?\n\nA. $Vô số$.\nB. $10$.\nC. $11$.\nD. $9$.",
+    "dap_an": "D. $9$.",
+    "loi_giai": "Điều kiện $x>\\dfrac1{10}, m>0$. $\\log_{5}x+\\log_{5}m=\\log_{5}(10x-1)\\Leftrightarrow mx=10x-1\\Leftrightarrow x(10-m)=1$. Với $m\\ne10$: $x=\\dfrac1{10-m}>\\dfrac1{10}\\Leftrightarrow 0<m<10$. Vậy $m\\in\\{1,\\ldots,9\\}$, có $9$ giá trị.",
+    "params": {
+      "b": "5",
+      "q": "10"
+    }
+  },
+  {
+    "id_goc": "p179_q37",
+    "ma_dang": "D74",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{4}x^2-\\log_{2}(7x-1)=-\\log_{2}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?\n\nA. $7$.\nB. $Vô số$.\nC. $6$.\nD. $8$.",
+    "dap_an": "C. $6$.",
+    "loi_giai": "Điều kiện $x>\\dfrac1{7}, m>0$. $\\log_{2}x+\\log_{2}m=\\log_{2}(7x-1)\\Leftrightarrow mx=7x-1\\Leftrightarrow x(7-m)=1$. Với $m\\ne7$: $x=\\dfrac1{7-m}>\\dfrac1{7}\\Leftrightarrow 0<m<7$. Vậy $m\\in\\{1,\\ldots,6\\}$, có $6$ giá trị.",
+    "params": {
+      "b": "2",
+      "q": "7"
+    }
+  },
+  {
+    "id_goc": "p179_q37",
+    "ma_dang": "D74",
+    "ten_dang": "Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho phương trình $\\log_{9}x^2-\\log_{3}(4x-1)=-\\log_{3}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?\n\nA. $Vô số$.\nB. $3$.\nC. $4$.\nD. $5$.",
+    "dap_an": "B. $3$.",
+    "loi_giai": "Điều kiện $x>\\dfrac1{4}, m>0$. $\\log_{3}x+\\log_{3}m=\\log_{3}(4x-1)\\Leftrightarrow mx=4x-1\\Leftrightarrow x(4-m)=1$. Với $m\\ne4$: $x=\\dfrac1{4-m}>\\dfrac1{4}\\Leftrightarrow 0<m<4$. Vậy $m\\in\\{1,\\ldots,3\\}$, có $3$ giá trị.",
+    "params": {
+      "b": "3",
+      "q": "4"
+    }
+  },
+  {
+    "id_goc": "p240_q31",
+    "ma_dang": "D92",
+    "ten_dang": "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(6-x)(x+2)]$?\n\nA. $Vô số$.\nB. $8$.\nC. $6$.\nD. $7$.",
+    "dap_an": "D. $7$.",
+    "loi_giai": "Điều kiện $(6-x)(x+2)>0\\Leftrightarrow -2<x<6\\Rightarrow \\mathscr{D}=(-2;6)$. Vậy có $7$ số nguyên thuộc tập xác định.",
+    "params": {
+      "N": "6",
+      "M": "2"
+    }
+  },
+  {
+    "id_goc": "p240_q31",
+    "ma_dang": "D92",
+    "ten_dang": "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(10-x)(x+3)]$?\n\nA. $12$.\nB. $13$.\nC. $11$.\nD. $Vô số$.",
+    "dap_an": "A. $12$.",
+    "loi_giai": "Điều kiện $(10-x)(x+3)>0\\Leftrightarrow -3<x<10\\Rightarrow \\mathscr{D}=(-3;10)$. Vậy có $12$ số nguyên thuộc tập xác định.",
+    "params": {
+      "N": "10",
+      "M": "3"
+    }
+  },
+  {
+    "id_goc": "p240_q31",
+    "ma_dang": "D92",
+    "ten_dang": "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(8-x)(x+5)]$?\n\nA. $12$.\nB. $11$.\nC. $13$.\nD. $Vô số$.",
+    "dap_an": "A. $12$.",
+    "loi_giai": "Điều kiện $(8-x)(x+5)>0\\Leftrightarrow -5<x<8\\Rightarrow \\mathscr{D}=(-5;8)$. Vậy có $12$ số nguyên thuộc tập xác định.",
+    "params": {
+      "N": "8",
+      "M": "5"
+    }
+  },
+  {
+    "id_goc": "p240_q31",
+    "ma_dang": "D92",
+    "ten_dang": "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(15-x)(x+4)]$?\n\nA. $Vô số$.\nB. $17$.\nC. $19$.\nD. $18$.",
+    "dap_an": "D. $18$.",
+    "loi_giai": "Điều kiện $(15-x)(x+4)>0\\Leftrightarrow -4<x<15\\Rightarrow \\mathscr{D}=(-4;15)$. Vậy có $18$ số nguyên thuộc tập xác định.",
+    "params": {
+      "N": "15",
+      "M": "4"
+    }
+  },
+  {
+    "id_goc": "p240_q31",
+    "ma_dang": "D92",
+    "ten_dang": "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(6-x)(x+6)]$?\n\nA. $12$.\nB. $10$.\nC. $Vô số$.\nD. $11$.",
+    "dap_an": "D. $11$.",
+    "loi_giai": "Điều kiện $(6-x)(x+6)>0\\Leftrightarrow -6<x<6\\Rightarrow \\mathscr{D}=(-6;6)$. Vậy có $11$ số nguyên thuộc tập xác định.",
+    "params": {
+      "N": "6",
+      "M": "6"
+    }
+  },
+  {
+    "id_goc": "p240_q31",
+    "ma_dang": "D92",
+    "ten_dang": "Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(20-x)(x+2)]$?\n\nA. $22$.\nB. $21$.\nC. $20$.\nD. $Vô số$.",
+    "dap_an": "B. $21$.",
+    "loi_giai": "Điều kiện $(20-x)(x+2)>0\\Leftrightarrow -2<x<20\\Rightarrow \\mathscr{D}=(-2;20)$. Vậy có $21$ số nguyên thuộc tập xác định.",
+    "params": {
+      "N": "20",
+      "M": "2"
+    }
+  }
+]

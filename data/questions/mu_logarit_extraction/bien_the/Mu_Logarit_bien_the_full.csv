@@ -2794,3 +2794,159 @@ A. $x=\dfrac{5}{2}$.
 B. $x=\dfrac{7}{2}$.
 C. $x=\dfrac{3}{2}$.
 D. $x=- \dfrac{5}{2}$.",A. $x=\dfrac{5}{2}$.,Xét phương trình $2^{3x-2}=2^{1x+3}\Leftrightarrow 3x-2=1x+3\Leftrightarrow x=\dfrac{5}{2}$.
+481,D25,Nhân bản,p042_q45,chuan,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-2017;2017]$ để phương trình $\log(mx)=2\log(x+1)$ có nghiệm duy nhất?
+
+A. $2018$.
+B. $2017$.
+C. $4035$.
+D. $2019$.",A. $2018$.,"Điều kiện $x>-1, x\ne0$. $\log(mx)=2\log(x+1)\Leftrightarrow mx=(x+1)^2 \Leftrightarrow m=\dfrac{(x+1)^2}{x}=f(x)$.
+$f'(x)=\dfrac{x^2-1}{x^2}=0\Leftrightarrow x=\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\to-\infty$ khi $x\to-1^+$, $f\to+\infty$ khi $x\to0^-$ hoặc $x\to+\infty$.
+Phương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\in[-2017;2017]\cap\mathbb{Z}$, có $2017$ giá trị âm cộng thêm $m=4$, tổng cộng $2018$ giá trị."
+482,D25,Nhân bản,p042_q45,chuan,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-100;100]$ để phương trình $\log(mx)=2\log(x+2)$ có nghiệm duy nhất?
+
+A. $100$.
+B. $101$.
+C. $102$.
+D. $201$.",B. $101$.,"Điều kiện $x>-2, x\ne0$. $\log(mx)=2\log(x+2)\Leftrightarrow mx=(x+2)^2 \Leftrightarrow m=\dfrac{(x+2)^2}{x}=f(x)$.
+$f'(x)=\dfrac{x^2-4}{x^2}=0\Leftrightarrow x=\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\to-\infty$ khi $x\to-2^+$, $f\to+\infty$ khi $x\to0^-$ hoặc $x\to+\infty$.
+Phương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\in[-100;100]\cap\mathbb{Z}$, có $100$ giá trị âm cộng thêm $m=8$, tổng cộng $101$ giá trị."
+483,D25,Nhân bản,p042_q45,chuan,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-50;50]$ để phương trình $\log(mx)=2\log(x+1)$ có nghiệm duy nhất?
+
+A. $52$.
+B. $50$.
+C. $101$.
+D. $51$.",D. $51$.,"Điều kiện $x>-1, x\ne0$. $\log(mx)=2\log(x+1)\Leftrightarrow mx=(x+1)^2 \Leftrightarrow m=\dfrac{(x+1)^2}{x}=f(x)$.
+$f'(x)=\dfrac{x^2-1}{x^2}=0\Leftrightarrow x=\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\to-\infty$ khi $x\to-1^+$, $f\to+\infty$ khi $x\to0^-$ hoặc $x\to+\infty$.
+Phương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\in[-50;50]\cap\mathbb{Z}$, có $50$ giá trị âm cộng thêm $m=4$, tổng cộng $51$ giá trị."
+484,D25,Nhân bản,p042_q45,chuan,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-200;200]$ để phương trình $\log(mx)=2\log(x+3)$ có nghiệm duy nhất?
+
+A. $401$.
+B. $202$.
+C. $201$.
+D. $200$.",C. $201$.,"Điều kiện $x>-3, x\ne0$. $\log(mx)=2\log(x+3)\Leftrightarrow mx=(x+3)^2 \Leftrightarrow m=\dfrac{(x+3)^2}{x}=f(x)$.
+$f'(x)=\dfrac{x^2-9}{x^2}=0\Leftrightarrow x=\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\to-\infty$ khi $x\to-3^+$, $f\to+\infty$ khi $x\to0^-$ hoặc $x\to+\infty$.
+Phương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\in[-200;200]\cap\mathbb{Z}$, có $200$ giá trị âm cộng thêm $m=12$, tổng cộng $201$ giá trị."
+485,D25,Nhân bản,p042_q45,chuan,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-30;30]$ để phương trình $\log(mx)=2\log(x+1)$ có nghiệm duy nhất?
+
+A. $30$.
+B. $31$.
+C. $61$.
+D. $32$.",B. $31$.,"Điều kiện $x>-1, x\ne0$. $\log(mx)=2\log(x+1)\Leftrightarrow mx=(x+1)^2 \Leftrightarrow m=\dfrac{(x+1)^2}{x}=f(x)$.
+$f'(x)=\dfrac{x^2-1}{x^2}=0\Leftrightarrow x=\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\to-\infty$ khi $x\to-1^+$, $f\to+\infty$ khi $x\to0^-$ hoặc $x\to+\infty$.
+Phương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\in[-30;30]\cap\mathbb{Z}$, có $30$ giá trị âm cộng thêm $m=4$, tổng cộng $31$ giá trị."
+486,D25,Nhân bản,p042_q45,chuan,"Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-500;500]$ để phương trình $\log(mx)=2\log(x+2)$ có nghiệm duy nhất?
+
+A. $1001$.
+B. $500$.
+C. $502$.
+D. $501$.",D. $501$.,"Điều kiện $x>-2, x\ne0$. $\log(mx)=2\log(x+2)\Leftrightarrow mx=(x+2)^2 \Leftrightarrow m=\dfrac{(x+2)^2}{x}=f(x)$.
+$f'(x)=\dfrac{x^2-4}{x^2}=0\Leftrightarrow x=\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\to-\infty$ khi $x\to-2^+$, $f\to+\infty$ khi $x\to0^-$ hoặc $x\to+\infty$.
+Phương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\in[-500;500]\cap\mathbb{Z}$, có $500$ giá trị âm cộng thêm $m=8$, tổng cộng $501$ giá trị."
+487,D41,Nhân bản,p090_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 2020$ và $\log_{3}(3x+3)+x=2y+9^y$?
+
+A. $3$.
+B. $2020$.
+C. $5$.
+D. $4$.",D. $4$.,"$\log_{3}(3x+3)+x=2y+3^{2y} \Leftrightarrow 1+\log_{3}(x+1)+x=2y+3^{2y}$. Đặt $t=\log_{3}(x+1)$ suy ra $t+3^t=2y+3^{2y}$. Xét $f(h)=h+3^h$ đồng biến trên $\mathbb{R}$ nên $t=2y \Leftrightarrow x+1=3^{2y}$. Do $0\le x\le2020$ nên $0\le y\le\log_{3}(2021)/2\approx3.46$, suy ra $y\in\{0,1,\ldots,3\}$, có $4$ cặp."
+488,D41,Nhân bản,p090_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 100$ và $\log_{2}(2x+2)+x=2y+4^y$?
+
+A. $5$.
+B. $4$.
+C. $3$.
+D. $100$.",B. $4$.,"$\log_{2}(2x+2)+x=2y+2^{2y} \Leftrightarrow 1+\log_{2}(x+1)+x=2y+2^{2y}$. Đặt $t=\log_{2}(x+1)$ suy ra $t+2^t=2y+2^{2y}$. Xét $f(h)=h+2^h$ đồng biến trên $\mathbb{R}$ nên $t=2y \Leftrightarrow x+1=2^{2y}$. Do $0\le x\le100$ nên $0\le y\le\log_{2}(101)/2\approx3.33$, suy ra $y\in\{0,1,\ldots,3\}$, có $4$ cặp."
+489,D41,Nhân bản,p090_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 500$ và $\log_{3}(3x+3)+x=2y+9^y$?
+
+A. $4$.
+B. $500$.
+C. $2$.
+D. $3$.",D. $3$.,"$\log_{3}(3x+3)+x=2y+3^{2y} \Leftrightarrow 1+\log_{3}(x+1)+x=2y+3^{2y}$. Đặt $t=\log_{3}(x+1)$ suy ra $t+3^t=2y+3^{2y}$. Xét $f(h)=h+3^h$ đồng biến trên $\mathbb{R}$ nên $t=2y \Leftrightarrow x+1=3^{2y}$. Do $0\le x\le500$ nên $0\le y\le\log_{3}(501)/2\approx2.83$, suy ra $y\in\{0,1,\ldots,2\}$, có $3$ cặp."
+490,D41,Nhân bản,p090_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 50$ và $\log_{2}(2x+2)+x=2y+4^y$?
+
+A. $2$.
+B. $4$.
+C. $50$.
+D. $3$.",D. $3$.,"$\log_{2}(2x+2)+x=2y+2^{2y} \Leftrightarrow 1+\log_{2}(x+1)+x=2y+2^{2y}$. Đặt $t=\log_{2}(x+1)$ suy ra $t+2^t=2y+2^{2y}$. Xét $f(h)=h+2^h$ đồng biến trên $\mathbb{R}$ nên $t=2y \Leftrightarrow x+1=2^{2y}$. Do $0\le x\le50$ nên $0\le y\le\log_{2}(51)/2\approx2.84$, suy ra $y\in\{0,1,\ldots,2\}$, có $3$ cặp."
+491,D41,Nhân bản,p090_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 1000$ và $\log_{5}(5x+5)+x=2y+25^y$?
+
+A. $2$.
+B. $3$.
+C. $1000$.
+D. $4$.",B. $3$.,"$\log_{5}(5x+5)+x=2y+5^{2y} \Leftrightarrow 1+\log_{5}(x+1)+x=2y+5^{2y}$. Đặt $t=\log_{5}(x+1)$ suy ra $t+5^t=2y+5^{2y}$. Xét $f(h)=h+5^h$ đồng biến trên $\mathbb{R}$ nên $t=2y \Leftrightarrow x+1=5^{2y}$. Do $0\le x\le1000$ nên $0\le y\le\log_{5}(1001)/2\approx2.15$, suy ra $y\in\{0,1,\ldots,2\}$, có $3$ cặp."
+492,D41,Nhân bản,p090_q47,chuan,"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\le x\le 200$ và $\log_{2}(2x+2)+x=2y+4^y$?
+
+A. $5$.
+B. $3$.
+C. $4$.
+D. $200$.",C. $4$.,"$\log_{2}(2x+2)+x=2y+2^{2y} \Leftrightarrow 1+\log_{2}(x+1)+x=2y+2^{2y}$. Đặt $t=\log_{2}(x+1)$ suy ra $t+2^t=2y+2^{2y}$. Xét $f(h)=h+2^h$ đồng biến trên $\mathbb{R}$ nên $t=2y \Leftrightarrow x+1=2^{2y}$. Do $0\le x\le200$ nên $0\le y\le\log_{2}(201)/2\approx3.83$, suy ra $y\in\{0,1,\ldots,3\}$, có $4$ cặp."
+493,D74,Nhân bản,p179_q37,chuan,"Cho phương trình $\log_{9}x^2-\log_{3}(6x-1)=-\log_{3}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+
+A. $Vô số$.
+B. $7$.
+C. $5$.
+D. $6$.",C. $5$.,"Điều kiện $x>\dfrac1{6}, m>0$. $\log_{3}x+\log_{3}m=\log_{3}(6x-1)\Leftrightarrow mx=6x-1\Leftrightarrow x(6-m)=1$. Với $m\ne6$: $x=\dfrac1{6-m}>\dfrac1{6}\Leftrightarrow 0<m<6$. Vậy $m\in\{1,\ldots,5\}$, có $5$ giá trị."
+494,D74,Nhân bản,p179_q37,chuan,"Cho phương trình $\log_{4}x^2-\log_{2}(5x-1)=-\log_{2}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+
+A. $5$.
+B. $4$.
+C. $6$.
+D. $Vô số$.",B. $4$.,"Điều kiện $x>\dfrac1{5}, m>0$. $\log_{2}x+\log_{2}m=\log_{2}(5x-1)\Leftrightarrow mx=5x-1\Leftrightarrow x(5-m)=1$. Với $m\ne5$: $x=\dfrac1{5-m}>\dfrac1{5}\Leftrightarrow 0<m<5$. Vậy $m\in\{1,\ldots,4\}$, có $4$ giá trị."
+495,D74,Nhân bản,p179_q37,chuan,"Cho phương trình $\log_{9}x^2-\log_{3}(8x-1)=-\log_{3}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+
+A. $9$.
+B. $Vô số$.
+C. $8$.
+D. $7$.",D. $7$.,"Điều kiện $x>\dfrac1{8}, m>0$. $\log_{3}x+\log_{3}m=\log_{3}(8x-1)\Leftrightarrow mx=8x-1\Leftrightarrow x(8-m)=1$. Với $m\ne8$: $x=\dfrac1{8-m}>\dfrac1{8}\Leftrightarrow 0<m<8$. Vậy $m\in\{1,\ldots,7\}$, có $7$ giá trị."
+496,D74,Nhân bản,p179_q37,chuan,"Cho phương trình $\log_{25}x^2-\log_{5}(10x-1)=-\log_{5}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+
+A. $Vô số$.
+B. $10$.
+C. $11$.
+D. $9$.",D. $9$.,"Điều kiện $x>\dfrac1{10}, m>0$. $\log_{5}x+\log_{5}m=\log_{5}(10x-1)\Leftrightarrow mx=10x-1\Leftrightarrow x(10-m)=1$. Với $m\ne10$: $x=\dfrac1{10-m}>\dfrac1{10}\Leftrightarrow 0<m<10$. Vậy $m\in\{1,\ldots,9\}$, có $9$ giá trị."
+497,D74,Nhân bản,p179_q37,chuan,"Cho phương trình $\log_{4}x^2-\log_{2}(7x-1)=-\log_{2}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+
+A. $7$.
+B. $Vô số$.
+C. $6$.
+D. $8$.",C. $6$.,"Điều kiện $x>\dfrac1{7}, m>0$. $\log_{2}x+\log_{2}m=\log_{2}(7x-1)\Leftrightarrow mx=7x-1\Leftrightarrow x(7-m)=1$. Với $m\ne7$: $x=\dfrac1{7-m}>\dfrac1{7}\Leftrightarrow 0<m<7$. Vậy $m\in\{1,\ldots,6\}$, có $6$ giá trị."
+498,D74,Nhân bản,p179_q37,chuan,"Cho phương trình $\log_{9}x^2-\log_{3}(4x-1)=-\log_{3}m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+
+A. $Vô số$.
+B. $3$.
+C. $4$.
+D. $5$.",B. $3$.,"Điều kiện $x>\dfrac1{4}, m>0$. $\log_{3}x+\log_{3}m=\log_{3}(4x-1)\Leftrightarrow mx=4x-1\Leftrightarrow x(4-m)=1$. Với $m\ne4$: $x=\dfrac1{4-m}>\dfrac1{4}\Leftrightarrow 0<m<4$. Vậy $m\in\{1,\ldots,3\}$, có $3$ giá trị."
+499,D92,Nhân bản,p240_q31,chuan,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(6-x)(x+2)]$?
+
+A. $Vô số$.
+B. $8$.
+C. $6$.
+D. $7$.",D. $7$.,Điều kiện $(6-x)(x+2)>0\Leftrightarrow -2<x<6\Rightarrow \mathscr{D}=(-2;6)$. Vậy có $7$ số nguyên thuộc tập xác định.
+500,D92,Nhân bản,p240_q31,chuan,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(10-x)(x+3)]$?
+
+A. $12$.
+B. $13$.
+C. $11$.
+D. $Vô số$.",A. $12$.,Điều kiện $(10-x)(x+3)>0\Leftrightarrow -3<x<10\Rightarrow \mathscr{D}=(-3;10)$. Vậy có $12$ số nguyên thuộc tập xác định.
+501,D92,Nhân bản,p240_q31,chuan,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(8-x)(x+5)]$?
+
+A. $12$.
+B. $11$.
+C. $13$.
+D. $Vô số$.",A. $12$.,Điều kiện $(8-x)(x+5)>0\Leftrightarrow -5<x<8\Rightarrow \mathscr{D}=(-5;8)$. Vậy có $12$ số nguyên thuộc tập xác định.
+502,D92,Nhân bản,p240_q31,chuan,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(15-x)(x+4)]$?
+
+A. $Vô số$.
+B. $17$.
+C. $19$.
+D. $18$.",D. $18$.,Điều kiện $(15-x)(x+4)>0\Leftrightarrow -4<x<15\Rightarrow \mathscr{D}=(-4;15)$. Vậy có $18$ số nguyên thuộc tập xác định.
+503,D92,Nhân bản,p240_q31,chuan,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(6-x)(x+6)]$?
+
+A. $12$.
+B. $10$.
+C. $Vô số$.
+D. $11$.",D. $11$.,Điều kiện $(6-x)(x+6)>0\Leftrightarrow -6<x<6\Rightarrow \mathscr{D}=(-6;6)$. Vậy có $11$ số nguyên thuộc tập xác định.
+504,D92,Nhân bản,p240_q31,chuan,"Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\log[(20-x)(x+2)]$?
+
+A. $22$.
+B. $21$.
+C. $20$.
+D. $Vô số$.",B. $21$.,Điều kiện $(20-x)(x+2)>0\Leftrightarrow -2<x<20\Rightarrow \mathscr{D}=(-2;20)$. Vậy có $21$ số nguyên thuộc tập xác định.
