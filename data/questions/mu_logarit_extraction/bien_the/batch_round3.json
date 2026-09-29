@@ -1,0 +1,336 @@
+[
+  {
+    "id_goc": "p018_q09",
+    "ma_dang": "D10",
+    "ten_dang": "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+1) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$.\n\nA. $\\left(-\\infty;1\\right)$.\nB. $\\left[-1;1\\right]$.\nC. $\\left(-\\infty;-1\\right]$.\nD. $\\left[1;+\\infty\\right)$.",
+    "dap_an": "C. $\\left(-\\infty;-1\\right]$.",
+    "loi_giai": "$y'=\\dfrac{2x}{x^2+1}-m\\ge0,\\forall x \\Leftrightarrow m\\le\\min g(x)$ với $g(x)=\\dfrac{2x}{x^2+1}$. $g'(x)=0\\Leftrightarrow x=\\pm1$. $\\min g(x)=g(-1)=-1$. Vậy $m\\le-1$.",
+    "params": {
+      "e": "1"
+    }
+  },
+  {
+    "id_goc": "p018_q09",
+    "ma_dang": "D10",
+    "ten_dang": "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+4) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$.\n\nA. $\\left[\\dfrac{1}{2};+\\infty\\right)$.\nB. $\\left(-\\infty;- \\dfrac{1}{2}\\right]$.\nC. $\\left(-\\infty;\\dfrac{1}{2}\\right)$.\nD. $\\left[- \\dfrac{1}{2};\\dfrac{1}{2}\\right]$.",
+    "dap_an": "B. $\\left(-\\infty;- \\dfrac{1}{2}\\right]$.",
+    "loi_giai": "$y'=\\dfrac{2x}{x^2+4}-m\\ge0,\\forall x \\Leftrightarrow m\\le\\min g(x)$ với $g(x)=\\dfrac{2x}{x^2+4}$. $g'(x)=0\\Leftrightarrow x=\\pm2$. $\\min g(x)=g(-2)=-\\dfrac{1}{2}$. Vậy $m\\le-\\dfrac{1}{2}$.",
+    "params": {
+      "e": "2"
+    }
+  },
+  {
+    "id_goc": "p018_q09",
+    "ma_dang": "D10",
+    "ten_dang": "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+9) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$.\n\nA. $\\left[\\dfrac{1}{3};+\\infty\\right)$.\nB. $\\left[- \\dfrac{1}{3};\\dfrac{1}{3}\\right]$.\nC. $\\left(-\\infty;- \\dfrac{1}{3}\\right]$.\nD. $\\left(-\\infty;\\dfrac{1}{3}\\right)$.",
+    "dap_an": "C. $\\left(-\\infty;- \\dfrac{1}{3}\\right]$.",
+    "loi_giai": "$y'=\\dfrac{2x}{x^2+9}-m\\ge0,\\forall x \\Leftrightarrow m\\le\\min g(x)$ với $g(x)=\\dfrac{2x}{x^2+9}$. $g'(x)=0\\Leftrightarrow x=\\pm3$. $\\min g(x)=g(-3)=-\\dfrac{1}{3}$. Vậy $m\\le-\\dfrac{1}{3}$.",
+    "params": {
+      "e": "3"
+    }
+  },
+  {
+    "id_goc": "p018_q09",
+    "ma_dang": "D10",
+    "ten_dang": "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+16) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$.\n\nA. $\\left[\\dfrac{1}{4};+\\infty\\right)$.\nB. $\\left(-\\infty;- \\dfrac{1}{4}\\right]$.\nC. $\\left[- \\dfrac{1}{4};\\dfrac{1}{4}\\right]$.\nD. $\\left(-\\infty;\\dfrac{1}{4}\\right)$.",
+    "dap_an": "B. $\\left(-\\infty;- \\dfrac{1}{4}\\right]$.",
+    "loi_giai": "$y'=\\dfrac{2x}{x^2+16}-m\\ge0,\\forall x \\Leftrightarrow m\\le\\min g(x)$ với $g(x)=\\dfrac{2x}{x^2+16}$. $g'(x)=0\\Leftrightarrow x=\\pm4$. $\\min g(x)=g(-4)=-\\dfrac{1}{4}$. Vậy $m\\le-\\dfrac{1}{4}$.",
+    "params": {
+      "e": "4"
+    }
+  },
+  {
+    "id_goc": "p018_q09",
+    "ma_dang": "D10",
+    "ten_dang": "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+25) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$.\n\nA. $\\left[- \\dfrac{1}{5};\\dfrac{1}{5}\\right]$.\nB. $\\left(-\\infty;- \\dfrac{1}{5}\\right]$.\nC. $\\left[\\dfrac{1}{5};+\\infty\\right)$.\nD. $\\left(-\\infty;\\dfrac{1}{5}\\right)$.",
+    "dap_an": "B. $\\left(-\\infty;- \\dfrac{1}{5}\\right]$.",
+    "loi_giai": "$y'=\\dfrac{2x}{x^2+25}-m\\ge0,\\forall x \\Leftrightarrow m\\le\\min g(x)$ với $g(x)=\\dfrac{2x}{x^2+25}$. $g'(x)=0\\Leftrightarrow x=\\pm5$. $\\min g(x)=g(-5)=-\\dfrac{1}{5}$. Vậy $m\\le-\\dfrac{1}{5}$.",
+    "params": {
+      "e": "5"
+    }
+  },
+  {
+    "id_goc": "p018_q09",
+    "ma_dang": "D10",
+    "ten_dang": "Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+36) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$.\n\nA. $\\left(-\\infty;- \\dfrac{1}{6}\\right]$.\nB. $\\left(-\\infty;\\dfrac{1}{6}\\right)$.\nC. $\\left[\\dfrac{1}{6};+\\infty\\right)$.\nD. $\\left[- \\dfrac{1}{6};\\dfrac{1}{6}\\right]$.",
+    "dap_an": "A. $\\left(-\\infty;- \\dfrac{1}{6}\\right]$.",
+    "loi_giai": "$y'=\\dfrac{2x}{x^2+36}-m\\ge0,\\forall x \\Leftrightarrow m\\le\\min g(x)$ với $g(x)=\\dfrac{2x}{x^2+36}$. $g'(x)=0\\Leftrightarrow x=\\pm6$. $\\min g(x)=g(-6)=-\\dfrac{1}{6}$. Vậy $m\\le-\\dfrac{1}{6}$.",
+    "params": {
+      "e": "6"
+    }
+  },
+  {
+    "id_goc": "p161_q37",
+    "ma_dang": "D68",
+    "ten_dang": "Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0,b>0$ thỏa mãn\n$$\\log_{10a+3b+1}((5a)^2+(b)^2+1)+\\log_{10ab+1}(10a+3b+1)=2.$$\nGiá trị của $a+2b$ bằng\n\nA. $11$.\nB. $3$.\nC. $\\dfrac{11}{2}$.\nD. $\\dfrac{13}{2}$.",
+    "dap_an": "C. $\\dfrac{11}{2}$.",
+    "loi_giai": "Áp dụng Cô-si: $(5a)^2+(b)^2+1\\ge 10ab+1$. Dấu \"=\" khi $5a=b$. Kết hợp với dấu \"=\" ở bước Cô-si thứ hai (hai lôgarit nghịch đảo bằng 1) ta được hệ $\\begin{cases}5a=b\\\\10a+3b+1=10ab+1\\end{cases} \\Rightarrow a=\\dfrac{1}{2}, b=\\dfrac{5}{2}$. Vậy $a+2b=\\dfrac{11}{2}$.",
+    "params": {
+      "A": "5",
+      "B": "1",
+      "C": "10",
+      "E": "3"
+    }
+  },
+  {
+    "id_goc": "p161_q37",
+    "ma_dang": "D68",
+    "ten_dang": "Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0,b>0$ thỏa mãn\n$$\\log_{4a+3b+1}((2a)^2+(b)^2+1)+\\log_{4ab+1}(4a+3b+1)=2.$$\nGiá trị của $a+2b$ bằng\n\nA. $\\dfrac{25}{2}$.\nB. $\\dfrac{25}{4}$.\nC. $\\dfrac{15}{4}$.\nD. $\\dfrac{29}{4}$.",
+    "dap_an": "B. $\\dfrac{25}{4}$.",
+    "loi_giai": "Áp dụng Cô-si: $(2a)^2+(b)^2+1\\ge 4ab+1$. Dấu \"=\" khi $2a=b$. Kết hợp với dấu \"=\" ở bước Cô-si thứ hai (hai lôgarit nghịch đảo bằng 1) ta được hệ $\\begin{cases}2a=b\\\\4a+3b+1=4ab+1\\end{cases} \\Rightarrow a=\\dfrac{5}{4}, b=\\dfrac{5}{2}$. Vậy $a+2b=\\dfrac{25}{4}$.",
+    "params": {
+      "A": "2",
+      "B": "1",
+      "C": "4",
+      "E": "3"
+    }
+  },
+  {
+    "id_goc": "p161_q37",
+    "ma_dang": "D68",
+    "ten_dang": "Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0,b>0$ thỏa mãn\n$$\\log_{6a+2b+1}((3a)^2+(2b)^2+1)+\\log_{12ab+1}(6a+2b+1)=2.$$\nGiá trị của $a+2b$ bằng\n\nA. $2$.\nB. $4$.\nC. $\\dfrac{5}{4}$.\nD. $3$.",
+    "dap_an": "A. $2$.",
+    "loi_giai": "Áp dụng Cô-si: $(3a)^2+(2b)^2+1\\ge 12ab+1$. Dấu \"=\" khi $3a=2b$. Kết hợp với dấu \"=\" ở bước Cô-si thứ hai (hai lôgarit nghịch đảo bằng 1) ta được hệ $\\begin{cases}3a=2b\\\\6a+2b+1=12ab+1\\end{cases} \\Rightarrow a=\\dfrac{1}{2}, b=\\dfrac{3}{4}$. Vậy $a+2b=2$.",
+    "params": {
+      "A": "3",
+      "B": "2",
+      "C": "6",
+      "E": "2"
+    }
+  },
+  {
+    "id_goc": "p161_q37",
+    "ma_dang": "D68",
+    "ten_dang": "Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0,b>0$ thỏa mãn\n$$\\log_{3a+b+1}((a)^2+(b)^2+1)+\\log_{2ab+1}(3a+b+1)=2.$$\nGiá trị của $a+2b$ bằng\n\nA. $12$.\nB. $7$.\nC. $4$.\nD. $6$.",
+    "dap_an": "D. $6$.",
+    "loi_giai": "Áp dụng Cô-si: $(a)^2+(b)^2+1\\ge 2ab+1$. Dấu \"=\" khi $a=b$. Kết hợp với dấu \"=\" ở bước Cô-si thứ hai (hai lôgarit nghịch đảo bằng 1) ta được hệ $\\begin{cases}a=b\\\\3a+b+1=2ab+1\\end{cases} \\Rightarrow a=2, b=2$. Vậy $a+2b=6$.",
+    "params": {
+      "A": "1",
+      "B": "1",
+      "C": "3",
+      "E": "1"
+    }
+  },
+  {
+    "id_goc": "p161_q37",
+    "ma_dang": "D68",
+    "ten_dang": "Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0,b>0$ thỏa mãn\n$$\\log_{6a+2b+1}((3a)^2+(b)^2+1)+\\log_{6ab+1}(6a+2b+1)=2.$$\nGiá trị của $a+2b$ bằng\n\nA. $\\dfrac{17}{3}$.\nB. $\\dfrac{14}{3}$.\nC. $\\dfrac{28}{3}$.\nD. $\\dfrac{8}{3}$.",
+    "dap_an": "B. $\\dfrac{14}{3}$.",
+    "loi_giai": "Áp dụng Cô-si: $(3a)^2+(b)^2+1\\ge 6ab+1$. Dấu \"=\" khi $3a=b$. Kết hợp với dấu \"=\" ở bước Cô-si thứ hai (hai lôgarit nghịch đảo bằng 1) ta được hệ $\\begin{cases}3a=b\\\\6a+2b+1=6ab+1\\end{cases} \\Rightarrow a=\\dfrac{2}{3}, b=2$. Vậy $a+2b=\\dfrac{14}{3}$.",
+    "params": {
+      "A": "3",
+      "B": "1",
+      "C": "6",
+      "E": "2"
+    }
+  },
+  {
+    "id_goc": "p161_q37",
+    "ma_dang": "D68",
+    "ten_dang": "Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Cho $a>0,b>0$ thỏa mãn\n$$\\log_{8a+b+1}((2a)^2+(b)^2+1)+\\log_{4ab+1}(8a+b+1)=2.$$\nGiá trị của $a+2b$ bằng\n\nA. $\\dfrac{15}{4}$.\nB. $\\dfrac{25}{2}$.\nC. $\\dfrac{25}{4}$.\nD. $\\dfrac{29}{4}$.",
+    "dap_an": "C. $\\dfrac{25}{4}$.",
+    "loi_giai": "Áp dụng Cô-si: $(2a)^2+(b)^2+1\\ge 4ab+1$. Dấu \"=\" khi $2a=b$. Kết hợp với dấu \"=\" ở bước Cô-si thứ hai (hai lôgarit nghịch đảo bằng 1) ta được hệ $\\begin{cases}2a=b\\\\8a+b+1=4ab+1\\end{cases} \\Rightarrow a=\\dfrac{5}{4}, b=\\dfrac{5}{2}$. Vậy $a+2b=\\dfrac{25}{4}$.",
+    "params": {
+      "A": "2",
+      "B": "1",
+      "C": "8",
+      "E": "1"
+    }
+  },
+  {
+    "id_goc": "p243_q44",
+    "ma_dang": "D94",
+    "ten_dang": "Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{10-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+x-3y$ bằng\n\nA. $10$.\nB. $21$.\nC. $20$.\nD. $0$.",
+    "dap_an": "C. $20$.",
+    "loi_giai": "Đặt $t=\\log_5 a$, điều kiện đúng với mọi $t$ dẫn tới $x^2+y^2\\le10$. Theo Bunhiacôpxki: $(1x-3y)^2\\le(10)(x^2+y^2)\\le(10)\\cdot10=100 \\Rightarrow 1x-3y\\le10$. Vậy $P\\le10+10=20$.",
+    "params": {
+      "N": "10",
+      "c1": "1",
+      "c2": "-3"
+    }
+  },
+  {
+    "id_goc": "p243_q44",
+    "ma_dang": "D94",
+    "ten_dang": "Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{13-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+2x-3y$ bằng\n\nA. $0$.\nB. $27$.\nC. $13$.\nD. $26$.",
+    "dap_an": "D. $26$.",
+    "loi_giai": "Đặt $t=\\log_5 a$, điều kiện đúng với mọi $t$ dẫn tới $x^2+y^2\\le13$. Theo Bunhiacôpxki: $(2x-3y)^2\\le(13)(x^2+y^2)\\le(13)\\cdot13=169 \\Rightarrow 2x-3y\\le13$. Vậy $P\\le13+13=26$.",
+    "params": {
+      "N": "13",
+      "c1": "2",
+      "c2": "-3"
+    }
+  },
+  {
+    "id_goc": "p243_q44",
+    "ma_dang": "D94",
+    "ten_dang": "Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{16-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+3x-4y$ bằng\n\nA. $-4$.\nB. $16$.\nC. $36$.\nD. $32$.",
+    "dap_an": "C. $36$.",
+    "loi_giai": "Đặt $t=\\log_5 a$, điều kiện đúng với mọi $t$ dẫn tới $x^2+y^2\\le16$. Theo Bunhiacôpxki: $(3x-4y)^2\\le(25)(x^2+y^2)\\le(25)\\cdot16=400 \\Rightarrow 3x-4y\\le20$. Vậy $P\\le16+20=36$.",
+    "params": {
+      "N": "16",
+      "c1": "3",
+      "c2": "-4"
+    }
+  },
+  {
+    "id_goc": "p243_q44",
+    "ma_dang": "D94",
+    "ten_dang": "Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{17-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+x-4y$ bằng\n\nA. $17$.\nB. $0$.\nC. $35$.\nD. $34$.",
+    "dap_an": "D. $34$.",
+    "loi_giai": "Đặt $t=\\log_5 a$, điều kiện đúng với mọi $t$ dẫn tới $x^2+y^2\\le17$. Theo Bunhiacôpxki: $(1x-4y)^2\\le(17)(x^2+y^2)\\le(17)\\cdot17=289 \\Rightarrow 1x-4y\\le17$. Vậy $P\\le17+17=34$.",
+    "params": {
+      "N": "17",
+      "c1": "1",
+      "c2": "-4"
+    }
+  },
+  {
+    "id_goc": "p243_q44",
+    "ma_dang": "D94",
+    "ten_dang": "Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{18-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+3x-3y$ bằng\n\nA. $18$.\nB. $36$.\nC. $0$.\nD. $37$.",
+    "dap_an": "B. $36$.",
+    "loi_giai": "Đặt $t=\\log_5 a$, điều kiện đúng với mọi $t$ dẫn tới $x^2+y^2\\le18$. Theo Bunhiacôpxki: $(3x-3y)^2\\le(18)(x^2+y^2)\\le(18)\\cdot18=324 \\Rightarrow 3x-3y\\le18$. Vậy $P\\le18+18=36$.",
+    "params": {
+      "N": "18",
+      "c1": "3",
+      "c2": "-3"
+    }
+  },
+  {
+    "id_goc": "p243_q44",
+    "ma_dang": "D94",
+    "ten_dang": "Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{20-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+x-2y$ bằng\n\nA. $20$.\nB. $40$.\nC. $30$.\nD. $10$.",
+    "dap_an": "C. $30$.",
+    "loi_giai": "Đặt $t=\\log_5 a$, điều kiện đúng với mọi $t$ dẫn tới $x^2+y^2\\le20$. Theo Bunhiacôpxki: $(1x-2y)^2\\le(5)(x^2+y^2)\\le(5)\\cdot20=100 \\Rightarrow 1x-2y\\le10$. Vậy $P\\le20+10=30$.",
+    "params": {
+      "N": "20",
+      "c1": "1",
+      "c2": "-2"
+    }
+  },
+  {
+    "id_goc": "p105_q47",
+    "ma_dang": "D46",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức mũ-lôgarit qua ẩn phụ t=log_a b",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $a,b,x,y$ thỏa mãn $a,b>1$ và $a^x=b^y=(ab)^{1/2}$. Giá trị nhỏ nhất của biểu thức $P=x+2y$ thuộc tập nào dưới đây?\n\nA. $\\left[\\dfrac{7}{2};4\\right)$.\nB. $\\left[\\dfrac{5}{2};3\\right)$.\nC. $\\left[3;\\dfrac{7}{2}\\right)$.\nD. $\\left[4;\\dfrac{9}{2}\\right)$.",
+    "dap_an": "B. $\\left[\\dfrac{5}{2};3\\right)$.",
+    "loi_giai": "Đặt $t=\\log_a b>0$. $x=\\dfrac{1}{2}(1+t)$, $y=\\dfrac1{2}\\left(1+\\dfrac1t\\right)$. $P=x+2y$ đạt cực tiểu tại $t=\\sqrt{2}$, $P_{\\min}=\\sqrt{2} + \\dfrac{3}{2}\\approx2.914$, thuộc $\\left[\\dfrac{5}{2};3\\right)$.",
+    "params": {
+      "k_val": "2",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p105_q47",
+    "ma_dang": "D46",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức mũ-lôgarit qua ẩn phụ t=log_a b",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $a,b,x,y$ thỏa mãn $a,b>1$ và $a^x=b^y=(ab)^{1/3}$. Giá trị nhỏ nhất của biểu thức $P=x+2y$ thuộc tập nào dưới đây?\n\nA. $\\left[\\dfrac{3}{2};2\\right)$.\nB. $\\left[3;\\dfrac{7}{2}\\right)$.\nC. $\\left[\\dfrac{5}{2};3\\right)$.\nD. $\\left[2;\\dfrac{5}{2}\\right)$.",
+    "dap_an": "A. $\\left[\\dfrac{3}{2};2\\right)$.",
+    "loi_giai": "Đặt $t=\\log_a b>0$. $x=\\dfrac{1}{3}(1+t)$, $y=\\dfrac1{3}\\left(1+\\dfrac1t\\right)$. $P=x+2y$ đạt cực tiểu tại $t=\\sqrt{2}$, $P_{\\min}=\\dfrac{2 \\sqrt{2}}{3} + 1\\approx1.943$, thuộc $\\left[\\dfrac{3}{2};2\\right)$.",
+    "params": {
+      "k_val": "3",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p105_q47",
+    "ma_dang": "D46",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức mũ-lôgarit qua ẩn phụ t=log_a b",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $a,b,x,y$ thỏa mãn $a,b>1$ và $a^x=b^y=(ab)^{1/2}$. Giá trị nhỏ nhất của biểu thức $P=x+3y$ thuộc tập nào dưới đây?\n\nA. $\\left[5;\\dfrac{11}{2}\\right)$.\nB. $\\left[4;\\dfrac{9}{2}\\right)$.\nC. $\\left[\\dfrac{7}{2};4\\right)$.\nD. $\\left[\\dfrac{9}{2};5\\right)$.",
+    "dap_an": "C. $\\left[\\dfrac{7}{2};4\\right)$.",
+    "loi_giai": "Đặt $t=\\log_a b>0$. $x=\\dfrac{1}{2}(1+t)$, $y=\\dfrac1{2}\\left(1+\\dfrac1t\\right)$. $P=x+3y$ đạt cực tiểu tại $t=\\sqrt{3}$, $P_{\\min}=\\sqrt{3} + 2\\approx3.732$, thuộc $\\left[\\dfrac{7}{2};4\\right)$.",
+    "params": {
+      "k_val": "2",
+      "c": "3"
+    }
+  },
+  {
+    "id_goc": "p105_q47",
+    "ma_dang": "D46",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức mũ-lôgarit qua ẩn phụ t=log_a b",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $a,b,x,y$ thỏa mãn $a,b>1$ và $a^x=b^y=(ab)^{1/4}$. Giá trị nhỏ nhất của biểu thức $P=x+2y$ thuộc tập nào dưới đây?\n\nA. $\\left[\\dfrac{5}{2};3\\right)$.\nB. $\\left[1;\\dfrac{3}{2}\\right)$.\nC. $\\left[\\dfrac{3}{2};2\\right)$.\nD. $\\left[2;\\dfrac{5}{2}\\right)$.",
+    "dap_an": "B. $\\left[1;\\dfrac{3}{2}\\right)$.",
+    "loi_giai": "Đặt $t=\\log_a b>0$. $x=\\dfrac{1}{4}(1+t)$, $y=\\dfrac1{4}\\left(1+\\dfrac1t\\right)$. $P=x+2y$ đạt cực tiểu tại $t=\\sqrt{2}$, $P_{\\min}=\\dfrac{\\sqrt{2}}{2} + \\dfrac{3}{4}\\approx1.457$, thuộc $\\left[1;\\dfrac{3}{2}\\right)$.",
+    "params": {
+      "k_val": "4",
+      "c": "2"
+    }
+  },
+  {
+    "id_goc": "p105_q47",
+    "ma_dang": "D46",
+    "ten_dang": "Tìm giá trị nhỏ nhất của biểu thức mũ-lôgarit qua ẩn phụ t=log_a b",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Xét các số thực dương $a,b,x,y$ thỏa mãn $a,b>1$ và $a^x=b^y=(ab)^{1/3}$. Giá trị nhỏ nhất của biểu thức $P=x+3y$ thuộc tập nào dưới đây?\n\nA. $\\left[3;\\dfrac{7}{2}\\right)$.\nB. $\\left[\\dfrac{5}{2};3\\right)$.\nC. $\\left[2;\\dfrac{5}{2}\\right)$.\nD. $\\left[\\dfrac{7}{2};4\\right)$.",
+    "dap_an": "C. $\\left[2;\\dfrac{5}{2}\\right)$.",
+    "loi_giai": "Đặt $t=\\log_a b>0$. $x=\\dfrac{1}{3}(1+t)$, $y=\\dfrac1{3}\\left(1+\\dfrac1t\\right)$. $P=x+3y$ đạt cực tiểu tại $t=\\sqrt{3}$, $P_{\\min}=\\dfrac{2 \\sqrt{3}}{3} + \\dfrac{4}{3}\\approx2.488$, thuộc $\\left[2;\\dfrac{5}{2}\\right)$.",
+    "params": {
+      "k_val": "3",
+      "c": "3"
+    }
+  }
+]
