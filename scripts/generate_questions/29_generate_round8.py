@@ -1,6 +1,7 @@
-# Temporary staging helper for the requested round-8 work. Run from the
+﻿# Temporary staging helper for the requested round-8 work. Run from the
 # slm-highschool-math-tutoring repository with --preview or --write.
 import json
+import random
 import math
 import re
 import subprocess
@@ -21,7 +22,7 @@ ROWS = []
 def add_row(code, name, source, prompt, answer, solution, params):
     ROWS.append({
         "id_goc": source, "ma_dang": code, "ten_dang": name,
-        "nguon": "Nhân bản", "loai_bien_the": "chuan",
+        "nguon": "NhÃ¢n báº£n", "loai_bien_the": "chuan",
         "de_bai": prompt, "dap_an": answer, "loi_giai": solution,
         "params": {k: str(v) for k, v in params.items()},
     })
@@ -53,14 +54,14 @@ def gen_D08(p, C, r, s, i, j):
     jlogr = r"\ln r" if j == 1 else f"{j}\\ln r"
     slogc = r"\ln C" if s == 1 else f"{s}\\ln C"
     question = (
-        f"Đặt $a=\\log_{{{p}}}{C},\\ b=\\log_{{{r}}}{C}$. Hãy biểu diễn "
+        f"Äáº·t $a=\\log_{{{p}}}{C},\\ b=\\log_{{{r}}}{C}$. HÃ£y biá»ƒu diá»…n "
         f"$\\log_{{{target}}}({argument})$ theo $a,b$.\n\n"
     )
     lines, answer = render_mc(opts, 0, prefix=f"\\log_{{{target}}}({argument})=")
     prompt = question + "\n".join(lines)
     solution = (
-        f"Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{{\\ln C}}a$ và "
-        f"$\\ln r=\\dfrac{{\\ln C}}b$. Do đó giá trị cần tìm bằng "
+        f"Äá»•i cÆ¡ sá»‘ theo $\\ln C$: $\\ln p=\\dfrac{{\\ln C}}a$ vÃ  "
+        f"$\\ln r=\\dfrac{{\\ln C}}b$. Do Ä‘Ã³ giÃ¡ trá»‹ cáº§n tÃ¬m báº±ng "
         f"$\\dfrac{{{ilogc}+{jlogr}}}{{\\ln p+{slogc}}}="
         f"\\dfrac{{a({i}b+{j})}}{{b(1+{sa})}}={latex(correct)}$."
     )
@@ -99,8 +100,8 @@ def gen_D23(A, B, m, C):
     if constant:
         deriv_num += f"{'+' if constant > 0 else '-'}{abs(constant)}"
     question, answer = mc_count_prompt(
-        f"Phương trình ${A}x^2{B:+d}x+\\ln((x+1)^{{{m}}}){C:+d}=0$ "
-        "có bao nhiêu nghiệm phân biệt?", 3
+        f"PhÆ°Æ¡ng trÃ¬nh ${A}x^2{B:+d}x+\\ln((x+1)^{{{m}}}){C:+d}=0$ "
+        "cÃ³ bao nhiÃªu nghiá»‡m phÃ¢n biá»‡t?", 3
     )
     solution = (
         f"\u0110i\u1ec1u ki\u1ec7n $x>-1$. X\u00e9t $f(x)={A}x^2{B:+d}x+{m}\\ln(x+1){C:+d}$. "
@@ -171,14 +172,14 @@ def gen_D47(m, n):
     count = len(xs)
     assert count > 0
     question, answer = mc_count_prompt(
-        f"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn "
+        f"CÃ³ bao nhiÃªu sá»‘ nguyÃªn $x$ Ä‘á»ƒ tá»“n táº¡i sá»‘ thá»±c $y$ thá»a mÃ£n "
         f"$\\log_{{{p}}}(x+y)=\\log_{{{q}}}(x^2+y^2)$?", count
     )
     solution = (
-        f"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{{{m}/{n}}}$. "
-        f"Thay $t=u^{{{n}}}$ ($u>0$), ta được $u^{{{2*n}}}-u^{{{m}}}-2xu^{{{n}}}+2x^2=0$. "
-        f"Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in"
-        f"\\{{{','.join(map(str, xs))}\\}}$, có {count} giá trị."
+        f"Äáº·t $t=x+y>0$. Khi Ä‘Ã³ phÆ°Æ¡ng trÃ¬nh tÆ°Æ¡ng Ä‘Æ°Æ¡ng $x^2+(t-x)^2=t^{{{m}/{n}}}$. "
+        f"Thay $t=u^{{{n}}}$ ($u>0$), ta Ä‘Æ°á»£c $u^{{{2*n}}}-u^{{{m}}}-2xu^{{{n}}}+2x^2=0$. "
+        f"Äáº¿m cÃ¡c giÃ¡ trá»‹ nguyÃªn $x$ cÃ³ nghiá»‡m dÆ°Æ¡ng, thu Ä‘Æ°á»£c $x\\in"
+        f"\\{{{','.join(map(str, xs))}\\}}$, cÃ³ {count} giÃ¡ trá»‹."
     )
     return question, answer, solution, dict(m=m, n=n, p=p, q=q, xs=xs)
 
@@ -232,16 +233,16 @@ def gen_D52(p, q, C, N, k):
     count = len(good)
     assert 0 < count < 100
     question, answer = mc_count_prompt(
-        f"Có bao nhiêu số nguyên $a$ sao cho có ít nhất {k} số nguyên "
-        f"$b\\in(-{N};{N})$ thỏa mãn ${p}^{{a^2+b}}\\le {q}^{{b-a}}+{C}$?", count
+        f"CÃ³ bao nhiÃªu sá»‘ nguyÃªn $a$ sao cho cÃ³ Ã­t nháº¥t {k} sá»‘ nguyÃªn "
+        f"$b\\in(-{N};{N})$ thá»a mÃ£n ${p}^{{a^2+b}}\\le {q}^{{b-a}}+{C}$?", count
     )
     solution = (
-        f"Với mỗi số nguyên $a$, đếm trực tiếp các số nguyên $b\\in"
-        f"\\{{{-N+1},\\ldots,{N-1}\\}}$ thỏa bất đẳng thức. "
-        f"Điều kiện có ít nhất {k} giá trị $b$ đúng với $a\\in"
-        f"\\{{{','.join(map(str, good))}\\}}$. Với $a\\ge{M}$, vế trái tăng còn "
-        f"vế phải giảm theo $a$; với $a\\le-{M}$, phần mũ bậc hai làm vế trái "
-        "tăng nhanh hơn vế phải. Kiểm tra biên cho thấy ngoài khoảng này không có giá trị phù hợp."
+        f"Vá»›i má»—i sá»‘ nguyÃªn $a$, Ä‘áº¿m trá»±c tiáº¿p cÃ¡c sá»‘ nguyÃªn $b\\in"
+        f"\\{{{-N+1},\\ldots,{N-1}\\}}$ thá»a báº¥t Ä‘áº³ng thá»©c. "
+        f"Äiá»u kiá»‡n cÃ³ Ã­t nháº¥t {k} giÃ¡ trá»‹ $b$ Ä‘Ãºng vá»›i $a\\in"
+        f"\\{{{','.join(map(str, good))}\\}}$. Vá»›i $a\\ge{M}$, váº¿ trÃ¡i tÄƒng cÃ²n "
+        f"váº¿ pháº£i giáº£m theo $a$; vá»›i $a\\le-{M}$, pháº§n mÅ© báº­c hai lÃ m váº¿ trÃ¡i "
+        "tÄƒng nhanh hÆ¡n váº¿ pháº£i. Kiá»ƒm tra biÃªn cho tháº¥y ngoÃ i khoáº£ng nÃ y khÃ´ng cÃ³ giÃ¡ trá»‹ phÃ¹ há»£p."
     )
     return question, answer, solution, dict(p=p, q=q, C=C, N=N, k=k, M=M, good=good)
 
@@ -283,16 +284,16 @@ def gen_D57(T):
     C = T*T*(T+2)
     count = sum(2*math.isqrt(x*(T-x)) + 1 for x in range(1, T+1))
     question, answer = mc_count_prompt(
-        f"Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và\n"
+        f"CÃ³ bao nhiÃªu cáº·p sá»‘ nguyÃªn $(x;y)$ thá»a mÃ£n $x>0$ vÃ \n"
         f"$\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)"
         f"\\le\\log_2 x+\\log_4(x^2+y^2+{C}x)$?", count
     )
     solution = (
-        f"Đặt $Q=x^2+y^2$ và $t=Q/x>0$. Bất đẳng thức tương đương "
-        f"$\\log_2(1+t)\\le\\log_4(1+{C}/t)$. Vế trái tăng, vế phải giảm; "
-        f"hai vế bằng nhau tại $t={T}$ vì $1+{C}/{T}=({T}+1)^2$. Do đó $t\\le{T}$, "
-        f"hay $x^2+y^2\\le{T}x$. Với mỗi $x=1,\\ldots,{T}$, số giá trị $y$ là "
-        f"$2\\lfloor\\sqrt{{x({T}-x)}}\\rfloor+1$; tổng bằng {count}."
+        f"Äáº·t $Q=x^2+y^2$ vÃ  $t=Q/x>0$. Báº¥t Ä‘áº³ng thá»©c tÆ°Æ¡ng Ä‘Æ°Æ¡ng "
+        f"$\\log_2(1+t)\\le\\log_4(1+{C}/t)$. Váº¿ trÃ¡i tÄƒng, váº¿ pháº£i giáº£m; "
+        f"hai váº¿ báº±ng nhau táº¡i $t={T}$ vÃ¬ $1+{C}/{T}=({T}+1)^2$. Do Ä‘Ã³ $t\\le{T}$, "
+        f"hay $x^2+y^2\\le{T}x$. Vá»›i má»—i $x=1,\\ldots,{T}$, sá»‘ giÃ¡ trá»‹ $y$ lÃ  "
+        f"$2\\lfloor\\sqrt{{x({T}-x)}}\\rfloor+1$; tá»•ng báº±ng {count}."
     )
     return question, answer, solution, dict(T=T, C=C, count=count)
 
@@ -328,8 +329,8 @@ def gen_D78(a, b):
     ax = "x" if a == 1 else f"{a}x"
     by = "y" if b == 1 else f"{b}y"
     prompt = (
-        f"Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{{x+y-1}}\\ge3$. "
-        f"Giá trị nhỏ nhất của $P=x^2+y^2+{ax}+{by}$ bằng\n\n" + "\n".join(lines)
+        f"XÃ©t cÃ¡c sá»‘ thá»±c khÃ´ng Ã¢m $x,y$ thá»a mÃ£n $2x+y\\cdot4^{{x+y-1}}\\ge3$. "
+        f"GiÃ¡ trá»‹ nhá» nháº¥t cá»§a $P=x^2+y^2+{ax}+{by}$ báº±ng\n\n" + "\n".join(lines)
     )
     solution = (
         "\u0110\u1eb7t $s=x+y$. N\u1ebfu $s<3/2$ th\u00ec $4^{s-1}<2$, n\u00ean $2x+y4^{s-1}<2x+2y<3$, tr\u00e1i \u0111i\u1ec1u ki\u1ec7n. "
@@ -346,9 +347,9 @@ def gen_D78(a, b):
 def verify_D78(params):
     a, b = int(params["a"]), int(params["b"])
     target = float(sp.Rational(params["p2"]))
-    step = 0.01
+    step = 0.05
     best = float("inf")
-    n = 300
+    n = 60
     for i in range(n + 1):
         x = i*step
         for j in range(n + 1):
@@ -358,6 +359,63 @@ def verify_D78(params):
                 if value < best:
                     best = value
     return best >= target - 1e-9 and abs(best-target) < 1e-8
+
+
+def expand_type(code, name, source, gen, verify, sampler, seed=0, target=90, max_tries=3000):
+    rng = random.Random(seed)
+    current = [r for r in ROWS if r["ma_dang"] == code]
+    seen = {tuple(sorted((k, str(v)) for k, v in r["params"].items())) for r in current}
+    questions = {r["de_bai"] for r in current}
+    args_seen = set()
+    made = len(current)
+    for _ in range(max_tries):
+        if made >= target:
+            break
+        args = tuple(sampler(rng))
+        if args in args_seen:
+            continue
+        args_seen.add(args)
+        try:
+            q, ans, sol, params = gen(*args)
+        except (AssertionError, ValueError, TypeError, ZeroDivisionError, OverflowError):
+            continue
+        key = tuple(sorted((k, str(v)) for k, v in params.items()))
+        if key in seen or q in questions:
+            continue
+        opts = re.findall(r"(?m)^([A-D])\.\s*(.+)$", q)
+        norm = [re.sub(r"[\s$.,]", "", v) for _, v in opts]
+        if len(opts) != 4 or {k for k,_ in opts} != set("ABCD") or len(set(norm)) != 4:
+            continue
+        try:
+            if not verify(params):
+                continue
+        except Exception:
+            continue
+        add_row(code, name, source, q, ans, sol, params)
+        seen.add(key); questions.add(q); made += 1
+    print(f"{code}: {made}/{target}")
+    return made
+
+
+def _sample_D08(rng):
+    p, C, r = rng.sample(range(2, 25), 3)
+    return p, C, r, rng.randint(1, 5), rng.randint(1, 5), rng.randint(1, 5)
+
+
+def _sample_D47(rng):
+    import math
+    while True:
+        n = rng.randint(2, 30)
+        m = rng.randint(n + 1, int(1.5*n))
+        if math.gcd(m, n) == 1:
+            return m, n
+
+
+def _sample_D52(rng):
+    p, q = rng.randint(2, 6), rng.randint(2, 6)
+    if p == q:
+        q = q % 6 + 1
+    return p, q, rng.randint(1, 30), rng.randint(3, 10), rng.randint(1, 2* rng.randint(1, 10))
 
 
 def build_rows():
@@ -371,12 +429,12 @@ def build_rows():
         "D78": [(1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(3,5)],
     }
     specs = {
-        "D08": (gen_D08, verify_D08, "p007_q19", "Biểu diễn lôgarit qua các lôgarit cho trước bằng đổi cơ số"),
-        "D23": (gen_D23, verify_D23, "p039_q35", "Biện luận số nghiệm phương trình lôgarit bằng khảo sát hàm số"),
-        "D47": (gen_D47, verify_D47, "p106_q50", "Đếm số nguyên thỏa mãn phương trình lôgarit có nghiệm thực"),
-        "D52": (gen_D52, verify_D52, "p119_q48", "Đếm tham số nguyên theo số giá trị nguyên thỏa bất đẳng thức mũ"),
-        "D57": (gen_D57, verify_D57, "p133_q47", "Đếm cặp số nguyên thỏa bất đẳng thức lôgarit bằng miền hình tròn"),
-        "D78": (gen_D78, verify_D78, "p203_q48", "Tìm GTNN biểu thức hai biến với điều kiện chứa hàm mũ"),
+        "D08": (gen_D08, verify_D08, "p007_q19", "Biá»ƒu diá»…n lÃ´garit qua cÃ¡c lÃ´garit cho trÆ°á»›c báº±ng Ä‘á»•i cÆ¡ sá»‘"),
+        "D23": (gen_D23, verify_D23, "p039_q35", "Biá»‡n luáº­n sá»‘ nghiá»‡m phÆ°Æ¡ng trÃ¬nh lÃ´garit báº±ng kháº£o sÃ¡t hÃ m sá»‘"),
+        "D47": (gen_D47, verify_D47, "p106_q50", "Äáº¿m sá»‘ nguyÃªn thá»a mÃ£n phÆ°Æ¡ng trÃ¬nh lÃ´garit cÃ³ nghiá»‡m thá»±c"),
+        "D52": (gen_D52, verify_D52, "p119_q48", "Äáº¿m tham sá»‘ nguyÃªn theo sá»‘ giÃ¡ trá»‹ nguyÃªn thá»a báº¥t Ä‘áº³ng thá»©c mÅ©"),
+        "D57": (gen_D57, verify_D57, "p133_q47", "Äáº¿m cáº·p sá»‘ nguyÃªn thá»a báº¥t Ä‘áº³ng thá»©c lÃ´garit báº±ng miá»n hÃ¬nh trÃ²n"),
+        "D78": (gen_D78, verify_D78, "p203_q48", "TÃ¬m GTNN biá»ƒu thá»©c hai biáº¿n vá»›i Ä‘iá»u kiá»‡n chá»©a hÃ m mÅ©"),
     }
     for code, sets in candidates.items():
         fn, verifier, source, name = specs[code]
@@ -389,6 +447,19 @@ def build_rows():
                 add_row(code, name, source, prompt, answer, solution, params)
             else:
                 raise AssertionError(f"Independent verification failed for {code} {params}")
+    names_sources = {
+        "D08": ("Bi?u di?n logarit qua c?c logarit cho tr??c b?ng ??i c? s?", "p007_q19", gen_D08, verify_D08, _sample_D08),
+        "D23": ("Bi?n lu?n s? nghi?m ph??ng tr?nh logarit", "p039_q35", gen_D23, verify_D23,
+                lambda r: (r.randint(1, 8), -r.randint(2, 30), r.randint(1, 10), r.randint(-20, 20))),
+        "D47": ("??m s? nguy?n th?a m?n ph??ng tr?nh logarit c? nghi?m th?c", "p106_q50", gen_D47, verify_D47, _sample_D47),
+        "D52": ("??m tham s? nguy?n theo s? gi? tr? nguy?n th?a b?t ph??ng tr?nh m?", "p119_q48", gen_D52, verify_D52, _sample_D52),
+        "D57": ("??m c?p s? nguy?n th?a b?t ??ng th?c logarit", "p133_q47", gen_D57, verify_D57, lambda r: (r.randint(2, 100),)),
+        "D78": ("T?m gi? tr? nh? nh?t bi?u th?c hai bi?n v?i ?i?u ki?n m?", "p203_q48", gen_D78, verify_D78,
+                lambda r: (lambda b: (r.randint(max(1, b-2), b+3), b))(r.randint(1,80))),
+    }
+    for code, (name, source, gen, verify, sampler) in names_sources.items():
+        expand_type(code, name, source, gen, verify, sampler, seed=int(code[1:])*100+8,
+                    max_tries=10000 if code in ("D52", "D78") else 3000)
     return ROWS
 
 

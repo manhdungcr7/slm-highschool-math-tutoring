@@ -18,7 +18,7 @@ TYPE_NAME = "Đếm số nguyên một biến sao cho tồn tại biến kia th�
 
 def gen_D84(U):
     U = int(U)
-    assert 3 <= U <= 50 and U != 4
+    assert 3 <= U <= 93 and U != 4
     C = 3 * U
     # h(y)=y-log_3(1+y/3) is strictly increasing for y>=1. Count
     # positive integer y by the endpoint condition h(y)<3U-1.
@@ -65,7 +65,7 @@ def verify_D84(params):
     """Enumerate endpoint sign conditions at high precision, by direct high-precision endpoint enumeration."""
     mp.mp.dps = 80
     U, C, expected = (int(params[k]) for k in ("U", "C", "count"))
-    if C != 3 * U or not (3 <= U <= 50 and U != 4):
+    if C != 3 * U or not (3 <= U <= 93 and U != 4):
         return False
     left = mp.mpf(1) / 3
     log27 = mp.log(27)
@@ -107,7 +107,7 @@ def audit_choices(rows):
 
 def main():
     rows = []
-    for U in range(3, 51):
+    for U in range(3, 94):
         if U == 4:
             continue
         question, answer, solution, params = gen_D84(U)
