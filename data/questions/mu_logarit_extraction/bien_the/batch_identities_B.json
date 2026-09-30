@@ -8017,7 +8017,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=14a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $14$.\nB. $13$.\nC. $28$.\nD. $15$.",
     "dap_an": "A. $14$.",
-    "loi_giai": "$64^{\\log_2(ab)}=14a \\Leftrightarrow \\log_2(ab)=\\log_{2}(14a)^{1/6} \\Leftrightarrow (ab)^{6}=14a \\Leftrightarrow a^{5} b^{6}=14$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=14a \\Leftrightarrow a^{5}b^{6}=14$.",
     "params": {
       "s": "6",
       "m": "14"
@@ -8031,7 +8031,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=5a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $6$.\nB. $4$.\nC. $10$.\nD. $5$.",
     "dap_an": "D. $5$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/12} \\Leftrightarrow (ab)^{12}=5a \\Leftrightarrow a^{11} b^{12}=5$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=5a \\Leftrightarrow a^{11}b^{12}=5$.",
     "params": {
       "s": "12",
       "m": "5"
@@ -8045,7 +8045,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=8a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $16$.\nB. $7$.\nC. $9$.\nD. $8$.",
     "dap_an": "D. $8$.",
-    "loi_giai": "$512^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/9} \\Leftrightarrow (ab)^{9}=8a \\Leftrightarrow a^{8} b^{9}=8$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=8a \\Leftrightarrow a^{8}b^{9}=8$.",
     "params": {
       "s": "9",
       "m": "8"
@@ -8059,7 +8059,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=8a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $9$.\nB. $7$.\nC. $16$.\nD. $8$.",
     "dap_an": "D. $8$.",
-    "loi_giai": "$16^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/4} \\Leftrightarrow (ab)^{4}=8a \\Leftrightarrow a^{3} b^{4}=8$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=8a \\Leftrightarrow a^{3}b^{4}=8$.",
     "params": {
       "s": "4",
       "m": "8"
@@ -8073,7 +8073,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=12a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $12$.\nB. $24$.\nC. $11$.\nD. $13$.",
     "dap_an": "A. $12$.",
-    "loi_giai": "$256^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/8} \\Leftrightarrow (ab)^{8}=12a \\Leftrightarrow a^{7} b^{8}=12$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=12a \\Leftrightarrow a^{7}b^{8}=12$.",
     "params": {
       "s": "8",
       "m": "12"
@@ -8087,7 +8087,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=6a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $12$.\nB. $7$.\nC. $6$.\nD. $5$.",
     "dap_an": "C. $6$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=6a \\Leftrightarrow \\log_2(ab)=\\log_{2}(6a)^{1/10} \\Leftrightarrow (ab)^{10}=6a \\Leftrightarrow a^{9} b^{10}=6$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=6a \\Leftrightarrow a^{9}b^{10}=6$.",
     "params": {
       "s": "10",
       "m": "6"
@@ -8101,7 +8101,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=14a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $13$.\nB. $28$.\nC. $14$.\nD. $15$.",
     "dap_an": "C. $14$.",
-    "loi_giai": "$512^{\\log_2(ab)}=14a \\Leftrightarrow \\log_2(ab)=\\log_{2}(14a)^{1/9} \\Leftrightarrow (ab)^{9}=14a \\Leftrightarrow a^{8} b^{9}=14$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=14a \\Leftrightarrow a^{8}b^{9}=14$.",
     "params": {
       "s": "9",
       "m": "14"
@@ -8115,7 +8115,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=10a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $9$.\nB. $10$.\nC. $20$.\nD. $11$.",
     "dap_an": "B. $10$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=10a \\Leftrightarrow \\log_2(ab)=\\log_{2}(10a)^{1/12} \\Leftrightarrow (ab)^{12}=10a \\Leftrightarrow a^{11} b^{12}=10$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=10a \\Leftrightarrow a^{11}b^{12}=10$.",
     "params": {
       "s": "12",
       "m": "10"
@@ -8129,7 +8129,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $128^{\\log_2(ab)}=12a$. Giá trị của $a^{6}b^{7}$ bằng\n\nA. $13$.\nB. $11$.\nC. $24$.\nD. $12$.",
     "dap_an": "D. $12$.",
-    "loi_giai": "$128^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/7} \\Leftrightarrow (ab)^{7}=12a \\Leftrightarrow a^{6} b^{7}=12$.",
+    "loi_giai": "$(128)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{7}=(ab)^{7}=12a \\Leftrightarrow a^{6}b^{7}=12$.",
     "params": {
       "s": "7",
       "m": "12"
@@ -8143,7 +8143,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=11a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $12$.\nB. $11$.\nC. $10$.\nD. $22$.",
     "dap_an": "B. $11$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=11a \\Leftrightarrow \\log_2(ab)=\\log_{2}(11a)^{1/12} \\Leftrightarrow (ab)^{12}=11a \\Leftrightarrow a^{11} b^{12}=11$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=11a \\Leftrightarrow a^{11}b^{12}=11$.",
     "params": {
       "s": "12",
       "m": "11"
@@ -8157,7 +8157,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=13a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $12$.\nB. $14$.\nC. $13$.\nD. $26$.",
     "dap_an": "C. $13$.",
-    "loi_giai": "$512^{\\log_2(ab)}=13a \\Leftrightarrow \\log_2(ab)=\\log_{2}(13a)^{1/9} \\Leftrightarrow (ab)^{9}=13a \\Leftrightarrow a^{8} b^{9}=13$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=13a \\Leftrightarrow a^{8}b^{9}=13$.",
     "params": {
       "s": "9",
       "m": "13"
@@ -8171,7 +8171,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=13a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $26$.\nB. $12$.\nC. $14$.\nD. $13$.",
     "dap_an": "D. $13$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=13a \\Leftrightarrow \\log_2(ab)=\\log_{2}(13a)^{1/12} \\Leftrightarrow (ab)^{12}=13a \\Leftrightarrow a^{11} b^{12}=13$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=13a \\Leftrightarrow a^{11}b^{12}=13$.",
     "params": {
       "s": "12",
       "m": "13"
@@ -8185,7 +8185,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=8a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $7$.\nB. $16$.\nC. $8$.\nD. $9$.",
     "dap_an": "C. $8$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/10} \\Leftrightarrow (ab)^{10}=8a \\Leftrightarrow a^{9} b^{10}=8$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=8a \\Leftrightarrow a^{9}b^{10}=8$.",
     "params": {
       "s": "10",
       "m": "8"
@@ -8199,7 +8199,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=5a$. Giá trị của $ab^{2}$ bằng\n\nA. $4$.\nB. $6$.\nC. $10$.\nD. $5$.",
     "dap_an": "D. $5$.",
-    "loi_giai": "$4^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/2} \\Leftrightarrow (ab)^{2}=5a \\Leftrightarrow ab^{2}=5$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=5a \\Leftrightarrow a^{1}b^{2}=5$.",
     "params": {
       "s": "2",
       "m": "5"
@@ -8213,7 +8213,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=7a$. Giá trị của $ab^{2}$ bằng\n\nA. $8$.\nB. $7$.\nC. $14$.\nD. $6$.",
     "dap_an": "B. $7$.",
-    "loi_giai": "$4^{\\log_2(ab)}=7a \\Leftrightarrow \\log_2(ab)=\\log_{2}(7a)^{1/2} \\Leftrightarrow (ab)^{2}=7a \\Leftrightarrow ab^{2}=7$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=7a \\Leftrightarrow a^{1}b^{2}=7$.",
     "params": {
       "s": "2",
       "m": "7"
@@ -8227,7 +8227,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $2048^{\\log_2(ab)}=3a$. Giá trị của $a^{10}b^{11}$ bằng\n\nA. $2$.\nB. $6$.\nC. $4$.\nD. $3$.",
     "dap_an": "D. $3$.",
-    "loi_giai": "$2048^{\\log_2(ab)}=3a \\Leftrightarrow \\log_2(ab)=\\log_{2}(3a)^{1/11} \\Leftrightarrow (ab)^{11}=3a \\Leftrightarrow a^{10} b^{11}=3$.",
+    "loi_giai": "$(2048)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{11}=(ab)^{11}=3a \\Leftrightarrow a^{10}b^{11}=3$.",
     "params": {
       "s": "11",
       "m": "3"
@@ -8241,7 +8241,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $128^{\\log_2(ab)}=14a$. Giá trị của $a^{6}b^{7}$ bằng\n\nA. $15$.\nB. $28$.\nC. $13$.\nD. $14$.",
     "dap_an": "D. $14$.",
-    "loi_giai": "$128^{\\log_2(ab)}=14a \\Leftrightarrow \\log_2(ab)=\\log_{2}(14a)^{1/7} \\Leftrightarrow (ab)^{7}=14a \\Leftrightarrow a^{6} b^{7}=14$.",
+    "loi_giai": "$(128)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{7}=(ab)^{7}=14a \\Leftrightarrow a^{6}b^{7}=14$.",
     "params": {
       "s": "7",
       "m": "14"
@@ -8255,7 +8255,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=2a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $3$.\nB. $2$.\nC. $4$.\nD. $1$.",
     "dap_an": "B. $2$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/12} \\Leftrightarrow (ab)^{12}=2a \\Leftrightarrow a^{11} b^{12}=2$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=2a \\Leftrightarrow a^{11}b^{12}=2$.",
     "params": {
       "s": "12",
       "m": "2"
@@ -8269,7 +8269,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=8a$. Giá trị của $ab^{2}$ bằng\n\nA. $7$.\nB. $8$.\nC. $9$.\nD. $16$.",
     "dap_an": "B. $8$.",
-    "loi_giai": "$4^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/2} \\Leftrightarrow (ab)^{2}=8a \\Leftrightarrow ab^{2}=8$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=8a \\Leftrightarrow a^{1}b^{2}=8$.",
     "params": {
       "s": "2",
       "m": "8"
@@ -8283,7 +8283,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=12a$. Giá trị của $ab^{2}$ bằng\n\nA. $13$.\nB. $12$.\nC. $24$.\nD. $11$.",
     "dap_an": "B. $12$.",
-    "loi_giai": "$4^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/2} \\Leftrightarrow (ab)^{2}=12a \\Leftrightarrow ab^{2}=12$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=12a \\Leftrightarrow a^{1}b^{2}=12$.",
     "params": {
       "s": "2",
       "m": "12"
@@ -8297,7 +8297,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=9a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $18$.\nB. $10$.\nC. $9$.\nD. $8$.",
     "dap_an": "C. $9$.",
-    "loi_giai": "$32^{\\log_2(ab)}=9a \\Leftrightarrow \\log_2(ab)=\\log_{2}(9a)^{1/5} \\Leftrightarrow (ab)^{5}=9a \\Leftrightarrow a^{4} b^{5}=9$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=9a \\Leftrightarrow a^{4}b^{5}=9$.",
     "params": {
       "s": "5",
       "m": "9"
@@ -8311,7 +8311,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=15a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $30$.\nB. $16$.\nC. $14$.\nD. $15$.",
     "dap_an": "D. $15$.",
-    "loi_giai": "$8^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/3} \\Leftrightarrow (ab)^{3}=15a \\Leftrightarrow a^{2} b^{3}=15$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=15a \\Leftrightarrow a^{2}b^{3}=15$.",
     "params": {
       "s": "3",
       "m": "15"
@@ -8325,7 +8325,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=4a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $8$.\nB. $5$.\nC. $3$.\nD. $4$.",
     "dap_an": "D. $4$.",
-    "loi_giai": "$8^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/3} \\Leftrightarrow (ab)^{3}=4a \\Leftrightarrow a^{2} b^{3}=4$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=4a \\Leftrightarrow a^{2}b^{3}=4$.",
     "params": {
       "s": "3",
       "m": "4"
@@ -8339,7 +8339,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $2048^{\\log_2(ab)}=13a$. Giá trị của $a^{10}b^{11}$ bằng\n\nA. $26$.\nB. $14$.\nC. $13$.\nD. $12$.",
     "dap_an": "C. $13$.",
-    "loi_giai": "$2048^{\\log_2(ab)}=13a \\Leftrightarrow \\log_2(ab)=\\log_{2}(13a)^{1/11} \\Leftrightarrow (ab)^{11}=13a \\Leftrightarrow a^{10} b^{11}=13$.",
+    "loi_giai": "$(2048)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{11}=(ab)^{11}=13a \\Leftrightarrow a^{10}b^{11}=13$.",
     "params": {
       "s": "11",
       "m": "13"
@@ -8353,7 +8353,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=5a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $4$.\nB. $6$.\nC. $10$.\nD. $5$.",
     "dap_an": "D. $5$.",
-    "loi_giai": "$256^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/8} \\Leftrightarrow (ab)^{8}=5a \\Leftrightarrow a^{7} b^{8}=5$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=5a \\Leftrightarrow a^{7}b^{8}=5$.",
     "params": {
       "s": "8",
       "m": "5"
@@ -8367,7 +8367,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $128^{\\log_2(ab)}=8a$. Giá trị của $a^{6}b^{7}$ bằng\n\nA. $9$.\nB. $8$.\nC. $16$.\nD. $7$.",
     "dap_an": "B. $8$.",
-    "loi_giai": "$128^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/7} \\Leftrightarrow (ab)^{7}=8a \\Leftrightarrow a^{6} b^{7}=8$.",
+    "loi_giai": "$(128)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{7}=(ab)^{7}=8a \\Leftrightarrow a^{6}b^{7}=8$.",
     "params": {
       "s": "7",
       "m": "8"
@@ -8381,7 +8381,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=6a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $6$.\nB. $5$.\nC. $7$.\nD. $12$.",
     "dap_an": "A. $6$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=6a \\Leftrightarrow \\log_2(ab)=\\log_{2}(6a)^{1/12} \\Leftrightarrow (ab)^{12}=6a \\Leftrightarrow a^{11} b^{12}=6$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=6a \\Leftrightarrow a^{11}b^{12}=6$.",
     "params": {
       "s": "12",
       "m": "6"
@@ -8395,7 +8395,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=12a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $12$.\nB. $13$.\nC. $11$.\nD. $24$.",
     "dap_an": "A. $12$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/12} \\Leftrightarrow (ab)^{12}=12a \\Leftrightarrow a^{11} b^{12}=12$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=12a \\Leftrightarrow a^{11}b^{12}=12$.",
     "params": {
       "s": "12",
       "m": "12"
@@ -8409,7 +8409,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $2048^{\\log_2(ab)}=2a$. Giá trị của $a^{10}b^{11}$ bằng\n\nA. $2$.\nB. $1$.\nC. $4$.\nD. $3$.",
     "dap_an": "A. $2$.",
-    "loi_giai": "$2048^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/11} \\Leftrightarrow (ab)^{11}=2a \\Leftrightarrow a^{10} b^{11}=2$.",
+    "loi_giai": "$(2048)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{11}=(ab)^{11}=2a \\Leftrightarrow a^{10}b^{11}=2$.",
     "params": {
       "s": "11",
       "m": "2"
@@ -8423,7 +8423,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=11a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $10$.\nB. $11$.\nC. $22$.\nD. $12$.",
     "dap_an": "B. $11$.",
-    "loi_giai": "$256^{\\log_2(ab)}=11a \\Leftrightarrow \\log_2(ab)=\\log_{2}(11a)^{1/8} \\Leftrightarrow (ab)^{8}=11a \\Leftrightarrow a^{7} b^{8}=11$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=11a \\Leftrightarrow a^{7}b^{8}=11$.",
     "params": {
       "s": "8",
       "m": "11"
@@ -8437,7 +8437,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=15a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $30$.\nB. $16$.\nC. $15$.\nD. $14$.",
     "dap_an": "C. $15$.",
-    "loi_giai": "$64^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/6} \\Leftrightarrow (ab)^{6}=15a \\Leftrightarrow a^{5} b^{6}=15$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=15a \\Leftrightarrow a^{5}b^{6}=15$.",
     "params": {
       "s": "6",
       "m": "15"
@@ -8451,7 +8451,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=11a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $12$.\nB. $22$.\nC. $10$.\nD. $11$.",
     "dap_an": "D. $11$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=11a \\Leftrightarrow \\log_2(ab)=\\log_{2}(11a)^{1/10} \\Leftrightarrow (ab)^{10}=11a \\Leftrightarrow a^{9} b^{10}=11$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=11a \\Leftrightarrow a^{9}b^{10}=11$.",
     "params": {
       "s": "10",
       "m": "11"
@@ -8465,7 +8465,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=10a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $10$.\nB. $9$.\nC. $11$.\nD. $20$.",
     "dap_an": "A. $10$.",
-    "loi_giai": "$512^{\\log_2(ab)}=10a \\Leftrightarrow \\log_2(ab)=\\log_{2}(10a)^{1/9} \\Leftrightarrow (ab)^{9}=10a \\Leftrightarrow a^{8} b^{9}=10$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=10a \\Leftrightarrow a^{8}b^{9}=10$.",
     "params": {
       "s": "9",
       "m": "10"
@@ -8479,7 +8479,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=2a$. Giá trị của $ab^{2}$ bằng\n\nA. $1$.\nB. $2$.\nC. $3$.\nD. $4$.",
     "dap_an": "B. $2$.",
-    "loi_giai": "$4^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/2} \\Leftrightarrow (ab)^{2}=2a \\Leftrightarrow ab^{2}=2$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=2a \\Leftrightarrow a^{1}b^{2}=2$.",
     "params": {
       "s": "2",
       "m": "2"
@@ -8493,7 +8493,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=7a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $6$.\nB. $7$.\nC. $14$.\nD. $8$.",
     "dap_an": "B. $7$.",
-    "loi_giai": "$16^{\\log_2(ab)}=7a \\Leftrightarrow \\log_2(ab)=\\log_{2}(7a)^{1/4} \\Leftrightarrow (ab)^{4}=7a \\Leftrightarrow a^{3} b^{4}=7$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=7a \\Leftrightarrow a^{3}b^{4}=7$.",
     "params": {
       "s": "4",
       "m": "7"
@@ -8507,7 +8507,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $2048^{\\log_2(ab)}=6a$. Giá trị của $a^{10}b^{11}$ bằng\n\nA. $12$.\nB. $7$.\nC. $5$.\nD. $6$.",
     "dap_an": "D. $6$.",
-    "loi_giai": "$2048^{\\log_2(ab)}=6a \\Leftrightarrow \\log_2(ab)=\\log_{2}(6a)^{1/11} \\Leftrightarrow (ab)^{11}=6a \\Leftrightarrow a^{10} b^{11}=6$.",
+    "loi_giai": "$(2048)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{11}=(ab)^{11}=6a \\Leftrightarrow a^{10}b^{11}=6$.",
     "params": {
       "s": "11",
       "m": "6"
@@ -8521,7 +8521,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=11a$. Giá trị của $ab^{2}$ bằng\n\nA. $11$.\nB. $22$.\nC. $12$.\nD. $10$.",
     "dap_an": "A. $11$.",
-    "loi_giai": "$4^{\\log_2(ab)}=11a \\Leftrightarrow \\log_2(ab)=\\log_{2}(11a)^{1/2} \\Leftrightarrow (ab)^{2}=11a \\Leftrightarrow ab^{2}=11$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=11a \\Leftrightarrow a^{1}b^{2}=11$.",
     "params": {
       "s": "2",
       "m": "11"
@@ -8535,7 +8535,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=15a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $14$.\nB. $16$.\nC. $15$.\nD. $30$.",
     "dap_an": "C. $15$.",
-    "loi_giai": "$16^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/4} \\Leftrightarrow (ab)^{4}=15a \\Leftrightarrow a^{3} b^{4}=15$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=15a \\Leftrightarrow a^{3}b^{4}=15$.",
     "params": {
       "s": "4",
       "m": "15"
@@ -8549,7 +8549,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=2a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $1$.\nB. $4$.\nC. $3$.\nD. $2$.",
     "dap_an": "D. $2$.",
-    "loi_giai": "$16^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/4} \\Leftrightarrow (ab)^{4}=2a \\Leftrightarrow a^{3} b^{4}=2$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=2a \\Leftrightarrow a^{3}b^{4}=2$.",
     "params": {
       "s": "4",
       "m": "2"
@@ -8563,7 +8563,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=12a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $13$.\nB. $12$.\nC. $11$.\nD. $24$.",
     "dap_an": "B. $12$.",
-    "loi_giai": "$512^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/9} \\Leftrightarrow (ab)^{9}=12a \\Leftrightarrow a^{8} b^{9}=12$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=12a \\Leftrightarrow a^{8}b^{9}=12$.",
     "params": {
       "s": "9",
       "m": "12"
@@ -8577,7 +8577,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=10a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $11$.\nB. $10$.\nC. $20$.\nD. $9$.",
     "dap_an": "B. $10$.",
-    "loi_giai": "$32^{\\log_2(ab)}=10a \\Leftrightarrow \\log_2(ab)=\\log_{2}(10a)^{1/5} \\Leftrightarrow (ab)^{5}=10a \\Leftrightarrow a^{4} b^{5}=10$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=10a \\Leftrightarrow a^{4}b^{5}=10$.",
     "params": {
       "s": "5",
       "m": "10"
@@ -8591,7 +8591,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=14a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $13$.\nB. $14$.\nC. $28$.\nD. $15$.",
     "dap_an": "B. $14$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=14a \\Leftrightarrow \\log_2(ab)=\\log_{2}(14a)^{1/10} \\Leftrightarrow (ab)^{10}=14a \\Leftrightarrow a^{9} b^{10}=14$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=14a \\Leftrightarrow a^{9}b^{10}=14$.",
     "params": {
       "s": "10",
       "m": "14"
@@ -8605,7 +8605,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=13a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $26$.\nB. $13$.\nC. $12$.\nD. $14$.",
     "dap_an": "B. $13$.",
-    "loi_giai": "$8^{\\log_2(ab)}=13a \\Leftrightarrow \\log_2(ab)=\\log_{2}(13a)^{1/3} \\Leftrightarrow (ab)^{3}=13a \\Leftrightarrow a^{2} b^{3}=13$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=13a \\Leftrightarrow a^{2}b^{3}=13$.",
     "params": {
       "s": "3",
       "m": "13"
@@ -8619,7 +8619,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $2048^{\\log_2(ab)}=15a$. Giá trị của $a^{10}b^{11}$ bằng\n\nA. $15$.\nB. $16$.\nC. $14$.\nD. $30$.",
     "dap_an": "A. $15$.",
-    "loi_giai": "$2048^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/11} \\Leftrightarrow (ab)^{11}=15a \\Leftrightarrow a^{10} b^{11}=15$.",
+    "loi_giai": "$(2048)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{11}=(ab)^{11}=15a \\Leftrightarrow a^{10}b^{11}=15$.",
     "params": {
       "s": "11",
       "m": "15"
@@ -8633,7 +8633,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=9a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $10$.\nB. $8$.\nC. $9$.\nD. $18$.",
     "dap_an": "C. $9$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=9a \\Leftrightarrow \\log_2(ab)=\\log_{2}(9a)^{1/10} \\Leftrightarrow (ab)^{10}=9a \\Leftrightarrow a^{9} b^{10}=9$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=9a \\Leftrightarrow a^{9}b^{10}=9$.",
     "params": {
       "s": "10",
       "m": "9"
@@ -8647,7 +8647,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=9a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $8$.\nB. $10$.\nC. $18$.\nD. $9$.",
     "dap_an": "D. $9$.",
-    "loi_giai": "$512^{\\log_2(ab)}=9a \\Leftrightarrow \\log_2(ab)=\\log_{2}(9a)^{1/9} \\Leftrightarrow (ab)^{9}=9a \\Leftrightarrow a^{8} b^{9}=9$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=9a \\Leftrightarrow a^{8}b^{9}=9$.",
     "params": {
       "s": "9",
       "m": "9"
@@ -8661,7 +8661,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=2a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $1$.\nB. $3$.\nC. $4$.\nD. $2$.",
     "dap_an": "D. $2$.",
-    "loi_giai": "$8^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/3} \\Leftrightarrow (ab)^{3}=2a \\Leftrightarrow a^{2} b^{3}=2$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=2a \\Leftrightarrow a^{2}b^{3}=2$.",
     "params": {
       "s": "3",
       "m": "2"
@@ -8675,7 +8675,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=4a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $8$.\nB. $4$.\nC. $5$.\nD. $3$.",
     "dap_an": "B. $4$.",
-    "loi_giai": "$256^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/8} \\Leftrightarrow (ab)^{8}=4a \\Leftrightarrow a^{7} b^{8}=4$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=4a \\Leftrightarrow a^{7}b^{8}=4$.",
     "params": {
       "s": "8",
       "m": "4"
@@ -8689,7 +8689,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=8a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $16$.\nB. $8$.\nC. $7$.\nD. $9$.",
     "dap_an": "B. $8$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/12} \\Leftrightarrow (ab)^{12}=8a \\Leftrightarrow a^{11} b^{12}=8$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=8a \\Leftrightarrow a^{11}b^{12}=8$.",
     "params": {
       "s": "12",
       "m": "8"
@@ -8703,7 +8703,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=6a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $5$.\nB. $7$.\nC. $12$.\nD. $6$.",
     "dap_an": "D. $6$.",
-    "loi_giai": "$64^{\\log_2(ab)}=6a \\Leftrightarrow \\log_2(ab)=\\log_{2}(6a)^{1/6} \\Leftrightarrow (ab)^{6}=6a \\Leftrightarrow a^{5} b^{6}=6$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=6a \\Leftrightarrow a^{5}b^{6}=6$.",
     "params": {
       "s": "6",
       "m": "6"
@@ -8717,7 +8717,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=7a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $14$.\nB. $6$.\nC. $8$.\nD. $7$.",
     "dap_an": "D. $7$.",
-    "loi_giai": "$8^{\\log_2(ab)}=7a \\Leftrightarrow \\log_2(ab)=\\log_{2}(7a)^{1/3} \\Leftrightarrow (ab)^{3}=7a \\Leftrightarrow a^{2} b^{3}=7$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=7a \\Leftrightarrow a^{2}b^{3}=7$.",
     "params": {
       "s": "3",
       "m": "7"
@@ -8731,7 +8731,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=4a$. Giá trị của $ab^{2}$ bằng\n\nA. $5$.\nB. $8$.\nC. $3$.\nD. $4$.",
     "dap_an": "D. $4$.",
-    "loi_giai": "$4^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/2} \\Leftrightarrow (ab)^{2}=4a \\Leftrightarrow ab^{2}=4$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=4a \\Leftrightarrow a^{1}b^{2}=4$.",
     "params": {
       "s": "2",
       "m": "4"
@@ -8745,7 +8745,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=14a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $13$.\nB. $14$.\nC. $28$.\nD. $15$.",
     "dap_an": "B. $14$.",
-    "loi_giai": "$16^{\\log_2(ab)}=14a \\Leftrightarrow \\log_2(ab)=\\log_{2}(14a)^{1/4} \\Leftrightarrow (ab)^{4}=14a \\Leftrightarrow a^{3} b^{4}=14$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=14a \\Leftrightarrow a^{3}b^{4}=14$.",
     "params": {
       "s": "4",
       "m": "14"
@@ -8759,7 +8759,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=4a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $4$.\nB. $8$.\nC. $5$.\nD. $3$.",
     "dap_an": "A. $4$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/12} \\Leftrightarrow (ab)^{12}=4a \\Leftrightarrow a^{11} b^{12}=4$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=4a \\Leftrightarrow a^{11}b^{12}=4$.",
     "params": {
       "s": "12",
       "m": "4"
@@ -8773,7 +8773,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=2a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $2$.\nB. $3$.\nC. $1$.\nD. $4$.",
     "dap_an": "A. $2$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/10} \\Leftrightarrow (ab)^{10}=2a \\Leftrightarrow a^{9} b^{10}=2$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=2a \\Leftrightarrow a^{9}b^{10}=2$.",
     "params": {
       "s": "10",
       "m": "2"
@@ -8787,7 +8787,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=15a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $14$.\nB. $15$.\nC. $16$.\nD. $30$.",
     "dap_an": "B. $15$.",
-    "loi_giai": "$512^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/9} \\Leftrightarrow (ab)^{9}=15a \\Leftrightarrow a^{8} b^{9}=15$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=15a \\Leftrightarrow a^{8}b^{9}=15$.",
     "params": {
       "s": "9",
       "m": "15"
@@ -8801,7 +8801,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=10a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $9$.\nB. $20$.\nC. $10$.\nD. $11$.",
     "dap_an": "C. $10$.",
-    "loi_giai": "$256^{\\log_2(ab)}=10a \\Leftrightarrow \\log_2(ab)=\\log_{2}(10a)^{1/8} \\Leftrightarrow (ab)^{8}=10a \\Leftrightarrow a^{7} b^{8}=10$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=10a \\Leftrightarrow a^{7}b^{8}=10$.",
     "params": {
       "s": "8",
       "m": "10"
@@ -8815,7 +8815,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=8a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $7$.\nB. $16$.\nC. $9$.\nD. $8$.",
     "dap_an": "D. $8$.",
-    "loi_giai": "$256^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/8} \\Leftrightarrow (ab)^{8}=8a \\Leftrightarrow a^{7} b^{8}=8$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=8a \\Leftrightarrow a^{7}b^{8}=8$.",
     "params": {
       "s": "8",
       "m": "8"
@@ -8829,7 +8829,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=7a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $6$.\nB. $8$.\nC. $7$.\nD. $14$.",
     "dap_an": "C. $7$.",
-    "loi_giai": "$64^{\\log_2(ab)}=7a \\Leftrightarrow \\log_2(ab)=\\log_{2}(7a)^{1/6} \\Leftrightarrow (ab)^{6}=7a \\Leftrightarrow a^{5} b^{6}=7$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=7a \\Leftrightarrow a^{5}b^{6}=7$.",
     "params": {
       "s": "6",
       "m": "7"
@@ -8843,7 +8843,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=3a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $4$.\nB. $3$.\nC. $2$.\nD. $6$.",
     "dap_an": "B. $3$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=3a \\Leftrightarrow \\log_2(ab)=\\log_{2}(3a)^{1/12} \\Leftrightarrow (ab)^{12}=3a \\Leftrightarrow a^{11} b^{12}=3$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=3a \\Leftrightarrow a^{11}b^{12}=3$.",
     "params": {
       "s": "12",
       "m": "3"
@@ -8857,7 +8857,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=5a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $5$.\nB. $10$.\nC. $6$.\nD. $4$.",
     "dap_an": "A. $5$.",
-    "loi_giai": "$8^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/3} \\Leftrightarrow (ab)^{3}=5a \\Leftrightarrow a^{2} b^{3}=5$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=5a \\Leftrightarrow a^{2}b^{3}=5$.",
     "params": {
       "s": "3",
       "m": "5"
@@ -8871,7 +8871,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4096^{\\log_2(ab)}=15a$. Giá trị của $a^{11}b^{12}$ bằng\n\nA. $15$.\nB. $16$.\nC. $14$.\nD. $30$.",
     "dap_an": "A. $15$.",
-    "loi_giai": "$4096^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/12} \\Leftrightarrow (ab)^{12}=15a \\Leftrightarrow a^{11} b^{12}=15$.",
+    "loi_giai": "$(4096)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{12}=(ab)^{12}=15a \\Leftrightarrow a^{11}b^{12}=15$.",
     "params": {
       "s": "12",
       "m": "15"
@@ -8885,7 +8885,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=15a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $16$.\nB. $30$.\nC. $15$.\nD. $14$.",
     "dap_an": "C. $15$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/10} \\Leftrightarrow (ab)^{10}=15a \\Leftrightarrow a^{9} b^{10}=15$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=15a \\Leftrightarrow a^{9}b^{10}=15$.",
     "params": {
       "s": "10",
       "m": "15"
@@ -8899,7 +8899,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=2a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $1$.\nB. $3$.\nC. $4$.\nD. $2$.",
     "dap_an": "D. $2$.",
-    "loi_giai": "$64^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/6} \\Leftrightarrow (ab)^{6}=2a \\Leftrightarrow a^{5} b^{6}=2$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=2a \\Leftrightarrow a^{5}b^{6}=2$.",
     "params": {
       "s": "6",
       "m": "2"
@@ -8913,7 +8913,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=11a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $12$.\nB. $22$.\nC. $11$.\nD. $10$.",
     "dap_an": "C. $11$.",
-    "loi_giai": "$32^{\\log_2(ab)}=11a \\Leftrightarrow \\log_2(ab)=\\log_{2}(11a)^{1/5} \\Leftrightarrow (ab)^{5}=11a \\Leftrightarrow a^{4} b^{5}=11$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=11a \\Leftrightarrow a^{4}b^{5}=11$.",
     "params": {
       "s": "5",
       "m": "11"
@@ -8927,7 +8927,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=4a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $5$.\nB. $4$.\nC. $8$.\nD. $3$.",
     "dap_an": "B. $4$.",
-    "loi_giai": "$512^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/9} \\Leftrightarrow (ab)^{9}=4a \\Leftrightarrow a^{8} b^{9}=4$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=4a \\Leftrightarrow a^{8}b^{9}=4$.",
     "params": {
       "s": "9",
       "m": "4"
@@ -8941,7 +8941,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=12a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $13$.\nB. $11$.\nC. $24$.\nD. $12$.",
     "dap_an": "D. $12$.",
-    "loi_giai": "$32^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/5} \\Leftrightarrow (ab)^{5}=12a \\Leftrightarrow a^{4} b^{5}=12$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=12a \\Leftrightarrow a^{4}b^{5}=12$.",
     "params": {
       "s": "5",
       "m": "12"
@@ -8955,7 +8955,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=2a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $4$.\nB. $1$.\nC. $3$.\nD. $2$.",
     "dap_an": "D. $2$.",
-    "loi_giai": "$256^{\\log_2(ab)}=2a \\Leftrightarrow \\log_2(ab)=\\log_{2}(2a)^{1/8} \\Leftrightarrow (ab)^{8}=2a \\Leftrightarrow a^{7} b^{8}=2$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=2a \\Leftrightarrow a^{7}b^{8}=2$.",
     "params": {
       "s": "8",
       "m": "2"
@@ -8969,7 +8969,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=12a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $24$.\nB. $11$.\nC. $12$.\nD. $13$.",
     "dap_an": "C. $12$.",
-    "loi_giai": "$8^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/3} \\Leftrightarrow (ab)^{3}=12a \\Leftrightarrow a^{2} b^{3}=12$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=12a \\Leftrightarrow a^{2}b^{3}=12$.",
     "params": {
       "s": "3",
       "m": "12"
@@ -8983,7 +8983,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=12a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $24$.\nB. $13$.\nC. $11$.\nD. $12$.",
     "dap_an": "D. $12$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=12a \\Leftrightarrow \\log_2(ab)=\\log_{2}(12a)^{1/10} \\Leftrightarrow (ab)^{10}=12a \\Leftrightarrow a^{9} b^{10}=12$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=12a \\Leftrightarrow a^{9}b^{10}=12$.",
     "params": {
       "s": "10",
       "m": "12"
@@ -8997,7 +8997,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=10a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $10$.\nB. $9$.\nC. $11$.\nD. $20$.",
     "dap_an": "A. $10$.",
-    "loi_giai": "$8^{\\log_2(ab)}=10a \\Leftrightarrow \\log_2(ab)=\\log_{2}(10a)^{1/3} \\Leftrightarrow (ab)^{3}=10a \\Leftrightarrow a^{2} b^{3}=10$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=10a \\Leftrightarrow a^{2}b^{3}=10$.",
     "params": {
       "s": "3",
       "m": "10"
@@ -9011,7 +9011,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=11a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $10$.\nB. $12$.\nC. $11$.\nD. $22$.",
     "dap_an": "C. $11$.",
-    "loi_giai": "$16^{\\log_2(ab)}=11a \\Leftrightarrow \\log_2(ab)=\\log_{2}(11a)^{1/4} \\Leftrightarrow (ab)^{4}=11a \\Leftrightarrow a^{3} b^{4}=11$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=11a \\Leftrightarrow a^{3}b^{4}=11$.",
     "params": {
       "s": "4",
       "m": "11"
@@ -9025,7 +9025,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=4a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $4$.\nB. $3$.\nC. $5$.\nD. $8$.",
     "dap_an": "A. $4$.",
-    "loi_giai": "$16^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/4} \\Leftrightarrow (ab)^{4}=4a \\Leftrightarrow a^{3} b^{4}=4$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=4a \\Leftrightarrow a^{3}b^{4}=4$.",
     "params": {
       "s": "4",
       "m": "4"
@@ -9039,7 +9039,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $1024^{\\log_2(ab)}=5a$. Giá trị của $a^{9}b^{10}$ bằng\n\nA. $4$.\nB. $10$.\nC. $5$.\nD. $6$.",
     "dap_an": "C. $5$.",
-    "loi_giai": "$1024^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/10} \\Leftrightarrow (ab)^{10}=5a \\Leftrightarrow a^{9} b^{10}=5$.",
+    "loi_giai": "$(1024)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{10}=(ab)^{10}=5a \\Leftrightarrow a^{9}b^{10}=5$.",
     "params": {
       "s": "10",
       "m": "5"
@@ -9053,7 +9053,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=8a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $16$.\nB. $8$.\nC. $9$.\nD. $7$.",
     "dap_an": "B. $8$.",
-    "loi_giai": "$8^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/3} \\Leftrightarrow (ab)^{3}=8a \\Leftrightarrow a^{2} b^{3}=8$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=8a \\Leftrightarrow a^{2}b^{3}=8$.",
     "params": {
       "s": "3",
       "m": "8"
@@ -9067,7 +9067,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $2048^{\\log_2(ab)}=8a$. Giá trị của $a^{10}b^{11}$ bằng\n\nA. $8$.\nB. $7$.\nC. $9$.\nD. $16$.",
     "dap_an": "A. $8$.",
-    "loi_giai": "$2048^{\\log_2(ab)}=8a \\Leftrightarrow \\log_2(ab)=\\log_{2}(8a)^{1/11} \\Leftrightarrow (ab)^{11}=8a \\Leftrightarrow a^{10} b^{11}=8$.",
+    "loi_giai": "$(2048)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{11}=(ab)^{11}=8a \\Leftrightarrow a^{10}b^{11}=8$.",
     "params": {
       "s": "11",
       "m": "8"
@@ -9081,7 +9081,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $8^{\\log_2(ab)}=9a$. Giá trị của $a^{2}b^{3}$ bằng\n\nA. $9$.\nB. $18$.\nC. $10$.\nD. $8$.",
     "dap_an": "A. $9$.",
-    "loi_giai": "$8^{\\log_2(ab)}=9a \\Leftrightarrow \\log_2(ab)=\\log_{2}(9a)^{1/3} \\Leftrightarrow (ab)^{3}=9a \\Leftrightarrow a^{2} b^{3}=9$.",
+    "loi_giai": "$(8)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{3}=(ab)^{3}=9a \\Leftrightarrow a^{2}b^{3}=9$.",
     "params": {
       "s": "3",
       "m": "9"
@@ -9095,7 +9095,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $128^{\\log_2(ab)}=6a$. Giá trị của $a^{6}b^{7}$ bằng\n\nA. $6$.\nB. $12$.\nC. $7$.\nD. $5$.",
     "dap_an": "A. $6$.",
-    "loi_giai": "$128^{\\log_2(ab)}=6a \\Leftrightarrow \\log_2(ab)=\\log_{2}(6a)^{1/7} \\Leftrightarrow (ab)^{7}=6a \\Leftrightarrow a^{6} b^{7}=6$.",
+    "loi_giai": "$(128)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{7}=(ab)^{7}=6a \\Leftrightarrow a^{6}b^{7}=6$.",
     "params": {
       "s": "7",
       "m": "6"
@@ -9109,7 +9109,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=9a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $10$.\nB. $9$.\nC. $18$.\nD. $8$.",
     "dap_an": "B. $9$.",
-    "loi_giai": "$64^{\\log_2(ab)}=9a \\Leftrightarrow \\log_2(ab)=\\log_{2}(9a)^{1/6} \\Leftrightarrow (ab)^{6}=9a \\Leftrightarrow a^{5} b^{6}=9$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=9a \\Leftrightarrow a^{5}b^{6}=9$.",
     "params": {
       "s": "6",
       "m": "9"
@@ -9123,7 +9123,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=15a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $15$.\nB. $30$.\nC. $14$.\nD. $16$.",
     "dap_an": "A. $15$.",
-    "loi_giai": "$32^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/5} \\Leftrightarrow (ab)^{5}=15a \\Leftrightarrow a^{4} b^{5}=15$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=15a \\Leftrightarrow a^{4}b^{5}=15$.",
     "params": {
       "s": "5",
       "m": "15"
@@ -9137,7 +9137,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=15a$. Giá trị của $ab^{2}$ bằng\n\nA. $16$.\nB. $30$.\nC. $14$.\nD. $15$.",
     "dap_an": "D. $15$.",
-    "loi_giai": "$4^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/2} \\Leftrightarrow (ab)^{2}=15a \\Leftrightarrow ab^{2}=15$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=15a \\Leftrightarrow a^{1}b^{2}=15$.",
     "params": {
       "s": "2",
       "m": "15"
@@ -9151,7 +9151,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=4a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $3$.\nB. $8$.\nC. $4$.\nD. $5$.",
     "dap_an": "C. $4$.",
-    "loi_giai": "$32^{\\log_2(ab)}=4a \\Leftrightarrow \\log_2(ab)=\\log_{2}(4a)^{1/5} \\Leftrightarrow (ab)^{5}=4a \\Leftrightarrow a^{4} b^{5}=4$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=4a \\Leftrightarrow a^{4}b^{5}=4$.",
     "params": {
       "s": "5",
       "m": "4"
@@ -9165,7 +9165,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=5a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $5$.\nB. $10$.\nC. $6$.\nD. $4$.",
     "dap_an": "A. $5$.",
-    "loi_giai": "$32^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/5} \\Leftrightarrow (ab)^{5}=5a \\Leftrightarrow a^{4} b^{5}=5$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=5a \\Leftrightarrow a^{4}b^{5}=5$.",
     "params": {
       "s": "5",
       "m": "5"
@@ -9179,7 +9179,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $256^{\\log_2(ab)}=15a$. Giá trị của $a^{7}b^{8}$ bằng\n\nA. $16$.\nB. $15$.\nC. $14$.\nD. $30$.",
     "dap_an": "B. $15$.",
-    "loi_giai": "$256^{\\log_2(ab)}=15a \\Leftrightarrow \\log_2(ab)=\\log_{2}(15a)^{1/8} \\Leftrightarrow (ab)^{8}=15a \\Leftrightarrow a^{7} b^{8}=15$.",
+    "loi_giai": "$(256)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{8}=(ab)^{8}=15a \\Leftrightarrow a^{7}b^{8}=15$.",
     "params": {
       "s": "8",
       "m": "15"
@@ -9193,7 +9193,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $64^{\\log_2(ab)}=13a$. Giá trị của $a^{5}b^{6}$ bằng\n\nA. $14$.\nB. $26$.\nC. $13$.\nD. $12$.",
     "dap_an": "C. $13$.",
-    "loi_giai": "$64^{\\log_2(ab)}=13a \\Leftrightarrow \\log_2(ab)=\\log_{2}(13a)^{1/6} \\Leftrightarrow (ab)^{6}=13a \\Leftrightarrow a^{5} b^{6}=13$.",
+    "loi_giai": "$(64)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{6}=(ab)^{6}=13a \\Leftrightarrow a^{5}b^{6}=13$.",
     "params": {
       "s": "6",
       "m": "13"
@@ -9207,7 +9207,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $16^{\\log_2(ab)}=13a$. Giá trị của $a^{3}b^{4}$ bằng\n\nA. $12$.\nB. $26$.\nC. $14$.\nD. $13$.",
     "dap_an": "D. $13$.",
-    "loi_giai": "$16^{\\log_2(ab)}=13a \\Leftrightarrow \\log_2(ab)=\\log_{2}(13a)^{1/4} \\Leftrightarrow (ab)^{4}=13a \\Leftrightarrow a^{3} b^{4}=13$.",
+    "loi_giai": "$(16)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{4}=(ab)^{4}=13a \\Leftrightarrow a^{3}b^{4}=13$.",
     "params": {
       "s": "4",
       "m": "13"
@@ -9221,7 +9221,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $32^{\\log_2(ab)}=3a$. Giá trị của $a^{4}b^{5}$ bằng\n\nA. $4$.\nB. $2$.\nC. $6$.\nD. $3$.",
     "dap_an": "D. $3$.",
-    "loi_giai": "$32^{\\log_2(ab)}=3a \\Leftrightarrow \\log_2(ab)=\\log_{2}(3a)^{1/5} \\Leftrightarrow (ab)^{5}=3a \\Leftrightarrow a^{4} b^{5}=3$.",
+    "loi_giai": "$(32)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{5}=(ab)^{5}=3a \\Leftrightarrow a^{4}b^{5}=3$.",
     "params": {
       "s": "5",
       "m": "3"
@@ -9235,7 +9235,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=3a$. Giá trị của $ab^{2}$ bằng\n\nA. $4$.\nB. $3$.\nC. $6$.\nD. $2$.",
     "dap_an": "B. $3$.",
-    "loi_giai": "$4^{\\log_2(ab)}=3a \\Leftrightarrow \\log_2(ab)=\\log_{2}(3a)^{1/2} \\Leftrightarrow (ab)^{2}=3a \\Leftrightarrow ab^{2}=3$.",
+    "loi_giai": "$(4)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{2}=(ab)^{2}=3a \\Leftrightarrow a^{1}b^{2}=3$.",
     "params": {
       "s": "2",
       "m": "3"
@@ -9249,7 +9249,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=5a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $10$.\nB. $4$.\nC. $6$.\nD. $5$.",
     "dap_an": "D. $5$.",
-    "loi_giai": "$512^{\\log_2(ab)}=5a \\Leftrightarrow \\log_2(ab)=\\log_{2}(5a)^{1/9} \\Leftrightarrow (ab)^{9}=5a \\Leftrightarrow a^{8} b^{9}=5$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=5a \\Leftrightarrow a^{8}b^{9}=5$.",
     "params": {
       "s": "9",
       "m": "5"
@@ -9263,7 +9263,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho $a, b$ là hai số thực dương thỏa mãn $512^{\\log_2(ab)}=6a$. Giá trị của $a^{8}b^{9}$ bằng\n\nA. $6$.\nB. $5$.\nC. $12$.\nD. $7$.",
     "dap_an": "A. $6$.",
-    "loi_giai": "$512^{\\log_2(ab)}=6a \\Leftrightarrow \\log_2(ab)=\\log_{2}(6a)^{1/9} \\Leftrightarrow (ab)^{9}=6a \\Leftrightarrow a^{8} b^{9}=6$.",
+    "loi_giai": "$(512)^{\\log_2(ab)}=(2^{\\log_2(ab)})^{9}=(ab)^{9}=6a \\Leftrightarrow a^{8}b^{9}=6$.",
     "params": {
       "s": "9",
       "m": "6"

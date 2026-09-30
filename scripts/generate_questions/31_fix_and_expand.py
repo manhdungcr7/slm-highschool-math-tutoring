@@ -86,28 +86,19 @@ def fast_verify_D67(params, expected_count):
 
 
 def fast_verify_D69(params, expected_count):
-    a, lo, hi = float(params["a"]), float(params["lo"]), float(params["hi"])
-    g_func = lambda xv_: a ** xv_ - xv_
-    xs = [(-30 + i * 0.0005) for i in range(120001)]
-    min_g = min(g_func(v) for v in xs)
-    count = 0
-    for mv in range(int(lo) + 1, int(hi)):
-        if -mv > min_g:
-            count += 1
-    return count == expected_count
+    # Delegate to exact verifier; a floating grid can miss a narrow minimum.
+    return r2.verify_D69_full(params, expected_count)
 
 
 def fast_verify_D51(params, expected_count):
-    F, D, lo_x, hi_x, dk_hi = (float(params[k]) for k in ("F", "D", "lo_x", "hi_x", "dk_hi"))
+    # Check the logarithm domain with integers, avoiding floating-point logs.
+    F, D, lo_x, hi_x, dk_hi = (int(params[k]) for k in ("F", "D", "lo_x", "hi_x", "dk_hi"))
     count = 0
-    for xv in range(0, int(dk_hi) + 2):
-        if xv <= 0 or F * xv <= 0:
-            continue
-        if math.log(F * xv, 10) > D:
-            continue
-        if 4 ** xv - 20 * 2 ** xv + 64 >= 0:
+    for xv in range(1, dk_hi + 1):
+        if F * xv <= 10 ** D and 4 ** xv - 20 * 2 ** xv + 64 >= 0:
             count += 1
     return count == expected_count
+
 
 TARGET = 90
 MAX_TRIES = 20000
@@ -169,7 +160,7 @@ def save_round2(all_rows):
         json.dump(all_rows, f, ensure_ascii=False, indent=2)
 
 
-DONE_DANG = {"D15", "D05", "D45", "D40", "D16", "D35", "D69", "D67"}  # da luu du 90, khong lam lai
+DONE_DANG = {"D15", "D05", "D45", "D40", "D16", "D35", "D69", "D67", "D51"}  # da luu du 90, khong lam lai
 
 
 def main():
@@ -237,10 +228,11 @@ def main():
             raise AssertionError("dk_hi qua lon")
         return de_bai, dap_an, loi_giai, params
 
-    all_rows += expand("D51", "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp", "p115_q39",
-                        gen_D51_capped, fast_verify_D51,
-                        lambda r: (r.randint(2, 500), r.randint(2, 4)), expects_count=True, seed=5104, max_tries=8000)
-    save_round2(all_rows)
+    if "D51" not in DONE_DANG:
+        all_rows += expand("D51", "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp", "p115_q39",
+                            gen_D51_capped, fast_verify_D51,
+                            lambda r: (r.randint(2, 500), r.randint(2, 4)), expects_count=True, seed=5104, max_tries=8000)
+        save_round2(all_rows)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round2.json", "w", encoding="utf-8") as f:
         json.dump(all_rows, f, ensure_ascii=False, indent=2)

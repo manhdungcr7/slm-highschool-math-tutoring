@@ -187,18 +187,14 @@ def gen_D67(B, k, c):
 
 
 def verify_D67_full(params, expected_count):
-    B, k, c = (sp.sympify(params[key]) for key in ("B", "k", "c"))
-    t = sp.Symbol("t", positive=True)
-    count = 0
-    for mv in range(-50, 50):
-        sols = sp.solve(sp.Eq(t ** 2 - k * mv * t + c * mv ** 2 - c, 0), t)
-        valid = [s for s in sols if s.is_real and s > 0]
-        if len(set(valid)) == 2:
-            count += 1
-    return count == expected_count
-
-
-# ===================== D40: log_a^2(bx)-(m+p)log_a x+m-q=0, 2 nghiem [1,a] =
+    B, k, c = (int(params[key]) for key in ("B", "k", "c"))
+    if not (B > 1 and k == B and c > 0 and 4*c > k*k):
+        return False
+    # Two distinct positive roots require m>=2 and
+    # m^2 < 4c/(4c-k^2). Count this exact integer interval, with no fixed search cap.
+    bound_sq = sp.Rational(4*c, 4*c-k*k)
+    count = max(0, int(sp.ceiling(sp.sqrt(bound_sq)))-2)
+    return count == int(expected_count)
 def gen_D40(a, b_coef, p, q=None):
     a, b_coef, p = sp.Integer(a), sp.Integer(b_coef), sp.Integer(p)
     q = 4 - p  # rang buoc bat buoc de PT luon co nghiem t=1 co dinh (xem suy luan trong doc string)
@@ -256,17 +252,20 @@ def gen_D40(a, b_coef, p, q=None):
 
 def verify_D40_full(params, question=None, answer=None):
     a, p, q, lo, hi, r_fixed = (sp.sympify(params[k]) for k in ("a", "p", "q", "lo", "hi", "r_fixed"))
-    if q != 4 - p or a <= 1:
+    t, m = sp.symbols("t m", real=True)
+    if a <= 1 or q != 4 - p:
         return False
-    t = sp.Symbol("t")
-    # Test one parameter inside and two outside against the original equation.
-    for mv in [lo + sp.Rational(1, 2) * (hi - lo), lo - 1, hi + 1]:
-        full = sp.expand((1 + t) ** 2 - (mv + p) * t + mv - q)
-        roots = sp.solve(sp.Eq(full, 0), t)
-        valid = [r for r in roots if r.is_real and 0 <= r <= 1]
-        should_have_2 = (lo <= mv < hi) if r_fixed == 0 else (lo < mv <= hi)
-        if (len(set(valid)) == 2) != should_have_2:
-            return False
+    # Under t=log_a(x), the polynomial must factor identically as
+    # (t-1)(t-(m+p-3)); the fixed root t=1 is included in [0,1].
+    original = sp.expand((1 + t) ** 2 - (m + p) * t + m - q)
+    expected_factor = sp.expand((t - 1) * (t - (m + p - 3)))
+    if sp.expand(original - expected_factor) != 0 or r_fixed != 1:
+        return False
+    # The roots are distinct and both lie in [0,1] exactly when
+    # 0 <= m+p-3 < 1, i.e. 3-p <= m < 4-p.
+    expected_lo, expected_hi = 3 - p, 4 - p
+    if lo != expected_lo or hi != expected_hi:
+        return False
     if question is None and answer is None:
         return True
     if question is None or answer is None:
@@ -315,11 +314,7 @@ def verify_D16(params):
     A, B, c = (sp.sympify(params[k]) for k in ("A", "B", "c"))
     fp = sp.diff((A ** x + c * B ** x) / (B ** x + 1), x)
     samples = [fp.subs(x, sp.Rational(i, 20)) for i in range(0, 21)]
-    if not all(sp.sign(v) == 1 for v in samples):
-        return False
-    f0 = (A ** 0 + c * B ** 0) / (B ** 0 + 1)
-    f1 = (A ** 1 + c * B ** 1) / (B ** 1 + 1)
-    return True
+    return all(sp.sign(v) == 1 for v in samples)
 
 
 # ===================== D35: log_a(N-a^x)=k-x, tong nghiem qua Viete ========
@@ -350,17 +345,15 @@ def gen_D35(a, N, k):
 
 
 def verify_D35(params):
-    a, N, k = (sp.sympify(params[key]) for key in ("a", "N", "k"))
+    a, N, k = (sp.Integer(params[key]) for key in ("a", "N", "k"))
+    if a <= 1 or N <= 0:
+        return False
     t = sp.Symbol("t", positive=True)
-    roots = sp.solve(sp.Eq(t ** 2 - N * t + a ** k, 0), t)
+    roots = sp.solve(sp.Eq(t**2-N*t+a**k, 0), t)
     valid = [r for r in roots if r.is_real and r > 0]
     if len(valid) != 2:
         return False
-    prod = sp.simplify(valid[0] * valid[1])
-    return abs(float(sp.log(prod, a) - k)) < 1e-9
-
-
-# ===================== D69: a^x+m=log_a(x-m), dem m nguyen trong khoang ====
+    return sp.simplify(valid[0]*valid[1]-a**k) == 0
 def gen_D69(a, lo, hi):
     a, lo, hi = sp.Integer(a), sp.Integer(lo), sp.Integer(hi)
     g = lambda t: a ** t - t
@@ -395,19 +388,16 @@ def gen_D69(a, lo, hi):
 
 
 def verify_D69_full(params, expected_count):
-    a, lo, hi = (sp.sympify(params[k]) for k in ("a", "lo", "hi"))
-    a_f = float(a)
-    g_func = lambda xv_: a_f ** xv_ - xv_
-    xs = [(-20 + i * 0.001) for i in range(40001)]
-    min_g = min(g_func(v) for v in xs)
-    count = 0
-    for mv in range(int(lo) + 1, int(hi)):
-        if -mv > min_g:
-            count += 1
-    return count == expected_count
-
-
-# ===================== D51: (A^x-c1*B^{x+e}+c2)*sqrt(D-log(F*x)) >= 0 =====
+    import mpmath as mp
+    a, lo, hi = (int(params[k]) for k in ("a", "lo", "hi"))
+    if not (a > 1 and lo < hi):
+        return False
+    with mp.workdps(100):
+        la = mp.log(a)
+        xcrit = mp.log(1/la)/la
+        threshold = xcrit - 1/la
+        count = sum(1 for m in range(lo+1, hi) if mp.mpf(m) < threshold)
+    return count == int(expected_count)
 def gen_D51(A, e_val, F, D):
     A, e_val, F, D = (sp.Integer(v) for v in (A, e_val, F, D))
     dk_hi = sp.Rational(10 ** D, F)

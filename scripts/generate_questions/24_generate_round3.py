@@ -171,7 +171,6 @@ def verify_D94(params):
     return abs(numeric_max - expected) < 0.05
 
 
-# ===================== D46: a^x=b^y=(ab)^(1/k), P=x+c*y thuoc khoang =======
 def gen_D46(k_val, c):
     k_val, c = sp.Integer(k_val), sp.Integer(c)
     t = sp.Symbol("t", positive=True)

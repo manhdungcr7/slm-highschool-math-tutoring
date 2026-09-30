@@ -77,7 +77,6 @@ def verify_D17(params):
     return abs(sampled_min - claimed) < 0.05 and claimed <= sampled_min + 1e-6
 
 
-# ===================== D65: log_b((C-xy)/(mx+ny))=bxy+mx+ny-K, K=1+bC ======
 def gen_D65(b, C, m, n):
     b, C, m, n = sp.Integer(b), sp.Integer(C), sp.Integer(m), sp.Integer(n)
     K = 1 + b * C

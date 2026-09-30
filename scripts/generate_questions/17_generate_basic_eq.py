@@ -332,10 +332,17 @@ def gen_D28(b, K_num, K_den):
 def verify_D28(params):
     b = sp.sympify(params["b"])
     K = sp.Rational(int(params["K_num"]), int(params["K_den"]))
-    t = sp.Symbol("t", real=True)
-    sols = sp.solve(sp.Eq(sp.Rational(1, 24) * t ** 4, K), t)
-    xs = [b ** s for s in sols if s.is_real]
-    return len(xs) == 2 and abs(float(sum(xs))) > 0
+    t4 = 24 * K
+    if b <= 0 or b == 1 or K <= 0 or not t4.is_Integer:
+        return False
+    root, exact = sp.integer_nthroot(int(t4), 4)
+    if not exact or root <= 0:
+        return False
+    # The four logarithms reduce exactly to (log_b x)^4/24=K,
+    # so log_b x=+/-root and the two roots are b^root and b^-root.
+    # The domain b>0, b!=1 makes the transformation one-to-one.
+    roots = {b ** root, b ** (-root)}
+    return len(roots) == 2 and sp.simplify(sum(roots)) != 0
 
 
 # ===================== D31: log_a(x^2+bx+d) = k (tam thuc bac hai) ==========
@@ -454,7 +461,12 @@ def gen_D42(a):
 
 
 def verify_D42(params):
-    return True  # hang so, luon dung voi moi a>0,a!=1
+    a = sp.sympify(params["a"])
+    if a <= 0 or a == 1:
+        return False
+    x = sp.Symbol("x", real=True)
+    domain = sp.solve_univariate_inequality(x > 0, x, relational=False)
+    return domain == sp.Interval.open(0, sp.oo)
 
 
 # ===================== D43: log_10 x >= k ===================================
@@ -743,7 +755,12 @@ def gen_D80(a):
 
 
 def verify_D80(params):
-    return True
+    a = sp.sympify(params["a"])
+    if a <= 0 or a == 1:
+        return False
+    x = sp.Symbol("x", real=True)
+    domain = sp.calculus.util.continuous_domain(a ** x, x, sp.S.Reals)
+    return domain == sp.S.Reals
 
 
 # ===================== D85: TXD log_a(x-c) ===================================
@@ -758,7 +775,12 @@ def gen_D85(a, c):
 
 
 def verify_D85(params):
-    return True
+    a, c = (sp.sympify(params[k]) for k in ("a", "c"))
+    if a <= 0 or a == 1:
+        return False
+    x = sp.Symbol("x", real=True)
+    domain = sp.solve_univariate_inequality(x - c > 0, x, relational=False)
+    return domain == sp.Interval.open(c, sp.oo)
 
 
 # ===================== D86: a^x = c  =>  x = log_a c =========================

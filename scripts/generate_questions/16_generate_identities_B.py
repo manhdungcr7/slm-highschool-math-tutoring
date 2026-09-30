@@ -273,8 +273,8 @@ def gen_D77(s, m):
     lines, dap_an = render_mc([str(m), str(m*2), str(m+1), str(m-1) if m > 1 else str(m+2)], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"${2**s}^{{\\log_2(ab)}}={m}a \\Leftrightarrow \\log_2(ab)=\\log_{{2}}({m}a)^{{1/{s}}} "
-        f"\\Leftrightarrow (ab)^{{{s}}}={m}a \\Leftrightarrow {correct}$."
+        f"$({2**s})^{{\\log_2(ab)}}=({2}^{{\\log_2(ab)}})^{{{s}}}=(ab)^{{{s}}}={m}a "
+        f"\\Leftrightarrow a^{{{sm1}}}b^{{{s}}}={m}$."
     )
     return de_bai, dap_an, loi_giai, dict(s=str(s), m=str(m))
 

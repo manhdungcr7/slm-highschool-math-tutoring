@@ -77,24 +77,15 @@ def gen_D29(B, r, k, p):
 
 
 def verify_D29_full(params, expected_count):
-    A, B, C, k, p = (sp.sympify(params[key]) for key in ("A", "B", "C", "k", "p"))
-    r = sp.Rational(C, B)  # A/B = r^2, C/B = r (kiem tra) -> t=r^x, x>0<=>t>1
-    assert sp.simplify(A / B - r ** 2) == 0
-    t = sp.Symbol("t", positive=True)
-    count = 0
-    for mv in range(1, 200):
-        # thay t=r^x TRUC TIEP vao phuong trinh bac hai theo t (doc lap voi cong thuc
-        # nguong f(1) da dung luc sinh de bai), kiem tra co nghiem t>1 hay khong
-        sols = sp.solve(sp.Eq(t ** 2 - k * t + (mv - p), 0), t)
-        has_valid = any(s.is_real and s > 1 for s in sols)
-        if has_valid:
-            count += 1
-        elif mv > count + 5:
-            break
-    return count == expected_count
-
-
-# ===================== D56: log_p(u/q^n) < log_q(u/p^n), u=x^2-K =========
+    A, B, C, k, p = (sp.Integer(params[key]) for key in ("A", "B", "C", "k", "p"))
+    if B <= 0 or C <= B or A*B != C**2 or k > 2:
+        return False
+    # With t=(C/B)^x, x>0 iff t>1 and m=p+k*t-t^2.
+    # This function is strictly decreasing on t>1 and has range (-infinity,p+k-1).
+    cutoff = p+k-1
+    if cutoff != sp.floor(cutoff):
+        return False
+    return max(0, int(cutoff)-1) == int(expected_count)
 def gen_D56(p, q, n, K):
     p, q, n, K = sp.Integer(p), sp.Integer(q), sp.Integer(n), sp.Integer(K)
     assert q > p
@@ -125,20 +116,17 @@ def gen_D56(p, q, n, K):
 
 
 def verify_D56_full(params, expected_count):
-    p, q, n, K = (sp.sympify(params[k]) for k in ("p", "q", "n", "K"))
-    count = 0
-    for xv in range(-500, 500):
-        u = xv ** 2 - K
-        if u <= 0:
-            continue
-        lhs = sp.log(sp.Rational(u, q ** n), p)
-        rhs = sp.log(sp.Rational(u, p ** n), q)
-        if float(lhs) < float(rhs):
-            count += 1
-    return count == expected_count
-
-
-# ===================== D83: (a^(x^2)-a^(2x))*(log_b(x+K)-P) <= 0 ==========
+    from math import isqrt
+    p, q, n, K = (int(params[k]) for k in ("p", "q", "n", "K"))
+    if not (1 < p < q and n > 0 and K > 0):
+        return False
+    upper = K + (p*q)**n
+    first = isqrt(K)+1
+    last = isqrt(upper-1)
+    count = 2*max(0,last-first+1)
+    # Exact derivation: the logarithmic inequality is equivalent to
+    # 0 < x^2-K < (p*q)^n, with symmetric positive/negative integer x.
+    return count == int(expected_count)
 def gen_D83_v2(a, K, b, P):
     """(a^(x^2)-a^(2x))*(log_b(x+K)-P) <= 0, ban goc dung dang nay chinh xac."""
     a, K, b, P = sp.Integer(a), sp.Integer(K), sp.Integer(b), sp.Integer(P)
@@ -168,19 +156,12 @@ def gen_D83_v2(a, K, b, P):
 
 
 def verify_D83_full(params, expected_count):
-    a, K, b, P = (int(sp.sympify(params[k])) for k in ("a", "K", "b", "P"))
-    # Independently enumerate the original integer domain. For bases >1,
-    # compare exponents and logarithm arguments directly, avoiding huge powers.
-    count = 0
-    for xv in range(-K + 1, 100):
-        first_sign = (xv*xv > 2*xv) - (xv*xv < 2*xv)
-        second_sign = ((xv + K) > b**P) - ((xv + K) < b**P)
-        if first_sign * second_sign <= 0:
-            count += 1
-    return count == expected_count
-
-
-# ===================== D88: [log_c(x^2+1)-log_c(x+K)]*(N-a^(x-1)) >= 0 =====
+    a, K, b, P = (int(params[k]) for k in ("a", "K", "b", "P"))
+    if not (a > 1 and b > 1 and K >= 0 and b**P-K == 2):
+        return False
+    # The factors have signs sign(x(x-2)) and sign(x-2), respectively;
+    # their product is <=0 precisely on (-K,0] union {2}.
+    return K+1 == int(expected_count)
 def gen_D88(c, m_root, a):
     c, m_root, a = sp.Integer(c), sp.Integer(m_root), sp.Integer(a)
     n_root = 1 - m_root
@@ -211,20 +192,12 @@ def gen_D88(c, m_root, a):
 
 
 def verify_D88_full(params, expected_count):
-    c, K, a, N = (sp.sympify(params[k]) for k in ("c", "K", "a", "N"))
-    count = 0
-    for xv in range(-int(K) + 1, 200):
-        if xv + K <= 0 or xv ** 2 + 1 <= 0:
-            continue
-        f1 = sp.log(xv ** 2 + 1, c) - sp.log(xv + K, c)
-        f2 = N - a ** (xv - 1)
-        if float(f1 * f2) >= -1e-9:
-            count += 1
-        elif count > 0:
-            pass
-    return count == expected_count
-
-
+    c, K, a, N, m, n = (int(params[k]) for k in ("c", "K", "a", "N", "m_root", "n_root"))
+    if not (c > 1 and a > 1 and K > 0 and m+n == 1 and K == 1-m*n and N == a**(n-1) and m < 0 < n):
+        return False
+    # The logarithm difference changes sign at m,n; the second factor at n.
+    # Thus the integer solution set is (-K,m] union {n}, with n outside the interval.
+    return m+K+1 == int(expected_count)
 def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=2500):
     rng = random.Random(seed)
     current = [row for row in ROWS if row["ma_dang"] == code]

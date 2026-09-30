@@ -118,32 +118,26 @@ def gen_D23(A, B, m, C):
 
 
 def verify_D23(params):
-    import numpy as np
+    import mpmath as mp
     A, B, m, C = [int(params[k]) for k in ("A", "B", "m", "C")]
-    def fz(z):
-        xv = math.exp(z) - 1.0
-        return A * xv * xv + B * xv + m * z + C
-    # x=exp(z)-1 maps the full domain (-1,+infinity) to the real line.
-    zlo = -35.0
-    zhi = math.log(max(30.0, abs(B) + abs(C) + 30.0) + 1.0)
-    while fz(zhi) <= 0:
-        zhi *= 1.5
-    grid = np.linspace(zlo, zhi, 50001)
-    vals = [fz(float(z)) for z in grid]
-    roots = 0
-    for k in range(len(grid) - 1):
-        if vals[k] * vals[k + 1] < 0:
-            lo, hi = float(grid[k]), float(grid[k + 1])
-            flo = vals[k]
-            for _ in range(70):
-                mid = (lo + hi) / 2
-                fm = fz(mid)
-                if flo * fm <= 0:
-                    hi = mid
-                else:
-                    lo, flo = mid, fm
-            roots += 1
-    return roots == 3
+    if A <= 0 or m <= 0 or m % 2 != 1:
+        return False
+    # f'(x) has the sign of this quadratic on x>-1. Two critical points
+    # plus opposite signs at the local maximum/minimum prove exactly 3 roots:
+    # f(-1+)=-infinity, max>0, min<0, f(+infinity)=+infinity.
+    x = sp.symbols("x", real=True)
+    numerator = 2*A*x**2 + (2*A+B)*x + (B+m)
+    roots = sorted([r for r in sp.solve(numerator, x)
+                    if r.is_real and r > -1], key=lambda r: float(r))
+    if len(roots) != 2:
+        return False
+    with mp.workdps(100):
+        rv = [mp.mpf(str(sp.N(r, 95))) for r in roots]
+        fv = [A*z*z + B*z + m*mp.log(z+1) + C for z in rv]
+        # The sign margins in this dataset are comfortably separated from 0;
+        # reject borderline cases rather than trusting a rounded sign.
+        margin = mp.mpf('1e-40')
+        return fv[0] > margin and fv[1] < -margin
 
 
 # D47: choose log bases with log_p(q)=m/n. Substituting x+y=u^n
@@ -278,35 +272,28 @@ def gen_D52(p, q, C, N, k):
 
 
 def verify_D52(params):
-    import mpmath as mp
-    mp.mp.dps = 80
+    from fractions import Fraction
+    import ast
     p, q, C, N, k, M = [int(params[x]) for x in ("p", "q", "C", "N", "k", "M")]
-    bs = range(-N + 1, N)
-    lp, lq, lc = mp.log(p), mp.log(q), mp.log(C)
-    found = []
-    for a in range(-M - 4, M + 5):
-        hits = 0
-        for b in bs:
-            lhs_log = mp.mpf(a*a+b) * lp
-            q_log = mp.mpf(b-a) * lq
-            peak = max(q_log, lc)
-            rhs_log = peak + mp.log(mp.exp(q_log-peak) + mp.exp(lc-peak))
-            if lhs_log <= rhs_log:
-                hits += 1
-        if hits >= k:
-            found.append(a)
-    if p ** (2*M + 1) - 1 < q - 1:
+    if not (p > 1 and q > 1 and C > 0 and N > 1 and k > 0 and M > 0):
         return False
-    # On the negative tail, the ratio of the two exponential terms grows
-    # each step once a<=-M; at both boundary values every b already fails.
-    for a in (M, -M):
-        if any(sum(_d52_holds_exact(p, q, C, a, b) for b in bs) >= k for _ in [0]):
-            return False
-    expected_good = params["good"]
-    if isinstance(expected_good, str):
-        import ast
-        expected_good = ast.literal_eval(expected_good)
-    return found == [int(v) for v in expected_good]
+    bs = range(-N + 1, N)
+    def exact_hits(a):
+        return sum(Fraction(p) ** (a*a+b) <= Fraction(q) ** (b-a) + C for b in bs)
+    # Check every candidate a and b exactly as written in the question.
+    found = [a for a in range(-M, M+1) if exact_hits(a) >= k]
+    expected = params["good"]
+    if isinstance(expected, str):
+        expected = ast.literal_eval(expected)
+    if found != [int(v) for v in expected]:
+        return False
+    # At both cutoff values no b satisfies the inequality. Beyond +M the
+    # left side increases and the right side decreases. Beyond -M, moving
+    # one step left multiplies the left side by at least q while the right
+    # side grows by at most q, so no new solutions can appear in either tail.
+    if exact_hits(M) != 0 or exact_hits(-M) != 0:
+        return False
+    return p ** (2*M+1) >= q
 
 
 # D57: choose bases 2 and 4 and set C=T^2(T+2). The logarithmic threshold
@@ -334,14 +321,14 @@ def gen_D57(T):
 
 def verify_D57(params):
     T, C, expected = int(params["T"]), int(params["C"]), int(params["count"])
-    direct = 0
-    for x in range(1, T + 1):
-        for y in range(-T, T + 1):
-            q = x*x + y*y
-            lhs = math.log(q+x, 2) + math.log(q, 4)
-            rhs = math.log(x, 2) + math.log(q+C*x, 4)
-            if lhs <= rhs + 1e-12:
-                direct += 1
+    if T < 2 or C != T*T*(T+2):
+        return False
+    # The logarithmic inequality is equivalent (for x>0) to
+    # Q/x <= T, where Q=x^2+y^2, hence Q<=Tx. This exact integer
+    # enumeration is equivalent to the original problem and includes equality.
+    direct = sum(1 for xv in range(1, T+1)
+                 for yv in range(-T, T+1)
+                 if xv*xv + yv*yv <= T*xv)
     return direct == expected
 
 
@@ -380,19 +367,17 @@ def gen_D78(a, b):
 
 def verify_D78(params):
     a, b = int(params["a"]), int(params["b"])
-    target = float(sp.Rational(params["p2"]))
-    step = 0.05
-    best = float("inf")
-    n = 60
-    for i in range(n + 1):
-        x = i*step
-        for j in range(n + 1):
-            y = j*step
-            if 2*x + y*(4**(x+y-1)) >= 3 - 1e-12:
-                value = x*x + y*y + a*x + b*y
-                if value < best:
-                    best = value
-    return best >= target - 1e-9 and abs(best-target) < 1e-8
+    K = sp.Integer(3)
+    if a <= 0 or b <= 0:
+        return False
+    x0 = sp.Rational(K + b - a, 4)
+    p2 = sp.simplify(2*x0**2 + (a-b-K)*x0 + sp.Rational(K**2,4) + sp.Rational(b*K,2))
+    p1 = sp.Rational(K**2,4) + sp.Rational(a*K,2)
+    # The original constraint is exactly x+y>=3/2: below it the LHS is
+    # strictly less than 2(x+y)<3; at/above it, 4^(x+y-1)>=2.
+    # Minimize first on x>=3/2, then on y=3/2-x; positive b makes the
+    # objective increase with y. These exact inequalities certify the global min.
+    return 0 <= x0 < sp.Rational(3,2) and p1 > p2 and sp.simplify(p2-sp.Rational(params["p2"])) == 0
 
 
 def expand_type(code, name, source, gen, verify, sampler, seed=0, target=90, max_tries=3000):

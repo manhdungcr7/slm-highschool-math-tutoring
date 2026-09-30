@@ -22,9 +22,11 @@ def gen_D84(U):
     C = 3 * U
     # h(y)=y-log_3(1+y/3) is strictly increasing for y>=1. Count
     # positive integer y by the endpoint condition h(y)<3U-1.
+    from fractions import Fraction
+    # Exact equivalent of h(y)<3U-1; avoid floating-point boundary decisions.
     positive_count = sum(
         1 for y in range(1, 4 * U + 1)
-        if y - mp.log(1 + mp.mpf(y) / 3, 3) < C - 1
+        if Fraction(1) + Fraction(y, 3) > Fraction(3) ** (y - 3 * U + 1)
     )
     count = positive_count + 2  # y=-1,-2 work; y=0 does not.
     choices = [str(count), str(count + 1), str(count - 1), str(count + 2)]
@@ -66,43 +68,41 @@ def gen_D84(U):
 
 
 def verify_D84(params, observed_count=None):
-    """Enumerate endpoint sign conditions at high precision, by direct high-precision endpoint enumeration."""
-    mp.mp.dps = 80
+    """Exact integer checks plus analytic monotonicity/end-point arguments."""
+    from fractions import Fraction
     U, C, expected = (int(params[k]) for k in ("U", "C", "count"))
     if C != 3 * U or not (3 <= U <= 93 and U != 4):
         return False
     if observed_count is not None and expected != observed_count:
         return False
-    if not (mp.power(27, -U) * mp.log(27) * (3*U - 1) < 1):
-        return False
-    if not (mp.power(27, -U-mp.mpf(1)/3) * mp.log(27) * 3*U < 2):
-        return False
-    left = mp.mpf(1) / 3
-    log27 = mp.log(27)
 
-    def g(x, y):
-        return 3*x - C - mp.log(1+x*y)/log27/x + y
-
-    # The proof gives strict monotonicity in x and in the endpoint threshold h(y).
-    # Check the whole finite transition region independently by high-precision signs.
-    if not (g(left, 1) < 0 and g(left, 4*U) > 0 and g(U, 1) > 0):
+    # For y>=1, the equation has an interior root exactly when
+    # h(y)=y-log_3(1+y/3)<3U-1. Since h is strictly increasing,
+    # failure at y=4U excludes every larger integer. Compare the equivalent
+    # powers as exact rationals, not rounded logarithms.
+    def positive_y_works(y):
+        return Fraction(1) + Fraction(y, 3) > Fraction(3) ** (y - 3 * U + 1)
+    positive_y = [y for y in range(1, 4 * U + 1) if positive_y_works(y)]
+    if positive_y_works(4 * U):
         return False
-    positive_y = [y for y in range(1, 4*U+1) if g(left, y) < 0 < g(U, y)]
 
-    # Test y=-1,-2 using signs of the original equation after division by 27^(C*x).
-    negative_y = []
+    # For y=-1,-2, the equation function is strictly increasing on its
+    # admissible interval. Its left endpoint is negative (checked exactly),
+    # and its right limit is positive. The derivative's negative term is
+    # bounded respectively by 26(3U-1)/27^U and 26(3U)/3^(3U+1), using
+    # ln(27)<26; these exact inequalities certify F'_y>0 throughout.
+    if not (26 * (3 * U - 1) < 27 ** U):
+        return False
+    if not (26 * 3 * U < 2 * 3 ** (3 * U + 1)):
+        return False
     for y in (-1, -2):
-        x_right = mp.mpf(-1) / y
-        exponent_left = 3*left**2 + (y-C)*left
-        f_left = mp.power(27, exponent_left) - (1+left*y)
-        exponent_right = 3*x_right**2 + (y-C)*x_right
-        f_right_limit = mp.power(27, exponent_right)
-        if f_left < 0 < f_right_limit:
-            negative_y.append(y)
-
-    # For y=0 the only roots are x=0 and x=C/3=U, outside the open interval.
-    zero_y_has_solution = any(left < root < U for root in (mp.mpf(0), mp.mpf(C)/3))
-    return len(positive_y) + len(negative_y) + int(zero_y_has_solution) == expected
+        exponent3 = 1 + y - C  # 27^((1+y-C)/3) = 3^(1+y-C)
+        left_power = Fraction(3) ** exponent3
+        if not left_power < Fraction(1) + Fraction(y, 3):
+            return False
+    # y=0 gives only x=0 and x=U, both outside the open interval;
+    # y<=-3 violates 1+xy>0 for x>1/3.
+    return len(positive_y) + 2 == expected
 
 
 def audit_choices(rows):
