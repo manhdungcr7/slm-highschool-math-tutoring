@@ -122,6 +122,7 @@ def main():
     originals = {json.loads(line)["id"]: json.loads(line)["de_bai"]
                  for line in (ROOT / "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_goc.jsonl").read_text(encoding="utf-8").splitlines()}
     seen43 = {row["de_bai"] for row in old43} | {originals["p095_q16"]}
+    seen43_k = {sp.Rational(row["params"]["k"]) for row in old43}
     seen51 = {row["de_bai"] for row in old51} | {originals["p115_q39"]}
     new_rows = []
 
@@ -134,6 +135,8 @@ def main():
     for k in ks:
         if len(old43) + sum(row["ma_dang"] == "D43" for row in new_rows) >= 90:
             break
+        if k in seen43_k:
+            continue
         generated = basic.gen_D43(k)
         row = {
             "id_goc": "p095_q16", "ma_dang": "D43",
@@ -146,6 +149,7 @@ def main():
             continue
         assert verify_D43(row)
         seen43.add(row["de_bai"])
+        seen43_k.add(k)
         new_rows.append(row)
     added43 = sum(row["ma_dang"] == "D43" for row in new_rows)
     assert len(old43) + added43 == 90, (len(old43), added43)

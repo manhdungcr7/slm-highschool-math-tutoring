@@ -22549,546 +22549,546 @@ A. $(-\infty;\log_{6} 16)$.
 B. $(\log_{16} 6;+\infty)$.
 C. $(\log_{6} 16;+\infty)$.
 D. $(-\infty;\log_{16} 6)$.",A. $(-\infty;\log_{6} 16)$.,Ta có $6^x<16\Leftrightarrow x<\log_{6}16$.
-3732,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x - 6 = 0$ b?ng
-
-A. $-6$.
-B. $e^{-3}$.
-C. $-3$.
-D. $e^{\sqrt{33}}$.",B. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{3}{2} + \dfrac{\sqrt{33}}{2}$ hay $\ln x=- \dfrac{\sqrt{33}}{2} - \dfrac{3}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} + \dfrac{\sqrt{33}}{2}}\cdot e^{- \dfrac{\sqrt{33}}{2} - \dfrac{3}{2}}=e^{-3}$.
-3733,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x - 12 = 0$ b?ng
+3732,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x - 6 = 0$ bằng
 
 A. $e^{-3}$.
-B. $-3$.
-C. $-12$.
-D. $e^{\sqrt{57}}$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 12=0 \Leftrightarrow \ln x=- \dfrac{3}{2} + \dfrac{\sqrt{57}}{2}$ hay $\ln x=- \dfrac{\sqrt{57}}{2} - \dfrac{3}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} + \dfrac{\sqrt{57}}{2}}\cdot e^{- \dfrac{\sqrt{57}}{2} - \dfrac{3}{2}}=e^{-3}$.
-3734,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 2\ln x - 16 = 0$ b?ng
+B. $e^{\sqrt{33}}$.
+C. $-6$.
+D. $-3$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{3}{2} + \dfrac{\sqrt{33}}{2}$ hay $\ln x=- \dfrac{\sqrt{33}}{2} - \dfrac{3}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} + \dfrac{\sqrt{33}}{2}}\cdot e^{- \dfrac{\sqrt{33}}{2} - \dfrac{3}{2}}=e^{-3}$.
+3733,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x - 12 = 0$ bằng
 
-A. $-16$.
-B. $e^{2 \sqrt{17}}$.
+A. $e^{-3}$.
+B. $-12$.
+C. $e^{\sqrt{57}}$.
+D. $-3$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 12=0 \Leftrightarrow \ln x=- \dfrac{3}{2} + \dfrac{\sqrt{57}}{2}$ hay $\ln x=- \dfrac{\sqrt{57}}{2} - \dfrac{3}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} + \dfrac{\sqrt{57}}{2}}\cdot e^{- \dfrac{\sqrt{57}}{2} - \dfrac{3}{2}}=e^{-3}$.
+3734,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x - 16 = 0$ bằng
+
+A. $e^{2 \sqrt{17}}$.
+B. $-16$.
 C. $-2$.
 D. $e^{-2}$.",D. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 16=0 \Leftrightarrow \ln x=-1 + \sqrt{17}$ hay $\ln x=- \sqrt{17} - 1$. Vậy tích các nghiệm là $e^{-1 + \sqrt{17}}\cdot e^{- \sqrt{17} - 1}=e^{-2}$.
-3735,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 12\ln x - 2 = 0$ b?ng
+3735,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 12\ln x - 2 = 0$ bằng
 
-A. $e^{-12}$.
+A. $-2$.
 B. $e^{2 \sqrt{38}}$.
-C. $-2$.
-D. $-12$.",A. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x - 2=0 \Leftrightarrow \ln x=-6 + \sqrt{38}$ hay $\ln x=- \sqrt{38} - 6$. Vậy tích các nghiệm là $e^{-6 + \sqrt{38}}\cdot e^{- \sqrt{38} - 6}=e^{-12}$.
-3736,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x - 7 = 0$ b?ng
+C. $e^{-12}$.
+D. $-12$.",C. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x - 2=0 \Leftrightarrow \ln x=-6 + \sqrt{38}$ hay $\ln x=- \sqrt{38} - 6$. Vậy tích các nghiệm là $e^{-6 + \sqrt{38}}\cdot e^{- \sqrt{38} - 6}=e^{-12}$.
+3736,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x - 7 = 0$ bằng
 
-A. $e^{-3}$.
-B. $-3$.
-C. $-7$.
-D. $e^{\sqrt{37}}$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 7=0 \Leftrightarrow \ln x=- \dfrac{3}{2} + \dfrac{\sqrt{37}}{2}$ hay $\ln x=- \dfrac{\sqrt{37}}{2} - \dfrac{3}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} + \dfrac{\sqrt{37}}{2}}\cdot e^{- \dfrac{\sqrt{37}}{2} - \dfrac{3}{2}}=e^{-3}$.
-3737,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 1\ln x - 15 = 0$ b?ng
+A. $-7$.
+B. $e^{\sqrt{37}}$.
+C. $e^{-3}$.
+D. $-3$.",C. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 7=0 \Leftrightarrow \ln x=- \dfrac{3}{2} + \dfrac{\sqrt{37}}{2}$ hay $\ln x=- \dfrac{\sqrt{37}}{2} - \dfrac{3}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} + \dfrac{\sqrt{37}}{2}}\cdot e^{- \dfrac{\sqrt{37}}{2} - \dfrac{3}{2}}=e^{-3}$.
+3737,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 1\ln x - 15 = 0$ bằng
 
-A. $-1$.
-B. $e^{-1}$.
-C. $-15$.
-D. $e^{\sqrt{61}}$.",B. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x + 1\ln x - 15=0 \Leftrightarrow \ln x=- \dfrac{1}{2} + \dfrac{\sqrt{61}}{2}$ hay $\ln x=- \dfrac{\sqrt{61}}{2} - \dfrac{1}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{1}{2} + \dfrac{\sqrt{61}}{2}}\cdot e^{- \dfrac{\sqrt{61}}{2} - \dfrac{1}{2}}=e^{-1}$.
-3738,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x + 3 = 0$ b?ng
+A. $-15$.
+B. $-1$.
+C. $e^{\sqrt{61}}$.
+D. $e^{-1}$.",D. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x + 1\ln x - 15=0 \Leftrightarrow \ln x=- \dfrac{1}{2} + \dfrac{\sqrt{61}}{2}$ hay $\ln x=- \dfrac{\sqrt{61}}{2} - \dfrac{1}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{1}{2} + \dfrac{\sqrt{61}}{2}}\cdot e^{- \dfrac{\sqrt{61}}{2} - \dfrac{1}{2}}=e^{-1}$.
+3738,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x + 3 = 0$ bằng
 
-A. $e^{-8}$.
-B. $e^{- 2 \sqrt{13}}$.
-C. $3$.
-D. $-8$.",A. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 3=0 \Leftrightarrow \ln x=-4 - \sqrt{13}$ hay $\ln x=-4 + \sqrt{13}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{13}}\cdot e^{-4 + \sqrt{13}}=e^{-8}$.
-3739,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 9\ln x - 12 = 0$ b?ng
-
-A. $e^{\sqrt{129}}$.
-B. $e^{-9}$.
-C. $-12$.
-D. $-9$.",B. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 12=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{129}}{2}$ hay $\ln x=- \dfrac{\sqrt{129}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{129}}{2}}\cdot e^{- \dfrac{\sqrt{129}}{2} - \dfrac{9}{2}}=e^{-9}$.
-3740,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x - 4 = 0$ b?ng
-
-A. $-4$.
-B. $1$.
-C. $e^{-4}$.
-D. $0$.",B. $1$.,Điều kiện $x>0$. $\ln^2x - 4=0 \Leftrightarrow \ln x=-2$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-2}\cdot e^{2}=1$.
-3741,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 7 = 0$ b?ng
-
-A. $-4$.
-B. $e^{2 \sqrt{11}}$.
-C. $e^{-4}$.
-D. $-7$.",C. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 7=0 \Leftrightarrow \ln x=-2 + \sqrt{11}$ hay $\ln x=- \sqrt{11} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{11}}\cdot e^{- \sqrt{11} - 2}=e^{-4}$.
-3742,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x + 3 = 0$ b?ng
-
-A. $e^{- \sqrt{13}}$.
-B. $-5$.
-C. $e^{-5}$.
-D. $3$.",C. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x + 3=0 \Leftrightarrow \ln x=- \dfrac{5}{2} - \dfrac{\sqrt{13}}{2}$ hay $\ln x=- \dfrac{5}{2} + \dfrac{\sqrt{13}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} - \dfrac{\sqrt{13}}{2}}\cdot e^{- \dfrac{5}{2} + \dfrac{\sqrt{13}}{2}}=e^{-5}$.
-3743,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x - 4 = 0$ b?ng
-
-A. $e^{-6}$.
-B. $-4$.
-C. $e^{2 \sqrt{13}}$.
-D. $-6$.",A. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 4=0 \Leftrightarrow \ln x=-3 + \sqrt{13}$ hay $\ln x=- \sqrt{13} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{13}}\cdot e^{- \sqrt{13} - 3}=e^{-6}$.
-3744,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 9 = 0$ b?ng
+A. $e^{- 2 \sqrt{13}}$.
+B. $-8$.
+C. $e^{-8}$.
+D. $3$.",C. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 3=0 \Leftrightarrow \ln x=-4 - \sqrt{13}$ hay $\ln x=-4 + \sqrt{13}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{13}}\cdot e^{-4 + \sqrt{13}}=e^{-8}$.
+3739,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 9\ln x - 12 = 0$ bằng
 
 A. $-9$.
-B. $-4$.
-C. $e^{-4}$.
-D. $e^{2 \sqrt{13}}$.",C. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 9=0 \Leftrightarrow \ln x=-2 + \sqrt{13}$ hay $\ln x=- \sqrt{13} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{13}}\cdot e^{- \sqrt{13} - 2}=e^{-4}$.
-3745,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 14 = 0$ b?ng
+B. $-12$.
+C. $e^{\sqrt{129}}$.
+D. $e^{-9}$.",D. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 12=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{129}}{2}$ hay $\ln x=- \dfrac{\sqrt{129}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{129}}{2}}\cdot e^{- \dfrac{\sqrt{129}}{2} - \dfrac{9}{2}}=e^{-9}$.
+3740,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x - 4 = 0$ bằng
+
+A. $0$.
+B. $e^{-4}$.
+C. $-4$.
+D. $1$.",D. $1$.,Điều kiện $x>0$. $\ln^2x - 4=0 \Leftrightarrow \ln x=-2$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-2}\cdot e^{2}=1$.
+3741,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 7 = 0$ bằng
 
 A. $-4$.
 B. $e^{-4}$.
+C. $e^{2 \sqrt{11}}$.
+D. $-7$.",B. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 7=0 \Leftrightarrow \ln x=-2 + \sqrt{11}$ hay $\ln x=- \sqrt{11} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{11}}\cdot e^{- \sqrt{11} - 2}=e^{-4}$.
+3742,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x + 3 = 0$ bằng
+
+A. $e^{- \sqrt{13}}$.
+B. $-5$.
+C. $3$.
+D. $e^{-5}$.",D. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x + 3=0 \Leftrightarrow \ln x=- \dfrac{5}{2} - \dfrac{\sqrt{13}}{2}$ hay $\ln x=- \dfrac{5}{2} + \dfrac{\sqrt{13}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} - \dfrac{\sqrt{13}}{2}}\cdot e^{- \dfrac{5}{2} + \dfrac{\sqrt{13}}{2}}=e^{-5}$.
+3743,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x - 4 = 0$ bằng
+
+A. $e^{2 \sqrt{13}}$.
+B. $e^{-6}$.
+C. $-4$.
+D. $-6$.",B. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 4=0 \Leftrightarrow \ln x=-3 + \sqrt{13}$ hay $\ln x=- \sqrt{13} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{13}}\cdot e^{- \sqrt{13} - 3}=e^{-6}$.
+3744,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 9 = 0$ bằng
+
+A. $-4$.
+B. $e^{-4}$.
+C. $-9$.
+D. $e^{2 \sqrt{13}}$.",B. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 9=0 \Leftrightarrow \ln x=-2 + \sqrt{13}$ hay $\ln x=- \sqrt{13} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{13}}\cdot e^{- \sqrt{13} - 2}=e^{-4}$.
+3745,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 14 = 0$ bằng
+
+A. $e^{-4}$.
+B. $-4$.
 C. $e^{6 \sqrt{2}}$.
-D. $-14$.",B. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 14=0 \Leftrightarrow \ln x=-2 + 3 \sqrt{2}$ hay $\ln x=- 3 \sqrt{2} - 2$. Vậy tích các nghiệm là $e^{-2 + 3 \sqrt{2}}\cdot e^{- 3 \sqrt{2} - 2}=e^{-4}$.
-3746,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 11 = 0$ b?ng
+D. $-14$.",A. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 14=0 \Leftrightarrow \ln x=-2 + 3 \sqrt{2}$ hay $\ln x=- 3 \sqrt{2} - 2$. Vậy tích các nghiệm là $e^{-2 + 3 \sqrt{2}}\cdot e^{- 3 \sqrt{2} - 2}=e^{-4}$.
+3746,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 11 = 0$ bằng
 
 A. $-11$.
-B. $e^{2 \sqrt{15}}$.
+B. $-4$.
+C. $e^{-4}$.
+D. $e^{2 \sqrt{15}}$.",C. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 11=0 \Leftrightarrow \ln x=-2 + \sqrt{15}$ hay $\ln x=- \sqrt{15} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{15}}\cdot e^{- \sqrt{15} - 2}=e^{-4}$.
+3747,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x - 4 = 0$ bằng
+
+A. $e^{-5}$.
+B. $e^{-3}$.
 C. $-4$.
-D. $e^{-4}$.",D. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 11=0 \Leftrightarrow \ln x=-2 + \sqrt{15}$ hay $\ln x=- \sqrt{15} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{15}}\cdot e^{- \sqrt{15} - 2}=e^{-4}$.
-3747,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x - 4 = 0$ b?ng
+D. $-3$.",B. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 4=0 \Leftrightarrow \ln x=-4$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-4}\cdot e^{1}=e^{-3}$.
+3748,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 9\ln x + 4 = 0$ bằng
 
-A. $e^{-3}$.
-B. $e^{-5}$.
-C. $-4$.
-D. $-3$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 4=0 \Leftrightarrow \ln x=-4$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-4}\cdot e^{1}=e^{-3}$.
-3748,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 9\ln x + 4 = 0$ b?ng
+A. $-9$.
+B. $4$.
+C. $e^{- \sqrt{65}}$.
+D. $e^{-9}$.",D. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x + 4=0 \Leftrightarrow \ln x=- \dfrac{9}{2} - \dfrac{\sqrt{65}}{2}$ hay $\ln x=- \dfrac{9}{2} + \dfrac{\sqrt{65}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} - \dfrac{\sqrt{65}}{2}}\cdot e^{- \dfrac{9}{2} + \dfrac{\sqrt{65}}{2}}=e^{-9}$.
+3749,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x + 2 = 0$ bằng
 
-A. $e^{- \sqrt{65}}$.
-B. $-9$.
-C. $e^{-9}$.
-D. $4$.",C. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x + 4=0 \Leftrightarrow \ln x=- \dfrac{9}{2} - \dfrac{\sqrt{65}}{2}$ hay $\ln x=- \dfrac{9}{2} + \dfrac{\sqrt{65}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} - \dfrac{\sqrt{65}}{2}}\cdot e^{- \dfrac{9}{2} + \dfrac{\sqrt{65}}{2}}=e^{-9}$.
-3749,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x + 2 = 0$ b?ng
+A. $-10$.
+B. $e^{- 2 \sqrt{23}}$.
+C. $e^{-10}$.
+D. $2$.",C. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x + 2=0 \Leftrightarrow \ln x=-5 - \sqrt{23}$ hay $\ln x=-5 + \sqrt{23}$. Vậy tích các nghiệm là $e^{-5 - \sqrt{23}}\cdot e^{-5 + \sqrt{23}}=e^{-10}$.
+3750,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 11\ln x - 2 = 0$ bằng
 
-A. $2$.
-B. $-10$.
-C. $e^{- 2 \sqrt{23}}$.
-D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x + 2=0 \Leftrightarrow \ln x=-5 - \sqrt{23}$ hay $\ln x=-5 + \sqrt{23}$. Vậy tích các nghiệm là $e^{-5 - \sqrt{23}}\cdot e^{-5 + \sqrt{23}}=e^{-10}$.
-3750,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 11\ln x - 2 = 0$ b?ng
-
-A. $e^{\sqrt{129}}$.
+A. $e^{-11}$.
 B. $-11$.
-C. $-2$.
-D. $e^{-11}$.",D. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 2=0 \Leftrightarrow \ln x=- \dfrac{11}{2} + \dfrac{\sqrt{129}}{2}$ hay $\ln x=- \dfrac{\sqrt{129}}{2} - \dfrac{11}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} + \dfrac{\sqrt{129}}{2}}\cdot e^{- \dfrac{\sqrt{129}}{2} - \dfrac{11}{2}}=e^{-11}$.
-3751,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x - 5 = 0$ b?ng
+C. $e^{\sqrt{129}}$.
+D. $-2$.",A. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 2=0 \Leftrightarrow \ln x=- \dfrac{11}{2} + \dfrac{\sqrt{129}}{2}$ hay $\ln x=- \dfrac{\sqrt{129}}{2} - \dfrac{11}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} + \dfrac{\sqrt{129}}{2}}\cdot e^{- \dfrac{\sqrt{129}}{2} - \dfrac{11}{2}}=e^{-11}$.
+3751,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x - 5 = 0$ bằng
 
-A. $-8$.
+A. $e^{2 \sqrt{21}}$.
 B. $e^{-8}$.
-C. $e^{2 \sqrt{21}}$.
-D. $-5$.",B. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 5=0 \Leftrightarrow \ln x=-4 + \sqrt{21}$ hay $\ln x=- \sqrt{21} - 4$. Vậy tích các nghiệm là $e^{-4 + \sqrt{21}}\cdot e^{- \sqrt{21} - 4}=e^{-8}$.
-3752,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 12\ln x - 8 = 0$ b?ng
+C. $-5$.
+D. $-8$.",B. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 5=0 \Leftrightarrow \ln x=-4 + \sqrt{21}$ hay $\ln x=- \sqrt{21} - 4$. Vậy tích các nghiệm là $e^{-4 + \sqrt{21}}\cdot e^{- \sqrt{21} - 4}=e^{-8}$.
+3752,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 12\ln x - 8 = 0$ bằng
 
-A. $e^{4 \sqrt{11}}$.
-B. $e^{-12}$.
+A. $e^{-12}$.
+B. $-12$.
 C. $-8$.
-D. $-12$.",B. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x - 8=0 \Leftrightarrow \ln x=-6 + 2 \sqrt{11}$ hay $\ln x=- 2 \sqrt{11} - 6$. Vậy tích các nghiệm là $e^{-6 + 2 \sqrt{11}}\cdot e^{- 2 \sqrt{11} - 6}=e^{-12}$.
-3753,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x - 6 = 0$ b?ng
+D. $e^{4 \sqrt{11}}$.",A. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x - 8=0 \Leftrightarrow \ln x=-6 + 2 \sqrt{11}$ hay $\ln x=- 2 \sqrt{11} - 6$. Vậy tích các nghiệm là $e^{-6 + 2 \sqrt{11}}\cdot e^{- 2 \sqrt{11} - 6}=e^{-12}$.
+3753,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x - 6 = 0$ bằng
 
 A. $e^{\sqrt{73}}$.
 B. $e^{-7}$.
 C. $-7$.
 D. $-6$.",B. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{7}{2} + \dfrac{\sqrt{73}}{2}$ hay $\ln x=- \dfrac{\sqrt{73}}{2} - \dfrac{7}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} + \dfrac{\sqrt{73}}{2}}\cdot e^{- \dfrac{\sqrt{73}}{2} - \dfrac{7}{2}}=e^{-7}$.
-3754,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x - 6 = 0$ b?ng
+3754,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x - 6 = 0$ bằng
 
 A. $e^{- 2 \sqrt{6}}$.
-B. $1$.
+B. $-6$.
 C. $0$.
-D. $-6$.",B. $1$.,Điều kiện $x>0$. $\ln^2x - 6=0 \Leftrightarrow \ln x=- \sqrt{6}$ hay $\ln x=\sqrt{6}$. Vậy tích các nghiệm là $e^{- \sqrt{6}}\cdot e^{\sqrt{6}}=1$.
-3755,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 11\ln x + 6 = 0$ b?ng
+D. $1$.",D. $1$.,Điều kiện $x>0$. $\ln^2x - 6=0 \Leftrightarrow \ln x=- \sqrt{6}$ hay $\ln x=\sqrt{6}$. Vậy tích các nghiệm là $e^{- \sqrt{6}}\cdot e^{\sqrt{6}}=1$.
+3755,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 11\ln x + 6 = 0$ bằng
 
 A. $6$.
-B. $-11$.
-C. $e^{-11}$.
-D. $e^{- \sqrt{97}}$.",C. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x + 6=0 \Leftrightarrow \ln x=- \dfrac{11}{2} - \dfrac{\sqrt{97}}{2}$ hay $\ln x=- \dfrac{11}{2} + \dfrac{\sqrt{97}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} - \dfrac{\sqrt{97}}{2}}\cdot e^{- \dfrac{11}{2} + \dfrac{\sqrt{97}}{2}}=e^{-11}$.
-3756,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x + 5 = 0$ b?ng
+B. $e^{- \sqrt{97}}$.
+C. $-11$.
+D. $e^{-11}$.",D. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x + 6=0 \Leftrightarrow \ln x=- \dfrac{11}{2} - \dfrac{\sqrt{97}}{2}$ hay $\ln x=- \dfrac{11}{2} + \dfrac{\sqrt{97}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} - \dfrac{\sqrt{97}}{2}}\cdot e^{- \dfrac{11}{2} + \dfrac{\sqrt{97}}{2}}=e^{-11}$.
+3756,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x + 5 = 0$ bằng
 
 A. $5$.
-B. $e^{-6}$.
+B. $-6$.
 C. $e^{-4}$.
-D. $-6$.",B. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x + 5=0 \Leftrightarrow \ln x=-5$ hay $\ln x=-1$. Vậy tích các nghiệm là $e^{-5}\cdot e^{-1}=e^{-6}$.
-3757,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 9\ln x - 5 = 0$ b?ng
+D. $e^{-6}$.",D. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x + 5=0 \Leftrightarrow \ln x=-5$ hay $\ln x=-1$. Vậy tích các nghiệm là $e^{-5}\cdot e^{-1}=e^{-6}$.
+3757,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 9\ln x - 5 = 0$ bằng
 
-A. $e^{-9}$.
-B. $-9$.
+A. $-5$.
+B. $e^{-9}$.
 C. $e^{\sqrt{101}}$.
-D. $-5$.",A. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 5=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{101}}{2}$ hay $\ln x=- \dfrac{\sqrt{101}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{101}}{2}}\cdot e^{- \dfrac{\sqrt{101}}{2} - \dfrac{9}{2}}=e^{-9}$.
-3758,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 5 = 0$ b?ng
+D. $-9$.",B. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 5=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{101}}{2}$ hay $\ln x=- \dfrac{\sqrt{101}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{101}}{2}}\cdot e^{- \dfrac{\sqrt{101}}{2} - \dfrac{9}{2}}=e^{-9}$.
+3758,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 5 = 0$ bằng
 
-A. $-10$.
-B. $e^{2 \sqrt{30}}$.
-C. $-5$.
-D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 5=0 \Leftrightarrow \ln x=-5 + \sqrt{30}$ hay $\ln x=- \sqrt{30} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{30}}\cdot e^{- \sqrt{30} - 5}=e^{-10}$.
-3759,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x - 13 = 0$ b?ng
+A. $-5$.
+B. $e^{-10}$.
+C. $-10$.
+D. $e^{2 \sqrt{30}}$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 5=0 \Leftrightarrow \ln x=-5 + \sqrt{30}$ hay $\ln x=- \sqrt{30} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{30}}\cdot e^{- \sqrt{30} - 5}=e^{-10}$.
+3759,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x - 13 = 0$ bằng
 
 A. $-6$.
-B. $-13$.
-C. $e^{2 \sqrt{22}}$.
-D. $e^{-6}$.",D. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 13=0 \Leftrightarrow \ln x=-3 + \sqrt{22}$ hay $\ln x=- \sqrt{22} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{22}}\cdot e^{- \sqrt{22} - 3}=e^{-6}$.
-3760,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x - 4 = 0$ b?ng
+B. $e^{2 \sqrt{22}}$.
+C. $e^{-6}$.
+D. $-13$.",C. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 13=0 \Leftrightarrow \ln x=-3 + \sqrt{22}$ hay $\ln x=- \sqrt{22} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{22}}\cdot e^{- \sqrt{22} - 3}=e^{-6}$.
+3760,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x - 4 = 0$ bằng
 
-A. $-4$.
-B. $e^{\sqrt{65}}$.
-C. $e^{-7}$.
-D. $-7$.",C. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x - 4=0 \Leftrightarrow \ln x=- \dfrac{7}{2} + \dfrac{\sqrt{65}}{2}$ hay $\ln x=- \dfrac{\sqrt{65}}{2} - \dfrac{7}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} + \dfrac{\sqrt{65}}{2}}\cdot e^{- \dfrac{\sqrt{65}}{2} - \dfrac{7}{2}}=e^{-7}$.
-3761,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x - 10 = 0$ b?ng
+A. $e^{-7}$.
+B. $-7$.
+C. $-4$.
+D. $e^{\sqrt{65}}$.",A. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x - 4=0 \Leftrightarrow \ln x=- \dfrac{7}{2} + \dfrac{\sqrt{65}}{2}$ hay $\ln x=- \dfrac{\sqrt{65}}{2} - \dfrac{7}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} + \dfrac{\sqrt{65}}{2}}\cdot e^{- \dfrac{\sqrt{65}}{2} - \dfrac{7}{2}}=e^{-7}$.
+3761,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x - 10 = 0$ bằng
 
-A. $e^{- 2 \sqrt{10}}$.
-B. $0$.
-C. $-10$.
-D. $1$.",D. $1$.,Điều kiện $x>0$. $\ln^2x - 10=0 \Leftrightarrow \ln x=- \sqrt{10}$ hay $\ln x=\sqrt{10}$. Vậy tích các nghiệm là $e^{- \sqrt{10}}\cdot e^{\sqrt{10}}=1$.
-3762,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x + 5 = 0$ b?ng
+A. $-10$.
+B. $1$.
+C. $0$.
+D. $e^{- 2 \sqrt{10}}$.",B. $1$.,Điều kiện $x>0$. $\ln^2x - 10=0 \Leftrightarrow \ln x=- \sqrt{10}$ hay $\ln x=\sqrt{10}$. Vậy tích các nghiệm là $e^{- \sqrt{10}}\cdot e^{\sqrt{10}}=1$.
+3762,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x + 5 = 0$ bằng
 
 A. $5$.
 B. $e^{- 2 \sqrt{11}}$.
-C. $-8$.
-D. $e^{-8}$.",D. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 5=0 \Leftrightarrow \ln x=-4 - \sqrt{11}$ hay $\ln x=-4 + \sqrt{11}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{11}}\cdot e^{-4 + \sqrt{11}}=e^{-8}$.
-3763,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x - 11 = 0$ b?ng
-
-A. $-11$.
-B. $e^{6 \sqrt{3}}$.
 C. $e^{-8}$.
-D. $-8$.",C. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 11=0 \Leftrightarrow \ln x=-4 + 3 \sqrt{3}$ hay $\ln x=- 3 \sqrt{3} - 4$. Vậy tích các nghiệm là $e^{-4 + 3 \sqrt{3}}\cdot e^{- 3 \sqrt{3} - 4}=e^{-8}$.
-3764,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 1\ln x - 11 = 0$ b?ng
-
-A. $-1$.
-B. $-11$.
-C. $e^{-1}$.
-D. $e^{3 \sqrt{5}}$.",C. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x + 1\ln x - 11=0 \Leftrightarrow \ln x=- \dfrac{1}{2} + \dfrac{3 \sqrt{5}}{2}$ hay $\ln x=- \dfrac{3 \sqrt{5}}{2} - \dfrac{1}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{1}{2} + \dfrac{3 \sqrt{5}}{2}}\cdot e^{- \dfrac{3 \sqrt{5}}{2} - \dfrac{1}{2}}=e^{-1}$.
-3765,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 14 = 0$ b?ng
-
-A. $e^{2 \sqrt{39}}$.
-B. $-10$.
-C. $-14$.
-D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 14=0 \Leftrightarrow \ln x=-5 + \sqrt{39}$ hay $\ln x=- \sqrt{39} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{39}}\cdot e^{- \sqrt{39} - 5}=e^{-10}$.
-3766,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 11\ln x - 3 = 0$ b?ng
+D. $-8$.",C. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 5=0 \Leftrightarrow \ln x=-4 - \sqrt{11}$ hay $\ln x=-4 + \sqrt{11}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{11}}\cdot e^{-4 + \sqrt{11}}=e^{-8}$.
+3763,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x - 11 = 0$ bằng
 
 A. $-11$.
+B. $e^{-8}$.
+C. $e^{6 \sqrt{3}}$.
+D. $-8$.",B. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 11=0 \Leftrightarrow \ln x=-4 + 3 \sqrt{3}$ hay $\ln x=- 3 \sqrt{3} - 4$. Vậy tích các nghiệm là $e^{-4 + 3 \sqrt{3}}\cdot e^{- 3 \sqrt{3} - 4}=e^{-8}$.
+3764,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 1\ln x - 11 = 0$ bằng
+
+A. $-11$.
+B. $e^{-1}$.
+C. $e^{3 \sqrt{5}}$.
+D. $-1$.",B. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x + 1\ln x - 11=0 \Leftrightarrow \ln x=- \dfrac{1}{2} + \dfrac{3 \sqrt{5}}{2}$ hay $\ln x=- \dfrac{3 \sqrt{5}}{2} - \dfrac{1}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{1}{2} + \dfrac{3 \sqrt{5}}{2}}\cdot e^{- \dfrac{3 \sqrt{5}}{2} - \dfrac{1}{2}}=e^{-1}$.
+3765,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 14 = 0$ bằng
+
+A. $-14$.
+B. $e^{-10}$.
+C. $-10$.
+D. $e^{2 \sqrt{39}}$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 14=0 \Leftrightarrow \ln x=-5 + \sqrt{39}$ hay $\ln x=- \sqrt{39} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{39}}\cdot e^{- \sqrt{39} - 5}=e^{-10}$.
+3766,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 11\ln x - 3 = 0$ bằng
+
+A. $-3$.
 B. $e^{-11}$.
-C. $e^{\sqrt{133}}$.
-D. $-3$.",B. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 3=0 \Leftrightarrow \ln x=- \dfrac{11}{2} + \dfrac{\sqrt{133}}{2}$ hay $\ln x=- \dfrac{\sqrt{133}}{2} - \dfrac{11}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} + \dfrac{\sqrt{133}}{2}}\cdot e^{- \dfrac{\sqrt{133}}{2} - \dfrac{11}{2}}=e^{-11}$.
-3767,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 8 = 0$ b?ng
-
-A. $e^{2 \sqrt{33}}$.
-B. $-8$.
-C. $e^{-10}$.
-D. $-10$.",C. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 8=0 \Leftrightarrow \ln x=-5 + \sqrt{33}$ hay $\ln x=- \sqrt{33} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{33}}\cdot e^{- \sqrt{33} - 5}=e^{-10}$.
-3768,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 2 = 0$ b?ng
-
-A. $-10$.
-B. $e^{6 \sqrt{3}}$.
-C. $e^{-10}$.
-D. $-2$.",C. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 2=0 \Leftrightarrow \ln x=-5 + 3 \sqrt{3}$ hay $\ln x=- 3 \sqrt{3} - 5$. Vậy tích các nghiệm là $e^{-5 + 3 \sqrt{3}}\cdot e^{- 3 \sqrt{3} - 5}=e^{-10}$.
-3769,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 9\ln x - 4 = 0$ b?ng
-
-A. $e^{\sqrt{97}}$.
-B. $e^{-9}$.
-C. $-9$.
-D. $-4$.",B. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 4=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{97}}{2}$ hay $\ln x=- \dfrac{\sqrt{97}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{97}}{2}}\cdot e^{- \dfrac{\sqrt{97}}{2} - \dfrac{9}{2}}=e^{-9}$.
-3770,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 9 = 0$ b?ng
-
-A. $e^{\sqrt{61}}$.
-B. $e^{-5}$.
-C. $-9$.
-D. $-5$.",B. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 9=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{61}}{2}$ hay $\ln x=- \dfrac{\sqrt{61}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{61}}{2}}\cdot e^{- \dfrac{\sqrt{61}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3771,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 11 = 0$ b?ng
-
-A. $-11$.
-B. $e^{-5}$.
-C. $e^{\sqrt{69}}$.
-D. $-5$.",B. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 11=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{69}}{2}$ hay $\ln x=- \dfrac{\sqrt{69}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{69}}{2}}\cdot e^{- \dfrac{\sqrt{69}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3772,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x + 4 = 0$ b?ng
-
-A. $-7$.
-B. $e^{-7}$.
-C. $e^{- \sqrt{33}}$.
-D. $4$.",B. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 4=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{33}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{33}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{33}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{33}}{2}}=e^{-7}$.
-3773,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 9 = 0$ b?ng
-
-A. $-10$.
-B. $-9$.
-C. $e^{-10}$.
-D. $e^{2 \sqrt{34}}$.",C. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 9=0 \Leftrightarrow \ln x=-5 + \sqrt{34}$ hay $\ln x=- \sqrt{34} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{34}}\cdot e^{- \sqrt{34} - 5}=e^{-10}$.
-3774,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 8 = 0$ b?ng
-
-A. $e^{-5}$.
-B. $-8$.
-C. $-5$.
-D. $e^{\sqrt{57}}$.",A. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 8=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{57}}{2}$ hay $\ln x=- \dfrac{\sqrt{57}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{57}}{2}}\cdot e^{- \dfrac{\sqrt{57}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3775,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 11\ln x - 12 = 0$ b?ng
-
-A. $-11$.
-B. $-12$.
-C. $e^{-11}$.
-D. $e^{-13}$.",C. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 12=0 \Leftrightarrow \ln x=-12$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-12}\cdot e^{1}=e^{-11}$.
-3776,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 2 = 0$ b?ng
-
-A. $e^{-4}$.
-B. $e^{2 \sqrt{6}}$.
-C. $-2$.
-D. $-4$.",A. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 2=0 \Leftrightarrow \ln x=-2 + \sqrt{6}$ hay $\ln x=- \sqrt{6} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{6}}\cdot e^{- \sqrt{6} - 2}=e^{-4}$.
-3777,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x + 3 = 0$ b?ng
-
-A. $-7$.
-B. $3$.
-C. $e^{-7}$.
-D. $e^{- \sqrt{37}}$.",C. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 3=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{37}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{37}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{37}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{37}}{2}}=e^{-7}$.
-3778,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x + 1 = 0$ b?ng
-
-A. $1$.
-B. $e^{-3}$.
-C. $-3$.
-D. $e^{- \sqrt{5}}$.",B. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x + 1=0 \Leftrightarrow \ln x=- \dfrac{3}{2} - \dfrac{\sqrt{5}}{2}$ hay $\ln x=- \dfrac{3}{2} + \dfrac{\sqrt{5}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} - \dfrac{\sqrt{5}}{2}}\cdot e^{- \dfrac{3}{2} + \dfrac{\sqrt{5}}{2}}=e^{-3}$.
-3779,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 2\ln x - 5 = 0$ b?ng
-
-A. $e^{2 \sqrt{6}}$.
-B. $e^{-2}$.
-C. $-5$.
-D. $-2$.",B. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 5=0 \Leftrightarrow \ln x=-1 + \sqrt{6}$ hay $\ln x=- \sqrt{6} - 1$. Vậy tích các nghiệm là $e^{-1 + \sqrt{6}}\cdot e^{- \sqrt{6} - 1}=e^{-2}$.
-3780,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x + 1 = 0$ b?ng
-
-A. $1$.
-B. $e^{- 4 \sqrt{6}}$.
-C. $e^{-10}$.
-D. $-10$.",C. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x + 1=0 \Leftrightarrow \ln x=-5 - 2 \sqrt{6}$ hay $\ln x=-5 + 2 \sqrt{6}$. Vậy tích các nghiệm là $e^{-5 - 2 \sqrt{6}}\cdot e^{-5 + 2 \sqrt{6}}=e^{-10}$.
-3781,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 7 = 0$ b?ng
-
-A. $-7$.
-B. $-10$.
-C. $e^{8 \sqrt{2}}$.
-D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 7=0 \Leftrightarrow \ln x=-5 + 4 \sqrt{2}$ hay $\ln x=- 4 \sqrt{2} - 5$. Vậy tích các nghiệm là $e^{-5 + 4 \sqrt{2}}\cdot e^{- 4 \sqrt{2} - 5}=e^{-10}$.
-3782,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 2\ln x - 8 = 0$ b?ng
+C. $-11$.
+D. $e^{\sqrt{133}}$.",B. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 3=0 \Leftrightarrow \ln x=- \dfrac{11}{2} + \dfrac{\sqrt{133}}{2}$ hay $\ln x=- \dfrac{\sqrt{133}}{2} - \dfrac{11}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} + \dfrac{\sqrt{133}}{2}}\cdot e^{- \dfrac{\sqrt{133}}{2} - \dfrac{11}{2}}=e^{-11}$.
+3767,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 8 = 0$ bằng
 
 A. $-8$.
-B. $-2$.
-C. $e^{-6}$.
-D. $e^{-2}$.",D. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 8=0 \Leftrightarrow \ln x=-4$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-4}\cdot e^{2}=e^{-2}$.
-3783,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x - 15 = 0$ b?ng
+B. $e^{2 \sqrt{33}}$.
+C. $-10$.
+D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 8=0 \Leftrightarrow \ln x=-5 + \sqrt{33}$ hay $\ln x=- \sqrt{33} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{33}}\cdot e^{- \sqrt{33} - 5}=e^{-10}$.
+3768,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 2 = 0$ bằng
 
-A. $1$.
-B. $-15$.
-C. $e^{- 2 \sqrt{15}}$.
-D. $0$.",A. $1$.,Điều kiện $x>0$. $\ln^2x - 15=0 \Leftrightarrow \ln x=- \sqrt{15}$ hay $\ln x=\sqrt{15}$. Vậy tích các nghiệm là $e^{- \sqrt{15}}\cdot e^{\sqrt{15}}=1$.
-3784,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 11\ln x - 6 = 0$ b?ng
+A. $-2$.
+B. $e^{-10}$.
+C. $-10$.
+D. $e^{6 \sqrt{3}}$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 2=0 \Leftrightarrow \ln x=-5 + 3 \sqrt{3}$ hay $\ln x=- 3 \sqrt{3} - 5$. Vậy tích các nghiệm là $e^{-5 + 3 \sqrt{3}}\cdot e^{- 3 \sqrt{3} - 5}=e^{-10}$.
+3769,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 9\ln x - 4 = 0$ bằng
 
-A. $-6$.
+A. $-4$.
+B. $e^{-9}$.
+C. $-9$.
+D. $e^{\sqrt{97}}$.",B. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 4=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{97}}{2}$ hay $\ln x=- \dfrac{\sqrt{97}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{97}}{2}}\cdot e^{- \dfrac{\sqrt{97}}{2} - \dfrac{9}{2}}=e^{-9}$.
+3770,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 9 = 0$ bằng
+
+A. $-9$.
+B. $e^{-5}$.
+C. $-5$.
+D. $e^{\sqrt{61}}$.",B. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 9=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{61}}{2}$ hay $\ln x=- \dfrac{\sqrt{61}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{61}}{2}}\cdot e^{- \dfrac{\sqrt{61}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3771,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 11 = 0$ bằng
+
+A. $e^{-5}$.
 B. $-11$.
+C. $e^{\sqrt{69}}$.
+D. $-5$.",A. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 11=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{69}}{2}$ hay $\ln x=- \dfrac{\sqrt{69}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{69}}{2}}\cdot e^{- \dfrac{\sqrt{69}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3772,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x + 4 = 0$ bằng
+
+A. $e^{-7}$.
+B. $e^{- \sqrt{33}}$.
+C. $-7$.
+D. $4$.",A. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 4=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{33}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{33}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{33}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{33}}{2}}=e^{-7}$.
+3773,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 9 = 0$ bằng
+
+A. $-10$.
+B. $e^{-10}$.
+C. $e^{2 \sqrt{34}}$.
+D. $-9$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 9=0 \Leftrightarrow \ln x=-5 + \sqrt{34}$ hay $\ln x=- \sqrt{34} - 5$. Vậy tích các nghiệm là $e^{-5 + \sqrt{34}}\cdot e^{- \sqrt{34} - 5}=e^{-10}$.
+3774,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 8 = 0$ bằng
+
+A. $-5$.
+B. $e^{-5}$.
+C. $e^{\sqrt{57}}$.
+D. $-8$.",B. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 8=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{57}}{2}$ hay $\ln x=- \dfrac{\sqrt{57}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{57}}{2}}\cdot e^{- \dfrac{\sqrt{57}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3775,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 11\ln x - 12 = 0$ bằng
+
+A. $-12$.
+B. $e^{-13}$.
 C. $e^{-11}$.
-D. $e^{\sqrt{145}}$.",C. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{11}{2} + \dfrac{\sqrt{145}}{2}$ hay $\ln x=- \dfrac{\sqrt{145}}{2} - \dfrac{11}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} + \dfrac{\sqrt{145}}{2}}\cdot e^{- \dfrac{\sqrt{145}}{2} - \dfrac{11}{2}}=e^{-11}$.
-3785,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x + 2 = 0$ b?ng
+D. $-11$.",C. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 12=0 \Leftrightarrow \ln x=-12$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-12}\cdot e^{1}=e^{-11}$.
+3776,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 2 = 0$ bằng
+
+A. $e^{2 \sqrt{6}}$.
+B. $-4$.
+C. $-2$.
+D. $e^{-4}$.",D. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 2=0 \Leftrightarrow \ln x=-2 + \sqrt{6}$ hay $\ln x=- \sqrt{6} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{6}}\cdot e^{- \sqrt{6} - 2}=e^{-4}$.
+3777,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x + 3 = 0$ bằng
+
+A. $3$.
+B. $-7$.
+C. $e^{-7}$.
+D. $e^{- \sqrt{37}}$.",C. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 3=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{37}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{37}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{37}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{37}}{2}}=e^{-7}$.
+3778,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x + 1 = 0$ bằng
 
 A. $e^{-3}$.
-B. $e^{-1}$.
-C. $2$.
-D. $-3$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x + 2=0 \Leftrightarrow \ln x=-2$ hay $\ln x=-1$. Vậy tích các nghiệm là $e^{-2}\cdot e^{-1}=e^{-3}$.
-3786,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x + 2 = 0$ b?ng
+B. $-3$.
+C. $1$.
+D. $e^{- \sqrt{5}}$.",A. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x + 1=0 \Leftrightarrow \ln x=- \dfrac{3}{2} - \dfrac{\sqrt{5}}{2}$ hay $\ln x=- \dfrac{3}{2} + \dfrac{\sqrt{5}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{3}{2} - \dfrac{\sqrt{5}}{2}}\cdot e^{- \dfrac{3}{2} + \dfrac{\sqrt{5}}{2}}=e^{-3}$.
+3779,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x - 5 = 0$ bằng
+
+A. $e^{2 \sqrt{6}}$.
+B. $-5$.
+C. $e^{-2}$.
+D. $-2$.",C. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 5=0 \Leftrightarrow \ln x=-1 + \sqrt{6}$ hay $\ln x=- \sqrt{6} - 1$. Vậy tích các nghiệm là $e^{-1 + \sqrt{6}}\cdot e^{- \sqrt{6} - 1}=e^{-2}$.
+3780,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x + 1 = 0$ bằng
+
+A. $1$.
+B. $-10$.
+C. $e^{- 4 \sqrt{6}}$.
+D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x + 1=0 \Leftrightarrow \ln x=-5 - 2 \sqrt{6}$ hay $\ln x=-5 + 2 \sqrt{6}$. Vậy tích các nghiệm là $e^{-5 - 2 \sqrt{6}}\cdot e^{-5 + 2 \sqrt{6}}=e^{-10}$.
+3781,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 7 = 0$ bằng
+
+A. $-10$.
+B. $e^{-10}$.
+C. $-7$.
+D. $e^{8 \sqrt{2}}$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 7=0 \Leftrightarrow \ln x=-5 + 4 \sqrt{2}$ hay $\ln x=- 4 \sqrt{2} - 5$. Vậy tích các nghiệm là $e^{-5 + 4 \sqrt{2}}\cdot e^{- 4 \sqrt{2} - 5}=e^{-10}$.
+3782,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x - 8 = 0$ bằng
+
+A. $e^{-2}$.
+B. $-8$.
+C. $e^{-6}$.
+D. $-2$.",A. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 8=0 \Leftrightarrow \ln x=-4$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-4}\cdot e^{2}=e^{-2}$.
+3783,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x - 15 = 0$ bằng
+
+A. $e^{- 2 \sqrt{15}}$.
+B. $-15$.
+C. $0$.
+D. $1$.",D. $1$.,Điều kiện $x>0$. $\ln^2x - 15=0 \Leftrightarrow \ln x=- \sqrt{15}$ hay $\ln x=\sqrt{15}$. Vậy tích các nghiệm là $e^{- \sqrt{15}}\cdot e^{\sqrt{15}}=1$.
+3784,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 11\ln x - 6 = 0$ bằng
+
+A. $-11$.
+B. $e^{\sqrt{145}}$.
+C. $e^{-11}$.
+D. $-6$.",C. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{11}{2} + \dfrac{\sqrt{145}}{2}$ hay $\ln x=- \dfrac{\sqrt{145}}{2} - \dfrac{11}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} + \dfrac{\sqrt{145}}{2}}\cdot e^{- \dfrac{\sqrt{145}}{2} - \dfrac{11}{2}}=e^{-11}$.
+3785,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x + 2 = 0$ bằng
+
+A. $e^{-1}$.
+B. $e^{-3}$.
+C. $-3$.
+D. $2$.",B. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x + 2=0 \Leftrightarrow \ln x=-2$ hay $\ln x=-1$. Vậy tích các nghiệm là $e^{-2}\cdot e^{-1}=e^{-3}$.
+3786,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x + 2 = 0$ bằng
 
 A. $-7$.
 B. $e^{- \sqrt{41}}$.
-C. $e^{-7}$.
-D. $2$.",C. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 2=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{41}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{41}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{41}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{41}}{2}}=e^{-7}$.
-3787,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 2 = 0$ b?ng
-
-A. $e^{\sqrt{33}}$.
-B. $-5$.
-C. $e^{-5}$.
-D. $-2$.",C. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 2=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{33}}{2}$ hay $\ln x=- \dfrac{\sqrt{33}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{33}}{2}}\cdot e^{- \dfrac{\sqrt{33}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3788,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 2\ln x - 3 = 0$ b?ng
-
-A. $-2$.
-B. $e^{-4}$.
-C. $-3$.
-D. $e^{-2}$.",D. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 3=0 \Leftrightarrow \ln x=-3$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-3}\cdot e^{1}=e^{-2}$.
-3789,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 11\ln x + 3 = 0$ b?ng
-
-A. $-11$.
-B. $e^{-11}$.
-C. $3$.
-D. $e^{- \sqrt{109}}$.",B. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x + 3=0 \Leftrightarrow \ln x=- \dfrac{11}{2} - \dfrac{\sqrt{109}}{2}$ hay $\ln x=- \dfrac{11}{2} + \dfrac{\sqrt{109}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} - \dfrac{\sqrt{109}}{2}}\cdot e^{- \dfrac{11}{2} + \dfrac{\sqrt{109}}{2}}=e^{-11}$.
-3790,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 1 = 0$ b?ng
-
-A. $-4$.
-B. $-1$.
-C. $e^{2 \sqrt{5}}$.
-D. $e^{-4}$.",D. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 1=0 \Leftrightarrow \ln x=-2 + \sqrt{5}$ hay $\ln x=- \sqrt{5} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{5}}\cdot e^{- \sqrt{5} - 2}=e^{-4}$.
-3791,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 1\ln x - 16 = 0$ b?ng
-
-A. $e^{\sqrt{65}}$.
-B. $-1$.
-C. $e^{-1}$.
-D. $-16$.",C. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x + 1\ln x - 16=0 \Leftrightarrow \ln x=- \dfrac{1}{2} + \dfrac{\sqrt{65}}{2}$ hay $\ln x=- \dfrac{\sqrt{65}}{2} - \dfrac{1}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{1}{2} + \dfrac{\sqrt{65}}{2}}\cdot e^{- \dfrac{\sqrt{65}}{2} - \dfrac{1}{2}}=e^{-1}$.
-3792,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x - 2 = 0$ b?ng
-
-A. $e^{- 2 \sqrt{2}}$.
-B. $0$.
-C. $-2$.
-D. $1$.",D. $1$.,Điều kiện $x>0$. $\ln^2x - 2=0 \Leftrightarrow \ln x=- \sqrt{2}$ hay $\ln x=\sqrt{2}$. Vậy tích các nghiệm là $e^{- \sqrt{2}}\cdot e^{\sqrt{2}}=1$.
-3793,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x + 1 = 0$ b?ng
-
-A. $1$.
-B. $e^{- 2 \sqrt{15}}$.
-C. $-8$.
-D. $e^{-8}$.",D. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 1=0 \Leftrightarrow \ln x=-4 - \sqrt{15}$ hay $\ln x=-4 + \sqrt{15}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{15}}\cdot e^{-4 + \sqrt{15}}=e^{-8}$.
-3794,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 1 = 0$ b?ng
+C. $2$.
+D. $e^{-7}$.",D. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 2=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{41}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{41}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{41}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{41}}{2}}=e^{-7}$.
+3787,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 2 = 0$ bằng
 
 A. $-5$.
-B. $e^{-5}$.
-C. $e^{\sqrt{29}}$.
-D. $-1$.",B. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 1=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{29}}{2}$ hay $\ln x=- \dfrac{\sqrt{29}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{29}}{2}}\cdot e^{- \dfrac{\sqrt{29}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3795,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x + 2 = 0$ b?ng
+B. $e^{\sqrt{33}}$.
+C. $e^{-5}$.
+D. $-2$.",C. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 2=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{33}}{2}$ hay $\ln x=- \dfrac{\sqrt{33}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{33}}{2}}\cdot e^{- \dfrac{\sqrt{33}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3788,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x - 3 = 0$ bằng
 
-A. $-4$.
-B. $e^{- 2 \sqrt{2}}$.
-C. $e^{-4}$.
-D. $2$.",C. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x + 2=0 \Leftrightarrow \ln x=-2 - \sqrt{2}$ hay $\ln x=-2 + \sqrt{2}$. Vậy tích các nghiệm là $e^{-2 - \sqrt{2}}\cdot e^{-2 + \sqrt{2}}=e^{-4}$.
-3796,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 9\ln x - 6 = 0$ b?ng
-
-A. $e^{\sqrt{105}}$.
-B. $e^{-9}$.
-C. $-9$.
-D. $-6$.",B. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{105}}{2}$ hay $\ln x=- \dfrac{\sqrt{105}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{105}}{2}}\cdot e^{- \dfrac{\sqrt{105}}{2} - \dfrac{9}{2}}=e^{-9}$.
-3797,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x + 6 = 0$ b?ng
-
-A. $6$.
-B. $-10$.
-C. $e^{- 2 \sqrt{19}}$.
-D. $e^{-10}$.",D. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x + 6=0 \Leftrightarrow \ln x=-5 - \sqrt{19}$ hay $\ln x=-5 + \sqrt{19}$. Vậy tích các nghiệm là $e^{-5 - \sqrt{19}}\cdot e^{-5 + \sqrt{19}}=e^{-10}$.
-3798,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 12\ln x + 2 = 0$ b?ng
-
-A. $-12$.
-B. $e^{- 2 \sqrt{34}}$.
-C. $2$.
-D. $e^{-12}$.",D. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x + 2=0 \Leftrightarrow \ln x=-6 - \sqrt{34}$ hay $\ln x=-6 + \sqrt{34}$. Vậy tích các nghiệm là $e^{-6 - \sqrt{34}}\cdot e^{-6 + \sqrt{34}}=e^{-12}$.
-3799,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 2\ln x - 6 = 0$ b?ng
-
-A. $-6$.
-B. $e^{2 \sqrt{7}}$.
+A. $e^{-4}$.
+B. $e^{-2}$.
 C. $-2$.
-D. $e^{-2}$.",D. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 6=0 \Leftrightarrow \ln x=-1 + \sqrt{7}$ hay $\ln x=- \sqrt{7} - 1$. Vậy tích các nghiệm là $e^{-1 + \sqrt{7}}\cdot e^{- \sqrt{7} - 1}=e^{-2}$.
-3800,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x - 3 = 0$ b?ng
+D. $-3$.",B. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 3=0 \Leftrightarrow \ln x=-3$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-3}\cdot e^{1}=e^{-2}$.
+3789,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 11\ln x + 3 = 0$ bằng
 
-A. $-3$.
-B. $e^{4 \sqrt{3}}$.
-C. $-6$.
-D. $e^{-6}$.",D. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 3=0 \Leftrightarrow \ln x=-3 + 2 \sqrt{3}$ hay $\ln x=- 2 \sqrt{3} - 3$. Vậy tích các nghiệm là $e^{-3 + 2 \sqrt{3}}\cdot e^{- 2 \sqrt{3} - 3}=e^{-6}$.
-3801,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x + 2 = 0$ b?ng
+A. $-11$.
+B. $3$.
+C. $e^{-11}$.
+D. $e^{- \sqrt{109}}$.",C. $e^{-11}$.,Điều kiện $x>0$. $\ln^2x + 11\ln x + 3=0 \Leftrightarrow \ln x=- \dfrac{11}{2} - \dfrac{\sqrt{109}}{2}$ hay $\ln x=- \dfrac{11}{2} + \dfrac{\sqrt{109}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{11}{2} - \dfrac{\sqrt{109}}{2}}\cdot e^{- \dfrac{11}{2} + \dfrac{\sqrt{109}}{2}}=e^{-11}$.
+3790,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 1 = 0$ bằng
 
-A. $2$.
-B. $-8$.
-C. $e^{-8}$.
-D. $e^{- 2 \sqrt{14}}$.",C. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 2=0 \Leftrightarrow \ln x=-4 - \sqrt{14}$ hay $\ln x=-4 + \sqrt{14}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{14}}\cdot e^{-4 + \sqrt{14}}=e^{-8}$.
-3802,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 14 = 0$ b?ng
+A. $-1$.
+B. $-4$.
+C. $e^{2 \sqrt{5}}$.
+D. $e^{-4}$.",D. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 1=0 \Leftrightarrow \ln x=-2 + \sqrt{5}$ hay $\ln x=- \sqrt{5} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{5}}\cdot e^{- \sqrt{5} - 2}=e^{-4}$.
+3791,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 1\ln x - 16 = 0$ bằng
+
+A. $e^{\sqrt{65}}$.
+B. $e^{-1}$.
+C. $-16$.
+D. $-1$.",B. $e^{-1}$.,Điều kiện $x>0$. $\ln^2x + 1\ln x - 16=0 \Leftrightarrow \ln x=- \dfrac{1}{2} + \dfrac{\sqrt{65}}{2}$ hay $\ln x=- \dfrac{\sqrt{65}}{2} - \dfrac{1}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{1}{2} + \dfrac{\sqrt{65}}{2}}\cdot e^{- \dfrac{\sqrt{65}}{2} - \dfrac{1}{2}}=e^{-1}$.
+3792,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x - 2 = 0$ bằng
+
+A. $0$.
+B. $1$.
+C. $e^{- 2 \sqrt{2}}$.
+D. $-2$.",B. $1$.,Điều kiện $x>0$. $\ln^2x - 2=0 \Leftrightarrow \ln x=- \sqrt{2}$ hay $\ln x=\sqrt{2}$. Vậy tích các nghiệm là $e^{- \sqrt{2}}\cdot e^{\sqrt{2}}=1$.
+3793,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x + 1 = 0$ bằng
+
+A. $e^{-8}$.
+B. $1$.
+C. $-8$.
+D. $e^{- 2 \sqrt{15}}$.",A. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 1=0 \Leftrightarrow \ln x=-4 - \sqrt{15}$ hay $\ln x=-4 + \sqrt{15}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{15}}\cdot e^{-4 + \sqrt{15}}=e^{-8}$.
+3794,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 1 = 0$ bằng
+
+A. $e^{-5}$.
+B. $-1$.
+C. $e^{\sqrt{29}}$.
+D. $-5$.",A. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 1=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{29}}{2}$ hay $\ln x=- \dfrac{\sqrt{29}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{29}}{2}}\cdot e^{- \dfrac{\sqrt{29}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3795,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x + 2 = 0$ bằng
+
+A. $e^{-4}$.
+B. $-4$.
+C. $e^{- 2 \sqrt{2}}$.
+D. $2$.",A. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x + 2=0 \Leftrightarrow \ln x=-2 - \sqrt{2}$ hay $\ln x=-2 + \sqrt{2}$. Vậy tích các nghiệm là $e^{-2 - \sqrt{2}}\cdot e^{-2 + \sqrt{2}}=e^{-4}$.
+3796,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 9\ln x - 6 = 0$ bằng
 
 A. $e^{-9}$.
-B. $-5$.
+B. $e^{\sqrt{105}}$.
+C. $-6$.
+D. $-9$.",A. $e^{-9}$.,Điều kiện $x>0$. $\ln^2x + 9\ln x - 6=0 \Leftrightarrow \ln x=- \dfrac{9}{2} + \dfrac{\sqrt{105}}{2}$ hay $\ln x=- \dfrac{\sqrt{105}}{2} - \dfrac{9}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{9}{2} + \dfrac{\sqrt{105}}{2}}\cdot e^{- \dfrac{\sqrt{105}}{2} - \dfrac{9}{2}}=e^{-9}$.
+3797,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x + 6 = 0$ bằng
+
+A. $6$.
+B. $e^{-10}$.
+C. $-10$.
+D. $e^{- 2 \sqrt{19}}$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x + 6=0 \Leftrightarrow \ln x=-5 - \sqrt{19}$ hay $\ln x=-5 + \sqrt{19}$. Vậy tích các nghiệm là $e^{-5 - \sqrt{19}}\cdot e^{-5 + \sqrt{19}}=e^{-10}$.
+3798,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 12\ln x + 2 = 0$ bằng
+
+A. $2$.
+B. $-12$.
+C. $e^{-12}$.
+D. $e^{- 2 \sqrt{34}}$.",C. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x + 2=0 \Leftrightarrow \ln x=-6 - \sqrt{34}$ hay $\ln x=-6 + \sqrt{34}$. Vậy tích các nghiệm là $e^{-6 - \sqrt{34}}\cdot e^{-6 + \sqrt{34}}=e^{-12}$.
+3799,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 2\ln x - 6 = 0$ bằng
+
+A. $-2$.
+B. $e^{2 \sqrt{7}}$.
+C. $-6$.
+D. $e^{-2}$.",D. $e^{-2}$.,Điều kiện $x>0$. $\ln^2x + 2\ln x - 6=0 \Leftrightarrow \ln x=-1 + \sqrt{7}$ hay $\ln x=- \sqrt{7} - 1$. Vậy tích các nghiệm là $e^{-1 + \sqrt{7}}\cdot e^{- \sqrt{7} - 1}=e^{-2}$.
+3800,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x - 3 = 0$ bằng
+
+A. $-3$.
+B. $-6$.
+C. $e^{-6}$.
+D. $e^{4 \sqrt{3}}$.",C. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 3=0 \Leftrightarrow \ln x=-3 + 2 \sqrt{3}$ hay $\ln x=- 2 \sqrt{3} - 3$. Vậy tích các nghiệm là $e^{-3 + 2 \sqrt{3}}\cdot e^{- 2 \sqrt{3} - 3}=e^{-6}$.
+3801,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x + 2 = 0$ bằng
+
+A. $2$.
+B. $e^{- 2 \sqrt{14}}$.
+C. $e^{-8}$.
+D. $-8$.",C. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x + 2=0 \Leftrightarrow \ln x=-4 - \sqrt{14}$ hay $\ln x=-4 + \sqrt{14}$. Vậy tích các nghiệm là $e^{-4 - \sqrt{14}}\cdot e^{-4 + \sqrt{14}}=e^{-8}$.
+3802,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 14 = 0$ bằng
+
+A. $-5$.
+B. $e^{-9}$.
 C. $-14$.
 D. $e^{-5}$.",D. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 14=0 \Leftrightarrow \ln x=-7$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-7}\cdot e^{2}=e^{-5}$.
-3803,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x - 12 = 0$ b?ng
+3803,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x - 12 = 0$ bằng
 
 A. $-8$.
 B. $e^{4 \sqrt{7}}$.
-C. $e^{-8}$.
-D. $-12$.",C. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 12=0 \Leftrightarrow \ln x=-4 + 2 \sqrt{7}$ hay $\ln x=- 2 \sqrt{7} - 4$. Vậy tích các nghiệm là $e^{-4 + 2 \sqrt{7}}\cdot e^{- 2 \sqrt{7} - 4}=e^{-8}$.
-3804,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x + 1 = 0$ b?ng
+C. $-12$.
+D. $e^{-8}$.",D. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 12=0 \Leftrightarrow \ln x=-4 + 2 \sqrt{7}$ hay $\ln x=- 2 \sqrt{7} - 4$. Vậy tích các nghiệm là $e^{-4 + 2 \sqrt{7}}\cdot e^{- 2 \sqrt{7} - 4}=e^{-8}$.
+3804,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x + 1 = 0$ bằng
 
-A. $e^{- \sqrt{21}}$.
+A. $e^{-5}$.
 B. $-5$.
 C. $1$.
-D. $e^{-5}$.",D. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x + 1=0 \Leftrightarrow \ln x=- \dfrac{5}{2} - \dfrac{\sqrt{21}}{2}$ hay $\ln x=- \dfrac{5}{2} + \dfrac{\sqrt{21}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} - \dfrac{\sqrt{21}}{2}}\cdot e^{- \dfrac{5}{2} + \dfrac{\sqrt{21}}{2}}=e^{-5}$.
-3805,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x - 9 = 0$ b?ng
+D. $e^{- \sqrt{21}}$.",A. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x + 1=0 \Leftrightarrow \ln x=- \dfrac{5}{2} - \dfrac{\sqrt{21}}{2}$ hay $\ln x=- \dfrac{5}{2} + \dfrac{\sqrt{21}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} - \dfrac{\sqrt{21}}{2}}\cdot e^{- \dfrac{5}{2} + \dfrac{\sqrt{21}}{2}}=e^{-5}$.
+3805,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x - 9 = 0$ bằng
+
+A. $e^{-8}$.
+B. $-9$.
+C. $-8$.
+D. $e^{-10}$.",A. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 9=0 \Leftrightarrow \ln x=-9$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-9}\cdot e^{1}=e^{-8}$.
+3806,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x - 5 = 0$ bằng
+
+A. $e^{-6}$.
+B. $e^{2 \sqrt{14}}$.
+C. $-5$.
+D. $-6$.",A. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 5=0 \Leftrightarrow \ln x=-3 + \sqrt{14}$ hay $\ln x=- \sqrt{14} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{14}}\cdot e^{- \sqrt{14} - 3}=e^{-6}$.
+3807,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 12\ln x + 1 = 0$ bằng
+
+A. $e^{- 2 \sqrt{35}}$.
+B. $1$.
+C. $e^{-12}$.
+D. $-12$.",C. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x + 1=0 \Leftrightarrow \ln x=-6 - \sqrt{35}$ hay $\ln x=-6 + \sqrt{35}$. Vậy tích các nghiệm là $e^{-6 - \sqrt{35}}\cdot e^{-6 + \sqrt{35}}=e^{-12}$.
+3808,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x + 2 = 0$ bằng
+
+A. $e^{-5}$.
+B. $e^{- \sqrt{17}}$.
+C. $2$.
+D. $-5$.",A. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x + 2=0 \Leftrightarrow \ln x=- \dfrac{5}{2} - \dfrac{\sqrt{17}}{2}$ hay $\ln x=- \dfrac{5}{2} + \dfrac{\sqrt{17}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} - \dfrac{\sqrt{17}}{2}}\cdot e^{- \dfrac{5}{2} + \dfrac{\sqrt{17}}{2}}=e^{-5}$.
+3809,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 12\ln x + 6 = 0$ bằng
+
+A. $e^{- 2 \sqrt{30}}$.
+B. $e^{-12}$.
+C. $6$.
+D. $-12$.",B. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x + 6=0 \Leftrightarrow \ln x=-6 - \sqrt{30}$ hay $\ln x=-6 + \sqrt{30}$. Vậy tích các nghiệm là $e^{-6 - \sqrt{30}}\cdot e^{-6 + \sqrt{30}}=e^{-12}$.
+3810,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 10\ln x - 3 = 0$ bằng
 
 A. $e^{-10}$.
-B. $e^{-8}$.
-C. $-9$.
-D. $-8$.",B. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 9=0 \Leftrightarrow \ln x=-9$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-9}\cdot e^{1}=e^{-8}$.
-3806,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x - 5 = 0$ b?ng
+B. $-3$.
+C. $-10$.
+D. $e^{4 \sqrt{7}}$.",A. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 3=0 \Leftrightarrow \ln x=-5 + 2 \sqrt{7}$ hay $\ln x=- 2 \sqrt{7} - 5$. Vậy tích các nghiệm là $e^{-5 + 2 \sqrt{7}}\cdot e^{- 2 \sqrt{7} - 5}=e^{-10}$.
+3811,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x - 7 = 0$ bằng
+
+A. $-7$.
+B. $-6$.
+C. $e^{-8}$.
+D. $e^{-6}$.",D. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 7=0 \Leftrightarrow \ln x=-7$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-7}\cdot e^{1}=e^{-6}$.
+3812,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 13 = 0$ bằng
+
+A. $-5$.
+B. $-13$.
+C. $e^{-5}$.
+D. $e^{\sqrt{77}}$.",C. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 13=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{77}}{2}$ hay $\ln x=- \dfrac{\sqrt{77}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{77}}{2}}\cdot e^{- \dfrac{\sqrt{77}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3813,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 16 = 0$ bằng
+
+A. $-16$.
+B. $e^{-4}$.
+C. $e^{4 \sqrt{5}}$.
+D. $-4$.",B. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 16=0 \Leftrightarrow \ln x=-2 + 2 \sqrt{5}$ hay $\ln x=- 2 \sqrt{5} - 2$. Vậy tích các nghiệm là $e^{-2 + 2 \sqrt{5}}\cdot e^{- 2 \sqrt{5} - 2}=e^{-4}$.
+3814,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 5\ln x - 3 = 0$ bằng
+
+A. $e^{-5}$.
+B. $-3$.
+C. $-5$.
+D. $e^{\sqrt{37}}$.",A. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 3=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{37}}{2}$ hay $\ln x=- \dfrac{\sqrt{37}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{37}}{2}}\cdot e^{- \dfrac{\sqrt{37}}{2} - \dfrac{5}{2}}=e^{-5}$.
+3815,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 6\ln x - 10 = 0$ bằng
 
 A. $-6$.
 B. $e^{-6}$.
-C. $e^{2 \sqrt{14}}$.
-D. $-5$.",B. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 5=0 \Leftrightarrow \ln x=-3 + \sqrt{14}$ hay $\ln x=- \sqrt{14} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{14}}\cdot e^{- \sqrt{14} - 3}=e^{-6}$.
-3807,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 12\ln x + 1 = 0$ b?ng
-
-A. $1$.
-B. $-12$.
-C. $e^{- 2 \sqrt{35}}$.
-D. $e^{-12}$.",D. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x + 1=0 \Leftrightarrow \ln x=-6 - \sqrt{35}$ hay $\ln x=-6 + \sqrt{35}$. Vậy tích các nghiệm là $e^{-6 - \sqrt{35}}\cdot e^{-6 + \sqrt{35}}=e^{-12}$.
-3808,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x + 2 = 0$ b?ng
-
-A. $-5$.
-B. $e^{-5}$.
-C. $e^{- \sqrt{17}}$.
-D. $2$.",B. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x + 2=0 \Leftrightarrow \ln x=- \dfrac{5}{2} - \dfrac{\sqrt{17}}{2}$ hay $\ln x=- \dfrac{5}{2} + \dfrac{\sqrt{17}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} - \dfrac{\sqrt{17}}{2}}\cdot e^{- \dfrac{5}{2} + \dfrac{\sqrt{17}}{2}}=e^{-5}$.
-3809,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 12\ln x + 6 = 0$ b?ng
-
-A. $-12$.
-B. $6$.
-C. $e^{- 2 \sqrt{30}}$.
-D. $e^{-12}$.",D. $e^{-12}$.,Điều kiện $x>0$. $\ln^2x + 12\ln x + 6=0 \Leftrightarrow \ln x=-6 - \sqrt{30}$ hay $\ln x=-6 + \sqrt{30}$. Vậy tích các nghiệm là $e^{-6 - \sqrt{30}}\cdot e^{-6 + \sqrt{30}}=e^{-12}$.
-3810,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 10\ln x - 3 = 0$ b?ng
-
-A. $-3$.
-B. $e^{-10}$.
 C. $-10$.
-D. $e^{4 \sqrt{7}}$.",B. $e^{-10}$.,Điều kiện $x>0$. $\ln^2x + 10\ln x - 3=0 \Leftrightarrow \ln x=-5 + 2 \sqrt{7}$ hay $\ln x=- 2 \sqrt{7} - 5$. Vậy tích các nghiệm là $e^{-5 + 2 \sqrt{7}}\cdot e^{- 2 \sqrt{7} - 5}=e^{-10}$.
-3811,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x - 7 = 0$ b?ng
-
-A. $-7$.
-B. $e^{-6}$.
-C. $-6$.
-D. $e^{-8}$.",B. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 7=0 \Leftrightarrow \ln x=-7$ hay $\ln x=1$. Vậy tích các nghiệm là $e^{-7}\cdot e^{1}=e^{-6}$.
-3812,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 13 = 0$ b?ng
-
-A. $-13$.
-B. $-5$.
-C. $e^{\sqrt{77}}$.
-D. $e^{-5}$.",D. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 13=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{77}}{2}$ hay $\ln x=- \dfrac{\sqrt{77}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{77}}{2}}\cdot e^{- \dfrac{\sqrt{77}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3813,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 16 = 0$ b?ng
-
-A. $-16$.
-B. $-4$.
-C. $e^{-4}$.
-D. $e^{4 \sqrt{5}}$.",C. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 16=0 \Leftrightarrow \ln x=-2 + 2 \sqrt{5}$ hay $\ln x=- 2 \sqrt{5} - 2$. Vậy tích các nghiệm là $e^{-2 + 2 \sqrt{5}}\cdot e^{- 2 \sqrt{5} - 2}=e^{-4}$.
-3814,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 5\ln x - 3 = 0$ b?ng
-
-A. $-3$.
-B. $e^{\sqrt{37}}$.
-C. $-5$.
-D. $e^{-5}$.",D. $e^{-5}$.,Điều kiện $x>0$. $\ln^2x + 5\ln x - 3=0 \Leftrightarrow \ln x=- \dfrac{5}{2} + \dfrac{\sqrt{37}}{2}$ hay $\ln x=- \dfrac{\sqrt{37}}{2} - \dfrac{5}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{5}{2} + \dfrac{\sqrt{37}}{2}}\cdot e^{- \dfrac{\sqrt{37}}{2} - \dfrac{5}{2}}=e^{-5}$.
-3815,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 6\ln x - 10 = 0$ b?ng
-
-A. $e^{-6}$.
-B. $e^{2 \sqrt{19}}$.
-C. $-10$.
-D. $-6$.",A. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 10=0 \Leftrightarrow \ln x=-3 + \sqrt{19}$ hay $\ln x=- \sqrt{19} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{19}}\cdot e^{- \sqrt{19} - 3}=e^{-6}$.
-3816,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x - 12 = 0$ b?ng
+D. $e^{2 \sqrt{19}}$.",B. $e^{-6}$.,Điều kiện $x>0$. $\ln^2x + 6\ln x - 10=0 \Leftrightarrow \ln x=-3 + \sqrt{19}$ hay $\ln x=- \sqrt{19} - 3$. Vậy tích các nghiệm là $e^{-3 + \sqrt{19}}\cdot e^{- \sqrt{19} - 3}=e^{-6}$.
+3816,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x - 12 = 0$ bằng
 
 A. $-12$.
 B. $0$.
-C. $1$.
-D. $e^{- 4 \sqrt{3}}$.",C. $1$.,Điều kiện $x>0$. $\ln^2x - 12=0 \Leftrightarrow \ln x=- 2 \sqrt{3}$ hay $\ln x=2 \sqrt{3}$. Vậy tích các nghiệm là $e^{- 2 \sqrt{3}}\cdot e^{2 \sqrt{3}}=1$.
-3817,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x + 5 = 0$ b?ng
+C. $e^{- 4 \sqrt{3}}$.
+D. $1$.",D. $1$.,Điều kiện $x>0$. $\ln^2x - 12=0 \Leftrightarrow \ln x=- 2 \sqrt{3}$ hay $\ln x=2 \sqrt{3}$. Vậy tích các nghiệm là $e^{- 2 \sqrt{3}}\cdot e^{2 \sqrt{3}}=1$.
+3817,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x + 5 = 0$ bằng
 
-A. $e^{- \sqrt{29}}$.
-B. $-7$.
-C. $5$.
-D. $e^{-7}$.",D. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 5=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{29}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{29}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{29}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{29}}{2}}=e^{-7}$.
-3818,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 3\ln x - 10 = 0$ b?ng
+A. $-7$.
+B. $5$.
+C. $e^{-7}$.
+D. $e^{- \sqrt{29}}$.",C. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x + 5=0 \Leftrightarrow \ln x=- \dfrac{7}{2} - \dfrac{\sqrt{29}}{2}$ hay $\ln x=- \dfrac{7}{2} + \dfrac{\sqrt{29}}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} - \dfrac{\sqrt{29}}{2}}\cdot e^{- \dfrac{7}{2} + \dfrac{\sqrt{29}}{2}}=e^{-7}$.
+3818,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 3\ln x - 10 = 0$ bằng
 
-A. $-10$.
-B. $e^{-7}$.
-C. $-3$.
-D. $e^{-3}$.",D. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 10=0 \Leftrightarrow \ln x=-5$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-5}\cdot e^{2}=e^{-3}$.
-3819,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 8\ln x - 13 = 0$ b?ng
+A. $-3$.
+B. $e^{-3}$.
+C. $e^{-7}$.
+D. $-10$.",B. $e^{-3}$.,Điều kiện $x>0$. $\ln^2x + 3\ln x - 10=0 \Leftrightarrow \ln x=-5$ hay $\ln x=2$. Vậy tích các nghiệm là $e^{-5}\cdot e^{2}=e^{-3}$.
+3819,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 8\ln x - 13 = 0$ bằng
 
 A. $-8$.
-B. $-13$.
-C. $e^{2 \sqrt{29}}$.
+B. $e^{2 \sqrt{29}}$.
+C. $-13$.
 D. $e^{-8}$.",D. $e^{-8}$.,Điều kiện $x>0$. $\ln^2x + 8\ln x - 13=0 \Leftrightarrow \ln x=-4 + \sqrt{29}$ hay $\ln x=- \sqrt{29} - 4$. Vậy tích các nghiệm là $e^{-4 + \sqrt{29}}\cdot e^{- \sqrt{29} - 4}=e^{-8}$.
-3820,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 7\ln x - 10 = 0$ b?ng
+3820,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 7\ln x - 10 = 0$ bằng
 
-A. $-10$.
-B. $e^{-7}$.
-C. $e^{\sqrt{89}}$.
-D. $-7$.",B. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x - 10=0 \Leftrightarrow \ln x=- \dfrac{7}{2} + \dfrac{\sqrt{89}}{2}$ hay $\ln x=- \dfrac{\sqrt{89}}{2} - \dfrac{7}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} + \dfrac{\sqrt{89}}{2}}\cdot e^{- \dfrac{\sqrt{89}}{2} - \dfrac{7}{2}}=e^{-7}$.
-3821,D55,Nhân bản,p127_q34,chuan,"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\ln^2 x + 4\ln x - 6 = 0$ b?ng
+A. $e^{\sqrt{89}}$.
+B. $-10$.
+C. $-7$.
+D. $e^{-7}$.",D. $e^{-7}$.,Điều kiện $x>0$. $\ln^2x + 7\ln x - 10=0 \Leftrightarrow \ln x=- \dfrac{7}{2} + \dfrac{\sqrt{89}}{2}$ hay $\ln x=- \dfrac{\sqrt{89}}{2} - \dfrac{7}{2}$. Vậy tích các nghiệm là $e^{- \dfrac{7}{2} + \dfrac{\sqrt{89}}{2}}\cdot e^{- \dfrac{\sqrt{89}}{2} - \dfrac{7}{2}}=e^{-7}$.
+3821,D55,Nhân bản,p127_q34,chuan,"Tích tất cả các nghiệm của phương trình $\ln^2 x + 4\ln x - 6 = 0$ bằng
 
-A. $-4$.
-B. $e^{2 \sqrt{10}}$.
-C. $e^{-4}$.
-D. $-6$.",C. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 6=0 \Leftrightarrow \ln x=-2 + \sqrt{10}$ hay $\ln x=- \sqrt{10} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{10}}\cdot e^{- \sqrt{10} - 2}=e^{-4}$.
+A. $e^{-4}$.
+B. $-4$.
+C. $e^{2 \sqrt{10}}$.
+D. $-6$.",A. $e^{-4}$.,Điều kiện $x>0$. $\ln^2x + 4\ln x - 6=0 \Leftrightarrow \ln x=-2 + \sqrt{10}$ hay $\ln x=- \sqrt{10} - 2$. Vậy tích các nghiệm là $e^{-2 + \sqrt{10}}\cdot e^{- \sqrt{10} - 2}=e^{-4}$.
 3822,D58,Nhân bản,p137_q01,chuan,"Cho phương trình $5^{2x}+6\cdot5^{x+1}-12=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?
 
 A. $t^2-30t-12=0$.
@@ -49939,420 +49939,420 @@ C. $285$.
 D. $284$.",D. $284$.,"Đặt $g_y(x)=3x-279-\dfrac{\log_{27}(1+xy)}x+y$. Với $y\ge1$, phương trình tương đương $g_y(x)=0$. Ta có $g_y'(x)=3+\dfrac{\ln(1+xy)}{x^2\ln27}-\dfrac{y}{x(1+xy)\ln27}>3-\dfrac1{x^2\ln27}>=3-\dfrac3{\ln3}>0$, nên $g_y$ đồng biến trên $[1/3;93]$. Tại $x=93$, $g_y(93)=y-\dfrac{\log_{27}(1+93y)}{93}>0$, vì $\ln(1+u)<u$ và $\ln27>1$. Do đó phương trình có nghiệm trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là $h(y)=y-\log_3(1+y/3)<278$. Hàm $h$ đồng biến với $y\ge1$ vì $h'(y)=1-1/((y+3)\ln3)>0$. Vì $h$ đồng biến và $h(372)>278$, các số nguyên dương thỏa mãn là $y=1,\ldots,282$, gồm $282$ giá trị.
 
 Nếu $y\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. Với $y=0$, phương trình tương đương $3x(x-93)=0$, chỉ có $x=0$ hoặc $x=93$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, xét $F_y(x)=27^{3x^2+(y-279)x}-(1+xy)$ trên $(1/3,-1/y)$. Trên khoảng này, $F_y'(x)=27^{3x^2+(y-279)x}\ln27(6x+y-279)-y>0$: với $y=-1$, số hạng âm có độ lớn nhỏ hơn $27^{-93}\ln27\cdot278<1$; với $y=-2$, số hạng âm có độ lớn nhỏ hơn $27^{-93-1/3}\ln27\cdot279<2$. Do đó $F_y$ đồng biến. Tại $x=1/3$, $F_y(x)<0$; khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều cho một nghiệm. Tổng cộng có $284$ giá trị nguyên của $y$."
-8177,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -10$ là
-
-A. $(\dfrac{1}{10000000000};+\infty)$.
-B. $[\dfrac{1}{10000000000};+\infty)$.
-C. $(0;+\infty)$.
-D. $(-\infty;\dfrac{1}{10000000000})$.",B. $[\dfrac{1}{10000000000};+\infty)$.,$\log x\ge -10\Leftrightarrow x\ge \dfrac{1}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{10000000000};+\infty)$.
-8178,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -9$ là
-
-A. $(\dfrac{1}{1000000000};+\infty)$.
-B. $[\dfrac{1}{1000000000};+\infty)$.
-C. $(0;+\infty)$.
-D. $(-\infty;\dfrac{1}{1000000000})$.",B. $[\dfrac{1}{1000000000};+\infty)$.,$\log x\ge -9\Leftrightarrow x\ge \dfrac{1}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{1000000000};+\infty)$.
-8179,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -8$ là
-
-A. $(-\infty;\dfrac{1}{100000000})$.
-B. $(0;+\infty)$.
-C. $[\dfrac{1}{100000000};+\infty)$.
-D. $(\dfrac{1}{100000000};+\infty)$.",C. $[\dfrac{1}{100000000};+\infty)$.,$\log x\ge -8\Leftrightarrow x\ge \dfrac{1}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{100000000};+\infty)$.
-8180,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -7$ là
-
-A. $(0;+\infty)$.
-B. $(-\infty;\dfrac{1}{10000000})$.
-C. $[\dfrac{1}{10000000};+\infty)$.
-D. $(\dfrac{1}{10000000};+\infty)$.",C. $[\dfrac{1}{10000000};+\infty)$.,$\log x\ge -7\Leftrightarrow x\ge \dfrac{1}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{10000000};+\infty)$.
-8181,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -6$ là
-
-A. $(0;+\infty)$.
-B. $[\dfrac{1}{1000000};+\infty)$.
-C. $(\dfrac{1}{1000000};+\infty)$.
-D. $(-\infty;\dfrac{1}{1000000})$.",B. $[\dfrac{1}{1000000};+\infty)$.,$\log x\ge -6\Leftrightarrow x\ge \dfrac{1}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{1000000};+\infty)$.
-8182,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -5$ là
-
-A. $(\dfrac{1}{100000};+\infty)$.
-B. $(-\infty;\dfrac{1}{100000})$.
-C. $(0;+\infty)$.
-D. $[\dfrac{1}{100000};+\infty)$.",D. $[\dfrac{1}{100000};+\infty)$.,$\log x\ge -5\Leftrightarrow x\ge \dfrac{1}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{100000};+\infty)$.
-8183,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -4$ là
-
-A. $[\dfrac{1}{10000};+\infty)$.
-B. $(0;+\infty)$.
-C. $(-\infty;\dfrac{1}{10000})$.
-D. $(\dfrac{1}{10000};+\infty)$.",A. $[\dfrac{1}{10000};+\infty)$.,$\log x\ge -4\Leftrightarrow x\ge \dfrac{1}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{10000};+\infty)$.
-8184,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -3$ là
-
-A. $(\dfrac{1}{1000};+\infty)$.
-B. $(0;+\infty)$.
-C. $[\dfrac{1}{1000};+\infty)$.
-D. $(-\infty;\dfrac{1}{1000})$.",C. $[\dfrac{1}{1000};+\infty)$.,$\log x\ge -3\Leftrightarrow x\ge \dfrac{1}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{1000};+\infty)$.
-8185,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -2$ là
-
-A. $(0;+\infty)$.
-B. $(-\infty;\dfrac{1}{100})$.
-C. $(\dfrac{1}{100};+\infty)$.
-D. $[\dfrac{1}{100};+\infty)$.",D. $[\dfrac{1}{100};+\infty)$.,$\log x\ge -2\Leftrightarrow x\ge \dfrac{1}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{100};+\infty)$.
-8186,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge -1$ là
-
-A. $[\dfrac{1}{10};+\infty)$.
-B. $(0;+\infty)$.
-C. $(\dfrac{1}{10};+\infty)$.
-D. $(-\infty;\dfrac{1}{10})$.",A. $[\dfrac{1}{10};+\infty)$.,$\log x\ge -1\Leftrightarrow x\ge \dfrac{1}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{1}{10};+\infty)$.
-8187,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 0$ là
-
-A. $(-\infty;1)$.
-B. $(0;+\infty)$.
-C. $[1;+\infty)$.
-D. $(1;+\infty)$.",C. $[1;+\infty)$.,$\log x\ge 0\Leftrightarrow x\ge 1$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1;+\infty)$.
-8188,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 1$ là
-
-A. $(-\infty;10)$.
-B. $(0;+\infty)$.
-C. $(10;+\infty)$.
-D. $[10;+\infty)$.",D. $[10;+\infty)$.,$\log x\ge 1\Leftrightarrow x\ge 10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10;+\infty)$.
-8189,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 2$ là
-
-A. $[100;+\infty)$.
-B. $(-\infty;100)$.
-C. $(0;+\infty)$.
-D. $(100;+\infty)$.",A. $[100;+\infty)$.,$\log x\ge 2\Leftrightarrow x\ge 100$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100;+\infty)$.
-8190,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 3$ là
-
-A. $(0;+\infty)$.
-B. $[1000;+\infty)$.
-C. $(-\infty;1000)$.
-D. $(1000;+\infty)$.",B. $[1000;+\infty)$.,$\log x\ge 3\Leftrightarrow x\ge 1000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000;+\infty)$.
-8191,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 4$ là
-
-A. $(-\infty;10000)$.
-B. $(10000;+\infty)$.
-C. $[10000;+\infty)$.
-D. $(0;+\infty)$.",C. $[10000;+\infty)$.,$\log x\ge 4\Leftrightarrow x\ge 10000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000;+\infty)$.
-8192,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 5$ là
-
-A. $(-\infty;100000)$.
-B. $[100000;+\infty)$.
-C. $(100000;+\infty)$.
-D. $(0;+\infty)$.",B. $[100000;+\infty)$.,$\log x\ge 5\Leftrightarrow x\ge 100000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000;+\infty)$.
-8193,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 6$ là
-
-A. $[1000000;+\infty)$.
-B. $(1000000;+\infty)$.
-C. $(0;+\infty)$.
-D. $(-\infty;1000000)$.",A. $[1000000;+\infty)$.,$\log x\ge 6\Leftrightarrow x\ge 1000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000;+\infty)$.
-8194,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 7$ là
-
-A. $[10000000;+\infty)$.
-B. $(10000000;+\infty)$.
-C. $(0;+\infty)$.
-D. $(-\infty;10000000)$.",A. $[10000000;+\infty)$.,$\log x\ge 7\Leftrightarrow x\ge 10000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000;+\infty)$.
-8195,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 8$ là
-
-A. $(-\infty;100000000)$.
-B. $[100000000;+\infty)$.
-C. $(0;+\infty)$.
-D. $(100000000;+\infty)$.",B. $[100000000;+\infty)$.,$\log x\ge 8\Leftrightarrow x\ge 100000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000;+\infty)$.
-8196,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 9$ là
-
-A. $[1000000000;+\infty)$.
-B. $(-\infty;1000000000)$.
-C. $(0;+\infty)$.
-D. $(1000000000;+\infty)$.",A. $[1000000000;+\infty)$.,$\log x\ge 9\Leftrightarrow x\ge 1000000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000;+\infty)$.
-8197,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge 10$ là
-
-A. $(0;+\infty)$.
-B. $[10000000000;+\infty)$.
-C. $(-\infty;10000000000)$.
-D. $(10000000000;+\infty)$.",B. $[10000000000;+\infty)$.,$\log x\ge 10\Leftrightarrow x\ge 10000000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000000;+\infty)$.
-8198,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{19}{2}$ là
+8177,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{19}{2}$ là
 
 A. $(\dfrac{\sqrt{10}}{10000000000};+\infty)$.
 B. $[\dfrac{\sqrt{10}}{10000000000};+\infty)$.
-C. $(-\infty;\dfrac{\sqrt{10}}{10000000000})$.
-D. $(0;+\infty)$.",B. $[\dfrac{\sqrt{10}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{19}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10000000000};+\infty)$.
-8199,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{17}{2}$ là
+C. $(0;+\infty)$.
+D. $(-\infty;\dfrac{\sqrt{10}}{10000000000})$.",B. $[\dfrac{\sqrt{10}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{19}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10000000000};+\infty)$.
+8178,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{17}{2}$ là
 
-A. $(0;+\infty)$.
-B. $(-\infty;\dfrac{\sqrt{10}}{1000000000})$.
-C. $(\dfrac{\sqrt{10}}{1000000000};+\infty)$.
-D. $[\dfrac{\sqrt{10}}{1000000000};+\infty)$.",D. $[\dfrac{\sqrt{10}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{17}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{1000000000};+\infty)$.
-8200,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{15}{2}$ là
+A. $(\dfrac{\sqrt{10}}{1000000000};+\infty)$.
+B. $[\dfrac{\sqrt{10}}{1000000000};+\infty)$.
+C. $(0;+\infty)$.
+D. $(-\infty;\dfrac{\sqrt{10}}{1000000000})$.",B. $[\dfrac{\sqrt{10}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{17}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{1000000000};+\infty)$.
+8179,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{15}{2}$ là
 
-A. $(0;+\infty)$.
-B. $(-\infty;\dfrac{\sqrt{10}}{100000000})$.
-C. $(\dfrac{\sqrt{10}}{100000000};+\infty)$.
-D. $[\dfrac{\sqrt{10}}{100000000};+\infty)$.",D. $[\dfrac{\sqrt{10}}{100000000};+\infty)$.,$\log x\ge - \dfrac{15}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{100000000};+\infty)$.
-8201,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{13}{2}$ là
-
-A. $(0;+\infty)$.
-B. $[\dfrac{\sqrt{10}}{10000000};+\infty)$.
-C. $(\dfrac{\sqrt{10}}{10000000};+\infty)$.
-D. $(-\infty;\dfrac{\sqrt{10}}{10000000})$.",B. $[\dfrac{\sqrt{10}}{10000000};+\infty)$.,$\log x\ge - \dfrac{13}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10000000};+\infty)$.
-8202,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{11}{2}$ là
-
-A. $[\dfrac{\sqrt{10}}{1000000};+\infty)$.
+A. $(-\infty;\dfrac{\sqrt{10}}{100000000})$.
 B. $(0;+\infty)$.
+C. $[\dfrac{\sqrt{10}}{100000000};+\infty)$.
+D. $(\dfrac{\sqrt{10}}{100000000};+\infty)$.",C. $[\dfrac{\sqrt{10}}{100000000};+\infty)$.,$\log x\ge - \dfrac{15}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{100000000};+\infty)$.
+8180,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{13}{2}$ là
+
+A. $(0;+\infty)$.
+B. $(-\infty;\dfrac{\sqrt{10}}{10000000})$.
+C. $[\dfrac{\sqrt{10}}{10000000};+\infty)$.
+D. $(\dfrac{\sqrt{10}}{10000000};+\infty)$.",C. $[\dfrac{\sqrt{10}}{10000000};+\infty)$.,$\log x\ge - \dfrac{13}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10000000};+\infty)$.
+8181,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{11}{2}$ là
+
+A. $(0;+\infty)$.
+B. $[\dfrac{\sqrt{10}}{1000000};+\infty)$.
 C. $(\dfrac{\sqrt{10}}{1000000};+\infty)$.
-D. $(-\infty;\dfrac{\sqrt{10}}{1000000})$.",A. $[\dfrac{\sqrt{10}}{1000000};+\infty)$.,$\log x\ge - \dfrac{11}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{1000000};+\infty)$.
-8203,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{9}{2}$ là
+D. $(-\infty;\dfrac{\sqrt{10}}{1000000})$.",B. $[\dfrac{\sqrt{10}}{1000000};+\infty)$.,$\log x\ge - \dfrac{11}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{1000000};+\infty)$.
+8182,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{9}{2}$ là
 
-A. $[\dfrac{\sqrt{10}}{100000};+\infty)$.
+A. $(\dfrac{\sqrt{10}}{100000};+\infty)$.
+B. $(-\infty;\dfrac{\sqrt{10}}{100000})$.
+C. $(0;+\infty)$.
+D. $[\dfrac{\sqrt{10}}{100000};+\infty)$.",D. $[\dfrac{\sqrt{10}}{100000};+\infty)$.,$\log x\ge - \dfrac{9}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{100000};+\infty)$.
+8183,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{7}{2}$ là
+
+A. $[\dfrac{\sqrt{10}}{10000};+\infty)$.
 B. $(0;+\infty)$.
-C. $(\dfrac{\sqrt{10}}{100000};+\infty)$.
-D. $(-\infty;\dfrac{\sqrt{10}}{100000})$.",A. $[\dfrac{\sqrt{10}}{100000};+\infty)$.,$\log x\ge - \dfrac{9}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{100000};+\infty)$.
-8204,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{7}{2}$ là
+C. $(-\infty;\dfrac{\sqrt{10}}{10000})$.
+D. $(\dfrac{\sqrt{10}}{10000};+\infty)$.",A. $[\dfrac{\sqrt{10}}{10000};+\infty)$.,$\log x\ge - \dfrac{7}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10000};+\infty)$.
+8184,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{5}{2}$ là
 
-A. $(\dfrac{\sqrt{10}}{10000};+\infty)$.
-B. $[\dfrac{\sqrt{10}}{10000};+\infty)$.
-C. $(0;+\infty)$.
-D. $(-\infty;\dfrac{\sqrt{10}}{10000})$.",B. $[\dfrac{\sqrt{10}}{10000};+\infty)$.,$\log x\ge - \dfrac{7}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10000};+\infty)$.
-8205,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{5}{2}$ là
+A. $(\dfrac{\sqrt{10}}{1000};+\infty)$.
+B. $(0;+\infty)$.
+C. $[\dfrac{\sqrt{10}}{1000};+\infty)$.
+D. $(-\infty;\dfrac{\sqrt{10}}{1000})$.",C. $[\dfrac{\sqrt{10}}{1000};+\infty)$.,$\log x\ge - \dfrac{5}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{1000};+\infty)$.
+8185,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{3}{2}$ là
 
-A. $[\dfrac{\sqrt{10}}{1000};+\infty)$.
-B. $(\dfrac{\sqrt{10}}{1000};+\infty)$.
-C. $(-\infty;\dfrac{\sqrt{10}}{1000})$.
-D. $(0;+\infty)$.",A. $[\dfrac{\sqrt{10}}{1000};+\infty)$.,$\log x\ge - \dfrac{5}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{1000};+\infty)$.
-8206,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{3}{2}$ là
-
-A. $(\dfrac{\sqrt{10}}{100};+\infty)$.
+A. $(0;+\infty)$.
 B. $(-\infty;\dfrac{\sqrt{10}}{100})$.
-C. $[\dfrac{\sqrt{10}}{100};+\infty)$.
-D. $(0;+\infty)$.",C. $[\dfrac{\sqrt{10}}{100};+\infty)$.,$\log x\ge - \dfrac{3}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{100};+\infty)$.
-8207,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{1}{2}$ là
+C. $(\dfrac{\sqrt{10}}{100};+\infty)$.
+D. $[\dfrac{\sqrt{10}}{100};+\infty)$.",D. $[\dfrac{\sqrt{10}}{100};+\infty)$.,$\log x\ge - \dfrac{3}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{100};+\infty)$.
+8186,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{1}{2}$ là
 
-A. $(\dfrac{\sqrt{10}}{10};+\infty)$.
-B. $(-\infty;\dfrac{\sqrt{10}}{10})$.
-C. $(0;+\infty)$.
-D. $[\dfrac{\sqrt{10}}{10};+\infty)$.",D. $[\dfrac{\sqrt{10}}{10};+\infty)$.,$\log x\ge - \dfrac{1}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10};+\infty)$.
-8208,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{1}{2}$ là
+A. $[\dfrac{\sqrt{10}}{10};+\infty)$.
+B. $(0;+\infty)$.
+C. $(\dfrac{\sqrt{10}}{10};+\infty)$.
+D. $(-\infty;\dfrac{\sqrt{10}}{10})$.",A. $[\dfrac{\sqrt{10}}{10};+\infty)$.,$\log x\ge - \dfrac{1}{2}\Leftrightarrow x\ge \dfrac{\sqrt{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt{10}}{10};+\infty)$.
+8187,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{1}{2}$ là
 
-A. $(\sqrt{10};+\infty)$.
+A. $(-\infty;\sqrt{10})$.
 B. $(0;+\infty)$.
 C. $[\sqrt{10};+\infty)$.
-D. $(-\infty;\sqrt{10})$.",C. $[\sqrt{10};+\infty)$.,$\log x\ge \dfrac{1}{2}\Leftrightarrow x\ge \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\sqrt{10};+\infty)$.
-8209,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{3}{2}$ là
+D. $(\sqrt{10};+\infty)$.",C. $[\sqrt{10};+\infty)$.,$\log x\ge \dfrac{1}{2}\Leftrightarrow x\ge \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\sqrt{10};+\infty)$.
+8188,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{3}{2}$ là
 
-A. $[10 \sqrt{10};+\infty)$.
+A. $(-\infty;10 \sqrt{10})$.
 B. $(0;+\infty)$.
 C. $(10 \sqrt{10};+\infty)$.
-D. $(-\infty;10 \sqrt{10})$.",A. $[10 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{3}{2}\Leftrightarrow x\ge 10 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \sqrt{10};+\infty)$.
-8210,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{5}{2}$ là
+D. $[10 \sqrt{10};+\infty)$.",D. $[10 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{3}{2}\Leftrightarrow x\ge 10 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \sqrt{10};+\infty)$.
+8189,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{5}{2}$ là
+
+A. $[100 \sqrt{10};+\infty)$.
+B. $(-\infty;100 \sqrt{10})$.
+C. $(0;+\infty)$.
+D. $(100 \sqrt{10};+\infty)$.",A. $[100 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{5}{2}\Leftrightarrow x\ge 100 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \sqrt{10};+\infty)$.
+8190,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{7}{2}$ là
 
 A. $(0;+\infty)$.
-B. $(-\infty;100 \sqrt{10})$.
-C. $(100 \sqrt{10};+\infty)$.
-D. $[100 \sqrt{10};+\infty)$.",D. $[100 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{5}{2}\Leftrightarrow x\ge 100 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \sqrt{10};+\infty)$.
-8211,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{7}{2}$ là
-
-A. $[1000 \sqrt{10};+\infty)$.
-B. $(-\infty;1000 \sqrt{10})$.
-C. $(0;+\infty)$.
-D. $(1000 \sqrt{10};+\infty)$.",A. $[1000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{7}{2}\Leftrightarrow x\ge 1000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \sqrt{10};+\infty)$.
-8212,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{9}{2}$ là
+B. $[1000 \sqrt{10};+\infty)$.
+C. $(-\infty;1000 \sqrt{10})$.
+D. $(1000 \sqrt{10};+\infty)$.",B. $[1000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{7}{2}\Leftrightarrow x\ge 1000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \sqrt{10};+\infty)$.
+8191,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{9}{2}$ là
 
 A. $(-\infty;10000 \sqrt{10})$.
-B. $[10000 \sqrt{10};+\infty)$.
-C. $(10000 \sqrt{10};+\infty)$.
-D. $(0;+\infty)$.",B. $[10000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{9}{2}\Leftrightarrow x\ge 10000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \sqrt{10};+\infty)$.
-8213,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{11}{2}$ là
+B. $(10000 \sqrt{10};+\infty)$.
+C. $[10000 \sqrt{10};+\infty)$.
+D. $(0;+\infty)$.",C. $[10000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{9}{2}\Leftrightarrow x\ge 10000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \sqrt{10};+\infty)$.
+8192,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{11}{2}$ là
 
-A. $[100000 \sqrt{10};+\infty)$.
-B. $(100000 \sqrt{10};+\infty)$.
-C. $(-\infty;100000 \sqrt{10})$.
-D. $(0;+\infty)$.",A. $[100000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{11}{2}\Leftrightarrow x\ge 100000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \sqrt{10};+\infty)$.
-8214,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{13}{2}$ là
+A. $(-\infty;100000 \sqrt{10})$.
+B. $[100000 \sqrt{10};+\infty)$.
+C. $(100000 \sqrt{10};+\infty)$.
+D. $(0;+\infty)$.",B. $[100000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{11}{2}\Leftrightarrow x\ge 100000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \sqrt{10};+\infty)$.
+8193,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{13}{2}$ là
 
-A. $(1000000 \sqrt{10};+\infty)$.
-B. $(-\infty;1000000 \sqrt{10})$.
+A. $[1000000 \sqrt{10};+\infty)$.
+B. $(1000000 \sqrt{10};+\infty)$.
 C. $(0;+\infty)$.
-D. $[1000000 \sqrt{10};+\infty)$.",D. $[1000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{13}{2}\Leftrightarrow x\ge 1000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \sqrt{10};+\infty)$.
-8215,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{15}{2}$ là
+D. $(-\infty;1000000 \sqrt{10})$.",A. $[1000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{13}{2}\Leftrightarrow x\ge 1000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \sqrt{10};+\infty)$.
+8194,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{15}{2}$ là
 
-A. $(10000000 \sqrt{10};+\infty)$.
-B. $[10000000 \sqrt{10};+\infty)$.
+A. $[10000000 \sqrt{10};+\infty)$.
+B. $(10000000 \sqrt{10};+\infty)$.
 C. $(0;+\infty)$.
-D. $(-\infty;10000000 \sqrt{10})$.",B. $[10000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{15}{2}\Leftrightarrow x\ge 10000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \sqrt{10};+\infty)$.
-8216,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{17}{2}$ là
+D. $(-\infty;10000000 \sqrt{10})$.",A. $[10000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{15}{2}\Leftrightarrow x\ge 10000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \sqrt{10};+\infty)$.
+8195,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{17}{2}$ là
+
+A. $(-\infty;100000000 \sqrt{10})$.
+B. $[100000000 \sqrt{10};+\infty)$.
+C. $(0;+\infty)$.
+D. $(100000000 \sqrt{10};+\infty)$.",B. $[100000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{17}{2}\Leftrightarrow x\ge 100000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \sqrt{10};+\infty)$.
+8196,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{19}{2}$ là
+
+A. $[1000000000 \sqrt{10};+\infty)$.
+B. $(-\infty;1000000000 \sqrt{10})$.
+C. $(0;+\infty)$.
+D. $(1000000000 \sqrt{10};+\infty)$.",A. $[1000000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{19}{2}\Leftrightarrow x\ge 1000000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \sqrt{10};+\infty)$.
+8197,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{29}{3}$ là
 
 A. $(0;+\infty)$.
-B. $(-\infty;100000000 \sqrt{10})$.
-C. $(100000000 \sqrt{10};+\infty)$.
-D. $[100000000 \sqrt{10};+\infty)$.",D. $[100000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{17}{2}\Leftrightarrow x\ge 100000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \sqrt{10};+\infty)$.
-8217,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{19}{2}$ là
-
-A. $(0;+\infty)$.
-B. $(1000000000 \sqrt{10};+\infty)$.
-C. $(-\infty;1000000000 \sqrt{10})$.
-D. $[1000000000 \sqrt{10};+\infty)$.",D. $[1000000000 \sqrt{10};+\infty)$.,$\log x\ge \dfrac{19}{2}\Leftrightarrow x\ge 1000000000 \sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \sqrt{10};+\infty)$.
-8218,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{29}{3}$ là
-
-A. $(-\infty;\dfrac{\sqrt[3]{10}}{10000000000})$.
-B. $(\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.
-C. $(0;+\infty)$.
-D. $[\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.",D. $[\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{29}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.
-8219,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{28}{3}$ là
+B. $[\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.
+C. $(-\infty;\dfrac{\sqrt[3]{10}}{10000000000})$.
+D. $(\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.",B. $[\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{29}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10000000000};+\infty)$.
+8198,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{28}{3}$ là
 
 A. $(\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.
-B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10000000000})$.
-C. $[\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.
-D. $(0;+\infty)$.",C. $[\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{28}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.
-8220,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{26}{3}$ là
-
-A. $[\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.
-B. $(-\infty;\dfrac{\sqrt[3]{10}}{1000000000})$.
-C. $(\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.
-D. $(0;+\infty)$.",A. $[\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{26}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.
-8221,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{25}{3}$ là
-
-A. $(\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.
-B. $(0;+\infty)$.
-C. $[\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.
-D. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{1000000000})$.",C. $[\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{25}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.
-8222,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{23}{3}$ là
-
-A. $(\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.
-B. $(0;+\infty)$.
-C. $(-\infty;\dfrac{\sqrt[3]{10}}{100000000})$.
-D. $[\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.",D. $[\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.,$\log x\ge - \dfrac{23}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.
-8223,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{22}{3}$ là
-
-A. $[\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.
-B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{100000000})$.
-C. $(\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.
-D. $(0;+\infty)$.",A. $[\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.,$\log x\ge - \dfrac{22}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.
-8224,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{20}{3}$ là
+B. $[\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.
+C. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10000000000})$.
+D. $(0;+\infty)$.",B. $[\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{28}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10000000000};+\infty)$.
+8199,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{26}{3}$ là
 
 A. $(0;+\infty)$.
-B. $[\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.
-C. $(-\infty;\dfrac{\sqrt[3]{10}}{10000000})$.
-D. $(\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.",B. $[\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.,$\log x\ge - \dfrac{20}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.
-8225,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{19}{3}$ là
+B. $(-\infty;\dfrac{\sqrt[3]{10}}{1000000000})$.
+C. $(\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.
+D. $[\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.",D. $[\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{26}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{1000000000};+\infty)$.
+8200,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{25}{3}$ là
 
-A. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10000000})$.
+A. $(0;+\infty)$.
+B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{1000000000})$.
+C. $(\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.
+D. $[\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.",D. $[\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{25}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{1000000000};+\infty)$.
+8201,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{23}{3}$ là
+
+A. $(0;+\infty)$.
+B. $[\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.
+C. $(\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.
+D. $(-\infty;\dfrac{\sqrt[3]{10}}{100000000})$.",B. $[\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.,$\log x\ge - \dfrac{23}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{100000000};+\infty)$.
+8202,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{22}{3}$ là
+
+A. $[\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.
 B. $(0;+\infty)$.
-C. $(\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.
-D. $[\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.",D. $[\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.,$\log x\ge - \dfrac{19}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.
-8226,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{17}{3}$ là
+C. $(\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.
+D. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{100000000})$.",A. $[\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.,$\log x\ge - \dfrac{22}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{100000000};+\infty)$.
+8203,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{20}{3}$ là
+
+A. $[\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.
+B. $(0;+\infty)$.
+C. $(\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.
+D. $(-\infty;\dfrac{\sqrt[3]{10}}{10000000})$.",A. $[\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.,$\log x\ge - \dfrac{20}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10000000};+\infty)$.
+8204,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{19}{3}$ là
+
+A. $(\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.
+B. $[\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.
+C. $(0;+\infty)$.
+D. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10000000})$.",B. $[\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.,$\log x\ge - \dfrac{19}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10000000};+\infty)$.
+8205,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{17}{3}$ là
 
 A. $[\dfrac{\sqrt[3]{10}}{1000000};+\infty)$.
 B. $(\dfrac{\sqrt[3]{10}}{1000000};+\infty)$.
-C. $(0;+\infty)$.
-D. $(-\infty;\dfrac{\sqrt[3]{10}}{1000000})$.",A. $[\dfrac{\sqrt[3]{10}}{1000000};+\infty)$.,$\log x\ge - \dfrac{17}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{1000000};+\infty)$.
-8227,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{16}{3}$ là
+C. $(-\infty;\dfrac{\sqrt[3]{10}}{1000000})$.
+D. $(0;+\infty)$.",A. $[\dfrac{\sqrt[3]{10}}{1000000};+\infty)$.,$\log x\ge - \dfrac{17}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{1000000};+\infty)$.
+8206,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{16}{3}$ là
 
-A. $(0;+\infty)$.
+A. $(\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.
 B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{1000000})$.
 C. $[\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.
-D. $(\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.",C. $[\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.,$\log x\ge - \dfrac{16}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.
-8228,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{14}{3}$ là
+D. $(0;+\infty)$.",C. $[\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.,$\log x\ge - \dfrac{16}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{1000000};+\infty)$.
+8207,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{14}{3}$ là
 
-A. $(0;+\infty)$.
+A. $(\dfrac{\sqrt[3]{10}}{100000};+\infty)$.
 B. $(-\infty;\dfrac{\sqrt[3]{10}}{100000})$.
-C. $[\dfrac{\sqrt[3]{10}}{100000};+\infty)$.
-D. $(\dfrac{\sqrt[3]{10}}{100000};+\infty)$.",C. $[\dfrac{\sqrt[3]{10}}{100000};+\infty)$.,$\log x\ge - \dfrac{14}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{100000};+\infty)$.
-8229,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{13}{3}$ là
+C. $(0;+\infty)$.
+D. $[\dfrac{\sqrt[3]{10}}{100000};+\infty)$.",D. $[\dfrac{\sqrt[3]{10}}{100000};+\infty)$.,$\log x\ge - \dfrac{14}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{100000};+\infty)$.
+8208,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{13}{3}$ là
 
 A. $(\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.
 B. $(0;+\infty)$.
-C. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{100000})$.
-D. $[\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.",D. $[\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.,$\log x\ge - \dfrac{13}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.
-8230,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{11}{3}$ là
+C. $[\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.
+D. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{100000})$.",C. $[\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.,$\log x\ge - \dfrac{13}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{100000};+\infty)$.
+8209,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{11}{3}$ là
 
 A. $[\dfrac{\sqrt[3]{10}}{10000};+\infty)$.
-B. $(-\infty;\dfrac{\sqrt[3]{10}}{10000})$.
-C. $(0;+\infty)$.
-D. $(\dfrac{\sqrt[3]{10}}{10000};+\infty)$.",A. $[\dfrac{\sqrt[3]{10}}{10000};+\infty)$.,$\log x\ge - \dfrac{11}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10000};+\infty)$.
-8231,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{10}{3}$ là
+B. $(0;+\infty)$.
+C. $(\dfrac{\sqrt[3]{10}}{10000};+\infty)$.
+D. $(-\infty;\dfrac{\sqrt[3]{10}}{10000})$.",A. $[\dfrac{\sqrt[3]{10}}{10000};+\infty)$.,$\log x\ge - \dfrac{11}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10000};+\infty)$.
+8210,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{10}{3}$ là
 
 A. $(0;+\infty)$.
-B. $(\dfrac{10^{\dfrac{2}{3}}}{10000};+\infty)$.
-C. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10000})$.
+B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10000})$.
+C. $(\dfrac{10^{\dfrac{2}{3}}}{10000};+\infty)$.
 D. $[\dfrac{10^{\dfrac{2}{3}}}{10000};+\infty)$.",D. $[\dfrac{10^{\dfrac{2}{3}}}{10000};+\infty)$.,$\log x\ge - \dfrac{10}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10000};+\infty)$.
-8232,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{8}{3}$ là
+8211,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{8}{3}$ là
 
-A. $(-\infty;\dfrac{\sqrt[3]{10}}{1000})$.
-B. $(\dfrac{\sqrt[3]{10}}{1000};+\infty)$.
-C. $[\dfrac{\sqrt[3]{10}}{1000};+\infty)$.
-D. $(0;+\infty)$.",C. $[\dfrac{\sqrt[3]{10}}{1000};+\infty)$.,$\log x\ge - \dfrac{8}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{1000};+\infty)$.
-8233,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{7}{3}$ là
+A. $[\dfrac{\sqrt[3]{10}}{1000};+\infty)$.
+B. $(-\infty;\dfrac{\sqrt[3]{10}}{1000})$.
+C. $(0;+\infty)$.
+D. $(\dfrac{\sqrt[3]{10}}{1000};+\infty)$.",A. $[\dfrac{\sqrt[3]{10}}{1000};+\infty)$.,$\log x\ge - \dfrac{8}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{1000};+\infty)$.
+8212,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{7}{3}$ là
 
-A. $[\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.
-B. $(\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.
-C. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{1000})$.
-D. $(0;+\infty)$.",A. $[\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.,$\log x\ge - \dfrac{7}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.
-8234,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{5}{3}$ là
+A. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{1000})$.
+B. $[\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.
+C. $(\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.
+D. $(0;+\infty)$.",B. $[\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.,$\log x\ge - \dfrac{7}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{1000};+\infty)$.
+8213,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{5}{3}$ là
 
-A. $(0;+\infty)$.
+A. $[\dfrac{\sqrt[3]{10}}{100};+\infty)$.
 B. $(\dfrac{\sqrt[3]{10}}{100};+\infty)$.
 C. $(-\infty;\dfrac{\sqrt[3]{10}}{100})$.
-D. $[\dfrac{\sqrt[3]{10}}{100};+\infty)$.",D. $[\dfrac{\sqrt[3]{10}}{100};+\infty)$.,$\log x\ge - \dfrac{5}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{100};+\infty)$.
-8235,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{4}{3}$ là
+D. $(0;+\infty)$.",A. $[\dfrac{\sqrt[3]{10}}{100};+\infty)$.,$\log x\ge - \dfrac{5}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{100};+\infty)$.
+8214,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{4}{3}$ là
 
-A. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{100})$.
-B. $[\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.
-C. $(\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.
-D. $(0;+\infty)$.",B. $[\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.,$\log x\ge - \dfrac{4}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.
-8236,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{2}{3}$ là
-
-A. $[\dfrac{\sqrt[3]{10}}{10};+\infty)$.
-B. $(\dfrac{\sqrt[3]{10}}{10};+\infty)$.
+A. $(\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.
+B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{100})$.
 C. $(0;+\infty)$.
-D. $(-\infty;\dfrac{\sqrt[3]{10}}{10})$.",A. $[\dfrac{\sqrt[3]{10}}{10};+\infty)$.,$\log x\ge - \dfrac{2}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10};+\infty)$.
-8237,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{1}{3}$ là
+D. $[\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.",D. $[\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.,$\log x\ge - \dfrac{4}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{100};+\infty)$.
+8215,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{2}{3}$ là
+
+A. $(\dfrac{\sqrt[3]{10}}{10};+\infty)$.
+B. $[\dfrac{\sqrt[3]{10}}{10};+\infty)$.
+C. $(0;+\infty)$.
+D. $(-\infty;\dfrac{\sqrt[3]{10}}{10})$.",B. $[\dfrac{\sqrt[3]{10}}{10};+\infty)$.,$\log x\ge - \dfrac{2}{3}\Leftrightarrow x\ge \dfrac{\sqrt[3]{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[3]{10}}{10};+\infty)$.
+8216,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{1}{3}$ là
 
 A. $(0;+\infty)$.
 B. $(-\infty;\dfrac{10^{\dfrac{2}{3}}}{10})$.
-C. $[\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.
-D. $(\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.",C. $[\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.,$\log x\ge - \dfrac{1}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.
-8238,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{1}{3}$ là
-
-A. $(\sqrt[3]{10};+\infty)$.
-B. $(0;+\infty)$.
-C. $[\sqrt[3]{10};+\infty)$.
-D. $(-\infty;\sqrt[3]{10})$.",C. $[\sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{1}{3}\Leftrightarrow x\ge \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\sqrt[3]{10};+\infty)$.
-8239,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{2}{3}$ là
-
-A. $[10^{\dfrac{2}{3}};+\infty)$.
-B. $(0;+\infty)$.
-C. $(-\infty;10^{\dfrac{2}{3}})$.
-D. $(10^{\dfrac{2}{3}};+\infty)$.",A. $[10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{2}{3}\Leftrightarrow x\ge 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10^{\dfrac{2}{3}};+\infty)$.
-8240,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{4}{3}$ là
+C. $(\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.
+D. $[\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.",D. $[\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.,$\log x\ge - \dfrac{1}{3}\Leftrightarrow x\ge \dfrac{10^{\dfrac{2}{3}}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{2}{3}}}{10};+\infty)$.
+8217,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{1}{3}$ là
 
 A. $(0;+\infty)$.
-B. $[10 \sqrt[3]{10};+\infty)$.
-C. $(-\infty;10 \sqrt[3]{10})$.
-D. $(10 \sqrt[3]{10};+\infty)$.",B. $[10 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{4}{3}\Leftrightarrow x\ge 10 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \sqrt[3]{10};+\infty)$.
-8241,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{5}{3}$ là
+B. $(\sqrt[3]{10};+\infty)$.
+C. $(-\infty;\sqrt[3]{10})$.
+D. $[\sqrt[3]{10};+\infty)$.",D. $[\sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{1}{3}\Leftrightarrow x\ge \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\sqrt[3]{10};+\infty)$.
+8218,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{2}{3}$ là
 
-A. $(10 \cdot 10^{\dfrac{2}{3}};+\infty)$.
-B. $(-\infty;10 \cdot 10^{\dfrac{2}{3}})$.
+A. $(-\infty;10^{\dfrac{2}{3}})$.
+B. $(10^{\dfrac{2}{3}};+\infty)$.
 C. $(0;+\infty)$.
-D. $[10 \cdot 10^{\dfrac{2}{3}};+\infty)$.",D. $[10 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{5}{3}\Leftrightarrow x\ge 10 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \cdot 10^{\dfrac{2}{3}};+\infty)$.
-8242,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{7}{3}$ là
+D. $[10^{\dfrac{2}{3}};+\infty)$.",D. $[10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{2}{3}\Leftrightarrow x\ge 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10^{\dfrac{2}{3}};+\infty)$.
+8219,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{4}{3}$ là
 
-A. $(-\infty;100 \sqrt[3]{10})$.
-B. $[100 \sqrt[3]{10};+\infty)$.
-C. $(100 \sqrt[3]{10};+\infty)$.
-D. $(0;+\infty)$.",B. $[100 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{7}{3}\Leftrightarrow x\ge 100 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \sqrt[3]{10};+\infty)$.
-8243,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{8}{3}$ là
+A. $(10 \sqrt[3]{10};+\infty)$.
+B. $(-\infty;10 \sqrt[3]{10})$.
+C. $[10 \sqrt[3]{10};+\infty)$.
+D. $(0;+\infty)$.",C. $[10 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{4}{3}\Leftrightarrow x\ge 10 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \sqrt[3]{10};+\infty)$.
+8220,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{5}{3}$ là
 
-A. $(0;+\infty)$.
-B. $[100 \cdot 10^{\dfrac{2}{3}};+\infty)$.
-C. $(100 \cdot 10^{\dfrac{2}{3}};+\infty)$.
-D. $(-\infty;100 \cdot 10^{\dfrac{2}{3}})$.",B. $[100 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{8}{3}\Leftrightarrow x\ge 100 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \cdot 10^{\dfrac{2}{3}};+\infty)$.
-8244,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{10}{3}$ là
+A. $[10 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+B. $(-\infty;10 \cdot 10^{\dfrac{2}{3}})$.
+C. $(10 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+D. $(0;+\infty)$.",A. $[10 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{5}{3}\Leftrightarrow x\ge 10 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8221,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{7}{3}$ là
 
-A. $(1000 \sqrt[3]{10};+\infty)$.
+A. $(100 \sqrt[3]{10};+\infty)$.
+B. $(0;+\infty)$.
+C. $[100 \sqrt[3]{10};+\infty)$.
+D. $(-\infty;100 \sqrt[3]{10})$.",C. $[100 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{7}{3}\Leftrightarrow x\ge 100 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \sqrt[3]{10};+\infty)$.
+8222,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{8}{3}$ là
+
+A. $(100 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+B. $(0;+\infty)$.
+C. $(-\infty;100 \cdot 10^{\dfrac{2}{3}})$.
+D. $[100 \cdot 10^{\dfrac{2}{3}};+\infty)$.",D. $[100 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{8}{3}\Leftrightarrow x\ge 100 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8223,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{10}{3}$ là
+
+A. $[1000 \sqrt[3]{10};+\infty)$.
 B. $(-\infty;1000 \sqrt[3]{10})$.
-C. $[1000 \sqrt[3]{10};+\infty)$.
-D. $(0;+\infty)$.",C. $[1000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{10}{3}\Leftrightarrow x\ge 1000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \sqrt[3]{10};+\infty)$.
-8245,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{11}{3}$ là
+C. $(1000 \sqrt[3]{10};+\infty)$.
+D. $(0;+\infty)$.",A. $[1000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{10}{3}\Leftrightarrow x\ge 1000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \sqrt[3]{10};+\infty)$.
+8224,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{11}{3}$ là
 
 A. $(0;+\infty)$.
-B. $(-\infty;1000 \cdot 10^{\dfrac{2}{3}})$.
-C. $(1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
-D. $[1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.",D. $[1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{11}{3}\Leftrightarrow x\ge 1000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+B. $[1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+C. $(-\infty;1000 \cdot 10^{\dfrac{2}{3}})$.
+D. $(1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.",B. $[1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{11}{3}\Leftrightarrow x\ge 1000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8225,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{13}{3}$ là
+
+A. $(-\infty;10000 \sqrt[3]{10})$.
+B. $(0;+\infty)$.
+C. $(10000 \sqrt[3]{10};+\infty)$.
+D. $[10000 \sqrt[3]{10};+\infty)$.",D. $[10000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{13}{3}\Leftrightarrow x\ge 10000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \sqrt[3]{10};+\infty)$.
+8226,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{14}{3}$ là
+
+A. $[10000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+B. $(10000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+C. $(0;+\infty)$.
+D. $(-\infty;10000 \cdot 10^{\dfrac{2}{3}})$.",A. $[10000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{14}{3}\Leftrightarrow x\ge 10000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8227,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{16}{3}$ là
+
+A. $(0;+\infty)$.
+B. $(-\infty;100000 \sqrt[3]{10})$.
+C. $[100000 \sqrt[3]{10};+\infty)$.
+D. $(100000 \sqrt[3]{10};+\infty)$.",C. $[100000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{16}{3}\Leftrightarrow x\ge 100000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \sqrt[3]{10};+\infty)$.
+8228,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{17}{3}$ là
+
+A. $(0;+\infty)$.
+B. $(-\infty;100000 \cdot 10^{\dfrac{2}{3}})$.
+C. $[100000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+D. $(100000 \cdot 10^{\dfrac{2}{3}};+\infty)$.",C. $[100000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{17}{3}\Leftrightarrow x\ge 100000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8229,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{19}{3}$ là
+
+A. $(1000000 \sqrt[3]{10};+\infty)$.
+B. $(0;+\infty)$.
+C. $(-\infty;1000000 \sqrt[3]{10})$.
+D. $[1000000 \sqrt[3]{10};+\infty)$.",D. $[1000000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{19}{3}\Leftrightarrow x\ge 1000000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \sqrt[3]{10};+\infty)$.
+8230,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{20}{3}$ là
+
+A. $[1000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+B. $(-\infty;1000000 \cdot 10^{\dfrac{2}{3}})$.
+C. $(0;+\infty)$.
+D. $(1000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.",A. $[1000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{20}{3}\Leftrightarrow x\ge 1000000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8231,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{22}{3}$ là
+
+A. $(0;+\infty)$.
+B. $(10000000 \sqrt[3]{10};+\infty)$.
+C. $(-\infty;10000000 \sqrt[3]{10})$.
+D. $[10000000 \sqrt[3]{10};+\infty)$.",D. $[10000000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{22}{3}\Leftrightarrow x\ge 10000000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \sqrt[3]{10};+\infty)$.
+8232,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{23}{3}$ là
+
+A. $(-\infty;10000000 \cdot 10^{\dfrac{2}{3}})$.
+B. $(10000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+C. $[10000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+D. $(0;+\infty)$.",C. $[10000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{23}{3}\Leftrightarrow x\ge 10000000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8233,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{25}{3}$ là
+
+A. $[100000000 \sqrt[3]{10};+\infty)$.
+B. $(100000000 \sqrt[3]{10};+\infty)$.
+C. $(-\infty;100000000 \sqrt[3]{10})$.
+D. $(0;+\infty)$.",A. $[100000000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{25}{3}\Leftrightarrow x\ge 100000000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \sqrt[3]{10};+\infty)$.
+8234,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{26}{3}$ là
+
+A. $(0;+\infty)$.
+B. $(100000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+C. $(-\infty;100000000 \cdot 10^{\dfrac{2}{3}})$.
+D. $[100000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.",D. $[100000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{26}{3}\Leftrightarrow x\ge 100000000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8235,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{28}{3}$ là
+
+A. $(-\infty;1000000000 \sqrt[3]{10})$.
+B. $[1000000000 \sqrt[3]{10};+\infty)$.
+C. $(1000000000 \sqrt[3]{10};+\infty)$.
+D. $(0;+\infty)$.",B. $[1000000000 \sqrt[3]{10};+\infty)$.,$\log x\ge \dfrac{28}{3}\Leftrightarrow x\ge 1000000000 \sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \sqrt[3]{10};+\infty)$.
+8236,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge \dfrac{29}{3}$ là
+
+A. $[1000000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+B. $(1000000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+C. $(0;+\infty)$.
+D. $(-\infty;1000000000 \cdot 10^{\dfrac{2}{3}})$.",A. $[1000000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.,$\log x\ge \dfrac{29}{3}\Leftrightarrow x\ge 1000000000 \cdot 10^{\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \cdot 10^{\dfrac{2}{3}};+\infty)$.
+8237,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{39}{4}$ là
+
+A. $(0;+\infty)$.
+B. $(-\infty;\dfrac{\sqrt[4]{10}}{10000000000})$.
+C. $[\dfrac{\sqrt[4]{10}}{10000000000};+\infty)$.
+D. $(\dfrac{\sqrt[4]{10}}{10000000000};+\infty)$.",C. $[\dfrac{\sqrt[4]{10}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{39}{4}\Leftrightarrow x\ge \dfrac{\sqrt[4]{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[4]{10}}{10000000000};+\infty)$.
+8238,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{37}{4}$ là
+
+A. $(\dfrac{10^{\dfrac{3}{4}}}{10000000000};+\infty)$.
+B. $(0;+\infty)$.
+C. $[\dfrac{10^{\dfrac{3}{4}}}{10000000000};+\infty)$.
+D. $(-\infty;\dfrac{10^{\dfrac{3}{4}}}{10000000000})$.",C. $[\dfrac{10^{\dfrac{3}{4}}}{10000000000};+\infty)$.,$\log x\ge - \dfrac{37}{4}\Leftrightarrow x\ge \dfrac{10^{\dfrac{3}{4}}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{3}{4}}}{10000000000};+\infty)$.
+8239,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{35}{4}$ là
+
+A. $[\dfrac{\sqrt[4]{10}}{1000000000};+\infty)$.
+B. $(0;+\infty)$.
+C. $(-\infty;\dfrac{\sqrt[4]{10}}{1000000000})$.
+D. $(\dfrac{\sqrt[4]{10}}{1000000000};+\infty)$.",A. $[\dfrac{\sqrt[4]{10}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{35}{4}\Leftrightarrow x\ge \dfrac{\sqrt[4]{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[4]{10}}{1000000000};+\infty)$.
+8240,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{33}{4}$ là
+
+A. $(0;+\infty)$.
+B. $[\dfrac{10^{\dfrac{3}{4}}}{1000000000};+\infty)$.
+C. $(-\infty;\dfrac{10^{\dfrac{3}{4}}}{1000000000})$.
+D. $(\dfrac{10^{\dfrac{3}{4}}}{1000000000};+\infty)$.",B. $[\dfrac{10^{\dfrac{3}{4}}}{1000000000};+\infty)$.,$\log x\ge - \dfrac{33}{4}\Leftrightarrow x\ge \dfrac{10^{\dfrac{3}{4}}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{3}{4}}}{1000000000};+\infty)$.
+8241,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{31}{4}$ là
+
+A. $(\dfrac{\sqrt[4]{10}}{100000000};+\infty)$.
+B. $(-\infty;\dfrac{\sqrt[4]{10}}{100000000})$.
+C. $(0;+\infty)$.
+D. $[\dfrac{\sqrt[4]{10}}{100000000};+\infty)$.",D. $[\dfrac{\sqrt[4]{10}}{100000000};+\infty)$.,$\log x\ge - \dfrac{31}{4}\Leftrightarrow x\ge \dfrac{\sqrt[4]{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[4]{10}}{100000000};+\infty)$.
+8242,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{29}{4}$ là
+
+A. $(-\infty;\dfrac{10^{\dfrac{3}{4}}}{100000000})$.
+B. $[\dfrac{10^{\dfrac{3}{4}}}{100000000};+\infty)$.
+C. $(\dfrac{10^{\dfrac{3}{4}}}{100000000};+\infty)$.
+D. $(0;+\infty)$.",B. $[\dfrac{10^{\dfrac{3}{4}}}{100000000};+\infty)$.,$\log x\ge - \dfrac{29}{4}\Leftrightarrow x\ge \dfrac{10^{\dfrac{3}{4}}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{3}{4}}}{100000000};+\infty)$.
+8243,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{27}{4}$ là
+
+A. $(0;+\infty)$.
+B. $[\dfrac{\sqrt[4]{10}}{10000000};+\infty)$.
+C. $(\dfrac{\sqrt[4]{10}}{10000000};+\infty)$.
+D. $(-\infty;\dfrac{\sqrt[4]{10}}{10000000})$.",B. $[\dfrac{\sqrt[4]{10}}{10000000};+\infty)$.,$\log x\ge - \dfrac{27}{4}\Leftrightarrow x\ge \dfrac{\sqrt[4]{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[4]{10}}{10000000};+\infty)$.
+8244,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{25}{4}$ là
+
+A. $(\dfrac{10^{\dfrac{3}{4}}}{10000000};+\infty)$.
+B. $(-\infty;\dfrac{10^{\dfrac{3}{4}}}{10000000})$.
+C. $[\dfrac{10^{\dfrac{3}{4}}}{10000000};+\infty)$.
+D. $(0;+\infty)$.",C. $[\dfrac{10^{\dfrac{3}{4}}}{10000000};+\infty)$.,$\log x\ge - \dfrac{25}{4}\Leftrightarrow x\ge \dfrac{10^{\dfrac{3}{4}}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{10^{\dfrac{3}{4}}}{10000000};+\infty)$.
+8245,D43,Nhân bản,p095_q16,chuan,"Tập nghiệm của bất phương trình $\log x\ge - \dfrac{23}{4}$ là
+
+A. $(0;+\infty)$.
+B. $(-\infty;\dfrac{\sqrt[4]{10}}{1000000})$.
+C. $(\dfrac{\sqrt[4]{10}}{1000000};+\infty)$.
+D. $[\dfrac{\sqrt[4]{10}}{1000000};+\infty)$.",D. $[\dfrac{\sqrt[4]{10}}{1000000};+\infty)$.,$\log x\ge - \dfrac{23}{4}\Leftrightarrow x\ge \dfrac{\sqrt[4]{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\dfrac{\sqrt[4]{10}}{1000000};+\infty)$.
 8246,D51,Nhân bản,p115_q39,chuan,"Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\cdot2^{x+2}+64)\sqrt{3-\log(2x)}\ge0$?
 
 A. $501$.

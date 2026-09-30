@@ -526,7 +526,7 @@ def gen_D55(p, q):
     p_term = (f"+ {p}\\ln x" if p > 0 else (f"- {abs(p)}\\ln x" if p < 0 else ""))
     q_term = (f"+ {q}" if q > 0 else (f"- {abs(q)}" if q < 0 else ""))
     terms = (f" {p_term}" if p_term else "") + (f" {q_term}" if q_term else "")
-    de_bai = f"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\\ln^2 x{terms} = 0$ b?ng\n\n"
+    de_bai = f"T\u00edch t\u1ea5t c\u1ea3 c\u00e1c nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $\\ln^2 x{terms} = 0$ b\u1eb1ng\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
