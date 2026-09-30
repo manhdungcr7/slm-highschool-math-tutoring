@@ -33624,541 +33624,541 @@ D. $(-\infty;\dfrac{\log{\left(57 \right)}}{\log{\left(5 \right)}})$.",A. $(\dfr
 A. $(27;+\infty)$.
 B. $[26;27)$.
 C. $[26;27]$.
-D. $(26;27)$.",B. $[26;27)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-23)t+m-27=0$ $\Leftrightarrow t^2+(25-m)t+(m-26)=0$ $\Leftrightarrow (t-1)(t-(m-26))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-26\in[0;1)$, suy ra $m\in[26;27)."
-5533,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+22)\log_{5}x+m-18=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
+D. $(26;27)$.",B. $[26;27)$.,"Đặt $t=\log_{8}x$. Thay $q=27$ và khai triển, phương trình tương đương $(t+1)^2-(m-23)t+m-27=0$ $\Leftrightarrow t^2+(25-m)t+(m-26)=0$ $\Leftrightarrow (t-1)(t-(m-26))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-26\in[0;1)$, suy ra $m\in[26;27)."
+5533,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+22)\log_{5}x+m+18=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $(-19;-18)$.
 B. $(-18;+\infty)$.
 C. $[-19;-18)$.
-D. $[-19;-18]$.",C. $[-19;-18)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+22)t+m-18=0$ $\Leftrightarrow t^2+(-20-m)t+(m+19)=0$ $\Leftrightarrow (t-1)(t-(m+19))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+19\in[0;1)$, suy ra $m\in[-19;-18)."
-5534,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+20)\log_{13}x+m-16=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
+D. $[-19;-18]$.",C. $[-19;-18)$.,"Đặt $t=\log_{5}x$. Thay $q=-18$ và khai triển, phương trình tương đương $(t+1)^2-(m+22)t+m+18=0$ $\Leftrightarrow t^2+(-20-m)t+(m+19)=0$ $\Leftrightarrow (t-1)(t-(m+19))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+19\in[0;1)$, suy ra $m\in[-19;-18)."
+5534,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+20)\log_{13}x+m+16=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
 
 A. $[-17;-16]$.
 B. $(-17;-16)$.
 C. $(-16;+\infty)$.
-D. $[-17;-16)$.",D. $[-17;-16)$.,"Đặt $t=\log_{13}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+20)t+m-16=0$ $\Leftrightarrow t^2+(-18-m)t+(m+17)=0$ $\Leftrightarrow (t-1)(t-(m+17))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+17\in[0;1)$, suy ra $m\in[-17;-16)."
+D. $[-17;-16)$.",D. $[-17;-16)$.,"Đặt $t=\log_{13}x$. Thay $q=-16$ và khai triển, phương trình tương đương $(t+1)^2-(m+20)t+m+16=0$ $\Leftrightarrow t^2+(-18-m)t+(m+17)=0$ $\Leftrightarrow (t-1)(t-(m+17))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+17\in[0;1)$, suy ra $m\in[-17;-16)."
 5535,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-9)\log_{14}x+m-13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $(13;+\infty)$.
 B. $[12;13)$.
 C. $[12;13]$.
-D. $(12;13)$.",B. $[12;13)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-9)t+m-13=0$ $\Leftrightarrow t^2+(11-m)t+(m-12)=0$ $\Leftrightarrow (t-1)(t-(m-12))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-12\in[0;1)$, suy ra $m\in[12;13)."
-5536,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m+17)\log_{10}x+m-13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
+D. $(12;13)$.",B. $[12;13)$.,"Đặt $t=\log_{14}x$. Thay $q=13$ và khai triển, phương trình tương đương $(t+1)^2-(m-9)t+m-13=0$ $\Leftrightarrow t^2+(11-m)t+(m-12)=0$ $\Leftrightarrow (t-1)(t-(m-12))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-12\in[0;1)$, suy ra $m\in[12;13)."
+5536,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m+17)\log_{10}x+m+13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
 
 A. $(-14;-13)$.
 B. $[-14;-13]$.
 C. $(-13;+\infty)$.
-D. $[-14;-13)$.",D. $[-14;-13)$.,"Đặt $t=\log_{10}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+17)t+m-13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
-5537,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m+6)\log_{12}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
+D. $[-14;-13)$.",D. $[-14;-13)$.,"Đặt $t=\log_{10}x$. Thay $q=-13$ và khai triển, phương trình tương đương $(t+1)^2-(m+17)t+m+13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
+5537,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m+6)\log_{12}x+m+2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $[-3;-2]$.
 B. $(-2;+\infty)$.
 C. $(-3;-2)$.
-D. $[-3;-2)$.",D. $[-3;-2)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+6)t+m-2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
+D. $[-3;-2)$.",D. $[-3;-2)$.,"Đặt $t=\log_{12}x$. Thay $q=-2$ và khai triển, phương trình tương đương $(t+1)^2-(m+6)t+m+2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
 5538,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m-25)\log_{3}x+m-29=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $[28;29]$.
 B. $[28;29)$.
 C. $(29;+\infty)$.
-D. $(28;29)$.",B. $[28;29)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-25)t+m-29=0$ $\Leftrightarrow t^2+(27-m)t+(m-28)=0$ $\Leftrightarrow (t-1)(t-(m-28))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-28\in[0;1)$, suy ra $m\in[28;29)."
+D. $(28;29)$.",B. $[28;29)$.,"Đặt $t=\log_{3}x$. Thay $q=29$ và khai triển, phương trình tương đương $(t+1)^2-(m-25)t+m-29=0$ $\Leftrightarrow t^2+(27-m)t+(m-28)=0$ $\Leftrightarrow (t-1)(t-(m-28))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-28\in[0;1)$, suy ra $m\in[28;29)."
 5539,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m-30)\log_{3}x+m-34=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $(34;+\infty)$.
 B. $(33;34)$.
 C. $[33;34)$.
-D. $[33;34]$.",C. $[33;34)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-30)t+m-34=0$ $\Leftrightarrow t^2+(32-m)t+(m-33)=0$ $\Leftrightarrow (t-1)(t-(m-33))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-33\in[0;1)$, suy ra $m\in[33;34)."
-5540,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m+36)\log_{12}x+m-32=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
+D. $[33;34]$.",C. $[33;34)$.,"Đặt $t=\log_{3}x$. Thay $q=34$ và khai triển, phương trình tương đương $(t+1)^2-(m-30)t+m-34=0$ $\Leftrightarrow t^2+(32-m)t+(m-33)=0$ $\Leftrightarrow (t-1)(t-(m-33))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-33\in[0;1)$, suy ra $m\in[33;34)."
+5540,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m+36)\log_{12}x+m+32=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $[-33;-32)$.
 B. $(-33;-32)$.
 C. $[-33;-32]$.
-D. $(-32;+\infty)$.",A. $[-33;-32)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+36)t+m-32=0$ $\Leftrightarrow t^2+(-34-m)t+(m+33)=0$ $\Leftrightarrow (t-1)(t-(m+33))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+33\in[0;1)$, suy ra $m\in[-33;-32)."
+D. $(-32;+\infty)$.",A. $[-33;-32)$.,"Đặt $t=\log_{12}x$. Thay $q=-32$ và khai triển, phương trình tương đương $(t+1)^2-(m+36)t+m+32=0$ $\Leftrightarrow t^2+(-34-m)t+(m+33)=0$ $\Leftrightarrow (t-1)(t-(m+33))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+33\in[0;1)$, suy ra $m\in[-33;-32)."
 5541,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m-22)\log_{7}x+m-26=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
 
 A. $[25;26]$.
 B. $(26;+\infty)$.
 C. $(25;26)$.
-D. $[25;26)$.",D. $[25;26)$.,"Đặt $t=\log_{7}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-22)t+m-26=0$ $\Leftrightarrow t^2+(24-m)t+(m-25)=0$ $\Leftrightarrow (t-1)(t-(m-25))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-25\in[0;1)$, suy ra $m\in[25;26)."
+D. $[25;26)$.",D. $[25;26)$.,"Đặt $t=\log_{7}x$. Thay $q=26$ và khai triển, phương trình tương đương $(t+1)^2-(m-22)t+m-26=0$ $\Leftrightarrow t^2+(24-m)t+(m-25)=0$ $\Leftrightarrow (t-1)(t-(m-25))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-25\in[0;1)$, suy ra $m\in[25;26)."
 5542,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m-36)\log_{10}x+m-40=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
 
 A. $(39;40)$.
 B. $(40;+\infty)$.
 C. $[39;40]$.
-D. $[39;40)$.",D. $[39;40)$.,"Đặt $t=\log_{10}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-36)t+m-40=0$ $\Leftrightarrow t^2+(38-m)t+(m-39)=0$ $\Leftrightarrow (t-1)(t-(m-39))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-39\in[0;1)$, suy ra $m\in[39;40)."
+D. $[39;40)$.",D. $[39;40)$.,"Đặt $t=\log_{10}x$. Thay $q=40$ và khai triển, phương trình tương đương $(t+1)^2-(m-36)t+m-40=0$ $\Leftrightarrow t^2+(38-m)t+(m-39)=0$ $\Leftrightarrow (t-1)(t-(m-39))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-39\in[0;1)$, suy ra $m\in[39;40)."
 5543,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{15}^2(15x)-(m-1)\log_{15}x+m-5=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;15]$ là
 
 A. $[4;5]$.
 B. $(5;+\infty)$.
 C. $(4;5)$.
-D. $[4;5)$.",D. $[4;5)$.,"Đặt $t=\log_{15}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-1)t+m-5=0$ $\Leftrightarrow t^2+(3-m)t+(m-4)=0$ $\Leftrightarrow (t-1)(t-(m-4))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-4\in[0;1)$, suy ra $m\in[4;5)."
+D. $[4;5)$.",D. $[4;5)$.,"Đặt $t=\log_{15}x$. Thay $q=5$ và khai triển, phương trình tương đương $(t+1)^2-(m-1)t+m-5=0$ $\Leftrightarrow t^2+(3-m)t+(m-4)=0$ $\Leftrightarrow (t-1)(t-(m-4))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-4\in[0;1)$, suy ra $m\in[4;5)."
 5544,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m+4)\log_{7}x+m=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
 
 A. $[-1;0)$.
 B. $[-1;0]$.
 C. $(-1;0)$.
-D. $(0;+\infty)$.",A. $[-1;0)$.,"Đặt $t=\log_{7}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+4)t+m=0$ $\Leftrightarrow t^2+(-2-m)t+(m+1)=0$ $\Leftrightarrow (t-1)(t-(m+1))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+1\in[0;1)$, suy ra $m\in[-1;0)."
+D. $(0;+\infty)$.",A. $[-1;0)$.,"Đặt $t=\log_{7}x$. Thay $q=0$ và khai triển, phương trình tương đương $(t+1)^2-(m+4)t+m=0$ $\Leftrightarrow t^2+(-2-m)t+(m+1)=0$ $\Leftrightarrow (t-1)(t-(m+1))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+1\in[0;1)$, suy ra $m\in[-1;0)."
 5545,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-32)\log_{14}x+m-36=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $[35;36)$.
 B. $[35;36]$.
 C. $(36;+\infty)$.
-D. $(35;36)$.",A. $[35;36)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-32)t+m-36=0$ $\Leftrightarrow t^2+(34-m)t+(m-35)=0$ $\Leftrightarrow (t-1)(t-(m-35))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-35\in[0;1)$, suy ra $m\in[35;36)."
-5546,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m+6)\log_{2}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
+D. $(35;36)$.",A. $[35;36)$.,"Đặt $t=\log_{14}x$. Thay $q=36$ và khai triển, phương trình tương đương $(t+1)^2-(m-32)t+m-36=0$ $\Leftrightarrow t^2+(34-m)t+(m-35)=0$ $\Leftrightarrow (t-1)(t-(m-35))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-35\in[0;1)$, suy ra $m\in[35;36)."
+5546,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m+6)\log_{2}x+m+2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $[-3;-2]$.
 B. $[-3;-2)$.
 C. $(-3;-2)$.
-D. $(-2;+\infty)$.",B. $[-3;-2)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+6)t+m-2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
-5547,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{15}^2(15x)-(m+35)\log_{15}x+m-31=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;15]$ là
+D. $(-2;+\infty)$.",B. $[-3;-2)$.,"Đặt $t=\log_{2}x$. Thay $q=-2$ và khai triển, phương trình tương đương $(t+1)^2-(m+6)t+m+2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
+5547,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{15}^2(15x)-(m+35)\log_{15}x+m+31=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;15]$ là
 
 A. $[-32;-31)$.
 B. $(-32;-31)$.
 C. $(-31;+\infty)$.
-D. $[-32;-31]$.",A. $[-32;-31)$.,"Đặt $t=\log_{15}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+35)t+m-31=0$ $\Leftrightarrow t^2+(-33-m)t+(m+32)=0$ $\Leftrightarrow (t-1)(t-(m+32))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+32\in[0;1)$, suy ra $m\in[-32;-31)."
-5548,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+31)\log_{9}x+m-27=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
+D. $[-32;-31]$.",A. $[-32;-31)$.,"Đặt $t=\log_{15}x$. Thay $q=-31$ và khai triển, phương trình tương đương $(t+1)^2-(m+35)t+m+31=0$ $\Leftrightarrow t^2+(-33-m)t+(m+32)=0$ $\Leftrightarrow (t-1)(t-(m+32))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+32\in[0;1)$, suy ra $m\in[-32;-31)."
+5548,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+31)\log_{9}x+m+27=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
 
 A. $[-28;-27)$.
 B. $(-28;-27)$.
 C. $[-28;-27]$.
-D. $(-27;+\infty)$.",A. $[-28;-27)$.,"Đặt $t=\log_{9}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+31)t+m-27=0$ $\Leftrightarrow t^2+(-29-m)t+(m+28)=0$ $\Leftrightarrow (t-1)(t-(m+28))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+28\in[0;1)$, suy ra $m\in[-28;-27)."
+D. $(-27;+\infty)$.",A. $[-28;-27)$.,"Đặt $t=\log_{9}x$. Thay $q=-27$ và khai triển, phương trình tương đương $(t+1)^2-(m+31)t+m+27=0$ $\Leftrightarrow t^2+(-29-m)t+(m+28)=0$ $\Leftrightarrow (t-1)(t-(m+28))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+28\in[0;1)$, suy ra $m\in[-28;-27)."
 5549,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{15}^2(15x)-(m-19)\log_{15}x+m-23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;15]$ là
 
 A. $[22;23)$.
 B. $[22;23]$.
 C. $(22;23)$.
-D. $(23;+\infty)$.",A. $[22;23)$.,"Đặt $t=\log_{15}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-19)t+m-23=0$ $\Leftrightarrow t^2+(21-m)t+(m-22)=0$ $\Leftrightarrow (t-1)(t-(m-22))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-22\in[0;1)$, suy ra $m\in[22;23)."
-5550,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m+17)\log_{3}x+m-13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
+D. $(23;+\infty)$.",A. $[22;23)$.,"Đặt $t=\log_{15}x$. Thay $q=23$ và khai triển, phương trình tương đương $(t+1)^2-(m-19)t+m-23=0$ $\Leftrightarrow t^2+(21-m)t+(m-22)=0$ $\Leftrightarrow (t-1)(t-(m-22))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-22\in[0;1)$, suy ra $m\in[22;23)."
+5550,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m+17)\log_{3}x+m+13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $(-13;+\infty)$.
 B. $(-14;-13)$.
 C. $[-14;-13)$.
-D. $[-14;-13]$.",C. $[-14;-13)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+17)t+m-13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
+D. $[-14;-13]$.",C. $[-14;-13)$.,"Đặt $t=\log_{3}x$. Thay $q=-13$ và khai triển, phương trình tương đương $(t+1)^2-(m+17)t+m+13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
 5551,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m-24)\log_{12}x+m-28=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $[27;28)$.
 B. $(27;28)$.
 C. $[27;28]$.
-D. $(28;+\infty)$.",A. $[27;28)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-24)t+m-28=0$ $\Leftrightarrow t^2+(26-m)t+(m-27)=0$ $\Leftrightarrow (t-1)(t-(m-27))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-27\in[0;1)$, suy ra $m\in[27;28)."
+D. $(28;+\infty)$.",A. $[27;28)$.,"Đặt $t=\log_{12}x$. Thay $q=28$ và khai triển, phương trình tương đương $(t+1)^2-(m-24)t+m-28=0$ $\Leftrightarrow t^2+(26-m)t+(m-27)=0$ $\Leftrightarrow (t-1)(t-(m-27))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-27\in[0;1)$, suy ra $m\in[27;28)."
 5552,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-16)\log_{14}x+m-20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $(19;20)$.
 B. $[19;20)$.
 C. $(20;+\infty)$.
-D. $[19;20]$.",B. $[19;20)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-16)t+m-20=0$ $\Leftrightarrow t^2+(18-m)t+(m-19)=0$ $\Leftrightarrow (t-1)(t-(m-19))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-19\in[0;1)$, suy ra $m\in[19;20)."
+D. $[19;20]$.",B. $[19;20)$.,"Đặt $t=\log_{14}x$. Thay $q=20$ và khai triển, phương trình tương đương $(t+1)^2-(m-16)t+m-20=0$ $\Leftrightarrow t^2+(18-m)t+(m-19)=0$ $\Leftrightarrow (t-1)(t-(m-19))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-19\in[0;1)$, suy ra $m\in[19;20)."
 5553,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m-36)\log_{7}x+m-40=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
 
 A. $[39;40]$.
 B. $[39;40)$.
 C. $(40;+\infty)$.
-D. $(39;40)$.",B. $[39;40)$.,"Đặt $t=\log_{7}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-36)t+m-40=0$ $\Leftrightarrow t^2+(38-m)t+(m-39)=0$ $\Leftrightarrow (t-1)(t-(m-39))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-39\in[0;1)$, suy ra $m\in[39;40)."
+D. $(39;40)$.",B. $[39;40)$.,"Đặt $t=\log_{7}x$. Thay $q=40$ và khai triển, phương trình tương đương $(t+1)^2-(m-36)t+m-40=0$ $\Leftrightarrow t^2+(38-m)t+(m-39)=0$ $\Leftrightarrow (t-1)(t-(m-39))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-39\in[0;1)$, suy ra $m\in[39;40)."
 5554,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m-28)\log_{2}x+m-32=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $(31;32)$.
 B. $(32;+\infty)$.
 C. $[31;32)$.
-D. $[31;32]$.",C. $[31;32)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-28)t+m-32=0$ $\Leftrightarrow t^2+(30-m)t+(m-31)=0$ $\Leftrightarrow (t-1)(t-(m-31))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-31\in[0;1)$, suy ra $m\in[31;32)."
-5555,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m+27)\log_{2}x+m-23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
+D. $[31;32]$.",C. $[31;32)$.,"Đặt $t=\log_{2}x$. Thay $q=32$ và khai triển, phương trình tương đương $(t+1)^2-(m-28)t+m-32=0$ $\Leftrightarrow t^2+(30-m)t+(m-31)=0$ $\Leftrightarrow (t-1)(t-(m-31))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-31\in[0;1)$, suy ra $m\in[31;32)."
+5555,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m+27)\log_{2}x+m+23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $[-24;-23]$.
 B. $[-24;-23)$.
 C. $(-23;+\infty)$.
-D. $(-24;-23)$.",B. $[-24;-23)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+27)t+m-23=0$ $\Leftrightarrow t^2+(-25-m)t+(m+24)=0$ $\Leftrightarrow (t-1)(t-(m+24))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+24\in[0;1)$, suy ra $m\in[-24;-23)."
+D. $(-24;-23)$.",B. $[-24;-23)$.,"Đặt $t=\log_{2}x$. Thay $q=-23$ và khai triển, phương trình tương đương $(t+1)^2-(m+27)t+m+23=0$ $\Leftrightarrow t^2+(-25-m)t+(m+24)=0$ $\Leftrightarrow (t-1)(t-(m+24))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+24\in[0;1)$, suy ra $m\in[-24;-23)."
 5556,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m-34)\log_{2}x+m-38=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $[37;38)$.
 B. $(37;38)$.
 C. $(38;+\infty)$.
-D. $[37;38]$.",A. $[37;38)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-34)t+m-38=0$ $\Leftrightarrow t^2+(36-m)t+(m-37)=0$ $\Leftrightarrow (t-1)(t-(m-37))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-37\in[0;1)$, suy ra $m\in[37;38)."
+D. $[37;38]$.",A. $[37;38)$.,"Đặt $t=\log_{2}x$. Thay $q=38$ và khai triển, phương trình tương đương $(t+1)^2-(m-34)t+m-38=0$ $\Leftrightarrow t^2+(36-m)t+(m-37)=0$ $\Leftrightarrow (t-1)(t-(m-37))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-37\in[0;1)$, suy ra $m\in[37;38)."
 5557,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m-17)\log_{8}x+m-21=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $(21;+\infty)$.
 B. $[20;21]$.
 C. $(20;21)$.
-D. $[20;21)$.",D. $[20;21)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-17)t+m-21=0$ $\Leftrightarrow t^2+(19-m)t+(m-20)=0$ $\Leftrightarrow (t-1)(t-(m-20))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-20\in[0;1)$, suy ra $m\in[20;21)."
+D. $[20;21)$.",D. $[20;21)$.,"Đặt $t=\log_{8}x$. Thay $q=21$ và khai triển, phương trình tương đương $(t+1)^2-(m-17)t+m-21=0$ $\Leftrightarrow t^2+(19-m)t+(m-20)=0$ $\Leftrightarrow (t-1)(t-(m-20))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-20\in[0;1)$, suy ra $m\in[20;21)."
 5558,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m-11)\log_{5}x+m-15=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $[14;15)$.
 B. $(15;+\infty)$.
 C. $[14;15]$.
-D. $(14;15)$.",A. $[14;15)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-11)t+m-15=0$ $\Leftrightarrow t^2+(13-m)t+(m-14)=0$ $\Leftrightarrow (t-1)(t-(m-14))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-14\in[0;1)$, suy ra $m\in[14;15)."
+D. $(14;15)$.",A. $[14;15)$.,"Đặt $t=\log_{5}x$. Thay $q=15$ và khai triển, phương trình tương đương $(t+1)^2-(m-11)t+m-15=0$ $\Leftrightarrow t^2+(13-m)t+(m-14)=0$ $\Leftrightarrow (t-1)(t-(m-14))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-14\in[0;1)$, suy ra $m\in[14;15)."
 5559,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m-29)\log_{5}x+m-33=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $(33;+\infty)$.
 B. $[32;33)$.
 C. $(32;33)$.
-D. $[32;33]$.",B. $[32;33)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-29)t+m-33=0$ $\Leftrightarrow t^2+(31-m)t+(m-32)=0$ $\Leftrightarrow (t-1)(t-(m-32))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-32\in[0;1)$, suy ra $m\in[32;33)."
+D. $[32;33]$.",B. $[32;33)$.,"Đặt $t=\log_{5}x$. Thay $q=33$ và khai triển, phương trình tương đương $(t+1)^2-(m-29)t+m-33=0$ $\Leftrightarrow t^2+(31-m)t+(m-32)=0$ $\Leftrightarrow (t-1)(t-(m-32))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-32\in[0;1)$, suy ra $m\in[32;33)."
 5560,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m-14)\log_{10}x+m-18=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
 
 A. $(17;18)$.
 B. $[17;18]$.
 C. $(18;+\infty)$.
-D. $[17;18)$.",D. $[17;18)$.,"Đặt $t=\log_{10}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-14)t+m-18=0$ $\Leftrightarrow t^2+(16-m)t+(m-17)=0$ $\Leftrightarrow (t-1)(t-(m-17))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-17\in[0;1)$, suy ra $m\in[17;18)."
+D. $[17;18)$.",D. $[17;18)$.,"Đặt $t=\log_{10}x$. Thay $q=18$ và khai triển, phương trình tương đương $(t+1)^2-(m-14)t+m-18=0$ $\Leftrightarrow t^2+(16-m)t+(m-17)=0$ $\Leftrightarrow (t-1)(t-(m-17))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-17\in[0;1)$, suy ra $m\in[17;18)."
 5561,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-30)\log_{14}x+m-34=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $(33;34)$.
 B. $(34;+\infty)$.
 C. $[33;34]$.
-D. $[33;34)$.",D. $[33;34)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-30)t+m-34=0$ $\Leftrightarrow t^2+(32-m)t+(m-33)=0$ $\Leftrightarrow (t-1)(t-(m-33))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-33\in[0;1)$, suy ra $m\in[33;34)."
+D. $[33;34)$.",D. $[33;34)$.,"Đặt $t=\log_{14}x$. Thay $q=34$ và khai triển, phương trình tương đương $(t+1)^2-(m-30)t+m-34=0$ $\Leftrightarrow t^2+(32-m)t+(m-33)=0$ $\Leftrightarrow (t-1)(t-(m-33))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-33\in[0;1)$, suy ra $m\in[33;34)."
 5562,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m-10)\log_{10}x+m-14=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
 
 A. $(13;14)$.
 B. $[13;14)$.
 C. $(14;+\infty)$.
-D. $[13;14]$.",B. $[13;14)$.,"Đặt $t=\log_{10}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-10)t+m-14=0$ $\Leftrightarrow t^2+(12-m)t+(m-13)=0$ $\Leftrightarrow (t-1)(t-(m-13))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-13\in[0;1)$, suy ra $m\in[13;14)."
-5563,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+34)\log_{8}x+m-30=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
+D. $[13;14]$.",B. $[13;14)$.,"Đặt $t=\log_{10}x$. Thay $q=14$ và khai triển, phương trình tương đương $(t+1)^2-(m-10)t+m-14=0$ $\Leftrightarrow t^2+(12-m)t+(m-13)=0$ $\Leftrightarrow (t-1)(t-(m-13))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-13\in[0;1)$, suy ra $m\in[13;14)."
+5563,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+34)\log_{8}x+m+30=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $(-31;-30)$.
 B. $[-31;-30)$.
 C. $(-30;+\infty)$.
-D. $[-31;-30]$.",B. $[-31;-30)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+34)t+m-30=0$ $\Leftrightarrow t^2+(-32-m)t+(m+31)=0$ $\Leftrightarrow (t-1)(t-(m+31))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+31\in[0;1)$, suy ra $m\in[-31;-30)."
-5564,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m+29)\log_{12}x+m-25=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
+D. $[-31;-30]$.",B. $[-31;-30)$.,"Đặt $t=\log_{8}x$. Thay $q=-30$ và khai triển, phương trình tương đương $(t+1)^2-(m+34)t+m+30=0$ $\Leftrightarrow t^2+(-32-m)t+(m+31)=0$ $\Leftrightarrow (t-1)(t-(m+31))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+31\in[0;1)$, suy ra $m\in[-31;-30)."
+5564,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m+29)\log_{12}x+m+25=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $[-26;-25]$.
 B. $(-25;+\infty)$.
 C. $[-26;-25)$.
-D. $(-26;-25)$.",C. $[-26;-25)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+29)t+m-25=0$ $\Leftrightarrow t^2+(-27-m)t+(m+26)=0$ $\Leftrightarrow (t-1)(t-(m+26))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+26\in[0;1)$, suy ra $m\in[-26;-25)."
+D. $(-26;-25)$.",C. $[-26;-25)$.,"Đặt $t=\log_{12}x$. Thay $q=-25$ và khai triển, phương trình tương đương $(t+1)^2-(m+29)t+m+25=0$ $\Leftrightarrow t^2+(-27-m)t+(m+26)=0$ $\Leftrightarrow (t-1)(t-(m+26))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+26\in[0;1)$, suy ra $m\in[-26;-25)."
 5565,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{4}^2(4x)-(m-21)\log_{4}x+m-25=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;4]$ là
 
 A. $(25;+\infty)$.
 B. $[24;25]$.
 C. $[24;25)$.
-D. $(24;25)$.",C. $[24;25)$.,"Đặt $t=\log_{4}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-21)t+m-25=0$ $\Leftrightarrow t^2+(23-m)t+(m-24)=0$ $\Leftrightarrow (t-1)(t-(m-24))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-24\in[0;1)$, suy ra $m\in[24;25)."
+D. $(24;25)$.",C. $[24;25)$.,"Đặt $t=\log_{4}x$. Thay $q=25$ và khai triển, phương trình tương đương $(t+1)^2-(m-21)t+m-25=0$ $\Leftrightarrow t^2+(23-m)t+(m-24)=0$ $\Leftrightarrow (t-1)(t-(m-24))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-24\in[0;1)$, suy ra $m\in[24;25)."
 5566,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m-2)\log_{13}x+m-6=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
 
 A. $[5;6)$.
 B. $[5;6]$.
 C. $(6;+\infty)$.
-D. $(5;6)$.",A. $[5;6)$.,"Đặt $t=\log_{13}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-2)t+m-6=0$ $\Leftrightarrow t^2+(4-m)t+(m-5)=0$ $\Leftrightarrow (t-1)(t-(m-5))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-5\in[0;1)$, suy ra $m\in[5;6)."
-5567,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+17)\log_{5}x+m-13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
+D. $(5;6)$.",A. $[5;6)$.,"Đặt $t=\log_{13}x$. Thay $q=6$ và khai triển, phương trình tương đương $(t+1)^2-(m-2)t+m-6=0$ $\Leftrightarrow t^2+(4-m)t+(m-5)=0$ $\Leftrightarrow (t-1)(t-(m-5))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-5\in[0;1)$, suy ra $m\in[5;6)."
+5567,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+17)\log_{5}x+m+13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $[-14;-13]$.
 B. $(-14;-13)$.
 C. $[-14;-13)$.
-D. $(-13;+\infty)$.",C. $[-14;-13)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+17)t+m-13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
+D. $(-13;+\infty)$.",C. $[-14;-13)$.,"Đặt $t=\log_{5}x$. Thay $q=-13$ và khai triển, phương trình tương đương $(t+1)^2-(m+17)t+m+13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
 5568,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m-16)\log_{9}x+m-20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
 
 A. $[19;20)$.
 B. $(19;20)$.
 C. $(20;+\infty)$.
-D. $[19;20]$.",A. $[19;20)$.,"Đặt $t=\log_{9}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-16)t+m-20=0$ $\Leftrightarrow t^2+(18-m)t+(m-19)=0$ $\Leftrightarrow (t-1)(t-(m-19))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-19\in[0;1)$, suy ra $m\in[19;20)."
-5569,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+37)\log_{11}x+m-33=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
+D. $[19;20]$.",A. $[19;20)$.,"Đặt $t=\log_{9}x$. Thay $q=20$ và khai triển, phương trình tương đương $(t+1)^2-(m-16)t+m-20=0$ $\Leftrightarrow t^2+(18-m)t+(m-19)=0$ $\Leftrightarrow (t-1)(t-(m-19))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-19\in[0;1)$, suy ra $m\in[19;20)."
+5569,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+37)\log_{11}x+m+33=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $[-34;-33]$.
 B. $[-34;-33)$.
 C. $(-34;-33)$.
-D. $(-33;+\infty)$.",B. $[-34;-33)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+37)t+m-33=0$ $\Leftrightarrow t^2+(-35-m)t+(m+34)=0$ $\Leftrightarrow (t-1)(t-(m+34))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+34\in[0;1)$, suy ra $m\in[-34;-33)."
-5570,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m+28)\log_{2}x+m-24=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
+D. $(-33;+\infty)$.",B. $[-34;-33)$.,"Đặt $t=\log_{11}x$. Thay $q=-33$ và khai triển, phương trình tương đương $(t+1)^2-(m+37)t+m+33=0$ $\Leftrightarrow t^2+(-35-m)t+(m+34)=0$ $\Leftrightarrow (t-1)(t-(m+34))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+34\in[0;1)$, suy ra $m\in[-34;-33)."
+5570,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m+28)\log_{2}x+m+24=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $(-25;-24)$.
 B. $[-25;-24]$.
 C. $(-24;+\infty)$.
-D. $[-25;-24)$.",D. $[-25;-24)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+28)t+m-24=0$ $\Leftrightarrow t^2+(-26-m)t+(m+25)=0$ $\Leftrightarrow (t-1)(t-(m+25))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+25\in[0;1)$, suy ra $m\in[-25;-24)."
-5571,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+27)\log_{13}x+m-23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
+D. $[-25;-24)$.",D. $[-25;-24)$.,"Đặt $t=\log_{2}x$. Thay $q=-24$ và khai triển, phương trình tương đương $(t+1)^2-(m+28)t+m+24=0$ $\Leftrightarrow t^2+(-26-m)t+(m+25)=0$ $\Leftrightarrow (t-1)(t-(m+25))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+25\in[0;1)$, suy ra $m\in[-25;-24)."
+5571,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+27)\log_{13}x+m+23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
 
 A. $[-24;-23)$.
 B. $(-23;+\infty)$.
 C. $(-24;-23)$.
-D. $[-24;-23]$.",A. $[-24;-23)$.,"Đặt $t=\log_{13}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+27)t+m-23=0$ $\Leftrightarrow t^2+(-25-m)t+(m+24)=0$ $\Leftrightarrow (t-1)(t-(m+24))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+24\in[0;1)$, suy ra $m\in[-24;-23)."
+D. $[-24;-23]$.",A. $[-24;-23)$.,"Đặt $t=\log_{13}x$. Thay $q=-23$ và khai triển, phương trình tương đương $(t+1)^2-(m+27)t+m+23=0$ $\Leftrightarrow t^2+(-25-m)t+(m+24)=0$ $\Leftrightarrow (t-1)(t-(m+24))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+24\in[0;1)$, suy ra $m\in[-24;-23)."
 5572,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m-7)\log_{13}x+m-11=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
 
 A. $(10;11)$.
 B. $[10;11]$.
 C. $(11;+\infty)$.
-D. $[10;11)$.",D. $[10;11)$.,"Đặt $t=\log_{13}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-7)t+m-11=0$ $\Leftrightarrow t^2+(9-m)t+(m-10)=0$ $\Leftrightarrow (t-1)(t-(m-10))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-10\in[0;1)$, suy ra $m\in[10;11)."
-5573,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{15}^2(15x)-(m+24)\log_{15}x+m-20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;15]$ là
+D. $[10;11)$.",D. $[10;11)$.,"Đặt $t=\log_{13}x$. Thay $q=11$ và khai triển, phương trình tương đương $(t+1)^2-(m-7)t+m-11=0$ $\Leftrightarrow t^2+(9-m)t+(m-10)=0$ $\Leftrightarrow (t-1)(t-(m-10))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-10\in[0;1)$, suy ra $m\in[10;11)."
+5573,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{15}^2(15x)-(m+24)\log_{15}x+m+20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;15]$ là
 
 A. $(-20;+\infty)$.
 B. $(-21;-20)$.
 C. $[-21;-20)$.
-D. $[-21;-20]$.",C. $[-21;-20)$.,"Đặt $t=\log_{15}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+24)t+m-20=0$ $\Leftrightarrow t^2+(-22-m)t+(m+21)=0$ $\Leftrightarrow (t-1)(t-(m+21))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+21\in[0;1)$, suy ra $m\in[-21;-20)."
+D. $[-21;-20]$.",C. $[-21;-20)$.,"Đặt $t=\log_{15}x$. Thay $q=-20$ và khai triển, phương trình tương đương $(t+1)^2-(m+24)t+m+20=0$ $\Leftrightarrow t^2+(-22-m)t+(m+21)=0$ $\Leftrightarrow (t-1)(t-(m+21))=0$. Điều kiện $x\in[1;15]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+21\in[0;1)$, suy ra $m\in[-21;-20)."
 5574,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m-11)\log_{7}x+m-15=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
 
 A. $[14;15)$.
 B. $(14;15)$.
 C. $[14;15]$.
-D. $(15;+\infty)$.",A. $[14;15)$.,"Đặt $t=\log_{7}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-11)t+m-15=0$ $\Leftrightarrow t^2+(13-m)t+(m-14)=0$ $\Leftrightarrow (t-1)(t-(m-14))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-14\in[0;1)$, suy ra $m\in[14;15)."
-5575,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+37)\log_{8}x+m-33=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
+D. $(15;+\infty)$.",A. $[14;15)$.,"Đặt $t=\log_{7}x$. Thay $q=15$ và khai triển, phương trình tương đương $(t+1)^2-(m-11)t+m-15=0$ $\Leftrightarrow t^2+(13-m)t+(m-14)=0$ $\Leftrightarrow (t-1)(t-(m-14))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-14\in[0;1)$, suy ra $m\in[14;15)."
+5575,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+37)\log_{8}x+m+33=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $(-34;-33)$.
 B. $[-34;-33)$.
 C. $[-34;-33]$.
-D. $(-33;+\infty)$.",B. $[-34;-33)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+37)t+m-33=0$ $\Leftrightarrow t^2+(-35-m)t+(m+34)=0$ $\Leftrightarrow (t-1)(t-(m+34))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+34\in[0;1)$, suy ra $m\in[-34;-33)."
-5576,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+19)\log_{9}x+m-15=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
+D. $(-33;+\infty)$.",B. $[-34;-33)$.,"Đặt $t=\log_{8}x$. Thay $q=-33$ và khai triển, phương trình tương đương $(t+1)^2-(m+37)t+m+33=0$ $\Leftrightarrow t^2+(-35-m)t+(m+34)=0$ $\Leftrightarrow (t-1)(t-(m+34))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+34\in[0;1)$, suy ra $m\in[-34;-33)."
+5576,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+19)\log_{9}x+m+15=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
 
 A. $[-16;-15)$.
 B. $(-15;+\infty)$.
 C. $(-16;-15)$.
-D. $[-16;-15]$.",A. $[-16;-15)$.,"Đặt $t=\log_{9}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+19)t+m-15=0$ $\Leftrightarrow t^2+(-17-m)t+(m+16)=0$ $\Leftrightarrow (t-1)(t-(m+16))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+16\in[0;1)$, suy ra $m\in[-16;-15)."
-5577,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m+14)\log_{7}x+m-10=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
+D. $[-16;-15]$.",A. $[-16;-15)$.,"Đặt $t=\log_{9}x$. Thay $q=-15$ và khai triển, phương trình tương đương $(t+1)^2-(m+19)t+m+15=0$ $\Leftrightarrow t^2+(-17-m)t+(m+16)=0$ $\Leftrightarrow (t-1)(t-(m+16))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+16\in[0;1)$, suy ra $m\in[-16;-15)."
+5577,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m+14)\log_{7}x+m+10=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
 
 A. $[-11;-10]$.
 B. $(-11;-10)$.
 C. $[-11;-10)$.
-D. $(-10;+\infty)$.",C. $[-11;-10)$.,"Đặt $t=\log_{7}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+14)t+m-10=0$ $\Leftrightarrow t^2+(-12-m)t+(m+11)=0$ $\Leftrightarrow (t-1)(t-(m+11))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+11\in[0;1)$, suy ra $m\in[-11;-10)."
+D. $(-10;+\infty)$.",C. $[-11;-10)$.,"Đặt $t=\log_{7}x$. Thay $q=-10$ và khai triển, phương trình tương đương $(t+1)^2-(m+14)t+m+10=0$ $\Leftrightarrow t^2+(-12-m)t+(m+11)=0$ $\Leftrightarrow (t-1)(t-(m+11))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+11\in[0;1)$, suy ra $m\in[-11;-10)."
 5578,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m-39)\log_{3}x+m-43=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $(43;+\infty)$.
 B. $[42;43)$.
 C. $[42;43]$.
-D. $(42;43)$.",B. $[42;43)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-39)t+m-43=0$ $\Leftrightarrow t^2+(41-m)t+(m-42)=0$ $\Leftrightarrow (t-1)(t-(m-42))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-42\in[0;1)$, suy ra $m\in[42;43)."
-5579,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m+26)\log_{10}x+m-22=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
+D. $(42;43)$.",B. $[42;43)$.,"Đặt $t=\log_{3}x$. Thay $q=43$ và khai triển, phương trình tương đương $(t+1)^2-(m-39)t+m-43=0$ $\Leftrightarrow t^2+(41-m)t+(m-42)=0$ $\Leftrightarrow (t-1)(t-(m-42))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-42\in[0;1)$, suy ra $m\in[42;43)."
+5579,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m+26)\log_{10}x+m+22=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
 
 A. $(-23;-22)$.
 B. $(-22;+\infty)$.
 C. $[-23;-22]$.
-D. $[-23;-22)$.",D. $[-23;-22)$.,"Đặt $t=\log_{10}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+26)t+m-22=0$ $\Leftrightarrow t^2+(-24-m)t+(m+23)=0$ $\Leftrightarrow (t-1)(t-(m+23))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+23\in[0;1)$, suy ra $m\in[-23;-22)."
+D. $[-23;-22)$.",D. $[-23;-22)$.,"Đặt $t=\log_{10}x$. Thay $q=-22$ và khai triển, phương trình tương đương $(t+1)^2-(m+26)t+m+22=0$ $\Leftrightarrow t^2+(-24-m)t+(m+23)=0$ $\Leftrightarrow (t-1)(t-(m+23))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+23\in[0;1)$, suy ra $m\in[-23;-22)."
 5580,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m-32)\log_{12}x+m-36=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $(35;36)$.
 B. $(36;+\infty)$.
 C. $[35;36)$.
-D. $[35;36]$.",C. $[35;36)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-32)t+m-36=0$ $\Leftrightarrow t^2+(34-m)t+(m-35)=0$ $\Leftrightarrow (t-1)(t-(m-35))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-35\in[0;1)$, suy ra $m\in[35;36)."
-5581,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{6}^2(6x)-(m+18)\log_{6}x+m-14=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;6]$ là
+D. $[35;36]$.",C. $[35;36)$.,"Đặt $t=\log_{12}x$. Thay $q=36$ và khai triển, phương trình tương đương $(t+1)^2-(m-32)t+m-36=0$ $\Leftrightarrow t^2+(34-m)t+(m-35)=0$ $\Leftrightarrow (t-1)(t-(m-35))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-35\in[0;1)$, suy ra $m\in[35;36)."
+5581,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{6}^2(6x)-(m+18)\log_{6}x+m+14=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;6]$ là
 
 A. $[-15;-14)$.
 B. $[-15;-14]$.
 C. $(-14;+\infty)$.
-D. $(-15;-14)$.",A. $[-15;-14)$.,"Đặt $t=\log_{6}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+18)t+m-14=0$ $\Leftrightarrow t^2+(-16-m)t+(m+15)=0$ $\Leftrightarrow (t-1)(t-(m+15))=0$. Điều kiện $x\in[1;6]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+15\in[0;1)$, suy ra $m\in[-15;-14)."
+D. $(-15;-14)$.",A. $[-15;-14)$.,"Đặt $t=\log_{6}x$. Thay $q=-14$ và khai triển, phương trình tương đương $(t+1)^2-(m+18)t+m+14=0$ $\Leftrightarrow t^2+(-16-m)t+(m+15)=0$ $\Leftrightarrow (t-1)(t-(m+15))=0$. Điều kiện $x\in[1;6]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+15\in[0;1)$, suy ra $m\in[-15;-14)."
 5582,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m-3)\log_{11}x+m-7=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $(7;+\infty)$.
 B. $[6;7]$.
 C. $[6;7)$.
-D. $(6;7)$.",C. $[6;7)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-3)t+m-7=0$ $\Leftrightarrow t^2+(5-m)t+(m-6)=0$ $\Leftrightarrow (t-1)(t-(m-6))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-6\in[0;1)$, suy ra $m\in[6;7)."
+D. $(6;7)$.",C. $[6;7)$.,"Đặt $t=\log_{11}x$. Thay $q=7$ và khai triển, phương trình tương đương $(t+1)^2-(m-3)t+m-7=0$ $\Leftrightarrow t^2+(5-m)t+(m-6)=0$ $\Leftrightarrow (t-1)(t-(m-6))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-6\in[0;1)$, suy ra $m\in[6;7)."
 5583,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-8)\log_{14}x+m-12=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $[11;12]$.
 B. $(11;12)$.
 C. $[11;12)$.
-D. $(12;+\infty)$.",C. $[11;12)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-8)t+m-12=0$ $\Leftrightarrow t^2+(10-m)t+(m-11)=0$ $\Leftrightarrow (t-1)(t-(m-11))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-11\in[0;1)$, suy ra $m\in[11;12)."
+D. $(12;+\infty)$.",C. $[11;12)$.,"Đặt $t=\log_{14}x$. Thay $q=12$ và khai triển, phương trình tương đương $(t+1)^2-(m-8)t+m-12=0$ $\Leftrightarrow t^2+(10-m)t+(m-11)=0$ $\Leftrightarrow (t-1)(t-(m-11))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-11\in[0;1)$, suy ra $m\in[11;12)."
 5584,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m-1)\log_{3}x+m-5=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $[4;5)$.
 B. $(4;5)$.
 C. $(5;+\infty)$.
-D. $[4;5]$.",A. $[4;5)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-1)t+m-5=0$ $\Leftrightarrow t^2+(3-m)t+(m-4)=0$ $\Leftrightarrow (t-1)(t-(m-4))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-4\in[0;1)$, suy ra $m\in[4;5)."
-5585,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+18)\log_{13}x+m-14=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
+D. $[4;5]$.",A. $[4;5)$.,"Đặt $t=\log_{3}x$. Thay $q=5$ và khai triển, phương trình tương đương $(t+1)^2-(m-1)t+m-5=0$ $\Leftrightarrow t^2+(3-m)t+(m-4)=0$ $\Leftrightarrow (t-1)(t-(m-4))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-4\in[0;1)$, suy ra $m\in[4;5)."
+5585,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+18)\log_{13}x+m+14=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
 
 A. $(-15;-14)$.
 B. $[-15;-14)$.
 C. $(-14;+\infty)$.
-D. $[-15;-14]$.",B. $[-15;-14)$.,"Đặt $t=\log_{13}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+18)t+m-14=0$ $\Leftrightarrow t^2+(-16-m)t+(m+15)=0$ $\Leftrightarrow (t-1)(t-(m+15))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+15\in[0;1)$, suy ra $m\in[-15;-14)."
-5586,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+14)\log_{11}x+m-10=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
+D. $[-15;-14]$.",B. $[-15;-14)$.,"Đặt $t=\log_{13}x$. Thay $q=-14$ và khai triển, phương trình tương đương $(t+1)^2-(m+18)t+m+14=0$ $\Leftrightarrow t^2+(-16-m)t+(m+15)=0$ $\Leftrightarrow (t-1)(t-(m+15))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+15\in[0;1)$, suy ra $m\in[-15;-14)."
+5586,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+14)\log_{11}x+m+10=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $(-11;-10)$.
 B. $(-10;+\infty)$.
 C. $[-11;-10]$.
-D. $[-11;-10)$.",D. $[-11;-10)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+14)t+m-10=0$ $\Leftrightarrow t^2+(-12-m)t+(m+11)=0$ $\Leftrightarrow (t-1)(t-(m+11))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+11\in[0;1)$, suy ra $m\in[-11;-10)."
+D. $[-11;-10)$.",D. $[-11;-10)$.,"Đặt $t=\log_{11}x$. Thay $q=-10$ và khai triển, phương trình tương đương $(t+1)^2-(m+14)t+m+10=0$ $\Leftrightarrow t^2+(-12-m)t+(m+11)=0$ $\Leftrightarrow (t-1)(t-(m+11))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+11\in[0;1)$, suy ra $m\in[-11;-10)."
 5587,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m-27)\log_{2}x+m-31=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $(30;31)$.
 B. $[30;31)$.
 C. $(31;+\infty)$.
-D. $[30;31]$.",B. $[30;31)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-27)t+m-31=0$ $\Leftrightarrow t^2+(29-m)t+(m-30)=0$ $\Leftrightarrow (t-1)(t-(m-30))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-30\in[0;1)$, suy ra $m\in[30;31)."
+D. $[30;31]$.",B. $[30;31)$.,"Đặt $t=\log_{2}x$. Thay $q=31$ và khai triển, phương trình tương đương $(t+1)^2-(m-27)t+m-31=0$ $\Leftrightarrow t^2+(29-m)t+(m-30)=0$ $\Leftrightarrow (t-1)(t-(m-30))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-30\in[0;1)$, suy ra $m\in[30;31)."
 5588,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m-7)\log_{5}x+m-11=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $(11;+\infty)$.
 B. $[10;11)$.
 C. $(10;11)$.
-D. $[10;11]$.",B. $[10;11)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-7)t+m-11=0$ $\Leftrightarrow t^2+(9-m)t+(m-10)=0$ $\Leftrightarrow (t-1)(t-(m-10))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-10\in[0;1)$, suy ra $m\in[10;11)."
-5589,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+16)\log_{11}x+m-12=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
+D. $[10;11]$.",B. $[10;11)$.,"Đặt $t=\log_{5}x$. Thay $q=11$ và khai triển, phương trình tương đương $(t+1)^2-(m-7)t+m-11=0$ $\Leftrightarrow t^2+(9-m)t+(m-10)=0$ $\Leftrightarrow (t-1)(t-(m-10))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-10\in[0;1)$, suy ra $m\in[10;11)."
+5589,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+16)\log_{11}x+m+12=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $(-12;+\infty)$.
 B. $(-13;-12)$.
 C. $[-13;-12]$.
-D. $[-13;-12)$.",D. $[-13;-12)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+16)t+m-12=0$ $\Leftrightarrow t^2+(-14-m)t+(m+13)=0$ $\Leftrightarrow (t-1)(t-(m+13))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+13\in[0;1)$, suy ra $m\in[-13;-12)."
-5590,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+6)\log_{8}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
+D. $[-13;-12)$.",D. $[-13;-12)$.,"Đặt $t=\log_{11}x$. Thay $q=-12$ và khai triển, phương trình tương đương $(t+1)^2-(m+16)t+m+12=0$ $\Leftrightarrow t^2+(-14-m)t+(m+13)=0$ $\Leftrightarrow (t-1)(t-(m+13))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+13\in[0;1)$, suy ra $m\in[-13;-12)."
+5590,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+6)\log_{8}x+m+2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $[-3;-2)$.
 B. $(-2;+\infty)$.
 C. $[-3;-2]$.
-D. $(-3;-2)$.",A. $[-3;-2)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+6)t+m-2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
-5591,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+27)\log_{11}x+m-23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
+D. $(-3;-2)$.",A. $[-3;-2)$.,"Đặt $t=\log_{8}x$. Thay $q=-2$ và khai triển, phương trình tương đương $(t+1)^2-(m+6)t+m+2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
+5591,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+27)\log_{11}x+m+23=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $[-24;-23]$.
 B. $(-23;+\infty)$.
 C. $[-24;-23)$.
-D. $(-24;-23)$.",C. $[-24;-23)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+27)t+m-23=0$ $\Leftrightarrow t^2+(-25-m)t+(m+24)=0$ $\Leftrightarrow (t-1)(t-(m+24))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+24\in[0;1)$, suy ra $m\in[-24;-23)."
-5592,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+24)\log_{8}x+m-20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
+D. $(-24;-23)$.",C. $[-24;-23)$.,"Đặt $t=\log_{11}x$. Thay $q=-23$ và khai triển, phương trình tương đương $(t+1)^2-(m+27)t+m+23=0$ $\Leftrightarrow t^2+(-25-m)t+(m+24)=0$ $\Leftrightarrow (t-1)(t-(m+24))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+24\in[0;1)$, suy ra $m\in[-24;-23)."
+5592,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+24)\log_{8}x+m+20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $(-20;+\infty)$.
 B. $[-21;-20)$.
 C. $(-21;-20)$.
-D. $[-21;-20]$.",B. $[-21;-20)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+24)t+m-20=0$ $\Leftrightarrow t^2+(-22-m)t+(m+21)=0$ $\Leftrightarrow (t-1)(t-(m+21))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+21\in[0;1)$, suy ra $m\in[-21;-20)."
+D. $[-21;-20]$.",B. $[-21;-20)$.,"Đặt $t=\log_{8}x$. Thay $q=-20$ và khai triển, phương trình tương đương $(t+1)^2-(m+24)t+m+20=0$ $\Leftrightarrow t^2+(-22-m)t+(m+21)=0$ $\Leftrightarrow (t-1)(t-(m+21))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+21\in[0;1)$, suy ra $m\in[-21;-20)."
 5593,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{4}^2(4x)-(m-2)\log_{4}x+m-6=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;4]$ là
 
 A. $[5;6]$.
 B. $(6;+\infty)$.
 C. $(5;6)$.
-D. $[5;6)$.",D. $[5;6)$.,"Đặt $t=\log_{4}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-2)t+m-6=0$ $\Leftrightarrow t^2+(4-m)t+(m-5)=0$ $\Leftrightarrow (t-1)(t-(m-5))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-5\in[0;1)$, suy ra $m\in[5;6)."
-5594,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+28)\log_{11}x+m-24=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
+D. $[5;6)$.",D. $[5;6)$.,"Đặt $t=\log_{4}x$. Thay $q=6$ và khai triển, phương trình tương đương $(t+1)^2-(m-2)t+m-6=0$ $\Leftrightarrow t^2+(4-m)t+(m-5)=0$ $\Leftrightarrow (t-1)(t-(m-5))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-5\in[0;1)$, suy ra $m\in[5;6)."
+5594,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+28)\log_{11}x+m+24=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $(-24;+\infty)$.
 B. $[-25;-24)$.
 C. $[-25;-24]$.
-D. $(-25;-24)$.",B. $[-25;-24)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+28)t+m-24=0$ $\Leftrightarrow t^2+(-26-m)t+(m+25)=0$ $\Leftrightarrow (t-1)(t-(m+25))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+25\in[0;1)$, suy ra $m\in[-25;-24)."
+D. $(-25;-24)$.",B. $[-25;-24)$.,"Đặt $t=\log_{11}x$. Thay $q=-24$ và khai triển, phương trình tương đương $(t+1)^2-(m+28)t+m+24=0$ $\Leftrightarrow t^2+(-26-m)t+(m+25)=0$ $\Leftrightarrow (t-1)(t-(m+25))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+25\in[0;1)$, suy ra $m\in[-25;-24)."
 5595,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m-5)\log_{5}x+m-9=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $(9;+\infty)$.
 B. $[8;9)$.
 C. $[8;9]$.
-D. $(8;9)$.",B. $[8;9)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-5)t+m-9=0$ $\Leftrightarrow t^2+(7-m)t+(m-8)=0$ $\Leftrightarrow (t-1)(t-(m-8))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-8\in[0;1)$, suy ra $m\in[8;9)."
-5596,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{4}^2(4x)-(m+23)\log_{4}x+m-19=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;4]$ là
+D. $(8;9)$.",B. $[8;9)$.,"Đặt $t=\log_{5}x$. Thay $q=9$ và khai triển, phương trình tương đương $(t+1)^2-(m-5)t+m-9=0$ $\Leftrightarrow t^2+(7-m)t+(m-8)=0$ $\Leftrightarrow (t-1)(t-(m-8))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-8\in[0;1)$, suy ra $m\in[8;9)."
+5596,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{4}^2(4x)-(m+23)\log_{4}x+m+19=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;4]$ là
 
 A. $(-20;-19)$.
 B. $(-19;+\infty)$.
 C. $[-20;-19)$.
-D. $[-20;-19]$.",C. $[-20;-19)$.,"Đặt $t=\log_{4}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+23)t+m-19=0$ $\Leftrightarrow t^2+(-21-m)t+(m+20)=0$ $\Leftrightarrow (t-1)(t-(m+20))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+20\in[0;1)$, suy ra $m\in[-20;-19)."
+D. $[-20;-19]$.",C. $[-20;-19)$.,"Đặt $t=\log_{4}x$. Thay $q=-19$ và khai triển, phương trình tương đương $(t+1)^2-(m+23)t+m+19=0$ $\Leftrightarrow t^2+(-21-m)t+(m+20)=0$ $\Leftrightarrow (t-1)(t-(m+20))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+20\in[0;1)$, suy ra $m\in[-20;-19)."
 5597,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m-15)\log_{12}x+m-19=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $(19;+\infty)$.
 B. $(18;19)$.
 C. $[18;19)$.
-D. $[18;19]$.",C. $[18;19)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-15)t+m-19=0$ $\Leftrightarrow t^2+(17-m)t+(m-18)=0$ $\Leftrightarrow (t-1)(t-(m-18))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-18\in[0;1)$, suy ra $m\in[18;19)."
+D. $[18;19]$.",C. $[18;19)$.,"Đặt $t=\log_{12}x$. Thay $q=19$ và khai triển, phương trình tương đương $(t+1)^2-(m-15)t+m-19=0$ $\Leftrightarrow t^2+(17-m)t+(m-18)=0$ $\Leftrightarrow (t-1)(t-(m-18))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-18\in[0;1)$, suy ra $m\in[18;19)."
 5598,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{7}^2(7x)-(m-12)\log_{7}x+m-16=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;7]$ là
 
 A. $(16;+\infty)$.
 B. $(15;16)$.
 C. $[15;16)$.
-D. $[15;16]$.",C. $[15;16)$.,"Đặt $t=\log_{7}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-12)t+m-16=0$ $\Leftrightarrow t^2+(14-m)t+(m-15)=0$ $\Leftrightarrow (t-1)(t-(m-15))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-15\in[0;1)$, suy ra $m\in[15;16)."
+D. $[15;16]$.",C. $[15;16)$.,"Đặt $t=\log_{7}x$. Thay $q=16$ và khai triển, phương trình tương đương $(t+1)^2-(m-12)t+m-16=0$ $\Leftrightarrow t^2+(14-m)t+(m-15)=0$ $\Leftrightarrow (t-1)(t-(m-15))=0$. Điều kiện $x\in[1;7]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-15\in[0;1)$, suy ra $m\in[15;16)."
 5599,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m-36)\log_{3}x+m-40=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $(40;+\infty)$.
 B. $[39;40)$.
 C. $[39;40]$.
-D. $(39;40)$.",B. $[39;40)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-36)t+m-40=0$ $\Leftrightarrow t^2+(38-m)t+(m-39)=0$ $\Leftrightarrow (t-1)(t-(m-39))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-39\in[0;1)$, suy ra $m\in[39;40)."
+D. $(39;40)$.",B. $[39;40)$.,"Đặt $t=\log_{3}x$. Thay $q=40$ và khai triển, phương trình tương đương $(t+1)^2-(m-36)t+m-40=0$ $\Leftrightarrow t^2+(38-m)t+(m-39)=0$ $\Leftrightarrow (t-1)(t-(m-39))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-39\in[0;1)$, suy ra $m\in[39;40)."
 5600,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{6}^2(6x)-(m-16)\log_{6}x+m-20=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;6]$ là
 
 A. $[19;20)$.
 B. $(20;+\infty)$.
 C. $[19;20]$.
-D. $(19;20)$.",A. $[19;20)$.,"Đặt $t=\log_{6}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-16)t+m-20=0$ $\Leftrightarrow t^2+(18-m)t+(m-19)=0$ $\Leftrightarrow (t-1)(t-(m-19))=0$. Điều kiện $x\in[1;6]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-19\in[0;1)$, suy ra $m\in[19;20)."
-5601,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+17)\log_{11}x+m-13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
+D. $(19;20)$.",A. $[19;20)$.,"Đặt $t=\log_{6}x$. Thay $q=20$ và khai triển, phương trình tương đương $(t+1)^2-(m-16)t+m-20=0$ $\Leftrightarrow t^2+(18-m)t+(m-19)=0$ $\Leftrightarrow (t-1)(t-(m-19))=0$. Điều kiện $x\in[1;6]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-19\in[0;1)$, suy ra $m\in[19;20)."
+5601,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m+17)\log_{11}x+m+13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $[-14;-13]$.
 B. $(-14;-13)$.
 C. $(-13;+\infty)$.
-D. $[-14;-13)$.",D. $[-14;-13)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+17)t+m-13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
-5602,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+15)\log_{5}x+m-11=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
+D. $[-14;-13)$.",D. $[-14;-13)$.,"Đặt $t=\log_{11}x$. Thay $q=-13$ và khai triển, phương trình tương đương $(t+1)^2-(m+17)t+m+13=0$ $\Leftrightarrow t^2+(-15-m)t+(m+14)=0$ $\Leftrightarrow (t-1)(t-(m+14))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+14\in[0;1)$, suy ra $m\in[-14;-13)."
+5602,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+15)\log_{5}x+m+11=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $(-12;-11)$.
 B. $[-12;-11)$.
 C. $[-12;-11]$.
-D. $(-11;+\infty)$.",B. $[-12;-11)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+15)t+m-11=0$ $\Leftrightarrow t^2+(-13-m)t+(m+12)=0$ $\Leftrightarrow (t-1)(t-(m+12))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+12\in[0;1)$, suy ra $m\in[-12;-11)."
+D. $(-11;+\infty)$.",B. $[-12;-11)$.,"Đặt $t=\log_{5}x$. Thay $q=-11$ và khai triển, phương trình tương đương $(t+1)^2-(m+15)t+m+11=0$ $\Leftrightarrow t^2+(-13-m)t+(m+12)=0$ $\Leftrightarrow (t-1)(t-(m+12))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+12\in[0;1)$, suy ra $m\in[-12;-11)."
 5603,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-12)\log_{14}x+m-16=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $(16;+\infty)$.
 B. $[15;16)$.
 C. $(15;16)$.
-D. $[15;16]$.",B. $[15;16)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-12)t+m-16=0$ $\Leftrightarrow t^2+(14-m)t+(m-15)=0$ $\Leftrightarrow (t-1)(t-(m-15))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-15\in[0;1)$, suy ra $m\in[15;16)."
-5604,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-(m)\log_{12}x+m-4=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
+D. $[15;16]$.",B. $[15;16)$.,"Đặt $t=\log_{14}x$. Thay $q=16$ và khai triển, phương trình tương đương $(t+1)^2-(m-12)t+m-16=0$ $\Leftrightarrow t^2+(14-m)t+(m-15)=0$ $\Leftrightarrow (t-1)(t-(m-15))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-15\in[0;1)$, suy ra $m\in[15;16)."
+5604,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{12}^2(12x)-m\log_{12}x+m-4=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;12]$ là
 
 A. $(3;4)$.
 B. $[3;4]$.
 C. $(4;+\infty)$.
-D. $[3;4)$.",D. $[3;4)$.,"Đặt $t=\log_{12}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m)t+m-4=0$ $\Leftrightarrow t^2+(2-m)t+(m-3)=0$ $\Leftrightarrow (t-1)(t-(m-3))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-3\in[0;1)$, suy ra $m\in[3;4)."
-5605,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+16)\log_{9}x+m-12=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
+D. $[3;4)$.",D. $[3;4)$.,"Đặt $t=\log_{12}x$. Thay $q=4$ và khai triển, phương trình tương đương $(t+1)^2-mt+m-4=0$ $\Leftrightarrow t^2+(2-m)t+(m-3)=0$ $\Leftrightarrow (t-1)(t-(m-3))=0$. Điều kiện $x\in[1;12]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-3\in[0;1)$, suy ra $m\in[3;4)."
+5605,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+16)\log_{9}x+m+12=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
 
 A. $(-13;-12)$.
 B. $(-12;+\infty)$.
 C. $[-13;-12)$.
-D. $[-13;-12]$.",C. $[-13;-12)$.,"Đặt $t=\log_{9}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+16)t+m-12=0$ $\Leftrightarrow t^2+(-14-m)t+(m+13)=0$ $\Leftrightarrow (t-1)(t-(m+13))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+13\in[0;1)$, suy ra $m\in[-13;-12)."
-5606,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+6)\log_{13}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
+D. $[-13;-12]$.",C. $[-13;-12)$.,"Đặt $t=\log_{9}x$. Thay $q=-12$ và khai triển, phương trình tương đương $(t+1)^2-(m+16)t+m+12=0$ $\Leftrightarrow t^2+(-14-m)t+(m+13)=0$ $\Leftrightarrow (t-1)(t-(m+13))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+13\in[0;1)$, suy ra $m\in[-13;-12)."
+5606,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{13}^2(13x)-(m+6)\log_{13}x+m+2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;13]$ là
 
 A. $(-3;-2)$.
 B. $(-2;+\infty)$.
 C. $[-3;-2)$.
-D. $[-3;-2]$.",C. $[-3;-2)$.,"Đặt $t=\log_{13}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+6)t+m-2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
-5607,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{4}^2(4x)-(m+30)\log_{4}x+m-26=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;4]$ là
+D. $[-3;-2]$.",C. $[-3;-2)$.,"Đặt $t=\log_{13}x$. Thay $q=-2$ và khai triển, phương trình tương đương $(t+1)^2-(m+6)t+m+2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;13]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
+5607,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{4}^2(4x)-(m+30)\log_{4}x+m+26=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;4]$ là
 
 A. $(-26;+\infty)$.
 B. $[-27;-26)$.
 C. $(-27;-26)$.
-D. $[-27;-26]$.",B. $[-27;-26)$.,"Đặt $t=\log_{4}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+30)t+m-26=0$ $\Leftrightarrow t^2+(-28-m)t+(m+27)=0$ $\Leftrightarrow (t-1)(t-(m+27))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+27\in[0;1)$, suy ra $m\in[-27;-26)."
-5608,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m+8)\log_{3}x+m-4=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
+D. $[-27;-26]$.",B. $[-27;-26)$.,"Đặt $t=\log_{4}x$. Thay $q=-26$ và khai triển, phương trình tương đương $(t+1)^2-(m+30)t+m+26=0$ $\Leftrightarrow t^2+(-28-m)t+(m+27)=0$ $\Leftrightarrow (t-1)(t-(m+27))=0$. Điều kiện $x\in[1;4]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+27\in[0;1)$, suy ra $m\in[-27;-26)."
+5608,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{3}^2(3x)-(m+8)\log_{3}x+m+4=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;3]$ là
 
 A. $[-5;-4)$.
 B. $[-5;-4]$.
 C. $(-4;+\infty)$.
-D. $(-5;-4)$.",A. $[-5;-4)$.,"Đặt $t=\log_{3}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+8)t+m-4=0$ $\Leftrightarrow t^2+(-6-m)t+(m+5)=0$ $\Leftrightarrow (t-1)(t-(m+5))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+5\in[0;1)$, suy ra $m\in[-5;-4)."
+D. $(-5;-4)$.",A. $[-5;-4)$.,"Đặt $t=\log_{3}x$. Thay $q=-4$ và khai triển, phương trình tương đương $(t+1)^2-(m+8)t+m+4=0$ $\Leftrightarrow t^2+(-6-m)t+(m+5)=0$ $\Leftrightarrow (t-1)(t-(m+5))=0$. Điều kiện $x\in[1;3]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+5\in[0;1)$, suy ra $m\in[-5;-4)."
 5609,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{10}^2(10x)-(m-34)\log_{10}x+m-38=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;10]$ là
 
 A. $[37;38)$.
 B. $(37;38)$.
 C. $(38;+\infty)$.
-D. $[37;38]$.",A. $[37;38)$.,"Đặt $t=\log_{10}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-34)t+m-38=0$ $\Leftrightarrow t^2+(36-m)t+(m-37)=0$ $\Leftrightarrow (t-1)(t-(m-37))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-37\in[0;1)$, suy ra $m\in[37;38)."
-5610,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+36)\log_{9}x+m-32=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
+D. $[37;38]$.",A. $[37;38)$.,"Đặt $t=\log_{10}x$. Thay $q=38$ và khai triển, phương trình tương đương $(t+1)^2-(m-34)t+m-38=0$ $\Leftrightarrow t^2+(36-m)t+(m-37)=0$ $\Leftrightarrow (t-1)(t-(m-37))=0$. Điều kiện $x\in[1;10]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-37\in[0;1)$, suy ra $m\in[37;38)."
+5610,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+36)\log_{9}x+m+32=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
 
 A. $[-33;-32]$.
 B. $(-33;-32)$.
 C. $(-32;+\infty)$.
-D. $[-33;-32)$.",D. $[-33;-32)$.,"Đặt $t=\log_{9}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+36)t+m-32=0$ $\Leftrightarrow t^2+(-34-m)t+(m+33)=0$ $\Leftrightarrow (t-1)(t-(m+33))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+33\in[0;1)$, suy ra $m\in[-33;-32)."
+D. $[-33;-32)$.",D. $[-33;-32)$.,"Đặt $t=\log_{9}x$. Thay $q=-32$ và khai triển, phương trình tương đương $(t+1)^2-(m+36)t+m+32=0$ $\Leftrightarrow t^2+(-34-m)t+(m+33)=0$ $\Leftrightarrow (t-1)(t-(m+33))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+33\in[0;1)$, suy ra $m\in[-33;-32)."
 5611,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{2}^2(2x)-(m-22)\log_{2}x+m-26=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là
 
 A. $[25;26)$.
 B. $(26;+\infty)$.
 C. $[25;26]$.
-D. $(25;26)$.",A. $[25;26)$.,"Đặt $t=\log_{2}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-22)t+m-26=0$ $\Leftrightarrow t^2+(24-m)t+(m-25)=0$ $\Leftrightarrow (t-1)(t-(m-25))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-25\in[0;1)$, suy ra $m\in[25;26)."
+D. $(25;26)$.",A. $[25;26)$.,"Đặt $t=\log_{2}x$. Thay $q=26$ và khai triển, phương trình tương đương $(t+1)^2-(m-22)t+m-26=0$ $\Leftrightarrow t^2+(24-m)t+(m-25)=0$ $\Leftrightarrow (t-1)(t-(m-25))=0$. Điều kiện $x\in[1;2]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-25\in[0;1)$, suy ra $m\in[25;26)."
 5612,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m-39)\log_{11}x+m-43=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $[42;43]$.
 B. $(43;+\infty)$.
 C. $(42;43)$.
-D. $[42;43)$.",D. $[42;43)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-39)t+m-43=0$ $\Leftrightarrow t^2+(41-m)t+(m-42)=0$ $\Leftrightarrow (t-1)(t-(m-42))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-42\in[0;1)$, suy ra $m\in[42;43)."
-5613,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+30)\log_{9}x+m-26=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
+D. $[42;43)$.",D. $[42;43)$.,"Đặt $t=\log_{11}x$. Thay $q=43$ và khai triển, phương trình tương đương $(t+1)^2-(m-39)t+m-43=0$ $\Leftrightarrow t^2+(41-m)t+(m-42)=0$ $\Leftrightarrow (t-1)(t-(m-42))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-42\in[0;1)$, suy ra $m\in[42;43)."
+5613,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{9}^2(9x)-(m+30)\log_{9}x+m+26=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;9]$ là
 
 A. $(-26;+\infty)$.
 B. $[-27;-26]$.
 C. $[-27;-26)$.
-D. $(-27;-26)$.",C. $[-27;-26)$.,"Đặt $t=\log_{9}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+30)t+m-26=0$ $\Leftrightarrow t^2+(-28-m)t+(m+27)=0$ $\Leftrightarrow (t-1)(t-(m+27))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+27\in[0;1)$, suy ra $m\in[-27;-26)."
-5614,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+6)\log_{5}x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
+D. $(-27;-26)$.",C. $[-27;-26)$.,"Đặt $t=\log_{9}x$. Thay $q=-26$ và khai triển, phương trình tương đương $(t+1)^2-(m+30)t+m+26=0$ $\Leftrightarrow t^2+(-28-m)t+(m+27)=0$ $\Leftrightarrow (t-1)(t-(m+27))=0$. Điều kiện $x\in[1;9]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+27\in[0;1)$, suy ra $m\in[-27;-26)."
+5614,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+6)\log_{5}x+m+2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $[-3;-2]$.
 B. $(-3;-2)$.
 C. $[-3;-2)$.
-D. $(-2;+\infty)$.",C. $[-3;-2)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+6)t+m-2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
+D. $(-2;+\infty)$.",C. $[-3;-2)$.,"Đặt $t=\log_{5}x$. Thay $q=-2$ và khai triển, phương trình tương đương $(t+1)^2-(m+6)t+m+2=0$ $\Leftrightarrow t^2+(-4-m)t+(m+3)=0$ $\Leftrightarrow (t-1)(t-(m+3))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+3\in[0;1)$, suy ra $m\in[-3;-2)."
 5615,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m-3)\log_{5}x+m-7=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $(6;7)$.
 B. $[6;7]$.
 C. $(7;+\infty)$.
-D. $[6;7)$.",D. $[6;7)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-3)t+m-7=0$ $\Leftrightarrow t^2+(5-m)t+(m-6)=0$ $\Leftrightarrow (t-1)(t-(m-6))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-6\in[0;1)$, suy ra $m\in[6;7)."
+D. $[6;7)$.",D. $[6;7)$.,"Đặt $t=\log_{5}x$. Thay $q=7$ và khai triển, phương trình tương đương $(t+1)^2-(m-3)t+m-7=0$ $\Leftrightarrow t^2+(5-m)t+(m-6)=0$ $\Leftrightarrow (t-1)(t-(m-6))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-6\in[0;1)$, suy ra $m\in[6;7)."
 5616,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{11}^2(11x)-(m-9)\log_{11}x+m-13=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;11]$ là
 
 A. $(13;+\infty)$.
 B. $[12;13]$.
 C. $[12;13)$.
-D. $(12;13)$.",C. $[12;13)$.,"Đặt $t=\log_{11}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-9)t+m-13=0$ $\Leftrightarrow t^2+(11-m)t+(m-12)=0$ $\Leftrightarrow (t-1)(t-(m-12))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-12\in[0;1)$, suy ra $m\in[12;13)."
+D. $(12;13)$.",C. $[12;13)$.,"Đặt $t=\log_{11}x$. Thay $q=13$ và khai triển, phương trình tương đương $(t+1)^2-(m-9)t+m-13=0$ $\Leftrightarrow t^2+(11-m)t+(m-12)=0$ $\Leftrightarrow (t-1)(t-(m-12))=0$. Điều kiện $x\in[1;11]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-12\in[0;1)$, suy ra $m\in[12;13)."
 5617,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-1)\log_{14}x+m-5=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $(4;5)$.
 B. $[4;5]$.
 C. $[4;5)$.
-D. $(5;+\infty)$.",C. $[4;5)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-1)t+m-5=0$ $\Leftrightarrow t^2+(3-m)t+(m-4)=0$ $\Leftrightarrow (t-1)(t-(m-4))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-4\in[0;1)$, suy ra $m\in[4;5)."
-5618,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+23)\log_{5}x+m-19=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
+D. $(5;+\infty)$.",C. $[4;5)$.,"Đặt $t=\log_{14}x$. Thay $q=5$ và khai triển, phương trình tương đương $(t+1)^2-(m-1)t+m-5=0$ $\Leftrightarrow t^2+(3-m)t+(m-4)=0$ $\Leftrightarrow (t-1)(t-(m-4))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-4\in[0;1)$, suy ra $m\in[4;5)."
+5618,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{5}^2(5x)-(m+23)\log_{5}x+m+19=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;5]$ là
 
 A. $[-20;-19)$.
 B. $(-20;-19)$.
 C. $(-19;+\infty)$.
-D. $[-20;-19]$.",A. $[-20;-19)$.,"Đặt $t=\log_{5}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+23)t+m-19=0$ $\Leftrightarrow t^2+(-21-m)t+(m+20)=0$ $\Leftrightarrow (t-1)(t-(m+20))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+20\in[0;1)$, suy ra $m\in[-20;-19)."
+D. $[-20;-19]$.",A. $[-20;-19)$.,"Đặt $t=\log_{5}x$. Thay $q=-19$ và khai triển, phương trình tương đương $(t+1)^2-(m+23)t+m+19=0$ $\Leftrightarrow t^2+(-21-m)t+(m+20)=0$ $\Leftrightarrow (t-1)(t-(m+20))=0$. Điều kiện $x\in[1;5]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+20\in[0;1)$, suy ra $m\in[-20;-19)."
 5619,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m-27)\log_{8}x+m-31=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $(30;31)$.
 B. $[30;31]$.
 C. $[30;31)$.
-D. $(31;+\infty)$.",C. $[30;31)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-27)t+m-31=0$ $\Leftrightarrow t^2+(29-m)t+(m-30)=0$ $\Leftrightarrow (t-1)(t-(m-30))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-30\in[0;1)$, suy ra $m\in[30;31)."
-5620,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+14)\log_{8}x+m-10=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
+D. $(31;+\infty)$.",C. $[30;31)$.,"Đặt $t=\log_{8}x$. Thay $q=31$ và khai triển, phương trình tương đương $(t+1)^2-(m-27)t+m-31=0$ $\Leftrightarrow t^2+(29-m)t+(m-30)=0$ $\Leftrightarrow (t-1)(t-(m-30))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-30\in[0;1)$, suy ra $m\in[30;31)."
+5620,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{8}^2(8x)-(m+14)\log_{8}x+m+10=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;8]$ là
 
 A. $(-11;-10)$.
 B. $[-11;-10)$.
 C. $(-10;+\infty)$.
-D. $[-11;-10]$.",B. $[-11;-10)$.,"Đặt $t=\log_{8}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m+14)t+m-10=0$ $\Leftrightarrow t^2+(-12-m)t+(m+11)=0$ $\Leftrightarrow (t-1)(t-(m+11))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+11\in[0;1)$, suy ra $m\in[-11;-10)."
+D. $[-11;-10]$.",B. $[-11;-10)$.,"Đặt $t=\log_{8}x$. Thay $q=-10$ và khai triển, phương trình tương đương $(t+1)^2-(m+14)t+m+10=0$ $\Leftrightarrow t^2+(-12-m)t+(m+11)=0$ $\Leftrightarrow (t-1)(t-(m+11))=0$. Điều kiện $x\in[1;8]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m+11\in[0;1)$, suy ra $m\in[-11;-10)."
 5621,D40,Nhân bản,p088_q43,chuan,"Cho phương trình $\log_{14}^2(14x)-(m-2)\log_{14}x+m-6=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;14]$ là
 
 A. $(5;6)$.
 B. $[5;6]$.
 C. $[5;6)$.
-D. $(6;+\infty)$.",C. $[5;6)$.,"Đặt $t=\log_{14}x$. Vì $q=4-p$, phương trình tương đương $(t+1)^2-(m-2)t+m-6=0$ $\Leftrightarrow t^2+(4-m)t+(m-5)=0$ $\Leftrightarrow (t-1)(t-(m-5))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-5\in[0;1)$, suy ra $m\in[5;6)."
+D. $(6;+\infty)$.",C. $[5;6)$.,"Đặt $t=\log_{14}x$. Thay $q=6$ và khai triển, phương trình tương đương $(t+1)^2-(m-2)t+m-6=0$ $\Leftrightarrow t^2+(4-m)t+(m-5)=0$ $\Leftrightarrow (t-1)(t-(m-5))=0$. Điều kiện $x\in[1;14]$ tương đương $t\in[0;1]$. Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m-5\in[0;1)$, suy ra $m\in[5;6)."
 5622,D16,Nhân bản,p021_q20,chuan,"Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $104^x+(20-m)17^x-m=0$ có nghiệm thuộc khoảng $(0;1)$.
 
 A. $(\dfrac{21}{2};\dfrac{74}{3})$.
@@ -42205,12 +42205,12 @@ A. $- \dfrac{1}{30} + \dfrac{\sqrt{61}}{30}$.
 B. $\dfrac{\sqrt{61}}{30} + \dfrac{29}{30}$.
 C. $\dfrac{1}{30} - \dfrac{\sqrt{61}}{30}$.
 D. $\dfrac{1}{2} + \dfrac{\sqrt{61}}{2}$.",A. $- \dfrac{1}{30} + \dfrac{\sqrt{61}}{30}$.,"Đặt $t$ là giá trị chung. $x=(729)^t,y=(216)^t,15x+y=(64)^t$. Chia cả hai vế cho $(64)^t$ và đặt $u=(p/q)^t=x/y$: $15u^2+u-1=0\Rightarrow u=- \dfrac{1}{30} + \dfrac{\sqrt{61}}{30}$."
-6933,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{144}x=\log_{12}y=\log_{1}(18x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+6933,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{144}x=\log_{24}y=\log_{4}(18x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{2} + \dfrac{\sqrt{73}}{2}$.
 B. $\dfrac{\sqrt{73}}{36} + \dfrac{35}{36}$.
 C. $\dfrac{1}{36} - \dfrac{\sqrt{73}}{36}$.
-D. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.",D. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.,"Đặt $t$ là giá trị chung. $x=(144)^t,y=(12)^t,18x+y=(1)^t$. Chia cả hai vế cho $(1)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\Rightarrow u=- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$."
+D. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.",D. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.,"Đặt $t$ là giá trị chung. $x=(144)^t,y=(24)^t,18x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\Rightarrow u=- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$."
 6934,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{484}x=\log_{506}y=\log_{529}(11x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{22} - \dfrac{3 \sqrt{5}}{22}$.
@@ -42283,12 +42283,12 @@ A. $\dfrac{1}{50} - \dfrac{\sqrt{101}}{50}$.
 B. $\dfrac{\sqrt{101}}{50} + \dfrac{49}{50}$.
 C. $- \dfrac{1}{50} + \dfrac{\sqrt{101}}{50}$.
 D. $\dfrac{1}{2} + \dfrac{\sqrt{101}}{2}$.",C. $- \dfrac{1}{50} + \dfrac{\sqrt{101}}{50}$.,"Đặt $t$ là giá trị chung. $x=(36)^t,y=(126)^t,25x+y=(441)^t$. Chia cả hai vế cho $(441)^t$ và đặt $u=(p/q)^t=x/y$: $25u^2+u-1=0\Rightarrow u=- \dfrac{1}{50} + \dfrac{\sqrt{101}}{50}$."
-6946,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{289}x=\log_{17}y=\log_{1}(24x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+6946,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{289}x=\log_{34}y=\log_{4}(24x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{\sqrt{97}}{48} + \dfrac{47}{48}$.
 B. $\dfrac{1}{48} - \dfrac{\sqrt{97}}{48}$.
 C. $\dfrac{1}{2} + \dfrac{\sqrt{97}}{2}$.
-D. $- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$.",D. $- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$.,"Đặt $t$ là giá trị chung. $x=(289)^t,y=(17)^t,24x+y=(1)^t$. Chia cả hai vế cho $(1)^t$ và đặt $u=(p/q)^t=x/y$: $24u^2+u-1=0\Rightarrow u=- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$."
+D. $- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$.",D. $- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$.,"Đặt $t$ là giá trị chung. $x=(289)^t,y=(34)^t,24x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $24u^2+u-1=0\Rightarrow u=- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$."
 6947,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{16}x=\log_{12}y=\log_{9}(24x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $- \dfrac{1}{48} + \dfrac{\sqrt{97}}{48}$.
@@ -42343,12 +42343,12 @@ A. $6$.
 B. $\dfrac{7}{6}$.
 C. $- \dfrac{1}{6}$.
 D. $\dfrac{1}{6}$.",D. $\dfrac{1}{6}$.,"Đặt $t$ là giá trị chung. $x=(25)^t,y=(110)^t,30x+y=(484)^t$. Chia cả hai vế cho $(484)^t$ và đặt $u=(p/q)^t=x/y$: $30u^2+u-1=0\Rightarrow u=\dfrac{1}{6}$."
-6956,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{49}x=\log_{7}y=\log_{1}(5x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+6956,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{49}x=\log_{14}y=\log_{4}(5x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{2} + \dfrac{\sqrt{21}}{2}$.
 B. $- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$.
 C. $\dfrac{1}{10} - \dfrac{\sqrt{21}}{10}$.
-D. $\dfrac{\sqrt{21}}{10} + \dfrac{9}{10}$.",B. $- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$.,"Đặt $t$ là giá trị chung. $x=(49)^t,y=(7)^t,5x+y=(1)^t$. Chia cả hai vế cho $(1)^t$ và đặt $u=(p/q)^t=x/y$: $5u^2+u-1=0\Rightarrow u=- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$."
+D. $\dfrac{\sqrt{21}}{10} + \dfrac{9}{10}$.",B. $- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$.,"Đặt $t$ là giá trị chung. $x=(49)^t,y=(14)^t,5x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $5u^2+u-1=0\Rightarrow u=- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$."
 6957,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{100}x=\log_{260}y=\log_{676}(9x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{18} - \dfrac{\sqrt{37}}{18}$.
@@ -42367,12 +42367,12 @@ A. $- \dfrac{1}{6} + \dfrac{\sqrt{13}}{6}$.
 B. $\dfrac{1}{2} + \dfrac{\sqrt{13}}{2}$.
 C. $\dfrac{1}{6} - \dfrac{\sqrt{13}}{6}$.
 D. $\dfrac{\sqrt{13}}{6} + \dfrac{5}{6}$.",A. $- \dfrac{1}{6} + \dfrac{\sqrt{13}}{6}$.,"Đặt $t$ là giá trị chung. $x=(900)^t,y=(840)^t,3x+y=(784)^t$. Chia cả hai vế cho $(784)^t$ và đặt $u=(p/q)^t=x/y$: $3u^2+u-1=0\Rightarrow u=- \dfrac{1}{6} + \dfrac{\sqrt{13}}{6}$."
-6960,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{1}x=\log_{24}y=\log_{576}(18x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+6960,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{4}x=\log_{48}y=\log_{576}(18x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{\sqrt{73}}{36} + \dfrac{35}{36}$.
 B. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.
 C. $\dfrac{1}{36} - \dfrac{\sqrt{73}}{36}$.
-D. $\dfrac{1}{2} + \dfrac{\sqrt{73}}{2}$.",B. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.,"Đặt $t$ là giá trị chung. $x=(1)^t,y=(24)^t,18x+y=(576)^t$. Chia cả hai vế cho $(576)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\Rightarrow u=- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$."
+D. $\dfrac{1}{2} + \dfrac{\sqrt{73}}{2}$.",B. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.,"Đặt $t$ là giá trị chung. $x=(4)^t,y=(48)^t,18x+y=(576)^t$. Chia cả hai vế cho $(576)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\Rightarrow u=- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$."
 6961,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{361}x=\log_{285}y=\log_{225}(18x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $- \dfrac{1}{36} + \dfrac{\sqrt{73}}{36}$.
@@ -42415,12 +42415,12 @@ A. $\dfrac{1}{46} - \dfrac{\sqrt{93}}{46}$.
 B. $- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$.
 C. $\dfrac{1}{2} + \dfrac{\sqrt{93}}{2}$.
 D. $\dfrac{\sqrt{93}}{46} + \dfrac{45}{46}$.",B. $- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$.,"Đặt $t$ là giá trị chung. $x=(324)^t,y=(162)^t,23x+y=(81)^t$. Chia cả hai vế cho $(81)^t$ và đặt $u=(p/q)^t=x/y$: $23u^2+u-1=0\Rightarrow u=- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$."
-6968,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{1}x=\log_{30}y=\log_{900}(14x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+6968,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{4}x=\log_{60}y=\log_{900}(14x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{28} - \dfrac{\sqrt{57}}{28}$.
 B. $\dfrac{1}{2} + \dfrac{\sqrt{57}}{2}$.
 C. $- \dfrac{1}{28} + \dfrac{\sqrt{57}}{28}$.
-D. $\dfrac{\sqrt{57}}{28} + \dfrac{27}{28}$.",C. $- \dfrac{1}{28} + \dfrac{\sqrt{57}}{28}$.,"Đặt $t$ là giá trị chung. $x=(1)^t,y=(30)^t,14x+y=(900)^t$. Chia cả hai vế cho $(900)^t$ và đặt $u=(p/q)^t=x/y$: $14u^2+u-1=0\Rightarrow u=- \dfrac{1}{28} + \dfrac{\sqrt{57}}{28}$."
+D. $\dfrac{\sqrt{57}}{28} + \dfrac{27}{28}$.",C. $- \dfrac{1}{28} + \dfrac{\sqrt{57}}{28}$.,"Đặt $t$ là giá trị chung. $x=(4)^t,y=(60)^t,14x+y=(900)^t$. Chia cả hai vế cho $(900)^t$ và đặt $u=(p/q)^t=x/y$: $14u^2+u-1=0\Rightarrow u=- \dfrac{1}{28} + \dfrac{\sqrt{57}}{28}$."
 6969,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{484}x=\log_{330}y=\log_{225}(21x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $- \dfrac{1}{42} + \dfrac{\sqrt{85}}{42}$.
@@ -42445,12 +42445,12 @@ A. $\dfrac{\sqrt{29}}{14} + \dfrac{13}{14}$.
 B. $- \dfrac{1}{14} + \dfrac{\sqrt{29}}{14}$.
 C. $\dfrac{1}{2} + \dfrac{\sqrt{29}}{2}$.
 D. $\dfrac{1}{14} - \dfrac{\sqrt{29}}{14}$.",B. $- \dfrac{1}{14} + \dfrac{\sqrt{29}}{14}$.,"Đặt $t$ là giá trị chung. $x=(625)^t,y=(400)^t,7x+y=(256)^t$. Chia cả hai vế cho $(256)^t$ và đặt $u=(p/q)^t=x/y$: $7u^2+u-1=0\Rightarrow u=- \dfrac{1}{14} + \dfrac{\sqrt{29}}{14}$."
-6973,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{1}x=\log_{26}y=\log_{676}(23x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+6973,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{4}x=\log_{52}y=\log_{676}(23x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{2} + \dfrac{\sqrt{93}}{2}$.
 B. $- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$.
 C. $\dfrac{1}{46} - \dfrac{\sqrt{93}}{46}$.
-D. $\dfrac{\sqrt{93}}{46} + \dfrac{45}{46}$.",B. $- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$.,"Đặt $t$ là giá trị chung. $x=(1)^t,y=(26)^t,23x+y=(676)^t$. Chia cả hai vế cho $(676)^t$ và đặt $u=(p/q)^t=x/y$: $23u^2+u-1=0\Rightarrow u=- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$."
+D. $\dfrac{\sqrt{93}}{46} + \dfrac{45}{46}$.",B. $- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$.,"Đặt $t$ là giá trị chung. $x=(4)^t,y=(52)^t,23x+y=(676)^t$. Chia cả hai vế cho $(676)^t$ và đặt $u=(p/q)^t=x/y$: $23u^2+u-1=0\Rightarrow u=- \dfrac{1}{46} + \dfrac{\sqrt{93}}{46}$."
 6974,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{400}x=\log_{420}y=\log_{441}(30x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $6$.
@@ -42685,12 +42685,12 @@ A. $\dfrac{1}{10} - \dfrac{\sqrt{21}}{10}$.
 B. $\dfrac{1}{2} + \dfrac{\sqrt{21}}{2}$.
 C. $\dfrac{\sqrt{21}}{10} + \dfrac{9}{10}$.
 D. $- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$.",D. $- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$.,"Đặt $t$ là giá trị chung. $x=(400)^t,y=(520)^t,5x+y=(676)^t$. Chia cả hai vế cho $(676)^t$ và đặt $u=(p/q)^t=x/y$: $5u^2+u-1=0\Rightarrow u=- \dfrac{1}{10} + \dfrac{\sqrt{21}}{10}$."
-7013,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{1}x=\log_{19}y=\log_{361}(10x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
+7013,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{4}x=\log_{38}y=\log_{361}(10x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{20} - \dfrac{\sqrt{41}}{20}$.
 B. $- \dfrac{1}{20} + \dfrac{\sqrt{41}}{20}$.
 C. $\dfrac{1}{2} + \dfrac{\sqrt{41}}{2}$.
-D. $\dfrac{\sqrt{41}}{20} + \dfrac{19}{20}$.",B. $- \dfrac{1}{20} + \dfrac{\sqrt{41}}{20}$.,"Đặt $t$ là giá trị chung. $x=(1)^t,y=(19)^t,10x+y=(361)^t$. Chia cả hai vế cho $(361)^t$ và đặt $u=(p/q)^t=x/y$: $10u^2+u-1=0\Rightarrow u=- \dfrac{1}{20} + \dfrac{\sqrt{41}}{20}$."
+D. $\dfrac{\sqrt{41}}{20} + \dfrac{19}{20}$.",B. $- \dfrac{1}{20} + \dfrac{\sqrt{41}}{20}$.,"Đặt $t$ là giá trị chung. $x=(4)^t,y=(38)^t,10x+y=(361)^t$. Chia cả hai vế cho $(361)^t$ và đặt $u=(p/q)^t=x/y$: $10u^2+u-1=0\Rightarrow u=- \dfrac{1}{20} + \dfrac{\sqrt{41}}{20}$."
 7014,D39,Nhân bản,p087_q41,chuan,"Cho $x,y$ là các số thực dương thỏa mãn $\log_{144}x=\log_{312}y=\log_{676}(9x+y)$. Giá trị của $\dfrac{x}{y}$ bằng
 
 A. $\dfrac{1}{18} - \dfrac{\sqrt{37}}{18}$.

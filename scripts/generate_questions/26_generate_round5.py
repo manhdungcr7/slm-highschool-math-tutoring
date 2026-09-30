@@ -147,6 +147,10 @@ def gen_D39(p, q, c, disc_ok):
 
 def verify_D39(params):
     p, q, c = (sp.sympify(params[k]) for k in ("p", "q", "c"))
+    # A logarithm base must be positive and different from 1; this type also
+    # requires three distinct bases, so p,q>1 and p!=q.
+    if p <= 1 or q <= 1 or p == q:
+        return False
     u = sp.Symbol("u", positive=True)
     sols = [s for s in sp.solve(sp.Eq(c * u ** 2 + u - 1, 0), u) if s.is_real and s > 0]
     if len(sols) != 1:

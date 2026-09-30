@@ -2683,12 +2683,12 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{144}x=\\log_{12}y=\\log_{1}(18x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2} + \\dfrac{\\sqrt{73}}{2}$.\nB. $\\dfrac{\\sqrt{73}}{36} + \\dfrac{35}{36}$.\nC. $\\dfrac{1}{36} - \\dfrac{\\sqrt{73}}{36}$.\nD. $- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{144}x=\\log_{24}y=\\log_{4}(18x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2} + \\dfrac{\\sqrt{73}}{2}$.\nB. $\\dfrac{\\sqrt{73}}{36} + \\dfrac{35}{36}$.\nC. $\\dfrac{1}{36} - \\dfrac{\\sqrt{73}}{36}$.\nD. $- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
     "dap_an": "D. $- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(144)^t,y=(12)^t,18x+y=(1)^t$. Chia cả hai vế cho $(1)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(144)^t,y=(24)^t,18x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
     "params": {
       "p": "12",
-      "q": "1",
+      "q": "2",
       "c": "18"
     }
   },
@@ -2878,12 +2878,12 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{289}x=\\log_{17}y=\\log_{1}(24x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{\\sqrt{97}}{48} + \\dfrac{47}{48}$.\nB. $\\dfrac{1}{48} - \\dfrac{\\sqrt{97}}{48}$.\nC. $\\dfrac{1}{2} + \\dfrac{\\sqrt{97}}{2}$.\nD. $- \\dfrac{1}{48} + \\dfrac{\\sqrt{97}}{48}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{289}x=\\log_{34}y=\\log_{4}(24x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{\\sqrt{97}}{48} + \\dfrac{47}{48}$.\nB. $\\dfrac{1}{48} - \\dfrac{\\sqrt{97}}{48}$.\nC. $\\dfrac{1}{2} + \\dfrac{\\sqrt{97}}{2}$.\nD. $- \\dfrac{1}{48} + \\dfrac{\\sqrt{97}}{48}$.",
     "dap_an": "D. $- \\dfrac{1}{48} + \\dfrac{\\sqrt{97}}{48}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(289)^t,y=(17)^t,24x+y=(1)^t$. Chia cả hai vế cho $(1)^t$ và đặt $u=(p/q)^t=x/y$: $24u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{48} + \\dfrac{\\sqrt{97}}{48}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(289)^t,y=(34)^t,24x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $24u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{48} + \\dfrac{\\sqrt{97}}{48}$.",
     "params": {
       "p": "17",
-      "q": "1",
+      "q": "2",
       "c": "24"
     }
   },
@@ -3028,12 +3028,12 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{49}x=\\log_{7}y=\\log_{1}(5x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2} + \\dfrac{\\sqrt{21}}{2}$.\nB. $- \\dfrac{1}{10} + \\dfrac{\\sqrt{21}}{10}$.\nC. $\\dfrac{1}{10} - \\dfrac{\\sqrt{21}}{10}$.\nD. $\\dfrac{\\sqrt{21}}{10} + \\dfrac{9}{10}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{49}x=\\log_{14}y=\\log_{4}(5x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2} + \\dfrac{\\sqrt{21}}{2}$.\nB. $- \\dfrac{1}{10} + \\dfrac{\\sqrt{21}}{10}$.\nC. $\\dfrac{1}{10} - \\dfrac{\\sqrt{21}}{10}$.\nD. $\\dfrac{\\sqrt{21}}{10} + \\dfrac{9}{10}$.",
     "dap_an": "B. $- \\dfrac{1}{10} + \\dfrac{\\sqrt{21}}{10}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(49)^t,y=(7)^t,5x+y=(1)^t$. Chia cả hai vế cho $(1)^t$ và đặt $u=(p/q)^t=x/y$: $5u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{10} + \\dfrac{\\sqrt{21}}{10}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(49)^t,y=(14)^t,5x+y=(4)^t$. Chia cả hai vế cho $(4)^t$ và đặt $u=(p/q)^t=x/y$: $5u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{10} + \\dfrac{\\sqrt{21}}{10}$.",
     "params": {
       "p": "7",
-      "q": "1",
+      "q": "2",
       "c": "5"
     }
   },
@@ -3088,11 +3088,11 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{1}x=\\log_{24}y=\\log_{576}(18x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{\\sqrt{73}}{36} + \\dfrac{35}{36}$.\nB. $- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.\nC. $\\dfrac{1}{36} - \\dfrac{\\sqrt{73}}{36}$.\nD. $\\dfrac{1}{2} + \\dfrac{\\sqrt{73}}{2}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{4}x=\\log_{48}y=\\log_{576}(18x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{\\sqrt{73}}{36} + \\dfrac{35}{36}$.\nB. $- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.\nC. $\\dfrac{1}{36} - \\dfrac{\\sqrt{73}}{36}$.\nD. $\\dfrac{1}{2} + \\dfrac{\\sqrt{73}}{2}$.",
     "dap_an": "B. $- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(1)^t,y=(24)^t,18x+y=(576)^t$. Chia cả hai vế cho $(576)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(4)^t,y=(48)^t,18x+y=(576)^t$. Chia cả hai vế cho $(576)^t$ và đặt $u=(p/q)^t=x/y$: $18u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{36} + \\dfrac{\\sqrt{73}}{36}$.",
     "params": {
-      "p": "1",
+      "p": "2",
       "q": "24",
       "c": "18"
     }
@@ -3208,11 +3208,11 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{1}x=\\log_{30}y=\\log_{900}(14x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{28} - \\dfrac{\\sqrt{57}}{28}$.\nB. $\\dfrac{1}{2} + \\dfrac{\\sqrt{57}}{2}$.\nC. $- \\dfrac{1}{28} + \\dfrac{\\sqrt{57}}{28}$.\nD. $\\dfrac{\\sqrt{57}}{28} + \\dfrac{27}{28}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{4}x=\\log_{60}y=\\log_{900}(14x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{28} - \\dfrac{\\sqrt{57}}{28}$.\nB. $\\dfrac{1}{2} + \\dfrac{\\sqrt{57}}{2}$.\nC. $- \\dfrac{1}{28} + \\dfrac{\\sqrt{57}}{28}$.\nD. $\\dfrac{\\sqrt{57}}{28} + \\dfrac{27}{28}$.",
     "dap_an": "C. $- \\dfrac{1}{28} + \\dfrac{\\sqrt{57}}{28}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(1)^t,y=(30)^t,14x+y=(900)^t$. Chia cả hai vế cho $(900)^t$ và đặt $u=(p/q)^t=x/y$: $14u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{28} + \\dfrac{\\sqrt{57}}{28}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(4)^t,y=(60)^t,14x+y=(900)^t$. Chia cả hai vế cho $(900)^t$ và đặt $u=(p/q)^t=x/y$: $14u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{28} + \\dfrac{\\sqrt{57}}{28}$.",
     "params": {
-      "p": "1",
+      "p": "2",
       "q": "30",
       "c": "14"
     }
@@ -3283,11 +3283,11 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{1}x=\\log_{26}y=\\log_{676}(23x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2} + \\dfrac{\\sqrt{93}}{2}$.\nB. $- \\dfrac{1}{46} + \\dfrac{\\sqrt{93}}{46}$.\nC. $\\dfrac{1}{46} - \\dfrac{\\sqrt{93}}{46}$.\nD. $\\dfrac{\\sqrt{93}}{46} + \\dfrac{45}{46}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{4}x=\\log_{52}y=\\log_{676}(23x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{2} + \\dfrac{\\sqrt{93}}{2}$.\nB. $- \\dfrac{1}{46} + \\dfrac{\\sqrt{93}}{46}$.\nC. $\\dfrac{1}{46} - \\dfrac{\\sqrt{93}}{46}$.\nD. $\\dfrac{\\sqrt{93}}{46} + \\dfrac{45}{46}$.",
     "dap_an": "B. $- \\dfrac{1}{46} + \\dfrac{\\sqrt{93}}{46}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(1)^t,y=(26)^t,23x+y=(676)^t$. Chia cả hai vế cho $(676)^t$ và đặt $u=(p/q)^t=x/y$: $23u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{46} + \\dfrac{\\sqrt{93}}{46}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(4)^t,y=(52)^t,23x+y=(676)^t$. Chia cả hai vế cho $(676)^t$ và đặt $u=(p/q)^t=x/y$: $23u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{46} + \\dfrac{\\sqrt{93}}{46}$.",
     "params": {
-      "p": "1",
+      "p": "2",
       "q": "26",
       "c": "23"
     }
@@ -3883,11 +3883,11 @@
     "ten_dang": "Find a ratio from three equal logarithms",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{1}x=\\log_{19}y=\\log_{361}(10x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{20} - \\dfrac{\\sqrt{41}}{20}$.\nB. $- \\dfrac{1}{20} + \\dfrac{\\sqrt{41}}{20}$.\nC. $\\dfrac{1}{2} + \\dfrac{\\sqrt{41}}{2}$.\nD. $\\dfrac{\\sqrt{41}}{20} + \\dfrac{19}{20}$.",
+    "de_bai": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_{4}x=\\log_{38}y=\\log_{361}(10x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng\n\nA. $\\dfrac{1}{20} - \\dfrac{\\sqrt{41}}{20}$.\nB. $- \\dfrac{1}{20} + \\dfrac{\\sqrt{41}}{20}$.\nC. $\\dfrac{1}{2} + \\dfrac{\\sqrt{41}}{2}$.\nD. $\\dfrac{\\sqrt{41}}{20} + \\dfrac{19}{20}$.",
     "dap_an": "B. $- \\dfrac{1}{20} + \\dfrac{\\sqrt{41}}{20}$.",
-    "loi_giai": "Đặt $t$ là giá trị chung. $x=(1)^t,y=(19)^t,10x+y=(361)^t$. Chia cả hai vế cho $(361)^t$ và đặt $u=(p/q)^t=x/y$: $10u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{20} + \\dfrac{\\sqrt{41}}{20}$.",
+    "loi_giai": "Đặt $t$ là giá trị chung. $x=(4)^t,y=(38)^t,10x+y=(361)^t$. Chia cả hai vế cho $(361)^t$ và đặt $u=(p/q)^t=x/y$: $10u^2+u-1=0\\Rightarrow u=- \\dfrac{1}{20} + \\dfrac{\\sqrt{41}}{20}$.",
     "params": {
-      "p": "1",
+      "p": "2",
       "q": "19",
       "c": "10"
     }

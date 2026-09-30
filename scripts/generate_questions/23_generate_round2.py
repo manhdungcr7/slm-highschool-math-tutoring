@@ -16,6 +16,7 @@ batch truoc, KHONG dung lai cong thuc dong dang da sinh de bai.
 """
 import json
 import random
+import re
 import sys
 from importlib import import_module
 
@@ -46,7 +47,11 @@ def try_add(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, args_list):
             de_bai, dap_an, loi_giai, params = gen_fn(*args)
         except AssertionError:
             continue
-        if verify_fn(params):
+        if ma_dang == "D40":
+            verified = verify_fn(params, de_bai, dap_an)
+        else:
+            verified = verify_fn(params)
+        if verified:
             add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params)
         else:
             fails.append((ma_dang, params))
@@ -249,22 +254,32 @@ def gen_D40(a, b_coef, p, q=None):
     return de_bai, dap_an, loi_giai, dict(a=str(a), p=str(p), q=str(q), lo=str(lo), hi=str(hi), r_fixed=str(r_fixed))
 
 
-def verify_D40_full(params):
+def verify_D40_full(params, question=None, answer=None):
     a, p, q, lo, hi, r_fixed = (sp.sympify(params[k]) for k in ("a", "p", "q", "lo", "hi", "r_fixed"))
-    m = sp.Symbol("m")
+    if q != 4 - p or a <= 1:
+        return False
     t = sp.Symbol("t")
-    # thu 3 gia tri m: 1 trong khoang, 2 ngoai khoang -> kiem tra dung/sai qua dinh nghia goc
-    ok = True
-    test_ms = [lo + sp.Rational(1, 2) * (hi - lo), lo - 1, hi + 1]
-    for mv in test_ms:
+    # Test one parameter inside and two outside against the original equation.
+    for mv in [lo + sp.Rational(1, 2) * (hi - lo), lo - 1, hi + 1]:
         full = sp.expand((1 + t) ** 2 - (mv + p) * t + mv - q)
         roots = sp.solve(sp.Eq(full, 0), t)
         valid = [r for r in roots if r.is_real and 0 <= r <= 1]
         should_have_2 = (lo <= mv < hi) if r_fixed == 0 else (lo < mv <= hi)
-        has_2 = len(set(valid)) == 2
-        if should_have_2 != has_2:
-            ok = False
-    return ok
+        if (len(set(valid)) == 2) != should_have_2:
+            return False
+    if question is None and answer is None:
+        return True
+    if question is None or answer is None:
+        return False
+    generated_question, generated_answer, _, _ = gen_D40(int(a), int(a), int(p))
+    def question_stem(text):
+        lines = text.splitlines()
+        stop = next((i for i, line in enumerate(lines) if re.match(r"^[A-D]\.\s", line)), len(lines))
+        return "\n".join(lines[:stop]).strip()
+    def answer_body(text):
+        return re.sub(r"^[A-D]\.\s*", "", text.strip()).replace(" ", "").replace("$", "").rstrip(".")
+    return (question_stem(question) == question_stem(generated_question)
+            and answer_body(answer) == answer_body(generated_answer))
 
 
 # ===================== D16: A^x+(c-m)B^x-m=0 co nghiem thuoc (0,1) ========
