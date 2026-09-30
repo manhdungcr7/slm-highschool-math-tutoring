@@ -19,6 +19,14 @@ ROWS = []
 
 
 def add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params):
+    def repair(text):
+        if isinstance(text, str):
+            try:
+                return text.encode("cp1252").decode("utf-8")
+            except (UnicodeEncodeError, UnicodeDecodeError):
+                return text
+        return text
+    de_bai, dap_an, loi_giai = map(repair, (de_bai, dap_an, loi_giai))
     ROWS.append({
         "id_goc": id_goc, "ma_dang": ma_dang, "ten_dang": ten_dang,
         "nguon": "Nhân bản", "loai_bien_the": "chuan",
@@ -90,60 +98,104 @@ def verify_D79(params):
     return True
 
 
-# ===================== D89: A(x-1)e^x = y(e^x+xy-Bx^2-C), x in (lo,hi) =====
-def gen_D89(A, B, C, lo, hi, y_max=60):
-    import math
-    A, B, C, lo, hi = sp.Integer(A), sp.Integer(B), sp.Integer(C), sp.Integer(lo), sp.Integer(hi)
-    def f(xv, y):
-        xv = float(xv)
-        return A * (xv - 1) * math.exp(xv) - y * (math.exp(xv) + xv * y - B * xv ** 2 - C)
-    found = []
-    for y in range(1, y_max):
-        f_lo, f_hi = f(lo, y), f(hi, y)
-        if f_lo * f_hi <= 0:
-            found.append(y)
-    assert found and found == list(range(found[0], found[-1] + 1))
-    count = len(found)
+# ===================== D89: count positive integers y for which a real x in (lo,hi) exists.
+# Solve the equation as a quadratic in y. For x>1 it has exactly one positive
+# root psi(x). Keep only tuples for which interval arithmetic certifies psi'>0
+# on every subinterval, so endpoint counting is mathematically justified.
+def _d89_psi(x, A, B, C):
+    import mpmath as mp
+    d = mp.exp(x) - B*x*x - C
+    disc = d*d + 4*x*A*(x-1)*mp.exp(x)
+    return (-d + mp.sqrt(disc))/(2*x)
+
+
+def _d89_certify_increasing(A, B, C, lo, hi, max_depth=9):
+    import mpmath as mp
+    mp.iv.dps = 50
+    pending = [(float(lo), float(hi), 0)]
+    lower_bounds = []
+    while pending:
+        left, right, depth = pending.pop()
+        x = mp.iv.mpf([left, right])
+        ex = mp.iv.exp(x)
+        d = ex - B*x*x - C
+        disc = d*d + 4*x*A*(x-1)*ex
+        if disc.a > 0:
+            y = (-d + mp.iv.sqrt(disc))/(2*x)
+            fx = (A*x-y)*ex - y*y + 2*B*x*y
+            if fx.a > 0:
+                lower_bounds.append(fx.a/mp.iv.sqrt(disc).b)
+                continue
+        if depth >= max_depth:
+            return None
+        mid = (left + right)/2
+        if mid == left or mid == right:
+            return None
+        pending.append((left, mid, depth+1))
+        pending.append((mid, right, depth+1))
+    if not lower_bounds:
+        return None
+    return min(lower_bounds)
+
+
+def gen_D89(A, B, C, lo, hi):
+    import mpmath as mp
+    A, B, C, lo, hi = map(int, (A, B, C, lo, hi))
+    assert A > 0 and B >= 0 and C >= 0 and lo >= 2 and hi > lo
+    derivative_lower = _d89_certify_increasing(A, B, C, lo, hi)
+    assert derivative_lower is not None and derivative_lower > 0
+    mp.mp.dps = 60
+    yl, yh = _d89_psi(mp.mpf(lo), A, B, C), _d89_psi(mp.mpf(hi), A, B, C)
+    margin = min(abs(yl-mp.nint(yl)), abs(yh-mp.nint(yh)))
+    assert yl > 0 and yh > yl and margin > mp.mpf('1e-8')
+    first, last = int(mp.floor(yl))+1, int(mp.ceil(yh))-1
+    count = last-first+1
     assert 5 < count < 40
     correct = str(count)
-    vals = bump_until_distinct([sp.Integer(count), count + 1, count - 1, count + 2])
+    vals = bump_until_distinct([sp.Integer(count), count+1, count-1, count+2])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
     Bx2 = f"{B}x^2" if B != 1 else "x^2"
-    de_bai = (
-        f"Có bao nhiêu số nguyên dương $y$ sao cho tồn tại số thực $x\\in({lo};{hi})$ thỏa mãn "
-        f"${A}(x-1)e^x=y(e^x+xy-{Bx2}-{C})$?\n\n"
+    Cterm = f"-{C}" if C else ""
+    question = (f"C\u00f3 bao nhi\u00eau s\u1ed1 nguy\u00ean d\u01b0\u01a1ng $y$ \u0111\u1ec3 t\u1ed3n t\u1ea1i s\u1ed1 th\u1ef1c "
+                f"$x\\in({lo};{hi})$ th\u1ecfa m\u00e3n "
+                f"${A}(x-1)e^x=y(e^x+xy-{Bx2}{Cterm})$?\n\n")
+    lines, answer = render_mc([correct, wrong1, wrong2, wrong3], 0)
+    question += "\n".join(lines)
+    d_expr = f"e^x-{Bx2}{Cterm}"
+    solution = (
+        f"Xem ph\u01b0\u01a1ng tr\u00ecnh nh\u01b0 ph\u01b0\u01a1ng tr\u00ecnh b\u1eadc hai theo $y$: "
+        f"$xy^2+({d_expr})y-{A}(x-1)e^x=0$. V\u1edbi $x\\in({lo};{hi})$ v\u00e0 $x>1$, "
+        f"t\u00edch hai nghi\u1ec7m \u00e2m n\u00ean ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 \u0111\u00fang m\u1ed9t nghi\u1ec7m d\u01b0\u01a1ng "
+        f"$y=\\psi(x)=\\dfrac{{-D(x)+\\sqrt{{D(x)^2+4\\cdot x\\cdot {A}(x-1)e^x}}}}{{2x}}$, "
+        f"trong \u0111\u00f3 $D(x)={d_expr}$. D\u00f9ng \u0111\u1ea1o h\u00e0m \u1ea9n cho "
+        f"$F(x,y)={A}(x-1)e^x-y(e^x+xy-{Bx2}{Cterm})=0$: "
+        f"$F_y=-\\sqrt{{D(x)^2+4\\cdot x\\cdot {A}(x-1)e^x}}<0$ v\u00e0 "
+        f"$F_x=({A}x-y)e^x-y^2+{2*B}xy$. Ki\u1ec3m tra b\u1eb1ng s\u1ed1 h\u1ecdc kho\u1ea3ng tr\u00ean to\u00e0n "
+        f"$({lo};{hi})$ cho $\\psi'(x)=F_x/\\sqrt{{D(x)^2+4\\cdot x\\cdot {A}(x-1)e^x}}>0$ "
+        f"(c\u1eadn d\u01b0\u1edbi \u0111\u01b0\u1ee3c ch\u1ee9ng nh\u1eadn l\u00e0 {float(derivative_lower.a):.6g}); do \u0111\u00f3 $\\psi$ t\u0103ng nghi\u00eam ng\u1eb7t. "
+        f"T\u1ea1i hai \u0111\u1ea7u m\u00fat, $\\psi({lo})\\approx {mp.nstr(yl,12)}$ v\u00e0 "
+        f"$\\psi({hi})\\approx {mp.nstr(yh,12)}$, \u0111\u1ec1u kh\u00f4ng nguy\u00ean. V\u00ec kho\u1ea3ng c\u1ee7a $x$ l\u00e0 kho\u1ea3ng m\u1edf, "
+        f"c\u00e1c gi\u00e1 tr\u1ecb nguy\u00ean d\u01b0\u01a1ng c\u00f3 th\u1ec3 nh\u1eadn \u0111\u01b0\u1ee3c l\u00e0 ${first},\\ldots,{last}$. "
+        f"V\u1eady c\u00f3 {count} gi\u00e1 tr\u1ecb."
     )
-    lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
-    de_bai += "\n".join(lines)
-    # For these generated coefficients, simplify f and its derivative exactly.
-    loi_giai = (
-        f"Chuyển vế, đặt $F_y(x)={A}(x-1)e^x-y(e^x+xy-{Bx2}-{C})$. Ta có "
-        f"$F_y'(x)=({A}x-y)e^x-y^2+2{B}xy$. Với mỗi $y$ trong dãy kết quả, giải $F_y'(x)=0$ "
-        f"cho thấy chỉ có một điểm tới hạn trong $({lo};{hi})$ và đó là điểm cực tiểu; do đó $F_y$ giảm rồi tăng. "
-        f"Tính $F_y({lo})$ và $F_y({hi})$ theo biểu thức đề bài: tồn tại nghiệm trong khoảng khi giá trị cực tiểu "
-        f"không dương và điều kiện đầu mút tương ứng được thỏa mãn. Thử các ngưỡng nguyên kề biên cho thấy "
-        f"đúng các giá trị ${found[0]}\\le y\\le {found[-1]}$, tổng cộng ${count}$ giá trị."
-    )
-    return de_bai, dap_an, loi_giai, dict(A=str(A), B=str(B), C=str(C), lo=str(lo), hi=str(hi),
-                                           found_lo=str(found[0]), found_hi=str(found[-1]))
+    params = dict(A=A, B=B, C=C, lo=lo, hi=hi, found_lo=first, found_hi=last,
+                  psi_lo=str(yl), psi_hi=str(yh), derivative_lower=str(derivative_lower.a))
+    return question, answer, solution, params
 
 
 def verify_D89(params):
-    import math
-    A, B, C, lo, hi, found_lo, found_hi = (sp.sympify(params[k]) for k in
-                                            ("A", "B", "C", "lo", "hi", "found_lo", "found_hi"))
-    def f(xv, y):
-        xv = float(xv)
-        return float(A) * (xv - 1) * math.exp(xv) - y * (math.exp(xv) + xv * y - float(B) * xv ** 2 - float(C))
-    for y in [int(found_lo), int(found_hi), int(found_lo) - 1, int(found_hi) + 1]:
-        if y < 1:
-            continue
-        ok = f(lo, y) * f(hi, y) <= 0
-        should = found_lo <= y <= found_hi
-        if ok != should:
-            return False
-    return True
-
+    import mpmath as mp
+    A, B, C, lo, hi = [int(params[k]) for k in ("A", "B", "C", "lo", "hi")]
+    lower = _d89_certify_increasing(A, B, C, lo, hi)
+    if lower is None or lower <= 0:
+        return False
+    mp.mp.dps = 60
+    yl, yh = _d89_psi(mp.mpf(lo), A, B, C), _d89_psi(mp.mpf(hi), A, B, C)
+    if min(abs(yl-mp.nint(yl)), abs(yh-mp.nint(yh))) <= mp.mpf('1e-8'):
+        return False
+    first, last = int(mp.floor(yl))+1, int(mp.ceil(yh))-1
+    return (first == int(params["found_lo"]) and last == int(params["found_hi"])
+            and first <= last and int(params["found_hi"])-int(params["found_lo"])+1 > 5)
 
 def expand_type(code, name, source_id, gen, verify, sampler, seed=0, target=90, max_tries=5000):
     rng = random.Random(seed)
@@ -189,7 +241,7 @@ def main():
         else:
             fails.append(("D79", params))
 
-    for A, B, C, lo, hi in [(4, 2, 3, 1, 5), (2, 1, 2, 1, 4), (3, 2, 4, 1, 6), (4, 1, 3, 1, 5)]:
+    for A, B, C, lo, hi in []:
         try:
             de_bai, dap_an, loi_giai, params = gen_D89(A, B, C, lo, hi)
         except AssertionError:
@@ -206,7 +258,7 @@ def main():
     expand_type("D89", "Count positive integer parameters for an exponential equation", "p230_q45",
                 gen_D89, verify_D89,
                 lambda r: (r.randint(1, 15), r.randint(1, 12), r.randint(0, 30),
-                           (lo := r.randint(1, 8)), lo + r.randint(2, 12)), seed=8901)
+                           (lo := r.randint(2, 8)), lo + r.randint(2, 12)), seed=8901)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_round6.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)

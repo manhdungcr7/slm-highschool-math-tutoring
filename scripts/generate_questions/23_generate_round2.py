@@ -223,11 +223,13 @@ def gen_D40(a, b_coef, p, q=None):
     if lo > hi:
         lo, hi = hi, lo
     correct = f"[{latex(lo)};{latex(hi)})" if r_fixed != 0 else f"({latex(lo)};{latex(hi)}]"
+    p_term = f"(m{p_int:+d})" if p_int else "m"
+    q_term = f"m{-int(q):+d}" if int(q) else "m"
     wrong1 = f"({latex(lo)};{latex(hi)})"
     wrong2 = f"[{latex(lo)};{latex(hi)}]"
     wrong3 = f"({latex(hi)};+\\infty)"
     de_bai = (
-        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-(m{p_int:+d})\\log_{{{a}}}x+m{-int(q):+d}=0$ ($m$ là tham số thực). "
+        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-{p_term}\\log_{{{a}}}x+{q_term}=0$ ($m$ là tham số thực). "
         f"Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn "
         f"$[1;{a}]$ là\n\n"
     )
@@ -237,7 +239,7 @@ def gen_D40(a, b_coef, p, q=None):
     shift = int(p) - 3
     loi_giai = (
         f"Đặt $t=\\log_{{{a}}}x$. Thay $q={q}$ và khai triển, phương trình tương đương "
-        f"$(t+1)^2-(m{p_int:+d})t+m-{q}=0$"
+        f"$(t+1)^2-{p_term}t+{q_term}=0$"
         f" $\\Leftrightarrow t^2+({coeff}-m)t+(m{shift:+d})=0$"
         f" $\\Leftrightarrow (t-1)(t-(m{shift:+d}))=0$. "
         f"Điều kiện $x\\in[1;{a}]$ tương đương $t\\in[0;1]$. "

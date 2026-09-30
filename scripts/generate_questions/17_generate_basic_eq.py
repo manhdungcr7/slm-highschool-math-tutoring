@@ -379,7 +379,10 @@ def gen_D33(a, bcoef, d, k):
     de_bai = f"Tập nghiệm của bất phương trình ${a}^{{{poly_str}}}<{a}^{{{k}}}$ là\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
-    loi_giai = f"${a}^{{{poly_str}}}<{a}^{{{k}}}\\Leftrightarrow {poly_str}<{k}\\Leftrightarrow {correct[1:-1]}$."
+    lo, hi = sol.start, sol.end
+    loi_giai = (f"V\u00ec {a}>1 n\u00ean b\u1ea5t ph\u01b0\u01a1ng tr\u00ecnh t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u1edbi ${poly_str}<{k}$. "
+                 f"Hai nghi\u1ec7m bi\u00ean c\u1ee7a tam th\u1ee9c l\u00e0 ${latex(lo)}$ v\u00e0 ${latex(hi)}$. "
+                 f"V\u00ec parabol m\u1edf l\u00ean, t\u1eadp nghi\u1ec7m l\u00e0 $x\\in({latex(lo)};{latex(hi)})$.")
     return de_bai, dap_an, loi_giai, dict(a=str(a), b=str(bcoef), d=str(d), k=str(k))
 
 
@@ -520,11 +523,14 @@ def gen_D55(p, q):
     vals_str = bump_until_distinct_str = [correct, wrong1, wrong2, wrong3]
     if len(set(vals_str)) < 4:
         wrong3 = latex(sp.exp(roots[0] - roots[1]))
-    de_bai = f"Tích tất cả các nghiệm của phương trình $\\ln^2 x + {p}\\ln x + {q} = 0$ bằng\n\n"
+    p_term = (f"+ {p}\\ln x" if p > 0 else (f"- {abs(p)}\\ln x" if p < 0 else ""))
+    q_term = (f"+ {q}" if q > 0 else (f"- {abs(q)}" if q < 0 else ""))
+    terms = (f" {p_term}" if p_term else "") + (f" {q_term}" if q_term else "")
+    de_bai = f"T?ch t?t c? c?c nghi?m c?a ph??ng tr?nh $\\ln^2 x{terms} = 0$ b?ng\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Điều kiện $x>0$. $\\ln^2x+{p}\\ln x+{q}=0 \\Leftrightarrow \\ln x={latex(roots[0])}$ hay $\\ln x={latex(roots[1])}$. "
+        f"Điều kiện $x>0$. $\\ln^2x{terms}=0 \\Leftrightarrow \\ln x={latex(roots[0])}$ hay $\\ln x={latex(roots[1])}$. "
         f"Vậy tích các nghiệm là $e^{{{latex(roots[0])}}}\\cdot e^{{{latex(roots[1])}}}={correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(p=str(p), q=str(q))

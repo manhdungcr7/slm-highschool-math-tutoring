@@ -81,7 +81,7 @@ def verify_D08(params):
 # verification independently counts sign-changing roots by bisection.
 def gen_D23(A, B, m, C):
     A, B, m, C = map(sp.Integer, (A, B, m, C))
-    assert A > 0 and m > 0
+    assert A > 0 and m > 0 and int(m) % 2 == 1
     A, B, m, C = int(A), int(B), int(m), int(C)
     x = sp.symbols("x", real=True)
     f = A * x**2 + B * x + m * sp.log(x + 1) + C
@@ -96,15 +96,18 @@ def gen_D23(A, B, m, C):
     linear, constant = 2*A + B, B + m
     deriv_num = f"{2*A}x^2"
     if linear:
-        deriv_num += f"{'+' if linear > 0 else '-'}{abs(linear)}x"
+        deriv_num += (("+" if linear > 0 else "-") + ("x" if abs(linear) == 1 else f"{abs(linear)}x"))
     if constant:
         deriv_num += f"{'+' if constant > 0 else '-'}{abs(constant)}"
+    Aterm = "x^2" if A == 1 else f"{A}x^2"
+    Cterm = f"{C:+d}" if C else ""
+    Bterm = "+x" if B == 1 else ("-x" if B == -1 else f"{B:+d}x")
     question, answer = mc_count_prompt(
-        f"Phương trình ${A}x^2{B:+d}x+\\ln((x+1)^{{{m}}}){C:+d}=0$ "
-        "có bao nhiêu nghiệm phân biệt?", 3
+        f"Ph\u01b0\u01a1ng tr\u00ecnh ${Aterm}{Bterm}+\\ln((x+1)^{{{m}}}){Cterm}=0$ "
+        "c\u00f3 bao nhi\u00eau nghi\u1ec7m ph\u00e2n bi\u1ec7t?", 3
     )
     solution = (
-        f"\u0110i\u1ec1u ki\u1ec7n $x>-1$. X\u00e9t $f(x)={A}x^2{B:+d}x+{m}\\ln(x+1){C:+d}$. "
+        f"\u0110i\u1ec1u ki\u1ec7n $x>-1$. X\u00e9t $f(x)={Aterm}{Bterm}+{m}\\ln(x+1){Cterm}$. "
         f"Ta c\u00f3 $f'(x)=\\dfrac{{{deriv_num}}}{{x+1}}$. D\u1ea5u c\u1ee7a \u0111\u1ea1o h\u00e0m l\u1ea7n l\u01b0\u1ee3t l\u00e0 $+,-,+$; "
         f"t\u1ea1i $x={sp.latex(critical[0])}$, f \u0111\u1ea1t c\u1ef1c \u0111\u1ea1i x\u1ea5p x\u1ec9 {float(vals[0]):.3f}>0, "
         f"c\u00f2n t\u1ea1i $x={sp.latex(critical[1])}$, f \u0111\u1ea1t c\u1ef1c ti\u1ec3u x\u1ea5p x\u1ec9 {float(vals[1]):.3f}<0. "
@@ -175,35 +178,49 @@ def gen_D47(m, n):
         f"Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn "
         f"$\\log_{{{p}}}(x+y)=\\log_{{{q}}}(x^2+y^2)$?", count
     )
+    bound = (2 ** (n / (2 * n - m)) + math.sqrt(2 * (2 ** (n / (2 * n - m))) ** (m / n))) / 2
     solution = (
-        f"Đặt $t=x+y>0$. Khi đó phương trình tương đương $x^2+(t-x)^2=t^{{{m}/{n}}}$. "
-        f"Thay $t=u^{{{n}}}$ ($u>0$), ta được $u^{{{2*n}}}-u^{{{m}}}-2xu^{{{n}}}+2x^2=0$. "
-        f"Đếm các giá trị nguyên $x$ có nghiệm dương, thu được $x\\in"
-        f"\\{{{','.join(map(str, xs))}\\}}$, có {count} giá trị."
+        f"\u0110\u1eb7t $t=x+y>0$. Ph\u01b0\u01a1ng tr\u00ecnh t\u01b0\u01a1ng \u0111\u01b0\u01a1ng "
+        f"$x^2+(t-x)^2=t^{{{m}/{n}}}$. Ta c\u00f3 "
+        f"$x^2+(t-x)^2=2(x-t/2)^2+t^2/2$ n\u00ean "
+        f"$t^2/2\\le t^{{{m}/{n}}}$, suy ra "
+        f"$t\\le 2^{{{n}/{2*n-m}}}$. M\u1eb7t kh\u00e1c, "
+        f"$2(x-t/2)^2\\le t^{{{m}/{n}}}$, do \u0111\u00f3 "
+        f"$|x|\\le\\dfrac{{2^{{{n}/{2*n-m}}}+"
+        f"\\sqrt{{2(2^{{{n}/{2*n-m}}})^{{{m}/{n}}}}}}}{{2}}"
+        f"\\approx {bound:.6f}$. V\u00ec v\u1eady ch\u1ec9 c\u1ea7n x\u00e9t h\u1eefu h\u1ea1n c\u00e1c s\u1ed1 nguy\u00ean $x$ "
+        f"trong kho\u1ea3ng n\u00e0y. \u0110\u1eb7t $t=u^{{{n}}}$ v\u1edbi $u>0$, ph\u01b0\u01a1ng tr\u00ecnh tr\u1edf th\u00e0nh "
+        f"$u^{{{2*n}}}-u^{{{m}}}-2xu^{{{n}}}+2x^2=0$. D\u00f9ng \u0111\u1ecbnh l\u00fd Sturm "
+        f"\u0111\u1ec3 \u0111\u1ebfm nghi\u1ec7m d\u01b0\u01a1ng c\u1ee7a \u0111a th\u1ee9c \u1ee9ng v\u1edbi t\u1eebng gi\u00e1 tr\u1ecb nguy\u00ean $x$ trong "
+        f"kho\u1ea3ng tr\u00ean, ta \u0111\u01b0\u1ee3c $x\\in\\{{{','.join(map(str, xs))}\\}}$. "
+        f"V\u1eady c\u00f3 {count} gi\u00e1 tr\u1ecb nguy\u00ean c\u1ee7a $x$."
     )
     return question, answer, solution, dict(m=m, n=n, p=p, q=q, xs=xs)
 
 
 def verify_D47(params):
+    # Independent exact check: enumerate the finite x-range from the proved
+    # bound, then count positive roots of each transformed polynomial by Sturm.
+    import sympy as sp
     m, n = int(params["m"]), int(params["n"])
-    r = m / n
-    tmax = 2.0 ** (1.0 / (2.0 - r))
-    bound = (tmax + math.sqrt(2.0 * tmax**r)) / 2.0
-    edge = math.ceil(bound) + 1
-    samples = [tmax * k / 12000 for k in range(1, 12001)]
-    samples.append(1.0)
+    if not (1 < m / n < 2 and math.gcd(m, n) == 1):
+        return False
+    u = sp.symbols("u")
+    tmax = sp.Pow(2, sp.Rational(n, 2*n-m))
+    bound = (tmax + sp.sqrt(2*tmax**sp.Rational(m,n))) / 2
+    edge = int(sp.ceiling(bound)) + 1
     found = []
-    for xv in range(-edge, edge + 1):
-        peak = max(t**r - (xv*xv + (t-xv)**2) for t in samples)
-        # x=0 and x=1 have the exact solution t=1 for every allowed exponent.
-        if peak > 1e-7 or xv in (0, 1):
+    for xv in range(-edge, edge+1):
+        poly = sp.Poly(u**(2*n) - u**m - 2*xv*u**n + 2*xv*xv, u)
+        while poly.eval(0) == 0:
+            poly = poly.exquo(sp.Poly(u,u))
+        if poly.count_roots(0, sp.oo) > 0:
             found.append(xv)
-    expected_xs = params["xs"]
-    if isinstance(expected_xs, str):
+    expected = params["xs"]
+    if isinstance(expected, str):
         import ast
-        expected_xs = ast.literal_eval(expected_xs)
-    expected_xs = [int(x) for x in expected_xs]
-    return found == expected_xs
+        expected = ast.literal_eval(expected)
+    return found == [int(v) for v in expected]
 
 
 # D52: enumerate exact rational inequalities for each a in a proven finite
@@ -251,8 +268,8 @@ def gen_D52(p, q, C, N, k):
         f"v\u00ec v\u1eady kh\u00f4ng c\u00f3 nghi\u1ec7m ph\u00eda tr\u00ean $M$. "
         f"N\u1ebfu $a\\le-M$, khi thay $a$ b\u1eb1ng $a-1$, v\u1ebf tr\u00e1i nh\u00e2n v\u1edbi "
         f"${p}^{{-2a+1}}\\ge {p}^{{2M+1}}\\ge {q}$, trong khi v\u1ebf ph\u1ea3i nh\u00e2n "
-        f"kh\u00f4ng qu\u00e1 $q$. Do \u0111\u00f3 t\u1ec9 s\u1ed1 hai v\u1ebf kh\u00f4ng gi\u1ea3m khi \u0111i xa h\u01a1n v\u1ec1 ph\u00eda \u00e2m; "
-        f"c\u00e1c gi\u00e1 tr\u1ecb $b$ th\u1ecfa \u1edf ngo\u00e0i $[-M,M]$ kh\u00f4ng th\u1ec3 \u0111\u1ea1t ng\u01b0\u1ee1ng {k}. "
+        f"kh\u00f4ng qu\u00e1 ${q}$. Do \u0111\u00f3 t\u1ec9 s\u1ed1 hai v\u1ebf kh\u00f4ng gi\u1ea3m khi \u0111i xa h\u01a1n v\u1ec1 ph\u00eda \u00e2m; "
+        f"c\u00e1c gi\u00e1 tr\u1ecb $b$ th\u1ecfa \u1edf ngo\u00e0i $[-M,M]$ kh\u00f4ng th\u1ec3 \u0111\u1ea1t ng\u01b0\u1ee1ng {k}; m\u1ed7i l\u1ea7n t\u0103ng |a|, v\u1ebf ph\u1ea3i t\u0103ng kh\u00f4ng qu\u00e1 h\u1ec7 s\u1ed1 {q} l\u1ea7n. "
         f"V\u00ec th\u1ebf ch\u1ec9 c\u1ea7n ki\u1ec3m tra c\u00e1c s\u1ed1 nguy\u00ean $a$ trong $[-M,M]$; "
         f"\u0111i\u1ec1u ki\u1ec7n \u0111\u00fang v\u1edbi $a\\in\\{{{','.join(map(str, good))}\\}}$, "
         f"c\u00f3 {count} gi\u00e1 tr\u1ecb."

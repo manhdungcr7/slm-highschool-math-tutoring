@@ -55,7 +55,7 @@ def fast_gen_D67(B, k, c):
     loi_giai = (
         f"Đặt $t={Bi}^x>0$: $t^2-{ki}mt+{ci}m^2-{ci}=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt "
         f"$\\Leftrightarrow \\Delta>0,\\ {ki}m>0,\\ {ci}m^2-{ci}>0$. "
-        f"Vì $4{ci}>{Bi**2}$, điều kiện $\\Delta>0$ tương đương "
+        f"Do $4\\cdot{ci}>{Bi**2}$, điều kiện $\\Delta>0$ tương đương "
         f"$|m|<{utils.latex(upper)}$. Kết hợp hai điều kiện còn lại, ta được "
         f"$1<m<{utils.latex(upper)}$. Do đó các giá trị nguyên là "
         f"$S=\\{{{','.join(str(v) for v in sorted(int_vals))}\\}}$, có ${count}$ phần tử."
