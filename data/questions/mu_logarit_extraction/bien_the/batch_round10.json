@@ -1,0 +1,1999 @@
+[
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -10$ là\n\nA. $(\\dfrac{1}{10000000000};+\\infty)$.\nB. $[\\dfrac{1}{10000000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{1}{10000000000})$.",
+    "dap_an": "B. $[\\dfrac{1}{10000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -10\\Leftrightarrow x\\ge \\dfrac{1}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{10000000000};+\\infty)$.",
+    "params": {
+      "k": "-10"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -9$ là\n\nA. $(\\dfrac{1}{1000000000};+\\infty)$.\nB. $[\\dfrac{1}{1000000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{1}{1000000000})$.",
+    "dap_an": "B. $[\\dfrac{1}{1000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -9\\Leftrightarrow x\\ge \\dfrac{1}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{1000000000};+\\infty)$.",
+    "params": {
+      "k": "-9"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -8$ là\n\nA. $(-\\infty;\\dfrac{1}{100000000})$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{1}{100000000};+\\infty)$.\nD. $(\\dfrac{1}{100000000};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{1}{100000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -8\\Leftrightarrow x\\ge \\dfrac{1}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{100000000};+\\infty)$.",
+    "params": {
+      "k": "-8"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -7$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{1}{10000000})$.\nC. $[\\dfrac{1}{10000000};+\\infty)$.\nD. $(\\dfrac{1}{10000000};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{1}{10000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -7\\Leftrightarrow x\\ge \\dfrac{1}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{10000000};+\\infty)$.",
+    "params": {
+      "k": "-7"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -6$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{1}{1000000};+\\infty)$.\nC. $(\\dfrac{1}{1000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{1}{1000000})$.",
+    "dap_an": "B. $[\\dfrac{1}{1000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -6\\Leftrightarrow x\\ge \\dfrac{1}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{1000000};+\\infty)$.",
+    "params": {
+      "k": "-6"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -5$ là\n\nA. $(\\dfrac{1}{100000};+\\infty)$.\nB. $(-\\infty;\\dfrac{1}{100000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{1}{100000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{1}{100000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -5\\Leftrightarrow x\\ge \\dfrac{1}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{100000};+\\infty)$.",
+    "params": {
+      "k": "-5"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -4$ là\n\nA. $[\\dfrac{1}{10000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{1}{10000})$.\nD. $(\\dfrac{1}{10000};+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{1}{10000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -4\\Leftrightarrow x\\ge \\dfrac{1}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{10000};+\\infty)$.",
+    "params": {
+      "k": "-4"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -3$ là\n\nA. $(\\dfrac{1}{1000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{1}{1000};+\\infty)$.\nD. $(-\\infty;\\dfrac{1}{1000})$.",
+    "dap_an": "C. $[\\dfrac{1}{1000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -3\\Leftrightarrow x\\ge \\dfrac{1}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{1000};+\\infty)$.",
+    "params": {
+      "k": "-3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -2$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{1}{100})$.\nC. $(\\dfrac{1}{100};+\\infty)$.\nD. $[\\dfrac{1}{100};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{1}{100};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -2\\Leftrightarrow x\\ge \\dfrac{1}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{100};+\\infty)$.",
+    "params": {
+      "k": "-2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge -1$ là\n\nA. $[\\dfrac{1}{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{1}{10};+\\infty)$.\nD. $(-\\infty;\\dfrac{1}{10})$.",
+    "dap_an": "A. $[\\dfrac{1}{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge -1\\Leftrightarrow x\\ge \\dfrac{1}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{1}{10};+\\infty)$.",
+    "params": {
+      "k": "-1"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 0$ là\n\nA. $(-\\infty;1)$.\nB. $(0;+\\infty)$.\nC. $[1;+\\infty)$.\nD. $(1;+\\infty)$.",
+    "dap_an": "C. $[1;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 0\\Leftrightarrow x\\ge 1$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1;+\\infty)$.",
+    "params": {
+      "k": "0"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 1$ là\n\nA. $(-\\infty;10)$.\nB. $(0;+\\infty)$.\nC. $(10;+\\infty)$.\nD. $[10;+\\infty)$.",
+    "dap_an": "D. $[10;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 1\\Leftrightarrow x\\ge 10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10;+\\infty)$.",
+    "params": {
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 2$ là\n\nA. $[100;+\\infty)$.\nB. $(-\\infty;100)$.\nC. $(0;+\\infty)$.\nD. $(100;+\\infty)$.",
+    "dap_an": "A. $[100;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 2\\Leftrightarrow x\\ge 100$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100;+\\infty)$.",
+    "params": {
+      "k": "2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 3$ là\n\nA. $(0;+\\infty)$.\nB. $[1000;+\\infty)$.\nC. $(-\\infty;1000)$.\nD. $(1000;+\\infty)$.",
+    "dap_an": "B. $[1000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 3\\Leftrightarrow x\\ge 1000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000;+\\infty)$.",
+    "params": {
+      "k": "3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 4$ là\n\nA. $(-\\infty;10000)$.\nB. $(10000;+\\infty)$.\nC. $[10000;+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[10000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 4\\Leftrightarrow x\\ge 10000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000;+\\infty)$.",
+    "params": {
+      "k": "4"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 5$ là\n\nA. $(-\\infty;100000)$.\nB. $[100000;+\\infty)$.\nC. $(100000;+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[100000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 5\\Leftrightarrow x\\ge 100000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000;+\\infty)$.",
+    "params": {
+      "k": "5"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 6$ là\n\nA. $[1000000;+\\infty)$.\nB. $(1000000;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;1000000)$.",
+    "dap_an": "A. $[1000000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 6\\Leftrightarrow x\\ge 1000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000;+\\infty)$.",
+    "params": {
+      "k": "6"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 7$ là\n\nA. $[10000000;+\\infty)$.\nB. $(10000000;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;10000000)$.",
+    "dap_an": "A. $[10000000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 7\\Leftrightarrow x\\ge 10000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000;+\\infty)$.",
+    "params": {
+      "k": "7"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 8$ là\n\nA. $(-\\infty;100000000)$.\nB. $[100000000;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(100000000;+\\infty)$.",
+    "dap_an": "B. $[100000000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 8\\Leftrightarrow x\\ge 100000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000;+\\infty)$.",
+    "params": {
+      "k": "8"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 9$ là\n\nA. $[1000000000;+\\infty)$.\nB. $(-\\infty;1000000000)$.\nC. $(0;+\\infty)$.\nD. $(1000000000;+\\infty)$.",
+    "dap_an": "A. $[1000000000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 9\\Leftrightarrow x\\ge 1000000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000;+\\infty)$.",
+    "params": {
+      "k": "9"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 10$ là\n\nA. $(0;+\\infty)$.\nB. $[10000000000;+\\infty)$.\nC. $(-\\infty;10000000000)$.\nD. $(10000000000;+\\infty)$.",
+    "dap_an": "B. $[10000000000;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 10\\Leftrightarrow x\\ge 10000000000$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000000;+\\infty)$.",
+    "params": {
+      "k": "10"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{19}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt{10}}{10000000000})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{19}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.",
+    "params": {
+      "k": "-19/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{17}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{1000000000})$.\nC. $(\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{17}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
+    "params": {
+      "k": "-17/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{15}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{100000000})$.\nC. $(\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{15}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
+    "params": {
+      "k": "-15/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{13}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{10000000})$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{13}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.",
+    "params": {
+      "k": "-13/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{11}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{1000000})$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{11}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.",
+    "params": {
+      "k": "-11/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{9}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{100000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{100000})$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{9}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
+    "params": {
+      "k": "-9/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{7}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{10000};+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{10000})$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{7}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.",
+    "params": {
+      "k": "-7/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{5}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.\nB. $(\\dfrac{\\sqrt{10}}{1000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt{10}}{1000})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{5}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.",
+    "params": {
+      "k": "-5/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{3}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{100};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{100})$.\nC. $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{3}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.",
+    "params": {
+      "k": "-3/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{1}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{10};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{10})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{1}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
+    "params": {
+      "k": "-1/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{2}$ là\n\nA. $(\\sqrt{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\sqrt{10};+\\infty)$.\nD. $(-\\infty;\\sqrt{10})$.",
+    "dap_an": "C. $[\\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{1}{2}\\Leftrightarrow x\\ge \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "1/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{3}{2}$ là\n\nA. $[10 \\sqrt{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(10 \\sqrt{10};+\\infty)$.\nD. $(-\\infty;10 \\sqrt{10})$.",
+    "dap_an": "A. $[10 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{3}{2}\\Leftrightarrow x\\ge 10 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "3/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{5}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;100 \\sqrt{10})$.\nC. $(100 \\sqrt{10};+\\infty)$.\nD. $[100 \\sqrt{10};+\\infty)$.",
+    "dap_an": "D. $[100 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{5}{2}\\Leftrightarrow x\\ge 100 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "5/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{7}{2}$ là\n\nA. $[1000 \\sqrt{10};+\\infty)$.\nB. $(-\\infty;1000 \\sqrt{10})$.\nC. $(0;+\\infty)$.\nD. $(1000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "A. $[1000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{7}{2}\\Leftrightarrow x\\ge 1000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "7/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{9}{2}$ là\n\nA. $(-\\infty;10000 \\sqrt{10})$.\nB. $[10000 \\sqrt{10};+\\infty)$.\nC. $(10000 \\sqrt{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[10000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{9}{2}\\Leftrightarrow x\\ge 10000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "9/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{11}{2}$ là\n\nA. $[100000 \\sqrt{10};+\\infty)$.\nB. $(100000 \\sqrt{10};+\\infty)$.\nC. $(-\\infty;100000 \\sqrt{10})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[100000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{11}{2}\\Leftrightarrow x\\ge 100000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "11/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{13}{2}$ là\n\nA. $(1000000 \\sqrt{10};+\\infty)$.\nB. $(-\\infty;1000000 \\sqrt{10})$.\nC. $(0;+\\infty)$.\nD. $[1000000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "D. $[1000000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{13}{2}\\Leftrightarrow x\\ge 1000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "13/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{15}{2}$ là\n\nA. $(10000000 \\sqrt{10};+\\infty)$.\nB. $[10000000 \\sqrt{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;10000000 \\sqrt{10})$.",
+    "dap_an": "B. $[10000000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{15}{2}\\Leftrightarrow x\\ge 10000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "15/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{17}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;100000000 \\sqrt{10})$.\nC. $(100000000 \\sqrt{10};+\\infty)$.\nD. $[100000000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "D. $[100000000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{17}{2}\\Leftrightarrow x\\ge 100000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "17/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{19}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(1000000000 \\sqrt{10};+\\infty)$.\nC. $(-\\infty;1000000000 \\sqrt{10})$.\nD. $[1000000000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "D. $[1000000000 \\sqrt{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{19}{2}\\Leftrightarrow x\\ge 1000000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \\sqrt{10};+\\infty)$.",
+    "params": {
+      "k": "19/2"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{29}{3}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000000000})$.\nB. $(\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{29}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.",
+    "params": {
+      "k": "-29/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{28}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000000000})$.\nC. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{28}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.",
+    "params": {
+      "k": "-28/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{26}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{1000000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000000000})$.\nC. $(\\dfrac{\\sqrt[3]{10}}{1000000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{1000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{26}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{1000000000};+\\infty)$.",
+    "params": {
+      "k": "-26/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{25}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000000000})$.",
+    "dap_an": "C. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{25}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.",
+    "params": {
+      "k": "-25/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{23}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100000000})$.\nD. $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{23}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.",
+    "params": {
+      "k": "-23/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{22}{3}$ là\n\nA. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100000000})$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{100000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{22}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{100000000};+\\infty)$.",
+    "params": {
+      "k": "-22/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{20}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000000})$.\nD. $(\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{20}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.",
+    "params": {
+      "k": "-20/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{19}{3}$ là\n\nA. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000000})$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{19}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.",
+    "params": {
+      "k": "-19/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{17}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.\nB. $(\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000000})$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{17}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.",
+    "params": {
+      "k": "-17/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{16}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000000})$.\nC. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.\nD. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{16}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
+    "params": {
+      "k": "-16/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{14}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100000})$.\nC. $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.\nD. $(\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{14}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
+    "params": {
+      "k": "-14/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{13}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100000})$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{13}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.",
+    "params": {
+      "k": "-13/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{11}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000})$.\nC. $(0;+\\infty)$.\nD. $(\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{11}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
+    "params": {
+      "k": "-11/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{10}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000})$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{10}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
+    "params": {
+      "k": "-10/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{8}{3}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000})$.\nB. $(\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.\nC. $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{8}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.",
+    "params": {
+      "k": "-8/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{7}{3}$ là\n\nA. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.\nB. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{7}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.",
+    "params": {
+      "k": "-7/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{5}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100})$.\nD. $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{5}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
+    "params": {
+      "k": "-5/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{4}{3}$ là\n\nA. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100})$.\nB. $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{4}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.",
+    "params": {
+      "k": "-4/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{2}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.\nB. $(\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10})$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{2}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.",
+    "params": {
+      "k": "-2/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{1}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10})$.\nC. $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.\nD. $(\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge - \\dfrac{1}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
+    "params": {
+      "k": "-1/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{3}$ là\n\nA. $(\\sqrt[3]{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\sqrt[3]{10};+\\infty)$.\nD. $(-\\infty;\\sqrt[3]{10})$.",
+    "dap_an": "C. $[\\sqrt[3]{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{1}{3}\\Leftrightarrow x\\ge \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\sqrt[3]{10};+\\infty)$.",
+    "params": {
+      "k": "1/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{2}{3}$ là\n\nA. $[10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;10^{\\dfrac{2}{3}})$.\nD. $(10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "A. $[10^{\\dfrac{2}{3}};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{2}{3}\\Leftrightarrow x\\ge 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10^{\\dfrac{2}{3}};+\\infty)$.",
+    "params": {
+      "k": "2/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{4}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[10 \\sqrt[3]{10};+\\infty)$.\nC. $(-\\infty;10 \\sqrt[3]{10})$.\nD. $(10 \\sqrt[3]{10};+\\infty)$.",
+    "dap_an": "B. $[10 \\sqrt[3]{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{4}{3}\\Leftrightarrow x\\ge 10 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \\sqrt[3]{10};+\\infty)$.",
+    "params": {
+      "k": "4/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{5}{3}$ là\n\nA. $(10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(-\\infty;10 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $(0;+\\infty)$.\nD. $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "D. $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{5}{3}\\Leftrightarrow x\\ge 10 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "params": {
+      "k": "5/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{7}{3}$ là\n\nA. $(-\\infty;100 \\sqrt[3]{10})$.\nB. $[100 \\sqrt[3]{10};+\\infty)$.\nC. $(100 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[100 \\sqrt[3]{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{7}{3}\\Leftrightarrow x\\ge 100 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \\sqrt[3]{10};+\\infty)$.",
+    "params": {
+      "k": "7/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{8}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(-\\infty;100 \\cdot 10^{\\dfrac{2}{3}})$.",
+    "dap_an": "B. $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{8}{3}\\Leftrightarrow x\\ge 100 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "params": {
+      "k": "8/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{10}{3}$ là\n\nA. $(1000 \\sqrt[3]{10};+\\infty)$.\nB. $(-\\infty;1000 \\sqrt[3]{10})$.\nC. $[1000 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[1000 \\sqrt[3]{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{10}{3}\\Leftrightarrow x\\ge 1000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \\sqrt[3]{10};+\\infty)$.",
+    "params": {
+      "k": "10/3"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{11}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;1000 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $(1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "D. $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{11}{3}\\Leftrightarrow x\\ge 1000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "params": {
+      "k": "11/3"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{x+2}+64)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $501$.\nB. $500$.\nC. $499$.\nD. $498$.",
+    "dap_an": "C. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-5\\cdot2^{x+2}+64=t^2-(2^{2}+2^{4})t+2^{6}=(t-2^{2})(t-2^{4})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 4$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 4$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $4,\\ldots,500$, có $2+(500-4+1)=499$ số.",
+    "params": {
+      "u": "2",
+      "v": "4",
+      "c": "5",
+      "d": "64",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-9\\cdot2^{x+2}+128)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $498$.\nC. $499$.\nD. $497$.",
+    "dap_an": "B. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-9\\cdot2^{x+2}+128=t^2-(2^{2}+2^{5})t+2^{7}=(t-2^{2})(t-2^{5})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 5$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 5$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $5,\\ldots,500$, có $2+(500-5+1)=498$ số.",
+    "params": {
+      "u": "2",
+      "v": "5",
+      "c": "9",
+      "d": "128",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-17\\cdot2^{x+2}+256)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $496$.\nB. $500$.\nC. $497$.\nD. $498$.",
+    "dap_an": "C. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-17\\cdot2^{x+2}+256=t^2-(2^{2}+2^{6})t+2^{8}=(t-2^{2})(t-2^{6})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 6$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 6$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $6,\\ldots,500$, có $2+(500-6+1)=497$ số.",
+    "params": {
+      "u": "2",
+      "v": "6",
+      "c": "17",
+      "d": "256",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-33\\cdot2^{x+2}+512)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $496$.\nC. $495$.\nD. $497$.",
+    "dap_an": "B. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-33\\cdot2^{x+2}+512=t^2-(2^{2}+2^{7})t+2^{9}=(t-2^{2})(t-2^{7})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 7$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 7$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $7,\\ldots,500$, có $2+(500-7+1)=496$ số.",
+    "params": {
+      "u": "2",
+      "v": "7",
+      "c": "33",
+      "d": "512",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-65\\cdot2^{x+2}+1024)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $495$.\nB. $494$.\nC. $496$.\nD. $500$.",
+    "dap_an": "A. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-65\\cdot2^{x+2}+1024=t^2-(2^{2}+2^{8})t+2^{10}=(t-2^{2})(t-2^{8})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 8$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 8$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $8,\\ldots,500$, có $2+(500-8+1)=495$ số.",
+    "params": {
+      "u": "2",
+      "v": "8",
+      "c": "65",
+      "d": "1024",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-129\\cdot2^{x+2}+2048)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $495$.\nB. $494$.\nC. $493$.\nD. $500$.",
+    "dap_an": "B. $494$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-129\\cdot2^{x+2}+2048=t^2-(2^{2}+2^{9})t+2^{11}=(t-2^{2})(t-2^{9})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 9$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 9$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $9,\\ldots,500$, có $2+(500-9+1)=494$ số.",
+    "params": {
+      "u": "2",
+      "v": "9",
+      "c": "129",
+      "d": "2048",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "494"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-257\\cdot2^{x+2}+4096)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $493$.\nB. $492$.\nC. $494$.\nD. $500$.",
+    "dap_an": "A. $493$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-257\\cdot2^{x+2}+4096=t^2-(2^{2}+2^{10})t+2^{12}=(t-2^{2})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $10,\\ldots,500$, có $2+(500-10+1)=493$ số.",
+    "params": {
+      "u": "2",
+      "v": "10",
+      "c": "257",
+      "d": "4096",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "493"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-513\\cdot2^{x+2}+8192)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $492$.\nB. $493$.\nC. $491$.\nD. $500$.",
+    "dap_an": "A. $492$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-513\\cdot2^{x+2}+8192=t^2-(2^{2}+2^{11})t+2^{13}=(t-2^{2})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $11,\\ldots,500$, có $2+(500-11+1)=492$ số.",
+    "params": {
+      "u": "2",
+      "v": "11",
+      "c": "513",
+      "d": "8192",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "492"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1025\\cdot2^{x+2}+16384)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $490$.\nC. $491$.\nD. $492$.",
+    "dap_an": "C. $491$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1025\\cdot2^{x+2}+16384=t^2-(2^{2}+2^{12})t+2^{14}=(t-2^{2})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $12,\\ldots,500$, có $2+(500-12+1)=491$ số.",
+    "params": {
+      "u": "2",
+      "v": "12",
+      "c": "1025",
+      "d": "16384",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "491"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2049\\cdot2^{x+2}+32768)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $490$.\nB. $489$.\nC. $500$.\nD. $491$.",
+    "dap_an": "A. $490$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2049\\cdot2^{x+2}+32768=t^2-(2^{2}+2^{13})t+2^{15}=(t-2^{2})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $13,\\ldots,500$, có $2+(500-13+1)=490$ số.",
+    "params": {
+      "u": "2",
+      "v": "13",
+      "c": "2049",
+      "d": "32768",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "490"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4097\\cdot2^{x+2}+65536)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $489$.\nC. $488$.\nD. $490$.",
+    "dap_an": "B. $489$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4097\\cdot2^{x+2}+65536=t^2-(2^{2}+2^{14})t+2^{16}=(t-2^{2})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $14,\\ldots,500$, có $2+(500-14+1)=489$ số.",
+    "params": {
+      "u": "2",
+      "v": "14",
+      "c": "4097",
+      "d": "65536",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "489"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-10\\cdot2^{x+2}+256)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $501$.\nC. $498$.\nD. $499$.",
+    "dap_an": "D. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-10\\cdot2^{x+2}+256=t^2-(2^{3}+2^{5})t+2^{8}=(t-2^{3})(t-2^{5})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 5$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 5$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $5,\\ldots,500$, có $3+(500-5+1)=499$ số.",
+    "params": {
+      "u": "3",
+      "v": "5",
+      "c": "10",
+      "d": "256",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-18\\cdot2^{x+2}+512)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $497$.\nC. $499$.\nD. $498$.",
+    "dap_an": "D. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-18\\cdot2^{x+2}+512=t^2-(2^{3}+2^{6})t+2^{9}=(t-2^{3})(t-2^{6})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 6$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 6$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $6,\\ldots,500$, có $3+(500-6+1)=498$ số.",
+    "params": {
+      "u": "3",
+      "v": "6",
+      "c": "18",
+      "d": "512",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-34\\cdot2^{x+2}+1024)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $496$.\nB. $500$.\nC. $497$.\nD. $498$.",
+    "dap_an": "C. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-34\\cdot2^{x+2}+1024=t^2-(2^{3}+2^{7})t+2^{10}=(t-2^{3})(t-2^{7})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 7$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 7$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $7,\\ldots,500$, có $3+(500-7+1)=497$ số.",
+    "params": {
+      "u": "3",
+      "v": "7",
+      "c": "34",
+      "d": "1024",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-66\\cdot2^{x+2}+2048)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $497$.\nC. $495$.\nD. $496$.",
+    "dap_an": "D. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-66\\cdot2^{x+2}+2048=t^2-(2^{3}+2^{8})t+2^{11}=(t-2^{3})(t-2^{8})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 8$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 8$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $8,\\ldots,500$, có $3+(500-8+1)=496$ số.",
+    "params": {
+      "u": "3",
+      "v": "8",
+      "c": "66",
+      "d": "2048",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-130\\cdot2^{x+2}+4096)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $494$.\nB. $500$.\nC. $496$.\nD. $495$.",
+    "dap_an": "D. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-130\\cdot2^{x+2}+4096=t^2-(2^{3}+2^{9})t+2^{12}=(t-2^{3})(t-2^{9})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 9$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 9$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $9,\\ldots,500$, có $3+(500-9+1)=495$ số.",
+    "params": {
+      "u": "3",
+      "v": "9",
+      "c": "130",
+      "d": "4096",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-258\\cdot2^{x+2}+8192)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $495$.\nB. $500$.\nC. $493$.\nD. $494$.",
+    "dap_an": "D. $494$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-258\\cdot2^{x+2}+8192=t^2-(2^{3}+2^{10})t+2^{13}=(t-2^{3})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $10,\\ldots,500$, có $3+(500-10+1)=494$ số.",
+    "params": {
+      "u": "3",
+      "v": "10",
+      "c": "258",
+      "d": "8192",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "494"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-514\\cdot2^{x+2}+16384)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $492$.\nB. $500$.\nC. $494$.\nD. $493$.",
+    "dap_an": "D. $493$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-514\\cdot2^{x+2}+16384=t^2-(2^{3}+2^{11})t+2^{14}=(t-2^{3})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $11,\\ldots,500$, có $3+(500-11+1)=493$ số.",
+    "params": {
+      "u": "3",
+      "v": "11",
+      "c": "514",
+      "d": "16384",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "493"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1026\\cdot2^{x+2}+32768)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $493$.\nB. $500$.\nC. $491$.\nD. $492$.",
+    "dap_an": "D. $492$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1026\\cdot2^{x+2}+32768=t^2-(2^{3}+2^{12})t+2^{15}=(t-2^{3})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $12,\\ldots,500$, có $3+(500-12+1)=492$ số.",
+    "params": {
+      "u": "3",
+      "v": "12",
+      "c": "1026",
+      "d": "32768",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "492"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2050\\cdot2^{x+2}+65536)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $492$.\nB. $500$.\nC. $490$.\nD. $491$.",
+    "dap_an": "D. $491$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2050\\cdot2^{x+2}+65536=t^2-(2^{3}+2^{13})t+2^{16}=(t-2^{3})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $13,\\ldots,500$, có $3+(500-13+1)=491$ số.",
+    "params": {
+      "u": "3",
+      "v": "13",
+      "c": "2050",
+      "d": "65536",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "491"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4098\\cdot2^{x+2}+131072)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $489$.\nC. $490$.\nD. $491$.",
+    "dap_an": "C. $490$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4098\\cdot2^{x+2}+131072=t^2-(2^{3}+2^{14})t+2^{17}=(t-2^{3})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 3$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,3$ và $14,\\ldots,500$, có $3+(500-14+1)=490$ số.",
+    "params": {
+      "u": "3",
+      "v": "14",
+      "c": "4098",
+      "d": "131072",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "490"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-20\\cdot2^{x+2}+1024)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $501$.\nB. $500$.\nC. $499$.\nD. $498$.",
+    "dap_an": "C. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-20\\cdot2^{x+2}+1024=t^2-(2^{4}+2^{6})t+2^{10}=(t-2^{4})(t-2^{6})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 6$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 6$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $6,\\ldots,500$, có $4+(500-6+1)=499$ số.",
+    "params": {
+      "u": "4",
+      "v": "6",
+      "c": "20",
+      "d": "1024",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-36\\cdot2^{x+2}+2048)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $498$.\nC. $499$.\nD. $500$.",
+    "dap_an": "B. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-36\\cdot2^{x+2}+2048=t^2-(2^{4}+2^{7})t+2^{11}=(t-2^{4})(t-2^{7})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 7$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 7$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $7,\\ldots,500$, có $4+(500-7+1)=498$ số.",
+    "params": {
+      "u": "4",
+      "v": "7",
+      "c": "36",
+      "d": "2048",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-68\\cdot2^{x+2}+4096)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $496$.\nB. $497$.\nC. $500$.\nD. $498$.",
+    "dap_an": "B. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-68\\cdot2^{x+2}+4096=t^2-(2^{4}+2^{8})t+2^{12}=(t-2^{4})(t-2^{8})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 8$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 8$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $8,\\ldots,500$, có $4+(500-8+1)=497$ số.",
+    "params": {
+      "u": "4",
+      "v": "8",
+      "c": "68",
+      "d": "4096",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-132\\cdot2^{x+2}+8192)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $495$.\nC. $496$.\nD. $500$.",
+    "dap_an": "C. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-132\\cdot2^{x+2}+8192=t^2-(2^{4}+2^{9})t+2^{13}=(t-2^{4})(t-2^{9})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 9$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 9$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $9,\\ldots,500$, có $4+(500-9+1)=496$ số.",
+    "params": {
+      "u": "4",
+      "v": "9",
+      "c": "132",
+      "d": "8192",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-260\\cdot2^{x+2}+16384)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $496$.\nB. $500$.\nC. $495$.\nD. $494$.",
+    "dap_an": "C. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-260\\cdot2^{x+2}+16384=t^2-(2^{4}+2^{10})t+2^{14}=(t-2^{4})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $10,\\ldots,500$, có $4+(500-10+1)=495$ số.",
+    "params": {
+      "u": "4",
+      "v": "10",
+      "c": "260",
+      "d": "16384",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-516\\cdot2^{x+2}+32768)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $494$.\nB. $493$.\nC. $500$.\nD. $495$.",
+    "dap_an": "A. $494$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-516\\cdot2^{x+2}+32768=t^2-(2^{4}+2^{11})t+2^{15}=(t-2^{4})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $11,\\ldots,500$, có $4+(500-11+1)=494$ số.",
+    "params": {
+      "u": "4",
+      "v": "11",
+      "c": "516",
+      "d": "32768",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "494"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1028\\cdot2^{x+2}+65536)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $493$.\nB. $494$.\nC. $500$.\nD. $492$.",
+    "dap_an": "A. $493$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1028\\cdot2^{x+2}+65536=t^2-(2^{4}+2^{12})t+2^{16}=(t-2^{4})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $12,\\ldots,500$, có $4+(500-12+1)=493$ số.",
+    "params": {
+      "u": "4",
+      "v": "12",
+      "c": "1028",
+      "d": "65536",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "493"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2052\\cdot2^{x+2}+131072)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $491$.\nB. $500$.\nC. $492$.\nD. $493$.",
+    "dap_an": "C. $492$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2052\\cdot2^{x+2}+131072=t^2-(2^{4}+2^{13})t+2^{17}=(t-2^{4})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $13,\\ldots,500$, có $4+(500-13+1)=492$ số.",
+    "params": {
+      "u": "4",
+      "v": "13",
+      "c": "2052",
+      "d": "131072",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "492"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4100\\cdot2^{x+2}+262144)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $490$.\nB. $491$.\nC. $500$.\nD. $492$.",
+    "dap_an": "B. $491$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4100\\cdot2^{x+2}+262144=t^2-(2^{4}+2^{14})t+2^{18}=(t-2^{4})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 4$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,4$ và $14,\\ldots,500$, có $4+(500-14+1)=491$ số.",
+    "params": {
+      "u": "4",
+      "v": "14",
+      "c": "4100",
+      "d": "262144",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "491"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-40\\cdot2^{x+2}+4096)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $501$.\nC. $498$.\nD. $499$.",
+    "dap_an": "D. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-40\\cdot2^{x+2}+4096=t^2-(2^{5}+2^{7})t+2^{12}=(t-2^{5})(t-2^{7})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 7$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 7$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $7,\\ldots,500$, có $5+(500-7+1)=499$ số.",
+    "params": {
+      "u": "5",
+      "v": "7",
+      "c": "40",
+      "d": "4096",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-72\\cdot2^{x+2}+8192)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $499$.\nB. $500$.\nC. $497$.\nD. $498$.",
+    "dap_an": "D. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-72\\cdot2^{x+2}+8192=t^2-(2^{5}+2^{8})t+2^{13}=(t-2^{5})(t-2^{8})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 8$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 8$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $8,\\ldots,500$, có $5+(500-8+1)=498$ số.",
+    "params": {
+      "u": "5",
+      "v": "8",
+      "c": "72",
+      "d": "8192",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-136\\cdot2^{x+2}+16384)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $498$.\nB. $500$.\nC. $497$.\nD. $496$.",
+    "dap_an": "C. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-136\\cdot2^{x+2}+16384=t^2-(2^{5}+2^{9})t+2^{14}=(t-2^{5})(t-2^{9})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 9$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 9$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $9,\\ldots,500$, có $5+(500-9+1)=497$ số.",
+    "params": {
+      "u": "5",
+      "v": "9",
+      "c": "136",
+      "d": "16384",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-264\\cdot2^{x+2}+32768)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $496$.\nC. $495$.\nD. $497$.",
+    "dap_an": "B. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-264\\cdot2^{x+2}+32768=t^2-(2^{5}+2^{10})t+2^{15}=(t-2^{5})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $10,\\ldots,500$, có $5+(500-10+1)=496$ số.",
+    "params": {
+      "u": "5",
+      "v": "10",
+      "c": "264",
+      "d": "32768",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-520\\cdot2^{x+2}+65536)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $496$.\nB. $494$.\nC. $495$.\nD. $500$.",
+    "dap_an": "C. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-520\\cdot2^{x+2}+65536=t^2-(2^{5}+2^{11})t+2^{16}=(t-2^{5})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $11,\\ldots,500$, có $5+(500-11+1)=495$ số.",
+    "params": {
+      "u": "5",
+      "v": "11",
+      "c": "520",
+      "d": "65536",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1032\\cdot2^{x+2}+131072)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $493$.\nB. $500$.\nC. $494$.\nD. $495$.",
+    "dap_an": "C. $494$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1032\\cdot2^{x+2}+131072=t^2-(2^{5}+2^{12})t+2^{17}=(t-2^{5})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $12,\\ldots,500$, có $5+(500-12+1)=494$ số.",
+    "params": {
+      "u": "5",
+      "v": "12",
+      "c": "1032",
+      "d": "131072",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "494"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2056\\cdot2^{x+2}+262144)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $493$.\nB. $494$.\nC. $500$.\nD. $492$.",
+    "dap_an": "A. $493$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2056\\cdot2^{x+2}+262144=t^2-(2^{5}+2^{13})t+2^{18}=(t-2^{5})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $13,\\ldots,500$, có $5+(500-13+1)=493$ số.",
+    "params": {
+      "u": "5",
+      "v": "13",
+      "c": "2056",
+      "d": "262144",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "493"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4104\\cdot2^{x+2}+524288)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $492$.\nB. $491$.\nC. $493$.\nD. $500$.",
+    "dap_an": "A. $492$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4104\\cdot2^{x+2}+524288=t^2-(2^{5}+2^{14})t+2^{19}=(t-2^{5})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 5$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,5$ và $14,\\ldots,500$, có $5+(500-14+1)=492$ số.",
+    "params": {
+      "u": "5",
+      "v": "14",
+      "c": "4104",
+      "d": "524288",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "492"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-80\\cdot2^{x+2}+16384)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $499$.\nB. $498$.\nC. $500$.\nD. $501$.",
+    "dap_an": "A. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-80\\cdot2^{x+2}+16384=t^2-(2^{6}+2^{8})t+2^{14}=(t-2^{6})(t-2^{8})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 8$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 8$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $8,\\ldots,500$, có $6+(500-8+1)=499$ số.",
+    "params": {
+      "u": "6",
+      "v": "8",
+      "c": "80",
+      "d": "16384",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-144\\cdot2^{x+2}+32768)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $499$.\nC. $498$.\nD. $500$.",
+    "dap_an": "C. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-144\\cdot2^{x+2}+32768=t^2-(2^{6}+2^{9})t+2^{15}=(t-2^{6})(t-2^{9})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 9$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 9$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $9,\\ldots,500$, có $6+(500-9+1)=498$ số.",
+    "params": {
+      "u": "6",
+      "v": "9",
+      "c": "144",
+      "d": "32768",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-272\\cdot2^{x+2}+65536)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $496$.\nC. $500$.\nD. $498$.",
+    "dap_an": "A. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-272\\cdot2^{x+2}+65536=t^2-(2^{6}+2^{10})t+2^{16}=(t-2^{6})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $10,\\ldots,500$, có $6+(500-10+1)=497$ số.",
+    "params": {
+      "u": "6",
+      "v": "10",
+      "c": "272",
+      "d": "65536",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-528\\cdot2^{x+2}+131072)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $500$.\nC. $495$.\nD. $496$.",
+    "dap_an": "D. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-528\\cdot2^{x+2}+131072=t^2-(2^{6}+2^{11})t+2^{17}=(t-2^{6})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $11,\\ldots,500$, có $6+(500-11+1)=496$ số.",
+    "params": {
+      "u": "6",
+      "v": "11",
+      "c": "528",
+      "d": "131072",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1040\\cdot2^{x+2}+262144)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $496$.\nC. $495$.\nD. $494$.",
+    "dap_an": "C. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1040\\cdot2^{x+2}+262144=t^2-(2^{6}+2^{12})t+2^{18}=(t-2^{6})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $12,\\ldots,500$, có $6+(500-12+1)=495$ số.",
+    "params": {
+      "u": "6",
+      "v": "12",
+      "c": "1040",
+      "d": "262144",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2064\\cdot2^{x+2}+524288)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $494$.\nB. $500$.\nC. $493$.\nD. $495$.",
+    "dap_an": "A. $494$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2064\\cdot2^{x+2}+524288=t^2-(2^{6}+2^{13})t+2^{19}=(t-2^{6})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $13,\\ldots,500$, có $6+(500-13+1)=494$ số.",
+    "params": {
+      "u": "6",
+      "v": "13",
+      "c": "2064",
+      "d": "524288",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "494"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4112\\cdot2^{x+2}+1048576)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $492$.\nB. $493$.\nC. $500$.\nD. $494$.",
+    "dap_an": "B. $493$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4112\\cdot2^{x+2}+1048576=t^2-(2^{6}+2^{14})t+2^{20}=(t-2^{6})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 6$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,6$ và $14,\\ldots,500$, có $6+(500-14+1)=493$ số.",
+    "params": {
+      "u": "6",
+      "v": "14",
+      "c": "4112",
+      "d": "1048576",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "493"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-160\\cdot2^{x+2}+65536)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $499$.\nB. $498$.\nC. $501$.\nD. $500$.",
+    "dap_an": "A. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-160\\cdot2^{x+2}+65536=t^2-(2^{7}+2^{9})t+2^{16}=(t-2^{7})(t-2^{9})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 7$ hoặc $x\\ge 9$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 9$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,7$ và $9,\\ldots,500$, có $7+(500-9+1)=499$ số.",
+    "params": {
+      "u": "7",
+      "v": "9",
+      "c": "160",
+      "d": "65536",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-288\\cdot2^{x+2}+131072)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $498$.\nB. $497$.\nC. $500$.\nD. $499$.",
+    "dap_an": "A. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-288\\cdot2^{x+2}+131072=t^2-(2^{7}+2^{10})t+2^{17}=(t-2^{7})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 7$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,7$ và $10,\\ldots,500$, có $7+(500-10+1)=498$ số.",
+    "params": {
+      "u": "7",
+      "v": "10",
+      "c": "288",
+      "d": "131072",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-544\\cdot2^{x+2}+262144)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $496$.\nC. $500$.\nD. $498$.",
+    "dap_an": "A. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-544\\cdot2^{x+2}+262144=t^2-(2^{7}+2^{11})t+2^{18}=(t-2^{7})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 7$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,7$ và $11,\\ldots,500$, có $7+(500-11+1)=497$ số.",
+    "params": {
+      "u": "7",
+      "v": "11",
+      "c": "544",
+      "d": "262144",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1056\\cdot2^{x+2}+524288)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $496$.\nB. $500$.\nC. $495$.\nD. $497$.",
+    "dap_an": "A. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1056\\cdot2^{x+2}+524288=t^2-(2^{7}+2^{12})t+2^{19}=(t-2^{7})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 7$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,7$ và $12,\\ldots,500$, có $7+(500-12+1)=496$ số.",
+    "params": {
+      "u": "7",
+      "v": "12",
+      "c": "1056",
+      "d": "524288",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2080\\cdot2^{x+2}+1048576)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $495$.\nC. $494$.\nD. $496$.",
+    "dap_an": "B. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2080\\cdot2^{x+2}+1048576=t^2-(2^{7}+2^{13})t+2^{20}=(t-2^{7})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 7$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,7$ và $13,\\ldots,500$, có $7+(500-13+1)=495$ số.",
+    "params": {
+      "u": "7",
+      "v": "13",
+      "c": "2080",
+      "d": "1048576",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4128\\cdot2^{x+2}+2097152)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $494$.\nB. $495$.\nC. $493$.\nD. $500$.",
+    "dap_an": "A. $494$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4128\\cdot2^{x+2}+2097152=t^2-(2^{7}+2^{14})t+2^{21}=(t-2^{7})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 7$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,7$ và $14,\\ldots,500$, có $7+(500-14+1)=494$ số.",
+    "params": {
+      "u": "7",
+      "v": "14",
+      "c": "4128",
+      "d": "2097152",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "494"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-320\\cdot2^{x+2}+262144)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $500$.\nB. $498$.\nC. $499$.\nD. $501$.",
+    "dap_an": "C. $499$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-320\\cdot2^{x+2}+262144=t^2-(2^{8}+2^{10})t+2^{18}=(t-2^{8})(t-2^{10})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 8$ hoặc $x\\ge 10$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 10$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,8$ và $10,\\ldots,500$, có $8+(500-10+1)=499$ số.",
+    "params": {
+      "u": "8",
+      "v": "10",
+      "c": "320",
+      "d": "262144",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "499"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-576\\cdot2^{x+2}+524288)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $498$.\nC. $500$.\nD. $499$.",
+    "dap_an": "B. $498$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-576\\cdot2^{x+2}+524288=t^2-(2^{8}+2^{11})t+2^{19}=(t-2^{8})(t-2^{11})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 8$ hoặc $x\\ge 11$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 11$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,8$ và $11,\\ldots,500$, có $8+(500-11+1)=498$ số.",
+    "params": {
+      "u": "8",
+      "v": "11",
+      "c": "576",
+      "d": "524288",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "498"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-1088\\cdot2^{x+2}+1048576)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $498$.\nB. $500$.\nC. $496$.\nD. $497$.",
+    "dap_an": "D. $497$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-1088\\cdot2^{x+2}+1048576=t^2-(2^{8}+2^{12})t+2^{20}=(t-2^{8})(t-2^{12})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 8$ hoặc $x\\ge 12$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 12$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,8$ và $12,\\ldots,500$, có $8+(500-12+1)=497$ số.",
+    "params": {
+      "u": "8",
+      "v": "12",
+      "c": "1088",
+      "d": "1048576",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "497"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-2112\\cdot2^{x+2}+2097152)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $497$.\nB. $495$.\nC. $500$.\nD. $496$.",
+    "dap_an": "D. $496$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-2112\\cdot2^{x+2}+2097152=t^2-(2^{8}+2^{13})t+2^{21}=(t-2^{8})(t-2^{13})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 8$ hoặc $x\\ge 13$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 13$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,8$ và $13,\\ldots,500$, có $8+(500-13+1)=496$ số.",
+    "params": {
+      "u": "8",
+      "v": "13",
+      "c": "2112",
+      "d": "2097152",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "496"
+    }
+  }
+]

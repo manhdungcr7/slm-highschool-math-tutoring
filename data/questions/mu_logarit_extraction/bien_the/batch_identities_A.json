@@ -156,8 +156,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{2}(a^{2})$ bằng\n\nA. $\\dfrac{1}{2}+\\log_{2} a$.\nB. $2\\log_{2} a$.\nC. $2+\\log_{2} a$.\nD. $\\dfrac{1}{2}\\log_{2} a$.",
@@ -170,8 +170,8 @@
   },
   {
     "id_goc": "p094_q11",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{3}(a^{4})$ bằng\n\nA. $\\dfrac{1}{4}+\\log_{3} a$.\nB. $4\\log_{3} a$.\nC. $4+\\log_{3} a$.\nD. $\\dfrac{1}{4}\\log_{3} a$.",
@@ -183,9 +183,9 @@
     }
   },
   {
-    "id_goc": "p049_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "id_goc": "p079_q10",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{5}(a^{3})$ bằng\n\nA. $\\dfrac{1}{3}+\\log_{5} a$.\nB. $3+\\log_{5} a$.\nC. $\\dfrac{1}{3}\\log_{5} a$.\nD. $3\\log_{5} a$.",
@@ -198,8 +198,8 @@
   },
   {
     "id_goc": "p171_q05",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{7}(a^{2})$ bằng\n\nA. $2+\\log_{7} a$.\nB. $2\\log_{7} a$.\nC. $\\dfrac{1}{2}+\\log_{7} a$.\nD. $\\dfrac{1}{2}\\log_{7} a$.",
@@ -212,8 +212,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{2}(a^{5})$ bằng\n\nA. $5+\\log_{2} a$.\nB. $5\\log_{2} a$.\nC. $\\dfrac{1}{5}\\log_{2} a$.\nD. $\\dfrac{1}{5}+\\log_{2} a$.",
@@ -226,8 +226,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{10}(a^{3})$ bằng\n\nA. $\\dfrac{1}{3}\\log_{10} a$.\nB. $\\dfrac{1}{3}+\\log_{10} a$.\nC. $3\\log_{10} a$.\nD. $3+\\log_{10} a$.",
@@ -3259,8 +3259,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{12}(a^{22})$ bằng\n\nA. $22+\\log_{12} a$.\nB. $\\dfrac{1}{22}+\\log_{12} a$.\nC. $\\dfrac{1}{22}\\log_{12} a$.\nD. $22\\log_{12} a$.",
@@ -3273,8 +3273,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{54}(a^{20})$ bằng\n\nA. $20+\\log_{54} a$.\nB. $\\dfrac{1}{20}\\log_{54} a$.\nC. $\\dfrac{1}{20}+\\log_{54} a$.\nD. $20\\log_{54} a$.",
@@ -3287,8 +3287,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{55}(a^{50})$ bằng\n\nA. $\\dfrac{1}{50}\\log_{55} a$.\nB. $50+\\log_{55} a$.\nC. $50\\log_{55} a$.\nD. $\\dfrac{1}{50}+\\log_{55} a$.",
@@ -3301,8 +3301,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{38}(a^{15})$ bằng\n\nA. $\\dfrac{1}{15}+\\log_{38} a$.\nB. $15+\\log_{38} a$.\nC. $\\dfrac{1}{15}\\log_{38} a$.\nD. $15\\log_{38} a$.",
@@ -3315,8 +3315,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{4}(a^{32})$ bằng\n\nA. $\\dfrac{1}{32}\\log_{4} a$.\nB. $\\dfrac{1}{32}+\\log_{4} a$.\nC. $32\\log_{4} a$.\nD. $32+\\log_{4} a$.",
@@ -3329,8 +3329,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{8}(a^{64})$ bằng\n\nA. $\\dfrac{1}{64}+\\log_{8} a$.\nB. $64+\\log_{8} a$.\nC. $\\dfrac{1}{64}\\log_{8} a$.\nD. $64\\log_{8} a$.",
@@ -3343,8 +3343,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{28}(a^{94})$ bằng\n\nA. $\\dfrac{1}{94}+\\log_{28} a$.\nB. $94+\\log_{28} a$.\nC. $\\dfrac{1}{94}\\log_{28} a$.\nD. $94\\log_{28} a$.",
@@ -3357,8 +3357,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{20}(a^{6})$ bằng\n\nA. $6+\\log_{20} a$.\nB. $\\dfrac{1}{6}+\\log_{20} a$.\nC. $\\dfrac{1}{6}\\log_{20} a$.\nD. $6\\log_{20} a$.",
@@ -3371,8 +3371,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{28}(a^{59})$ bằng\n\nA. $59\\log_{28} a$.\nB. $59+\\log_{28} a$.\nC. $\\dfrac{1}{59}+\\log_{28} a$.\nD. $\\dfrac{1}{59}\\log_{28} a$.",
@@ -3385,8 +3385,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{17}(a^{89})$ bằng\n\nA. $\\dfrac{1}{89}\\log_{17} a$.\nB. $\\dfrac{1}{89}+\\log_{17} a$.\nC. $89+\\log_{17} a$.\nD. $89\\log_{17} a$.",
@@ -3399,8 +3399,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{17}(a^{84})$ bằng\n\nA. $84\\log_{17} a$.\nB. $\\dfrac{1}{84}+\\log_{17} a$.\nC. $\\dfrac{1}{84}\\log_{17} a$.\nD. $84+\\log_{17} a$.",
@@ -3413,8 +3413,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{45}(a^{12})$ bằng\n\nA. $\\dfrac{1}{12}\\log_{45} a$.\nB. $12\\log_{45} a$.\nC. $\\dfrac{1}{12}+\\log_{45} a$.\nD. $12+\\log_{45} a$.",
@@ -3427,8 +3427,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{18}(a^{43})$ bằng\n\nA. $\\dfrac{1}{43}+\\log_{18} a$.\nB. $43\\log_{18} a$.\nC. $\\dfrac{1}{43}\\log_{18} a$.\nD. $43+\\log_{18} a$.",
@@ -3441,8 +3441,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{54}(a^{88})$ bằng\n\nA. $\\dfrac{1}{88}\\log_{54} a$.\nB. $88\\log_{54} a$.\nC. $\\dfrac{1}{88}+\\log_{54} a$.\nD. $88+\\log_{54} a$.",
@@ -3455,8 +3455,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{18}(a^{44})$ bằng\n\nA. $44\\log_{18} a$.\nB. $\\dfrac{1}{44}\\log_{18} a$.\nC. $\\dfrac{1}{44}+\\log_{18} a$.\nD. $44+\\log_{18} a$.",
@@ -3469,8 +3469,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{45}(a^{14})$ bằng\n\nA. $14\\log_{45} a$.\nB. $\\dfrac{1}{14}\\log_{45} a$.\nC. $14+\\log_{45} a$.\nD. $\\dfrac{1}{14}+\\log_{45} a$.",
@@ -3483,8 +3483,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{39}(a^{41})$ bằng\n\nA. $41\\log_{39} a$.\nB. $\\dfrac{1}{41}+\\log_{39} a$.\nC. $\\dfrac{1}{41}\\log_{39} a$.\nD. $41+\\log_{39} a$.",
@@ -3497,8 +3497,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{46}(a^{76})$ bằng\n\nA. $76+\\log_{46} a$.\nB. $\\dfrac{1}{76}\\log_{46} a$.\nC. $76\\log_{46} a$.\nD. $\\dfrac{1}{76}+\\log_{46} a$.",
@@ -3511,8 +3511,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{59}(a^{61})$ bằng\n\nA. $61\\log_{59} a$.\nB. $61+\\log_{59} a$.\nC. $\\dfrac{1}{61}\\log_{59} a$.\nD. $\\dfrac{1}{61}+\\log_{59} a$.",
@@ -3525,8 +3525,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{18}(a^{10})$ bằng\n\nA. $10\\log_{18} a$.\nB. $\\dfrac{1}{10}\\log_{18} a$.\nC. $\\dfrac{1}{10}+\\log_{18} a$.\nD. $10+\\log_{18} a$.",
@@ -3539,8 +3539,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{35}(a^{57})$ bằng\n\nA. $\\dfrac{1}{57}\\log_{35} a$.\nB. $\\dfrac{1}{57}+\\log_{35} a$.\nC. $57+\\log_{35} a$.\nD. $57\\log_{35} a$.",
@@ -3553,8 +3553,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{37}(a^{73})$ bằng\n\nA. $73\\log_{37} a$.\nB. $\\dfrac{1}{73}+\\log_{37} a$.\nC. $\\dfrac{1}{73}\\log_{37} a$.\nD. $73+\\log_{37} a$.",
@@ -3567,8 +3567,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{42}(a^{7})$ bằng\n\nA. $7\\log_{42} a$.\nB. $\\dfrac{1}{7}\\log_{42} a$.\nC. $\\dfrac{1}{7}+\\log_{42} a$.\nD. $7+\\log_{42} a$.",
@@ -3581,8 +3581,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{55}(a^{9})$ bằng\n\nA. $9+\\log_{55} a$.\nB. $\\dfrac{1}{9}\\log_{55} a$.\nC. $\\dfrac{1}{9}+\\log_{55} a$.\nD. $9\\log_{55} a$.",
@@ -3595,8 +3595,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{21}(a^{14})$ bằng\n\nA. $14\\log_{21} a$.\nB. $\\dfrac{1}{14}+\\log_{21} a$.\nC. $14+\\log_{21} a$.\nD. $\\dfrac{1}{14}\\log_{21} a$.",
@@ -3609,8 +3609,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{48}(a^{70})$ bằng\n\nA. $70\\log_{48} a$.\nB. $\\dfrac{1}{70}\\log_{48} a$.\nC. $70+\\log_{48} a$.\nD. $\\dfrac{1}{70}+\\log_{48} a$.",
@@ -3623,8 +3623,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{19}(a^{80})$ bằng\n\nA. $\\dfrac{1}{80}+\\log_{19} a$.\nB. $80\\log_{19} a$.\nC. $\\dfrac{1}{80}\\log_{19} a$.\nD. $80+\\log_{19} a$.",
@@ -3637,8 +3637,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{53}(a^{84})$ bằng\n\nA. $84\\log_{53} a$.\nB. $84+\\log_{53} a$.\nC. $\\dfrac{1}{84}+\\log_{53} a$.\nD. $\\dfrac{1}{84}\\log_{53} a$.",
@@ -3651,8 +3651,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{43}(a^{24})$ bằng\n\nA. $\\dfrac{1}{24}\\log_{43} a$.\nB. $\\dfrac{1}{24}+\\log_{43} a$.\nC. $24+\\log_{43} a$.\nD. $24\\log_{43} a$.",
@@ -3665,8 +3665,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{25}(a^{20})$ bằng\n\nA. $\\dfrac{1}{20}+\\log_{25} a$.\nB. $20\\log_{25} a$.\nC. $20+\\log_{25} a$.\nD. $\\dfrac{1}{20}\\log_{25} a$.",
@@ -3679,8 +3679,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{46}(a^{11})$ bằng\n\nA. $\\dfrac{1}{11}+\\log_{46} a$.\nB. $11+\\log_{46} a$.\nC. $11\\log_{46} a$.\nD. $\\dfrac{1}{11}\\log_{46} a$.",
@@ -3693,8 +3693,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{56}(a^{16})$ bằng\n\nA. $\\dfrac{1}{16}+\\log_{56} a$.\nB. $16\\log_{56} a$.\nC. $\\dfrac{1}{16}\\log_{56} a$.\nD. $16+\\log_{56} a$.",
@@ -3707,8 +3707,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{14}(a^{59})$ bằng\n\nA. $\\dfrac{1}{59}+\\log_{14} a$.\nB. $59+\\log_{14} a$.\nC. $59\\log_{14} a$.\nD. $\\dfrac{1}{59}\\log_{14} a$.",
@@ -3721,8 +3721,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{47}(a^{80})$ bằng\n\nA. $\\dfrac{1}{80}\\log_{47} a$.\nB. $\\dfrac{1}{80}+\\log_{47} a$.\nC. $80+\\log_{47} a$.\nD. $80\\log_{47} a$.",
@@ -3735,8 +3735,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{10}(a^{30})$ bằng\n\nA. $\\dfrac{1}{30}+\\log_{10} a$.\nB. $30\\log_{10} a$.\nC. $30+\\log_{10} a$.\nD. $\\dfrac{1}{30}\\log_{10} a$.",
@@ -3749,8 +3749,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{19}(a^{38})$ bằng\n\nA. $\\dfrac{1}{38}\\log_{19} a$.\nB. $38+\\log_{19} a$.\nC. $38\\log_{19} a$.\nD. $\\dfrac{1}{38}+\\log_{19} a$.",
@@ -3763,8 +3763,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{24}(a^{95})$ bằng\n\nA. $95+\\log_{24} a$.\nB. $95\\log_{24} a$.\nC. $\\dfrac{1}{95}\\log_{24} a$.\nD. $\\dfrac{1}{95}+\\log_{24} a$.",
@@ -3777,8 +3777,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{50}(a^{41})$ bằng\n\nA. $41+\\log_{50} a$.\nB. $\\dfrac{1}{41}+\\log_{50} a$.\nC. $\\dfrac{1}{41}\\log_{50} a$.\nD. $41\\log_{50} a$.",
@@ -3791,8 +3791,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{35}(a^{17})$ bằng\n\nA. $\\dfrac{1}{17}+\\log_{35} a$.\nB. $17\\log_{35} a$.\nC. $17+\\log_{35} a$.\nD. $\\dfrac{1}{17}\\log_{35} a$.",
@@ -3805,8 +3805,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{31}(a^{98})$ bằng\n\nA. $98+\\log_{31} a$.\nB. $\\dfrac{1}{98}+\\log_{31} a$.\nC. $98\\log_{31} a$.\nD. $\\dfrac{1}{98}\\log_{31} a$.",
@@ -3819,8 +3819,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{43}(a^{60})$ bằng\n\nA. $60\\log_{43} a$.\nB. $\\dfrac{1}{60}+\\log_{43} a$.\nC. $60+\\log_{43} a$.\nD. $\\dfrac{1}{60}\\log_{43} a$.",
@@ -3833,8 +3833,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{26}(a^{19})$ bằng\n\nA. $\\dfrac{1}{19}\\log_{26} a$.\nB. $19\\log_{26} a$.\nC. $\\dfrac{1}{19}+\\log_{26} a$.\nD. $19+\\log_{26} a$.",
@@ -3847,8 +3847,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{21}(a^{68})$ bằng\n\nA. $\\dfrac{1}{68}\\log_{21} a$.\nB. $68\\log_{21} a$.\nC. $68+\\log_{21} a$.\nD. $\\dfrac{1}{68}+\\log_{21} a$.",
@@ -3861,8 +3861,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{41}(a^{56})$ bằng\n\nA. $56+\\log_{41} a$.\nB. $\\dfrac{1}{56}+\\log_{41} a$.\nC. $56\\log_{41} a$.\nD. $\\dfrac{1}{56}\\log_{41} a$.",
@@ -3875,8 +3875,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{46}(a^{91})$ bằng\n\nA. $\\dfrac{1}{91}+\\log_{46} a$.\nB. $\\dfrac{1}{91}\\log_{46} a$.\nC. $91+\\log_{46} a$.\nD. $91\\log_{46} a$.",
@@ -3889,8 +3889,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{21}(a^{24})$ bằng\n\nA. $24+\\log_{21} a$.\nB. $\\dfrac{1}{24}\\log_{21} a$.\nC. $24\\log_{21} a$.\nD. $\\dfrac{1}{24}+\\log_{21} a$.",
@@ -3903,8 +3903,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{22}(a^{44})$ bằng\n\nA. $\\dfrac{1}{44}\\log_{22} a$.\nB. $44+\\log_{22} a$.\nC. $44\\log_{22} a$.\nD. $\\dfrac{1}{44}+\\log_{22} a$.",
@@ -3917,8 +3917,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{49}(a^{25})$ bằng\n\nA. $25+\\log_{49} a$.\nB. $25\\log_{49} a$.\nC. $\\dfrac{1}{25}+\\log_{49} a$.\nD. $\\dfrac{1}{25}\\log_{49} a$.",
@@ -3931,8 +3931,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{7}(a^{71})$ bằng\n\nA. $\\dfrac{1}{71}+\\log_{7} a$.\nB. $71\\log_{7} a$.\nC. $71+\\log_{7} a$.\nD. $\\dfrac{1}{71}\\log_{7} a$.",
@@ -3945,8 +3945,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{45}(a^{97})$ bằng\n\nA. $97+\\log_{45} a$.\nB. $\\dfrac{1}{97}\\log_{45} a$.\nC. $97\\log_{45} a$.\nD. $\\dfrac{1}{97}+\\log_{45} a$.",
@@ -3959,8 +3959,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{44}(a^{34})$ bằng\n\nA. $\\dfrac{1}{34}+\\log_{44} a$.\nB. $34\\log_{44} a$.\nC. $\\dfrac{1}{34}\\log_{44} a$.\nD. $34+\\log_{44} a$.",
@@ -3973,8 +3973,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{38}(a^{33})$ bằng\n\nA. $\\dfrac{1}{33}\\log_{38} a$.\nB. $\\dfrac{1}{33}+\\log_{38} a$.\nC. $33\\log_{38} a$.\nD. $33+\\log_{38} a$.",
@@ -3987,8 +3987,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{9}(a^{88})$ bằng\n\nA. $\\dfrac{1}{88}\\log_{9} a$.\nB. $\\dfrac{1}{88}+\\log_{9} a$.\nC. $88+\\log_{9} a$.\nD. $88\\log_{9} a$.",
@@ -4001,8 +4001,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{23}(a^{96})$ bằng\n\nA. $\\dfrac{1}{96}\\log_{23} a$.\nB. $96+\\log_{23} a$.\nC. $96\\log_{23} a$.\nD. $\\dfrac{1}{96}+\\log_{23} a$.",
@@ -4015,8 +4015,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{51}(a^{75})$ bằng\n\nA. $\\dfrac{1}{75}+\\log_{51} a$.\nB. $75\\log_{51} a$.\nC. $\\dfrac{1}{75}\\log_{51} a$.\nD. $75+\\log_{51} a$.",
@@ -4029,8 +4029,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{56}(a^{13})$ bằng\n\nA. $\\dfrac{1}{13}+\\log_{56} a$.\nB. $13+\\log_{56} a$.\nC. $13\\log_{56} a$.\nD. $\\dfrac{1}{13}\\log_{56} a$.",
@@ -4043,8 +4043,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{53}(a^{98})$ bằng\n\nA. $98+\\log_{53} a$.\nB. $98\\log_{53} a$.\nC. $\\dfrac{1}{98}+\\log_{53} a$.\nD. $\\dfrac{1}{98}\\log_{53} a$.",
@@ -4057,8 +4057,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{27}(a^{47})$ bằng\n\nA. $\\dfrac{1}{47}+\\log_{27} a$.\nB. $47+\\log_{27} a$.\nC. $\\dfrac{1}{47}\\log_{27} a$.\nD. $47\\log_{27} a$.",
@@ -4071,8 +4071,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{60}(a^{24})$ bằng\n\nA. $\\dfrac{1}{24}+\\log_{60} a$.\nB. $\\dfrac{1}{24}\\log_{60} a$.\nC. $24\\log_{60} a$.\nD. $24+\\log_{60} a$.",
@@ -4085,8 +4085,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{48}(a^{52})$ bằng\n\nA. $52\\log_{48} a$.\nB. $52+\\log_{48} a$.\nC. $\\dfrac{1}{52}+\\log_{48} a$.\nD. $\\dfrac{1}{52}\\log_{48} a$.",
@@ -4099,8 +4099,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{11}(a^{39})$ bằng\n\nA. $\\dfrac{1}{39}+\\log_{11} a$.\nB. $39\\log_{11} a$.\nC. $39+\\log_{11} a$.\nD. $\\dfrac{1}{39}\\log_{11} a$.",
@@ -4113,8 +4113,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{13}(a^{18})$ bằng\n\nA. $18\\log_{13} a$.\nB. $\\dfrac{1}{18}+\\log_{13} a$.\nC. $\\dfrac{1}{18}\\log_{13} a$.\nD. $18+\\log_{13} a$.",
@@ -4127,8 +4127,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{37}(a^{96})$ bằng\n\nA. $96+\\log_{37} a$.\nB. $\\dfrac{1}{96}\\log_{37} a$.\nC. $96\\log_{37} a$.\nD. $\\dfrac{1}{96}+\\log_{37} a$.",
@@ -4141,8 +4141,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{8}(a^{15})$ bằng\n\nA. $\\dfrac{1}{15}+\\log_{8} a$.\nB. $15\\log_{8} a$.\nC. $15+\\log_{8} a$.\nD. $\\dfrac{1}{15}\\log_{8} a$.",
@@ -4155,8 +4155,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{48}(a^{82})$ bằng\n\nA. $\\dfrac{1}{82}+\\log_{48} a$.\nB. $82+\\log_{48} a$.\nC. $\\dfrac{1}{82}\\log_{48} a$.\nD. $82\\log_{48} a$.",
@@ -4169,8 +4169,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{29}(a^{61})$ bằng\n\nA. $61+\\log_{29} a$.\nB. $61\\log_{29} a$.\nC. $\\dfrac{1}{61}+\\log_{29} a$.\nD. $\\dfrac{1}{61}\\log_{29} a$.",
@@ -4183,8 +4183,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{16}(a^{22})$ bằng\n\nA. $22+\\log_{16} a$.\nB. $22\\log_{16} a$.\nC. $\\dfrac{1}{22}+\\log_{16} a$.\nD. $\\dfrac{1}{22}\\log_{16} a$.",
@@ -4197,8 +4197,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{38}(a^{10})$ bằng\n\nA. $10+\\log_{38} a$.\nB. $\\dfrac{1}{10}+\\log_{38} a$.\nC. $10\\log_{38} a$.\nD. $\\dfrac{1}{10}\\log_{38} a$.",
@@ -4211,8 +4211,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{58}(a^{30})$ bằng\n\nA. $\\dfrac{1}{30}+\\log_{58} a$.\nB. $30\\log_{58} a$.\nC. $30+\\log_{58} a$.\nD. $\\dfrac{1}{30}\\log_{58} a$.",
@@ -4225,8 +4225,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{40}(a^{64})$ bằng\n\nA. $64+\\log_{40} a$.\nB. $64\\log_{40} a$.\nC. $\\dfrac{1}{64}+\\log_{40} a$.\nD. $\\dfrac{1}{64}\\log_{40} a$.",
@@ -4239,8 +4239,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{58}(a^{52})$ bằng\n\nA. $\\dfrac{1}{52}+\\log_{58} a$.\nB. $52\\log_{58} a$.\nC. $52+\\log_{58} a$.\nD. $\\dfrac{1}{52}\\log_{58} a$.",
@@ -4253,8 +4253,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{32}(a^{56})$ bằng\n\nA. $56\\log_{32} a$.\nB. $\\dfrac{1}{56}\\log_{32} a$.\nC. $56+\\log_{32} a$.\nD. $\\dfrac{1}{56}+\\log_{32} a$.",
@@ -4267,8 +4267,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{30}(a^{94})$ bằng\n\nA. $94\\log_{30} a$.\nB. $94+\\log_{30} a$.\nC. $\\dfrac{1}{94}\\log_{30} a$.\nD. $\\dfrac{1}{94}+\\log_{30} a$.",
@@ -4281,8 +4281,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{32}(a^{36})$ bằng\n\nA. $\\dfrac{1}{36}+\\log_{32} a$.\nB. $\\dfrac{1}{36}\\log_{32} a$.\nC. $36\\log_{32} a$.\nD. $36+\\log_{32} a$.",
@@ -4295,8 +4295,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{45}(a^{44})$ bằng\n\nA. $44+\\log_{45} a$.\nB. $\\dfrac{1}{44}\\log_{45} a$.\nC. $44\\log_{45} a$.\nD. $\\dfrac{1}{44}+\\log_{45} a$.",
@@ -4309,8 +4309,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{49}(a^{30})$ bằng\n\nA. $30\\log_{49} a$.\nB. $30+\\log_{49} a$.\nC. $\\dfrac{1}{30}+\\log_{49} a$.\nD. $\\dfrac{1}{30}\\log_{49} a$.",
@@ -4323,8 +4323,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{13}(a^{43})$ bằng\n\nA. $\\dfrac{1}{43}\\log_{13} a$.\nB. $43\\log_{13} a$.\nC. $43+\\log_{13} a$.\nD. $\\dfrac{1}{43}+\\log_{13} a$.",
@@ -4337,8 +4337,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{54}(a^{80})$ bằng\n\nA. $\\dfrac{1}{80}\\log_{54} a$.\nB. $80\\log_{54} a$.\nC. $80+\\log_{54} a$.\nD. $\\dfrac{1}{80}+\\log_{54} a$.",
@@ -4351,8 +4351,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{20}(a^{96})$ bằng\n\nA. $96+\\log_{20} a$.\nB. $96\\log_{20} a$.\nC. $\\dfrac{1}{96}+\\log_{20} a$.\nD. $\\dfrac{1}{96}\\log_{20} a$.",
@@ -4365,8 +4365,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{48}(a^{31})$ bằng\n\nA. $\\dfrac{1}{31}+\\log_{48} a$.\nB. $31+\\log_{48} a$.\nC. $\\dfrac{1}{31}\\log_{48} a$.\nD. $31\\log_{48} a$.",
@@ -4379,8 +4379,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{24}(a^{18})$ bằng\n\nA. $\\dfrac{1}{18}\\log_{24} a$.\nB. $18+\\log_{24} a$.\nC. $18\\log_{24} a$.\nD. $\\dfrac{1}{18}+\\log_{24} a$.",
@@ -4393,8 +4393,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{39}(a^{3})$ bằng\n\nA. $3+\\log_{39} a$.\nB. $3\\log_{39} a$.\nC. $\\dfrac{1}{3}+\\log_{39} a$.\nD. $\\dfrac{1}{3}\\log_{39} a$.",
@@ -4407,8 +4407,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{26}(a^{6})$ bằng\n\nA. $\\dfrac{1}{6}+\\log_{26} a$.\nB. $6+\\log_{26} a$.\nC. $6\\log_{26} a$.\nD. $\\dfrac{1}{6}\\log_{26} a$.",
@@ -4421,8 +4421,8 @@
   },
   {
     "id_goc": "p079_q10",
-    "ma_dang": "D36",
-    "ten_dang": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "ma_dang": "D36b",
+    "ten_dang": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
     "de_bai": "Với $a$ là số thực dương tùy ý, $\\log_{9}(a^{90})$ bằng\n\nA. $90+\\log_{9} a$.\nB. $\\dfrac{1}{90}+\\log_{9} a$.\nC. $\\dfrac{1}{90}\\log_{9} a$.\nD. $90\\log_{9} a$.",
@@ -13587,6 +13587,1176 @@
     "params": {
       "coef": "45",
       "c": "17"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{23})=23\\log a$.\nB. $\\log(23a)=23\\log a$.\nC. $\\log(23a)=\\dfrac{1}{23}\\log a$.\nD. $\\log(a^{23})=\\dfrac{1}{23}\\log a$.",
+    "dap_an": "A. $\\log(a^{23})=23\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{23})=23\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "23"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(51a)=51\\log a$.\nB. $\\log(a^{51})=\\dfrac{1}{51}\\log a$.\nC. $\\log(a^{51})=51\\log a$.\nD. $\\log(51a)=\\dfrac{1}{51}\\log a$.",
+    "dap_an": "C. $\\log(a^{51})=51\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{51})=51\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "51"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(90a)=90\\log a$.\nB. $\\log(90a)=\\dfrac{1}{90}\\log a$.\nC. $\\log(a^{90})=\\dfrac{1}{90}\\log a$.\nD. $\\log(a^{90})=90\\log a$.",
+    "dap_an": "D. $\\log(a^{90})=90\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{90})=90\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "90"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(13a)=\\dfrac{1}{13}\\log a$.\nB. $\\log(a^{13})=13\\log a$.\nC. $\\log(a^{13})=\\dfrac{1}{13}\\log a$.\nD. $\\log(13a)=13\\log a$.",
+    "dap_an": "B. $\\log(a^{13})=13\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{13})=13\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "13"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(4a)=\\dfrac{1}{4}\\log a$.\nB. $\\log(a^{4})=4\\log a$.\nC. $\\log(4a)=4\\log a$.\nD. $\\log(a^{4})=\\dfrac{1}{4}\\log a$.",
+    "dap_an": "B. $\\log(a^{4})=4\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{4})=4\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "4"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(2a)=\\dfrac{1}{2}\\log a$.\nB. $\\log(a^{2})=\\dfrac{1}{2}\\log a$.\nC. $\\log(2a)=2\\log a$.\nD. $\\log(a^{2})=2\\log a$.",
+    "dap_an": "D. $\\log(a^{2})=2\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{2})=2\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "2"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(85a)=\\dfrac{1}{85}\\log a$.\nB. $\\log(a^{85})=\\dfrac{1}{85}\\log a$.\nC. $\\log(85a)=85\\log a$.\nD. $\\log(a^{85})=85\\log a$.",
+    "dap_an": "D. $\\log(a^{85})=85\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{85})=85\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "85"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(10a)=10\\log a$.\nB. $\\log(10a)=\\dfrac{1}{10}\\log a$.\nC. $\\log(a^{10})=\\dfrac{1}{10}\\log a$.\nD. $\\log(a^{10})=10\\log a$.",
+    "dap_an": "D. $\\log(a^{10})=10\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{10})=10\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "10"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{47})=\\dfrac{1}{47}\\log a$.\nB. $\\log(47a)=47\\log a$.\nC. $\\log(a^{47})=47\\log a$.\nD. $\\log(47a)=\\dfrac{1}{47}\\log a$.",
+    "dap_an": "C. $\\log(a^{47})=47\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{47})=47\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "47"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{32})=\\dfrac{1}{32}\\log a$.\nB. $\\log(a^{32})=32\\log a$.\nC. $\\log(32a)=32\\log a$.\nD. $\\log(32a)=\\dfrac{1}{32}\\log a$.",
+    "dap_an": "B. $\\log(a^{32})=32\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{32})=32\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "32"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{54})=\\dfrac{1}{54}\\log a$.\nB. $\\log(54a)=54\\log a$.\nC. $\\log(54a)=\\dfrac{1}{54}\\log a$.\nD. $\\log(a^{54})=54\\log a$.",
+    "dap_an": "D. $\\log(a^{54})=54\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{54})=54\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "54"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(70a)=\\dfrac{1}{70}\\log a$.\nB. $\\log(a^{70})=\\dfrac{1}{70}\\log a$.\nC. $\\log(70a)=70\\log a$.\nD. $\\log(a^{70})=70\\log a$.",
+    "dap_an": "D. $\\log(a^{70})=70\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{70})=70\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "70"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{75})=\\dfrac{1}{75}\\log a$.\nB. $\\log(75a)=\\dfrac{1}{75}\\log a$.\nC. $\\log(a^{75})=75\\log a$.\nD. $\\log(75a)=75\\log a$.",
+    "dap_an": "C. $\\log(a^{75})=75\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{75})=75\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "75"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(37a)=\\dfrac{1}{37}\\log a$.\nB. $\\log(37a)=37\\log a$.\nC. $\\log(a^{37})=37\\log a$.\nD. $\\log(a^{37})=\\dfrac{1}{37}\\log a$.",
+    "dap_an": "C. $\\log(a^{37})=37\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{37})=37\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "37"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{21})=21\\log a$.\nB. $\\log(21a)=\\dfrac{1}{21}\\log a$.\nC. $\\log(21a)=21\\log a$.\nD. $\\log(a^{21})=\\dfrac{1}{21}\\log a$.",
+    "dap_an": "A. $\\log(a^{21})=21\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{21})=21\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "21"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{24})=\\dfrac{1}{24}\\log a$.\nB. $\\log(24a)=\\dfrac{1}{24}\\log a$.\nC. $\\log(24a)=24\\log a$.\nD. $\\log(a^{24})=24\\log a$.",
+    "dap_an": "D. $\\log(a^{24})=24\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{24})=24\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "24"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(40a)=\\dfrac{1}{40}\\log a$.\nB. $\\log(a^{40})=\\dfrac{1}{40}\\log a$.\nC. $\\log(40a)=40\\log a$.\nD. $\\log(a^{40})=40\\log a$.",
+    "dap_an": "D. $\\log(a^{40})=40\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{40})=40\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "40"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(30a)=30\\log a$.\nB. $\\log(a^{30})=30\\log a$.\nC. $\\log(30a)=\\dfrac{1}{30}\\log a$.\nD. $\\log(a^{30})=\\dfrac{1}{30}\\log a$.",
+    "dap_an": "B. $\\log(a^{30})=30\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{30})=30\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "30"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{41})=41\\log a$.\nB. $\\log(41a)=\\dfrac{1}{41}\\log a$.\nC. $\\log(a^{41})=\\dfrac{1}{41}\\log a$.\nD. $\\log(41a)=41\\log a$.",
+    "dap_an": "A. $\\log(a^{41})=41\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{41})=41\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "41"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{89})=89\\log a$.\nB. $\\log(a^{89})=\\dfrac{1}{89}\\log a$.\nC. $\\log(89a)=89\\log a$.\nD. $\\log(89a)=\\dfrac{1}{89}\\log a$.",
+    "dap_an": "A. $\\log(a^{89})=89\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{89})=89\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "89"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{12})=12\\log a$.\nB. $\\log(12a)=\\dfrac{1}{12}\\log a$.\nC. $\\log(12a)=12\\log a$.\nD. $\\log(a^{12})=\\dfrac{1}{12}\\log a$.",
+    "dap_an": "A. $\\log(a^{12})=12\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{12})=12\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "12"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{34})=\\dfrac{1}{34}\\log a$.\nB. $\\log(34a)=34\\log a$.\nC. $\\log(a^{34})=34\\log a$.\nD. $\\log(34a)=\\dfrac{1}{34}\\log a$.",
+    "dap_an": "C. $\\log(a^{34})=34\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{34})=34\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "34"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(27a)=27\\log a$.\nB. $\\log(a^{27})=\\dfrac{1}{27}\\log a$.\nC. $\\log(a^{27})=27\\log a$.\nD. $\\log(27a)=\\dfrac{1}{27}\\log a$.",
+    "dap_an": "C. $\\log(a^{27})=27\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{27})=27\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "27"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{45})=\\dfrac{1}{45}\\log a$.\nB. $\\log(a^{45})=45\\log a$.\nC. $\\log(45a)=\\dfrac{1}{45}\\log a$.\nD. $\\log(45a)=45\\log a$.",
+    "dap_an": "B. $\\log(a^{45})=45\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{45})=45\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "45"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{98})=98\\log a$.\nB. $\\log(a^{98})=\\dfrac{1}{98}\\log a$.\nC. $\\log(98a)=98\\log a$.\nD. $\\log(98a)=\\dfrac{1}{98}\\log a$.",
+    "dap_an": "A. $\\log(a^{98})=98\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{98})=98\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "98"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{94})=94\\log a$.\nB. $\\log(94a)=94\\log a$.\nC. $\\log(a^{94})=\\dfrac{1}{94}\\log a$.\nD. $\\log(94a)=\\dfrac{1}{94}\\log a$.",
+    "dap_an": "A. $\\log(a^{94})=94\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{94})=94\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "94"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(87a)=\\dfrac{1}{87}\\log a$.\nB. $\\log(87a)=87\\log a$.\nC. $\\log(a^{87})=87\\log a$.\nD. $\\log(a^{87})=\\dfrac{1}{87}\\log a$.",
+    "dap_an": "C. $\\log(a^{87})=87\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{87})=87\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "87"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{64})=64\\log a$.\nB. $\\log(a^{64})=\\dfrac{1}{64}\\log a$.\nC. $\\log(64a)=\\dfrac{1}{64}\\log a$.\nD. $\\log(64a)=64\\log a$.",
+    "dap_an": "A. $\\log(a^{64})=64\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{64})=64\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "64"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(58a)=58\\log a$.\nB. $\\log(a^{58})=\\dfrac{1}{58}\\log a$.\nC. $\\log(a^{58})=58\\log a$.\nD. $\\log(58a)=\\dfrac{1}{58}\\log a$.",
+    "dap_an": "C. $\\log(a^{58})=58\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{58})=58\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "58"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{84})=\\dfrac{1}{84}\\log a$.\nB. $\\log(84a)=\\dfrac{1}{84}\\log a$.\nC. $\\log(84a)=84\\log a$.\nD. $\\log(a^{84})=84\\log a$.",
+    "dap_an": "D. $\\log(a^{84})=84\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{84})=84\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "84"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(15a)=15\\log a$.\nB. $\\log(a^{15})=15\\log a$.\nC. $\\log(a^{15})=\\dfrac{1}{15}\\log a$.\nD. $\\log(15a)=\\dfrac{1}{15}\\log a$.",
+    "dap_an": "B. $\\log(a^{15})=15\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{15})=15\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "15"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{62})=62\\log a$.\nB. $\\log(62a)=62\\log a$.\nC. $\\log(62a)=\\dfrac{1}{62}\\log a$.\nD. $\\log(a^{62})=\\dfrac{1}{62}\\log a$.",
+    "dap_an": "A. $\\log(a^{62})=62\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{62})=62\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "62"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(33a)=\\dfrac{1}{33}\\log a$.\nB. $\\log(a^{33})=33\\log a$.\nC. $\\log(33a)=33\\log a$.\nD. $\\log(a^{33})=\\dfrac{1}{33}\\log a$.",
+    "dap_an": "B. $\\log(a^{33})=33\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{33})=33\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "33"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{8})=8\\log a$.\nB. $\\log(a^{8})=\\dfrac{1}{8}\\log a$.\nC. $\\log(8a)=8\\log a$.\nD. $\\log(8a)=\\dfrac{1}{8}\\log a$.",
+    "dap_an": "A. $\\log(a^{8})=8\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{8})=8\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "8"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(66a)=66\\log a$.\nB. $\\log(a^{66})=\\dfrac{1}{66}\\log a$.\nC. $\\log(66a)=\\dfrac{1}{66}\\log a$.\nD. $\\log(a^{66})=66\\log a$.",
+    "dap_an": "D. $\\log(a^{66})=66\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{66})=66\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "66"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(52a)=\\dfrac{1}{52}\\log a$.\nB. $\\log(a^{52})=52\\log a$.\nC. $\\log(52a)=52\\log a$.\nD. $\\log(a^{52})=\\dfrac{1}{52}\\log a$.",
+    "dap_an": "B. $\\log(a^{52})=52\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{52})=52\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "52"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(38a)=38\\log a$.\nB. $\\log(a^{38})=\\dfrac{1}{38}\\log a$.\nC. $\\log(a^{38})=38\\log a$.\nD. $\\log(38a)=\\dfrac{1}{38}\\log a$.",
+    "dap_an": "C. $\\log(a^{38})=38\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{38})=38\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "38"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(95a)=\\dfrac{1}{95}\\log a$.\nB. $\\log(95a)=95\\log a$.\nC. $\\log(a^{95})=95\\log a$.\nD. $\\log(a^{95})=\\dfrac{1}{95}\\log a$.",
+    "dap_an": "C. $\\log(a^{95})=95\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{95})=95\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "95"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{46})=46\\log a$.\nB. $\\log(46a)=46\\log a$.\nC. $\\log(a^{46})=\\dfrac{1}{46}\\log a$.\nD. $\\log(46a)=\\dfrac{1}{46}\\log a$.",
+    "dap_an": "A. $\\log(a^{46})=46\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{46})=46\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "46"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(7a)=7\\log a$.\nB. $\\log(7a)=\\dfrac{1}{7}\\log a$.\nC. $\\log(a^{7})=7\\log a$.\nD. $\\log(a^{7})=\\dfrac{1}{7}\\log a$.",
+    "dap_an": "C. $\\log(a^{7})=7\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{7})=7\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "7"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(19a)=\\dfrac{1}{19}\\log a$.\nB. $\\log(a^{19})=\\dfrac{1}{19}\\log a$.\nC. $\\log(a^{19})=19\\log a$.\nD. $\\log(19a)=19\\log a$.",
+    "dap_an": "C. $\\log(a^{19})=19\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{19})=19\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "19"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{93})=93\\log a$.\nB. $\\log(93a)=\\dfrac{1}{93}\\log a$.\nC. $\\log(a^{93})=\\dfrac{1}{93}\\log a$.\nD. $\\log(93a)=93\\log a$.",
+    "dap_an": "A. $\\log(a^{93})=93\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{93})=93\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "93"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(91a)=\\dfrac{1}{91}\\log a$.\nB. $\\log(a^{91})=91\\log a$.\nC. $\\log(91a)=91\\log a$.\nD. $\\log(a^{91})=\\dfrac{1}{91}\\log a$.",
+    "dap_an": "B. $\\log(a^{91})=91\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{91})=91\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "91"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{35})=\\dfrac{1}{35}\\log a$.\nB. $\\log(35a)=\\dfrac{1}{35}\\log a$.\nC. $\\log(a^{35})=35\\log a$.\nD. $\\log(35a)=35\\log a$.",
+    "dap_an": "C. $\\log(a^{35})=35\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{35})=35\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "35"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{9})=9\\log a$.\nB. $\\log(9a)=\\dfrac{1}{9}\\log a$.\nC. $\\log(9a)=9\\log a$.\nD. $\\log(a^{9})=\\dfrac{1}{9}\\log a$.",
+    "dap_an": "A. $\\log(a^{9})=9\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{9})=9\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "9"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(60a)=60\\log a$.\nB. $\\log(a^{60})=\\dfrac{1}{60}\\log a$.\nC. $\\log(a^{60})=60\\log a$.\nD. $\\log(60a)=\\dfrac{1}{60}\\log a$.",
+    "dap_an": "C. $\\log(a^{60})=60\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{60})=60\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "60"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{77})=\\dfrac{1}{77}\\log a$.\nB. $\\log(77a)=77\\log a$.\nC. $\\log(77a)=\\dfrac{1}{77}\\log a$.\nD. $\\log(a^{77})=77\\log a$.",
+    "dap_an": "D. $\\log(a^{77})=77\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{77})=77\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "77"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(71a)=71\\log a$.\nB. $\\log(71a)=\\dfrac{1}{71}\\log a$.\nC. $\\log(a^{71})=71\\log a$.\nD. $\\log(a^{71})=\\dfrac{1}{71}\\log a$.",
+    "dap_an": "C. $\\log(a^{71})=71\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{71})=71\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "71"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{97})=\\dfrac{1}{97}\\log a$.\nB. $\\log(97a)=\\dfrac{1}{97}\\log a$.\nC. $\\log(97a)=97\\log a$.\nD. $\\log(a^{97})=97\\log a$.",
+    "dap_an": "D. $\\log(a^{97})=97\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{97})=97\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "97"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(99a)=\\dfrac{1}{99}\\log a$.\nB. $\\log(a^{99})=99\\log a$.\nC. $\\log(99a)=99\\log a$.\nD. $\\log(a^{99})=\\dfrac{1}{99}\\log a$.",
+    "dap_an": "B. $\\log(a^{99})=99\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{99})=99\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "99"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{57})=\\dfrac{1}{57}\\log a$.\nB. $\\log(57a)=\\dfrac{1}{57}\\log a$.\nC. $\\log(57a)=57\\log a$.\nD. $\\log(a^{57})=57\\log a$.",
+    "dap_an": "D. $\\log(a^{57})=57\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{57})=57\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "57"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(20a)=\\dfrac{1}{20}\\log a$.\nB. $\\log(20a)=20\\log a$.\nC. $\\log(a^{20})=\\dfrac{1}{20}\\log a$.\nD. $\\log(a^{20})=20\\log a$.",
+    "dap_an": "D. $\\log(a^{20})=20\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{20})=20\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "20"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(17a)=17\\log a$.\nB. $\\log(a^{17})=17\\log a$.\nC. $\\log(a^{17})=\\dfrac{1}{17}\\log a$.\nD. $\\log(17a)=\\dfrac{1}{17}\\log a$.",
+    "dap_an": "B. $\\log(a^{17})=17\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{17})=17\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "17"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{26})=\\dfrac{1}{26}\\log a$.\nB. $\\log(a^{26})=26\\log a$.\nC. $\\log(26a)=26\\log a$.\nD. $\\log(26a)=\\dfrac{1}{26}\\log a$.",
+    "dap_an": "B. $\\log(a^{26})=26\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{26})=26\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "26"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(74a)=74\\log a$.\nB. $\\log(74a)=\\dfrac{1}{74}\\log a$.\nC. $\\log(a^{74})=\\dfrac{1}{74}\\log a$.\nD. $\\log(a^{74})=74\\log a$.",
+    "dap_an": "D. $\\log(a^{74})=74\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{74})=74\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "74"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{14})=\\dfrac{1}{14}\\log a$.\nB. $\\log(14a)=\\dfrac{1}{14}\\log a$.\nC. $\\log(a^{14})=14\\log a$.\nD. $\\log(14a)=14\\log a$.",
+    "dap_an": "C. $\\log(a^{14})=14\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{14})=14\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "14"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(43a)=43\\log a$.\nB. $\\log(43a)=\\dfrac{1}{43}\\log a$.\nC. $\\log(a^{43})=43\\log a$.\nD. $\\log(a^{43})=\\dfrac{1}{43}\\log a$.",
+    "dap_an": "C. $\\log(a^{43})=43\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{43})=43\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "43"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{80})=\\dfrac{1}{80}\\log a$.\nB. $\\log(a^{80})=80\\log a$.\nC. $\\log(80a)=\\dfrac{1}{80}\\log a$.\nD. $\\log(80a)=80\\log a$.",
+    "dap_an": "B. $\\log(a^{80})=80\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{80})=80\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "80"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(65a)=\\dfrac{1}{65}\\log a$.\nB. $\\log(a^{65})=\\dfrac{1}{65}\\log a$.\nC. $\\log(65a)=65\\log a$.\nD. $\\log(a^{65})=65\\log a$.",
+    "dap_an": "D. $\\log(a^{65})=65\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{65})=65\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "65"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(5a)=\\dfrac{1}{5}\\log a$.\nB. $\\log(5a)=5\\log a$.\nC. $\\log(a^{5})=\\dfrac{1}{5}\\log a$.\nD. $\\log(a^{5})=5\\log a$.",
+    "dap_an": "D. $\\log(a^{5})=5\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{5})=5\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "5"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{16})=\\dfrac{1}{16}\\log a$.\nB. $\\log(16a)=16\\log a$.\nC. $\\log(a^{16})=16\\log a$.\nD. $\\log(16a)=\\dfrac{1}{16}\\log a$.",
+    "dap_an": "C. $\\log(a^{16})=16\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{16})=16\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "16"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{49})=\\dfrac{1}{49}\\log a$.\nB. $\\log(49a)=49\\log a$.\nC. $\\log(49a)=\\dfrac{1}{49}\\log a$.\nD. $\\log(a^{49})=49\\log a$.",
+    "dap_an": "D. $\\log(a^{49})=49\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{49})=49\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "49"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(82a)=\\dfrac{1}{82}\\log a$.\nB. $\\log(a^{82})=82\\log a$.\nC. $\\log(82a)=82\\log a$.\nD. $\\log(a^{82})=\\dfrac{1}{82}\\log a$.",
+    "dap_an": "B. $\\log(a^{82})=82\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{82})=82\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "82"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{78})=78\\log a$.\nB. $\\log(78a)=78\\log a$.\nC. $\\log(78a)=\\dfrac{1}{78}\\log a$.\nD. $\\log(a^{78})=\\dfrac{1}{78}\\log a$.",
+    "dap_an": "A. $\\log(a^{78})=78\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{78})=78\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "78"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(44a)=\\dfrac{1}{44}\\log a$.\nB. $\\log(a^{44})=\\dfrac{1}{44}\\log a$.\nC. $\\log(44a)=44\\log a$.\nD. $\\log(a^{44})=44\\log a$.",
+    "dap_an": "D. $\\log(a^{44})=44\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{44})=44\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "44"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(31a)=\\dfrac{1}{31}\\log a$.\nB. $\\log(a^{31})=\\dfrac{1}{31}\\log a$.\nC. $\\log(31a)=31\\log a$.\nD. $\\log(a^{31})=31\\log a$.",
+    "dap_an": "D. $\\log(a^{31})=31\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{31})=31\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "31"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(55a)=\\dfrac{1}{55}\\log a$.\nB. $\\log(a^{55})=55\\log a$.\nC. $\\log(a^{55})=\\dfrac{1}{55}\\log a$.\nD. $\\log(55a)=55\\log a$.",
+    "dap_an": "B. $\\log(a^{55})=55\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{55})=55\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "55"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(3a)=3\\log a$.\nB. $\\log(a^{3})=3\\log a$.\nC. $\\log(a^{3})=\\dfrac{1}{3}\\log a$.\nD. $\\log(3a)=\\dfrac{1}{3}\\log a$.",
+    "dap_an": "B. $\\log(a^{3})=3\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{3})=3\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "3"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{63})=63\\log a$.\nB. $\\log(a^{63})=\\dfrac{1}{63}\\log a$.\nC. $\\log(63a)=63\\log a$.\nD. $\\log(63a)=\\dfrac{1}{63}\\log a$.",
+    "dap_an": "A. $\\log(a^{63})=63\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{63})=63\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "63"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{92})=\\dfrac{1}{92}\\log a$.\nB. $\\log(92a)=92\\log a$.\nC. $\\log(a^{92})=92\\log a$.\nD. $\\log(92a)=\\dfrac{1}{92}\\log a$.",
+    "dap_an": "C. $\\log(a^{92})=92\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{92})=92\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "92"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(18a)=18\\log a$.\nB. $\\log(18a)=\\dfrac{1}{18}\\log a$.\nC. $\\log(a^{18})=18\\log a$.\nD. $\\log(a^{18})=\\dfrac{1}{18}\\log a$.",
+    "dap_an": "C. $\\log(a^{18})=18\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{18})=18\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "18"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(88a)=\\dfrac{1}{88}\\log a$.\nB. $\\log(88a)=88\\log a$.\nC. $\\log(a^{88})=88\\log a$.\nD. $\\log(a^{88})=\\dfrac{1}{88}\\log a$.",
+    "dap_an": "C. $\\log(a^{88})=88\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{88})=88\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "88"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{83})=83\\log a$.\nB. $\\log(83a)=83\\log a$.\nC. $\\log(83a)=\\dfrac{1}{83}\\log a$.\nD. $\\log(a^{83})=\\dfrac{1}{83}\\log a$.",
+    "dap_an": "A. $\\log(a^{83})=83\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{83})=83\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "83"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(29a)=\\dfrac{1}{29}\\log a$.\nB. $\\log(a^{29})=29\\log a$.\nC. $\\log(29a)=29\\log a$.\nD. $\\log(a^{29})=\\dfrac{1}{29}\\log a$.",
+    "dap_an": "B. $\\log(a^{29})=29\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{29})=29\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "29"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{39})=39\\log a$.\nB. $\\log(39a)=\\dfrac{1}{39}\\log a$.\nC. $\\log(a^{39})=\\dfrac{1}{39}\\log a$.\nD. $\\log(39a)=39\\log a$.",
+    "dap_an": "A. $\\log(a^{39})=39\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{39})=39\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "39"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{96})=96\\log a$.\nB. $\\log(96a)=96\\log a$.\nC. $\\log(a^{96})=\\dfrac{1}{96}\\log a$.\nD. $\\log(96a)=\\dfrac{1}{96}\\log a$.",
+    "dap_an": "A. $\\log(a^{96})=96\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{96})=96\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "96"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{56})=\\dfrac{1}{56}\\log a$.\nB. $\\log(56a)=56\\log a$.\nC. $\\log(a^{56})=56\\log a$.\nD. $\\log(56a)=\\dfrac{1}{56}\\log a$.",
+    "dap_an": "C. $\\log(a^{56})=56\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{56})=56\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "56"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{42})=\\dfrac{1}{42}\\log a$.\nB. $\\log(42a)=42\\log a$.\nC. $\\log(42a)=\\dfrac{1}{42}\\log a$.\nD. $\\log(a^{42})=42\\log a$.",
+    "dap_an": "D. $\\log(a^{42})=42\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{42})=42\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "42"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{100})=\\dfrac{1}{100}\\log a$.\nB. $\\log(100a)=\\dfrac{1}{100}\\log a$.\nC. $\\log(a^{100})=100\\log a$.\nD. $\\log(100a)=100\\log a$.",
+    "dap_an": "C. $\\log(a^{100})=100\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{100})=100\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "100"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{6})=\\dfrac{1}{6}\\log a$.\nB. $\\log(6a)=6\\log a$.\nC. $\\log(6a)=\\dfrac{1}{6}\\log a$.\nD. $\\log(a^{6})=6\\log a$.",
+    "dap_an": "D. $\\log(a^{6})=6\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{6})=6\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "6"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(25a)=\\dfrac{1}{25}\\log a$.\nB. $\\log(25a)=25\\log a$.\nC. $\\log(a^{25})=\\dfrac{1}{25}\\log a$.\nD. $\\log(a^{25})=25\\log a$.",
+    "dap_an": "D. $\\log(a^{25})=25\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{25})=25\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "25"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{61})=\\dfrac{1}{61}\\log a$.\nB. $\\log(61a)=\\dfrac{1}{61}\\log a$.\nC. $\\log(a^{61})=61\\log a$.\nD. $\\log(61a)=61\\log a$.",
+    "dap_an": "C. $\\log(a^{61})=61\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{61})=61\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "61"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(50a)=\\dfrac{1}{50}\\log a$.\nB. $\\log(a^{50})=\\dfrac{1}{50}\\log a$.\nC. $\\log(a^{50})=50\\log a$.\nD. $\\log(50a)=50\\log a$.",
+    "dap_an": "C. $\\log(a^{50})=50\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{50})=50\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "50"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(72a)=\\dfrac{1}{72}\\log a$.\nB. $\\log(a^{72})=\\dfrac{1}{72}\\log a$.\nC. $\\log(72a)=72\\log a$.\nD. $\\log(a^{72})=72\\log a$.",
+    "dap_an": "D. $\\log(a^{72})=72\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{72})=72\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "72"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{48})=\\dfrac{1}{48}\\log a$.\nB. $\\log(48a)=\\dfrac{1}{48}\\log a$.\nC. $\\log(48a)=48\\log a$.\nD. $\\log(a^{48})=48\\log a$.",
+    "dap_an": "D. $\\log(a^{48})=48\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{48})=48\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "48"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(28a)=28\\log a$.\nB. $\\log(a^{28})=\\dfrac{1}{28}\\log a$.\nC. $\\log(a^{28})=28\\log a$.\nD. $\\log(28a)=\\dfrac{1}{28}\\log a$.",
+    "dap_an": "C. $\\log(a^{28})=28\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{28})=28\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "28"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(86a)=86\\log a$.\nB. $\\log(a^{86})=86\\log a$.\nC. $\\log(a^{86})=\\dfrac{1}{86}\\log a$.\nD. $\\log(86a)=\\dfrac{1}{86}\\log a$.",
+    "dap_an": "B. $\\log(a^{86})=86\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{86})=86\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "86"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(a^{73})=73\\log a$.\nB. $\\log(a^{73})=\\dfrac{1}{73}\\log a$.\nC. $\\log(73a)=73\\log a$.\nD. $\\log(73a)=\\dfrac{1}{73}\\log a$.",
+    "dap_an": "A. $\\log(a^{73})=73\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{73})=73\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "73"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(79a)=79\\log a$.\nB. $\\log(a^{79})=\\dfrac{1}{79}\\log a$.\nC. $\\log(79a)=\\dfrac{1}{79}\\log a$.\nD. $\\log(a^{79})=79\\log a$.",
+    "dap_an": "D. $\\log(a^{79})=79\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{79})=79\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "79"
+    }
+  },
+  {
+    "id_goc": "p049_q10",
+    "ma_dang": "D36a",
+    "ten_dang": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\nA. $\\log(67a)=67\\log a$.\nB. $\\log(a^{67})=\\dfrac{1}{67}\\log a$.\nC. $\\log(67a)=\\dfrac{1}{67}\\log a$.\nD. $\\log(a^{67})=67\\log a$.",
+    "dap_an": "D. $\\log(a^{67})=67\\log a$.",
+    "loi_giai": "Theo công thức lôgarit của lũy thừa, $\\log(a^{67})=67\\log a$. Chọn mệnh đề này.",
+    "params": {
+      "n": "67"
     }
   }
 ]

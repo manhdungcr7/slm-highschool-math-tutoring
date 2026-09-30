@@ -136,7 +136,7 @@ def gen_D45(A, r1, r2):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"$({A}^x-{r1})({A}^x-{r2})>0$. Vì ${A}^x>0>{r2}$ nên ${A}^x-{r2}>0$ luôn đúng, "
+        f"$({A}^x-{r1})({A}^x+{abs(int(r2))})>0$. Vì ${A}^x>0>{r2}$ nên ${A}^x+{abs(int(r2))}>0$ luôn đúng, "
         f"do đó bất phương trình $\\Leftrightarrow {A}^x>{r1}\\Leftrightarrow x>\\log_{{{A}}}{r1}$."
     )
     return de_bai, dap_an, loi_giai, dict(A=str(A), r1=str(r1), r2=str(r2))
@@ -227,7 +227,7 @@ def gen_D40(a, b_coef, p, q=None):
     wrong2 = f"[{latex(lo)};{latex(hi)}]"
     wrong3 = f"({latex(hi)};+\\infty)"
     de_bai = (
-        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-(m{p_int:+d})\\log_{{{a}}}x+m-{q}=0$ ($m$ là tham số thực). "
+        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-(m{p_int:+d})\\log_{{{a}}}x+m{-int(q):+d}=0$ ($m$ là tham số thực). "
         f"Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn "
         f"$[1;{a}]$ là\n\n"
     )
@@ -236,7 +236,7 @@ def gen_D40(a, b_coef, p, q=None):
     coeff = 2 - int(p)
     shift = int(p) - 3
     loi_giai = (
-        f"Đặt $t=\\log_{{{a}}}x$. Vì $q=4-p$, phương trình tương đương "
+        f"Đặt $t=\\log_{{{a}}}x$. Thay $q={q}$ và khai triển, phương trình tương đương "
         f"$(t+1)^2-(m{p_int:+d})t+m-{q}=0$"
         f" $\\Leftrightarrow t^2+({coeff}-m)t+(m{shift:+d})=0$"
         f" $\\Leftrightarrow (t-1)(t-(m{shift:+d}))=0$. "
@@ -288,7 +288,7 @@ def gen_D16(A, B, c):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"PT $\\Leftrightarrow m=\\dfrac{{{A}^x+{c}\\cdot{B}^x}}{{{B}^x+1}}=f(x)$. Hàm $f$ đồng biến trên "
-        f"$\\mathbb{{R}}$ (do ${A}>{B}$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow {correct[1:-1]}$ "
+        f"$\\mathbb{{R}}$ (do ${A}>{B}$), nên $0<x<1\\Leftrightarrow f(0)<f(x)<f(1)\\Leftrightarrow {correct}$ "
         f"vì $f(0)={latex(f0)}, f(1)={latex(f1)}$."
     )
     return de_bai, dap_an, loi_giai, dict(A=str(A), B=str(B), c=str(c))

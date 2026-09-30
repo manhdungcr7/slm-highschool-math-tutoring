@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Nhom "tu dang thuc logarit suy ra quan he giua cac bien" (D32, D37, D44,
-D50, D64, D72, D77, D87). Moi ham gen_* tra ve de bai/dap an/loi giai theo
+D50a, D50b, D64, D72, D77, D87). Moi ham gen_* tra ve de bai/dap an/loi giai theo
 DUNG phuong phap cua loi giai goc; verify_* kiem tra doc lap bang thay so
 cu the va tinh true dinh nghia (khong dung lai cong thuc rut gon da sinh).
 
@@ -131,7 +131,8 @@ def verify_D44(params):
 
 
 # ===================== D50a: log_c a - m log_c b = n => a=c^n b^m =========
-TEN_D50 = "Từ đẳng thức lôgarit suy ra quan hệ lũy thừa giữa hai biến"
+TEN_D50A = "Dùng hiệu hai lôgarit để suy ra quan hệ giữa hai biến"
+TEN_D50B = "Dùng tổng hai lôgarit để suy ra quan hệ giữa hai biến"
 
 
 def gen_D50a(c, m, n):
@@ -412,9 +413,9 @@ def main():
                       [(2, 3), (3, 2), (5, 3), (2, 4), (3, 4), (2, 2)])
     fails += try_add("D44", TEN_D44, "p098_q29", gen_D44, verify_D44,
                       [(2, 2), (3, 2), (2, 3), (4, 2), (3, 3), (2, 4)])
-    fails += try_add("D50", TEN_D50, "p113_q31", gen_D50a, verify_D50a,
+    fails += try_add("D50a", TEN_D50A, "p113_q31", gen_D50a, verify_D50a,
                       [(2, 3, 2), (3, 2, 1), (2, 2, 3), (5, 3, 1), (2, 4, 2), (3, 3, 2)])
-    fails += try_add("D50", TEN_D50, "p213_q38", gen_D50b, verify_D50b,
+    fails += try_add("D50b", TEN_D50B, "p213_q38", gen_D50b, verify_D50b,
                       [(2, 3, 8), (3, 2, 4), (2, 2, 6), (5, 2, 3), (2, 4, 9), (3, 3, 5)])
     fails += try_add("D64", TEN_D64, "p146_q42", gen_D64, verify_D64,
                       [(3, 4), (2, 5), (4, 3), (5, 2), (2, 7), (3, 5)])

@@ -5,15 +5,13 @@ Each generator computes the answer and then verifies it independently with a
 different method. A repository-wide scan also checks that every generated
 question has exactly four distinct answer choices labeled A-D.
 
-**Current coverage: all 89 retained problem types**: 87 types have 90 variants
-each, while D43 has 21 and D51 has 35 (7,886 generated variants; 110 retained
-source questions + 7,886 variants = 7,996 rows in the combined CSV/XLSX). D09
-and D11 are excluded because they have no numeric inputs to vary. D43 and D51
-stay below 90 because their valid parameter domains are genuinely narrow —
-both were tried with much wider sampling ranges first, and widening further
-only produced parameter combinations that fail the "clean answer" assertion
-already used to keep every generated question well-posed, so the honest
-counts were kept instead of forcing 90 by relaxing that condition.
+**Current coverage: all 91 retained problem types, with 90 variants per type**
+(8,190 generated variants; 110 retained source questions + 8,190 variants =
+8,300 rows in the combined CSV/XLSX). D09 and D11 are excluded because they
+have no numeric inputs to vary. Type grouping requires the same given-data
+form, requested task, and solution method. A manual audit split D36 into
+proposition selection (D36a) and direct evaluation (D36b), and split D50 into
+the logarithm quotient-rule case (D50a) and product-rule case (D50b).
 
 **Note on a data-integrity bug found and fixed after the initial expansion
 to 90/type**: several batches (`batch_round2.json`, `batch_round8.json`,
@@ -41,8 +39,8 @@ numbers.
 |---|---|
 | `10_common_utils.py` | Shared LaTeX formatting and answer-choice utilities (`render_mc`, `bump_until_distinct`, etc.) |
 | `11_generate_D01.py`-`14_generate_D53.py` | Pilot batch: D01, D12, D18, D53 |
-| `15_generate_identities_A.py` | D06, D13, D30, D36, D54, D59, D60, D66, D76, D81, D90 |
-| `16_generate_identities_B.py` | D32, D37, D44, D50, D64, D72, D77, D87 |
+| `15_generate_identities_A.py` | D06, D13, D30, D36a, D36b, D54, D59, D60, D66, D76, D81, D90 |
+| `16_generate_identities_B.py` | D32, D37, D44, D50a, D50b, D64, D72, D77, D87 |
 | `17_generate_basic_eq.py` | D02, D04, D07, D14, D19, D21, D27, D28, D31, D33, D34, D38, D42, D43, D48, D55, D58, D61, D62, D63, D71, D73, D80, D82, D85, D86, D91 |
 | `18_generate_counting.py` | D25, D41, D74, D92; brute-force verified |
 | `19_generate_identities_C.py` | D49, D20 |
@@ -56,6 +54,7 @@ numbers.
 | `28_generate_round7.py` | D17, D65; numeric minimization checks independent of the derived formulas |
 | `29_generate_round8.py` | D08 (direct change-of-base evaluation), D23 (numerical root bracketing), D47 (continuous-variable search), D52 (high-precision log comparison), D57 (direct integer-pair enumeration), D78 (dense grid in the original feasible region) |
 | `30_generate_round9.py` | D84; independent endpoint-sign enumeration at 80-digit precision |
+| `32_generate_round10_shortfalls.py` | Completes D43 with exact rational thresholds and D51 with factored quadratic coefficients; checks D43 symbolically and D51 by direct enumeration |
 
 ### Example
 
@@ -65,13 +64,14 @@ python scripts/generate_questions/22_export_all.py
 ```
 
 D09 and D11 are excluded from the retained source set because they are general
-symbolic questions without numbers to vary. All other retained types have 90
-variants except D43 (21) and D51 (35), both genuinely narrow parameter
-domains rather than incomplete runs. For each type, generation changes
-numeric values within the original question form; an independent verifier
-checks the resulting answer using a different computation method. A final
-repository-wide audit checks that question statements are unique within
-each type and that all four answer choices are distinct. D84's 90 variants
-vary endpoint parameter U over the verified range, with the linked exponent
-coefficient 3U; an independent 80-digit endpoint-sign verifier checks the
-count.
+symbolic questions without numbers to vary. All 91 retained types now have 90
+variants. D43 uses exact integer and rational threshold values. D51 varies the
+quadratic coefficients while preserving its exponential-quadratic inequality
+form; the selected coefficients make the quadratic factor at integer powers
+of 2, and direct enumeration checks every generated answer against the original
+inequality. For each type, generation changes only numerical values in the
+original question form; an independent verifier checks the resulting answer.
+A final repository-wide audit checks for repeated question statements and
+duplicate answer choices. D84's 90 variants vary endpoint parameter U over the
+verified range, with the linked exponent coefficient 3U; an independent
+80-digit endpoint-sign verifier checks the count.

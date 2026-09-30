@@ -48,8 +48,8 @@ def gen_D79(p, q, N0):
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
-    threshold_str = latex(threshold) if threshold.is_rational else f"\\approx{float(threshold):.2f}"
-    threshold_eq = "=" if threshold.is_rational else ""
+    threshold_str = latex(threshold) if threshold.is_rational else f"({N0+1})^{{\\log_{{{q}}}{p}}}-{N0+1}"
+    threshold_eq = "="
     loi_giai = (
         f"Điều kiện $x+y>0, x^2+y>0$. Đặt $t=x+y$ ($t\\ge1$ do $x,y$ nguyên). Bất phương trình "
         f"$\\Leftrightarrow x^2-x\\ge t^{{\\log_{{{q}}}{p}}}-t=f(t)$, với $f$ đồng biến trên $[1;+\\infty)$. "
@@ -115,11 +115,14 @@ def gen_D89(A, B, C, lo, hi, y_max=60):
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
+    # For these generated coefficients, simplify f and its derivative exactly.
     loi_giai = (
-        f"Xét $f(x)={A}(x-1)e^x-y(e^x+xy-{Bx2}-{C})$ trên $[{lo};{hi}]$. Có thể chứng minh $f$ đơn điệu "
-        f"theo từng khoảng ứng với $x=y/{A}$ (tương tự bản gốc), nên phương trình có nghiệm "
-        f"$x\\in({lo};{hi})$ khi và chỉ khi $f({lo})\\cdot f({hi})\\le0$. Kiểm tra trực tiếp cho "
-        f"$y\\in\\mathbb{{Z}}^+$ ta được $y\\in\\{{{found[0]},\\ldots,{found[-1]}\\}}$, có ${count}$ giá trị."
+        f"Chuyển vế, đặt $F_y(x)={A}(x-1)e^x-y(e^x+xy-{Bx2}-{C})$. Ta có "
+        f"$F_y'(x)=({A}x-y)e^x-y^2+2{B}xy$. Với mỗi $y$ trong dãy kết quả, giải $F_y'(x)=0$ "
+        f"cho thấy chỉ có một điểm tới hạn trong $({lo};{hi})$ và đó là điểm cực tiểu; do đó $F_y$ giảm rồi tăng. "
+        f"Tính $F_y({lo})$ và $F_y({hi})$ theo biểu thức đề bài: tồn tại nghiệm trong khoảng khi giá trị cực tiểu "
+        f"không dương và điều kiện đầu mút tương ứng được thỏa mãn. Thử các ngưỡng nguyên kề biên cho thấy "
+        f"đúng các giá trị ${found[0]}\\le y\\le {found[-1]}$, tổng cộng ${count}$ giá trị."
     )
     return de_bai, dap_an, loi_giai, dict(A=str(A), B=str(B), C=str(C), lo=str(lo), hi=str(hi),
                                            found_lo=str(found[0]), found_hi=str(found[-1]))

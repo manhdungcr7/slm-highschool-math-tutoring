@@ -211,7 +211,8 @@ def verify_D14(params):
 def gen_D19(a, m, c, k):
     a, m, c, k = sp.Integer(a), sp.Integer(m), sp.Integer(c), sp.Integer(k)
     boundary = sp.Rational(k - c, m)
-    lhs_str = f"{a}^{{{m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) + "}}"
+    lhs_str = f"{a}^{{{m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) + "}"
+    lhs_plain = f"{a}^{{{m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) + "}"
     de_bai = f"Tìm tập nghiệm của bất phương trình ${lhs_str} - {a}^{{{k}}} > 0$.\n\n"
     same_dir_vals = bump_until_distinct([boundary, sp.Rational(k + c, m), k - c])
     _, w2v, w3v = same_dir_vals
@@ -222,7 +223,7 @@ def gen_D19(a, m, c, k):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0, prefix="S=")
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"${lhs_str} - {a}^{{{k}}} > 0 \\Leftrightarrow {lhs_str[:-2]}}} > {a}^{{{k}}} "
+        f"${lhs_str} - {a}^{{{k}}} > 0 \\Leftrightarrow {lhs_plain} > {a}^{{{k}}} "
         f"\\Leftrightarrow {m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) +
         f">{k} \\Leftrightarrow x>{latex(boundary)}$."
     )
@@ -455,15 +456,17 @@ def verify_D42(params):
 
 # ===================== D43: log_10 x >= k ===================================
 def gen_D43(k):
-    k = sp.Integer(k)
-    val = 10 ** k
-    correct, wrong1, wrong2, wrong3 = f"[{val};+\\infty)", "(0;+\\infty)", f"({val};+\\infty)", f"(-\\infty;{val})"
-    de_bai = f"Tập nghiệm của bất phương trình $\\log x\\ge {k}$ là\n\n"
+    k = sp.Rational(k)
+    val = sp.Integer(10) ** k
+    val_tex = latex(val)
+    k_tex = latex(k)
+    correct = f"[{val_tex};+\\infty)"
+    wrong1, wrong2, wrong3 = "(0;+\\infty)", f"({val_tex};+\\infty)", f"(-\\infty;{val_tex})"
+    de_bai = f"Tập nghiệm của bất phương trình $\\log x\\ge {k_tex}$ là\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
-    loi_giai = f"$\\log x\\ge {k}\\Leftrightarrow x\\ge {val}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[{val};+\\infty)$."
+    loi_giai = f"$\\log x\\ge {k_tex}\\Leftrightarrow x\\ge {val_tex}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[{val_tex};+\\infty)$."
     return de_bai, dap_an, loi_giai, dict(k=str(k))
-
 
 def verify_D43(params):
     k = sp.sympify(params["k"])
@@ -648,7 +651,7 @@ def gen_D63(a, k_coef, C, N_exp):
     N = a ** N_exp
     de_bai = (
         f"Tìm giá trị thực của tham số $m$ để phương trình "
-        f"$\\log_{{{a}}}^2 x-m\\log_{{{a}}} x+{k_coef}m-{C}=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2={N}$.\n\n"
+        f"$\\log_{{{a}}}^2 x-m\\log_{{{a}}} x+{('' if k_coef == 1 else str(k_coef))}m-{C}=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2={N}$.\n\n"
     )
     correct = str(m)
     wrong1 = str(-m)
@@ -660,7 +663,7 @@ def gen_D63(a, k_coef, C, N_exp):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"ĐK $x>0$. $x_1x_2={N}\\Leftrightarrow \\log_{{{a}}}x_1+\\log_{{{a}}}x_2={N_exp}\\Leftrightarrow t_1+t_2={N_exp}$.\n"
-        f"Đặt $t=\\log_{{{a}}}x$: $t^2-mt+{k_coef}m-{C}=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m={N_exp}\\Leftrightarrow m={m}$."
+        f"Đặt $t=\\log_{{{a}}}x$: $t^2-mt+{("" if k_coef == 1 else str(k_coef))}m-{C}=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m={N_exp}\\Leftrightarrow m={m}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), k_coef=str(k_coef), C=str(C), N_exp=str(N_exp))
 
@@ -678,7 +681,7 @@ def gen_D71(a, p, q):
     sols = sp.solve(sp.Eq(x + p, a * (x + q)), x)
     assert len(sols) == 1 and sols[0] > max(-p, -q) and sols[0] != 0
     sol = sols[0]
-    de_bai = f"Nghiệm của phương trình $\\log_{{{a}}}(x+{p})=1+\\log_{{{a}}}(x+{q})$ là\n\n"
+    de_bai = f"Nghiệm của phương trình $\\log_{{{a}}}(x{int(p):+d})=1+\\log_{{{a}}}(x{int(q):+d})$ là\n\n"
     assert len({sol, -sol, sol - 1, sol + 1}) == 4
     correct = f"x={latex(sol)}"
     wrong1 = f"x={latex(-sol)}"
@@ -687,7 +690,7 @@ def gen_D71(a, p, q):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Điều kiện $x>{max(-p,-q)}$. $\\log_{{{a}}}(x+{p})=1+\\log_{{{a}}}(x+{q})\\Leftrightarrow x+{p}={a}(x+{q})"
+        f"Điều kiện $x>{max(-p,-q)}$. $\\log_{{{a}}}(x{int(p):+d})=1+\\log_{{{a}}}(x{int(q):+d})\\Leftrightarrow x{int(p):+d}={a}(x{int(q):+d})"
         f"\\Leftrightarrow x={latex(sol)}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), p=str(p), q=str(q))

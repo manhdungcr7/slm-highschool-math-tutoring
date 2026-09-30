@@ -31,13 +31,14 @@ included in this repository.
 - `Mu_Logarit_110_cau_phan_dang.jsonl` / `.csv` / `.xlsx`: problem-type
   classification of the same 110 retained questions (columns: `Ma dang`, `Ten dang`,
   plus the question text and correct answer for reference). Grouping
-  criterion: two questions share a Mã dạng only when they share the same
-  given-data form, the same thing to compute/decide, and the same solution
-  method. 89 unique retained problem types (11 of them group 2-4 questions, the rest
-  are singletons). Two classification errors found while writing variant
-  generators — D03/D53 and, separately, D26/D36/D70 — were each merging two
-  or three problem types that had turned out to share the identical
-  criterion; fixing them dropped the count from the original 94 to 91. Excluding D09 and D11 then leaves 89 retained types.
+  criterion: two questions share a problem type only when their given-data form,
+  requested task, and solution method match. The retained 110-question set has
+  91 types. A manual audit split D36 into D36a (select a universally true
+  logarithm proposition) and D36b (evaluate a logarithm of a power), and split
+  D50 into D50a (difference of logarithms, using the quotient rule) and D50b
+  (sum of logarithms, using the product rule). These groups differ in the
+  requested task or solution method and are kept separate. The 112-question
+  classification has 93 types; excluding D09 and D11 leaves 91 retained types.
 - `Mu_Logarit_110_cau_goc_ket_qua_mo_hinh.csv` / `.xlsx`: ChatGPT (`gpt-4o`)
   and Gemini (`gemini-2.5-flash`) zero-shot answers on the 110 retained questions,
   produced with
@@ -54,11 +55,11 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: all 89 retained problem types**; 87 types have 90 variants each,
-  D43 has 21, and D51 has 35 (7,886 total). Both shortfalls are a genuine
-  narrow-parameter-domain limit, not an unfinished run — widening either
-  domain further was tried and found to require loosening the "clean
-  answer" condition, so it was left as-is and reported honestly instead.
+  **Coverage: all 91 retained problem types, with 90 variants per type**
+  (8,190 variants total). D43 uses additional exact rational thresholds in the
+  same inequality. D51 uses additional coefficients selected so the quadratic
+  factors at integer powers of 2; the original inequality was checked by direct
+  enumeration for each generated variant.
   D09 and D11 are excluded because they are symbolic questions without numbers
   to vary. Each type's variants are checked with a method independent of the
   generation formula, and global scans reject repeated question statements
@@ -69,7 +70,7 @@ included in this repository.
   re-scanned afterward and confirmed clean. See the generator README for
   details.
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 110 retained source questions plus
-  7,886 generated variants combined into one file (7,996 rows), produced
+  8,190 generated variants combined into one file (8,300 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`

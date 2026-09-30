@@ -97,7 +97,7 @@ def verify_D13(params):
 
 
 # =====================================================================
-# D36 (gop D26, D70): log_b(x^n) = n log_b(x)
+# D36b: evaluate log_b(x^n) using log_b(x^n) = n log_b(x)
 # =====================================================================
 def gen_D36(base, n):
     base, n = sp.Integer(base), sp.Integer(n)
@@ -112,7 +112,28 @@ def gen_D36(base, n):
     return de_bai, dap_an, loi_giai, dict(base=str(base), n=str(n))
 
 
-def verify_D36(params):
+def gen_D36a(n):
+    """Recognize the universally valid power rule in the source's statement-selection format."""
+    n = sp.Integer(n)
+    assert n > 1
+    correct = f"\\log(a^{{{n}}})={n}\\log a"
+    wrong1 = f"\\log(a^{{{n}}})=\\dfrac{{1}}{{{n}}}\\log a"
+    wrong2 = f"\\log({n}a)={n}\\log a"
+    wrong3 = f"\\log({n}a)=\\dfrac{{1}}{{{n}}}\\log a"
+    de_bai = f"Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?\n\n"
+    lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
+    de_bai += "\n".join(lines)
+    loi_giai = f"Theo công thức lôgarit của lũy thừa, $\\log(a^{{{n}}})={n}\\log a$. Chọn mệnh đề này."
+    return de_bai, dap_an, loi_giai, dict(n=str(n))
+
+
+def verify_D36a(params):
+    n = int(sp.sympify(params["n"]))
+    av = sp.Rational(7, 3)
+    return abs(float(sp.log(av ** n, 10) - n * sp.log(av, 10))) < 1e-10
+
+
+def verify_D36b(params):
     base, n = sp.sympify(params["base"]), sp.sympify(params["n"])
     av = sp.Rational(13, 4)
     lhs = sp.log(av ** n, base)
@@ -334,8 +355,10 @@ GENERATORS = {
     "D06": (gen_D06, verify_D06, ["p006_q17"], [(n,) for n in (2, 3, 4, 5, 6)]),
     "D13": (gen_D13, verify_D13, ["p020_q16"],
             [(2, 2, 3), (3, 1, 2), (5, 3, 4), (2, 4, 2), (3, 5, 3), (4, 1, 3)]),
-    "D36": (gen_D36, verify_D36, ["p079_q10", "p094_q11", "p049_q10", "p171_q05"],
-            [(2, 2), (3, 4), (5, 3), (7, 2), (2, 5), (10, 3)]),
+    "D36a": (gen_D36a, verify_D36a, ["p049_q10"],
+             [(n,) for n in (2, 3, 4, 5, 6, 7)]),
+    "D36b": (gen_D36, verify_D36b, ["p079_q10", "p094_q11", "p171_q05"],
+             [(2, 2), (3, 4), (5, 3), (7, 2), (2, 5), (10, 3)]),
     "D30": (gen_D30, verify_D30, ["p065_q05"], [(2, 2), (3, 3), (5, 2), (10, 4), (7, 3), (2, 4)]),
     "D54": (gen_D54, verify_D54, ["p125_q28"], [(3, 2), (5, 3), (7, 4), (4, 3), (9, 5), (5, 2)]),
     "D59": (gen_D59, verify_D59, ["p138_q06"], [(2,), (3,), (4,), (5,), (6,), (7,)]),
@@ -349,7 +372,8 @@ GENERATORS = {
 }
 
 TEN_DANG_OVERRIDE = {
-    "D36": "Áp dụng công thức lôgarit của lũy thừa log_a(x^n)=n.log_a(x)",
+    "D36a": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
+    "D36b": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
 }
 
 
@@ -422,7 +446,8 @@ def main():
     samplers = {
         "D06": lambda r: (r.randint(2, 500),),
         "D13": lambda r: (r.randint(2, 30), r.randint(1, 100), r.randint(2, 100)),
-        "D36": lambda r: (r.randint(2, 60), r.randint(2, 100)),
+        "D36a": lambda r: (r.randint(2, 100),),
+        "D36b": lambda r: (r.randint(2, 60), r.randint(2, 100)),
         "D30": lambda r: (r.randint(2, 60), r.randint(2, 100)),
         "D54": lambda r: (r.randint(1, 120), r.randint(1, 120)),
         "D59": lambda r: (r.randint(2, 500),),

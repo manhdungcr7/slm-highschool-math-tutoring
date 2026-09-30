@@ -120,7 +120,7 @@ def verify_D24(params):
 # ===================== D39: log_{p^2}x=log_{pq}y=log_{q^2}(cx+y) =>x/y ======
 def gen_D39(p, q, c, disc_ok):
     p, q, c = sp.Integer(p), sp.Integer(q), sp.Integer(c)
-    assert p != q
+    assert p > 1 and q > 1 and p != q
     u = sp.Symbol("u", positive=True)
     sols = [s for s in sp.solve(sp.Eq(c * u ** 2 + u - 1, 0), u) if s.is_real and s > 0]
     assert len(sols) == 1
@@ -189,11 +189,30 @@ def gen_D75(a, c, m_max=250):
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
-    loi_giai = (
-        f"Điều kiện $x>0,{c}^x\\ge m$. Nhân tử đầu có nghiệm $\\log_{{{a}}}x=2$ hay $\\log_{{{a}}}x=-\\dfrac12$, "
-        f"tức $x={x1}$ hoặc $x={latex(x2)}$; nhân tử sau có $x=\\log_{{{c}}}m$. Xét các trường hợp theo $m$ "
-        f"tương tự bản gốc (đối chiếu điều kiện $\\ge m$ cho từng nghiệm cố định, cộng thêm miền $m$ để "
-        f"nghiệm thứ ba xuất hiện đúng một lần) cho tổng cộng ${count}$ giá trị nguyên dương."
+    # Enumerate candidate integer m values via exact symbolic root identities,
+    # then present the finite ranges and the thresholds causing duplicate roots.
+    valid_ms = []
+    for mv in range(1, m_max):
+        roots = set()
+        if c ** x1 >= mv: roots.add(x1)
+        if c ** x2 >= mv: roots.add(x2)
+        x3 = sp.log(mv, c)
+        if x3.is_positive: roots.add(sp.simplify(x3))
+        if len(roots) == 2: valid_ms.append(mv)
+    intervals=[]
+    for mv in valid_ms:
+        if not intervals or mv != intervals[-1][1]+1: intervals.append([mv,mv])
+        else: intervals[-1][1]=mv
+    interval_text=", ".join(str(lo) if lo==hi else f"{lo}\\le m\\le {hi}" for lo,hi in intervals)
+    n1=int(c**x1); n2=int(sp.floor(c**x2))
+    loi_giai=(
+        f"Điều kiện: $x>0$ và $c^x\\ge m$. Đặt $u=\\log_{{{a}}}x$, nhân tử đầu bằng 0 tại "
+        f"$u=2$ hoặc $u=-\\dfrac12$, cho $x_1={x1}$ và $x_2={latex(x2)}$. Nhân tử căn bằng 0 tại "
+        f"$x_3=\\log_{{{c}}}m$; vì $m>0$ nên nghiệm này xác định và thỏa $c^{{x_3}}=m$. "
+        f"Nghiệm $x_1$ thỏa điều kiện căn khi $m\\le {n1}$; $x_2$ thỏa khi $m\\le {n2}$. "
+        f"Ngoài ra $x_3=x_1$ đúng khi $m={c**2}$; với $m$ nguyên dương, $x_3$ không thể bằng $x_2$ vì "
+        f"$c^{{x_2}}=\\sqrt{{{c}}}$ không nguyên. Đếm các nghiệm phân biệt theo các điều kiện này cho "
+        f"$m\\in\\{{{interval_text}\\}}$, tổng cộng ${count}$ giá trị."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), c=str(c), m_max=str(m_max))
 
@@ -243,10 +262,28 @@ def gen_D93(A, B, N, a_max=400, b_range=10):
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
+    # Derive the exact integer-a intervals where exactly three b values work.
+    valid_as = []
+    for av in range(1, a_max):
+        if count_b(av) == 3: valid_as.append(av)
+    intervals=[]
+    for av in valid_as:
+        if not intervals or av != intervals[-1][1] + 1: intervals.append([av,av])
+        else: intervals[-1][1]=av
+    int_b = list(range(-b_range, b_range))
+    b_gt = [b for b in int_b if b > 1]
+    b_lt = [b for b in int_b if b < 1]
+    crit_gt = sorted(set((N / (B**b) for b in b_gt)))
+    crit_lt = sorted(set((N / (B**b) for b in b_lt)))
+    interval_fmt=lambda xs: ", ".join(str(v) for v in xs)
+    allowed_fmt=", ".join(str(lo) if lo==hi else f"{lo}\\le a\\le {hi}" for lo,hi in intervals)
     loi_giai = (
-        f"Xét hai trường hợp $b>1$ và $b<1$ (dấu của ${A}^b-{A}$) rồi tìm khoảng của $a$ tương ứng để "
-        f"đúng 3 giá trị nguyên $b$ thỏa mãn ở mỗi trường hợp; gộp lại được tổng cộng ${count}$ giá trị "
-        f"nguyên dương $a$."
+        f"Vì $A>1$, $A^b-A$ âm khi $b<1$ và dương khi $b>1$ (tại $b=1$ tích bằng 0). "
+        f"Nếu $b>1$, bất đẳng thức tương đương $a<N/B^b$; ngưỡng $N/B^b$ giảm theo $b$, nên có thể đếm bằng cách "
+        f"so sánh $a$ lần lượt với các ngưỡng ${interval_fmt(crit_gt)}$. Nếu $b<1$, bất đẳng thức tương đương $a>N/B^b$; "
+        f"ngưỡng cũng giảm theo $b$, và các giá trị cần xét nằm giữa hai ngưỡng kề nhau ${interval_fmt(crit_lt)}$. "
+        f"Đếm các số nguyên $b$ ở hai phía cho thấy đúng ba giá trị $b$ xảy ra khi $a\\in\\{{{allowed_fmt}\\}}$. "
+        f"Vậy có ${count}$ giá trị nguyên dương $a$."
     )
     return de_bai, dap_an, loi_giai, dict(A=str(A), B=str(B), N=str(N), a_max=str(a_max), b_range=str(b_range))
 
