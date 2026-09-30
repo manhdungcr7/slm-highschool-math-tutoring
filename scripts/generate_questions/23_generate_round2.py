@@ -152,6 +152,7 @@ def verify_D45(params):
 # ===================== D67: t^2-k*m*t+c*m^2-c=0 (dat t=B^x), 2 nghiem duong
 def gen_D67(B, k, c):
     B, k, c = sp.Integer(B), sp.Integer(k), sp.Integer(c)
+    assert k == B, "The source question ties the coefficient to the base: k = B."
     m = sp.Symbol("m", real=True)
     disc = sp.expand((k * m) ** 2 - 4 * (c * m ** 2 - c))
     sol_disc = sp.solve_univariate_inequality(disc > 0, m, relational=False)
@@ -196,6 +197,7 @@ def verify_D67_full(params, expected_count):
 def gen_D40(a, b_coef, p, q=None):
     a, b_coef, p = sp.Integer(a), sp.Integer(b_coef), sp.Integer(p)
     q = 4 - p  # rang buoc bat buoc de PT luon co nghiem t=1 co dinh (xem suy luan trong doc string)
+    p_int = int(p)
     t = sp.Symbol("t")
     # ho tro b_coef=a (tuc log_a(a x)=1+t voi t=log_a x)
     assert b_coef == a
@@ -225,16 +227,22 @@ def gen_D40(a, b_coef, p, q=None):
     wrong2 = f"[{latex(lo)};{latex(hi)}]"
     wrong3 = f"({latex(hi)};+\\infty)"
     de_bai = (
-        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-(m+{p})\\log_{{{a}}}x+m-{q}=0$ ($m$ là tham số thực). "
+        f"Cho phương trình $\\log_{{{a}}}^2({a}x)-(m{p_int:+d})\\log_{{{a}}}x+m-{q}=0$ ($m$ là tham số thực). "
         f"Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn "
         f"$[1;{a}]$ là\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
+    coeff = 2 - int(p)
+    shift = int(p) - 3
     loi_giai = (
-        f"Đặt $t=\\log_{{{a}}}x$, PT trở thành $t^2-mt+m-{q+1}=0$" +
-        f" $\\Leftrightarrow (t-{r_fixed})(t-({latex(r_var)}))=0$" +
-        f" (sau khi rút gọn). $x\\in[1;{a}]\\Leftrightarrow t\\in[0;1]$. Vậy $m\\in{correct}$."
+        f"Đặt $t=\\log_{{{a}}}x$. Vì $q=4-p$, phương trình tương đương "
+        f"$(t+1)^2-(m{p_int:+d})t+m-{q}=0$"
+        f" $\\Leftrightarrow t^2+({coeff}-m)t+(m{shift:+d})=0$"
+        f" $\\Leftrightarrow (t-1)(t-(m{shift:+d}))=0$. "
+        f"Điều kiện $x\\in[1;{a}]$ tương đương $t\\in[0;1]$. "
+        f"Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m{shift:+d}\\in[0;1)$, "
+        f"suy ra $m\\in{correct}."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), p=str(p), q=str(q), lo=str(lo), hi=str(hi), r_fixed=str(r_fixed))
 
@@ -471,7 +479,7 @@ def main():
         else:
             fails.append(("D35", params))
 
-    for B, k, c in [(2, 4, 5), (2, 5, 7), (3, 4, 5), (3, 5, 7), (5, 4, 5), (5, 5, 7)]:
+    for B, k, c in [(4, 4, 5), (5, 5, 7), (6, 6, 10), (7, 7, 13), (8, 8, 17), (9, 9, 21)]:
         try:
             de_bai, dap_an, loi_giai, params = gen_D67(B, k, c)
         except AssertionError:

@@ -570,7 +570,7 @@ def gen_D58(a, k, c):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Ta có ${a}^{{2x}}+{k}\\cdot{a}^{{x+1}}-{c}=0 \\Leftrightarrow ({a}^x)^2+{k}{a}\\cdot{a}^x-{c}=0$. "
+        f"Ta có ${a}^{{2x}}+{k}\\cdot{a}^{{x+1}}-{c}=0 \\Leftrightarrow ({a}^x)^2+{ka}\\cdot{a}^x-{c}=0$. "
         f"Đặt $t={a}^x$ $(t>0)$, phương trình trở thành ${correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), k=str(k), c=str(c))

@@ -18,6 +18,7 @@ r2 = import_module("23_generate_round2")
 d01 = import_module("11_generate_D01")
 
 import math
+import sympy as sp
 
 
 def fast_gen_D67(B, k, c):
@@ -26,6 +27,10 @@ def fast_gen_D67(B, k, c):
     dieu kien (disc>0, tong>0, tich>0), quet TRUC TIEP tung so nguyen m
     bang float la du va nhanh hon nhieu, khong can tim khoang lien tuc."""
     Bi, ki, ci = int(B), int(k), int(c)
+    if ki != Bi:
+        raise AssertionError("The source question ties the coefficient to the base: k = B.")
+    if 4 * ci <= Bi ** 2:
+        raise AssertionError("A finite integer range requires 4c > B^2.")
     int_vals = []
     for m in range(-60, 61):
         disc = (ki * m) ** 2 - 4 * (ci * m ** 2 - ci)
@@ -34,6 +39,10 @@ def fast_gen_D67(B, k, c):
     if not (1 <= len(int_vals) <= 6):
         raise AssertionError("so luong phan tu ngoai [1,6]")
     count = len(int_vals)
+    upper = sp.sqrt(sp.Rational(4 * ci, 4 * ci - Bi ** 2))
+    exact_vals = [m for m in range(2, int(sp.floor(upper)) + 1) if m ** 2 < upper ** 2]
+    if sorted(int_vals) != exact_vals:
+        raise AssertionError("Direct enumeration disagrees with the derived integer interval.")
     de_bai = (
         f"Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình "
         f"${Bi**2}^x-m\\cdot{Bi}^{{x+1}}+{ci}m^2-{ci}=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?\n\n"
@@ -45,8 +54,11 @@ def fast_gen_D67(B, k, c):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"Đặt $t={Bi}^x>0$: $t^2-{ki}mt+{ci}m^2-{ci}=0$. YCBT $\\Leftrightarrow$ PT có 2 nghiệm dương phân biệt "
-        f"$\\Leftrightarrow \\Delta>0,\\ {ki}m>0,\\ {ci}m^2-{ci}>0$. Kiểm tra trực tiếp từng số nguyên $m$, "
-        f"ta được $S=\\{{{','.join(str(v) for v in sorted(int_vals))}\\}}$, có ${count}$ phần tử."
+        f"$\\Leftrightarrow \\Delta>0,\\ {ki}m>0,\\ {ci}m^2-{ci}>0$. "
+        f"Vì $4{ci}>{Bi**2}$, điều kiện $\\Delta>0$ tương đương "
+        f"$|m|<{utils.latex(upper)}$. Kết hợp hai điều kiện còn lại, ta được "
+        f"$1<m<{utils.latex(upper)}$. Do đó các giá trị nguyên là "
+        f"$S=\\{{{','.join(str(v) for v in sorted(int_vals))}\\}}$, có ${count}$ phần tử."
     )
     return de_bai, dap_an, loi_giai, dict(B=str(Bi), k=str(ki), c=str(ci))
 
@@ -57,6 +69,8 @@ def fast_verify_D67(params, expected_count):
     qua sympy), van la giai lai phuong trinh (khong dua vao nguong dong dang
     da suy trong gen_D67) nhung nhanh hon nhieu bac."""
     B, k, c = (float(params[key]) for key in ("B", "k", "c"))
+    if B != k:
+        return False
     count = 0
     for mv in range(-80, 80):
         a_coef, b_coef, c_coef = 1.0, -k * mv, c * mv ** 2 - c
@@ -206,7 +220,7 @@ def main():
     if "D67" not in DONE_DANG:
         all_rows += expand("D67", "Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt",
                             "p161_q35", fast_gen_D67, fast_verify_D67,
-                            lambda r: (r.choice([2, 3, 5, 7, 11, 13]), r.randint(1, 40), r.randint(1, 40)),
+                            lambda r: (lambda B: (B, B, r.randint(1, 100)))(r.randint(4, 20)),
                             expects_count=True, seed=6704, max_tries=30000)
         save_round2(all_rows)
 

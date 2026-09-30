@@ -41,6 +41,7 @@ TEN_D32 = "Đổi cơ số lôgarit qua ẩn phụ cho trước"
 def gen_D32(p, q, m, n):
     p, q, m, n = (sp.Integer(v) for v in (p, q, m, n))
     assert m != n, "m=n lam cac phuong an trung nhau"
+    assert p != q, "p=q lam a=log_q p=1, cau hoi thoai hoa"
     correct = f"\\dfrac{{{n}}}{{{m}a}}"
     wrong1 = f"\\dfrac{{{m}}}{{{n}a}}"
     wrong2 = f"\\dfrac{{{n}a}}{{{m}}}"

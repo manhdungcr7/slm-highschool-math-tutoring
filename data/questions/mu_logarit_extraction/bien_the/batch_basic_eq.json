@@ -21880,7 +21880,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+6\\cdot5^{x+1}-12=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+30t+12=0$.\nB. $t^2+30t-12=0$.\nC. $t^2-30t-12=0$.\nD. $t^2+6t-12=0$.",
     "dap_an": "B. $t^2+30t-12=0$.",
-    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-12=0 \\Leftrightarrow (5^x)^2+65\\cdot5^x-12=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-12=0$.",
+    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-12=0 \\Leftrightarrow (5^x)^2+30\\cdot5^x-12=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-12=0$.",
     "params": {
       "a": "5",
       "k": "6",
@@ -21895,7 +21895,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+6\\cdot6^{x+1}-8=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+36t-8=0$.\nB. $t^2+36t+8=0$.\nC. $t^2+6t-8=0$.\nD. $t^2-36t-8=0$.",
     "dap_an": "A. $t^2+36t-8=0$.",
-    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-8=0 \\Leftrightarrow (6^x)^2+66\\cdot6^x-8=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-8=0$.",
+    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-8=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-8=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-8=0$.",
     "params": {
       "a": "6",
       "k": "6",
@@ -21910,7 +21910,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+5\\cdot4^{x+1}-10=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-20t-10=0$.\nB. $t^2+20t-10=0$.\nC. $t^2+5t-10=0$.\nD. $t^2+20t+10=0$.",
     "dap_an": "B. $t^2+20t-10=0$.",
-    "loi_giai": "Ta có $4^{2x}+5\\cdot4^{x+1}-10=0 \\Leftrightarrow (4^x)^2+54\\cdot4^x-10=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+20t-10=0$.",
+    "loi_giai": "Ta có $4^{2x}+5\\cdot4^{x+1}-10=0 \\Leftrightarrow (4^x)^2+20\\cdot4^x-10=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+20t-10=0$.",
     "params": {
       "a": "4",
       "k": "5",
@@ -21925,7 +21925,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+6\\cdot2^{x+1}-10=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+12t+10=0$.\nB. $t^2+12t-10=0$.\nC. $t^2-12t-10=0$.\nD. $t^2+6t-10=0$.",
     "dap_an": "B. $t^2+12t-10=0$.",
-    "loi_giai": "Ta có $2^{2x}+6\\cdot2^{x+1}-10=0 \\Leftrightarrow (2^x)^2+62\\cdot2^x-10=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+12t-10=0$.",
+    "loi_giai": "Ta có $2^{2x}+6\\cdot2^{x+1}-10=0 \\Leftrightarrow (2^x)^2+12\\cdot2^x-10=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+12t-10=0$.",
     "params": {
       "a": "2",
       "k": "6",
@@ -21940,7 +21940,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+3\\cdot3^{x+1}-12=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+3t-12=0$.\nB. $t^2-9t-12=0$.\nC. $t^2+9t-12=0$.\nD. $t^2+9t+12=0$.",
     "dap_an": "C. $t^2+9t-12=0$.",
-    "loi_giai": "Ta có $3^{2x}+3\\cdot3^{x+1}-12=0 \\Leftrightarrow (3^x)^2+33\\cdot3^x-12=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+9t-12=0$.",
+    "loi_giai": "Ta có $3^{2x}+3\\cdot3^{x+1}-12=0 \\Leftrightarrow (3^x)^2+9\\cdot3^x-12=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+9t-12=0$.",
     "params": {
       "a": "3",
       "k": "3",
@@ -21955,7 +21955,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+2\\cdot4^{x+1}-5=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+8t+5=0$.\nB. $t^2+2t-5=0$.\nC. $t^2+8t-5=0$.\nD. $t^2-8t-5=0$.",
     "dap_an": "C. $t^2+8t-5=0$.",
-    "loi_giai": "Ta có $4^{2x}+2\\cdot4^{x+1}-5=0 \\Leftrightarrow (4^x)^2+24\\cdot4^x-5=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+8t-5=0$.",
+    "loi_giai": "Ta có $4^{2x}+2\\cdot4^{x+1}-5=0 \\Leftrightarrow (4^x)^2+8\\cdot4^x-5=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+8t-5=0$.",
     "params": {
       "a": "4",
       "k": "2",
@@ -21970,7 +21970,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+1\\cdot4^{x+1}-5=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-5=0$.\nB. $t^2+t-5=0$.\nC. $t^2+4t+5=0$.\nD. $t^2-4t-5=0$.",
     "dap_an": "A. $t^2+4t-5=0$.",
-    "loi_giai": "Ta có $4^{2x}+1\\cdot4^{x+1}-5=0 \\Leftrightarrow (4^x)^2+14\\cdot4^x-5=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+4t-5=0$.",
+    "loi_giai": "Ta có $4^{2x}+1\\cdot4^{x+1}-5=0 \\Leftrightarrow (4^x)^2+4\\cdot4^x-5=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+4t-5=0$.",
     "params": {
       "a": "4",
       "k": "1",
@@ -21985,7 +21985,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+3\\cdot3^{x+1}-2=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-9t-2=0$.\nB. $t^2+3t-2=0$.\nC. $t^2+9t+2=0$.\nD. $t^2+9t-2=0$.",
     "dap_an": "D. $t^2+9t-2=0$.",
-    "loi_giai": "Ta có $3^{2x}+3\\cdot3^{x+1}-2=0 \\Leftrightarrow (3^x)^2+33\\cdot3^x-2=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+9t-2=0$.",
+    "loi_giai": "Ta có $3^{2x}+3\\cdot3^{x+1}-2=0 \\Leftrightarrow (3^x)^2+9\\cdot3^x-2=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+9t-2=0$.",
     "params": {
       "a": "3",
       "k": "3",
@@ -22000,7 +22000,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+2\\cdot3^{x+1}-3=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-6t-3=0$.\nB. $t^2+6t+3=0$.\nC. $t^2+6t-3=0$.\nD. $t^2+2t-3=0$.",
     "dap_an": "C. $t^2+6t-3=0$.",
-    "loi_giai": "Ta có $3^{2x}+2\\cdot3^{x+1}-3=0 \\Leftrightarrow (3^x)^2+23\\cdot3^x-3=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+6t-3=0$.",
+    "loi_giai": "Ta có $3^{2x}+2\\cdot3^{x+1}-3=0 \\Leftrightarrow (3^x)^2+6\\cdot3^x-3=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+6t-3=0$.",
     "params": {
       "a": "3",
       "k": "2",
@@ -22015,7 +22015,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+1\\cdot6^{x+1}-7=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t+7=0$.\nB. $t^2-6t-7=0$.\nC. $t^2+t-7=0$.\nD. $t^2+6t-7=0$.",
     "dap_an": "D. $t^2+6t-7=0$.",
-    "loi_giai": "Ta có $6^{2x}+1\\cdot6^{x+1}-7=0 \\Leftrightarrow (6^x)^2+16\\cdot6^x-7=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+6t-7=0$.",
+    "loi_giai": "Ta có $6^{2x}+1\\cdot6^{x+1}-7=0 \\Leftrightarrow (6^x)^2+6\\cdot6^x-7=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+6t-7=0$.",
     "params": {
       "a": "6",
       "k": "1",
@@ -22030,7 +22030,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+1\\cdot4^{x+1}-11=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-4t-11=0$.\nB. $t^2+4t-11=0$.\nC. $t^2+4t+11=0$.\nD. $t^2+t-11=0$.",
     "dap_an": "B. $t^2+4t-11=0$.",
-    "loi_giai": "Ta có $4^{2x}+1\\cdot4^{x+1}-11=0 \\Leftrightarrow (4^x)^2+14\\cdot4^x-11=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+4t-11=0$.",
+    "loi_giai": "Ta có $4^{2x}+1\\cdot4^{x+1}-11=0 \\Leftrightarrow (4^x)^2+4\\cdot4^x-11=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+4t-11=0$.",
     "params": {
       "a": "4",
       "k": "1",
@@ -22045,7 +22045,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+6\\cdot6^{x+1}-10=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-36t-10=0$.\nB. $t^2+6t-10=0$.\nC. $t^2+36t-10=0$.\nD. $t^2+36t+10=0$.",
     "dap_an": "C. $t^2+36t-10=0$.",
-    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-10=0 \\Leftrightarrow (6^x)^2+66\\cdot6^x-10=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-10=0$.",
+    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-10=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-10=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-10=0$.",
     "params": {
       "a": "6",
       "k": "6",
@@ -22060,7 +22060,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+2\\cdot5^{x+1}-12=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+10t+12=0$.\nB. $t^2-10t-12=0$.\nC. $t^2+10t-12=0$.\nD. $t^2+2t-12=0$.",
     "dap_an": "C. $t^2+10t-12=0$.",
-    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-12=0 \\Leftrightarrow (5^x)^2+25\\cdot5^x-12=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-12=0$.",
+    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-12=0 \\Leftrightarrow (5^x)^2+10\\cdot5^x-12=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-12=0$.",
     "params": {
       "a": "5",
       "k": "2",
@@ -22075,7 +22075,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+2\\cdot5^{x+1}-4=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+10t-4=0$.\nB. $t^2-10t-4=0$.\nC. $t^2+2t-4=0$.\nD. $t^2+10t+4=0$.",
     "dap_an": "A. $t^2+10t-4=0$.",
-    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-4=0 \\Leftrightarrow (5^x)^2+25\\cdot5^x-4=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-4=0$.",
+    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-4=0 \\Leftrightarrow (5^x)^2+10\\cdot5^x-4=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-4=0$.",
     "params": {
       "a": "5",
       "k": "2",
@@ -22090,7 +22090,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+3\\cdot6^{x+1}-8=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+3t-8=0$.\nB. $t^2-18t-8=0$.\nC. $t^2+18t-8=0$.\nD. $t^2+18t+8=0$.",
     "dap_an": "C. $t^2+18t-8=0$.",
-    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-8=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-8=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-8=0$.",
+    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-8=0 \\Leftrightarrow (6^x)^2+18\\cdot6^x-8=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-8=0$.",
     "params": {
       "a": "6",
       "k": "3",
@@ -22105,7 +22105,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+3\\cdot2^{x+1}-8=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t+8=0$.\nB. $t^2+6t-8=0$.\nC. $t^2+3t-8=0$.\nD. $t^2-6t-8=0$.",
     "dap_an": "B. $t^2+6t-8=0$.",
-    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+32\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-8=0$.",
+    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+6\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-8=0$.",
     "params": {
       "a": "2",
       "k": "3",
@@ -22120,7 +22120,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+1\\cdot5^{x+1}-11=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-5t-11=0$.\nB. $t^2+t-11=0$.\nC. $t^2+5t+11=0$.\nD. $t^2+5t-11=0$.",
     "dap_an": "D. $t^2+5t-11=0$.",
-    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-11=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-11=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-11=0$.",
+    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-11=0 \\Leftrightarrow (5^x)^2+5\\cdot5^x-11=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-11=0$.",
     "params": {
       "a": "5",
       "k": "1",
@@ -22135,7 +22135,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+5\\cdot3^{x+1}-4=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+15t-4=0$.\nB. $t^2+15t+4=0$.\nC. $t^2+5t-4=0$.\nD. $t^2-15t-4=0$.",
     "dap_an": "A. $t^2+15t-4=0$.",
-    "loi_giai": "Ta có $3^{2x}+5\\cdot3^{x+1}-4=0 \\Leftrightarrow (3^x)^2+53\\cdot3^x-4=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+15t-4=0$.",
+    "loi_giai": "Ta có $3^{2x}+5\\cdot3^{x+1}-4=0 \\Leftrightarrow (3^x)^2+15\\cdot3^x-4=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+15t-4=0$.",
     "params": {
       "a": "3",
       "k": "5",
@@ -22150,7 +22150,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-4=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-4=0$.\nB. $t^2+4t+4=0$.\nC. $t^2-4t-4=0$.\nD. $t^2+4t-4=0$.",
     "dap_an": "D. $t^2+4t-4=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-4=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-4=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-4=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-4=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-4=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-4=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22165,7 +22165,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+3\\cdot6^{x+1}-9=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+18t+9=0$.\nB. $t^2+18t-9=0$.\nC. $t^2-18t-9=0$.\nD. $t^2+3t-9=0$.",
     "dap_an": "B. $t^2+18t-9=0$.",
-    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-9=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-9=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-9=0$.",
+    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-9=0 \\Leftrightarrow (6^x)^2+18\\cdot6^x-9=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-9=0$.",
     "params": {
       "a": "6",
       "k": "3",
@@ -22180,7 +22180,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+1\\cdot5^{x+1}-7=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+5t+7=0$.\nB. $t^2+t-7=0$.\nC. $t^2-5t-7=0$.\nD. $t^2+5t-7=0$.",
     "dap_an": "D. $t^2+5t-7=0$.",
-    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-7=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-7=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-7=0$.",
+    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-7=0 \\Leftrightarrow (5^x)^2+5\\cdot5^x-7=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-7=0$.",
     "params": {
       "a": "5",
       "k": "1",
@@ -22195,7 +22195,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+4\\cdot2^{x+1}-10=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+8t+10=0$.\nB. $t^2-8t-10=0$.\nC. $t^2+4t-10=0$.\nD. $t^2+8t-10=0$.",
     "dap_an": "D. $t^2+8t-10=0$.",
-    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-10=0 \\Leftrightarrow (2^x)^2+42\\cdot2^x-10=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-10=0$.",
+    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-10=0 \\Leftrightarrow (2^x)^2+8\\cdot2^x-10=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-10=0$.",
     "params": {
       "a": "2",
       "k": "4",
@@ -22210,7 +22210,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+1\\cdot6^{x+1}-8=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t-8=0$.\nB. $t^2+t-8=0$.\nC. $t^2+6t+8=0$.\nD. $t^2-6t-8=0$.",
     "dap_an": "A. $t^2+6t-8=0$.",
-    "loi_giai": "Ta có $6^{2x}+1\\cdot6^{x+1}-8=0 \\Leftrightarrow (6^x)^2+16\\cdot6^x-8=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+6t-8=0$.",
+    "loi_giai": "Ta có $6^{2x}+1\\cdot6^{x+1}-8=0 \\Leftrightarrow (6^x)^2+6\\cdot6^x-8=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+6t-8=0$.",
     "params": {
       "a": "6",
       "k": "1",
@@ -22225,7 +22225,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+5\\cdot5^{x+1}-4=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+5t-4=0$.\nB. $t^2+25t-4=0$.\nC. $t^2-25t-4=0$.\nD. $t^2+25t+4=0$.",
     "dap_an": "B. $t^2+25t-4=0$.",
-    "loi_giai": "Ta có $5^{2x}+5\\cdot5^{x+1}-4=0 \\Leftrightarrow (5^x)^2+55\\cdot5^x-4=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+25t-4=0$.",
+    "loi_giai": "Ta có $5^{2x}+5\\cdot5^{x+1}-4=0 \\Leftrightarrow (5^x)^2+25\\cdot5^x-4=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+25t-4=0$.",
     "params": {
       "a": "5",
       "k": "5",
@@ -22240,7 +22240,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+5\\cdot3^{x+1}-8=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-15t-8=0$.\nB. $t^2+15t+8=0$.\nC. $t^2+5t-8=0$.\nD. $t^2+15t-8=0$.",
     "dap_an": "D. $t^2+15t-8=0$.",
-    "loi_giai": "Ta có $3^{2x}+5\\cdot3^{x+1}-8=0 \\Leftrightarrow (3^x)^2+53\\cdot3^x-8=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+15t-8=0$.",
+    "loi_giai": "Ta có $3^{2x}+5\\cdot3^{x+1}-8=0 \\Leftrightarrow (3^x)^2+15\\cdot3^x-8=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+15t-8=0$.",
     "params": {
       "a": "3",
       "k": "5",
@@ -22255,7 +22255,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+6\\cdot2^{x+1}-12=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-12t-12=0$.\nB. $t^2+12t+12=0$.\nC. $t^2+12t-12=0$.\nD. $t^2+6t-12=0$.",
     "dap_an": "C. $t^2+12t-12=0$.",
-    "loi_giai": "Ta có $2^{2x}+6\\cdot2^{x+1}-12=0 \\Leftrightarrow (2^x)^2+62\\cdot2^x-12=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+12t-12=0$.",
+    "loi_giai": "Ta có $2^{2x}+6\\cdot2^{x+1}-12=0 \\Leftrightarrow (2^x)^2+12\\cdot2^x-12=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+12t-12=0$.",
     "params": {
       "a": "2",
       "k": "6",
@@ -22270,7 +22270,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+1\\cdot4^{x+1}-12=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+t-12=0$.\nB. $t^2+4t-12=0$.\nC. $t^2+4t+12=0$.\nD. $t^2-4t-12=0$.",
     "dap_an": "B. $t^2+4t-12=0$.",
-    "loi_giai": "Ta có $4^{2x}+1\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+14\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+4t-12=0$.",
+    "loi_giai": "Ta có $4^{2x}+1\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+4\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+4t-12=0$.",
     "params": {
       "a": "4",
       "k": "1",
@@ -22285,7 +22285,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+6\\cdot4^{x+1}-4=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-24t-4=0$.\nB. $t^2+24t+4=0$.\nC. $t^2+6t-4=0$.\nD. $t^2+24t-4=0$.",
     "dap_an": "D. $t^2+24t-4=0$.",
-    "loi_giai": "Ta có $4^{2x}+6\\cdot4^{x+1}-4=0 \\Leftrightarrow (4^x)^2+64\\cdot4^x-4=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+24t-4=0$.",
+    "loi_giai": "Ta có $4^{2x}+6\\cdot4^{x+1}-4=0 \\Leftrightarrow (4^x)^2+24\\cdot4^x-4=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+24t-4=0$.",
     "params": {
       "a": "4",
       "k": "6",
@@ -22300,7 +22300,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+3\\cdot2^{x+1}-5=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-6t-5=0$.\nB. $t^2+3t-5=0$.\nC. $t^2+6t-5=0$.\nD. $t^2+6t+5=0$.",
     "dap_an": "C. $t^2+6t-5=0$.",
-    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-5=0 \\Leftrightarrow (2^x)^2+32\\cdot2^x-5=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-5=0$.",
+    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-5=0 \\Leftrightarrow (2^x)^2+6\\cdot2^x-5=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-5=0$.",
     "params": {
       "a": "2",
       "k": "3",
@@ -22315,7 +22315,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+5\\cdot2^{x+1}-2=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+5t-2=0$.\nB. $t^2-10t-2=0$.\nC. $t^2+10t-2=0$.\nD. $t^2+10t+2=0$.",
     "dap_an": "C. $t^2+10t-2=0$.",
-    "loi_giai": "Ta có $2^{2x}+5\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+52\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+10t-2=0$.",
+    "loi_giai": "Ta có $2^{2x}+5\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+10\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+10t-2=0$.",
     "params": {
       "a": "2",
       "k": "5",
@@ -22330,7 +22330,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+4\\cdot2^{x+1}-5=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+8t+5=0$.\nB. $t^2+4t-5=0$.\nC. $t^2+8t-5=0$.\nD. $t^2-8t-5=0$.",
     "dap_an": "C. $t^2+8t-5=0$.",
-    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-5=0 \\Leftrightarrow (2^x)^2+42\\cdot2^x-5=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-5=0$.",
+    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-5=0 \\Leftrightarrow (2^x)^2+8\\cdot2^x-5=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-5=0$.",
     "params": {
       "a": "2",
       "k": "4",
@@ -22345,7 +22345,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-9=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-4t-9=0$.\nB. $t^2+4t+9=0$.\nC. $t^2+4t-9=0$.\nD. $t^2+2t-9=0$.",
     "dap_an": "C. $t^2+4t-9=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-9=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-9=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-9=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-9=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-9=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-9=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22360,7 +22360,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+6\\cdot3^{x+1}-9=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+18t-9=0$.\nB. $t^2+6t-9=0$.\nC. $t^2+18t+9=0$.\nD. $t^2-18t-9=0$.",
     "dap_an": "A. $t^2+18t-9=0$.",
-    "loi_giai": "Ta có $3^{2x}+6\\cdot3^{x+1}-9=0 \\Leftrightarrow (3^x)^2+63\\cdot3^x-9=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+18t-9=0$.",
+    "loi_giai": "Ta có $3^{2x}+6\\cdot3^{x+1}-9=0 \\Leftrightarrow (3^x)^2+18\\cdot3^x-9=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+18t-9=0$.",
     "params": {
       "a": "3",
       "k": "6",
@@ -22375,7 +22375,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+4\\cdot3^{x+1}-8=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-12t-8=0$.\nB. $t^2+12t+8=0$.\nC. $t^2+4t-8=0$.\nD. $t^2+12t-8=0$.",
     "dap_an": "D. $t^2+12t-8=0$.",
-    "loi_giai": "Ta có $3^{2x}+4\\cdot3^{x+1}-8=0 \\Leftrightarrow (3^x)^2+43\\cdot3^x-8=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+12t-8=0$.",
+    "loi_giai": "Ta có $3^{2x}+4\\cdot3^{x+1}-8=0 \\Leftrightarrow (3^x)^2+12\\cdot3^x-8=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+12t-8=0$.",
     "params": {
       "a": "3",
       "k": "4",
@@ -22390,7 +22390,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+6\\cdot5^{x+1}-3=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+30t+3=0$.\nB. $t^2+30t-3=0$.\nC. $t^2+6t-3=0$.\nD. $t^2-30t-3=0$.",
     "dap_an": "B. $t^2+30t-3=0$.",
-    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-3=0 \\Leftrightarrow (5^x)^2+65\\cdot5^x-3=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-3=0$.",
+    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-3=0 \\Leftrightarrow (5^x)^2+30\\cdot5^x-3=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-3=0$.",
     "params": {
       "a": "5",
       "k": "6",
@@ -22405,7 +22405,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+4\\cdot5^{x+1}-6=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-6=0$.\nB. $t^2-20t-6=0$.\nC. $t^2+20t-6=0$.\nD. $t^2+20t+6=0$.",
     "dap_an": "C. $t^2+20t-6=0$.",
-    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-6=0 \\Leftrightarrow (5^x)^2+45\\cdot5^x-6=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-6=0$.",
+    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-6=0 \\Leftrightarrow (5^x)^2+20\\cdot5^x-6=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-6=0$.",
     "params": {
       "a": "5",
       "k": "4",
@@ -22420,7 +22420,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+4\\cdot4^{x+1}-10=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-16t-10=0$.\nB. $t^2+16t-10=0$.\nC. $t^2+4t-10=0$.\nD. $t^2+16t+10=0$.",
     "dap_an": "B. $t^2+16t-10=0$.",
-    "loi_giai": "Ta có $4^{2x}+4\\cdot4^{x+1}-10=0 \\Leftrightarrow (4^x)^2+44\\cdot4^x-10=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+16t-10=0$.",
+    "loi_giai": "Ta có $4^{2x}+4\\cdot4^{x+1}-10=0 \\Leftrightarrow (4^x)^2+16\\cdot4^x-10=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+16t-10=0$.",
     "params": {
       "a": "4",
       "k": "4",
@@ -22435,7 +22435,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+1\\cdot3^{x+1}-8=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+3t+8=0$.\nB. $t^2+3t-8=0$.\nC. $t^2-3t-8=0$.\nD. $t^2+t-8=0$.",
     "dap_an": "B. $t^2+3t-8=0$.",
-    "loi_giai": "Ta có $3^{2x}+1\\cdot3^{x+1}-8=0 \\Leftrightarrow (3^x)^2+13\\cdot3^x-8=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+3t-8=0$.",
+    "loi_giai": "Ta có $3^{2x}+1\\cdot3^{x+1}-8=0 \\Leftrightarrow (3^x)^2+3\\cdot3^x-8=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+3t-8=0$.",
     "params": {
       "a": "3",
       "k": "1",
@@ -22450,7 +22450,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+2\\cdot5^{x+1}-7=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-7=0$.\nB. $t^2+10t+7=0$.\nC. $t^2-10t-7=0$.\nD. $t^2+10t-7=0$.",
     "dap_an": "D. $t^2+10t-7=0$.",
-    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-7=0 \\Leftrightarrow (5^x)^2+25\\cdot5^x-7=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-7=0$.",
+    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-7=0 \\Leftrightarrow (5^x)^2+10\\cdot5^x-7=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-7=0$.",
     "params": {
       "a": "5",
       "k": "2",
@@ -22465,7 +22465,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-2=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-2=0$.\nB. $t^2+4t+2=0$.\nC. $t^2+4t-2=0$.\nD. $t^2-4t-2=0$.",
     "dap_an": "C. $t^2+4t-2=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-2=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-2=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22480,7 +22480,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+4\\cdot5^{x+1}-2=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+20t+2=0$.\nB. $t^2+20t-2=0$.\nC. $t^2+4t-2=0$.\nD. $t^2-20t-2=0$.",
     "dap_an": "B. $t^2+20t-2=0$.",
-    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-2=0 \\Leftrightarrow (5^x)^2+45\\cdot5^x-2=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-2=0$.",
+    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-2=0 \\Leftrightarrow (5^x)^2+20\\cdot5^x-2=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-2=0$.",
     "params": {
       "a": "5",
       "k": "4",
@@ -22495,7 +22495,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+4\\cdot2^{x+1}-2=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+8t-2=0$.\nB. $t^2+4t-2=0$.\nC. $t^2+8t+2=0$.\nD. $t^2-8t-2=0$.",
     "dap_an": "A. $t^2+8t-2=0$.",
-    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+42\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-2=0$.",
+    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+8\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-2=0$.",
     "params": {
       "a": "2",
       "k": "4",
@@ -22510,7 +22510,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+5\\cdot6^{x+1}-9=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+30t-9=0$.\nB. $t^2-30t-9=0$.\nC. $t^2+30t+9=0$.\nD. $t^2+5t-9=0$.",
     "dap_an": "A. $t^2+30t-9=0$.",
-    "loi_giai": "Ta có $6^{2x}+5\\cdot6^{x+1}-9=0 \\Leftrightarrow (6^x)^2+56\\cdot6^x-9=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+30t-9=0$.",
+    "loi_giai": "Ta có $6^{2x}+5\\cdot6^{x+1}-9=0 \\Leftrightarrow (6^x)^2+30\\cdot6^x-9=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+30t-9=0$.",
     "params": {
       "a": "6",
       "k": "5",
@@ -22525,7 +22525,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+6\\cdot6^{x+1}-4=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-36t-4=0$.\nB. $t^2+36t+4=0$.\nC. $t^2+36t-4=0$.\nD. $t^2+6t-4=0$.",
     "dap_an": "C. $t^2+36t-4=0$.",
-    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-4=0 \\Leftrightarrow (6^x)^2+66\\cdot6^x-4=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-4=0$.",
+    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-4=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-4=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-4=0$.",
     "params": {
       "a": "6",
       "k": "6",
@@ -22540,7 +22540,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+2\\cdot4^{x+1}-12=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-12=0$.\nB. $t^2-8t-12=0$.\nC. $t^2+8t-12=0$.\nD. $t^2+8t+12=0$.",
     "dap_an": "C. $t^2+8t-12=0$.",
-    "loi_giai": "Ta có $4^{2x}+2\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+24\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+8t-12=0$.",
+    "loi_giai": "Ta có $4^{2x}+2\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+8\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+8t-12=0$.",
     "params": {
       "a": "4",
       "k": "2",
@@ -22555,7 +22555,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-3=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-3=0$.\nB. $t^2+4t+3=0$.\nC. $t^2-4t-3=0$.\nD. $t^2+4t-3=0$.",
     "dap_an": "D. $t^2+4t-3=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-3=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-3=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-3=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-3=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-3=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-3=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22570,7 +22570,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+3\\cdot3^{x+1}-3=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-9t-3=0$.\nB. $t^2+9t-3=0$.\nC. $t^2+3t-3=0$.\nD. $t^2+9t+3=0$.",
     "dap_an": "B. $t^2+9t-3=0$.",
-    "loi_giai": "Ta có $3^{2x}+3\\cdot3^{x+1}-3=0 \\Leftrightarrow (3^x)^2+33\\cdot3^x-3=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+9t-3=0$.",
+    "loi_giai": "Ta có $3^{2x}+3\\cdot3^{x+1}-3=0 \\Leftrightarrow (3^x)^2+9\\cdot3^x-3=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+9t-3=0$.",
     "params": {
       "a": "3",
       "k": "3",
@@ -22585,7 +22585,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+5\\cdot2^{x+1}-8=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+10t-8=0$.\nB. $t^2-10t-8=0$.\nC. $t^2+5t-8=0$.\nD. $t^2+10t+8=0$.",
     "dap_an": "A. $t^2+10t-8=0$.",
-    "loi_giai": "Ta có $2^{2x}+5\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+52\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+10t-8=0$.",
+    "loi_giai": "Ta có $2^{2x}+5\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+10\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+10t-8=0$.",
     "params": {
       "a": "2",
       "k": "5",
@@ -22600,7 +22600,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-12=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-12=0$.\nB. $t^2+2t-12=0$.\nC. $t^2-4t-12=0$.\nD. $t^2+4t+12=0$.",
     "dap_an": "A. $t^2+4t-12=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-12=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-12=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-12=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-12=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-12=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-12=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22615,7 +22615,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+6\\cdot4^{x+1}-8=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t-8=0$.\nB. $t^2+24t-8=0$.\nC. $t^2+24t+8=0$.\nD. $t^2-24t-8=0$.",
     "dap_an": "B. $t^2+24t-8=0$.",
-    "loi_giai": "Ta có $4^{2x}+6\\cdot4^{x+1}-8=0 \\Leftrightarrow (4^x)^2+64\\cdot4^x-8=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+24t-8=0$.",
+    "loi_giai": "Ta có $4^{2x}+6\\cdot4^{x+1}-8=0 \\Leftrightarrow (4^x)^2+24\\cdot4^x-8=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+24t-8=0$.",
     "params": {
       "a": "4",
       "k": "6",
@@ -22630,7 +22630,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+5\\cdot2^{x+1}-9=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+10t+9=0$.\nB. $t^2+10t-9=0$.\nC. $t^2-10t-9=0$.\nD. $t^2+5t-9=0$.",
     "dap_an": "B. $t^2+10t-9=0$.",
-    "loi_giai": "Ta có $2^{2x}+5\\cdot2^{x+1}-9=0 \\Leftrightarrow (2^x)^2+52\\cdot2^x-9=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+10t-9=0$.",
+    "loi_giai": "Ta có $2^{2x}+5\\cdot2^{x+1}-9=0 \\Leftrightarrow (2^x)^2+10\\cdot2^x-9=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+10t-9=0$.",
     "params": {
       "a": "2",
       "k": "5",
@@ -22645,7 +22645,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+3\\cdot5^{x+1}-9=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+15t+9=0$.\nB. $t^2-15t-9=0$.\nC. $t^2+3t-9=0$.\nD. $t^2+15t-9=0$.",
     "dap_an": "D. $t^2+15t-9=0$.",
-    "loi_giai": "Ta có $5^{2x}+3\\cdot5^{x+1}-9=0 \\Leftrightarrow (5^x)^2+35\\cdot5^x-9=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+15t-9=0$.",
+    "loi_giai": "Ta có $5^{2x}+3\\cdot5^{x+1}-9=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-9=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+15t-9=0$.",
     "params": {
       "a": "5",
       "k": "3",
@@ -22660,7 +22660,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+4\\cdot6^{x+1}-9=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+24t-9=0$.\nB. $t^2+24t+9=0$.\nC. $t^2+4t-9=0$.\nD. $t^2-24t-9=0$.",
     "dap_an": "A. $t^2+24t-9=0$.",
-    "loi_giai": "Ta có $6^{2x}+4\\cdot6^{x+1}-9=0 \\Leftrightarrow (6^x)^2+46\\cdot6^x-9=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+24t-9=0$.",
+    "loi_giai": "Ta có $6^{2x}+4\\cdot6^{x+1}-9=0 \\Leftrightarrow (6^x)^2+24\\cdot6^x-9=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+24t-9=0$.",
     "params": {
       "a": "6",
       "k": "4",
@@ -22675,7 +22675,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+6\\cdot4^{x+1}-12=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+24t+12=0$.\nB. $t^2+24t-12=0$.\nC. $t^2+6t-12=0$.\nD. $t^2-24t-12=0$.",
     "dap_an": "B. $t^2+24t-12=0$.",
-    "loi_giai": "Ta có $4^{2x}+6\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+64\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+24t-12=0$.",
+    "loi_giai": "Ta có $4^{2x}+6\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+24\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+24t-12=0$.",
     "params": {
       "a": "4",
       "k": "6",
@@ -22690,7 +22690,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+4\\cdot3^{x+1}-7=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+12t+7=0$.\nB. $t^2+4t-7=0$.\nC. $t^2+12t-7=0$.\nD. $t^2-12t-7=0$.",
     "dap_an": "C. $t^2+12t-7=0$.",
-    "loi_giai": "Ta có $3^{2x}+4\\cdot3^{x+1}-7=0 \\Leftrightarrow (3^x)^2+43\\cdot3^x-7=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+12t-7=0$.",
+    "loi_giai": "Ta có $3^{2x}+4\\cdot3^{x+1}-7=0 \\Leftrightarrow (3^x)^2+12\\cdot3^x-7=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+12t-7=0$.",
     "params": {
       "a": "3",
       "k": "4",
@@ -22705,7 +22705,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+6\\cdot3^{x+1}-2=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t-2=0$.\nB. $t^2-18t-2=0$.\nC. $t^2+18t+2=0$.\nD. $t^2+18t-2=0$.",
     "dap_an": "D. $t^2+18t-2=0$.",
-    "loi_giai": "Ta có $3^{2x}+6\\cdot3^{x+1}-2=0 \\Leftrightarrow (3^x)^2+63\\cdot3^x-2=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+18t-2=0$.",
+    "loi_giai": "Ta có $3^{2x}+6\\cdot3^{x+1}-2=0 \\Leftrightarrow (3^x)^2+18\\cdot3^x-2=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+18t-2=0$.",
     "params": {
       "a": "3",
       "k": "6",
@@ -22720,7 +22720,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+4\\cdot3^{x+1}-3=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-12t-3=0$.\nB. $t^2+4t-3=0$.\nC. $t^2+12t+3=0$.\nD. $t^2+12t-3=0$.",
     "dap_an": "D. $t^2+12t-3=0$.",
-    "loi_giai": "Ta có $3^{2x}+4\\cdot3^{x+1}-3=0 \\Leftrightarrow (3^x)^2+43\\cdot3^x-3=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+12t-3=0$.",
+    "loi_giai": "Ta có $3^{2x}+4\\cdot3^{x+1}-3=0 \\Leftrightarrow (3^x)^2+12\\cdot3^x-3=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+12t-3=0$.",
     "params": {
       "a": "3",
       "k": "4",
@@ -22735,7 +22735,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+4\\cdot6^{x+1}-10=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+24t-10=0$.\nB. $t^2+4t-10=0$.\nC. $t^2-24t-10=0$.\nD. $t^2+24t+10=0$.",
     "dap_an": "A. $t^2+24t-10=0$.",
-    "loi_giai": "Ta có $6^{2x}+4\\cdot6^{x+1}-10=0 \\Leftrightarrow (6^x)^2+46\\cdot6^x-10=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+24t-10=0$.",
+    "loi_giai": "Ta có $6^{2x}+4\\cdot6^{x+1}-10=0 \\Leftrightarrow (6^x)^2+24\\cdot6^x-10=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+24t-10=0$.",
     "params": {
       "a": "6",
       "k": "4",
@@ -22750,7 +22750,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+3\\cdot2^{x+1}-2=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t+2=0$.\nB. $t^2+6t-2=0$.\nC. $t^2-6t-2=0$.\nD. $t^2+3t-2=0$.",
     "dap_an": "B. $t^2+6t-2=0$.",
-    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+32\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-2=0$.",
+    "loi_giai": "Ta có $2^{2x}+3\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+6\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+6t-2=0$.",
     "params": {
       "a": "2",
       "k": "3",
@@ -22765,7 +22765,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+3\\cdot6^{x+1}-12=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+18t+12=0$.\nB. $t^2+18t-12=0$.\nC. $t^2+3t-12=0$.\nD. $t^2-18t-12=0$.",
     "dap_an": "B. $t^2+18t-12=0$.",
-    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-12=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-12=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-12=0$.",
+    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-12=0 \\Leftrightarrow (6^x)^2+18\\cdot6^x-12=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-12=0$.",
     "params": {
       "a": "6",
       "k": "3",
@@ -22780,7 +22780,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+2\\cdot5^{x+1}-9=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-9=0$.\nB. $t^2+10t-9=0$.\nC. $t^2-10t-9=0$.\nD. $t^2+10t+9=0$.",
     "dap_an": "B. $t^2+10t-9=0$.",
-    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-9=0 \\Leftrightarrow (5^x)^2+25\\cdot5^x-9=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-9=0$.",
+    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-9=0 \\Leftrightarrow (5^x)^2+10\\cdot5^x-9=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-9=0$.",
     "params": {
       "a": "5",
       "k": "2",
@@ -22795,7 +22795,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+6\\cdot5^{x+1}-11=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-30t-11=0$.\nB. $t^2+30t-11=0$.\nC. $t^2+30t+11=0$.\nD. $t^2+6t-11=0$.",
     "dap_an": "B. $t^2+30t-11=0$.",
-    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-11=0 \\Leftrightarrow (5^x)^2+65\\cdot5^x-11=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-11=0$.",
+    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-11=0 \\Leftrightarrow (5^x)^2+30\\cdot5^x-11=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-11=0$.",
     "params": {
       "a": "5",
       "k": "6",
@@ -22810,7 +22810,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+5\\cdot6^{x+1}-11=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+30t+11=0$.\nB. $t^2-30t-11=0$.\nC. $t^2+30t-11=0$.\nD. $t^2+5t-11=0$.",
     "dap_an": "C. $t^2+30t-11=0$.",
-    "loi_giai": "Ta có $6^{2x}+5\\cdot6^{x+1}-11=0 \\Leftrightarrow (6^x)^2+56\\cdot6^x-11=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+30t-11=0$.",
+    "loi_giai": "Ta có $6^{2x}+5\\cdot6^{x+1}-11=0 \\Leftrightarrow (6^x)^2+30\\cdot6^x-11=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+30t-11=0$.",
     "params": {
       "a": "6",
       "k": "5",
@@ -22825,7 +22825,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+5\\cdot4^{x+1}-12=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-20t-12=0$.\nB. $t^2+5t-12=0$.\nC. $t^2+20t-12=0$.\nD. $t^2+20t+12=0$.",
     "dap_an": "C. $t^2+20t-12=0$.",
-    "loi_giai": "Ta có $4^{2x}+5\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+54\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+20t-12=0$.",
+    "loi_giai": "Ta có $4^{2x}+5\\cdot4^{x+1}-12=0 \\Leftrightarrow (4^x)^2+20\\cdot4^x-12=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+20t-12=0$.",
     "params": {
       "a": "4",
       "k": "5",
@@ -22840,7 +22840,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+1\\cdot5^{x+1}-6=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+t-6=0$.\nB. $t^2-5t-6=0$.\nC. $t^2+5t+6=0$.\nD. $t^2+5t-6=0$.",
     "dap_an": "D. $t^2+5t-6=0$.",
-    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-6=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-6=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-6=0$.",
+    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-6=0 \\Leftrightarrow (5^x)^2+5\\cdot5^x-6=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-6=0$.",
     "params": {
       "a": "5",
       "k": "1",
@@ -22855,7 +22855,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+5\\cdot4^{x+1}-7=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+20t-7=0$.\nB. $t^2-20t-7=0$.\nC. $t^2+5t-7=0$.\nD. $t^2+20t+7=0$.",
     "dap_an": "A. $t^2+20t-7=0$.",
-    "loi_giai": "Ta có $4^{2x}+5\\cdot4^{x+1}-7=0 \\Leftrightarrow (4^x)^2+54\\cdot4^x-7=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+20t-7=0$.",
+    "loi_giai": "Ta có $4^{2x}+5\\cdot4^{x+1}-7=0 \\Leftrightarrow (4^x)^2+20\\cdot4^x-7=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+20t-7=0$.",
     "params": {
       "a": "4",
       "k": "5",
@@ -22870,7 +22870,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+1\\cdot2^{x+1}-2=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+t-2=0$.\nB. $t^2+2t-2=0$.\nC. $t^2+2t+2=0$.\nD. $t^2-2t-2=0$.",
     "dap_an": "B. $t^2+2t-2=0$.",
-    "loi_giai": "Ta có $2^{2x}+1\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+12\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-2=0$.",
+    "loi_giai": "Ta có $2^{2x}+1\\cdot2^{x+1}-2=0 \\Leftrightarrow (2^x)^2+2\\cdot2^x-2=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-2=0$.",
     "params": {
       "a": "2",
       "k": "1",
@@ -22885,7 +22885,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-10=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-10=0$.\nB. $t^2+2t-10=0$.\nC. $t^2+4t+10=0$.\nD. $t^2-4t-10=0$.",
     "dap_an": "A. $t^2+4t-10=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-10=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-10=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-10=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-10=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-10=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-10=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22900,7 +22900,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+1\\cdot6^{x+1}-10=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+6t+10=0$.\nB. $t^2+t-10=0$.\nC. $t^2+6t-10=0$.\nD. $t^2-6t-10=0$.",
     "dap_an": "C. $t^2+6t-10=0$.",
-    "loi_giai": "Ta có $6^{2x}+1\\cdot6^{x+1}-10=0 \\Leftrightarrow (6^x)^2+16\\cdot6^x-10=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+6t-10=0$.",
+    "loi_giai": "Ta có $6^{2x}+1\\cdot6^{x+1}-10=0 \\Leftrightarrow (6^x)^2+6\\cdot6^x-10=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+6t-10=0$.",
     "params": {
       "a": "6",
       "k": "1",
@@ -22915,7 +22915,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-8=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-4t-8=0$.\nB. $t^2+4t+8=0$.\nC. $t^2+4t-8=0$.\nD. $t^2+2t-8=0$.",
     "dap_an": "C. $t^2+4t-8=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-8=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-8=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22930,7 +22930,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+4\\cdot4^{x+1}-11=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-11=0$.\nB. $t^2+16t+11=0$.\nC. $t^2-16t-11=0$.\nD. $t^2+16t-11=0$.",
     "dap_an": "D. $t^2+16t-11=0$.",
-    "loi_giai": "Ta có $4^{2x}+4\\cdot4^{x+1}-11=0 \\Leftrightarrow (4^x)^2+44\\cdot4^x-11=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+16t-11=0$.",
+    "loi_giai": "Ta có $4^{2x}+4\\cdot4^{x+1}-11=0 \\Leftrightarrow (4^x)^2+16\\cdot4^x-11=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+16t-11=0$.",
     "params": {
       "a": "4",
       "k": "4",
@@ -22945,7 +22945,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-6=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-6=0$.\nB. $t^2+2t-6=0$.\nC. $t^2+4t+6=0$.\nD. $t^2-4t-6=0$.",
     "dap_an": "A. $t^2+4t-6=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-6=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-6=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-6=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-6=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-6=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-6=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22960,7 +22960,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+3\\cdot5^{x+1}-6=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+3t-6=0$.\nB. $t^2-15t-6=0$.\nC. $t^2+15t+6=0$.\nD. $t^2+15t-6=0$.",
     "dap_an": "D. $t^2+15t-6=0$.",
-    "loi_giai": "Ta có $5^{2x}+3\\cdot5^{x+1}-6=0 \\Leftrightarrow (5^x)^2+35\\cdot5^x-6=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+15t-6=0$.",
+    "loi_giai": "Ta có $5^{2x}+3\\cdot5^{x+1}-6=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-6=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+15t-6=0$.",
     "params": {
       "a": "5",
       "k": "3",
@@ -22975,7 +22975,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+2\\cdot2^{x+1}-11=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-11=0$.\nB. $t^2+2t-11=0$.\nC. $t^2-4t-11=0$.\nD. $t^2+4t+11=0$.",
     "dap_an": "A. $t^2+4t-11=0$.",
-    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-11=0 \\Leftrightarrow (2^x)^2+22\\cdot2^x-11=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-11=0$.",
+    "loi_giai": "Ta có $2^{2x}+2\\cdot2^{x+1}-11=0 \\Leftrightarrow (2^x)^2+4\\cdot2^x-11=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+4t-11=0$.",
     "params": {
       "a": "2",
       "k": "2",
@@ -22990,7 +22990,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+4\\cdot5^{x+1}-7=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+20t+7=0$.\nB. $t^2-20t-7=0$.\nC. $t^2+20t-7=0$.\nD. $t^2+4t-7=0$.",
     "dap_an": "C. $t^2+20t-7=0$.",
-    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-7=0 \\Leftrightarrow (5^x)^2+45\\cdot5^x-7=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-7=0$.",
+    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-7=0 \\Leftrightarrow (5^x)^2+20\\cdot5^x-7=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-7=0$.",
     "params": {
       "a": "5",
       "k": "4",
@@ -23005,7 +23005,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+1\\cdot5^{x+1}-3=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+5t-3=0$.\nB. $t^2+t-3=0$.\nC. $t^2-5t-3=0$.\nD. $t^2+5t+3=0$.",
     "dap_an": "A. $t^2+5t-3=0$.",
-    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-3=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-3=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-3=0$.",
+    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-3=0 \\Leftrightarrow (5^x)^2+5\\cdot5^x-3=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-3=0$.",
     "params": {
       "a": "5",
       "k": "1",
@@ -23020,7 +23020,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+4\\cdot5^{x+1}-10=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-10=0$.\nB. $t^2+20t-10=0$.\nC. $t^2-20t-10=0$.\nD. $t^2+20t+10=0$.",
     "dap_an": "B. $t^2+20t-10=0$.",
-    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-10=0 \\Leftrightarrow (5^x)^2+45\\cdot5^x-10=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-10=0$.",
+    "loi_giai": "Ta có $5^{2x}+4\\cdot5^{x+1}-10=0 \\Leftrightarrow (5^x)^2+20\\cdot5^x-10=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+20t-10=0$.",
     "params": {
       "a": "5",
       "k": "4",
@@ -23035,7 +23035,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+3\\cdot4^{x+1}-5=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-12t-5=0$.\nB. $t^2+12t+5=0$.\nC. $t^2+12t-5=0$.\nD. $t^2+3t-5=0$.",
     "dap_an": "C. $t^2+12t-5=0$.",
-    "loi_giai": "Ta có $4^{2x}+3\\cdot4^{x+1}-5=0 \\Leftrightarrow (4^x)^2+34\\cdot4^x-5=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+12t-5=0$.",
+    "loi_giai": "Ta có $4^{2x}+3\\cdot4^{x+1}-5=0 \\Leftrightarrow (4^x)^2+12\\cdot4^x-5=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+12t-5=0$.",
     "params": {
       "a": "4",
       "k": "3",
@@ -23050,7 +23050,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $4^{2x}+3\\cdot4^{x+1}-3=0$. Khi đặt $t=4^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-12t-3=0$.\nB. $t^2+3t-3=0$.\nC. $t^2+12t-3=0$.\nD. $t^2+12t+3=0$.",
     "dap_an": "C. $t^2+12t-3=0$.",
-    "loi_giai": "Ta có $4^{2x}+3\\cdot4^{x+1}-3=0 \\Leftrightarrow (4^x)^2+34\\cdot4^x-3=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+12t-3=0$.",
+    "loi_giai": "Ta có $4^{2x}+3\\cdot4^{x+1}-3=0 \\Leftrightarrow (4^x)^2+12\\cdot4^x-3=0$. Đặt $t=4^x$ $(t>0)$, phương trình trở thành $t^2+12t-3=0$.",
     "params": {
       "a": "4",
       "k": "3",
@@ -23065,7 +23065,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+6\\cdot3^{x+1}-5=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+18t-5=0$.\nB. $t^2+6t-5=0$.\nC. $t^2+18t+5=0$.\nD. $t^2-18t-5=0$.",
     "dap_an": "A. $t^2+18t-5=0$.",
-    "loi_giai": "Ta có $3^{2x}+6\\cdot3^{x+1}-5=0 \\Leftrightarrow (3^x)^2+63\\cdot3^x-5=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+18t-5=0$.",
+    "loi_giai": "Ta có $3^{2x}+6\\cdot3^{x+1}-5=0 \\Leftrightarrow (3^x)^2+18\\cdot3^x-5=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+18t-5=0$.",
     "params": {
       "a": "3",
       "k": "6",
@@ -23080,7 +23080,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+1\\cdot2^{x+1}-6=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-6=0$.\nB. $t^2+t-6=0$.\nC. $t^2+2t+6=0$.\nD. $t^2-2t-6=0$.",
     "dap_an": "A. $t^2+2t-6=0$.",
-    "loi_giai": "Ta có $2^{2x}+1\\cdot2^{x+1}-6=0 \\Leftrightarrow (2^x)^2+12\\cdot2^x-6=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-6=0$.",
+    "loi_giai": "Ta có $2^{2x}+1\\cdot2^{x+1}-6=0 \\Leftrightarrow (2^x)^2+2\\cdot2^x-6=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+2t-6=0$.",
     "params": {
       "a": "2",
       "k": "1",
@@ -23095,7 +23095,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+6\\cdot5^{x+1}-2=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+30t+2=0$.\nB. $t^2+30t-2=0$.\nC. $t^2-30t-2=0$.\nD. $t^2+6t-2=0$.",
     "dap_an": "B. $t^2+30t-2=0$.",
-    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-2=0 \\Leftrightarrow (5^x)^2+65\\cdot5^x-2=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-2=0$.",
+    "loi_giai": "Ta có $5^{2x}+6\\cdot5^{x+1}-2=0 \\Leftrightarrow (5^x)^2+30\\cdot5^x-2=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+30t-2=0$.",
     "params": {
       "a": "5",
       "k": "6",
@@ -23110,7 +23110,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+3\\cdot6^{x+1}-4=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+18t+4=0$.\nB. $t^2+18t-4=0$.\nC. $t^2-18t-4=0$.\nD. $t^2+3t-4=0$.",
     "dap_an": "B. $t^2+18t-4=0$.",
-    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-4=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-4=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-4=0$.",
+    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-4=0 \\Leftrightarrow (6^x)^2+18\\cdot6^x-4=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-4=0$.",
     "params": {
       "a": "6",
       "k": "3",
@@ -23125,7 +23125,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $2^{2x}+4\\cdot2^{x+1}-8=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+4t-8=0$.\nB. $t^2-8t-8=0$.\nC. $t^2+8t-8=0$.\nD. $t^2+8t+8=0$.",
     "dap_an": "C. $t^2+8t-8=0$.",
-    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+42\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-8=0$.",
+    "loi_giai": "Ta có $2^{2x}+4\\cdot2^{x+1}-8=0 \\Leftrightarrow (2^x)^2+8\\cdot2^x-8=0$. Đặt $t=2^x$ $(t>0)$, phương trình trở thành $t^2+8t-8=0$.",
     "params": {
       "a": "2",
       "k": "4",
@@ -23140,7 +23140,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $3^{2x}+5\\cdot3^{x+1}-7=0$. Khi đặt $t=3^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-15t-7=0$.\nB. $t^2+15t+7=0$.\nC. $t^2+5t-7=0$.\nD. $t^2+15t-7=0$.",
     "dap_an": "D. $t^2+15t-7=0$.",
-    "loi_giai": "Ta có $3^{2x}+5\\cdot3^{x+1}-7=0 \\Leftrightarrow (3^x)^2+53\\cdot3^x-7=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+15t-7=0$.",
+    "loi_giai": "Ta có $3^{2x}+5\\cdot3^{x+1}-7=0 \\Leftrightarrow (3^x)^2+15\\cdot3^x-7=0$. Đặt $t=3^x$ $(t>0)$, phương trình trở thành $t^2+15t-7=0$.",
     "params": {
       "a": "3",
       "k": "5",
@@ -23155,7 +23155,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+1\\cdot5^{x+1}-8=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-5t-8=0$.\nB. $t^2+5t+8=0$.\nC. $t^2+5t-8=0$.\nD. $t^2+t-8=0$.",
     "dap_an": "C. $t^2+5t-8=0$.",
-    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-8=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-8=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-8=0$.",
+    "loi_giai": "Ta có $5^{2x}+1\\cdot5^{x+1}-8=0 \\Leftrightarrow (5^x)^2+5\\cdot5^x-8=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+5t-8=0$.",
     "params": {
       "a": "5",
       "k": "1",
@@ -23170,7 +23170,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+2\\cdot5^{x+1}-2=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+2t-2=0$.\nB. $t^2+10t+2=0$.\nC. $t^2+10t-2=0$.\nD. $t^2-10t-2=0$.",
     "dap_an": "C. $t^2+10t-2=0$.",
-    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-2=0 \\Leftrightarrow (5^x)^2+25\\cdot5^x-2=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-2=0$.",
+    "loi_giai": "Ta có $5^{2x}+2\\cdot5^{x+1}-2=0 \\Leftrightarrow (5^x)^2+10\\cdot5^x-2=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+10t-2=0$.",
     "params": {
       "a": "5",
       "k": "2",
@@ -23185,7 +23185,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $5^{2x}+3\\cdot5^{x+1}-12=0$. Khi đặt $t=5^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+3t-12=0$.\nB. $t^2+15t-12=0$.\nC. $t^2+15t+12=0$.\nD. $t^2-15t-12=0$.",
     "dap_an": "B. $t^2+15t-12=0$.",
-    "loi_giai": "Ta có $5^{2x}+3\\cdot5^{x+1}-12=0 \\Leftrightarrow (5^x)^2+35\\cdot5^x-12=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+15t-12=0$.",
+    "loi_giai": "Ta có $5^{2x}+3\\cdot5^{x+1}-12=0 \\Leftrightarrow (5^x)^2+15\\cdot5^x-12=0$. Đặt $t=5^x$ $(t>0)$, phương trình trở thành $t^2+15t-12=0$.",
     "params": {
       "a": "5",
       "k": "3",
@@ -23200,7 +23200,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+3\\cdot6^{x+1}-6=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2-18t-6=0$.\nB. $t^2+18t+6=0$.\nC. $t^2+3t-6=0$.\nD. $t^2+18t-6=0$.",
     "dap_an": "D. $t^2+18t-6=0$.",
-    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-6=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-6=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-6=0$.",
+    "loi_giai": "Ta có $6^{2x}+3\\cdot6^{x+1}-6=0 \\Leftrightarrow (6^x)^2+18\\cdot6^x-6=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+18t-6=0$.",
     "params": {
       "a": "6",
       "k": "3",
@@ -23215,7 +23215,7 @@
     "loai_bien_the": "chuan",
     "de_bai": "Cho phương trình $6^{2x}+6\\cdot6^{x+1}-11=0$. Khi đặt $t=6^x$, ta được phương trình nào dưới đây?\n\nA. $t^2+36t+11=0$.\nB. $t^2+36t-11=0$.\nC. $t^2+6t-11=0$.\nD. $t^2-36t-11=0$.",
     "dap_an": "B. $t^2+36t-11=0$.",
-    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-11=0 \\Leftrightarrow (6^x)^2+66\\cdot6^x-11=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-11=0$.",
+    "loi_giai": "Ta có $6^{2x}+6\\cdot6^{x+1}-11=0 \\Leftrightarrow (6^x)^2+36\\cdot6^x-11=0$. Đặt $t=6^x$ $(t>0)$, phương trình trở thành $t^2+36t-11=0$.",
     "params": {
       "a": "6",
       "k": "6",

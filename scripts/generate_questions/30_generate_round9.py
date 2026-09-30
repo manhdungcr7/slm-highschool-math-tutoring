@@ -40,32 +40,42 @@ def gen_D84(U):
         "$g_y'(x)=3+\\dfrac{\\ln(1+xy)}{x^2\\ln27}-"
         "\\dfrac{y}{x(1+xy)\\ln27}>3-\\dfrac1{x^2\\ln27}"
         ">=3-\\dfrac3{\\ln3}>0$, nên $g_y$ đồng biến trên "
-        f"$[1/3;{U}]$. Tại $x={U}$, $g_y(U)=y-"
+        f"$[1/3;{U}]$. Tại $x={U}$, $g_y({U})=y-"
         f"\\dfrac{{\\log_{{27}}(1+{U}y)}}{{{U}}}>0$, vì "
         "$\\ln(1+u)<u$ và $\\ln27>1$. Do đó phương trình có nghiệm "
         f"trong khoảng mở khi và chỉ khi $g_y(1/3)<0$, tức là "
         f"$h(y)=y-\\log_3(1+y/3)<{C-1}$. Hàm $h$ đồng biến với $y\\ge1$ vì $h'(y)=1-1/((y+3)\\ln3)>0$. "
-        f"V? $h$ ??ng bi?n v? $h(4U)>3U-1$, c?c s? nguy?n d??ng "
-        f"th?a m?n l? $y=1,\\ldots,{positive_count}$, g?m "
-        f"${positive_count}$ gi? tr?.\n\n"
-        f"giving ${positive_count}$ values.\n\n"
+        f"Vì $h$ đồng biến và $h(4U)>3U-1$, các số nguyên dương "
+        f"thỏa mãn là $y=1,\\ldots,{positive_count}$, gồm "
+        f"${positive_count}$ giá trị.\n\n"
         "Nếu $y\\le-3$ thì $x>1/3$ kéo theo $1+xy<0$, không thể thỏa mãn. "
         "Với $y=0$, phương trình tương đương $3x(x-U)=0$, chỉ có $x=0$ "
         f"hoặc $x={U}$, đều không thuộc khoảng mở. Với $y=-1$ và $y=-2$, "
         "xét $F_y(x)=27^{3x^2+(y-"
-        f"{C})x}}-(1+xy)$ trên $(1/3,-1/y)$. Tại $x=1/3$, $F_y(x)<0$; "
+        f"{C})x}}-(1+xy)$ trên $(1/3,-1/y)$. Trên khoảng này, "
+        f"$F_y'(x)=27^{{3x^2+(y-{C})x}}\\ln27(6x+y-{C})-y>0$: "
+        f"với $y=-1$, số hạng âm có độ lớn nhỏ hơn "
+        f"$27^{{-{U}}}\\ln27(3U-1)<1$; với $y=-2$, số hạng âm có độ lớn nhỏ hơn "
+        f"$27^{{-{U}-1/3}}\\ln27(3U)<2$. Do đó $F_y$ đồng biến. "
+        f"Tại $x=1/3$, $F_y(x)<0$; "
         "khi $x$ tiến đến $-1/y$ từ bên trái, $F_y(x)$ tiến đến một giá trị "
         "dương. Theo định lý giá trị trung gian, mỗi giá trị $y=-1,-2$ đều "
-        f"cho một nghiệm. Tổng cộng có $${count}$ giá trị nguyên của $y$."
+        f"cho một nghiệm. Tổng cộng có ${count}$ giá trị nguyên của $y$."
     )
     return question, answer, solution, {"U": U, "C": C, "count": count}
 
 
-def verify_D84(params):
+def verify_D84(params, observed_count=None):
     """Enumerate endpoint sign conditions at high precision, by direct high-precision endpoint enumeration."""
     mp.mp.dps = 80
     U, C, expected = (int(params[k]) for k in ("U", "C", "count"))
     if C != 3 * U or not (3 <= U <= 93 and U != 4):
+        return False
+    if observed_count is not None and expected != observed_count:
+        return False
+    if not (mp.power(27, -U) * mp.log(27) * (3*U - 1) < 1):
+        return False
+    if not (mp.power(27, -U-mp.mpf(1)/3) * mp.log(27) * 3*U < 2):
         return False
     left = mp.mpf(1) / 3
     log27 = mp.log(27)
