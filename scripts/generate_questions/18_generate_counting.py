@@ -62,7 +62,7 @@ def gen_D25(p, M):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Điều kiện $x>-{p}, x\\ne0$. $\\log(mx)=2\\log(x+{p})\\Leftrightarrow mx=(x+{p})^2 "
+        f"Điều kiện $mx>0, x>-{p}, x\\ne0$. $\\log(mx)=2\\log(x+{p})\\Leftrightarrow mx=(x+{p})^2 "
         f"\\Leftrightarrow m=\\dfrac{{(x+{p})^2}}{{x}}=f(x)$.\n"
         f"$f'(x)=\\dfrac{{x^2-{p**2}}}{{x^2}}=0\\Leftrightarrow x=\\pm{p}$ (chỉ nhận $x={p}$ do điều kiện). "
         f"$f({p})={threshold}$, $f\\to-\\infty$ khi $x\\to-{p}^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\n"

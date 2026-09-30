@@ -28,17 +28,17 @@ def add_row(ma_dang, ten_dang, id_goc, de_bai, dap_an, loi_giai, params):
 # ===================== D49: log_c(a/k) = log_c a - log_c k ==================
 def gen_D49(c, k):
     c, k = sp.Integer(c), sp.Integer(k)
-    logk = sp.log(k, c)
-    is_clean = logk.is_Integer
-    logk_str = str(logk) if is_clean else latex(logk)
-    correct = f"\\log_{{{c}}} a-{logk_str}"
-    wrong1 = f"\\log_{{{c}}} a+{logk_str}"
-    wrong2 = f"{logk_str}-\\log_{{{c}}} a"
+    # Preserve readable change-of-base notation; SymPy can expand some
+    # integer logarithms into unwieldy products of radicals.
+    logk_str = f"\\dfrac{{\\log({k})}}{{\\log({c})}}"
+    correct = f"\\log_{{{c}}} a-\\left({logk_str}\\right)"
+    wrong1 = f"\\log_{{{c}}} a+\\left({logk_str}\\right)"
+    wrong2 = f"\\left({logk_str}\\right)-\\log_{{{c}}} a"
     wrong3 = f"\\log_{{{c}}} a-{k}"
     de_bai = f"Với mọi số thực $a$ dương, $\\log_{{{c}}}\\dfrac{{a}}{{{k}}}$ bằng\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
-    loi_giai = f"Ta có $\\log_{{{c}}}\\dfrac{{a}}{{{k}}}=\\log_{{{c}}} a-\\log_{{{c}}}{k}=\\log_{{{c}}} a-{logk_str}$."
+    loi_giai = f"Ta có $\\log_{{{c}}}\\dfrac{{a}}{{{k}}}=\\log_{{{c}}} a-\\log_{{{c}}}{k}=\\log_{{{c}}} a-\\left({logk_str}\\right)$."
     return de_bai, dap_an, loi_giai, dict(c=str(c), k=str(k))
 
 

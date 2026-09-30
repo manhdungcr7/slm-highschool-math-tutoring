@@ -662,14 +662,20 @@ def verify_D62(params):
 # ===================== D63: log_a^2 x - m log_a x + (km - C) = 0, x1x2 = N ==
 def gen_D63(a, k_coef, C, N_exp):
     a, k_coef, C, N_exp = (sp.Integer(v) for v in (a, k_coef, C, N_exp))
-    m = a ** N_exp  # log_a(N) voi N=a^N_exp => m = N_exp thuc te, dung truc tiep
     m = N_exp
     disc = m ** 2 - 4 * (k_coef * m - C)
     assert disc > 0
     N = a ** N_exp
+    if k_coef == 0:
+        coeff_term = ""
+    elif k_coef > 0:
+        coeff_term = f"+{'' if k_coef == 1 else k_coef}m"
+    else:
+        coeff_term = f"{k_coef}m"
+    poly = f"t^2-mt{coeff_term}-{C}=0"
     de_bai = (
-        f"Tìm giá trị thực của tham số $m$ để phương trình "
-        f"$\\log_{{{a}}}^2 x-m\\log_{{{a}}} x+{('' if k_coef == 1 else str(k_coef))}m-{C}=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2={N}$.\n\n"
+        f"T\u00ecm gi\u00e1 tr\u1ecb th\u1ef1c c\u1ee7a tham s\u1ed1 $m$ \u0111\u1ec3 ph\u01b0\u01a1ng tr\u00ecnh "
+        f"$\\log_{{{a}}}^2 x-m\\log_{{{a}}} x{coeff_term}-{C}=0$ c\u00f3 hai nghi\u1ec7m th\u1ef1c $x_1,x_2$ th\u1ecfa m\u00e3n $x_1x_2={N}$.\n\n"
     )
     correct = str(m)
     wrong1 = str(-m)
@@ -681,7 +687,7 @@ def gen_D63(a, k_coef, C, N_exp):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"ĐK $x>0$. $x_1x_2={N}\\Leftrightarrow \\log_{{{a}}}x_1+\\log_{{{a}}}x_2={N_exp}\\Leftrightarrow t_1+t_2={N_exp}$.\n"
-        f"Đặt $t=\\log_{{{a}}}x$: $t^2-mt+{("" if k_coef == 1 else str(k_coef))}m-{C}=0$. YCBT $\\Leftrightarrow \\Delta>0$ và $m={N_exp}\\Leftrightarrow m={m}$."
+        f"\u0110\u1eb7t $t=\\log_{{{a}}}x$: ${poly}$. Theo Vi\u00e8te, $t_1+t_2=m$, n\u00ean \u0111i\u1ec1u ki\u1ec7n t\u00edch nghi\u1ec7m bu\u1ed9c $m={N_exp}$. Thay v\u00e0o, $\\Delta={latex(disc)}>0$, do \u0111\u00f3 ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 hai nghi\u1ec7m th\u1ef1c ph\u00e2n bi\u1ec7t. V\u1eady $m={m}."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), k_coef=str(k_coef), C=str(C), N_exp=str(N_exp))
 
