@@ -5,9 +5,12 @@ Each generator computes the answer and then verifies it independently with a
 different method. A repository-wide scan also checks that every generated
 question has exactly four distinct answer choices labeled A-D.
 
-**Current coverage: all 91 retained problem types, with 90 variants per type**
-(8,190 generated variants; 110 retained source questions + 8,190 variants =
-8,300 rows in the combined CSV/XLSX). D09 and D11 are excluded because they
+**Current coverage: all 91 retained problem types**
+(8,187 generated variants; 110 retained source questions + 8,187 variants =
+8,297 rows in the combined CSV/XLSX). 88 types have 90 variants each; D02, D43
+and D80 have 89 because their domain excludes the one parameter value that
+would exactly reproduce the source question, leaving only 89 valid
+candidates. D09 and D11 are excluded because they
 have no numeric inputs to vary. Type grouping requires the same given-data
 form, requested task, and solution method. A manual audit split D36 into
 proposition selection (D36a) and direct evaluation (D36b), and split D50 into

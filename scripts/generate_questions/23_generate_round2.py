@@ -245,7 +245,7 @@ def gen_D40(a, b_coef, p, q=None):
         f" $\\Leftrightarrow (t-1)(t-(m{shift:+d}))=0$. "
         f"Điều kiện $x\\in[1;{a}]$ tương đương $t\\in[0;1]$. "
         f"Hai nghiệm phân biệt thuộc $[0;1]$ khi và chỉ khi $m{shift:+d}\\in[0;1)$, "
-        f"suy ra $m\\in{correct}."
+        f"suy ra $m\\in{correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), p=str(p), q=str(q), lo=str(lo), hi=str(hi), r_fixed=str(r_fixed))
 

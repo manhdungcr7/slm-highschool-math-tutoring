@@ -55,11 +55,13 @@ included in this repository.
   numeric substitution for identities, or brute-force integer enumeration
   for counting problems), and a repo-wide scan rejects any question whose
   four answer choices are not all distinct after rendering.
-  **Coverage: all 91 retained problem types, with 90 variants per type**
-  (8,190 variants total). D43 uses additional exact rational thresholds in the
-  same inequality. D51 uses additional coefficients selected so the quadratic
-  factors at integer powers of 2; the original inequality was checked by direct
-  enumeration for each generated variant.
+  **Coverage: all 91 retained problem types** (8,187 variants total). 88
+  types have 90 variants each; D02, D43 and D80 have 89 because excluding the
+  one parameter value that would exactly reproduce the source question leaves
+  only 89 valid candidates in their domain. D43 uses additional exact
+  rational thresholds in the same inequality. D51 uses additional coefficients
+  selected so the quadratic factors at integer powers of 2; the original
+  inequality was checked by direct enumeration for each generated variant.
   D09 and D11 are excluded because they are symbolic questions without numbers
   to vary. Each type's variants are checked with a method independent of the
   generation formula, and global scans reject repeated question statements
@@ -70,7 +72,7 @@ included in this repository.
   re-scanned afterward and confirmed clean. See the generator README for
   details.
 - `Mu_Logarit_bien_the_full.csv` / `.xlsx`: the 110 retained source questions plus
-  8,190 generated variants combined into one file (8,300 rows), produced
+  8,187 generated variants combined into one file (8,297 rows), produced
   by `22_export_all.py`.
 
 ## `results/qwen3_4b_zeroshot/`

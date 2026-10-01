@@ -137,10 +137,12 @@ TEN_D50B = "Dùng tổng hai lôgarit để suy ra quan hệ giữa hai biến"
 
 def gen_D50a(c, m, n):
     c, m, n = sp.Integer(c), sp.Integer(m), sp.Integer(n)
-    correct = f"a={c**n}b^{{{m}}}"
+    cn = c ** n
+    cn_disp = "" if cn == 1 else str(cn)
+    correct = f"a={cn_disp}b^{{{m}}}"
     wrong1 = f"a={m}b+{n}"
-    wrong2 = f"a={m}b+{c**n}"
-    wrong3 = f"a=\\dfrac{{{c**n}}}{{b^{{{m}}}}}"
+    wrong2 = f"a={m}b+{cn}"
+    wrong3 = f"a=\\dfrac{{{cn}}}{{b^{{{m}}}}}"
     de_bai = (
         f"Với mọi $a,b$ thỏa mãn $\\log_{{{c}}} a-{m}\\log_{{{c}}} b={n}$, khẳng định nào dưới đây đúng?\n\n"
     )
@@ -228,6 +230,7 @@ TEN_D72 = "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgar
 
 def gen_D72(c, p, q, r):
     c, p, q, r = (sp.Integer(v) for v in (c, p, q, r))
+    assert p != 0 and q != 0, "p=0 hoac q=0 lam bien a hoac b bien mat khoi de"
     N = c ** r
     vals = utils.bump_until_distinct([r, N, p + q, r * 2])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
@@ -314,14 +317,16 @@ def gen_D87(c, s, u, p):
     km = "" if c**u == 1 else f"{c**u}"
     premise_sum = f"{s}+\\log_{{{c}}}a" if s != 0 else f"\\log_{{{c}}}a"
     target_sum = f"{u}+{p}\\log_{{{c}}}a" if u != 0 else f"{p}\\log_{{{c}}}a"
-    target_substitution = f"{u}+{p}(b-{s})" if u != 0 else f"{p}(b-{s})"
+    b_minus_s_paren = "b" if s == 0 else f"(b-{s})"
+    target_substitution = f"{u}+{p}{b_minus_s_paren}" if u != 0 else f"{p}{b_minus_s_paren}"
     de_bai = (
         f"Với $a>0$, đặt $\\log_{{{c}}}({ka}a)=b$, khi đó $\\log_{{{c}}}({km}a^{{{p}}})$ bằng\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
+    b_minus_s = "b" if s == 0 else f"b-{s}"
     loi_giai = (
-        f"$\\log_{{{c}}}({ka}a)=b\\Leftrightarrow {premise_sum}=b\\Leftrightarrow\\log_{{{c}}}a=b-{s}$.\n"
+        f"$\\log_{{{c}}}({ka}a)=b\\Leftrightarrow {premise_sum}=b\\Leftrightarrow\\log_{{{c}}}a={b_minus_s}$.\n"
         f"$\\log_{{{c}}}({km}a^{{{p}}})={target_sum}={target_substitution}={correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(c=str(c), s=str(s), u=str(u), p=str(p))

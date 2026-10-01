@@ -65,7 +65,7 @@ def try_add(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, args_list):
     cardinalities = [hi - lo + 1 if len(d) == 2 and all(isinstance(v, int) for v in d) else len(d)
                      for d in domains for lo, hi in ([d] if len(d) == 2 and all(isinstance(v, int) for v in d) else [(0, 0)])]
     combination_count = math.prod(cardinalities)
-    max_tries = min(2000, max(100, combination_count * 20))
+    max_tries = min(6000, max(100, combination_count * 40))
     tries = 0
     seen_args = set()
     while len(existing) < target and tries < max_tries:
@@ -272,12 +272,19 @@ def verify_D21(params):
 
 
 # ===================== D27: a^(m1 x+c1) < a^(m2 x+c2) =======================
+def _linear_term(m, c):
+    if m == 0:
+        return str(c)
+    mx = "x" if m == 1 else ("-x" if m == -1 else f"{m}x")
+    return mx + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else ""))
+
+
 def gen_D27(a, m1, c1, m2, c2):
     a, m1, c1, m2, c2 = (sp.Integer(v) for v in (a, m1, c1, m2, c2))
     assert m1 != m2
     boundary = sp.Rational(c2 - c1, m1 - m2)
-    lhs = f"{m1}x" + (f"+{c1}" if c1 > 0 else (f"{c1}" if c1 < 0 else ""))
-    rhs = f"{m2}x" + (f"+{c2}" if c2 > 0 else (f"{c2}" if c2 < 0 else ""))
+    lhs = _linear_term(m1, c1)
+    rhs = _linear_term(m2, c2)
     de_bai = f"Tập nghiệm của bất phương trình ${a}^{{{lhs}}} < {a}^{{{rhs}}}$ là\n\n"
     if m1 > m2:
         correct = f"(-\\infty;{latex(boundary)})"
@@ -434,7 +441,7 @@ def gen_D38(a, m, c, bcoef, d):
     a, m, c, bcoef, d = (sp.Integer(v) for v in (a, m, c, bcoef, d))
     sol = sp.solve_univariate_inequality(m * x + c >= x ** 2 + bcoef * x + d, x, relational=False)
     assert isinstance(sol, sp.Interval) and sol.start.is_real and sol.end.is_real
-    lhs = f"{m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else ""))
+    lhs = _linear_term(m, c)
     poly_str = latex(sp.expand(x ** 2 + bcoef * x + d))
     correct = f"[{latex(sol.start)};{latex(sol.end)}]"
     wrong1 = f"[{latex(sol.start-1)};{latex(sol.end+1)}]"
@@ -712,7 +719,9 @@ def gen_D71(a, p, q):
     sols = sp.solve(sp.Eq(x + p, a * (x + q)), x)
     assert len(sols) == 1 and sols[0] > max(-p, -q) and sols[0] != 0
     sol = sols[0]
-    de_bai = f"Nghiệm của phương trình $\\log_{{{a}}}(x{int(p):+d})=1+\\log_{{{a}}}(x{int(q):+d})$ là\n\n"
+    p_str = "x" if p == 0 else f"x{int(p):+d}"
+    q_str = "x" if q == 0 else f"x{int(q):+d}"
+    de_bai = f"Nghiệm của phương trình $\\log_{{{a}}}({p_str})=1+\\log_{{{a}}}({q_str})$ là\n\n"
     assert len({sol, -sol, sol - 1, sol + 1}) == 4
     correct = f"x={latex(sol)}"
     wrong1 = f"x={latex(-sol)}"
@@ -721,7 +730,7 @@ def gen_D71(a, p, q):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Điều kiện $x>{max(-p,-q)}$. $\\log_{{{a}}}(x{int(p):+d})=1+\\log_{{{a}}}(x{int(q):+d})\\Leftrightarrow x{int(p):+d}={a}(x{int(q):+d})"
+        f"Điều kiện $x>{max(-p,-q)}$. $\\log_{{{a}}}({p_str})=1+\\log_{{{a}}}({q_str})\\Leftrightarrow {p_str}={a}({q_str})"
         f"\\Leftrightarrow x={latex(sol)}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), p=str(p), q=str(q))

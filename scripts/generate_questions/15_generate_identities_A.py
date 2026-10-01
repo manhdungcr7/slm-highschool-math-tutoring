@@ -374,6 +374,16 @@ GENERATORS = {
 TEN_DANG_OVERRIDE = {
     "D36a": "Nhận biết mệnh đề đúng về lôgarit của lũy thừa",
     "D36b": "Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước",
+    "D06": "Nhận biết công thức đổi cơ số lôgarit",
+    "D13": "Rút gọn biểu thức lôgarit chứa tích, thương và lũy thừa",
+    "D30": "Rút gọn biểu thức lôgarit của một tích chứa lũy thừa",
+    "D54": "Rút gọn hiệu hai lôgarit tự nhiên cùng cơ số",
+    "D59": "Tính giá trị lôgarit có cơ số là căn bậc hai của biến",
+    "D60": "Rút gọn tổng nhiều lôgarit cùng biến bằng đổi cơ số",
+    "D66": "Tách lôgarit của một tích chứa hằng số thành tổng hai lôgarit",
+    "D76": "Nhận biết công thức đổi cơ số lôgarit dạng log_{a^n} b",
+    "D81": "Tính giá trị lôgarit của căn bậc ba của chính cơ số",
+    "D90": "Rút gọn biểu thức lôgarit có hệ số nhân với lôgarit của căn bậc hai",
 }
 
 
@@ -462,7 +472,8 @@ def main():
         "D90": lambda r: (r.randint(1, 100), r.randint(2, 60)),
     }
     for code, (gen_fn, verify_fn, ids, _) in GENERATORS.items():
-        expand_type(code, gen_fn, verify_fn, samplers[code], seed=int(code[1:])*97+15)
+        code_num = int("".join(ch for ch in code[1:] if ch.isdigit()))
+        expand_type(code, gen_fn, verify_fn, samplers[code], seed=code_num*97+15)
 
     with open("data/questions/mu_logarit_extraction/bien_the/batch_identities_A.json", "w", encoding="utf-8") as f:
         json.dump(ROWS, f, ensure_ascii=False, indent=2)

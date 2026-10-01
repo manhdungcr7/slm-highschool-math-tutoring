@@ -161,7 +161,7 @@ def gen_D94(N, c1, c2):
         f"$({linear_expr})^2\\le({c1**2+c2**2})(x^2+y^2)\\le({c1**2+c2**2})\\cdot{N}={bound**2}$, "
         f"suy ra $P\\le{N}+{bound}={Pmax}$. D\u1ea5u b\u1eb1ng x\u1ea3y ra khi "
         f"$(x,y)=({sp.latex(x_star)},{sp.latex(y_star)})$, khi \u0111\u00f3 "
-        f"$x^2+y^2={N}$ v\u00e0 $c_1x+c_2y={bound}$. V\u1eady $P_{{\\max}}={Pmax}$."
+        f"$x^2+y^2={N}$ v\u00e0 ${linear_expr}={bound}$. V\u1eady $P_{{\\max}}={Pmax}$."
     )
     return de_bai, dap_an, loi_giai, dict(N=str(N), c1=str(c1), c2=str(c2))
 
