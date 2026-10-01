@@ -135,13 +135,19 @@ def gen_D94(N, c1, c2):
     assert bound == sp.floor(bound) and bound > 0
     bound = sp.Integer(bound)
     Pmax = N + bound
+    x_star = sp.simplify(c1 * sp.sqrt(N) / sp.sqrt(c1 ** 2 + c2 ** 2))
+    y_star = sp.simplify(c2 * sp.sqrt(N) / sp.sqrt(c1 ** 2 + c2 ** 2))
+    x_term = ("" if c1 == 1 else "-" if c1 == -1 else str(c1)) + "x"
+    y_magnitude = "y" if abs(c2) == 1 else f"{abs(c2)}y"
+    linear_expr = f"{x_term} {'+' if c2 > 0 else '-'} {y_magnitude}"
     correct = str(Pmax)
     wrong1, wrong2, wrong3 = str(N), str(2 * N), str(Pmax - 2 * bound)
     vals = bump_until_distinct([Pmax, N, 2 * N, Pmax - 2 * bound])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
-    c1_disp = "" if c1 == 1 else str(c1)
+    c1_disp = "" if abs(c1) == 1 else str(abs(c1))
     c2_disp = "" if abs(c2) == 1 else str(abs(c2))
-    c2_str = f"+{c1_disp}x" + (f"+{c2_disp}y" if c2 > 0 else f"-{c2_disp}y")
+    c2_str = (f"+{c1_disp}x" if c1 > 0 else f"-{c1_disp}x")
+    c2_str += f"+{c2_disp}y" if c2 > 0 else f"-{c2_disp}y"
     de_bai = (
         f"Xét tất cả các số thực $x, y$ sao cho $a^{{4x-\\log_5(a^2)}}\\le 25^{{{N}-y^2}}$ với mọi số thực "
         f"dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2{c2_str}$ bằng\n\n"
@@ -152,9 +158,10 @@ def gen_D94(N, c1, c2):
         f"\u0110\u1eb7t $t=\\log_5 a$. L\u1ea5y l\u00f4garit c\u01a1 s\u1ed1 5 hai v\u1ebf, ta \u0111\u01b0\u1ee3c "
         f"$4xt-2t^2\\le2({N}-y^2)$ v\u1edbi m\u1ecdi $t$. V\u1ebf tr\u00e1i \u0111\u1ea1t gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t $2x^2$ t\u1ea1i $t=x$, "
         f"n\u00ean \u0111i\u1ec1u ki\u1ec7n t\u01b0\u01a1ng \u0111\u01b0\u01a1ng $x^2+y^2\\le{N}$. Theo Bunhiac\u00f4pxki, "
-        f"$({c1}x{'+' if c2>0 else ''}{c2}y)^2\\le({c1**2+c2**2})(x^2+y^2)\\le({c1**2+c2**2})\\cdot{N}={bound**2}$, "
-        f"suy ra $P\\le{N}+{bound}={Pmax}$. D\u1ea5u b\u1eb1ng \u0111\u1ea1t t\u1ea1i "
-        f"D\u1ea5u b\u1eb1ng \u0111\u1ea1t t\u1ea1i \u0111i\u1ec3m tr\u00ean \u0111\u01b0\u1eddng tr\u00f2n $x^2+y^2={N}$ c\u00f9ng h\u01b0\u1edbng v\u1edbi $({c1},{c2})$. V\u1eady $P_{{\\max}}={Pmax}$."
+        f"$({linear_expr})^2\\le({c1**2+c2**2})(x^2+y^2)\\le({c1**2+c2**2})\\cdot{N}={bound**2}$, "
+        f"suy ra $P\\le{N}+{bound}={Pmax}$. D\u1ea5u b\u1eb1ng x\u1ea3y ra khi "
+        f"$(x,y)=({sp.latex(x_star)},{sp.latex(y_star)})$, khi \u0111\u00f3 "
+        f"$x^2+y^2={N}$ v\u00e0 $c_1x+c_2y={bound}$. V\u1eady $P_{{\\max}}={Pmax}$."
     )
     return de_bai, dap_an, loi_giai, dict(N=str(N), c1=str(c1), c2=str(c2))
 

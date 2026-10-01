@@ -310,16 +310,19 @@ def gen_D87(c, s, u, p):
     wrong1 = _coef_const_str(coef, const + 2)
     wrong2 = _coef_const_str(coef * 2, const)
     wrong3 = _coef_const_str(coef, alt_const)
-    ka = f"{c**s}" if s != 1 else f"{c}"
-    km = f"{c**u}" if u != 1 else f"{c}"
+    ka = "" if c**s == 1 else f"{c**s}"
+    km = "" if c**u == 1 else f"{c**u}"
+    premise_sum = f"{s}+\\log_{{{c}}}a" if s != 0 else f"\\log_{{{c}}}a"
+    target_sum = f"{u}+{p}\\log_{{{c}}}a" if u != 0 else f"{p}\\log_{{{c}}}a"
+    target_substitution = f"{u}+{p}(b-{s})" if u != 0 else f"{p}(b-{s})"
     de_bai = (
         f"Với $a>0$, đặt $\\log_{{{c}}}({ka}a)=b$, khi đó $\\log_{{{c}}}({km}a^{{{p}}})$ bằng\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"$\\log_{{{c}}}({ka}a)=b\\Leftrightarrow {s}+\\log_{{{c}}}a=b\\Leftrightarrow\\log_{{{c}}}a=b-{s}$.\n"
-        f"$\\log_{{{c}}}({km}a^{{{p}}})={u}+{p}\\log_{{{c}}}a={u}+{p}(b-{s})={correct}$."
+        f"$\\log_{{{c}}}({ka}a)=b\\Leftrightarrow {premise_sum}=b\\Leftrightarrow\\log_{{{c}}}a=b-{s}$.\n"
+        f"$\\log_{{{c}}}({km}a^{{{p}}})={target_sum}={target_substitution}={correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(c=str(c), s=str(s), u=str(u), p=str(p))
 

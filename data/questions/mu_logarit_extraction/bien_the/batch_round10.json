@@ -5,6 +5,19 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge 1$ là\n\nA. $(10;+\\infty)$.\nB. $[10;+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;10)$.",
+    "dap_an": "B. $[10;+\\infty)$.",
+    "loi_giai": "$\\log x\\ge 1\\Leftrightarrow x\\ge 10$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10;+\\infty)$.",
+    "params": {
+      "k": "1"
+    }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
     "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{19}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{10000000000})$.",
     "dap_an": "B. $[\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{19}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10000000000};+\\infty)$.",
@@ -18,8 +31,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{17}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{1000000000})$.",
-    "dap_an": "B. $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{17}{2}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt{10}}{1000000000})$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.\nD. $(\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{17}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{1000000000};+\\infty)$.",
     "params": {
       "k": "-17/2"
@@ -31,7 +44,7 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{15}{2}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt{10}}{100000000})$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.\nD. $(\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{15}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{100000000})$.\nC. $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.\nD. $(\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
     "dap_an": "C. $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{15}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{100000000};+\\infty)$.",
     "params": {
@@ -44,8 +57,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{13}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{10000000})$.\nC. $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.\nD. $(\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.",
-    "dap_an": "C. $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{13}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{10000000})$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{13}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10000000};+\\infty)$.",
     "params": {
       "k": "-13/2"
@@ -57,8 +70,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{11}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{1000000})$.",
-    "dap_an": "B. $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{11}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{1000000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{11}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{1000000};+\\infty)$.",
     "params": {
       "k": "-11/2"
@@ -70,8 +83,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{9}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{100000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{100000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{9}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt{10}}{100000})$.\nD. $(\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{9}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{100000};+\\infty)$.",
     "params": {
       "k": "-9/2"
@@ -83,8 +96,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{7}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt{10}}{10000})$.\nD. $(\\dfrac{\\sqrt{10}}{10000};+\\infty)$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{7}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{10000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{10000})$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{7}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10000};+\\infty)$.",
     "params": {
       "k": "-7/2"
@@ -96,8 +109,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{5}{2}$ là\n\nA. $(\\dfrac{\\sqrt{10}}{1000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{1000})$.",
-    "dap_an": "C. $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{5}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{1000})$.\nC. $(\\dfrac{\\sqrt{10}}{1000};+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{5}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{1000};+\\infty)$.",
     "params": {
       "k": "-5/2"
@@ -109,8 +122,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{3}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt{10}}{100})$.\nC. $(\\dfrac{\\sqrt{10}}{100};+\\infty)$.\nD. $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{3}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{100};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{100})$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{3}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{100};+\\infty)$.",
     "params": {
       "k": "-3/2"
@@ -122,8 +135,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{1}{2}$ là\n\nA. $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt{10}}{10};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt{10}}{10})$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{1}{2}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt{10}}{10})$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.\nD. $(\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{1}{2}\\Leftrightarrow x\\ge \\dfrac{\\sqrt{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt{10}}{10};+\\infty)$.",
     "params": {
       "k": "-1/2"
@@ -135,8 +148,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{2}$ là\n\nA. $(-\\infty;\\sqrt{10})$.\nB. $(0;+\\infty)$.\nC. $[\\sqrt{10};+\\infty)$.\nD. $(\\sqrt{10};+\\infty)$.",
-    "dap_an": "C. $[\\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{2}$ là\n\nA. $(-\\infty;\\sqrt{10})$.\nB. $(0;+\\infty)$.\nC. $(\\sqrt{10};+\\infty)$.\nD. $[\\sqrt{10};+\\infty)$.",
+    "dap_an": "D. $[\\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{1}{2}\\Leftrightarrow x\\ge \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\sqrt{10};+\\infty)$.",
     "params": {
       "k": "1/2"
@@ -148,8 +161,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{3}{2}$ là\n\nA. $(-\\infty;10 \\sqrt{10})$.\nB. $(0;+\\infty)$.\nC. $(10 \\sqrt{10};+\\infty)$.\nD. $[10 \\sqrt{10};+\\infty)$.",
-    "dap_an": "D. $[10 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{3}{2}$ là\n\nA. $[10 \\sqrt{10};+\\infty)$.\nB. $(-\\infty;10 \\sqrt{10})$.\nC. $(0;+\\infty)$.\nD. $(10 \\sqrt{10};+\\infty)$.",
+    "dap_an": "A. $[10 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{3}{2}\\Leftrightarrow x\\ge 10 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "3/2"
@@ -161,8 +174,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{5}{2}$ là\n\nA. $[100 \\sqrt{10};+\\infty)$.\nB. $(-\\infty;100 \\sqrt{10})$.\nC. $(0;+\\infty)$.\nD. $(100 \\sqrt{10};+\\infty)$.",
-    "dap_an": "A. $[100 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{5}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $[100 \\sqrt{10};+\\infty)$.\nC. $(-\\infty;100 \\sqrt{10})$.\nD. $(100 \\sqrt{10};+\\infty)$.",
+    "dap_an": "B. $[100 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{5}{2}\\Leftrightarrow x\\ge 100 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "5/2"
@@ -174,8 +187,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{7}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $[1000 \\sqrt{10};+\\infty)$.\nC. $(-\\infty;1000 \\sqrt{10})$.\nD. $(1000 \\sqrt{10};+\\infty)$.",
-    "dap_an": "B. $[1000 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{7}{2}$ là\n\nA. $(-\\infty;1000 \\sqrt{10})$.\nB. $(1000 \\sqrt{10};+\\infty)$.\nC. $[1000 \\sqrt{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[1000 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{7}{2}\\Leftrightarrow x\\ge 1000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "7/2"
@@ -187,8 +200,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{9}{2}$ là\n\nA. $(-\\infty;10000 \\sqrt{10})$.\nB. $(10000 \\sqrt{10};+\\infty)$.\nC. $[10000 \\sqrt{10};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "C. $[10000 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{9}{2}$ là\n\nA. $(-\\infty;10000 \\sqrt{10})$.\nB. $[10000 \\sqrt{10};+\\infty)$.\nC. $(10000 \\sqrt{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[10000 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{9}{2}\\Leftrightarrow x\\ge 10000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "9/2"
@@ -200,8 +213,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{11}{2}$ là\n\nA. $(-\\infty;100000 \\sqrt{10})$.\nB. $[100000 \\sqrt{10};+\\infty)$.\nC. $(100000 \\sqrt{10};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "B. $[100000 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{11}{2}$ là\n\nA. $[100000 \\sqrt{10};+\\infty)$.\nB. $(100000 \\sqrt{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;100000 \\sqrt{10})$.",
+    "dap_an": "A. $[100000 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{11}{2}\\Leftrightarrow x\\ge 100000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "11/2"
@@ -226,8 +239,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{15}{2}$ là\n\nA. $[10000000 \\sqrt{10};+\\infty)$.\nB. $(10000000 \\sqrt{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;10000000 \\sqrt{10})$.",
-    "dap_an": "A. $[10000000 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{15}{2}$ là\n\nA. $(-\\infty;10000000 \\sqrt{10})$.\nB. $[10000000 \\sqrt{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(10000000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "B. $[10000000 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{15}{2}\\Leftrightarrow x\\ge 10000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "15/2"
@@ -239,8 +252,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{17}{2}$ là\n\nA. $(-\\infty;100000000 \\sqrt{10})$.\nB. $[100000000 \\sqrt{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(100000000 \\sqrt{10};+\\infty)$.",
-    "dap_an": "B. $[100000000 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{17}{2}$ là\n\nA. $[100000000 \\sqrt{10};+\\infty)$.\nB. $(-\\infty;100000000 \\sqrt{10})$.\nC. $(0;+\\infty)$.\nD. $(100000000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "A. $[100000000 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{17}{2}\\Leftrightarrow x\\ge 100000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "17/2"
@@ -252,8 +265,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{19}{2}$ là\n\nA. $[1000000000 \\sqrt{10};+\\infty)$.\nB. $(-\\infty;1000000000 \\sqrt{10})$.\nC. $(0;+\\infty)$.\nD. $(1000000000 \\sqrt{10};+\\infty)$.",
-    "dap_an": "A. $[1000000000 \\sqrt{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{19}{2}$ là\n\nA. $(0;+\\infty)$.\nB. $[1000000000 \\sqrt{10};+\\infty)$.\nC. $(-\\infty;1000000000 \\sqrt{10})$.\nD. $(1000000000 \\sqrt{10};+\\infty)$.",
+    "dap_an": "B. $[1000000000 \\sqrt{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{19}{2}\\Leftrightarrow x\\ge 1000000000 \\sqrt{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \\sqrt{10};+\\infty)$.",
     "params": {
       "k": "19/2"
@@ -265,7 +278,7 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{29}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000000000})$.\nD. $(\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{29}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.\nB. $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000000000})$.\nD. $(0;+\\infty)$.",
     "dap_an": "B. $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{29}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10000000000};+\\infty)$.",
     "params": {
@@ -278,8 +291,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{28}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.\nB. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000000000})$.\nD. $(0;+\\infty)$.",
-    "dap_an": "B. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{28}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000000000})$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{28}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000000};+\\infty)$.",
     "params": {
       "k": "-28/3"
@@ -304,8 +317,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{25}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000000000})$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{25}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000000000})$.",
+    "dap_an": "B. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{25}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000000};+\\infty)$.",
     "params": {
       "k": "-25/3"
@@ -317,8 +330,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{23}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.\nC. $(\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100000000})$.",
-    "dap_an": "B. $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{23}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100000000})$.",
+    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{23}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{100000000};+\\infty)$.",
     "params": {
       "k": "-23/3"
@@ -343,8 +356,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{20}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000000})$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{20}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.\nB. $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000000})$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{20}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10000000};+\\infty)$.",
     "params": {
       "k": "-20/3"
@@ -356,8 +369,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{19}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.\nB. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000000})$.",
-    "dap_an": "B. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{19}{3}$ là\n\nA. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.\nB. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000000})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{19}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10000000};+\\infty)$.",
     "params": {
       "k": "-19/3"
@@ -369,8 +382,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{17}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.\nB. $(\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000000})$.\nD. $(0;+\\infty)$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{17}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000000})$.\nC. $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{17}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{1000000};+\\infty)$.",
     "params": {
       "k": "-17/3"
@@ -382,8 +395,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{16}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000000})$.\nC. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "C. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{16}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{16}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{1000000};+\\infty)$.",
     "params": {
       "k": "-16/3"
@@ -395,8 +408,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{14}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{14}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100000})$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{14}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{100000};+\\infty)$.",
     "params": {
       "k": "-14/3"
@@ -408,8 +421,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{13}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100000})$.",
-    "dap_an": "C. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{13}{3}$ là\n\nA. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100000})$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{13}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{100000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{100000};+\\infty)$.",
     "params": {
       "k": "-13/3"
@@ -421,8 +434,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{11}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000})$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{11}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10000})$.\nC. $(\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.\nD. $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{11}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10000};+\\infty)$.",
     "params": {
       "k": "-11/3"
@@ -434,8 +447,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{10}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000})$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{10}{3}$ là\n\nA. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10000})$.\nC. $(0;+\\infty)$.\nD. $(\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{10}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10000};+\\infty)$.",
     "params": {
       "k": "-10/3"
@@ -447,8 +460,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{8}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000})$.\nC. $(0;+\\infty)$.\nD. $(\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{8}{3}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{1000})$.\nB. $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.\nC. $(\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{8}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{1000};+\\infty)$.",
     "params": {
       "k": "-8/3"
@@ -460,8 +473,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{7}{3}$ là\n\nA. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000})$.\nB. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "B. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{7}{3}$ là\n\nA. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.\nB. $(\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{1000})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{7}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{1000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{1000};+\\infty)$.",
     "params": {
       "k": "-7/3"
@@ -473,8 +486,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{5}{3}$ là\n\nA. $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.\nB. $(\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100})$.\nD. $(0;+\\infty)$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{5}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{100})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{5}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{100};+\\infty)$.",
     "params": {
       "k": "-5/3"
@@ -486,8 +499,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{4}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{4}{3}$ là\n\nA. $(\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.\nB. $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{100})$.",
+    "dap_an": "B. $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{4}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{100}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{100};+\\infty)$.",
     "params": {
       "k": "-4/3"
@@ -499,8 +512,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{2}{3}$ là\n\nA. $(\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.\nB. $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10})$.",
-    "dap_an": "B. $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{2}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[3]{10}}{10})$.\nC. $(\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.\nD. $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{2}{3}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[3]{10}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[3]{10}}{10};+\\infty)$.",
     "params": {
       "k": "-2/3"
@@ -512,7 +525,7 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{1}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10})$.\nC. $(\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{1}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{2}{3}}}{10})$.\nD. $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
     "dap_an": "D. $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{1}{3}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{2}{3}}}{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{2}{3}}}{10};+\\infty)$.",
     "params": {
@@ -525,7 +538,7 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(\\sqrt[3]{10};+\\infty)$.\nC. $(-\\infty;\\sqrt[3]{10})$.\nD. $[\\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{3}$ là\n\nA. $(-\\infty;\\sqrt[3]{10})$.\nB. $(\\sqrt[3]{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $[\\sqrt[3]{10};+\\infty)$.",
     "dap_an": "D. $[\\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{1}{3}\\Leftrightarrow x\\ge \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\sqrt[3]{10};+\\infty)$.",
     "params": {
@@ -538,8 +551,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{2}{3}$ là\n\nA. $(-\\infty;10^{\\dfrac{2}{3}})$.\nB. $(10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $[10^{\\dfrac{2}{3}};+\\infty)$.",
-    "dap_an": "D. $[10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{2}{3}$ là\n\nA. $(10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(-\\infty;10^{\\dfrac{2}{3}})$.\nC. $[10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{2}{3}\\Leftrightarrow x\\ge 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "2/3"
@@ -551,8 +564,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{4}{3}$ là\n\nA. $(10 \\sqrt[3]{10};+\\infty)$.\nB. $(-\\infty;10 \\sqrt[3]{10})$.\nC. $[10 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "C. $[10 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{4}{3}$ là\n\nA. $[10 \\sqrt[3]{10};+\\infty)$.\nB. $(-\\infty;10 \\sqrt[3]{10})$.\nC. $(10 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[10 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{4}{3}\\Leftrightarrow x\\ge 10 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "4/3"
@@ -564,8 +577,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{5}{3}$ là\n\nA. $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(-\\infty;10 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $(10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "A. $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{5}{3}$ là\n\nA. $(10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(-\\infty;10 \\cdot 10^{\\dfrac{2}{3}})$.",
+    "dap_an": "C. $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{5}{3}\\Leftrightarrow x\\ge 10 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "5/3"
@@ -577,8 +590,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{7}{3}$ là\n\nA. $(100 \\sqrt[3]{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[100 \\sqrt[3]{10};+\\infty)$.\nD. $(-\\infty;100 \\sqrt[3]{10})$.",
-    "dap_an": "C. $[100 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{7}{3}$ là\n\nA. $(100 \\sqrt[3]{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;100 \\sqrt[3]{10})$.\nD. $[100 \\sqrt[3]{10};+\\infty)$.",
+    "dap_an": "D. $[100 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{7}{3}\\Leftrightarrow x\\ge 100 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "7/3"
@@ -590,8 +603,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{8}{3}$ là\n\nA. $(100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;100 \\cdot 10^{\\dfrac{2}{3}})$.\nD. $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
-    "dap_an": "D. $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{8}{3}$ là\n\nA. $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(-\\infty;100 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $(100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{8}{3}\\Leftrightarrow x\\ge 100 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "8/3"
@@ -603,8 +616,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{10}{3}$ là\n\nA. $[1000 \\sqrt[3]{10};+\\infty)$.\nB. $(-\\infty;1000 \\sqrt[3]{10})$.\nC. $(1000 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "A. $[1000 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{10}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[1000 \\sqrt[3]{10};+\\infty)$.\nC. $(-\\infty;1000 \\sqrt[3]{10})$.\nD. $(1000 \\sqrt[3]{10};+\\infty)$.",
+    "dap_an": "B. $[1000 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{10}{3}\\Leftrightarrow x\\ge 1000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "10/3"
@@ -616,8 +629,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{11}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(-\\infty;1000 \\cdot 10^{\\dfrac{2}{3}})$.\nD. $(1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
-    "dap_an": "B. $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{11}{3}$ là\n\nA. $(-\\infty;1000 \\cdot 10^{\\dfrac{2}{3}})$.\nB. $(0;+\\infty)$.\nC. $(1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "D. $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{11}{3}\\Leftrightarrow x\\ge 1000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "11/3"
@@ -629,8 +642,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{13}{3}$ là\n\nA. $(-\\infty;10000 \\sqrt[3]{10})$.\nB. $(0;+\\infty)$.\nC. $(10000 \\sqrt[3]{10};+\\infty)$.\nD. $[10000 \\sqrt[3]{10};+\\infty)$.",
-    "dap_an": "D. $[10000 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{13}{3}$ là\n\nA. $[10000 \\sqrt[3]{10};+\\infty)$.\nB. $(10000 \\sqrt[3]{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;10000 \\sqrt[3]{10})$.",
+    "dap_an": "A. $[10000 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{13}{3}\\Leftrightarrow x\\ge 10000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "13/3"
@@ -642,8 +655,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{14}{3}$ là\n\nA. $[10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;10000 \\cdot 10^{\\dfrac{2}{3}})$.",
-    "dap_an": "A. $[10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{14}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;10000 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $[10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "C. $[10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{14}{3}\\Leftrightarrow x\\ge 10000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "14/3"
@@ -668,8 +681,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{17}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;100000 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $[100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
-    "dap_an": "C. $[100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{17}{3}$ là\n\nA. $(100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;100000 \\cdot 10^{\\dfrac{2}{3}})$.\nD. $[100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "D. $[100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{17}{3}\\Leftrightarrow x\\ge 100000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "17/3"
@@ -681,8 +694,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{19}{3}$ là\n\nA. $(1000000 \\sqrt[3]{10};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;1000000 \\sqrt[3]{10})$.\nD. $[1000000 \\sqrt[3]{10};+\\infty)$.",
-    "dap_an": "D. $[1000000 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{19}{3}$ là\n\nA. $[1000000 \\sqrt[3]{10};+\\infty)$.\nB. $(-\\infty;1000000 \\sqrt[3]{10})$.\nC. $(0;+\\infty)$.\nD. $(1000000 \\sqrt[3]{10};+\\infty)$.",
+    "dap_an": "A. $[1000000 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{19}{3}\\Leftrightarrow x\\ge 1000000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "19/3"
@@ -694,8 +707,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{20}{3}$ là\n\nA. $[1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(-\\infty;1000000 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $(0;+\\infty)$.\nD. $(1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
-    "dap_an": "A. $[1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{20}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(-\\infty;1000000 \\cdot 10^{\\dfrac{2}{3}})$.\nD. $[1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "D. $[1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{20}{3}\\Leftrightarrow x\\ge 1000000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "20/3"
@@ -707,8 +720,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{22}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(10000000 \\sqrt[3]{10};+\\infty)$.\nC. $(-\\infty;10000000 \\sqrt[3]{10})$.\nD. $[10000000 \\sqrt[3]{10};+\\infty)$.",
-    "dap_an": "D. $[10000000 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{22}{3}$ là\n\nA. $(-\\infty;10000000 \\sqrt[3]{10})$.\nB. $(10000000 \\sqrt[3]{10};+\\infty)$.\nC. $[10000000 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[10000000 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{22}{3}\\Leftrightarrow x\\ge 10000000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "22/3"
@@ -720,8 +733,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{23}{3}$ là\n\nA. $(-\\infty;10000000 \\cdot 10^{\\dfrac{2}{3}})$.\nB. $(10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $[10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "C. $[10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{23}{3}$ là\n\nA. $[10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(-\\infty;10000000 \\cdot 10^{\\dfrac{2}{3}})$.\nD. $(0;+\\infty)$.",
+    "dap_an": "A. $[10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{23}{3}\\Leftrightarrow x\\ge 10000000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[10000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "23/3"
@@ -733,8 +746,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{25}{3}$ là\n\nA. $[100000000 \\sqrt[3]{10};+\\infty)$.\nB. $(100000000 \\sqrt[3]{10};+\\infty)$.\nC. $(-\\infty;100000000 \\sqrt[3]{10})$.\nD. $(0;+\\infty)$.",
-    "dap_an": "A. $[100000000 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{25}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(100000000 \\sqrt[3]{10};+\\infty)$.\nC. $(-\\infty;100000000 \\sqrt[3]{10})$.\nD. $[100000000 \\sqrt[3]{10};+\\infty)$.",
+    "dap_an": "D. $[100000000 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{25}{3}\\Leftrightarrow x\\ge 100000000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "25/3"
@@ -746,8 +759,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{26}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(-\\infty;100000000 \\cdot 10^{\\dfrac{2}{3}})$.\nD. $[100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
-    "dap_an": "D. $[100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{26}{3}$ là\n\nA. $(-\\infty;100000000 \\cdot 10^{\\dfrac{2}{3}})$.\nB. $[100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{26}{3}\\Leftrightarrow x\\ge 100000000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[100000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "26/3"
@@ -759,8 +772,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{28}{3}$ là\n\nA. $(-\\infty;1000000000 \\sqrt[3]{10})$.\nB. $[1000000000 \\sqrt[3]{10};+\\infty)$.\nC. $(1000000000 \\sqrt[3]{10};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "B. $[1000000000 \\sqrt[3]{10};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{28}{3}$ là\n\nA. $[1000000000 \\sqrt[3]{10};+\\infty)$.\nB. $(1000000000 \\sqrt[3]{10};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;1000000000 \\sqrt[3]{10})$.",
+    "dap_an": "A. $[1000000000 \\sqrt[3]{10};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{28}{3}\\Leftrightarrow x\\ge 1000000000 \\sqrt[3]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \\sqrt[3]{10};+\\infty)$.",
     "params": {
       "k": "28/3"
@@ -772,8 +785,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{29}{3}$ là\n\nA. $[1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nB. $(1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nC. $(0;+\\infty)$.\nD. $(-\\infty;1000000000 \\cdot 10^{\\dfrac{2}{3}})$.",
-    "dap_an": "A. $[1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{29}{3}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;1000000000 \\cdot 10^{\\dfrac{2}{3}})$.\nC. $[1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.\nD. $(1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
+    "dap_an": "C. $[1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "loi_giai": "$\\log x\\ge \\dfrac{29}{3}\\Leftrightarrow x\\ge 1000000000 \\cdot 10^{\\dfrac{2}{3}}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[1000000000 \\cdot 10^{\\dfrac{2}{3}};+\\infty)$.",
     "params": {
       "k": "29/3"
@@ -785,7 +798,7 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{39}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{10000000000})$.\nC. $[\\dfrac{\\sqrt[4]{10}}{10000000000};+\\infty)$.\nD. $(\\dfrac{\\sqrt[4]{10}}{10000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{39}{4}$ là\n\nA. $(\\dfrac{\\sqrt[4]{10}}{10000000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{\\sqrt[4]{10}}{10000000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{10000000000})$.",
     "dap_an": "C. $[\\dfrac{\\sqrt[4]{10}}{10000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{39}{4}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[4]{10}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[4]{10}}{10000000000};+\\infty)$.",
     "params": {
@@ -798,8 +811,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{37}{4}$ là\n\nA. $(\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{10000000000})$.",
-    "dap_an": "C. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{37}{4}$ là\n\nA. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{10000000000})$.\nD. $(\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.",
+    "dap_an": "A. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{37}{4}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{3}{4}}}{10000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000000};+\\infty)$.",
     "params": {
       "k": "-37/4"
@@ -811,8 +824,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{35}{4}$ là\n\nA. $[\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.\nB. $(0;+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{1000000000})$.\nD. $(\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.",
-    "dap_an": "A. $[\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{35}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{1000000000})$.\nD. $(\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{35}{4}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[4]{10}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[4]{10}}{1000000000};+\\infty)$.",
     "params": {
       "k": "-35/4"
@@ -824,8 +837,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{33}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.\nC. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{1000000000})$.\nD. $(\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.",
-    "dap_an": "B. $[\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{33}{4}$ là\n\nA. $(\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{1000000000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{33}{4}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{3}{4}}}{1000000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{3}{4}}}{1000000000};+\\infty)$.",
     "params": {
       "k": "-33/4"
@@ -837,8 +850,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{31}{4}$ là\n\nA. $(\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{100000000})$.\nC. $(0;+\\infty)$.\nD. $[\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{31}{4}$ là\n\nA. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{100000000})$.\nB. $[\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.\nC. $(\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "B. $[\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{31}{4}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[4]{10}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[4]{10}}{100000000};+\\infty)$.",
     "params": {
       "k": "-31/4"
@@ -850,7 +863,7 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{29}{4}$ là\n\nA. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{100000000})$.\nB. $[\\dfrac{10^{\\dfrac{3}{4}}}{100000000};+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{3}{4}}}{100000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{29}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{10^{\\dfrac{3}{4}}}{100000000};+\\infty)$.\nC. $(\\dfrac{10^{\\dfrac{3}{4}}}{100000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{100000000})$.",
     "dap_an": "B. $[\\dfrac{10^{\\dfrac{3}{4}}}{100000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{29}{4}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{3}{4}}}{100000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{3}{4}}}{100000000};+\\infty)$.",
     "params": {
@@ -863,8 +876,8 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{27}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.\nC. $(\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.\nD. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{10000000})$.",
-    "dap_an": "B. $[\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{27}{4}$ là\n\nA. $(\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{10000000})$.\nC. $[\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.\nD. $(0;+\\infty)$.",
+    "dap_an": "C. $[\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{27}{4}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[4]{10}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[4]{10}}{10000000};+\\infty)$.",
     "params": {
       "k": "-27/4"
@@ -876,44 +889,11 @@
     "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
     "nguon": "Nhân bản",
     "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{25}{4}$ là\n\nA. $(\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{10000000})$.\nC. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.\nD. $(0;+\\infty)$.",
-    "dap_an": "C. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{25}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{10^{\\dfrac{3}{4}}}{10000000})$.\nC. $(\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.\nD. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.",
+    "dap_an": "D. $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.",
     "loi_giai": "$\\log x\\ge - \\dfrac{25}{4}\\Leftrightarrow x\\ge \\dfrac{10^{\\dfrac{3}{4}}}{10000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{10^{\\dfrac{3}{4}}}{10000000};+\\infty)$.",
     "params": {
       "k": "-25/4"
-    }
-  },
-  {
-    "id_goc": "p095_q16",
-    "ma_dang": "D43",
-    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge - \\dfrac{23}{4}$ là\n\nA. $(0;+\\infty)$.\nB. $(-\\infty;\\dfrac{\\sqrt[4]{10}}{1000000})$.\nC. $(\\dfrac{\\sqrt[4]{10}}{1000000};+\\infty)$.\nD. $[\\dfrac{\\sqrt[4]{10}}{1000000};+\\infty)$.",
-    "dap_an": "D. $[\\dfrac{\\sqrt[4]{10}}{1000000};+\\infty)$.",
-    "loi_giai": "$\\log x\\ge - \\dfrac{23}{4}\\Leftrightarrow x\\ge \\dfrac{\\sqrt[4]{10}}{1000000}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\dfrac{\\sqrt[4]{10}}{1000000};+\\infty)$.",
-    "params": {
-      "k": "-23/4"
-    }
-  },
-  {
-    "id_goc": "p115_q39",
-    "ma_dang": "D51",
-    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5\\cdot2^{x+2}+64)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $501$.\nB. $500$.\nC. $499$.\nD. $498$.",
-    "dap_an": "C. $499$.",
-    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-5\\cdot2^{x+2}+64=t^2-(2^{2}+2^{4})t+2^{6}=(t-2^{2})(t-2^{4})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 2$ hoặc $x\\ge 4$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 4$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,2$ và $4,\\ldots,500$, có $2+(500-4+1)=499$ số.",
-    "params": {
-      "u": "2",
-      "v": "4",
-      "c": "5",
-      "d": "64",
-      "F": "2",
-      "D": "3",
-      "N": "500",
-      "expected": "499"
     }
   },
   {
@@ -1994,6 +1974,26 @@
       "D": "3",
       "N": "500",
       "expected": "496"
+    }
+  },
+  {
+    "id_goc": "p115_q39",
+    "ma_dang": "D51",
+    "ten_dang": "Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-4160\\cdot2^{x+2}+4194304)\\sqrt{3-\\log(2x)}\\ge0$?\n\nA. $494$.\nB. $500$.\nC. $495$.\nD. $496$.",
+    "dap_an": "C. $495$.",
+    "loi_giai": "Điều kiện xác định: $0<x\\le 500$. Đặt $t=2^x>0$, ta có $4^x-4160\\cdot2^{x+2}+4194304=t^2-(2^{8}+2^{14})t+2^{22}=(t-2^{8})(t-2^{14})$. Vì $t=2^x$ tăng, bất phương trình tương đương $x\\le 8$ hoặc $x\\ge 14$. Căn thức dương khi $x<500$; tại $x=500$, đa thức dương vì $500\\ge 14$. Do đó, kết hợp điều kiện xác định, các số nguyên thỏa mãn là $1,\\ldots,8$ và $14,\\ldots,500$, có $8+(500-14+1)=495$ số.",
+    "params": {
+      "u": "8",
+      "v": "14",
+      "c": "4160",
+      "d": "4194304",
+      "F": "2",
+      "D": "3",
+      "N": "500",
+      "expected": "495"
     }
   }
 ]

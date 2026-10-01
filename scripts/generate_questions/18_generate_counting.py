@@ -62,13 +62,15 @@ def gen_D25(p, M):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Điều kiện $mx>0, x>-{p}, x\\ne0$. $\\log(mx)=2\\log(x+{p})\\Leftrightarrow mx=(x+{p})^2 "
-        f"\\Leftrightarrow m=\\dfrac{{(x+{p})^2}}{{x}}=f(x)$.\n"
-        f"$f'(x)=\\dfrac{{x^2-{p**2}}}{{x^2}}=0\\Leftrightarrow x=\\pm{p}$ (chỉ nhận $x={p}$ do điều kiện). "
-        f"$f({p})={threshold}$, $f\\to-\\infty$ khi $x\\to-{p}^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\n"
-        f"Phương trình có nghiệm duy nhất khi $m={threshold}$ hoặc $m<0$. Với $m\\in[-{M};{M}]\\cap\\mathbb{{Z}}$, "
-        f"có ${M}$ giá trị âm" + (f" cộng thêm $m={threshold}$" if -M <= threshold <= M else "") +
-        f", tổng cộng ${count}$ giá trị."
+        f"\u0110i\u1ec1u ki\u1ec7n: $mx>0$ v\u00e0 $x>-{p}$. \u0110\u1eb7t $f(x)=\\dfrac{{(x+{p})^2}}{{x}}=x+{2*p}+\\dfrac{{{p**2}}}{{x}}$. "
+        f"Khi $m<0$, \u0111i\u1ec1u ki\u1ec7n bu\u1ed9c $-{p}<x<0$. Tr\u00ean kho\u1ea3ng n\u00e0y, "
+        f"$f'(x)=1-\\dfrac{{{p**2}}}{{x^2}}<0$, \u0111\u1ed3ng th\u1eddi $\\lim_{{x\\to-{p}^+}}f(x)=0$ v\u00e0 "
+        f"$\\lim_{{x\\to0^-}}f(x)=-\\infty$. V\u00ec v\u1eady m\u1ed7i $m<0$ cho \u0111\u00fang m\u1ed9t nghi\u1ec7m. "
+        f"Khi $m>0$, ta c\u00f3 $x>0$; $f'(x)=0$ t\u1ea1i $x={p}$, l\u00e0 \u0111i\u1ec3m \u0111\u1ea1t gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t "
+        f"$f({p})={threshold}$. Do \u0111\u00f3 ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 \u0111\u00fang m\u1ed9t nghi\u1ec7m khi $m={threshold}$ "
+        f"(nghi\u1ec7m k\u00e9p $x={p}$); v\u1edbi $m>{threshold}$ c\u00f3 hai nghi\u1ec7m d\u01b0\u01a1ng, c\u00f2n $0<m<{threshold}$ kh\u00f4ng c\u00f3 nghi\u1ec7m. "
+        f"Trong \u0111o\u1ea1n $[-{M};{M}]$ c\u00f3 ${M}$ s\u1ed1 nguy\u00ean \u00e2m v\u00e0 th\u00eam $m={threshold}$ n\u1ebfu thu\u1ed9c \u0111o\u1ea1n. "
+        f"V\u1eady c\u00f3 ${count}$ gi\u00e1 tr\u1ecb nguy\u00ean c\u1ee7a $m$."
     )
     return de_bai, dap_an, loi_giai, dict(p=str(p), M=str(M))
 

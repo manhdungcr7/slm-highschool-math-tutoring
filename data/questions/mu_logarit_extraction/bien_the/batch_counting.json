@@ -1,1265 +1,5 @@
 [
   {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-60;60]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $60$.\nB. $62$.\nC. $61$.\nD. $121$.",
-    "dap_an": "C. $61$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-60;60]\\cap\\mathbb{Z}$, có $60$ giá trị âm cộng thêm $m=12$, tổng cộng $61$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "60"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-100;100]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $101$.\nB. $201$.\nC. $102$.\nD. $100$.",
-    "dap_an": "A. $101$.",
-    "loi_giai": "Điều kiện $mx>0, x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-100;100]\\cap\\mathbb{Z}$, có $100$ giá trị âm cộng thêm $m=8$, tổng cộng $101$ giá trị.",
-    "params": {
-      "p": "2",
-      "M": "100"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-109;109]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $111$.\nB. $219$.\nC. $110$.\nD. $109$.",
-    "dap_an": "C. $110$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-109;109]\\cap\\mathbb{Z}$, có $109$ giá trị âm cộng thêm $m=4$, tổng cộng $110$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "109"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $69$.\nB. $36$.\nC. $34$.\nD. $35$.",
-    "dap_an": "D. $35$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-34;34]\\cap\\mathbb{Z}$, có $34$ giá trị âm cộng thêm $m=4$, tổng cộng $35$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "34"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-44;44]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $89$.\nB. $45$.\nC. $44$.\nD. $46$.",
-    "dap_an": "B. $45$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-44;44]\\cap\\mathbb{Z}$, có $44$ giá trị âm cộng thêm $m=16$, tổng cộng $45$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "44"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-116;116]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $233$.\nB. $117$.\nC. $116$.\nD. $118$.",
-    "dap_an": "B. $117$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-116;116]\\cap\\mathbb{Z}$, có $116$ giá trị âm cộng thêm $m=16$, tổng cộng $117$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "116"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-92;92]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $92$.\nB. $94$.\nC. $93$.\nD. $185$.",
-    "dap_an": "C. $93$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-92;92]\\cap\\mathbb{Z}$, có $92$ giá trị âm cộng thêm $m=36$, tổng cộng $93$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "92"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-64;64]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $64$.\nB. $66$.\nC. $129$.\nD. $65$.",
-    "dap_an": "D. $65$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-64;64]\\cap\\mathbb{Z}$, có $64$ giá trị âm cộng thêm $m=48$, tổng cộng $65$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "64"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-80;80]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $161$.\nB. $80$.\nC. $82$.\nD. $81$.",
-    "dap_an": "D. $81$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-80;80]\\cap\\mathbb{Z}$, có $80$ giá trị âm cộng thêm $m=36$, tổng cộng $81$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "80"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-71;71]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $71$.\nB. $143$.\nC. $73$.\nD. $72$.",
-    "dap_an": "D. $72$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-71;71]\\cap\\mathbb{Z}$, có $71$ giá trị âm cộng thêm $m=36$, tổng cộng $72$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "71"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-76;76]$ để phương trình $\\log(mx)=2\\log(x+10)$ có nghiệm duy nhất?\n\nA. $78$.\nB. $76$.\nC. $77$.\nD. $153$.",
-    "dap_an": "C. $77$.",
-    "loi_giai": "Điều kiện $mx>0, x>-10, x\\ne0$. $\\log(mx)=2\\log(x+10)\\Leftrightarrow mx=(x+10)^2 \\Leftrightarrow m=\\dfrac{(x+10)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-100}{x^2}=0\\Leftrightarrow x=\\pm10$ (chỉ nhận $x=10$ do điều kiện). $f(10)=40$, $f\\to-\\infty$ khi $x\\to-10^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=40$ hoặc $m<0$. Với $m\\in[-76;76]\\cap\\mathbb{Z}$, có $76$ giá trị âm cộng thêm $m=40$, tổng cộng $77$ giá trị.",
-    "params": {
-      "p": "10",
-      "M": "76"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-46;46]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $48$.\nB. $93$.\nC. $47$.\nD. $46$.",
-    "dap_an": "C. $47$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-46;46]\\cap\\mathbb{Z}$, có $46$ giá trị âm cộng thêm $m=32$, tổng cộng $47$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "46"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-66;66]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $133$.\nB. $67$.\nC. $66$.\nD. $68$.",
-    "dap_an": "B. $67$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-66;66]\\cap\\mathbb{Z}$, có $66$ giá trị âm cộng thêm $m=16$, tổng cộng $67$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "66"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-68;68]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $70$.\nB. $69$.\nC. $137$.\nD. $68$.",
-    "dap_an": "B. $69$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-68;68]\\cap\\mathbb{Z}$, có $68$ giá trị âm cộng thêm $m=48$, tổng cộng $69$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "68"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-30;30]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $61$.\nB. $30$.\nC. $32$.\nD. $31$.",
-    "dap_an": "D. $31$.",
-    "loi_giai": "Điều kiện $mx>0, x>-7, x\\ne0$. $\\log(mx)=2\\log(x+7)\\Leftrightarrow mx=(x+7)^2 \\Leftrightarrow m=\\dfrac{(x+7)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-49}{x^2}=0\\Leftrightarrow x=\\pm7$ (chỉ nhận $x=7$ do điều kiện). $f(7)=28$, $f\\to-\\infty$ khi $x\\to-7^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=28$ hoặc $m<0$. Với $m\\in[-30;30]\\cap\\mathbb{Z}$, có $30$ giá trị âm cộng thêm $m=28$, tổng cộng $31$ giá trị.",
-    "params": {
-      "p": "7",
-      "M": "30"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-26;26]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $27$.\nB. $53$.\nC. $26$.\nD. $28$.",
-    "dap_an": "A. $27$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-26;26]\\cap\\mathbb{Z}$, có $26$ giá trị âm cộng thêm $m=24$, tổng cộng $27$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "26"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-45;45]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $45$.\nB. $46$.\nC. $47$.\nD. $91$.",
-    "dap_an": "B. $46$.",
-    "loi_giai": "Điều kiện $mx>0, x>-5, x\\ne0$. $\\log(mx)=2\\log(x+5)\\Leftrightarrow mx=(x+5)^2 \\Leftrightarrow m=\\dfrac{(x+5)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-25}{x^2}=0\\Leftrightarrow x=\\pm5$ (chỉ nhận $x=5$ do điều kiện). $f(5)=20$, $f\\to-\\infty$ khi $x\\to-5^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=20$ hoặc $m<0$. Với $m\\in[-45;45]\\cap\\mathbb{Z}$, có $45$ giá trị âm cộng thêm $m=20$, tổng cộng $46$ giá trị.",
-    "params": {
-      "p": "5",
-      "M": "45"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-40;40]$ để phương trình $\\log(mx)=2\\log(x+10)$ có nghiệm duy nhất?\n\nA. $41$.\nB. $81$.\nC. $40$.\nD. $42$.",
-    "dap_an": "A. $41$.",
-    "loi_giai": "Điều kiện $mx>0, x>-10, x\\ne0$. $\\log(mx)=2\\log(x+10)\\Leftrightarrow mx=(x+10)^2 \\Leftrightarrow m=\\dfrac{(x+10)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-100}{x^2}=0\\Leftrightarrow x=\\pm10$ (chỉ nhận $x=10$ do điều kiện). $f(10)=40$, $f\\to-\\infty$ khi $x\\to-10^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=40$ hoặc $m<0$. Với $m\\in[-40;40]\\cap\\mathbb{Z}$, có $40$ giá trị âm cộng thêm $m=40$, tổng cộng $41$ giá trị.",
-    "params": {
-      "p": "10",
-      "M": "40"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-104;104]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $106$.\nB. $104$.\nC. $209$.\nD. $105$.",
-    "dap_an": "D. $105$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-104;104]\\cap\\mathbb{Z}$, có $104$ giá trị âm cộng thêm $m=32$, tổng cộng $105$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "104"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-50;50]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $50$.\nB. $101$.\nC. $52$.\nD. $51$.",
-    "dap_an": "D. $51$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-50;50]\\cap\\mathbb{Z}$, có $50$ giá trị âm cộng thêm $m=32$, tổng cộng $51$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "50"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-65;65]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $67$.\nB. $66$.\nC. $65$.\nD. $131$.",
-    "dap_an": "B. $66$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-65;65]\\cap\\mathbb{Z}$, có $65$ giá trị âm cộng thêm $m=4$, tổng cộng $66$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "65"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-23;23]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $25$.\nB. $47$.\nC. $24$.\nD. $23$.",
-    "dap_an": "D. $23$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-23;23]\\cap\\mathbb{Z}$, có $23$ giá trị âm, tổng cộng $23$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "23"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-53;53]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $55$.\nB. $54$.\nC. $53$.\nD. $107$.",
-    "dap_an": "B. $54$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-53;53]\\cap\\mathbb{Z}$, có $53$ giá trị âm cộng thêm $m=24$, tổng cộng $54$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "53"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-117;117]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $118$.\nB. $119$.\nC. $117$.\nD. $235$.",
-    "dap_an": "A. $118$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-117;117]\\cap\\mathbb{Z}$, có $117$ giá trị âm cộng thêm $m=24$, tổng cộng $118$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "117"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-35;35]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $35$.\nB. $71$.\nC. $37$.\nD. $36$.",
-    "dap_an": "D. $36$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-35;35]\\cap\\mathbb{Z}$, có $35$ giá trị âm cộng thêm $m=24$, tổng cộng $36$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "35"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-32;32]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $34$.\nB. $65$.\nC. $33$.\nD. $32$.",
-    "dap_an": "C. $33$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-32;32]\\cap\\mathbb{Z}$, có $32$ giá trị âm cộng thêm $m=16$, tổng cộng $33$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "32"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-115;115]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $115$.\nB. $231$.\nC. $116$.\nD. $117$.",
-    "dap_an": "C. $116$.",
-    "loi_giai": "Điều kiện $mx>0, x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-115;115]\\cap\\mathbb{Z}$, có $115$ giá trị âm cộng thêm $m=8$, tổng cộng $116$ giá trị.",
-    "params": {
-      "p": "2",
-      "M": "115"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-110;110]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $221$.\nB. $111$.\nC. $112$.\nD. $110$.",
-    "dap_an": "B. $111$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-110;110]\\cap\\mathbb{Z}$, có $110$ giá trị âm cộng thêm $m=4$, tổng cộng $111$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "110"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-48;48]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $97$.\nB. $50$.\nC. $48$.\nD. $49$.",
-    "dap_an": "D. $49$.",
-    "loi_giai": "Điều kiện $mx>0, x>-7, x\\ne0$. $\\log(mx)=2\\log(x+7)\\Leftrightarrow mx=(x+7)^2 \\Leftrightarrow m=\\dfrac{(x+7)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-49}{x^2}=0\\Leftrightarrow x=\\pm7$ (chỉ nhận $x=7$ do điều kiện). $f(7)=28$, $f\\to-\\infty$ khi $x\\to-7^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=28$ hoặc $m<0$. Với $m\\in[-48;48]\\cap\\mathbb{Z}$, có $48$ giá trị âm cộng thêm $m=28$, tổng cộng $49$ giá trị.",
-    "params": {
-      "p": "7",
-      "M": "48"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-71;71]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $73$.\nB. $71$.\nC. $143$.\nD. $72$.",
-    "dap_an": "D. $72$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-71;71]\\cap\\mathbb{Z}$, có $71$ giá trị âm cộng thêm $m=4$, tổng cộng $72$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "71"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-64;64]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $64$.\nB. $129$.\nC. $66$.\nD. $65$.",
-    "dap_an": "D. $65$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-64;64]\\cap\\mathbb{Z}$, có $64$ giá trị âm cộng thêm $m=36$, tổng cộng $65$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "64"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-79;79]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $81$.\nB. $80$.\nC. $159$.\nD. $79$.",
-    "dap_an": "B. $80$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-79;79]\\cap\\mathbb{Z}$, có $79$ giá trị âm cộng thêm $m=12$, tổng cộng $80$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "79"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-114;114]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $114$.\nB. $229$.\nC. $116$.\nD. $115$.",
-    "dap_an": "D. $115$.",
-    "loi_giai": "Điều kiện $mx>0, x>-5, x\\ne0$. $\\log(mx)=2\\log(x+5)\\Leftrightarrow mx=(x+5)^2 \\Leftrightarrow m=\\dfrac{(x+5)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-25}{x^2}=0\\Leftrightarrow x=\\pm5$ (chỉ nhận $x=5$ do điều kiện). $f(5)=20$, $f\\to-\\infty$ khi $x\\to-5^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=20$ hoặc $m<0$. Với $m\\in[-114;114]\\cap\\mathbb{Z}$, có $114$ giá trị âm cộng thêm $m=20$, tổng cộng $115$ giá trị.",
-    "params": {
-      "p": "5",
-      "M": "114"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-55;55]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $55$.\nB. $56$.\nC. $57$.\nD. $111$.",
-    "dap_an": "B. $56$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-55;55]\\cap\\mathbb{Z}$, có $55$ giá trị âm cộng thêm $m=4$, tổng cộng $56$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "55"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-99;99]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $99$.\nB. $101$.\nC. $199$.\nD. $100$.",
-    "dap_an": "D. $100$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-99;99]\\cap\\mathbb{Z}$, có $99$ giá trị âm cộng thêm $m=12$, tổng cộng $100$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "99"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-47;47]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $49$.\nB. $95$.\nC. $47$.\nD. $48$.",
-    "dap_an": "D. $48$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-47;47]\\cap\\mathbb{Z}$, có $47$ giá trị âm cộng thêm $m=24$, tổng cộng $48$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "47"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-79;79]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $80$.\nB. $79$.\nC. $81$.\nD. $159$.",
-    "dap_an": "A. $80$.",
-    "loi_giai": "Điều kiện $mx>0, x>-7, x\\ne0$. $\\log(mx)=2\\log(x+7)\\Leftrightarrow mx=(x+7)^2 \\Leftrightarrow m=\\dfrac{(x+7)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-49}{x^2}=0\\Leftrightarrow x=\\pm7$ (chỉ nhận $x=7$ do điều kiện). $f(7)=28$, $f\\to-\\infty$ khi $x\\to-7^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=28$ hoặc $m<0$. Với $m\\in[-79;79]\\cap\\mathbb{Z}$, có $79$ giá trị âm cộng thêm $m=28$, tổng cộng $80$ giá trị.",
-    "params": {
-      "p": "7",
-      "M": "79"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-69;69]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $71$.\nB. $69$.\nC. $139$.\nD. $70$.",
-    "dap_an": "D. $70$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-69;69]\\cap\\mathbb{Z}$, có $69$ giá trị âm cộng thêm $m=12$, tổng cộng $70$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "69"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-119;119]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $120$.\nB. $119$.\nC. $121$.\nD. $239$.",
-    "dap_an": "A. $120$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-119;119]\\cap\\mathbb{Z}$, có $119$ giá trị âm cộng thêm $m=36$, tổng cộng $120$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "119"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-117;117]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $118$.\nB. $235$.\nC. $119$.\nD. $117$.",
-    "dap_an": "A. $118$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-117;117]\\cap\\mathbb{Z}$, có $117$ giá trị âm cộng thêm $m=32$, tổng cộng $118$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "117"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-47;47]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $95$.\nB. $48$.\nC. $47$.\nD. $49$.",
-    "dap_an": "C. $47$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-47;47]\\cap\\mathbb{Z}$, có $47$ giá trị âm, tổng cộng $47$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "47"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-111;111]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $113$.\nB. $111$.\nC. $223$.\nD. $112$.",
-    "dap_an": "D. $112$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-111;111]\\cap\\mathbb{Z}$, có $111$ giá trị âm cộng thêm $m=36$, tổng cộng $112$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "111"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-100;100]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $100$.\nB. $201$.\nC. $102$.\nD. $101$.",
-    "dap_an": "D. $101$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-100;100]\\cap\\mathbb{Z}$, có $100$ giá trị âm cộng thêm $m=36$, tổng cộng $101$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "100"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-70;70]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $70$.\nB. $72$.\nC. $141$.\nD. $71$.",
-    "dap_an": "D. $71$.",
-    "loi_giai": "Điều kiện $mx>0, x>-7, x\\ne0$. $\\log(mx)=2\\log(x+7)\\Leftrightarrow mx=(x+7)^2 \\Leftrightarrow m=\\dfrac{(x+7)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-49}{x^2}=0\\Leftrightarrow x=\\pm7$ (chỉ nhận $x=7$ do điều kiện). $f(7)=28$, $f\\to-\\infty$ khi $x\\to-7^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=28$ hoặc $m<0$. Với $m\\in[-70;70]\\cap\\mathbb{Z}$, có $70$ giá trị âm cộng thêm $m=28$, tổng cộng $71$ giá trị.",
-    "params": {
-      "p": "7",
-      "M": "70"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $36$.\nB. $69$.\nC. $35$.\nD. $34$.",
-    "dap_an": "C. $35$.",
-    "loi_giai": "Điều kiện $mx>0, x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-34;34]\\cap\\mathbb{Z}$, có $34$ giá trị âm cộng thêm $m=8$, tổng cộng $35$ giá trị.",
-    "params": {
-      "p": "2",
-      "M": "34"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-56;56]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $113$.\nB. $57$.\nC. $58$.\nD. $56$.",
-    "dap_an": "B. $57$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-56;56]\\cap\\mathbb{Z}$, có $56$ giá trị âm cộng thêm $m=12$, tổng cộng $57$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "56"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-55;55]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $57$.\nB. $55$.\nC. $111$.\nD. $56$.",
-    "dap_an": "D. $56$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-55;55]\\cap\\mathbb{Z}$, có $55$ giá trị âm cộng thêm $m=32$, tổng cộng $56$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "55"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-65;65]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $65$.\nB. $131$.\nC. $66$.\nD. $67$.",
-    "dap_an": "C. $66$.",
-    "loi_giai": "Điều kiện $mx>0, x>-5, x\\ne0$. $\\log(mx)=2\\log(x+5)\\Leftrightarrow mx=(x+5)^2 \\Leftrightarrow m=\\dfrac{(x+5)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-25}{x^2}=0\\Leftrightarrow x=\\pm5$ (chỉ nhận $x=5$ do điều kiện). $f(5)=20$, $f\\to-\\infty$ khi $x\\to-5^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=20$ hoặc $m<0$. Với $m\\in[-65;65]\\cap\\mathbb{Z}$, có $65$ giá trị âm cộng thêm $m=20$, tổng cộng $66$ giá trị.",
-    "params": {
-      "p": "5",
-      "M": "65"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-72;72]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $74$.\nB. $73$.\nC. $145$.\nD. $72$.",
-    "dap_an": "B. $73$.",
-    "loi_giai": "Điều kiện $mx>0, x>-5, x\\ne0$. $\\log(mx)=2\\log(x+5)\\Leftrightarrow mx=(x+5)^2 \\Leftrightarrow m=\\dfrac{(x+5)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-25}{x^2}=0\\Leftrightarrow x=\\pm5$ (chỉ nhận $x=5$ do điều kiện). $f(5)=20$, $f\\to-\\infty$ khi $x\\to-5^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=20$ hoặc $m<0$. Với $m\\in[-72;72]\\cap\\mathbb{Z}$, có $72$ giá trị âm cộng thêm $m=20$, tổng cộng $73$ giá trị.",
-    "params": {
-      "p": "5",
-      "M": "72"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-53;53]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $54$.\nB. $55$.\nC. $53$.\nD. $107$.",
-    "dap_an": "A. $54$.",
-    "loi_giai": "Điều kiện $mx>0, x>-7, x\\ne0$. $\\log(mx)=2\\log(x+7)\\Leftrightarrow mx=(x+7)^2 \\Leftrightarrow m=\\dfrac{(x+7)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-49}{x^2}=0\\Leftrightarrow x=\\pm7$ (chỉ nhận $x=7$ do điều kiện). $f(7)=28$, $f\\to-\\infty$ khi $x\\to-7^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=28$ hoặc $m<0$. Với $m\\in[-53;53]\\cap\\mathbb{Z}$, có $53$ giá trị âm cộng thêm $m=28$, tổng cộng $54$ giá trị.",
-    "params": {
-      "p": "7",
-      "M": "53"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $35$.\nB. $36$.\nC. $34$.\nD. $69$.",
-    "dap_an": "A. $35$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-34;34]\\cap\\mathbb{Z}$, có $34$ giá trị âm cộng thêm $m=24$, tổng cộng $35$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "34"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-48;48]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $97$.\nB. $48$.\nC. $50$.\nD. $49$.",
-    "dap_an": "D. $49$.",
-    "loi_giai": "Điều kiện $mx>0, x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-48;48]\\cap\\mathbb{Z}$, có $48$ giá trị âm cộng thêm $m=8$, tổng cộng $49$ giá trị.",
-    "params": {
-      "p": "2",
-      "M": "48"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-111;111]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $112$.\nB. $111$.\nC. $113$.\nD. $223$.",
-    "dap_an": "A. $112$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-111;111]\\cap\\mathbb{Z}$, có $111$ giá trị âm cộng thêm $m=32$, tổng cộng $112$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "111"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-91;91]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $183$.\nB. $93$.\nC. $92$.\nD. $91$.",
-    "dap_an": "C. $92$.",
-    "loi_giai": "Điều kiện $mx>0, x>-11, x\\ne0$. $\\log(mx)=2\\log(x+11)\\Leftrightarrow mx=(x+11)^2 \\Leftrightarrow m=\\dfrac{(x+11)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-121}{x^2}=0\\Leftrightarrow x=\\pm11$ (chỉ nhận $x=11$ do điều kiện). $f(11)=44$, $f\\to-\\infty$ khi $x\\to-11^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=44$ hoặc $m<0$. Với $m\\in[-91;91]\\cap\\mathbb{Z}$, có $91$ giá trị âm cộng thêm $m=44$, tổng cộng $92$ giá trị.",
-    "params": {
-      "p": "11",
-      "M": "91"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-52;52]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $52$.\nB. $105$.\nC. $54$.\nD. $53$.",
-    "dap_an": "D. $53$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-52;52]\\cap\\mathbb{Z}$, có $52$ giá trị âm cộng thêm $m=16$, tổng cộng $53$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "52"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-107;107]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $109$.\nB. $108$.\nC. $215$.\nD. $107$.",
-    "dap_an": "B. $108$.",
-    "loi_giai": "Điều kiện $mx>0, x>-5, x\\ne0$. $\\log(mx)=2\\log(x+5)\\Leftrightarrow mx=(x+5)^2 \\Leftrightarrow m=\\dfrac{(x+5)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-25}{x^2}=0\\Leftrightarrow x=\\pm5$ (chỉ nhận $x=5$ do điều kiện). $f(5)=20$, $f\\to-\\infty$ khi $x\\to-5^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=20$ hoặc $m<0$. Với $m\\in[-107;107]\\cap\\mathbb{Z}$, có $107$ giá trị âm cộng thêm $m=20$, tổng cộng $108$ giá trị.",
-    "params": {
-      "p": "5",
-      "M": "107"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-28;28]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $57$.\nB. $29$.\nC. $28$.\nD. $30$.",
-    "dap_an": "B. $29$.",
-    "loi_giai": "Điều kiện $mx>0, x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-28;28]\\cap\\mathbb{Z}$, có $28$ giá trị âm cộng thêm $m=8$, tổng cộng $29$ giá trị.",
-    "params": {
-      "p": "2",
-      "M": "28"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-110;110]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $111$.\nB. $110$.\nC. $112$.\nD. $221$.",
-    "dap_an": "A. $111$.",
-    "loi_giai": "Điều kiện $mx>0, x>-5, x\\ne0$. $\\log(mx)=2\\log(x+5)\\Leftrightarrow mx=(x+5)^2 \\Leftrightarrow m=\\dfrac{(x+5)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-25}{x^2}=0\\Leftrightarrow x=\\pm5$ (chỉ nhận $x=5$ do điều kiện). $f(5)=20$, $f\\to-\\infty$ khi $x\\to-5^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=20$ hoặc $m<0$. Với $m\\in[-110;110]\\cap\\mathbb{Z}$, có $110$ giá trị âm cộng thêm $m=20$, tổng cộng $111$ giá trị.",
-    "params": {
-      "p": "5",
-      "M": "110"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-66;66]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $68$.\nB. $67$.\nC. $66$.\nD. $133$.",
-    "dap_an": "B. $67$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-66;66]\\cap\\mathbb{Z}$, có $66$ giá trị âm cộng thêm $m=36$, tổng cộng $67$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "66"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-120;120]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $122$.\nB. $120$.\nC. $121$.\nD. $241$.",
-    "dap_an": "C. $121$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-120;120]\\cap\\mathbb{Z}$, có $120$ giá trị âm cộng thêm $m=36$, tổng cộng $121$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "120"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-95;95]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $97$.\nB. $95$.\nC. $191$.\nD. $96$.",
-    "dap_an": "D. $96$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-95;95]\\cap\\mathbb{Z}$, có $95$ giá trị âm cộng thêm $m=36$, tổng cộng $96$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "95"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-95;95]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $95$.\nB. $96$.\nC. $97$.\nD. $191$.",
-    "dap_an": "B. $96$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-95;95]\\cap\\mathbb{Z}$, có $95$ giá trị âm cộng thêm $m=12$, tổng cộng $96$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "95"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-96;96]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $193$.\nB. $96$.\nC. $97$.\nD. $98$.",
-    "dap_an": "C. $97$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-96;96]\\cap\\mathbb{Z}$, có $96$ giá trị âm cộng thêm $m=32$, tổng cộng $97$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "96"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-29;29]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $29$.\nB. $30$.\nC. $31$.\nD. $59$.",
-    "dap_an": "B. $30$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-29;29]\\cap\\mathbb{Z}$, có $29$ giá trị âm cộng thêm $m=16$, tổng cộng $30$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "29"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-58;58]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $117$.\nB. $60$.\nC. $58$.\nD. $59$.",
-    "dap_an": "D. $59$.",
-    "loi_giai": "Điều kiện $mx>0, x>-11, x\\ne0$. $\\log(mx)=2\\log(x+11)\\Leftrightarrow mx=(x+11)^2 \\Leftrightarrow m=\\dfrac{(x+11)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-121}{x^2}=0\\Leftrightarrow x=\\pm11$ (chỉ nhận $x=11$ do điều kiện). $f(11)=44$, $f\\to-\\infty$ khi $x\\to-11^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=44$ hoặc $m<0$. Với $m\\in[-58;58]\\cap\\mathbb{Z}$, có $58$ giá trị âm cộng thêm $m=44$, tổng cộng $59$ giá trị.",
-    "params": {
-      "p": "11",
-      "M": "58"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-89;89]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $179$.\nB. $89$.\nC. $90$.\nD. $91$.",
-    "dap_an": "C. $90$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-89;89]\\cap\\mathbb{Z}$, có $89$ giá trị âm cộng thêm $m=36$, tổng cộng $90$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "89"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-57;57]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $115$.\nB. $59$.\nC. $58$.\nD. $57$.",
-    "dap_an": "C. $58$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-57;57]\\cap\\mathbb{Z}$, có $57$ giá trị âm cộng thêm $m=48$, tổng cộng $58$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "57"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-112;112]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $113$.\nB. $225$.\nC. $112$.\nD. $114$.",
-    "dap_an": "A. $113$.",
-    "loi_giai": "Điều kiện $mx>0, x>-6, x\\ne0$. $\\log(mx)=2\\log(x+6)\\Leftrightarrow mx=(x+6)^2 \\Leftrightarrow m=\\dfrac{(x+6)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-36}{x^2}=0\\Leftrightarrow x=\\pm6$ (chỉ nhận $x=6$ do điều kiện). $f(6)=24$, $f\\to-\\infty$ khi $x\\to-6^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=24$ hoặc $m<0$. Với $m\\in[-112;112]\\cap\\mathbb{Z}$, có $112$ giá trị âm cộng thêm $m=24$, tổng cộng $113$ giá trị.",
-    "params": {
-      "p": "6",
-      "M": "112"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-78;78]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $78$.\nB. $79$.\nC. $157$.\nD. $80$.",
-    "dap_an": "B. $79$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-78;78]\\cap\\mathbb{Z}$, có $78$ giá trị âm cộng thêm $m=32$, tổng cộng $79$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "78"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-106;106]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $106$.\nB. $213$.\nC. $108$.\nD. $107$.",
-    "dap_an": "D. $107$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-106;106]\\cap\\mathbb{Z}$, có $106$ giá trị âm cộng thêm $m=36$, tổng cộng $107$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "106"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-41;41]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $43$.\nB. $42$.\nC. $83$.\nD. $41$.",
-    "dap_an": "B. $42$.",
-    "loi_giai": "Điều kiện $mx>0, x>-4, x\\ne0$. $\\log(mx)=2\\log(x+4)\\Leftrightarrow mx=(x+4)^2 \\Leftrightarrow m=\\dfrac{(x+4)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-16}{x^2}=0\\Leftrightarrow x=\\pm4$ (chỉ nhận $x=4$ do điều kiện). $f(4)=16$, $f\\to-\\infty$ khi $x\\to-4^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=16$ hoặc $m<0$. Với $m\\in[-41;41]\\cap\\mathbb{Z}$, có $41$ giá trị âm cộng thêm $m=16$, tổng cộng $42$ giá trị.",
-    "params": {
-      "p": "4",
-      "M": "41"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-117;117]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $119$.\nB. $117$.\nC. $118$.\nD. $235$.",
-    "dap_an": "C. $118$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-117;117]\\cap\\mathbb{Z}$, có $117$ giá trị âm cộng thêm $m=4$, tổng cộng $118$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "117"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-93;93]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $187$.\nB. $95$.\nC. $94$.\nD. $93$.",
-    "dap_an": "C. $94$.",
-    "loi_giai": "Điều kiện $mx>0, x>-2, x\\ne0$. $\\log(mx)=2\\log(x+2)\\Leftrightarrow mx=(x+2)^2 \\Leftrightarrow m=\\dfrac{(x+2)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-4}{x^2}=0\\Leftrightarrow x=\\pm2$ (chỉ nhận $x=2$ do điều kiện). $f(2)=8$, $f\\to-\\infty$ khi $x\\to-2^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=8$ hoặc $m<0$. Với $m\\in[-93;93]\\cap\\mathbb{Z}$, có $93$ giá trị âm cộng thêm $m=8$, tổng cộng $94$ giá trị.",
-    "params": {
-      "p": "2",
-      "M": "93"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-110;110]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $112$.\nB. $110$.\nC. $221$.\nD. $111$.",
-    "dap_an": "D. $111$.",
-    "loi_giai": "Điều kiện $mx>0, x>-11, x\\ne0$. $\\log(mx)=2\\log(x+11)\\Leftrightarrow mx=(x+11)^2 \\Leftrightarrow m=\\dfrac{(x+11)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-121}{x^2}=0\\Leftrightarrow x=\\pm11$ (chỉ nhận $x=11$ do điều kiện). $f(11)=44$, $f\\to-\\infty$ khi $x\\to-11^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=44$ hoặc $m<0$. Với $m\\in[-110;110]\\cap\\mathbb{Z}$, có $110$ giá trị âm cộng thêm $m=44$, tổng cộng $111$ giá trị.",
-    "params": {
-      "p": "11",
-      "M": "110"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-33;33]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $34$.\nB. $35$.\nC. $67$.\nD. $33$.",
-    "dap_an": "A. $34$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-33;33]\\cap\\mathbb{Z}$, có $33$ giá trị âm cộng thêm $m=4$, tổng cộng $34$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "33"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $69$.\nB. $34$.\nC. $35$.\nD. $36$.",
-    "dap_an": "B. $34$.",
-    "loi_giai": "Điều kiện $mx>0, x>-9, x\\ne0$. $\\log(mx)=2\\log(x+9)\\Leftrightarrow mx=(x+9)^2 \\Leftrightarrow m=\\dfrac{(x+9)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-81}{x^2}=0\\Leftrightarrow x=\\pm9$ (chỉ nhận $x=9$ do điều kiện). $f(9)=36$, $f\\to-\\infty$ khi $x\\to-9^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=36$ hoặc $m<0$. Với $m\\in[-34;34]\\cap\\mathbb{Z}$, có $34$ giá trị âm, tổng cộng $34$ giá trị.",
-    "params": {
-      "p": "9",
-      "M": "34"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-23;23]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $23$.\nB. $47$.\nC. $25$.\nD. $24$.",
-    "dap_an": "A. $23$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-23;23]\\cap\\mathbb{Z}$, có $23$ giá trị âm, tổng cộng $23$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "23"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-90;90]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $90$.\nB. $92$.\nC. $91$.\nD. $181$.",
-    "dap_an": "C. $91$.",
-    "loi_giai": "Điều kiện $mx>0, x>-11, x\\ne0$. $\\log(mx)=2\\log(x+11)\\Leftrightarrow mx=(x+11)^2 \\Leftrightarrow m=\\dfrac{(x+11)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-121}{x^2}=0\\Leftrightarrow x=\\pm11$ (chỉ nhận $x=11$ do điều kiện). $f(11)=44$, $f\\to-\\infty$ khi $x\\to-11^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=44$ hoặc $m<0$. Với $m\\in[-90;90]\\cap\\mathbb{Z}$, có $90$ giá trị âm cộng thêm $m=44$, tổng cộng $91$ giá trị.",
-    "params": {
-      "p": "11",
-      "M": "90"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-71;71]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $73$.\nB. $143$.\nC. $71$.\nD. $72$.",
-    "dap_an": "D. $72$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-71;71]\\cap\\mathbb{Z}$, có $71$ giá trị âm cộng thêm $m=32$, tổng cộng $72$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "71"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-114;114]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $115$.\nB. $116$.\nC. $229$.\nD. $114$.",
-    "dap_an": "A. $115$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-114;114]\\cap\\mathbb{Z}$, có $114$ giá trị âm cộng thêm $m=32$, tổng cộng $115$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "114"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-78;78]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $157$.\nB. $79$.\nC. $80$.\nD. $78$.",
-    "dap_an": "B. $79$.",
-    "loi_giai": "Điều kiện $mx>0, x>-11, x\\ne0$. $\\log(mx)=2\\log(x+11)\\Leftrightarrow mx=(x+11)^2 \\Leftrightarrow m=\\dfrac{(x+11)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-121}{x^2}=0\\Leftrightarrow x=\\pm11$ (chỉ nhận $x=11$ do điều kiện). $f(11)=44$, $f\\to-\\infty$ khi $x\\to-11^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=44$ hoặc $m<0$. Với $m\\in[-78;78]\\cap\\mathbb{Z}$, có $78$ giá trị âm cộng thêm $m=44$, tổng cộng $79$ giá trị.",
-    "params": {
-      "p": "11",
-      "M": "78"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-66;66]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $133$.\nB. $67$.\nC. $66$.\nD. $68$.",
-    "dap_an": "B. $67$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-66;66]\\cap\\mathbb{Z}$, có $66$ giá trị âm cộng thêm $m=48$, tổng cộng $67$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "66"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-90;90]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $90$.\nB. $181$.\nC. $91$.\nD. $92$.",
-    "dap_an": "C. $91$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-90;90]\\cap\\mathbb{Z}$, có $90$ giá trị âm cộng thêm $m=48$, tổng cộng $91$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "90"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-59;59]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $119$.\nB. $60$.\nC. $59$.\nD. $61$.",
-    "dap_an": "B. $60$.",
-    "loi_giai": "Điều kiện $mx>0, x>-1, x\\ne0$. $\\log(mx)=2\\log(x+1)\\Leftrightarrow mx=(x+1)^2 \\Leftrightarrow m=\\dfrac{(x+1)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-1}{x^2}=0\\Leftrightarrow x=\\pm1$ (chỉ nhận $x=1$ do điều kiện). $f(1)=4$, $f\\to-\\infty$ khi $x\\to-1^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=4$ hoặc $m<0$. Với $m\\in[-59;59]\\cap\\mathbb{Z}$, có $59$ giá trị âm cộng thêm $m=4$, tổng cộng $60$ giá trị.",
-    "params": {
-      "p": "1",
-      "M": "59"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-45;45]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $47$.\nB. $91$.\nC. $45$.\nD. $46$.",
-    "dap_an": "C. $45$.",
-    "loi_giai": "Điều kiện $mx>0, x>-12, x\\ne0$. $\\log(mx)=2\\log(x+12)\\Leftrightarrow mx=(x+12)^2 \\Leftrightarrow m=\\dfrac{(x+12)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-144}{x^2}=0\\Leftrightarrow x=\\pm12$ (chỉ nhận $x=12$ do điều kiện). $f(12)=48$, $f\\to-\\infty$ khi $x\\to-12^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=48$ hoặc $m<0$. Với $m\\in[-45;45]\\cap\\mathbb{Z}$, có $45$ giá trị âm, tổng cộng $45$ giá trị.",
-    "params": {
-      "p": "12",
-      "M": "45"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-33;33]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $67$.\nB. $35$.\nC. $34$.\nD. $33$.",
-    "dap_an": "C. $34$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-33;33]\\cap\\mathbb{Z}$, có $33$ giá trị âm cộng thêm $m=32$, tổng cộng $34$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "33"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-101;101]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $203$.\nB. $102$.\nC. $101$.\nD. $103$.",
-    "dap_an": "B. $102$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-101;101]\\cap\\mathbb{Z}$, có $101$ giá trị âm cộng thêm $m=12$, tổng cộng $102$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "101"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-53;53]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $107$.\nB. $54$.\nC. $55$.\nD. $53$.",
-    "dap_an": "B. $54$.",
-    "loi_giai": "Điều kiện $mx>0, x>-8, x\\ne0$. $\\log(mx)=2\\log(x+8)\\Leftrightarrow mx=(x+8)^2 \\Leftrightarrow m=\\dfrac{(x+8)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-64}{x^2}=0\\Leftrightarrow x=\\pm8$ (chỉ nhận $x=8$ do điều kiện). $f(8)=32$, $f\\to-\\infty$ khi $x\\to-8^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=32$ hoặc $m<0$. Với $m\\in[-53;53]\\cap\\mathbb{Z}$, có $53$ giá trị âm cộng thêm $m=32$, tổng cộng $54$ giá trị.",
-    "params": {
-      "p": "8",
-      "M": "53"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-64;64]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $129$.\nB. $66$.\nC. $64$.\nD. $65$.",
-    "dap_an": "D. $65$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-64;64]\\cap\\mathbb{Z}$, có $64$ giá trị âm cộng thêm $m=12$, tổng cộng $65$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "64"
-    }
-  },
-  {
-    "id_goc": "p042_q45",
-    "ma_dang": "D25",
-    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
-    "nguon": "Nhân bản",
-    "loai_bien_the": "chuan",
-    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-25;25]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $27$.\nB. $51$.\nC. $26$.\nD. $25$.",
-    "dap_an": "C. $26$.",
-    "loi_giai": "Điều kiện $mx>0, x>-3, x\\ne0$. $\\log(mx)=2\\log(x+3)\\Leftrightarrow mx=(x+3)^2 \\Leftrightarrow m=\\dfrac{(x+3)^2}{x}=f(x)$.\n$f'(x)=\\dfrac{x^2-9}{x^2}=0\\Leftrightarrow x=\\pm3$ (chỉ nhận $x=3$ do điều kiện). $f(3)=12$, $f\\to-\\infty$ khi $x\\to-3^+$, $f\\to+\\infty$ khi $x\\to0^-$ hoặc $x\\to+\\infty$.\nPhương trình có nghiệm duy nhất khi $m=12$ hoặc $m<0$. Với $m\\in[-25;25]\\cap\\mathbb{Z}$, có $25$ giá trị âm cộng thêm $m=12$, tổng cộng $26$ giá trị.",
-    "params": {
-      "p": "3",
-      "M": "25"
-    }
-  },
-  {
     "id_goc": "p090_q47",
     "ma_dang": "D41",
     "ten_dang": "Count integer pairs satisfying an exponential-logarithmic equation",
@@ -5037,6 +3777,1266 @@
     "params": {
       "N": "26",
       "M": "29"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-60;60]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $62$.\nB. $61$.\nC. $121$.\nD. $60$.",
+    "dap_an": "B. $61$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-60;60]$ có $60$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $61$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "60"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-100;100]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $100$.\nB. $101$.\nC. $201$.\nD. $102$.",
+    "dap_an": "B. $101$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-2$. Đặt $f(x)=\\dfrac{(x+2)^2}{x}=x+4+\\dfrac{4}{x}$. Khi $m<0$, điều kiện buộc $-2<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{4}{x^2}<0$, đồng thời $\\lim_{x\\to-2^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=2$, là điểm đạt giá trị nhỏ nhất $f(2)=8$. Do đó phương trình có đúng một nghiệm khi $m=8$ (nghiệm kép $x=2$); với $m>8$ có hai nghiệm dương, còn $0<m<8$ không có nghiệm. Trong đoạn $[-100;100]$ có $100$ số nguyên âm và thêm $m=8$ nếu thuộc đoạn. Vậy có $101$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "2",
+      "M": "100"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-109;109]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $219$.\nB. $110$.\nC. $111$.\nD. $109$.",
+    "dap_an": "B. $110$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-109;109]$ có $109$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $110$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "109"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $34$.\nB. $36$.\nC. $35$.\nD. $69$.",
+    "dap_an": "C. $35$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-34;34]$ có $34$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $35$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "34"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-44;44]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $46$.\nB. $44$.\nC. $45$.\nD. $89$.",
+    "dap_an": "C. $45$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-44;44]$ có $44$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $45$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "44"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-116;116]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $233$.\nB. $116$.\nC. $117$.\nD. $118$.",
+    "dap_an": "C. $117$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-116;116]$ có $116$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $117$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "116"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-92;92]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $185$.\nB. $93$.\nC. $92$.\nD. $94$.",
+    "dap_an": "B. $93$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-92;92]$ có $92$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $93$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "92"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-64;64]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $129$.\nB. $65$.\nC. $66$.\nD. $64$.",
+    "dap_an": "B. $65$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-64;64]$ có $64$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $65$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "64"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-80;80]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $161$.\nB. $82$.\nC. $81$.\nD. $80$.",
+    "dap_an": "C. $81$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-80;80]$ có $80$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $81$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "80"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-71;71]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $73$.\nB. $71$.\nC. $72$.\nD. $143$.",
+    "dap_an": "C. $72$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-71;71]$ có $71$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $72$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "71"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-76;76]$ để phương trình $\\log(mx)=2\\log(x+10)$ có nghiệm duy nhất?\n\nA. $78$.\nB. $77$.\nC. $153$.\nD. $76$.",
+    "dap_an": "B. $77$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-10$. Đặt $f(x)=\\dfrac{(x+10)^2}{x}=x+20+\\dfrac{100}{x}$. Khi $m<0$, điều kiện buộc $-10<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{100}{x^2}<0$, đồng thời $\\lim_{x\\to-10^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=10$, là điểm đạt giá trị nhỏ nhất $f(10)=40$. Do đó phương trình có đúng một nghiệm khi $m=40$ (nghiệm kép $x=10$); với $m>40$ có hai nghiệm dương, còn $0<m<40$ không có nghiệm. Trong đoạn $[-76;76]$ có $76$ số nguyên âm và thêm $m=40$ nếu thuộc đoạn. Vậy có $77$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "10",
+      "M": "76"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-46;46]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $48$.\nB. $46$.\nC. $93$.\nD. $47$.",
+    "dap_an": "D. $47$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-46;46]$ có $46$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $47$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "46"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-66;66]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $133$.\nB. $67$.\nC. $68$.\nD. $66$.",
+    "dap_an": "B. $67$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-66;66]$ có $66$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $67$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "66"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-68;68]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $137$.\nB. $70$.\nC. $68$.\nD. $69$.",
+    "dap_an": "D. $69$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-68;68]$ có $68$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $69$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "68"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-30;30]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $61$.\nB. $31$.\nC. $30$.\nD. $32$.",
+    "dap_an": "B. $31$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-7$. Đặt $f(x)=\\dfrac{(x+7)^2}{x}=x+14+\\dfrac{49}{x}$. Khi $m<0$, điều kiện buộc $-7<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{49}{x^2}<0$, đồng thời $\\lim_{x\\to-7^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=7$, là điểm đạt giá trị nhỏ nhất $f(7)=28$. Do đó phương trình có đúng một nghiệm khi $m=28$ (nghiệm kép $x=7$); với $m>28$ có hai nghiệm dương, còn $0<m<28$ không có nghiệm. Trong đoạn $[-30;30]$ có $30$ số nguyên âm và thêm $m=28$ nếu thuộc đoạn. Vậy có $31$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "7",
+      "M": "30"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-26;26]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $27$.\nB. $28$.\nC. $26$.\nD. $53$.",
+    "dap_an": "A. $27$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-26;26]$ có $26$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $27$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "26"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-45;45]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $45$.\nB. $47$.\nC. $46$.\nD. $91$.",
+    "dap_an": "C. $46$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-5$. Đặt $f(x)=\\dfrac{(x+5)^2}{x}=x+10+\\dfrac{25}{x}$. Khi $m<0$, điều kiện buộc $-5<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{25}{x^2}<0$, đồng thời $\\lim_{x\\to-5^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=5$, là điểm đạt giá trị nhỏ nhất $f(5)=20$. Do đó phương trình có đúng một nghiệm khi $m=20$ (nghiệm kép $x=5$); với $m>20$ có hai nghiệm dương, còn $0<m<20$ không có nghiệm. Trong đoạn $[-45;45]$ có $45$ số nguyên âm và thêm $m=20$ nếu thuộc đoạn. Vậy có $46$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "5",
+      "M": "45"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-40;40]$ để phương trình $\\log(mx)=2\\log(x+10)$ có nghiệm duy nhất?\n\nA. $40$.\nB. $41$.\nC. $42$.\nD. $81$.",
+    "dap_an": "B. $41$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-10$. Đặt $f(x)=\\dfrac{(x+10)^2}{x}=x+20+\\dfrac{100}{x}$. Khi $m<0$, điều kiện buộc $-10<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{100}{x^2}<0$, đồng thời $\\lim_{x\\to-10^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=10$, là điểm đạt giá trị nhỏ nhất $f(10)=40$. Do đó phương trình có đúng một nghiệm khi $m=40$ (nghiệm kép $x=10$); với $m>40$ có hai nghiệm dương, còn $0<m<40$ không có nghiệm. Trong đoạn $[-40;40]$ có $40$ số nguyên âm và thêm $m=40$ nếu thuộc đoạn. Vậy có $41$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "10",
+      "M": "40"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-104;104]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $106$.\nB. $209$.\nC. $105$.\nD. $104$.",
+    "dap_an": "C. $105$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-104;104]$ có $104$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $105$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "104"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-50;50]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $101$.\nB. $50$.\nC. $51$.\nD. $52$.",
+    "dap_an": "C. $51$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-50;50]$ có $50$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $51$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "50"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-65;65]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $131$.\nB. $65$.\nC. $66$.\nD. $67$.",
+    "dap_an": "C. $66$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-65;65]$ có $65$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $66$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "65"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-23;23]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $23$.\nB. $24$.\nC. $25$.\nD. $47$.",
+    "dap_an": "A. $23$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-23;23]$ có $23$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $23$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "23"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-53;53]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $107$.\nB. $55$.\nC. $53$.\nD. $54$.",
+    "dap_an": "D. $54$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-53;53]$ có $53$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $54$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "53"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-117;117]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $119$.\nB. $235$.\nC. $117$.\nD. $118$.",
+    "dap_an": "D. $118$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-117;117]$ có $117$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $118$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "117"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-35;35]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $37$.\nB. $35$.\nC. $71$.\nD. $36$.",
+    "dap_an": "D. $36$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-35;35]$ có $35$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $36$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "35"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-32;32]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $34$.\nB. $32$.\nC. $65$.\nD. $33$.",
+    "dap_an": "D. $33$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-32;32]$ có $32$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $33$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "32"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-115;115]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $117$.\nB. $231$.\nC. $115$.\nD. $116$.",
+    "dap_an": "D. $116$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-2$. Đặt $f(x)=\\dfrac{(x+2)^2}{x}=x+4+\\dfrac{4}{x}$. Khi $m<0$, điều kiện buộc $-2<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{4}{x^2}<0$, đồng thời $\\lim_{x\\to-2^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=2$, là điểm đạt giá trị nhỏ nhất $f(2)=8$. Do đó phương trình có đúng một nghiệm khi $m=8$ (nghiệm kép $x=2$); với $m>8$ có hai nghiệm dương, còn $0<m<8$ không có nghiệm. Trong đoạn $[-115;115]$ có $115$ số nguyên âm và thêm $m=8$ nếu thuộc đoạn. Vậy có $116$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "2",
+      "M": "115"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-110;110]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $111$.\nB. $112$.\nC. $221$.\nD. $110$.",
+    "dap_an": "A. $111$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-110;110]$ có $110$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $111$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "110"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-48;48]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $50$.\nB. $48$.\nC. $97$.\nD. $49$.",
+    "dap_an": "D. $49$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-7$. Đặt $f(x)=\\dfrac{(x+7)^2}{x}=x+14+\\dfrac{49}{x}$. Khi $m<0$, điều kiện buộc $-7<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{49}{x^2}<0$, đồng thời $\\lim_{x\\to-7^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=7$, là điểm đạt giá trị nhỏ nhất $f(7)=28$. Do đó phương trình có đúng một nghiệm khi $m=28$ (nghiệm kép $x=7$); với $m>28$ có hai nghiệm dương, còn $0<m<28$ không có nghiệm. Trong đoạn $[-48;48]$ có $48$ số nguyên âm và thêm $m=28$ nếu thuộc đoạn. Vậy có $49$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "7",
+      "M": "48"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-71;71]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $73$.\nB. $72$.\nC. $143$.\nD. $71$.",
+    "dap_an": "B. $72$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-71;71]$ có $71$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $72$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "71"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-64;64]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $64$.\nB. $66$.\nC. $65$.\nD. $129$.",
+    "dap_an": "C. $65$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-64;64]$ có $64$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $65$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "64"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-79;79]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $80$.\nB. $79$.\nC. $159$.\nD. $81$.",
+    "dap_an": "A. $80$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-79;79]$ có $79$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $80$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "79"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-114;114]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $116$.\nB. $114$.\nC. $115$.\nD. $229$.",
+    "dap_an": "C. $115$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-5$. Đặt $f(x)=\\dfrac{(x+5)^2}{x}=x+10+\\dfrac{25}{x}$. Khi $m<0$, điều kiện buộc $-5<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{25}{x^2}<0$, đồng thời $\\lim_{x\\to-5^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=5$, là điểm đạt giá trị nhỏ nhất $f(5)=20$. Do đó phương trình có đúng một nghiệm khi $m=20$ (nghiệm kép $x=5$); với $m>20$ có hai nghiệm dương, còn $0<m<20$ không có nghiệm. Trong đoạn $[-114;114]$ có $114$ số nguyên âm và thêm $m=20$ nếu thuộc đoạn. Vậy có $115$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "5",
+      "M": "114"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-55;55]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $57$.\nB. $56$.\nC. $55$.\nD. $111$.",
+    "dap_an": "B. $56$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-55;55]$ có $55$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $56$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "55"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-99;99]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $99$.\nB. $101$.\nC. $199$.\nD. $100$.",
+    "dap_an": "D. $100$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-99;99]$ có $99$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $100$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "99"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-47;47]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $47$.\nB. $48$.\nC. $49$.\nD. $95$.",
+    "dap_an": "B. $48$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-47;47]$ có $47$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $48$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "47"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-79;79]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $79$.\nB. $159$.\nC. $80$.\nD. $81$.",
+    "dap_an": "C. $80$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-7$. Đặt $f(x)=\\dfrac{(x+7)^2}{x}=x+14+\\dfrac{49}{x}$. Khi $m<0$, điều kiện buộc $-7<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{49}{x^2}<0$, đồng thời $\\lim_{x\\to-7^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=7$, là điểm đạt giá trị nhỏ nhất $f(7)=28$. Do đó phương trình có đúng một nghiệm khi $m=28$ (nghiệm kép $x=7$); với $m>28$ có hai nghiệm dương, còn $0<m<28$ không có nghiệm. Trong đoạn $[-79;79]$ có $79$ số nguyên âm và thêm $m=28$ nếu thuộc đoạn. Vậy có $80$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "7",
+      "M": "79"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-69;69]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $69$.\nB. $70$.\nC. $71$.\nD. $139$.",
+    "dap_an": "B. $70$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-69;69]$ có $69$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $70$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "69"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-119;119]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $239$.\nB. $119$.\nC. $120$.\nD. $121$.",
+    "dap_an": "C. $120$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-119;119]$ có $119$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $120$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "119"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-117;117]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $119$.\nB. $118$.\nC. $117$.\nD. $235$.",
+    "dap_an": "B. $118$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-117;117]$ có $117$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $118$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "117"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-47;47]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $48$.\nB. $95$.\nC. $49$.\nD. $47$.",
+    "dap_an": "D. $47$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-47;47]$ có $47$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $47$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "47"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-111;111]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $112$.\nB. $113$.\nC. $223$.\nD. $111$.",
+    "dap_an": "A. $112$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-111;111]$ có $111$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $112$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "111"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-100;100]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $101$.\nB. $201$.\nC. $102$.\nD. $100$.",
+    "dap_an": "A. $101$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-100;100]$ có $100$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $101$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "100"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-70;70]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $70$.\nB. $72$.\nC. $141$.\nD. $71$.",
+    "dap_an": "D. $71$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-7$. Đặt $f(x)=\\dfrac{(x+7)^2}{x}=x+14+\\dfrac{49}{x}$. Khi $m<0$, điều kiện buộc $-7<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{49}{x^2}<0$, đồng thời $\\lim_{x\\to-7^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=7$, là điểm đạt giá trị nhỏ nhất $f(7)=28$. Do đó phương trình có đúng một nghiệm khi $m=28$ (nghiệm kép $x=7$); với $m>28$ có hai nghiệm dương, còn $0<m<28$ không có nghiệm. Trong đoạn $[-70;70]$ có $70$ số nguyên âm và thêm $m=28$ nếu thuộc đoạn. Vậy có $71$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "7",
+      "M": "70"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $35$.\nB. $34$.\nC. $69$.\nD. $36$.",
+    "dap_an": "A. $35$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-2$. Đặt $f(x)=\\dfrac{(x+2)^2}{x}=x+4+\\dfrac{4}{x}$. Khi $m<0$, điều kiện buộc $-2<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{4}{x^2}<0$, đồng thời $\\lim_{x\\to-2^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=2$, là điểm đạt giá trị nhỏ nhất $f(2)=8$. Do đó phương trình có đúng một nghiệm khi $m=8$ (nghiệm kép $x=2$); với $m>8$ có hai nghiệm dương, còn $0<m<8$ không có nghiệm. Trong đoạn $[-34;34]$ có $34$ số nguyên âm và thêm $m=8$ nếu thuộc đoạn. Vậy có $35$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "2",
+      "M": "34"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-56;56]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $56$.\nB. $57$.\nC. $58$.\nD. $113$.",
+    "dap_an": "B. $57$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-56;56]$ có $56$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $57$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "56"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-55;55]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $56$.\nB. $55$.\nC. $111$.\nD. $57$.",
+    "dap_an": "A. $56$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-55;55]$ có $55$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $56$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "55"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-65;65]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $65$.\nB. $131$.\nC. $66$.\nD. $67$.",
+    "dap_an": "C. $66$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-5$. Đặt $f(x)=\\dfrac{(x+5)^2}{x}=x+10+\\dfrac{25}{x}$. Khi $m<0$, điều kiện buộc $-5<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{25}{x^2}<0$, đồng thời $\\lim_{x\\to-5^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=5$, là điểm đạt giá trị nhỏ nhất $f(5)=20$. Do đó phương trình có đúng một nghiệm khi $m=20$ (nghiệm kép $x=5$); với $m>20$ có hai nghiệm dương, còn $0<m<20$ không có nghiệm. Trong đoạn $[-65;65]$ có $65$ số nguyên âm và thêm $m=20$ nếu thuộc đoạn. Vậy có $66$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "5",
+      "M": "65"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-72;72]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $72$.\nB. $73$.\nC. $145$.\nD. $74$.",
+    "dap_an": "B. $73$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-5$. Đặt $f(x)=\\dfrac{(x+5)^2}{x}=x+10+\\dfrac{25}{x}$. Khi $m<0$, điều kiện buộc $-5<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{25}{x^2}<0$, đồng thời $\\lim_{x\\to-5^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=5$, là điểm đạt giá trị nhỏ nhất $f(5)=20$. Do đó phương trình có đúng một nghiệm khi $m=20$ (nghiệm kép $x=5$); với $m>20$ có hai nghiệm dương, còn $0<m<20$ không có nghiệm. Trong đoạn $[-72;72]$ có $72$ số nguyên âm và thêm $m=20$ nếu thuộc đoạn. Vậy có $73$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "5",
+      "M": "72"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-53;53]$ để phương trình $\\log(mx)=2\\log(x+7)$ có nghiệm duy nhất?\n\nA. $53$.\nB. $54$.\nC. $107$.\nD. $55$.",
+    "dap_an": "B. $54$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-7$. Đặt $f(x)=\\dfrac{(x+7)^2}{x}=x+14+\\dfrac{49}{x}$. Khi $m<0$, điều kiện buộc $-7<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{49}{x^2}<0$, đồng thời $\\lim_{x\\to-7^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=7$, là điểm đạt giá trị nhỏ nhất $f(7)=28$. Do đó phương trình có đúng một nghiệm khi $m=28$ (nghiệm kép $x=7$); với $m>28$ có hai nghiệm dương, còn $0<m<28$ không có nghiệm. Trong đoạn $[-53;53]$ có $53$ số nguyên âm và thêm $m=28$ nếu thuộc đoạn. Vậy có $54$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "7",
+      "M": "53"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $35$.\nB. $34$.\nC. $36$.\nD. $69$.",
+    "dap_an": "A. $35$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-34;34]$ có $34$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $35$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "34"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-48;48]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $49$.\nB. $97$.\nC. $48$.\nD. $50$.",
+    "dap_an": "A. $49$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-2$. Đặt $f(x)=\\dfrac{(x+2)^2}{x}=x+4+\\dfrac{4}{x}$. Khi $m<0$, điều kiện buộc $-2<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{4}{x^2}<0$, đồng thời $\\lim_{x\\to-2^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=2$, là điểm đạt giá trị nhỏ nhất $f(2)=8$. Do đó phương trình có đúng một nghiệm khi $m=8$ (nghiệm kép $x=2$); với $m>8$ có hai nghiệm dương, còn $0<m<8$ không có nghiệm. Trong đoạn $[-48;48]$ có $48$ số nguyên âm và thêm $m=8$ nếu thuộc đoạn. Vậy có $49$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "2",
+      "M": "48"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-111;111]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $223$.\nB. $112$.\nC. $111$.\nD. $113$.",
+    "dap_an": "B. $112$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-111;111]$ có $111$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $112$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "111"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-91;91]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $91$.\nB. $93$.\nC. $183$.\nD. $92$.",
+    "dap_an": "D. $92$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-11$. Đặt $f(x)=\\dfrac{(x+11)^2}{x}=x+22+\\dfrac{121}{x}$. Khi $m<0$, điều kiện buộc $-11<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{121}{x^2}<0$, đồng thời $\\lim_{x\\to-11^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=11$, là điểm đạt giá trị nhỏ nhất $f(11)=44$. Do đó phương trình có đúng một nghiệm khi $m=44$ (nghiệm kép $x=11$); với $m>44$ có hai nghiệm dương, còn $0<m<44$ không có nghiệm. Trong đoạn $[-91;91]$ có $91$ số nguyên âm và thêm $m=44$ nếu thuộc đoạn. Vậy có $92$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "11",
+      "M": "91"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-52;52]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $53$.\nB. $52$.\nC. $105$.\nD. $54$.",
+    "dap_an": "A. $53$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-52;52]$ có $52$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $53$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "52"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-107;107]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $215$.\nB. $109$.\nC. $108$.\nD. $107$.",
+    "dap_an": "C. $108$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-5$. Đặt $f(x)=\\dfrac{(x+5)^2}{x}=x+10+\\dfrac{25}{x}$. Khi $m<0$, điều kiện buộc $-5<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{25}{x^2}<0$, đồng thời $\\lim_{x\\to-5^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=5$, là điểm đạt giá trị nhỏ nhất $f(5)=20$. Do đó phương trình có đúng một nghiệm khi $m=20$ (nghiệm kép $x=5$); với $m>20$ có hai nghiệm dương, còn $0<m<20$ không có nghiệm. Trong đoạn $[-107;107]$ có $107$ số nguyên âm và thêm $m=20$ nếu thuộc đoạn. Vậy có $108$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "5",
+      "M": "107"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-28;28]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $30$.\nB. $29$.\nC. $28$.\nD. $57$.",
+    "dap_an": "B. $29$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-2$. Đặt $f(x)=\\dfrac{(x+2)^2}{x}=x+4+\\dfrac{4}{x}$. Khi $m<0$, điều kiện buộc $-2<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{4}{x^2}<0$, đồng thời $\\lim_{x\\to-2^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=2$, là điểm đạt giá trị nhỏ nhất $f(2)=8$. Do đó phương trình có đúng một nghiệm khi $m=8$ (nghiệm kép $x=2$); với $m>8$ có hai nghiệm dương, còn $0<m<8$ không có nghiệm. Trong đoạn $[-28;28]$ có $28$ số nguyên âm và thêm $m=8$ nếu thuộc đoạn. Vậy có $29$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "2",
+      "M": "28"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-110;110]$ để phương trình $\\log(mx)=2\\log(x+5)$ có nghiệm duy nhất?\n\nA. $110$.\nB. $111$.\nC. $112$.\nD. $221$.",
+    "dap_an": "B. $111$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-5$. Đặt $f(x)=\\dfrac{(x+5)^2}{x}=x+10+\\dfrac{25}{x}$. Khi $m<0$, điều kiện buộc $-5<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{25}{x^2}<0$, đồng thời $\\lim_{x\\to-5^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=5$, là điểm đạt giá trị nhỏ nhất $f(5)=20$. Do đó phương trình có đúng một nghiệm khi $m=20$ (nghiệm kép $x=5$); với $m>20$ có hai nghiệm dương, còn $0<m<20$ không có nghiệm. Trong đoạn $[-110;110]$ có $110$ số nguyên âm và thêm $m=20$ nếu thuộc đoạn. Vậy có $111$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "5",
+      "M": "110"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-66;66]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $68$.\nB. $67$.\nC. $133$.\nD. $66$.",
+    "dap_an": "B. $67$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-66;66]$ có $66$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $67$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "66"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-120;120]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $120$.\nB. $241$.\nC. $122$.\nD. $121$.",
+    "dap_an": "D. $121$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-120;120]$ có $120$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $121$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "120"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-95;95]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $96$.\nB. $191$.\nC. $97$.\nD. $95$.",
+    "dap_an": "A. $96$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-95;95]$ có $95$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $96$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "95"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-95;95]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $96$.\nB. $97$.\nC. $191$.\nD. $95$.",
+    "dap_an": "A. $96$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-95;95]$ có $95$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $96$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "95"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-96;96]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $97$.\nB. $96$.\nC. $98$.\nD. $193$.",
+    "dap_an": "A. $97$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-96;96]$ có $96$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $97$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "96"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-29;29]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $29$.\nB. $59$.\nC. $30$.\nD. $31$.",
+    "dap_an": "C. $30$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-29;29]$ có $29$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $30$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "29"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-58;58]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $60$.\nB. $59$.\nC. $117$.\nD. $58$.",
+    "dap_an": "B. $59$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-11$. Đặt $f(x)=\\dfrac{(x+11)^2}{x}=x+22+\\dfrac{121}{x}$. Khi $m<0$, điều kiện buộc $-11<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{121}{x^2}<0$, đồng thời $\\lim_{x\\to-11^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=11$, là điểm đạt giá trị nhỏ nhất $f(11)=44$. Do đó phương trình có đúng một nghiệm khi $m=44$ (nghiệm kép $x=11$); với $m>44$ có hai nghiệm dương, còn $0<m<44$ không có nghiệm. Trong đoạn $[-58;58]$ có $58$ số nguyên âm và thêm $m=44$ nếu thuộc đoạn. Vậy có $59$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "11",
+      "M": "58"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-89;89]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $89$.\nB. $179$.\nC. $90$.\nD. $91$.",
+    "dap_an": "C. $90$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-89;89]$ có $89$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $90$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "89"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-57;57]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $57$.\nB. $115$.\nC. $59$.\nD. $58$.",
+    "dap_an": "D. $58$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-57;57]$ có $57$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $58$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "57"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-112;112]$ để phương trình $\\log(mx)=2\\log(x+6)$ có nghiệm duy nhất?\n\nA. $225$.\nB. $114$.\nC. $113$.\nD. $112$.",
+    "dap_an": "C. $113$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-6$. Đặt $f(x)=\\dfrac{(x+6)^2}{x}=x+12+\\dfrac{36}{x}$. Khi $m<0$, điều kiện buộc $-6<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{36}{x^2}<0$, đồng thời $\\lim_{x\\to-6^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=6$, là điểm đạt giá trị nhỏ nhất $f(6)=24$. Do đó phương trình có đúng một nghiệm khi $m=24$ (nghiệm kép $x=6$); với $m>24$ có hai nghiệm dương, còn $0<m<24$ không có nghiệm. Trong đoạn $[-112;112]$ có $112$ số nguyên âm và thêm $m=24$ nếu thuộc đoạn. Vậy có $113$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "6",
+      "M": "112"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-78;78]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $80$.\nB. $79$.\nC. $78$.\nD. $157$.",
+    "dap_an": "B. $79$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-78;78]$ có $78$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $79$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "78"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-106;106]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $108$.\nB. $107$.\nC. $213$.\nD. $106$.",
+    "dap_an": "B. $107$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-106;106]$ có $106$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $107$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "106"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-41;41]$ để phương trình $\\log(mx)=2\\log(x+4)$ có nghiệm duy nhất?\n\nA. $83$.\nB. $43$.\nC. $42$.\nD. $41$.",
+    "dap_an": "C. $42$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-4$. Đặt $f(x)=\\dfrac{(x+4)^2}{x}=x+8+\\dfrac{16}{x}$. Khi $m<0$, điều kiện buộc $-4<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{16}{x^2}<0$, đồng thời $\\lim_{x\\to-4^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=4$, là điểm đạt giá trị nhỏ nhất $f(4)=16$. Do đó phương trình có đúng một nghiệm khi $m=16$ (nghiệm kép $x=4$); với $m>16$ có hai nghiệm dương, còn $0<m<16$ không có nghiệm. Trong đoạn $[-41;41]$ có $41$ số nguyên âm và thêm $m=16$ nếu thuộc đoạn. Vậy có $42$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "4",
+      "M": "41"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-117;117]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $235$.\nB. $117$.\nC. $119$.\nD. $118$.",
+    "dap_an": "D. $118$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-117;117]$ có $117$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $118$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "117"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-93;93]$ để phương trình $\\log(mx)=2\\log(x+2)$ có nghiệm duy nhất?\n\nA. $95$.\nB. $187$.\nC. $93$.\nD. $94$.",
+    "dap_an": "D. $94$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-2$. Đặt $f(x)=\\dfrac{(x+2)^2}{x}=x+4+\\dfrac{4}{x}$. Khi $m<0$, điều kiện buộc $-2<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{4}{x^2}<0$, đồng thời $\\lim_{x\\to-2^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=2$, là điểm đạt giá trị nhỏ nhất $f(2)=8$. Do đó phương trình có đúng một nghiệm khi $m=8$ (nghiệm kép $x=2$); với $m>8$ có hai nghiệm dương, còn $0<m<8$ không có nghiệm. Trong đoạn $[-93;93]$ có $93$ số nguyên âm và thêm $m=8$ nếu thuộc đoạn. Vậy có $94$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "2",
+      "M": "93"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-110;110]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $221$.\nB. $112$.\nC. $111$.\nD. $110$.",
+    "dap_an": "C. $111$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-11$. Đặt $f(x)=\\dfrac{(x+11)^2}{x}=x+22+\\dfrac{121}{x}$. Khi $m<0$, điều kiện buộc $-11<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{121}{x^2}<0$, đồng thời $\\lim_{x\\to-11^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=11$, là điểm đạt giá trị nhỏ nhất $f(11)=44$. Do đó phương trình có đúng một nghiệm khi $m=44$ (nghiệm kép $x=11$); với $m>44$ có hai nghiệm dương, còn $0<m<44$ không có nghiệm. Trong đoạn $[-110;110]$ có $110$ số nguyên âm và thêm $m=44$ nếu thuộc đoạn. Vậy có $111$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "11",
+      "M": "110"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-33;33]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $67$.\nB. $34$.\nC. $33$.\nD. $35$.",
+    "dap_an": "B. $34$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-33;33]$ có $33$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $34$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "33"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-34;34]$ để phương trình $\\log(mx)=2\\log(x+9)$ có nghiệm duy nhất?\n\nA. $35$.\nB. $36$.\nC. $69$.\nD. $34$.",
+    "dap_an": "D. $34$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-9$. Đặt $f(x)=\\dfrac{(x+9)^2}{x}=x+18+\\dfrac{81}{x}$. Khi $m<0$, điều kiện buộc $-9<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{81}{x^2}<0$, đồng thời $\\lim_{x\\to-9^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=9$, là điểm đạt giá trị nhỏ nhất $f(9)=36$. Do đó phương trình có đúng một nghiệm khi $m=36$ (nghiệm kép $x=9$); với $m>36$ có hai nghiệm dương, còn $0<m<36$ không có nghiệm. Trong đoạn $[-34;34]$ có $34$ số nguyên âm và thêm $m=36$ nếu thuộc đoạn. Vậy có $34$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "9",
+      "M": "34"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-23;23]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $24$.\nB. $47$.\nC. $25$.\nD. $23$.",
+    "dap_an": "D. $23$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-23;23]$ có $23$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $23$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "23"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-90;90]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $90$.\nB. $92$.\nC. $91$.\nD. $181$.",
+    "dap_an": "C. $91$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-11$. Đặt $f(x)=\\dfrac{(x+11)^2}{x}=x+22+\\dfrac{121}{x}$. Khi $m<0$, điều kiện buộc $-11<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{121}{x^2}<0$, đồng thời $\\lim_{x\\to-11^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=11$, là điểm đạt giá trị nhỏ nhất $f(11)=44$. Do đó phương trình có đúng một nghiệm khi $m=44$ (nghiệm kép $x=11$); với $m>44$ có hai nghiệm dương, còn $0<m<44$ không có nghiệm. Trong đoạn $[-90;90]$ có $90$ số nguyên âm và thêm $m=44$ nếu thuộc đoạn. Vậy có $91$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "11",
+      "M": "90"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-71;71]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $71$.\nB. $143$.\nC. $73$.\nD. $72$.",
+    "dap_an": "D. $72$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-71;71]$ có $71$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $72$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "71"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-114;114]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $116$.\nB. $229$.\nC. $114$.\nD. $115$.",
+    "dap_an": "D. $115$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-114;114]$ có $114$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $115$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "114"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-78;78]$ để phương trình $\\log(mx)=2\\log(x+11)$ có nghiệm duy nhất?\n\nA. $78$.\nB. $80$.\nC. $157$.\nD. $79$.",
+    "dap_an": "D. $79$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-11$. Đặt $f(x)=\\dfrac{(x+11)^2}{x}=x+22+\\dfrac{121}{x}$. Khi $m<0$, điều kiện buộc $-11<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{121}{x^2}<0$, đồng thời $\\lim_{x\\to-11^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=11$, là điểm đạt giá trị nhỏ nhất $f(11)=44$. Do đó phương trình có đúng một nghiệm khi $m=44$ (nghiệm kép $x=11$); với $m>44$ có hai nghiệm dương, còn $0<m<44$ không có nghiệm. Trong đoạn $[-78;78]$ có $78$ số nguyên âm và thêm $m=44$ nếu thuộc đoạn. Vậy có $79$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "11",
+      "M": "78"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-66;66]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $133$.\nB. $66$.\nC. $68$.\nD. $67$.",
+    "dap_an": "D. $67$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-66;66]$ có $66$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $67$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "66"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-90;90]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $92$.\nB. $91$.\nC. $181$.\nD. $90$.",
+    "dap_an": "B. $91$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-90;90]$ có $90$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $91$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "90"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-59;59]$ để phương trình $\\log(mx)=2\\log(x+1)$ có nghiệm duy nhất?\n\nA. $59$.\nB. $60$.\nC. $61$.\nD. $119$.",
+    "dap_an": "B. $60$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-1$. Đặt $f(x)=\\dfrac{(x+1)^2}{x}=x+2+\\dfrac{1}{x}$. Khi $m<0$, điều kiện buộc $-1<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{1}{x^2}<0$, đồng thời $\\lim_{x\\to-1^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=1$, là điểm đạt giá trị nhỏ nhất $f(1)=4$. Do đó phương trình có đúng một nghiệm khi $m=4$ (nghiệm kép $x=1$); với $m>4$ có hai nghiệm dương, còn $0<m<4$ không có nghiệm. Trong đoạn $[-59;59]$ có $59$ số nguyên âm và thêm $m=4$ nếu thuộc đoạn. Vậy có $60$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "1",
+      "M": "59"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-45;45]$ để phương trình $\\log(mx)=2\\log(x+12)$ có nghiệm duy nhất?\n\nA. $45$.\nB. $47$.\nC. $91$.\nD. $46$.",
+    "dap_an": "A. $45$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-12$. Đặt $f(x)=\\dfrac{(x+12)^2}{x}=x+24+\\dfrac{144}{x}$. Khi $m<0$, điều kiện buộc $-12<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{144}{x^2}<0$, đồng thời $\\lim_{x\\to-12^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=12$, là điểm đạt giá trị nhỏ nhất $f(12)=48$. Do đó phương trình có đúng một nghiệm khi $m=48$ (nghiệm kép $x=12$); với $m>48$ có hai nghiệm dương, còn $0<m<48$ không có nghiệm. Trong đoạn $[-45;45]$ có $45$ số nguyên âm và thêm $m=48$ nếu thuộc đoạn. Vậy có $45$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "12",
+      "M": "45"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-33;33]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $33$.\nB. $35$.\nC. $67$.\nD. $34$.",
+    "dap_an": "D. $34$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-33;33]$ có $33$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $34$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "33"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-101;101]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $102$.\nB. $103$.\nC. $101$.\nD. $203$.",
+    "dap_an": "A. $102$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-101;101]$ có $101$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $102$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "101"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-53;53]$ để phương trình $\\log(mx)=2\\log(x+8)$ có nghiệm duy nhất?\n\nA. $54$.\nB. $55$.\nC. $53$.\nD. $107$.",
+    "dap_an": "A. $54$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-8$. Đặt $f(x)=\\dfrac{(x+8)^2}{x}=x+16+\\dfrac{64}{x}$. Khi $m<0$, điều kiện buộc $-8<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{64}{x^2}<0$, đồng thời $\\lim_{x\\to-8^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=8$, là điểm đạt giá trị nhỏ nhất $f(8)=32$. Do đó phương trình có đúng một nghiệm khi $m=32$ (nghiệm kép $x=8$); với $m>32$ có hai nghiệm dương, còn $0<m<32$ không có nghiệm. Trong đoạn $[-53;53]$ có $53$ số nguyên âm và thêm $m=32$ nếu thuộc đoạn. Vậy có $54$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "8",
+      "M": "53"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-64;64]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $65$.\nB. $66$.\nC. $64$.\nD. $129$.",
+    "dap_an": "A. $65$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-64;64]$ có $64$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $65$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "64"
+    }
+  },
+  {
+    "id_goc": "p042_q45",
+    "ma_dang": "D25",
+    "ten_dang": "Count integer parameter values yielding a unique logarithmic solution",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-25;25]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?\n\nA. $27$.\nB. $26$.\nC. $51$.\nD. $25$.",
+    "dap_an": "B. $26$.",
+    "loi_giai": "Điều kiện: $mx>0$ và $x>-3$. Đặt $f(x)=\\dfrac{(x+3)^2}{x}=x+6+\\dfrac{9}{x}$. Khi $m<0$, điều kiện buộc $-3<x<0$. Trên khoảng này, $f'(x)=1-\\dfrac{9}{x^2}<0$, đồng thời $\\lim_{x\\to-3^+}f(x)=0$ và $\\lim_{x\\to0^-}f(x)=-\\infty$. Vì vậy mỗi $m<0$ cho đúng một nghiệm. Khi $m>0$, ta có $x>0$; $f'(x)=0$ tại $x=3$, là điểm đạt giá trị nhỏ nhất $f(3)=12$. Do đó phương trình có đúng một nghiệm khi $m=12$ (nghiệm kép $x=3$); với $m>12$ có hai nghiệm dương, còn $0<m<12$ không có nghiệm. Trong đoạn $[-25;25]$ có $25$ số nguyên âm và thêm $m=12$ nếu thuộc đoạn. Vậy có $26$ giá trị nguyên của $m$.",
+    "params": {
+      "p": "3",
+      "M": "25"
     }
   }
 ]

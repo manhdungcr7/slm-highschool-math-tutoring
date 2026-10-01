@@ -361,14 +361,14 @@ GENERATORS = {
              [(2, 2), (3, 4), (5, 3), (7, 2), (2, 5), (10, 3)]),
     "D30": (gen_D30, verify_D30, ["p065_q05"], [(2, 2), (3, 3), (5, 2), (10, 4), (7, 3), (2, 4)]),
     "D54": (gen_D54, verify_D54, ["p125_q28"], [(3, 2), (5, 3), (7, 4), (4, 3), (9, 5), (5, 2)]),
-    "D59": (gen_D59, verify_D59, ["p138_q06"], [(2,), (3,), (4,), (5,), (6,), (7,)]),
+    "D59": (gen_D59, verify_D59, ["p138_q06"], [(3,), (4,), (5,), (6,), (7,), (8,)]),
     "D60": (gen_D60, verify_D60, ["p139_q15"],
             [(3, 2), (2, 3), (1, 4), (4, 2), (2, 5), (3, 3)]),
     "D66": (gen_D66, verify_D66, ["p154_q11"], [(3, 3), (2, 4), (5, 5), (2, 8), (10, 10), (3, 9)]),
     "D76": (gen_D76, verify_D76, ["p191_q12"], [(2,), (3,), (4,), (5,), (6,), (7,)]),
     "D81": (gen_D81, verify_D81, ["p208_q17"], [(3,), (2,), (4,), (5,), (6,), (7,)]),
     "D90": (gen_D90, verify_D90, ["p237_q17"],
-            [(4, 10), (2, 3), (6, 5), (4, 2), (2, 10), (6, 3)]),
+            [(5, 10), (2, 3), (6, 5), (4, 2), (2, 10), (6, 3)]),
 }
 
 TEN_DANG_OVERRIDE = {
@@ -397,6 +397,10 @@ def expand_type(code, gen_fn, verify_fn, sampler, seed=0, target=90, max_tries=5
             continue
         key = tuple(sorted((k,str(v)) for k,v in params.items()))
         if key in seen_params or q in seen_questions:
+            continue
+        if code == "D59" and str(params.get("k")) == "2":
+            continue
+        if code == "D90" and str(params.get("coef")) == "4" and str(params.get("c")) == "10":
             continue
         opts = __import__("re").findall(r"(?m)^([A-D])\.\s*(.+)$", q)
         norm = [__import__("re").sub(r"[\s$.,]", "", v) for _,v in opts]

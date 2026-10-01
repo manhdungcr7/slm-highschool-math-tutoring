@@ -447,7 +447,7 @@ def verify_D51_full(params, expected_count):
 def main():
     fails = []
     fails += try_add("D15", "Đạo hàm hàm hợp chứa lôgarit tự nhiên", "p021_q18", gen_D15, verify_D15,
-                      [(v,) for v in (1, 2, 3, 0, 4, 5)])
+                      [(v,) for v in (2, 3, 0, 4, 5, 6)])
     fails += try_add("D05", "Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa", "p006_q16",
                       gen_D05, verify_D05, [(2, 7), (3, 5), (2, 9), (5, 3), (2, 11), (3, 7)])
     fails += try_add("D45", "Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x", "p099_q31", gen_D45, verify_D45,

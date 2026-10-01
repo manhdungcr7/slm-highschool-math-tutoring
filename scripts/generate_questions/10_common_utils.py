@@ -6,7 +6,7 @@ import sympy as sp
 
 def latex(expr):
     expr = sp.sympify(expr)
-    s = sp.latex(sp.nsimplify(expr))
+    s = sp.latex(expr)
     s = s.replace(r"\frac", r"\dfrac")
     return s
 

@@ -98,6 +98,13 @@ def try_add(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, args_list):
         key = tuple(sorted(params.items()))
         if key in seen_params or de_bai in seen_questions:
             continue
+        source_params = {"D02": {"a": "4"}, "D43": {"k": "1"}, "D80": {"a": "7"}}
+        if ma_dang in source_params and all(str(params.get(k)) == v for k, v in source_params[ma_dang].items()):
+            continue
+        # Do not count a generated item that exactly repeats the source question.
+        source_params = {"D02": {"a": "4"}, "D43": {"k": "1"}, "D80": {"a": "7"}}
+        if ma_dang in source_params and all(str(params.get(k)) == v for k, v in source_params[ma_dang].items()):
+            continue
         try:
             valid = verify_fn(params)
         except Exception:
@@ -687,7 +694,7 @@ def gen_D63(a, k_coef, C, N_exp):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"ĐK $x>0$. $x_1x_2={N}\\Leftrightarrow \\log_{{{a}}}x_1+\\log_{{{a}}}x_2={N_exp}\\Leftrightarrow t_1+t_2={N_exp}$.\n"
-        f"\u0110\u1eb7t $t=\\log_{{{a}}}x$: ${poly}$. Theo Vi\u00e8te, $t_1+t_2=m$, n\u00ean \u0111i\u1ec1u ki\u1ec7n t\u00edch nghi\u1ec7m bu\u1ed9c $m={N_exp}$. Thay v\u00e0o, $\\Delta={latex(disc)}>0$, do \u0111\u00f3 ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 hai nghi\u1ec7m th\u1ef1c ph\u00e2n bi\u1ec7t. V\u1eady $m={m}."
+        f"\u0110\u1eb7t $t=\\log_{{{a}}}x$: ${poly}$. Theo Vi\u00e8te, $t_1+t_2=m$, n\u00ean \u0111i\u1ec1u ki\u1ec7n t\u00edch nghi\u1ec7m bu\u1ed9c $m={N_exp}$. Thay v\u00e0o, $\\Delta={latex(disc)}>0$, do \u0111\u00f3 ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 hai nghi\u1ec7m th\u1ef1c ph\u00e2n bi\u1ec7t. V\u1eady $m={m}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), k_coef=str(k_coef), C=str(C), N_exp=str(N_exp))
 
@@ -814,8 +821,12 @@ def gen_D91(a, m1, c1, m2, c2):
     a, m1, c1, m2, c2 = (sp.Integer(v) for v in (a, m1, c1, m2, c2))
     assert m1 != m2
     sol = sp.Rational(c2 - c1, m1 - m2)
-    lhs = f"{m1}x" + (f"+{c1}" if c1 > 0 else (f"{c1}" if c1 < 0 else ""))
-    rhs = f"{m2}x" + (f"+{c2}" if c2 > 0 else (f"{c2}" if c2 < 0 else ""))
+    def linear(ax, b):
+        x_term = "" if ax == 0 else ("x" if ax == 1 else ("-x" if ax == -1 else f"{ax}x"))
+        const = f"+{b}" if b > 0 and x_term else (f"{b}" if b > 0 or b < 0 else "")
+        return (x_term + const) or "0"
+    lhs = linear(m1, c1)
+    rhs = linear(m2, c2)
     de_bai = f"Nghiệm của phương trình ${a}^{{{lhs}}}={a}^{{{rhs}}}$ là\n\n"
     correct = f"x={latex(sol)}"
     wrong1 = f"x={latex(-sol)}"

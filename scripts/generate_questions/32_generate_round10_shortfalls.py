@@ -25,6 +25,13 @@ basic = load_module("17_generate_basic_eq.py")
 utils = basic.utils
 
 
+def question_signature(text):
+    stem, _, choices = text.partition("\n\n")
+    options = re.findall(r"(?m)^([A-D])\.\s*(.+)$", choices)
+    normalize = lambda value: re.sub(r"\s+", "", value.strip().strip("$."))
+    return normalize(stem), tuple(sorted(normalize(value) for _, value in options))
+
+
 def question_rows(code):
     rows = []
     for path in sorted(DATA.glob("*.json")):
@@ -121,9 +128,9 @@ def main():
     old51 = question_rows("D51")
     originals = {json.loads(line)["id"]: json.loads(line)["de_bai"]
                  for line in (ROOT / "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_goc.jsonl").read_text(encoding="utf-8").splitlines()}
-    seen43 = {row["de_bai"] for row in old43} | {originals["p095_q16"]}
+    seen43 = {question_signature(row["de_bai"]) for row in old43} | {question_signature(originals["p095_q16"])}
     seen43_k = {sp.Rational(row["params"]["k"]) for row in old43}
-    seen51 = {row["de_bai"] for row in old51} | {originals["p115_q39"]}
+    seen51 = {question_signature(row["de_bai"]) for row in old51} | {question_signature(originals["p115_q39"])}
     new_rows = []
 
     # Keep the threshold in [-10, 10] and represent it exactly.
@@ -145,10 +152,11 @@ def main():
             "de_bai": generated[0], "dap_an": generated[1],
             "loi_giai": generated[2], "params": generated[3],
         }
-        if row["de_bai"] in seen43:
+        signature = question_signature(row["de_bai"])
+        if signature in seen43:
             continue
         assert verify_D43(row)
-        seen43.add(row["de_bai"])
+        seen43.add(signature)
         seen43_k.add(k)
         new_rows.append(row)
     added43 = sum(row["ma_dang"] == "D43" for row in new_rows)
@@ -160,9 +168,10 @@ def main():
         if len(old51) + added51 >= 90:
             break
         row = make_D51(u, v)
-        if row["de_bai"] in seen51:
+        signature = question_signature(row["de_bai"])
+        if signature in seen51:
             continue
-        seen51.add(row["de_bai"])
+        seen51.add(signature)
         new_rows.append(row)
         added51 += 1
     assert len(old51) + added51 == 90, (len(old51), added51)

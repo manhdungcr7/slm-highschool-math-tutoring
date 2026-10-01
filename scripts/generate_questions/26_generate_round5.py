@@ -139,8 +139,9 @@ def gen_D39(p, q, c, disc_ok):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Đặt $t$ là giá trị chung. $x=({p**2})^t,y=({p*q})^t,{cx_str}=({q**2})^t$. Chia cả hai vế cho "
-        f"$({q**2})^t$ và đặt $u=(p/q)^t=x/y$: ${c}u^2+u-1=0\\Rightarrow u={correct}$."
+        f"Đặt $t$ là giá trị chung. $x=({p**2})^t$, $y=({p*q})^t$ và ${cx_str}=({q**2})^t$. "
+        f"Chia hai vế cho $({q**2})^t$ và đặt $u=({p}/{q})^t=x/y$, ta được "
+        f"${c}u^2+u-1=0\\Rightarrow u={correct}$. Vì $u=x/y$, đây là giá trị cần tìm."
     )
     return de_bai, dap_an, loi_giai, dict(p=str(p), q=str(q), c=str(c))
 
