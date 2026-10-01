@@ -62,15 +62,17 @@ def gen_D29(B, r, k, p):
     wrong1, wrong2, wrong3 = str(count + 1), str(count - 1 if count > 1 else count + 2), str(2 * count)
     vals = bump_until_distinct([sp.Integer(count), count + 1, count - 1, 2 * count])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
+    k_term = "" if k == 1 else f"{k}\\cdot"
+    kt = "t" if k == 1 else f"{k}t"
     de_bai = (
         f"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương "
-        f"${A}^x-{k}\\cdot{C}^x+(m-{p})\\cdot{B}^x=0$?\n\n"
+        f"${A}^x-{k_term}{C}^x+(m-{p})\\cdot{B}^x=0$?\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
         f"Chia hai vế cho ${B}^x$, đặt $t=\\left({r}\\right)^x>0$ (nghiệm dương $x>0\\Leftrightarrow t>1$): "
-        f"$t^2-{k}t+m-{p}=0\\Leftrightarrow m={p}+{k}t-t^2=f(t)$. V\u1edbi $t>1$, "
+        f"$t^2-{kt}+m-{p}=0\\Leftrightarrow m={p}+{kt}-t^2=f(t)$. V\u1edbi $t>1$, "
         f"$f\'(t)={k}-2t<{k}-2\\le0$ v\u00ec ${k}\\le2$, n\u00ean $f$ ngh\u1ecbch bi\u1ebfn tr\u00ean $(1;+\\infty)$. "
         f"Do \u0111\u00f3 $m<f(1)={bound}$. V\u1eady c\u00f3 ${count}$ gi\u00e1 tr\u1ecb nguy\u00ean d\u01b0\u01a1ng $m\\in\\{{1,\\ldots,{bound-1}\\}}$."
     )

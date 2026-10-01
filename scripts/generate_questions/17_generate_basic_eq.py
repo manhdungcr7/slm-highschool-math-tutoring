@@ -218,8 +218,9 @@ def verify_D14(params):
 def gen_D19(a, m, c, k):
     a, m, c, k = sp.Integer(a), sp.Integer(m), sp.Integer(c), sp.Integer(k)
     boundary = sp.Rational(k - c, m)
-    lhs_str = f"{a}^{{{m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) + "}"
-    lhs_plain = f"{a}^{{{m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) + "}"
+    exponent = _linear_term(m, c)
+    lhs_str = f"{a}^{{{exponent}}}"
+    lhs_plain = lhs_str
     de_bai = f"Tìm tập nghiệm của bất phương trình ${lhs_str} - {a}^{{{k}}} > 0$.\n\n"
     same_dir_vals = bump_until_distinct([boundary, sp.Rational(k + c, m), k - c])
     _, w2v, w3v = same_dir_vals
@@ -231,8 +232,7 @@ def gen_D19(a, m, c, k):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"${lhs_str} - {a}^{{{k}}} > 0 \\Leftrightarrow {lhs_plain} > {a}^{{{k}}} "
-        f"\\Leftrightarrow {m}x" + (f"+{c}" if c > 0 else (f"{c}" if c < 0 else "")) +
-        f">{k} \\Leftrightarrow x>{latex(boundary)}$."
+        f"\\Leftrightarrow {exponent}>{k} \\Leftrightarrow x>{latex(boundary)}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), m=str(m), c=str(c), k=str(k))
 

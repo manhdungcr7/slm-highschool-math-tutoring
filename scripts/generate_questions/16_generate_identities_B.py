@@ -325,8 +325,14 @@ def gen_D87(c, s, u, p):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     b_minus_s = "b" if s == 0 else f"b-{s}"
-    loi_giai = (
-        f"$\\log_{{{c}}}({ka}a)=b\\Leftrightarrow {premise_sum}=b\\Leftrightarrow\\log_{{{c}}}a={b_minus_s}$.\n"
+    if s == 0:
+        first_step = f"$\\log_{{{c}}}a=b$.\n"
+    else:
+        first_step = (
+            f"$\\log_{{{c}}}({ka}a)=b\\Leftrightarrow {premise_sum}=b"
+            f"\\Leftrightarrow\\log_{{{c}}}a={b_minus_s}$.\n"
+        )
+    loi_giai = first_step + (
         f"$\\log_{{{c}}}({km}a^{{{p}}})={target_sum}={target_substitution}={correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(c=str(c), s=str(s), u=str(u), p=str(p))

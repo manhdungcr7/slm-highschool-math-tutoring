@@ -13608,7 +13608,7 @@ D. $16$.",B. $15$.,$(4096)^{\log_2(ab)}=(2^{\log_2(ab)})^{12}=(ab)^{12}=15a \Lef
 A. $4b$.
 B. $8b+3$.
 C. $4b+5$.
-D. $4b+3$.",D. $4b+3$.,"$\log_{3}(a)=b\Leftrightarrow \log_{3}a=b\Leftrightarrow\log_{3}a=b$.
+D. $4b+3$.",D. $4b+3$.,"$\log_{3}a=b$.
 $\log_{3}(27a^{4})=3+4\log_{3}a=3+4b=4b+3$."
 2272,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{5}(625a)=b$, khi đó $\log_{5}(3125a^{2})$ bằng
 
@@ -13629,7 +13629,7 @@ $\log_{6}(a^{6})=6\log_{6}a=6(b-1)=6b-6$."
 A. $3b+1$.
 B. $3b$.
 C. $6b+1$.
-D. $3b+3$.",A. $3b+1$.,"$\log_{2}(a)=b\Leftrightarrow \log_{2}a=b\Leftrightarrow\log_{2}a=b$.
+D. $3b+3$.",A. $3b+1$.,"$\log_{2}a=b$.
 $\log_{2}(2a^{3})=1+3\log_{2}a=1+3b=3b+1$."
 2275,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{3}(9a)=b$, khi đó $\log_{3}(243a^{5})$ bằng
 
@@ -13692,7 +13692,7 @@ $\log_{6}(7776a^{2})=5+2\log_{6}a=5+2(b-4)=2b-3$."
 A. $8b+7$.
 B. $4b+9$.
 C. $4b$.
-D. $4b+7$.",D. $4b+7$.,"$\log_{4}(a)=b\Leftrightarrow \log_{4}a=b\Leftrightarrow\log_{4}a=b$.
+D. $4b+7$.",D. $4b+7$.,"$\log_{4}a=b$.
 $\log_{4}(16384a^{4})=7+4\log_{4}a=7+4b=4b+7$."
 2284,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{4}(256a)=b$, khi đó $\log_{4}(64a^{6})$ bằng
 
@@ -13706,7 +13706,7 @@ $\log_{4}(64a^{6})=3+6\log_{4}a=3+6(b-4)=6b-21$."
 A. $5b+1$.
 B. $5b+3$.
 C. $10b+1$.
-D. $5b$.",A. $5b+1$.,"$\log_{6}(a)=b\Leftrightarrow \log_{6}a=b\Leftrightarrow\log_{6}a=b$.
+D. $5b$.",A. $5b+1$.,"$\log_{6}a=b$.
 $\log_{6}(6a^{5})=1+5\log_{6}a=1+5b=5b+1$."
 2286,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{3}(81a)=b$, khi đó $\log_{3}(2187a^{5})$ bằng
 
@@ -13790,7 +13790,7 @@ $\log_{6}(36a^{6})=2+6\log_{6}a=2+6(b-3)=6b-16$."
 A. $6b+7$.
 B. $12b+7$.
 C. $6b$.
-D. $6b+9$.",A. $6b+7$.,"$\log_{3}(a)=b\Leftrightarrow \log_{3}a=b\Leftrightarrow\log_{3}a=b$.
+D. $6b+9$.",A. $6b+7$.,"$\log_{3}a=b$.
 $\log_{3}(2187a^{6})=7+6\log_{3}a=7+6b=6b+7$."
 2298,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{4}(16a)=b$, khi đó $\log_{4}(4096a^{6})$ bằng
 
@@ -13846,7 +13846,7 @@ $\log_{3}(243a^{2})=5+2\log_{3}a=5+2(b-6)=2b-7$."
 A. $5b-2$.
 B. $10b$.
 C. $5b$.
-D. $5b+2$.",C. $5b$.,"$\log_{6}(a)=b\Leftrightarrow \log_{6}a=b\Leftrightarrow\log_{6}a=b$.
+D. $5b+2$.",C. $5b$.,"$\log_{6}a=b$.
 $\log_{6}(a^{5})=5\log_{6}a=5b=5b$."
 2306,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{5}(25a)=b$, khi đó $\log_{5}(25a^{5})$ bằng
 
@@ -13860,7 +13860,7 @@ $\log_{5}(25a^{5})=2+5\log_{5}a=2+5(b-2)=5b-8$."
 A. $4b+2$.
 B. $4b$.
 C. $4b+4$.
-D. $8b+2$.",A. $4b+2$.,"$\log_{5}(a)=b\Leftrightarrow \log_{5}a=b\Leftrightarrow\log_{5}a=b$.
+D. $8b+2$.",A. $4b+2$.,"$\log_{5}a=b$.
 $\log_{5}(25a^{4})=2+4\log_{5}a=2+4b=4b+2$."
 2308,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(64a)=b$, khi đó $\log_{2}(32a^{4})$ bằng
 
@@ -13881,7 +13881,7 @@ $\log_{2}(2a^{6})=1+6\log_{2}a=1+6(b-5)=6b-29$."
 A. $2b+9$.
 B. $4b+7$.
 C. $2b+7$.
-D. $2b$.",C. $2b+7$.,"$\log_{6}(a)=b\Leftrightarrow \log_{6}a=b\Leftrightarrow\log_{6}a=b$.
+D. $2b$.",C. $2b+7$.,"$\log_{6}a=b$.
 $\log_{6}(279936a^{2})=7+2\log_{6}a=7+2b=2b+7$."
 2311,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{4}(4a)=b$, khi đó $\log_{4}(16384a^{4})$ bằng
 
@@ -13916,7 +13916,7 @@ $\log_{4}(4a^{6})=1+6\log_{4}a=1+6(b-1)=6b-5$."
 A. $12b+3$.
 B. $6b$.
 C. $6b+3$.
-D. $6b+5$.",C. $6b+3$.,"$\log_{5}(a)=b\Leftrightarrow \log_{5}a=b\Leftrightarrow\log_{5}a=b$.
+D. $6b+5$.",C. $6b+3$.,"$\log_{5}a=b$.
 $\log_{5}(125a^{6})=3+6\log_{5}a=3+6b=6b+3$."
 2316,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(64a)=b$, khi đó $\log_{2}(128a^{2})$ bằng
 
@@ -13930,7 +13930,7 @@ $\log_{2}(128a^{2})=7+2\log_{2}a=7+2(b-6)=2b-5$."
 A. $2b-2$.
 B. $4b$.
 C. $2b+2$.
-D. $2b$.",D. $2b$.,"$\log_{3}(a)=b\Leftrightarrow \log_{3}a=b\Leftrightarrow\log_{3}a=b$.
+D. $2b$.",D. $2b$.,"$\log_{3}a=b$.
 $\log_{3}(a^{2})=2\log_{3}a=2b=2b$."
 2318,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{4}(1024a)=b$, khi đó $\log_{4}(4a^{5})$ bằng
 
@@ -13951,7 +13951,7 @@ $\log_{2}(128a^{2})=7+2\log_{2}a=7+2(b-1)=2b+5$."
 A. $5b+7$.
 B. $5b+5$.
 C. $5b$.
-D. $10b+5$.",B. $5b+5$.,"$\log_{4}(a)=b\Leftrightarrow \log_{4}a=b\Leftrightarrow\log_{4}a=b$.
+D. $10b+5$.",B. $5b+5$.,"$\log_{4}a=b$.
 $\log_{4}(1024a^{5})=5+5\log_{4}a=5+5b=5b+5$."
 2321,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{3}(3a)=b$, khi đó $\log_{3}(729a^{5})$ bằng
 
@@ -14056,7 +14056,7 @@ $\log_{5}(a^{4})=4\log_{5}a=4(b-5)=4b-20$."
 A. $4b+6$.
 B. $2b$.
 C. $2b+6$.
-D. $2b+8$.",C. $2b+6$.,"$\log_{2}(a)=b\Leftrightarrow \log_{2}a=b\Leftrightarrow\log_{2}a=b$.
+D. $2b+8$.",C. $2b+6$.,"$\log_{2}a=b$.
 $\log_{2}(64a^{2})=6+2\log_{2}a=6+2b=2b+6$."
 2336,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{2}(8a)=b$, khi đó $\log_{2}(16a^{6})$ bằng
 
@@ -14091,7 +14091,7 @@ $\log_{5}(125a^{5})=3+5\log_{5}a=3+5(b-3)=5b-12$."
 A. $5b+5$.
 B. $5b+3$.
 C. $10b+3$.
-D. $5b$.",B. $5b+3$.,"$\log_{4}(a)=b\Leftrightarrow \log_{4}a=b\Leftrightarrow\log_{4}a=b$.
+D. $5b$.",B. $5b+3$.,"$\log_{4}a=b$.
 $\log_{4}(64a^{5})=3+5\log_{4}a=3+5b=5b+3$."
 2341,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{5}(25a)=b$, khi đó $\log_{5}(a^{6})$ bằng
 
@@ -14119,7 +14119,7 @@ $\log_{4}(16384a^{2})=7+2\log_{4}a=7+2(b-5)=2b-3$."
 A. $2b+4$.
 B. $2b+2$.
 C. $4b+2$.
-D. $2b$.",B. $2b+2$.,"$\log_{5}(a)=b\Leftrightarrow \log_{5}a=b\Leftrightarrow\log_{5}a=b$.
+D. $2b$.",B. $2b+2$.,"$\log_{5}a=b$.
 $\log_{5}(25a^{2})=2+2\log_{5}a=2+2b=2b+2$."
 2345,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{4}(16a)=b$, khi đó $\log_{4}(4a^{6})$ bằng
 
@@ -14133,7 +14133,7 @@ $\log_{4}(4a^{6})=1+6\log_{4}a=1+6(b-2)=6b-11$."
 A. $6b$.
 B. $6b+6$.
 C. $6b+8$.
-D. $12b+6$.",B. $6b+6$.,"$\log_{6}(a)=b\Leftrightarrow \log_{6}a=b\Leftrightarrow\log_{6}a=b$.
+D. $12b+6$.",B. $6b+6$.,"$\log_{6}a=b$.
 $\log_{6}(46656a^{6})=6+6\log_{6}a=6+6b=6b+6$."
 2347,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{3}(81a)=b$, khi đó $\log_{3}(a^{6})$ bằng
 
@@ -14217,7 +14217,7 @@ $\log_{5}(78125a^{3})=7+3\log_{5}a=7+3(b-1)=3b+4$."
 A. $2b+2$.
 B. $4b$.
 C. $2b$.
-D. $2b-2$.",C. $2b$.,"$\log_{2}(a)=b\Leftrightarrow \log_{2}a=b\Leftrightarrow\log_{2}a=b$.
+D. $2b-2$.",C. $2b$.,"$\log_{2}a=b$.
 $\log_{2}(a^{2})=2\log_{2}a=2b=2b$."
 2359,D87,Nhân bản,p225_q31,chuan,"Với $a>0$, đặt $\log_{5}(5a)=b$, khi đó $\log_{5}(a^{5})$ bằng
 
@@ -16477,12 +16477,12 @@ B. $S=\left(\dfrac{4}{5};2\right)$.
 C. $S=(\dfrac{4}{5};+\infty)$.
 D. $S=(2;+\infty)$.",B. $S=\left(\dfrac{4}{5};2\right)$.,"Điều kiện: $x>\dfrac{4}{5}$. Bất phương trình $\Leftrightarrow x+4>5x-4 \Leftrightarrow x<2$.
 Kết hợp điều kiện, $S=\left(\dfrac{4}{5};2\right)$."
-2720,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $5^{1x+5} - 5^{1} > 0$.
+2720,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $5^{x+5} - 5^{1} > 0$.
 
 A. $S=(-3;+\infty)$.
 B. $S=(6;+\infty)$.
 C. $S=(-4;+\infty)$.
-D. $S=(-\infty;-4)$.",C. $S=(-4;+\infty)$.,$5^{1x+5} - 5^{1} > 0 \Leftrightarrow 5^{1x+5} > 5^{1} \Leftrightarrow 1x+5>1 \Leftrightarrow x>-4$.
+D. $S=(-\infty;-4)$.",C. $S=(-4;+\infty)$.,$5^{x+5} - 5^{1} > 0 \Leftrightarrow 5^{x+5} > 5^{1} \Leftrightarrow x+5>1 \Leftrightarrow x>-4$.
 2721,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{3x+4} - 4^{-4} > 0$.
 
 A. $S=(-\infty;- \dfrac{8}{3})$.
@@ -16519,12 +16519,12 @@ A. $S=(-5;+\infty)$.
 B. $S=(-\infty;- \dfrac{5}{4})$.
 C. $S=(\dfrac{5}{4};+\infty)$.
 D. $S=(- \dfrac{5}{4};+\infty)$.",D. $S=(- \dfrac{5}{4};+\infty)$.,$3^{4x+5} - 3^{0} > 0 \Leftrightarrow 3^{4x+5} > 3^{0} \Leftrightarrow 4x+5>0 \Leftrightarrow x>- \dfrac{5}{4}$.
-2727,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{1x+4} - 7^{3} > 0$.
+2727,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{x+4} - 7^{3} > 0$.
 
 A. $S=(0;+\infty)$.
 B. $S=(-\infty;-1)$.
 C. $S=(7;+\infty)$.
-D. $S=(-1;+\infty)$.",D. $S=(-1;+\infty)$.,$7^{1x+4} - 7^{3} > 0 \Leftrightarrow 7^{1x+4} > 7^{3} \Leftrightarrow 1x+4>3 \Leftrightarrow x>-1$.
+D. $S=(-1;+\infty)$.",D. $S=(-1;+\infty)$.,$7^{x+4} - 7^{3} > 0 \Leftrightarrow 7^{x+4} > 7^{3} \Leftrightarrow x+4>3 \Leftrightarrow x>-1$.
 2728,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $8^{4x+4} - 8^{-3} > 0$.
 
 A. $S=(\dfrac{1}{4};+\infty)$.
@@ -16567,12 +16567,12 @@ A. $S=(-\infty;\dfrac{8}{3})$.
 B. $S=(\dfrac{8}{3};+\infty)$.
 C. $S=(8;+\infty)$.
 D. $S=(- \dfrac{2}{3};+\infty)$.",B. $S=(\dfrac{8}{3};+\infty)$.,$7^{3x-5} - 7^{3} > 0 \Leftrightarrow 7^{3x-5} > 7^{3} \Leftrightarrow 3x-5>3 \Leftrightarrow x>\dfrac{8}{3}$.
-2735,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{1x-1} - 7^{5} > 0$.
+2735,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{x-1} - 7^{5} > 0$.
 
 A. $S=(-\infty;6)$.
 B. $S=(6;+\infty)$.
 C. $S=(7;+\infty)$.
-D. $S=(4;+\infty)$.",B. $S=(6;+\infty)$.,$7^{1x-1} - 7^{5} > 0 \Leftrightarrow 7^{1x-1} > 7^{5} \Leftrightarrow 1x-1>5 \Leftrightarrow x>6$.
+D. $S=(4;+\infty)$.",B. $S=(6;+\infty)$.,$7^{x-1} - 7^{5} > 0 \Leftrightarrow 7^{x-1} > 7^{5} \Leftrightarrow x-1>5 \Leftrightarrow x>6$.
 2736,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{3x+5} - 3^{-3} > 0$.
 
 A. $S=(-\infty;- \dfrac{8}{3})$.
@@ -16591,12 +16591,12 @@ A. $S=(-\infty;- \dfrac{3}{5})$.
 B. $S=(- \dfrac{1}{5};+\infty)$.
 C. $S=(- \dfrac{3}{5};+\infty)$.
 D. $S=(-3;+\infty)$.",C. $S=(- \dfrac{3}{5};+\infty)$.,$8^{5x+1} - 8^{-2} > 0 \Leftrightarrow 8^{5x+1} > 8^{-2} \Leftrightarrow 5x+1>-2 \Leftrightarrow x>- \dfrac{3}{5}$.
-2739,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{1x-1} - 4^{4} > 0$.
+2739,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{x-1} - 4^{4} > 0$.
 
 A. $S=(-\infty;5)$.
 B. $S=(5;+\infty)$.
 C. $S=(6;+\infty)$.
-D. $S=(3;+\infty)$.",B. $S=(5;+\infty)$.,$4^{1x-1} - 4^{4} > 0 \Leftrightarrow 4^{1x-1} > 4^{4} \Leftrightarrow 1x-1>4 \Leftrightarrow x>5$.
+D. $S=(3;+\infty)$.",B. $S=(5;+\infty)$.,$4^{x-1} - 4^{4} > 0 \Leftrightarrow 4^{x-1} > 4^{4} \Leftrightarrow x-1>4 \Leftrightarrow x>5$.
 2740,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $8^{2x-4} - 8^{7} > 0$.
 
 A. $S=(11;+\infty)$.
@@ -16633,24 +16633,24 @@ A. $S=(1;+\infty)$.
 B. $S=(2;+\infty)$.
 C. $S=(0;+\infty)$.
 D. $S=(-\infty;0)$.",C. $S=(0;+\infty)$.,$8^{5x} - 8^{0} > 0 \Leftrightarrow 8^{5x} > 8^{0} \Leftrightarrow 5x>0 \Leftrightarrow x>0$.
-2746,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{1x-3} - 6^{1} > 0$.
+2746,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{x-3} - 6^{1} > 0$.
 
 A. $S=(5;+\infty)$.
 B. $S=(4;+\infty)$.
 C. $S=(-2;+\infty)$.
-D. $S=(-\infty;4)$.",B. $S=(4;+\infty)$.,$6^{1x-3} - 6^{1} > 0 \Leftrightarrow 6^{1x-3} > 6^{1} \Leftrightarrow 1x-3>1 \Leftrightarrow x>4$.
+D. $S=(-\infty;4)$.",B. $S=(4;+\infty)$.,$6^{x-3} - 6^{1} > 0 \Leftrightarrow 6^{x-3} > 6^{1} \Leftrightarrow x-3>1 \Leftrightarrow x>4$.
 2747,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{2x-3} - 6^{-4} > 0$.
 
 A. $S=(- \dfrac{1}{2};+\infty)$.
 B. $S=(- \dfrac{7}{2};+\infty)$.
 C. $S=(-\infty;- \dfrac{1}{2})$.
 D. $S=(-1;+\infty)$.",A. $S=(- \dfrac{1}{2};+\infty)$.,$6^{2x-3} - 6^{-4} > 0 \Leftrightarrow 6^{2x-3} > 6^{-4} \Leftrightarrow 2x-3>-4 \Leftrightarrow x>- \dfrac{1}{2}$.
-2748,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{1x-6} - 7^{4} > 0$.
+2748,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{x-6} - 7^{4} > 0$.
 
 A. $S=(10;+\infty)$.
 B. $S=(-2;+\infty)$.
 C. $S=(11;+\infty)$.
-D. $S=(-\infty;10)$.",A. $S=(10;+\infty)$.,$7^{1x-6} - 7^{4} > 0 \Leftrightarrow 7^{1x-6} > 7^{4} \Leftrightarrow 1x-6>4 \Leftrightarrow x>10$.
+D. $S=(-\infty;10)$.",A. $S=(10;+\infty)$.,$7^{x-6} - 7^{4} > 0 \Leftrightarrow 7^{x-6} > 7^{4} \Leftrightarrow x-6>4 \Leftrightarrow x>10$.
 2749,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{2x-5} - 6^{3} > 0$.
 
 A. $S=(-1;+\infty)$.
@@ -16693,12 +16693,12 @@ A. $S=(2;+\infty)$.
 B. $S=(6;+\infty)$.
 C. $S=(-\infty;3)$.
 D. $S=(3;+\infty)$.",D. $S=(3;+\infty)$.,$7^{2x-1} - 7^{5} > 0 \Leftrightarrow 7^{2x-1} > 7^{5} \Leftrightarrow 2x-1>5 \Leftrightarrow x>3$.
-2756,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{1x-4} - 2^{2} > 0$.
+2756,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{x-4} - 2^{2} > 0$.
 
 A. $S=(6;+\infty)$.
 B. $S=(7;+\infty)$.
 C. $S=(-\infty;6)$.
-D. $S=(-2;+\infty)$.",A. $S=(6;+\infty)$.,$2^{1x-4} - 2^{2} > 0 \Leftrightarrow 2^{1x-4} > 2^{2} \Leftrightarrow 1x-4>2 \Leftrightarrow x>6$.
+D. $S=(-2;+\infty)$.",A. $S=(6;+\infty)$.,$2^{x-4} - 2^{2} > 0 \Leftrightarrow 2^{x-4} > 2^{2} \Leftrightarrow x-4>2 \Leftrightarrow x>6$.
 2757,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{5x-6} - 2^{-1} > 0$.
 
 A. $S=(-\infty;1)$.
@@ -16723,24 +16723,24 @@ A. $S=(0;+\infty)$.
 B. $S=(2;+\infty)$.
 C. $S=(-\infty;0)$.
 D. $S=(1;+\infty)$.",A. $S=(0;+\infty)$.,$5^{5x+5} - 5^{5} > 0 \Leftrightarrow 5^{5x+5} > 5^{5} \Leftrightarrow 5x+5>5 \Leftrightarrow x>0$.
-2761,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{1x+4} - 2^{0} > 0$.
+2761,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{x+4} - 2^{0} > 0$.
 
 A. $S=(-\infty;-4)$.
 B. $S=(4;+\infty)$.
 C. $S=(-3;+\infty)$.
-D. $S=(-4;+\infty)$.",D. $S=(-4;+\infty)$.,$2^{1x+4} - 2^{0} > 0 \Leftrightarrow 2^{1x+4} > 2^{0} \Leftrightarrow 1x+4>0 \Leftrightarrow x>-4$.
+D. $S=(-4;+\infty)$.",D. $S=(-4;+\infty)$.,$2^{x+4} - 2^{0} > 0 \Leftrightarrow 2^{x+4} > 2^{0} \Leftrightarrow x+4>0 \Leftrightarrow x>-4$.
 2762,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{3x+4} - 6^{2} > 0$.
 
 A. $S=(-\infty;- \dfrac{2}{3})$.
 B. $S=(2;+\infty)$.
 C. $S=(-2;+\infty)$.
 D. $S=(- \dfrac{2}{3};+\infty)$.",D. $S=(- \dfrac{2}{3};+\infty)$.,$6^{3x+4} - 6^{2} > 0 \Leftrightarrow 6^{3x+4} > 6^{2} \Leftrightarrow 3x+4>2 \Leftrightarrow x>- \dfrac{2}{3}$.
-2763,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{1x-5} - 7^{-4} > 0$.
+2763,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $7^{x-5} - 7^{-4} > 0$.
 
 A. $S=(-9;+\infty)$.
 B. $S=(1;+\infty)$.
 C. $S=(-\infty;1)$.
-D. $S=(2;+\infty)$.",B. $S=(1;+\infty)$.,$7^{1x-5} - 7^{-4} > 0 \Leftrightarrow 7^{1x-5} > 7^{-4} \Leftrightarrow 1x-5>-4 \Leftrightarrow x>1$.
+D. $S=(2;+\infty)$.",B. $S=(1;+\infty)$.,$7^{x-5} - 7^{-4} > 0 \Leftrightarrow 7^{x-5} > 7^{-4} \Leftrightarrow x-5>-4 \Leftrightarrow x>1$.
 2764,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{4x-3} - 2^{8} > 0$.
 
 A. $S=(11;+\infty)$.
@@ -16765,12 +16765,12 @@ A. $S=(\dfrac{4}{5};+\infty)$.
 B. $S=(4;+\infty)$.
 C. $S=(-\infty;\dfrac{4}{5})$.
 D. $S=(- \dfrac{8}{5};+\infty)$.",A. $S=(\dfrac{4}{5};+\infty)$.,$4^{5x-6} - 4^{-2} > 0 \Leftrightarrow 4^{5x-6} > 4^{-2} \Leftrightarrow 5x-6>-2 \Leftrightarrow x>\dfrac{4}{5}$.
-2768,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{1x+1} - 3^{7} > 0$.
+2768,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{x+1} - 3^{7} > 0$.
 
 A. $S=(7;+\infty)$.
 B. $S=(8;+\infty)$.
 C. $S=(-\infty;6)$.
-D. $S=(6;+\infty)$.",D. $S=(6;+\infty)$.,$3^{1x+1} - 3^{7} > 0 \Leftrightarrow 3^{1x+1} > 3^{7} \Leftrightarrow 1x+1>7 \Leftrightarrow x>6$.
+D. $S=(6;+\infty)$.",D. $S=(6;+\infty)$.,$3^{x+1} - 3^{7} > 0 \Leftrightarrow 3^{x+1} > 3^{7} \Leftrightarrow x+1>7 \Leftrightarrow x>6$.
 2769,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{4x+3} - 6^{6} > 0$.
 
 A. $S=(\dfrac{9}{4};+\infty)$.
@@ -16789,18 +16789,18 @@ A. $S=(\dfrac{3}{2};+\infty)$.
 B. $S=(6;+\infty)$.
 C. $S=(1;+\infty)$.
 D. $S=(-\infty;\dfrac{3}{2})$.",A. $S=(\dfrac{3}{2};+\infty)$.,$8^{4x-1} - 8^{5} > 0 \Leftrightarrow 8^{4x-1} > 8^{5} \Leftrightarrow 4x-1>5 \Leftrightarrow x>\dfrac{3}{2}$.
-2772,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{1x-5} - 4^{4} > 0$.
+2772,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{x-5} - 4^{4} > 0$.
 
 A. $S=(-1;+\infty)$.
 B. $S=(9;+\infty)$.
 C. $S=(10;+\infty)$.
-D. $S=(-\infty;9)$.",B. $S=(9;+\infty)$.,$4^{1x-5} - 4^{4} > 0 \Leftrightarrow 4^{1x-5} > 4^{4} \Leftrightarrow 1x-5>4 \Leftrightarrow x>9$.
-2773,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{1x-3} - 6^{6} > 0$.
+D. $S=(-\infty;9)$.",B. $S=(9;+\infty)$.,$4^{x-5} - 4^{4} > 0 \Leftrightarrow 4^{x-5} > 4^{4} \Leftrightarrow x-5>4 \Leftrightarrow x>9$.
+2773,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{x-3} - 6^{6} > 0$.
 
 A. $S=(9;+\infty)$.
 B. $S=(10;+\infty)$.
 C. $S=(-\infty;9)$.
-D. $S=(3;+\infty)$.",A. $S=(9;+\infty)$.,$6^{1x-3} - 6^{6} > 0 \Leftrightarrow 6^{1x-3} > 6^{6} \Leftrightarrow 1x-3>6 \Leftrightarrow x>9$.
+D. $S=(3;+\infty)$.",A. $S=(9;+\infty)$.,$6^{x-3} - 6^{6} > 0 \Leftrightarrow 6^{x-3} > 6^{6} \Leftrightarrow x-3>6 \Leftrightarrow x>9$.
 2774,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{5x-5} - 6^{-2} > 0$.
 
 A. $S=(- \dfrac{7}{5};+\infty)$.
@@ -16819,12 +16819,12 @@ A. $S=(-\infty;\dfrac{11}{2})$.
 B. $S=(\dfrac{11}{2};+\infty)$.
 C. $S=(\dfrac{5}{2};+\infty)$.
 D. $S=(11;+\infty)$.",B. $S=(\dfrac{11}{2};+\infty)$.,$5^{2x-3} - 5^{8} > 0 \Leftrightarrow 5^{2x-3} > 5^{8} \Leftrightarrow 2x-3>8 \Leftrightarrow x>\dfrac{11}{2}$.
-2777,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $8^{1x-6} - 8^{-1} > 0$.
+2777,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $8^{x-6} - 8^{-1} > 0$.
 
 A. $S=(5;+\infty)$.
 B. $S=(-7;+\infty)$.
 C. $S=(-\infty;5)$.
-D. $S=(6;+\infty)$.",A. $S=(5;+\infty)$.,$8^{1x-6} - 8^{-1} > 0 \Leftrightarrow 8^{1x-6} > 8^{-1} \Leftrightarrow 1x-6>-1 \Leftrightarrow x>5$.
+D. $S=(6;+\infty)$.",A. $S=(5;+\infty)$.,$8^{x-6} - 8^{-1} > 0 \Leftrightarrow 8^{x-6} > 8^{-1} \Leftrightarrow x-6>-1 \Leftrightarrow x>5$.
 2778,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{5x+1} - 4^{5} > 0$.
 
 A. $S=(-\infty;\dfrac{4}{5})$.
@@ -16837,12 +16837,12 @@ A. $S=(9;+\infty)$.
 B. $S=(\dfrac{9}{2};+\infty)$.
 C. $S=(\dfrac{7}{2};+\infty)$.
 D. $S=(-\infty;\dfrac{9}{2})$.",B. $S=(\dfrac{9}{2};+\infty)$.,$8^{2x-1} - 8^{8} > 0 \Leftrightarrow 8^{2x-1} > 8^{8} \Leftrightarrow 2x-1>8 \Leftrightarrow x>\dfrac{9}{2}$.
-2780,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{1x-6} - 4^{7} > 0$.
+2780,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{x-6} - 4^{7} > 0$.
 
 A. $S=(1;+\infty)$.
 B. $S=(14;+\infty)$.
 C. $S=(-\infty;13)$.
-D. $S=(13;+\infty)$.",D. $S=(13;+\infty)$.,$4^{1x-6} - 4^{7} > 0 \Leftrightarrow 4^{1x-6} > 4^{7} \Leftrightarrow 1x-6>7 \Leftrightarrow x>13$.
+D. $S=(13;+\infty)$.",D. $S=(13;+\infty)$.,$4^{x-6} - 4^{7} > 0 \Leftrightarrow 4^{x-6} > 4^{7} \Leftrightarrow x-6>7 \Leftrightarrow x>13$.
 2781,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{5x-5} - 2^{0} > 0$.
 
 A. $S=(1;+\infty)$.
@@ -16855,12 +16855,12 @@ A. $S=(-\infty;\dfrac{3}{5})$.
 B. $S=(\dfrac{3}{5};+\infty)$.
 C. $S=(- \dfrac{7}{5};+\infty)$.
 D. $S=(3;+\infty)$.",B. $S=(\dfrac{3}{5};+\infty)$.,$2^{5x-5} - 2^{-2} > 0 \Leftrightarrow 2^{5x-5} > 2^{-2} \Leftrightarrow 5x-5>-2 \Leftrightarrow x>\dfrac{3}{5}$.
-2783,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{1x-3} - 4^{6} > 0$.
+2783,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{x-3} - 4^{6} > 0$.
 
 A. $S=(3;+\infty)$.
 B. $S=(10;+\infty)$.
 C. $S=(9;+\infty)$.
-D. $S=(-\infty;9)$.",C. $S=(9;+\infty)$.,$4^{1x-3} - 4^{6} > 0 \Leftrightarrow 4^{1x-3} > 4^{6} \Leftrightarrow 1x-3>6 \Leftrightarrow x>9$.
+D. $S=(-\infty;9)$.",C. $S=(9;+\infty)$.,$4^{x-3} - 4^{6} > 0 \Leftrightarrow 4^{x-3} > 4^{6} \Leftrightarrow x-3>6 \Leftrightarrow x>9$.
 2784,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{4x-4} - 4^{-2} > 0$.
 
 A. $S=(\dfrac{1}{2};+\infty)$.
@@ -16885,18 +16885,18 @@ A. $S=(-2;+\infty)$.
 B. $S=(-\infty;-2)$.
 C. $S=(-4;+\infty)$.
 D. $S=(2;+\infty)$.",A. $S=(-2;+\infty)$.,$6^{2x+4} - 6^{0} > 0 \Leftrightarrow 6^{2x+4} > 6^{0} \Leftrightarrow 2x+4>0 \Leftrightarrow x>-2$.
-2788,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{1x-6} - 6^{0} > 0$.
+2788,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{x-6} - 6^{0} > 0$.
 
 A. $S=(-\infty;6)$.
 B. $S=(7;+\infty)$.
 C. $S=(6;+\infty)$.
-D. $S=(-6;+\infty)$.",C. $S=(6;+\infty)$.,$6^{1x-6} - 6^{0} > 0 \Leftrightarrow 6^{1x-6} > 6^{0} \Leftrightarrow 1x-6>0 \Leftrightarrow x>6$.
-2789,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{1x} - 3^{6} > 0$.
+D. $S=(-6;+\infty)$.",C. $S=(6;+\infty)$.,$6^{x-6} - 6^{0} > 0 \Leftrightarrow 6^{x-6} > 6^{0} \Leftrightarrow x-6>0 \Leftrightarrow x>6$.
+2789,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{x} - 3^{6} > 0$.
 
 A. $S=(7;+\infty)$.
 B. $S=(-\infty;6)$.
 C. $S=(8;+\infty)$.
-D. $S=(6;+\infty)$.",D. $S=(6;+\infty)$.,$3^{1x} - 3^{6} > 0 \Leftrightarrow 3^{1x} > 3^{6} \Leftrightarrow 1x>6 \Leftrightarrow x>6$.
+D. $S=(6;+\infty)$.",D. $S=(6;+\infty)$.,$3^{x} - 3^{6} > 0 \Leftrightarrow 3^{x} > 3^{6} \Leftrightarrow x>6 \Leftrightarrow x>6$.
 2790,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $5^{2x-4} - 5^{2} > 0$.
 
 A. $S=(-1;+\infty)$.
@@ -16927,24 +16927,24 @@ A. $S=(-\infty;\dfrac{3}{4})$.
 B. $S=(3;+\infty)$.
 C. $S=(\dfrac{11}{4};+\infty)$.
 D. $S=(\dfrac{3}{4};+\infty)$.",D. $S=(\dfrac{3}{4};+\infty)$.,$7^{4x+4} - 7^{7} > 0 \Leftrightarrow 7^{4x+4} > 7^{7} \Leftrightarrow 4x+4>7 \Leftrightarrow x>\dfrac{3}{4}$.
-2795,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{1x-4} - 4^{-2} > 0$.
+2795,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $4^{x-4} - 4^{-2} > 0$.
 
 A. $S=(2;+\infty)$.
 B. $S=(-6;+\infty)$.
 C. $S=(-\infty;2)$.
-D. $S=(3;+\infty)$.",A. $S=(2;+\infty)$.,$4^{1x-4} - 4^{-2} > 0 \Leftrightarrow 4^{1x-4} > 4^{-2} \Leftrightarrow 1x-4>-2 \Leftrightarrow x>2$.
-2796,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{1x-3} - 6^{3} > 0$.
+D. $S=(3;+\infty)$.",A. $S=(2;+\infty)$.,$4^{x-4} - 4^{-2} > 0 \Leftrightarrow 4^{x-4} > 4^{-2} \Leftrightarrow x-4>-2 \Leftrightarrow x>2$.
+2796,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{x-3} - 6^{3} > 0$.
 
 A. $S=(6;+\infty)$.
 B. $S=(7;+\infty)$.
 C. $S=(-\infty;6)$.
-D. $S=(0;+\infty)$.",A. $S=(6;+\infty)$.,$6^{1x-3} - 6^{3} > 0 \Leftrightarrow 6^{1x-3} > 6^{3} \Leftrightarrow 1x-3>3 \Leftrightarrow x>6$.
-2797,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{1x-5} - 6^{5} > 0$.
+D. $S=(0;+\infty)$.",A. $S=(6;+\infty)$.,$6^{x-3} - 6^{3} > 0 \Leftrightarrow 6^{x-3} > 6^{3} \Leftrightarrow x-3>3 \Leftrightarrow x>6$.
+2797,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $6^{x-5} - 6^{5} > 0$.
 
 A. $S=(11;+\infty)$.
 B. $S=(-\infty;10)$.
 C. $S=(10;+\infty)$.
-D. $S=(0;+\infty)$.",C. $S=(10;+\infty)$.,$6^{1x-5} - 6^{5} > 0 \Leftrightarrow 6^{1x-5} > 6^{5} \Leftrightarrow 1x-5>5 \Leftrightarrow x>10$.
+D. $S=(0;+\infty)$.",C. $S=(10;+\infty)$.,$6^{x-5} - 6^{5} > 0 \Leftrightarrow 6^{x-5} > 6^{5} \Leftrightarrow x-5>5 \Leftrightarrow x>10$.
 2798,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{3x+1} - 2^{8} > 0$.
 
 A. $S=(\dfrac{7}{3};+\infty)$.
@@ -16963,18 +16963,18 @@ A. $S=(2;+\infty)$.
 B. $S=(\dfrac{8}{3};+\infty)$.
 C. $S=(\dfrac{2}{3};+\infty)$.
 D. $S=(-\infty;\dfrac{2}{3})$.",C. $S=(\dfrac{2}{3};+\infty)$.,$6^{3x+3} - 6^{5} > 0 \Leftrightarrow 6^{3x+3} > 6^{5} \Leftrightarrow 3x+3>5 \Leftrightarrow x>\dfrac{2}{3}$.
-2801,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $8^{1x-3} - 8^{-3} > 0$.
+2801,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $8^{x-3} - 8^{-3} > 0$.
 
 A. $S=(0;+\infty)$.
 B. $S=(-6;+\infty)$.
 C. $S=(1;+\infty)$.
-D. $S=(-\infty;0)$.",A. $S=(0;+\infty)$.,$8^{1x-3} - 8^{-3} > 0 \Leftrightarrow 8^{1x-3} > 8^{-3} \Leftrightarrow 1x-3>-3 \Leftrightarrow x>0$.
-2802,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{1x-6} - 2^{-1} > 0$.
+D. $S=(-\infty;0)$.",A. $S=(0;+\infty)$.,$8^{x-3} - 8^{-3} > 0 \Leftrightarrow 8^{x-3} > 8^{-3} \Leftrightarrow x-3>-3 \Leftrightarrow x>0$.
+2802,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $2^{x-6} - 2^{-1} > 0$.
 
 A. $S=(5;+\infty)$.
 B. $S=(-7;+\infty)$.
 C. $S=(6;+\infty)$.
-D. $S=(-\infty;5)$.",A. $S=(5;+\infty)$.,$2^{1x-6} - 2^{-1} > 0 \Leftrightarrow 2^{1x-6} > 2^{-1} \Leftrightarrow 1x-6>-1 \Leftrightarrow x>5$.
+D. $S=(-\infty;5)$.",A. $S=(5;+\infty)$.,$2^{x-6} - 2^{-1} > 0 \Leftrightarrow 2^{x-6} > 2^{-1} \Leftrightarrow x-6>-1 \Leftrightarrow x>5$.
 2803,D19,Nhân bản,p031_q03,chuan,"Tìm tập nghiệm của bất phương trình $3^{2x+3} - 3^{5} > 0$.
 
 A. $S=(1;+\infty)$.
@@ -38815,30 +38815,30 @@ A. $6$.
 B. $4$.
 C. $10$.
 D. $5$.",D. $5$.,"Chia hai vế cho $4^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-5=0\Leftrightarrow m=5+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6398,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $48^x-1\cdot12^x+(m-11)\cdot3^x=0$?
+6398,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $48^x-12^x+(m-11)\cdot3^x=0$?
 
 A. $9$.
 B. $20$.
 C. $11$.
-D. $10$.",D. $10$.,"Chia hai vế cho $3^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-11=0\Leftrightarrow m=11+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
-6399,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $256^x-1\cdot64^x+(m-5)\cdot16^x=0$?
+D. $10$.",D. $10$.,"Chia hai vế cho $3^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-11=0\Leftrightarrow m=11+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
+6399,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $256^x-64^x+(m-5)\cdot16^x=0$?
 
 A. $4$.
 B. $8$.
 C. $3$.
-D. $5$.",A. $4$.,"Chia hai vế cho $16^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-5=0\Leftrightarrow m=5+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
-6400,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $539^x-1\cdot77^x+(m-2)\cdot11^x=0$?
+D. $5$.",A. $4$.,"Chia hai vế cho $16^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-5=0\Leftrightarrow m=5+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
+6400,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $539^x-77^x+(m-2)\cdot11^x=0$?
 
 A. $3$.
 B. $0$.
 C. $2$.
-D. $1$.",D. $1$.,"Chia hai vế cho $11^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-2=0\Leftrightarrow m=2+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
-6401,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $75^x-1\cdot15^x+(m-6)\cdot3^x=0$?
+D. $1$.",D. $1$.,"Chia hai vế cho $11^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-2=0\Leftrightarrow m=2+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
+6401,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $75^x-15^x+(m-6)\cdot3^x=0$?
 
 A. $5$.
 B. $6$.
 C. $4$.
-D. $10$.",A. $5$.,"Chia hai vế cho $3^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-6=0\Leftrightarrow m=6+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
+D. $10$.",A. $5$.,"Chia hai vế cho $3^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-6=0\Leftrightarrow m=6+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
 6402,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $576^x-2\cdot72^x+(m-3)\cdot9^x=0$?
 
 A. $4$.
@@ -38857,42 +38857,42 @@ A. $6$.
 B. $3$.
 C. $4$.
 D. $2$.",B. $3$.,"Chia hai vế cho $2^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-3=0\Leftrightarrow m=3+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
-6405,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $468^x-1\cdot78^x+(m-7)\cdot13^x=0$?
+6405,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $468^x-78^x+(m-7)\cdot13^x=0$?
 
 A. $5$.
 B. $7$.
 C. $12$.
-D. $6$.",D. $6$.,"Chia hai vế cho $13^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6406,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $637^x-1\cdot91^x+(m-8)\cdot13^x=0$?
+D. $6$.",D. $6$.,"Chia hai vế cho $13^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+6406,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $637^x-91^x+(m-8)\cdot13^x=0$?
 
 A. $6$.
 B. $8$.
 C. $14$.
-D. $7$.",D. $7$.,"Chia hai vế cho $13^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
-6407,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $637^x-1\cdot91^x+(m-3)\cdot13^x=0$?
+D. $7$.",D. $7$.,"Chia hai vế cho $13^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+6407,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $637^x-91^x+(m-3)\cdot13^x=0$?
 
 A. $2$.
 B. $1$.
 C. $4$.
-D. $3$.",A. $2$.,"Chia hai vế cho $13^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-3=0\Leftrightarrow m=3+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
-6408,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $612^x-1\cdot102^x+(m-8)\cdot17^x=0$?
+D. $3$.",A. $2$.,"Chia hai vế cho $13^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-3=0\Leftrightarrow m=3+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
+6408,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $612^x-102^x+(m-8)\cdot17^x=0$?
 
 A. $14$.
 B. $7$.
 C. $8$.
-D. $6$.",B. $7$.,"Chia hai vế cho $17^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+D. $6$.",B. $7$.,"Chia hai vế cho $17^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
 6409,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $153^x-2\cdot51^x+(m-4)\cdot17^x=0$?
 
 A. $3$.
 B. $5$.
 C. $4$.
 D. $8$.",C. $4$.,"Chia hai vế cho $17^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-4=0\Leftrightarrow m=4+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
-6410,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $192^x-1\cdot24^x+(m-8)\cdot3^x=0$?
+6410,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $192^x-24^x+(m-8)\cdot3^x=0$?
 
 A. $14$.
 B. $7$.
 C. $8$.
-D. $6$.",B. $7$.,"Chia hai vế cho $3^x$, đặt $t=\left(8\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+D. $6$.",B. $7$.,"Chia hai vế cho $3^x$, đặt $t=\left(8\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
 6411,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $117^x-2\cdot39^x+(m-9)\cdot13^x=0$?
 
 A. $10$.
@@ -38905,12 +38905,12 @@ A. $10$.
 B. $9$.
 C. $20$.
 D. $11$.",A. $10$.,"Chia hai vế cho $17^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-10=0\Leftrightarrow m=10+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
-6413,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $54^x-1\cdot18^x+(m-10)\cdot6^x=0$?
+6413,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $54^x-18^x+(m-10)\cdot6^x=0$?
 
 A. $18$.
 B. $10$.
 C. $8$.
-D. $9$.",D. $9$.,"Chia hai vế cho $6^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-10=0\Leftrightarrow m=10+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=10$. Vậy có $9$ giá trị nguyên dương $m\in\{1,\ldots,9\}$."
+D. $9$.",D. $9$.,"Chia hai vế cho $6^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-10=0\Leftrightarrow m=10+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=10$. Vậy có $9$ giá trị nguyên dương $m\in\{1,\ldots,9\}$."
 6414,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $180^x-2\cdot60^x+(m-8)\cdot20^x=0$?
 
 A. $7$.
@@ -38929,42 +38929,42 @@ A. $5$.
 B. $12$.
 C. $6$.
 D. $7$.",C. $6$.,"Chia hai vế cho $12^x$, đặt $t=\left(8\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-6=0\Leftrightarrow m=6+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6417,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-1\cdot4^x+(m-10)\cdot1^x=0$?
+6417,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-4^x+(m-10)\cdot1^x=0$?
 
 A. $18$.
 B. $10$.
 C. $9$.
-D. $8$.",C. $9$.,"Chia hai vế cho $1^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-10=0\Leftrightarrow m=10+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=10$. Vậy có $9$ giá trị nguyên dương $m\in\{1,\ldots,9\}$."
+D. $8$.",C. $9$.,"Chia hai vế cho $1^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-10=0\Leftrightarrow m=10+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=10$. Vậy có $9$ giá trị nguyên dương $m\in\{1,\ldots,9\}$."
 6418,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $1216^x-2\cdot152^x+(m-6)\cdot19^x=0$?
 
 A. $5$.
 B. $12$.
 C. $6$.
 D. $7$.",C. $6$.,"Chia hai vế cho $19^x$, đặt $t=\left(8\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-6=0\Leftrightarrow m=6+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6419,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $36^x-1\cdot12^x+(m-5)\cdot4^x=0$?
+6419,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $36^x-12^x+(m-5)\cdot4^x=0$?
 
 A. $5$.
 B. $3$.
 C. $8$.
-D. $4$.",D. $4$.,"Chia hai vế cho $4^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-5=0\Leftrightarrow m=5+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
-6420,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $450^x-1\cdot90^x+(m-8)\cdot18^x=0$?
+D. $4$.",D. $4$.,"Chia hai vế cho $4^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-5=0\Leftrightarrow m=5+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
+6420,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $450^x-90^x+(m-8)\cdot18^x=0$?
 
 A. $6$.
 B. $8$.
 C. $7$.
-D. $14$.",C. $7$.,"Chia hai vế cho $18^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+D. $14$.",C. $7$.,"Chia hai vế cho $18^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
 6421,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $931^x-2\cdot133^x+(m-9)\cdot19^x=0$?
 
 A. $10$.
 B. $18$.
 C. $8$.
 D. $9$.",D. $9$.,"Chia hai vế cho $19^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-9=0\Leftrightarrow m=9+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=10$. Vậy có $9$ giá trị nguyên dương $m\in\{1,\ldots,9\}$."
-6422,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $126^x-1\cdot42^x+(m-11)\cdot14^x=0$?
+6422,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $126^x-42^x+(m-11)\cdot14^x=0$?
 
 A. $9$.
 B. $20$.
 C. $10$.
-D. $11$.",C. $10$.,"Chia hai vế cho $14^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-11=0\Leftrightarrow m=11+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
+D. $11$.",C. $10$.,"Chia hai vế cho $14^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-11=0\Leftrightarrow m=11+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
 6423,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $180^x-2\cdot30^x+(m-10)\cdot5^x=0$?
 
 A. $11$.
@@ -39001,36 +39001,36 @@ A. $14$.
 B. $7$.
 C. $6$.
 D. $8$.",B. $7$.,"Chia hai vế cho $3^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-7=0\Leftrightarrow m=7+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
-6429,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $256^x-1\cdot64^x+(m-2)\cdot16^x=0$?
+6429,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $256^x-64^x+(m-2)\cdot16^x=0$?
 
 A. $3$.
 B. $2$.
 C. $0$.
-D. $1$.",D. $1$.,"Chia hai vế cho $16^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-2=0\Leftrightarrow m=2+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
+D. $1$.",D. $1$.,"Chia hai vế cho $16^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-2=0\Leftrightarrow m=2+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
 6430,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $504^x-2\cdot84^x+(m-2)\cdot14^x=0$?
 
 A. $4$.
 B. $3$.
 C. $1$.
 D. $2$.",D. $2$.,"Chia hai vế cho $14^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-2=0\Leftrightarrow m=2+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
-6431,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $245^x-1\cdot35^x+(m-6)\cdot5^x=0$?
+6431,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $245^x-35^x+(m-6)\cdot5^x=0$?
 
 A. $6$.
 B. $10$.
 C. $5$.
-D. $4$.",C. $5$.,"Chia hai vế cho $5^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-6=0\Leftrightarrow m=6+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6432,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $252^x-1\cdot42^x+(m-2)\cdot7^x=0$?
+D. $4$.",C. $5$.,"Chia hai vế cho $5^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-6=0\Leftrightarrow m=6+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
+6432,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $252^x-42^x+(m-2)\cdot7^x=0$?
 
 A. $2$.
 B. $3$.
 C. $0$.
-D. $1$.",D. $1$.,"Chia hai vế cho $7^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-2=0\Leftrightarrow m=2+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
-6433,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $304^x-1\cdot76^x+(m-8)\cdot19^x=0$?
+D. $1$.",D. $1$.,"Chia hai vế cho $7^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-2=0\Leftrightarrow m=2+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
+6433,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $304^x-76^x+(m-8)\cdot19^x=0$?
 
 A. $8$.
 B. $14$.
 C. $6$.
-D. $7$.",D. $7$.,"Chia hai vế cho $19^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+D. $7$.",D. $7$.,"Chia hai vế cho $19^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
 6434,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $36^x-2\cdot12^x+(m-10)\cdot4^x=0$?
 
 A. $20$.
@@ -39055,66 +39055,66 @@ A. $6$.
 B. $10$.
 C. $5$.
 D. $4$.",C. $5$.,"Chia hai vế cho $18^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-5=0\Leftrightarrow m=5+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6438,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $54^x-1\cdot18^x+(m-6)\cdot6^x=0$?
+6438,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $54^x-18^x+(m-6)\cdot6^x=0$?
 
 A. $6$.
 B. $5$.
 C. $10$.
-D. $4$.",B. $5$.,"Chia hai vế cho $6^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-6=0\Leftrightarrow m=6+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
+D. $4$.",B. $5$.,"Chia hai vế cho $6^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-6=0\Leftrightarrow m=6+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
 6439,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $196^x-2\cdot28^x+(m-9)\cdot4^x=0$?
 
 A. $18$.
 B. $10$.
 C. $8$.
 D. $9$.",D. $9$.,"Chia hai vế cho $4^x$, đặt $t=\left(7\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-9=0\Leftrightarrow m=9+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=10$. Vậy có $9$ giá trị nguyên dương $m\in\{1,\ldots,9\}$."
-6440,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $325^x-1\cdot65^x+(m-4)\cdot13^x=0$?
+6440,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $325^x-65^x+(m-4)\cdot13^x=0$?
 
 A. $6$.
 B. $2$.
 C. $4$.
-D. $3$.",D. $3$.,"Chia hai vế cho $13^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-4=0\Leftrightarrow m=4+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
+D. $3$.",D. $3$.,"Chia hai vế cho $13^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-4=0\Leftrightarrow m=4+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
 6441,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $24^x-2\cdot12^x+(m-2)\cdot6^x=0$?
 
 A. $3$.
 B. $2$.
 C. $1$.
 D. $4$.",B. $2$.,"Chia hai vế cho $6^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-2=0\Leftrightarrow m=2+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
-6442,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $100^x-1\cdot20^x+(m-7)\cdot4^x=0$?
+6442,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $100^x-20^x+(m-7)\cdot4^x=0$?
 
 A. $5$.
 B. $12$.
 C. $6$.
-D. $7$.",C. $6$.,"Chia hai vế cho $4^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6443,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $117^x-1\cdot39^x+(m-7)\cdot13^x=0$?
+D. $7$.",C. $6$.,"Chia hai vế cho $4^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+6443,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $117^x-39^x+(m-7)\cdot13^x=0$?
 
 A. $5$.
 B. $6$.
 C. $12$.
-D. $7$.",B. $6$.,"Chia hai vế cho $13^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6444,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $324^x-1\cdot54^x+(m-7)\cdot9^x=0$?
+D. $7$.",B. $6$.,"Chia hai vế cho $13^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+6444,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $324^x-54^x+(m-7)\cdot9^x=0$?
 
 A. $12$.
 B. $6$.
 C. $7$.
-D. $5$.",B. $6$.,"Chia hai vế cho $9^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+D. $5$.",B. $6$.,"Chia hai vế cho $9^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
 6445,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $288^x-2\cdot72^x+(m-5)\cdot18^x=0$?
 
 A. $6$.
 B. $10$.
 C. $4$.
 D. $5$.",D. $5$.,"Chia hai vế cho $18^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-5=0\Leftrightarrow m=5+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6446,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-1\cdot4^x+(m-7)\cdot1^x=0$?
+6446,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-4^x+(m-7)\cdot1^x=0$?
 
 A. $7$.
 B. $5$.
 C. $12$.
-D. $6$.",D. $6$.,"Chia hai vế cho $1^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6447,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $144^x-1\cdot36^x+(m-7)\cdot9^x=0$?
+D. $6$.",D. $6$.,"Chia hai vế cho $1^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+6447,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $144^x-36^x+(m-7)\cdot9^x=0$?
 
 A. $12$.
 B. $5$.
 C. $7$.
-D. $6$.",D. $6$.,"Chia hai vế cho $9^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+D. $6$.",D. $6$.,"Chia hai vế cho $9^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
 6448,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $60^x-2\cdot30^x+(m-9)\cdot15^x=0$?
 
 A. $18$.
@@ -39127,24 +39127,24 @@ A. $2$.
 B. $4$.
 C. $6$.
 D. $3$.",D. $3$.,"Chia hai vế cho $6^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-3=0\Leftrightarrow m=3+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
-6450,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $240^x-1\cdot60^x+(m-3)\cdot15^x=0$?
+6450,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $240^x-60^x+(m-3)\cdot15^x=0$?
 
 A. $4$.
 B. $1$.
 C. $3$.
-D. $2$.",D. $2$.,"Chia hai vế cho $15^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-3=0\Leftrightarrow m=3+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
+D. $2$.",D. $2$.,"Chia hai vế cho $15^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-3=0\Leftrightarrow m=3+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
 6451,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $252^x-2\cdot42^x+(m-10)\cdot7^x=0$?
 
 A. $11$.
 B. $10$.
 C. $20$.
 D. $9$.",B. $10$.,"Chia hai vế cho $7^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-10=0\Leftrightarrow m=10+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
-6452,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $24^x-1\cdot12^x+(m-5)\cdot6^x=0$?
+6452,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $24^x-12^x+(m-5)\cdot6^x=0$?
 
 A. $5$.
 B. $8$.
 C. $3$.
-D. $4$.",D. $4$.,"Chia hai vế cho $6^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-5=0\Leftrightarrow m=5+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
+D. $4$.",D. $4$.,"Chia hai vế cho $6^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-5=0\Leftrightarrow m=5+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
 6453,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $208^x-2\cdot52^x+(m-7)\cdot13^x=0$?
 
 A. $8$.
@@ -39157,90 +39157,90 @@ A. $4$.
 B. $2$.
 C. $1$.
 D. $3$.",B. $2$.,"Chia hai vế cho $10^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-2=0\Leftrightarrow m=2+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
-6455,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $400^x-1\cdot80^x+(m-2)\cdot16^x=0$?
+6455,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $400^x-80^x+(m-2)\cdot16^x=0$?
 
 A. $2$.
 B. $0$.
 C. $1$.
-D. $3$.",C. $1$.,"Chia hai vế cho $16^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-2=0\Leftrightarrow m=2+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
-6456,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $200^x-1\cdot40^x+(m-5)\cdot8^x=0$?
+D. $3$.",C. $1$.,"Chia hai vế cho $16^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-2=0\Leftrightarrow m=2+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
+6456,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $200^x-40^x+(m-5)\cdot8^x=0$?
 
 A. $8$.
 B. $3$.
 C. $5$.
-D. $4$.",D. $4$.,"Chia hai vế cho $8^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-5=0\Leftrightarrow m=5+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
+D. $4$.",D. $4$.,"Chia hai vế cho $8^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-5=0\Leftrightarrow m=5+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=5$. Vậy có $4$ giá trị nguyên dương $m\in\{1,\ldots,4\}$."
 6457,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $304^x-2\cdot76^x+(m-6)\cdot19^x=0$?
 
 A. $12$.
 B. $5$.
 C. $7$.
 D. $6$.",D. $6$.,"Chia hai vế cho $19^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-6=0\Leftrightarrow m=6+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
-6458,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $40^x-1\cdot20^x+(m-8)\cdot10^x=0$?
+6458,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $40^x-20^x+(m-8)\cdot10^x=0$?
 
 A. $7$.
 B. $6$.
 C. $8$.
-D. $14$.",A. $7$.,"Chia hai vế cho $10^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
-6459,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $288^x-1\cdot48^x+(m-4)\cdot8^x=0$?
+D. $14$.",A. $7$.,"Chia hai vế cho $10^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+6459,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $288^x-48^x+(m-4)\cdot8^x=0$?
 
 A. $6$.
 B. $3$.
 C. $4$.
-D. $2$.",B. $3$.,"Chia hai vế cho $8^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-4=0\Leftrightarrow m=4+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
-6460,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-1\cdot4^x+(m-11)\cdot1^x=0$?
+D. $2$.",B. $3$.,"Chia hai vế cho $8^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-4=0\Leftrightarrow m=4+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
+6460,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-4^x+(m-11)\cdot1^x=0$?
 
 A. $10$.
 B. $11$.
 C. $20$.
-D. $9$.",A. $10$.,"Chia hai vế cho $1^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-11=0\Leftrightarrow m=11+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
+D. $9$.",A. $10$.,"Chia hai vế cho $1^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-11=0\Leftrightarrow m=11+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
 6461,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $48^x-2\cdot24^x+(m-10)\cdot12^x=0$?
 
 A. $20$.
 B. $9$.
 C. $11$.
 D. $10$.",D. $10$.,"Chia hai vế cho $12^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-10=0\Leftrightarrow m=10+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
-6462,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $128^x-1\cdot16^x+(m-6)\cdot2^x=0$?
+6462,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $128^x-16^x+(m-6)\cdot2^x=0$?
 
 A. $10$.
 B. $4$.
 C. $5$.
-D. $6$.",C. $5$.,"Chia hai vế cho $2^x$, đặt $t=\left(8\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-6=0\Leftrightarrow m=6+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6463,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $112^x-1\cdot28^x+(m-2)\cdot7^x=0$?
+D. $6$.",C. $5$.,"Chia hai vế cho $2^x$, đặt $t=\left(8\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-6=0\Leftrightarrow m=6+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
+6463,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $112^x-28^x+(m-2)\cdot7^x=0$?
 
 A. $3$.
 B. $1$.
 C. $2$.
-D. $0$.",B. $1$.,"Chia hai vế cho $7^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-2=0\Leftrightarrow m=2+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
-6464,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $240^x-1\cdot60^x+(m-9)\cdot15^x=0$?
+D. $0$.",B. $1$.,"Chia hai vế cho $7^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-2=0\Leftrightarrow m=2+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=2$. Vậy có $1$ giá trị nguyên dương $m\in\{1,\ldots,1\}$."
+6464,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $240^x-60^x+(m-9)\cdot15^x=0$?
 
 A. $9$.
 B. $16$.
 C. $7$.
-D. $8$.",D. $8$.,"Chia hai vế cho $15^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-9=0\Leftrightarrow m=9+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=9$. Vậy có $8$ giá trị nguyên dương $m\in\{1,\ldots,8\}$."
+D. $8$.",D. $8$.,"Chia hai vế cho $15^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-9=0\Leftrightarrow m=9+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=9$. Vậy có $8$ giá trị nguyên dương $m\in\{1,\ldots,8\}$."
 6465,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $72^x-2\cdot12^x+(m-2)\cdot2^x=0$?
 
 A. $4$.
 B. $3$.
 C. $1$.
 D. $2$.",D. $2$.,"Chia hai vế cho $2^x$, đặt $t=\left(6\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-2=0\Leftrightarrow m=2+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
-6466,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $176^x-1\cdot44^x+(m-8)\cdot11^x=0$?
+6466,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $176^x-44^x+(m-8)\cdot11^x=0$?
 
 A. $7$.
 B. $14$.
 C. $8$.
-D. $6$.",A. $7$.,"Chia hai vế cho $11^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-8=0\Leftrightarrow m=8+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
+D. $6$.",A. $7$.,"Chia hai vế cho $11^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-8=0\Leftrightarrow m=8+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=8$. Vậy có $7$ giá trị nguyên dương $m\in\{1,\ldots,7\}$."
 6467,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $112^x-2\cdot28^x+(m-5)\cdot7^x=0$?
 
 A. $5$.
 B. $4$.
 C. $10$.
 D. $6$.",A. $5$.,"Chia hai vế cho $7^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-5=0\Leftrightarrow m=5+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6468,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $320^x-1\cdot80^x+(m-3)\cdot20^x=0$?
+6468,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $320^x-80^x+(m-3)\cdot20^x=0$?
 
 A. $2$.
 B. $4$.
 C. $1$.
-D. $3$.",A. $2$.,"Chia hai vế cho $20^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-3=0\Leftrightarrow m=3+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
+D. $3$.",A. $2$.,"Chia hai vế cho $20^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-3=0\Leftrightarrow m=3+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=3$. Vậy có $2$ giá trị nguyên dương $m\in\{1,\ldots,2\}$."
 6469,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $512^x-2\cdot64^x+(m-4)\cdot8^x=0$?
 
 A. $3$.
@@ -39259,12 +39259,12 @@ A. $2$.
 B. $6$.
 C. $3$.
 D. $4$.",C. $3$.,"Chia hai vế cho $13^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-3=0\Leftrightarrow m=3+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=4$. Vậy có $3$ giá trị nguyên dương $m\in\{1,\ldots,3\}$."
-6472,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $32^x-1\cdot16^x+(m-11)\cdot8^x=0$?
+6472,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $32^x-16^x+(m-11)\cdot8^x=0$?
 
 A. $20$.
 B. $11$.
 C. $9$.
-D. $10$.",D. $10$.,"Chia hai vế cho $8^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-11=0\Leftrightarrow m=11+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
+D. $10$.",D. $10$.,"Chia hai vế cho $8^x$, đặt $t=\left(2\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-11=0\Leftrightarrow m=11+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=11$. Vậy có $10$ giá trị nguyên dương $m\in\{1,\ldots,10\}$."
 6473,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $448^x-2\cdot56^x+(m-6)\cdot7^x=0$?
 
 A. $6$.
@@ -39277,12 +39277,12 @@ A. $6$.
 B. $5$.
 C. $10$.
 D. $4$.",B. $5$.,"Chia hai vế cho $11^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-5=0\Leftrightarrow m=5+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6475,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $450^x-1\cdot90^x+(m-7)\cdot18^x=0$?
+6475,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $450^x-90^x+(m-7)\cdot18^x=0$?
 
 A. $12$.
 B. $7$.
 C. $5$.
-D. $6$.",D. $6$.,"Chia hai vế cho $18^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+D. $6$.",D. $6$.,"Chia hai vế cho $18^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
 6476,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $12^x-2\cdot6^x+(m-10)\cdot3^x=0$?
 
 A. $10$.
@@ -39301,18 +39301,18 @@ A. $5$.
 B. $6$.
 C. $4$.
 D. $10$.",A. $5$.,"Chia hai vế cho $5^x$, đặt $t=\left(3\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-2t+m-5=0\Leftrightarrow m=5+2t-t^2=f(t)$. Với $t>1$, $f'(t)=2-2t<2-2\le0$ vì $2\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=6$. Vậy có $5$ giá trị nguyên dương $m\in\{1,\ldots,5\}$."
-6479,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $275^x-1\cdot55^x+(m-9)\cdot11^x=0$?
+6479,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $275^x-55^x+(m-9)\cdot11^x=0$?
 
 A. $8$.
 B. $7$.
 C. $9$.
-D. $16$.",A. $8$.,"Chia hai vế cho $11^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-9=0\Leftrightarrow m=9+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=9$. Vậy có $8$ giá trị nguyên dương $m\in\{1,\ldots,8\}$."
-6480,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $128^x-1\cdot32^x+(m-7)\cdot8^x=0$?
+D. $16$.",A. $8$.,"Chia hai vế cho $11^x$, đặt $t=\left(5\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-9=0\Leftrightarrow m=9+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=9$. Vậy có $8$ giá trị nguyên dương $m\in\{1,\ldots,8\}$."
+6480,D29,Nhân bản,p056_q34,chuan,"Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $128^x-32^x+(m-7)\cdot8^x=0$?
 
 A. $6$.
 B. $7$.
 C. $5$.
-D. $12$.",A. $6$.,"Chia hai vế cho $8^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-1t+m-7=0\Leftrightarrow m=7+1t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
+D. $12$.",A. $6$.,"Chia hai vế cho $8^x$, đặt $t=\left(4\right)^x>0$ (nghiệm dương $x>0\Leftrightarrow t>1$): $t^2-t+m-7=0\Leftrightarrow m=7+t-t^2=f(t)$. Với $t>1$, $f'(t)=1-2t<1-2\le0$ vì $1\le2$, nên $f$ nghịch biến trên $(1;+\infty)$. Do đó $m<f(1)=7$. Vậy có $6$ giá trị nguyên dương $m\in\{1,\ldots,6\}$."
 6481,D56,Nhân bản,p128_q39,chuan,"Có bao nhiêu số nguyên $x$ thỏa mãn $\log_{3}\dfrac{x^2-37}{20736} < \log_{12}\dfrac{x^2-37}{81}$?
 
 A. $2580$.
