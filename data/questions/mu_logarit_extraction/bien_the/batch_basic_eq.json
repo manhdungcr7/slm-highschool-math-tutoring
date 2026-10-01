@@ -35152,5 +35152,31 @@
       "m2": "2",
       "c2": "7"
     }
+  },
+  {
+    "id_goc": "p006_q13",
+    "ma_dang": "D02",
+    "ten_dang": "Đạo hàm hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Đạo hàm của hàm số $y=92^x$ là\n\nA. $y'=92^x$.\nB. $y'=92^x\\ln 92$.\nC. $y'=x\\cdot92^{x-1}$.\nD. $y'=\\dfrac{92^x}{\\ln 92}$.",
+    "dap_an": "B. $y'=92^x\\ln 92$.",
+    "loi_giai": "Ta có $y'=(92^x)'=92^x\\ln 92$.",
+    "params": {
+      "a": "92"
+    }
+  },
+  {
+    "id_goc": "p206_q04",
+    "ma_dang": "D80",
+    "ten_dang": "Tìm tập xác định hàm số mũ cơ bản y=a^x",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập xác định của hàm số $y=92^x$ là\n\nA. $\\mathbb{R}$.\nB. $\\mathbb{R}\\setminus\\{0\\}$.\nC. $(0;+\\infty)$.\nD. $[0;+\\infty)$.",
+    "dap_an": "A. $\\mathbb{R}$.",
+    "loi_giai": "Tập xác định của hàm số $y=92^x$ là $\\mathscr{D}=\\mathbb{R}$.",
+    "params": {
+      "a": "92"
+    }
   }
 ]

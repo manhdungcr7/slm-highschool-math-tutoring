@@ -1995,5 +1995,18 @@
       "N": "500",
       "expected": "495"
     }
+  },
+  {
+    "id_goc": "p095_q16",
+    "ma_dang": "D43",
+    "ten_dang": "Giải bất phương trình lôgarit cơ bản (lôgarit thập phân)",
+    "nguon": "Nhân bản",
+    "loai_bien_the": "chuan",
+    "de_bai": "Tập nghiệm của bất phương trình $\\log x\\ge \\dfrac{1}{5}$ là\n\nA. $(0;+\\infty)$.\nB. $[\\sqrt[5]{10};+\\infty)$.\nC. $(-\\infty;\\sqrt[5]{10})$.\nD. $(\\sqrt[5]{10};+\\infty)$.",
+    "dap_an": "B. $[\\sqrt[5]{10};+\\infty)$.",
+    "loi_giai": "$\\log x\\ge \\dfrac{1}{5}\\Leftrightarrow x\\ge \\sqrt[5]{10}$ (đã thỏa $x>0$). Vậy tập nghiệm là $[\\sqrt[5]{10};+\\infty)$.",
+    "params": {
+      "k": "1/5"
+    }
   }
 ]

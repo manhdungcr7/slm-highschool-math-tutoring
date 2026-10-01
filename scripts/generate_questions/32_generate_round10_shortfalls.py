@@ -138,6 +138,7 @@ def main():
     ks += [sp.Rational(n, 2) for n in range(-19, 20) if n % 2]
     ks += [sp.Rational(n, 3) for n in range(-29, 30) if n % 3]
     ks += [sp.Rational(n, 4) for n in range(-39, 40) if n % 2]
+    ks += [sp.Rational(n, 5) for n in range(-49, 50) if n % 5]
     ks = list(dict.fromkeys(ks))
     for k in ks:
         if len(old43) + sum(row["ma_dang"] == "D43" for row in new_rows) >= 90:

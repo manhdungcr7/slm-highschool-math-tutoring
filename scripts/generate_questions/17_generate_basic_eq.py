@@ -58,7 +58,7 @@ def try_add(ma_dang, ten_dang, id_goc, gen_fn, verify_fn, args_list):
         else:
             domains.append(tuple(sorted(set(values), key=str)))
     if ma_dang in {"D02", "D42", "D80"}:
-        domains[0] = (2, 91)
+        domains[0] = (2, 92)
     elif ma_dang == "D43":
         domains[0] = (-10, 10)
     rng = random.Random(sum(ord(ch) for ch in ma_dang) + len(ROWS))
