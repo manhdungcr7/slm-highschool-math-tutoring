@@ -19,8 +19,6 @@ import json
 SPLIT_INFO = "scripts/experiments/mulogarit_group_split.json"
 OUT_PATH = "experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb"
 MODEL = "Qwen/Qwen3-4B"
-# Kaggle dataset path for the merged JSON once uploaded - SUA NEU KHAC.
-KAGGLE_DATA_PATH = "/kaggle/input/datasets/ggducky/mulogarit-full/plan_solve_prompts_mulogarit_merged.json"
 
 MAX_MODEL_LEN = 11264
 MAX_NEW_TOKENS = 9216
@@ -64,8 +62,10 @@ def build_notebook(split_info):
         "(`temperature=0.6, top_p=0.95, top_k=20, seed=42, presence_penalty=1.2, "
         "max_new_tokens=9216, enable_thinking=True`) và cách chấm điểm giữ "
         "nguyên y hệt bản Qwen3-4B zero-shot đã dùng cho bộ Số phục.\n\n"
-        f"**CẦN UPLOAD** `plan_solve_prompts_mulogarit_merged.json` lên Kaggle, "
-        f"đường dẫn `{KAGGLE_DATA_PATH}`.\n"
+        "**CẦN UPLOAD** `plan_solve_prompts_mulogarit_merged.json` lên Kaggle làm "
+        "1 Dataset rồi \"Add Data\" vào notebook (tên dataset tuỳ ý) - notebook tự "
+        "dò đường dẫn thật dưới `/kaggle/input/` bằng `glob`, không cần gõ cứng "
+        "đường dẫn.\n"
     )]
 
     cells.append(code_cell(
@@ -78,7 +78,7 @@ def build_notebook(split_info):
         "## Cấu hình - ĐỔI `GROUP_ID` CHO ĐÚNG TÀI KHOẢN (1-10), KHÔNG SỬA GÌ KHÁC Ở Ô NÀY"
     ))
     cells.append(code_cell(
-        "import os, json, re, time\n"
+        "import os, json, re, time, glob\n"
         "import pandas as pd\n"
         "import torch\n"
         "from transformers import AutoTokenizer\n"
@@ -86,7 +86,15 @@ def build_notebook(split_info):
         "\n"
         "GROUP_ID = 1  # <-- SUA SO NAY (1-10) THEO TUNG TAI KHOAN, roi Run All\n"
         "\n"
-        f"MERGED_DATA_PATH = '{KAGGLE_DATA_PATH}'  # SUA NEU KHAC\n"
+        "DATA_FILENAME = 'plan_solve_prompts_mulogarit_merged.json'\n"
+        "# Duong dan /kaggle/input/<ten-dataset>/... khac nhau tuy ten dataset ban\n"
+        "# dat khi upload; thay vi go cung duong dan, tu do tim file nay o bat ky\n"
+        "# dataset nao da duoc gan (Add Data) vao notebook.\n"
+        "_matches = glob.glob(f'/kaggle/input/**/{DATA_FILENAME}', recursive=True)\n"
+        "assert _matches, (f'Khong tim thay {DATA_FILENAME} duoi /kaggle/input/ - '\n"
+        "                  'kiem tra da \"Add Data\" dataset chua chuoi file nay chua.')\n"
+        "MERGED_DATA_PATH = _matches[0]\n"
+        "print('Dung file du lieu:', MERGED_DATA_PATH)\n"
         "\n"
         "# Danh sach ma dang theo tung group (1-10), nhung 10 tai khoan deu dung\n"
         "# chung notebook nay - chi GROUP_ID doi.\n"

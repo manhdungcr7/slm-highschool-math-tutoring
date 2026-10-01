@@ -23,15 +23,13 @@ vào notebook). Lệnh sau sinh ra file `.ipynb` duy nhất trong thư mục nà
 
 ## Upload lên Kaggle
 
-Tạo 1 Kaggle Dataset chứa `plan_solve_prompts_mulogarit_merged.json`,
-đặt tên sao cho đường dẫn khớp biến `MERGED_DATA_PATH` trong ô cấu hình:
-
-```
-/kaggle/input/datasets/ggducky/mulogarit-full/plan_solve_prompts_mulogarit_merged.json
-```
-
-Nếu dùng tên dataset khác, sửa dòng `MERGED_DATA_PATH = '...'  # SUA NEU KHAC`
-trong ô cấu hình (chỉ 1 chỗ, áp dụng cho cả notebook).
+Tạo 1 Kaggle Dataset chứa `plan_solve_prompts_mulogarit_merged.json`
+(tên dataset tuỳ ý — không cần giống nhau giữa các tài khoản). Notebook
+**tự dò đường dẫn thật** bằng `glob.glob('/kaggle/input/**/plan_solve_prompts_mulogarit_merged.json')`
+thay vì gõ cứng, nên dù mỗi tài khoản đặt tên dataset khác nhau (đường
+dẫn mount dưới `/kaggle/input/` sẽ khác nhau tuỳ tên) thì vẫn chạy được
+mà không cần sửa gì — chỉ cần nhớ "Add Data" gắn đúng dataset đó vào
+notebook trước khi chạy.
 
 ## Chạy trên 10 tài khoản
 
