@@ -193,12 +193,13 @@ def gen_D14(p, q, r):
     wrong1 = f"({latex(boundary)};+\\infty)"
     wrong2 = f"(-\\infty;{latex(boundary)})"
     wrong3 = f"({latex(dk)};+\\infty)"
-    rhs_lin = f"{q}x" + (f"+{r}" if r > 0 else (f"{r}" if r < 0 else ""))
-    de_bai = f"Tìm tập nghiệm $S$ của bất phương trình $\\log_{{\\frac12}}(x+{p}) < \\log_{{\\frac12}}({rhs_lin})$.\n\n"
+    lhs_lin = _linear_term(1, p)
+    rhs_lin = _linear_term(q, r)
+    de_bai = f"Tìm tập nghiệm $S$ của bất phương trình $\\log_{{\\frac12}}({lhs_lin}) < \\log_{{\\frac12}}({rhs_lin})$.\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0, prefix="S=")
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Điều kiện: $x>{latex(dk)}$. Bất phương trình $\\Leftrightarrow x+{p}>{rhs_lin} \\Leftrightarrow x<{latex(boundary)}$.\n"
+        f"Điều kiện: $x>{latex(dk)}$. Bất phương trình $\\Leftrightarrow {lhs_lin}>{rhs_lin} \\Leftrightarrow x<{latex(boundary)}$.\n"
         f"Kết hợp điều kiện, $S=\\left({latex(dk)};{latex(boundary)}\\right)$."
     )
     return de_bai, dap_an, loi_giai, dict(p=str(p), q=str(q), r=str(r))
@@ -653,9 +654,13 @@ def gen_D62(a, r1, r2):
     wrong1 = f"[{lo};{hi}]"
     wrong2 = f"(-\\infty;{lo}]\\cup[{hi};+\\infty)"
     wrong3 = f"(0;{lo})\\cup({hi};+\\infty)"
-    sign_S = f"-{S}" if S > 0 else (f"+{-S}" if S < 0 else "")
+    if S == 0:
+        linear_term = ""
+    else:
+        coef_mag = "" if abs(S) == 1 else str(abs(S))
+        linear_term = (f"-{coef_mag}" if S > 0 else f"+{coef_mag}") + f"\\log_{{{a}}} x"
     sign_P = f"+{P}" if P > 0 else (f"{P}" if P < 0 else "")
-    de_bai = f"Tìm tập nghiệm $S$ của bất phương trình $\\log_{{{a}}}^2 x{sign_S}\\log_{{{a}}} x{sign_P}\\ge 0$.\n\n"
+    de_bai = f"Tìm tập nghiệm $S$ của bất phương trình $\\log_{{{a}}}^2 x{linear_term}{sign_P}\\ge 0$.\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (

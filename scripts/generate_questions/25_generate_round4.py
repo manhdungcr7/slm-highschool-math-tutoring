@@ -152,7 +152,7 @@ def gen_D83_v2(a, K, b, P):
     de_bai += "\n".join(lines)
     loi_giai = (
         f"Điều kiện xác định $x>-{K}$. Xét $f(x)=({a}^{{x^2}}-{a}^{{2x}})[\\log_{{{b}}}(x+{K})-{P}]$. "
-        f"$f(x)=0\\Leftrightarrow x^2={2}x$ hoặc $x+{K}={b}^{{{P}}}\\Leftrightarrow x=0$ hoặc $x=2$ (nghiệm kép). "
+        f"$f(x)=0\\Leftrightarrow x^2={2}x$ hoặc $x+{K}={b}^{{{P}}}\\Leftrightarrow x=0$ hoặc $x=2$. "
         f"Xét dấu: $f(x)\\le0$ trên $S=(-{K};0]\\cup\\{{2\\}}$. Vậy có ${count}$ số nguyên $x$ thỏa mãn."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), K=str(K), b=str(b), P=str(P))

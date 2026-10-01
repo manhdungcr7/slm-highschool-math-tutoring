@@ -180,7 +180,7 @@ def gen_D54(p, q):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Ta có $\\ln({p}a)-\\ln({q}a)=\\ln\\left(\\dfrac{{{p}a}}{{{q}a}}\\right)=\\ln\\dfrac{{{p2}}}{{{q2}}}$."
+        f"Ta có $\\ln({p}a)-\\ln({q}a)=\\ln\\left(\\dfrac{{{p}a}}{{{q}a}}\\right)={correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(p=str(p), q=str(q))
 

@@ -228,21 +228,34 @@ def verify_D64(params):
 TEN_D72 = "Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số"
 
 
+def _pow_str(base, exp):
+    return base if exp == 1 else f"{base}^{{{exp}}}"
+
+
+def _coef_log_str(coef, var, c):
+    mag = "" if abs(coef) == 1 else str(abs(coef))
+    sign = "-" if coef < 0 else ""
+    return f"{sign}{mag}\\log_{{{c}}}{var}"
+
+
 def gen_D72(c, p, q, r):
     c, p, q, r = (sp.Integer(v) for v in (c, p, q, r))
     assert p != 0 and q != 0, "p=0 hoac q=0 lam bien a hoac b bien mat khoi de"
     N = c ** r
     vals = utils.bump_until_distinct([r, N, p + q, r * 2])
     correct, wrong1, wrong2, wrong3 = (str(v) for v in vals)
+    term_p = _coef_log_str(p, "a", c)
+    term_q = _coef_log_str(q, "b", c)
+    expr = term_p + ("+" + term_q if q > 0 else term_q)
     de_bai = (
-        f"Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^{{{p}}}b^{{{q}}}={N}$. "
-        f"Giá trị của ${p}\\log_{{{c}}}a+{q}\\log_{{{c}}}b$ bằng\n\n"
+        f"Cho $a$ và $b$ là hai số thực dương thỏa mãn ${_pow_str('a', p)}{_pow_str('b', q)}={N}$. "
+        f"Giá trị của ${expr}$ bằng\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Ta có $\\log_{{{c}}}(a^{{{p}}}b^{{{q}}})=\\log_{{{c}}}{N}\\Leftrightarrow "
-        f"{p}\\log_{{{c}}}a+{q}\\log_{{{c}}}b={r}$."
+        f"Ta có $\\log_{{{c}}}({_pow_str('a', p)}{_pow_str('b', q)})=\\log_{{{c}}}{N}\\Leftrightarrow "
+        f"{expr}={r}$."
     )
     return de_bai, dap_an, loi_giai, dict(c=str(c), p=str(p), q=str(q), r=str(r))
 
