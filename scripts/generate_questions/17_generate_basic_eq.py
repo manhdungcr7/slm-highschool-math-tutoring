@@ -162,7 +162,8 @@ def verify_D04(params):
 def gen_D07(k, a):
     k, a = sp.Integer(k), sp.Integer(a)
     expr = (x + k) / a ** x
-    de_bai = f"Tính đạo hàm của hàm số $y = \\dfrac{{x+{k}}}{{{a}^x}}$.\n\n"
+    xk = _linear_term(1, k)
+    de_bai = f"Tính đạo hàm của hàm số $y = \\dfrac{{{xk}}}{{{a}^x}}$.\n\n"
     correct = f"\\dfrac{{1-({latex(x+k)})\\ln {a}}}{{{a}^x}}"
     wrong1 = f"\\dfrac{{1+({latex(x+k)})\\ln {a}}}{{{a}^x}}"
     wrong2 = f"\\dfrac{{1-({latex(x+k)})\\ln {a}}}{{{a}^{{2x}}}}"
@@ -170,7 +171,7 @@ def gen_D07(k, a):
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0, prefix="y'=")
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"$y'=\\dfrac{{{a}^x-(x+{k}){a}^x\\ln{a}}}{{({a}^x)^2}}=\\dfrac{{1-(x+{k})\\ln{a}}}{{{a}^x}}$."
+        f"$y'=\\dfrac{{{a}^x-({xk}){a}^x\\ln{a}}}{{({a}^x)^2}}=\\dfrac{{1-({xk})\\ln{a}}}{{{a}^x}}$."
     )
     return de_bai, dap_an, loi_giai, dict(k=str(k), a=str(a))
 
@@ -599,14 +600,16 @@ def gen_D58(a, k, c):
     wrong1 = _fmt_quad(-ka, -c)
     wrong2 = _fmt_quad(k, -c)
     wrong3 = _fmt_quad(ka, c)
+    k_term = f"{a}^{{x+1}}" if k == 1 else (f"-{a}^{{x+1}}" if k == -1 else f"{k}\\cdot{a}^{{x+1}}")
+    k_term_plus = k_term if str(k_term).startswith("-") else "+" + k_term
     de_bai = (
-        f"Cho phương trình ${a}^{{2x}}+{k}\\cdot{a}^{{x+1}}-{c}=0$. "
+        f"Cho phương trình ${a}^{{2x}}{k_term_plus}-{c}=0$. "
         f"Khi đặt $t={a}^x$, ta được phương trình nào dưới đây?\n\n"
     )
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0)
     de_bai += "\n".join(lines)
     loi_giai = (
-        f"Ta có ${a}^{{2x}}+{k}\\cdot{a}^{{x+1}}-{c}=0 \\Leftrightarrow ({a}^x)^2+{ka}\\cdot{a}^x-{c}=0$. "
+        f"Ta có ${a}^{{2x}}{k_term_plus}-{c}=0 \\Leftrightarrow ({a}^x)^2+{ka}\\cdot{a}^x-{c}=0$. "
         f"Đặt $t={a}^x$ $(t>0)$, phương trình trở thành ${correct}$."
     )
     return de_bai, dap_an, loi_giai, dict(a=str(a), k=str(k), c=str(c))
@@ -631,10 +634,12 @@ def gen_D61(c, p, q):
     wrong1 = f"({-q};{p})"
     wrong2 = f"\\mathbb{{R}}\\setminus\\{{{-q}\\}}"
     wrong3 = f"(-\\infty;{-q}]\\cup[{p};+\\infty)"
-    de_bai = f"Tìm tập xác định $D$ của hàm số $y=\\log_{{{c}}}\\dfrac{{x-{p}}}{{x+{q}}}$.\n\n"
+    num_str = _linear_term(1, -p)
+    den_str = _linear_term(1, q)
+    de_bai = f"Tìm tập xác định $D$ của hàm số $y=\\log_{{{c}}}\\dfrac{{{num_str}}}{{{den_str}}}$.\n\n"
     lines, dap_an = render_mc([correct, wrong1, wrong2, wrong3], 0, prefix="D=")
     de_bai += "\n".join(lines)
-    loi_giai = f"ĐK: $\\dfrac{{x-{p}}}{{x+{q}}}>0 \\Leftrightarrow x<{-q}$ hoặc $x>{p}$."
+    loi_giai = f"ĐK: $\\dfrac{{{num_str}}}{{{den_str}}}>0 \\Leftrightarrow x<{-q}$ hoặc $x>{p}$."
     return de_bai, dap_an, loi_giai, dict(c=str(c), p=str(p), q=str(q))
 
 

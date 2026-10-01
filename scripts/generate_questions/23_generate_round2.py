@@ -239,7 +239,7 @@ def gen_D40(a, b_coef, p, q=None):
     coeff = 2 - int(p)
     shift = int(p) - 3
     loi_giai = (
-        f"Đặt $t=\\log_{{{a}}}x$. Thay $q={q}$ và khai triển, phương trình tương đương "
+        f"Đặt $t=\\log_{{{a}}}x$. Khai triển, phương trình tương đương "
         f"$(t+1)^2-{p_term}t+{q_term}=0$"
         f" $\\Leftrightarrow t^2+({coeff}-m)t+(m{shift:+d})=0$"
         f" $\\Leftrightarrow (t-1)(t-(m{shift:+d}))=0$. "

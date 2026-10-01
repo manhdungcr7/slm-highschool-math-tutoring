@@ -59,11 +59,12 @@ def gen_D08(p, C, r, s, i, j):
     )
     lines, answer = render_mc(opts, 0, prefix=f"\\log_{{{target}}}({argument})=")
     prompt = question + "\n".join(lines)
+    ib = "b" if i == 1 else f"{i}b"
     solution = (
         f"Đổi cơ số theo $\\ln C$: $\\ln p=\\dfrac{{\\ln C}}a$ và "
         f"$\\ln r=\\dfrac{{\\ln C}}b$. Do đó giá trị cần tìm bằng "
         f"$\\dfrac{{{ilogc}+{jlogr}}}{{\\ln p+{slogc}}}="
-        f"\\dfrac{{a({i}b+{j})}}{{b(1+{sa})}}={latex(correct)}$."
+        f"\\dfrac{{a({ib}+{j})}}{{b(1+{sa})}}={latex(correct)}$."
     )
     return prompt, answer, solution, dict(p=p, C=C, r=r, s=s, i=i, j=j)
 
