@@ -1,4 +1,4 @@
-# Qwen3-4B zero-shot — Mũ-Logarit (91 dạng, 8.190 biến thể)
+# Qwen3-4B zero-shot — Mũ-Logarit (89 dạng, 8.010 biến thể)
 
 **1 notebook duy nhất** (`KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb`),
 upload y hệt lên cả 10 tài khoản Kaggle — mỗi tài khoản chỉ đổi `GROUP_ID`
@@ -17,7 +17,7 @@ python scripts/experiments/11_build_zeroshot_notebooks.py
 ```
 
 Lệnh đầu tạo `scripts/experiments/plan_solve_prompts_mulogarit_merged.json`
-(8.190 câu, gộp theo `ma_dang`, chỉ lấy biến thể — không lấy câu gốc) và
+(8.010 câu, gộp theo `ma_dang`, chỉ lấy biến thể — không lấy câu gốc) và
 `mulogarit_group_split.json` (danh sách dạng theo từng group, nhúng sẵn
 vào notebook). Lệnh sau sinh ra file `.ipynb` duy nhất trong thư mục này.
 
@@ -50,16 +50,16 @@ Notebook tự nạp model Qwen3-4B 1 lần rồi lặp qua các dạng được 
 
 | GROUP_ID | Dạng |
 |---|---|
-| 1 | D01–D13 (10 dạng) |
-| 2 | D14–D22 |
-| 3 | D23–D32 |
-| 4 | D33–D42 |
-| 5 | D43–D52 |
-| 6 | D53–D61 |
-| 7 | D62–D71 |
-| 8 | D72–D80 |
-| 9 | D81–D89 |
-| 10 | D90, D91, D92, D93, D94, D36a, D36b, D50a, D50b |
+| 1 | D01–D12 (9 dạng) |
+| 2 | D13–D21 (9 dạng) |
+| 3 | D22–D33 (9 dạng) |
+| 4 | D34–D43 (9 dạng) |
+| 5 | D44–D53 (9 dạng) |
+| 6 | D54–D62 (9 dạng) |
+| 7 | D63–D72 (9 dạng) |
+| 8 | D73–D81 (9 dạng) |
+| 9 | D82–D90 (9 dạng) |
+| 10 | D91, D92, D93, D94, D36a, D36b, D50a, D50b (8 dạng) |
 
 Mỗi dạng ghi ra 1 file CSV riêng tại `/kaggle/working/<ma_dang>_zeroshot_full90_Qwen3-4B.csv`
 (viết thường, ví dụ `d01_zeroshot_full90_Qwen3-4B.csv`), chứa `STT`,
@@ -67,4 +67,6 @@ Mỗi dạng ghi ra 1 file CSV riêng tại `/kaggle/working/<ma_dang>_zeroshot_
 `het_ngan_sach` (có chạm giới hạn 9.216 token không), và văn bản suy
 luận đầy đủ (`think`, `after`). Ô cuối notebook cũng in bảng tổng kết số
 câu đúng/sai theo từng dạng trong nhóm đó. Tải toàn bộ các CSV từ cả 10
-tài khoản về và gộp lại để tính kết quả tổng trên cả 91 dạng.
+tài khoản về và gộp lại để tính kết quả tổng trên cả 89 dạng.
+
+**Lưu ý:** D31 và D32 đã bị loại khỏi bộ dữ liệu (đề có phương án trùng nghĩa), nên bộ còn 89 dạng. Lần chạy Qwen3-4B zero-shot đã thực hiện khi còn 91 dạng; kết quả đã được lọc bỏ hai dạng này (các file zip tải về giữ nguyên làm bản gốc).

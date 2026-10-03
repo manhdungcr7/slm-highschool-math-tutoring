@@ -5,13 +5,15 @@ Each generator computes the answer and then verifies it independently with a
 different method. A repository-wide scan also checks that every generated
 question has exactly four distinct answer choices labeled A-D.
 
-**Current coverage: all 91 retained problem types**
-(8,187 generated variants; 110 retained source questions + 8,187 variants =
-8,297 rows in the combined CSV/XLSX). 88 types have 90 variants each; D02, D43
-and D80 have 89 because their domain excludes the one parameter value that
-would exactly reproduce the source question, leaving only 89 valid
-candidates. D09 and D11 are excluded because they
-have no numeric inputs to vary. Type grouping requires the same given-data
+**Current coverage: all 89 retained problem types, 90 variants each**
+(8,010 generated variants; 107 retained source questions + 8,010 variants =
+8,117 rows in the combined CSV/XLSX). D09 and D11 are excluded because they
+have no numeric inputs to vary. D31 and D32 are excluded too: a Qwen3-4B zero-shot
+audit found D31 variants with two answer options that are the same set (9 of 90)
+and D32 variants whose options are numerically equal (2 of 90). Their generators
+stay in `16_`/`17_` untouched (so the random seeds of the other types do not
+shift), but `22_export_all.py` skips them and `23b_exclude_types.py` removed them
+from every batch file and derived result. Type grouping requires the same given-data
 form, requested task, and solution method. A manual audit split D36 into
 proposition selection (D36a) and direct evaluation (D36b), and split D50 into
 the logarithm quotient-rule case (D50a) and product-rule case (D50b).
@@ -66,8 +68,7 @@ python scripts/generate_questions/30_generate_round9.py
 python scripts/generate_questions/22_export_all.py
 ```
 
-D09 and D11 are excluded from the retained source set because they are general
-symbolic questions without numbers to vary. All 91 retained types now have 90
+D09, D11, D31 and D32 are excluded from the retained source set (see above). All 89 retained types have 90
 variants. D43 uses exact integer and rational threshold values. D51 varies the
 quadratic coefficients while preserving its exponential-quadratic inequality
 form; the selected coefficients make the quadratic factor at integer powers

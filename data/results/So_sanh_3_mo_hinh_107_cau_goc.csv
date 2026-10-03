@@ -27,8 +27,6 @@ p049_q13,D27,Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x
 p053_q27,D28,Giải phương trình tích nhiều lôgarit cùng cơ số bằng đổi cơ số và đặt ẩn phụ,A. 82/9,A,DUNG,A,DUNG,A,DUNG
 p056_q34,D29,Tìm tham số để phương trình mũ đẳng cấp có nghiệm dương (chia và đặt ẩn phụ),B. 2.,D,SAI,B,DUNG,B,DUNG
 p065_q05,D30,Rút gọn biểu thức lôgarit của một tích chứa lũy thừa,B. $\log a+2\log b$.,B,DUNG,B,DUNG,B,DUNG
-p066_q08,D31,Giải phương trình lôgarit cơ bản chứa tam thức bậc hai,B. $\{0;1\}$.,B,DUNG,B,DUNG,B,DUNG
-p068_q20,D32,Đổi cơ số lôgarit qua ẩn phụ cho trước,B. $\dfrac{3}{4a}$.,B,DUNG,B,DUNG,B,DUNG
 p068_q23,D33,"Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",C. $(-1;3)$.,C,DUNG,C,DUNG,C,DUNG
 p069_q28,D34,Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai,D. $f'(x)=\dfrac{2x-2}{(x^2-2x)\ln 2}$.,D,DUNG,D,DUNG,D,DUNG
 p070_q31,D35,"Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",A. 2.,A,DUNG,A,DUNG,A,DUNG
@@ -69,7 +67,6 @@ p139_q17,D62,Giải bất phương trình lôgarit bậc hai bằng đặt ẩn 
 p145_q39,D63,Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước,B. $m=4$.,B,DUNG,B,DUNG,B,DUNG
 p146_q42,D64,Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số,D. $P=\dfrac{12}{7}$.,D,DUNG,D,DUNG,D,DUNG
 p148_q47,D65,Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng,D. $P_{\min}=\dfrac{2\sqrt{11}-3}{3}$.,D,DUNG,D,DUNG,,KXD
-p152_q03,D31,Giải phương trình lôgarit cơ bản chứa tam thức bậc hai,A. $\{-3;3\}$.,A,DUNG,A,DUNG,A,DUNG
 p154_q11,D66,Tách lôgarit của một tích chứa hằng số thành tổng hai lôgarit,C. $1+\log_3 a$.,C,DUNG,C,DUNG,C,DUNG
 p161_q35,D67,Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt,C. 2.,A,SAI,C,DUNG,C,DUNG
 p161_q37,D68,Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si,D. $\dfrac{11}{2}$.,,KXD,D,DUNG,D,DUNG

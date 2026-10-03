@@ -11,7 +11,8 @@ import pandas as pd
 
 EXTRACTED_DIR = "data/results/qwen3_4b_zeroshot/full_dataset/_extracted"
 OUT_CSV = "data/results/qwen3_4b_zeroshot/full_dataset/ketqua_Qwen3-4B_zeroshot_mulogarit_full.csv"
-EXPECTED_TYPES = 91
+EXPECTED_TYPES = 89  # D31 and D32 were dropped
+EXCLUDED_TYPES = {"D31", "D32"}
 EXPECTED_PER_TYPE = 90
 
 
@@ -26,6 +27,7 @@ def main():
         dfs.append(df)
 
     full = pd.concat(dfs, ignore_index=True)
+    full = full[~full["ma_dang"].isin(EXCLUDED_TYPES)].reset_index(drop=True)
     full.to_csv(OUT_CSV, index=False, encoding="utf-8-sig")
     print(f"Da gop {len(full)} cau vao {OUT_CSV}")
 

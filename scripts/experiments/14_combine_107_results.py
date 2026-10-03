@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Combines GPT-4o/Gemini/Qwen3-4B zero-shot results on the 110 retained
+"""Combines GPT-4o/Gemini/Qwen3-4B zero-shot results on the 107 retained
 source questions into one table with DUNG/SAI/KXD per model, plus overall
 tallies."""
 import pandas as pd
 
-GOC = "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_goc.csv"
-MOHINH = "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_goc_ket_qua_mo_hinh.csv"
-QWEN = "data/results/qwen3_4b_zeroshot/ketqua_Qwen3-4B_think_mulogarit110.csv"
-PHAN_DANG = "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_phan_dang.csv"
+GOC = "data/questions/mu_logarit_extraction/Mu_Logarit_107_cau_goc.csv"
+MOHINH = "data/questions/mu_logarit_extraction/Mu_Logarit_107_cau_goc_ket_qua_mo_hinh.csv"
+QWEN = "data/results/qwen3_4b_zeroshot/ketqua_Qwen3-4B_think_mulogarit107.csv"
+PHAN_DANG = "data/questions/mu_logarit_extraction/Mu_Logarit_107_cau_phan_dang.csv"
 
-OUT_CSV = "data/results/So_sanh_3_mo_hinh_110_cau_goc.csv"
-OUT_XLSX = "data/results/So_sanh_3_mo_hinh_110_cau_goc.xlsx"
+OUT_CSV = "data/results/So_sanh_3_mo_hinh_107_cau_goc.csv"
+OUT_XLSX = "data/results/So_sanh_3_mo_hinh_107_cau_goc.xlsx"
 
 
 def normalize(label, chosen):

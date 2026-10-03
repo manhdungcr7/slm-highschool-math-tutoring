@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Gop TOAN BO cau goc (110 cau) + bien the da sinh (pilot D01/D12/D18/D53 +
+Gop TOAN BO cau goc (107 cau, sau khi loai D31/D32) + bien the da sinh (pilot D01/D12/D18/D53 +
 batch A/B/C) thanh 1 file CSV/Excel. Chi xuat neu moi bien the da qua kiem
 tra doc lap tuong ung (khong kiem tra lai o day, cac script sinh da lam).
 """
@@ -8,8 +8,11 @@ import json
 
 import pandas as pd
 
+# D31 and D32 were dropped (see 23b_exclude_types.py); never export them again.
+EXCLUDED_TYPES = {"D31", "D32"}
+
 df_goc = pd.read_csv(
-    "data/questions/mu_logarit_extraction/Mu_Logarit_110_cau_phan_dang.csv",
+    "data/questions/mu_logarit_extraction/Mu_Logarit_107_cau_phan_dang.csv",
     encoding="utf-8-sig",
 )
 
@@ -50,6 +53,8 @@ for path in BIEN_THE_FILES:
     with open(path, encoding="utf-8") as f:
         items = json.load(f)
     for it in items:
+        if it["ma_dang"] in EXCLUDED_TYPES:
+            continue
         rows.append({
             "Mã dạng": it["ma_dang"],
             "Nguồn": "Nhân bản",
