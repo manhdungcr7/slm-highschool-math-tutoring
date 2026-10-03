@@ -1,0 +1,468 @@
+# -*- coding: utf-8 -*-
+"""
+Builds the Kaggle notebook for ReAct + Calculator with Qwen3-4B on one
+problem type of the Exponential and Logarithm chapter.
+
+    python scripts/experiments/react/build_react_notebook.py D79
+
+What it does (and refuses to continue if any of it fails):
+  1. Runs the Action Inputs of the worked example through the REAL Calculator
+     backend, so every Observation printed in PART_FEWSHOT is genuine.
+  2. Regression check: replays the method of PART_NHIEMVU (the exact
+     Calculator calls) on all 90 questions of the type, without any language
+     model, and requires the matched letter to equal the stored key.
+  3. Lints the model facing text (no dash used as punctuation, English
+     identifiers only, the words of PART_TOOL not contradicted).
+  4. Writes the notebook, with PART_TOOL / PART_KIENTHUC shared by all types.
+
+Prompt, decoding settings and notebook structure follow the Complex Numbers
+ReAct + Calculator notebooks (so_phuc/experiments/Qwen3-4B).
+"""
+import importlib
+import inspect
+import json
+import re
+import sys
+
+sys.path.insert(0, "scripts/experiments/react")
+import calculator_backend as backend  # noqa: E402
+from part_kienthuc import PART_KIENTHUC  # noqa: E402
+from part_tool import PART_TOOL  # noqa: E402
+
+DATA_JSON = "scripts/experiments/plan_solve_prompts_mulogarit_merged.json"
+OUT_DIR = "experiments/ReAct-Calculator"
+MODEL = "Qwen/Qwen3-4B"
+
+
+# ----------------------------------------------------------------------------
+# 1. worked example with real observations
+# ----------------------------------------------------------------------------
+def build_fewshot(dang):
+    calc = backend.Calculator(free_unknowns=dang.FREE_UNKNOWNS)
+    lines = [
+        "\n**PART 3: WORKED EXAMPLE (STUDY THIS TRACE CAREFULLY)**\n",
+        dang.EXAMPLE_QUESTION + "\n",
+        "<think>",
+    ]
+    last_count = None
+    for thought, action_input in dang.EXAMPLE_STEPS:
+        if action_input is None:
+            lines.append(f"Thought: {thought}\n")
+            continue
+        result, error = calc.evaluate(action_input)
+        assert error is None, f"example step failed: {action_input} -> {error}"
+        if action_input.startswith("count ="):
+            last_count = int(calc.ns["count"])
+        lines.append(f"Thought: {thought}\nAction: Calculator\nAction Input: {action_input}\nObservation: {result}\n")
+    assert last_count == dang.EXAMPLE_COUNT, (last_count, dang.EXAMPLE_COUNT)
+    truths = {k: bool(calc.ns[k]) for k in ("test_A", "test_B", "test_C", "test_D")}
+    assert [k[-1] for k, v in truths.items() if v] == [dang.EXAMPLE_ANSWER], truths
+    lines.append("</think>")
+    lines.append(f"Final Answer: \\boxed{{{dang.EXAMPLE_ANSWER}}}\n")
+    return "\n".join(lines)
+
+
+# ----------------------------------------------------------------------------
+# 2. regression: replay PART_NHIEMVU on every question, no language model
+# ----------------------------------------------------------------------------
+def replay_method(question_text, free_unknowns):
+    m = re.search(r"không quá (\d+) số nguyên \$y\$ thỏa mãn \$\\log_\{(\d+)\}\(x\^2\+y\)\\ge \\log_\{(\d+)\}\(x\+y\)\$", question_text)
+    bound, a, b = map(int, m.groups())
+    options = dict(re.findall(r"(?m)^([A-D])\.\s*\$?(-?\d+)\$?\.?\s*$", question_text))
+    calc = backend.Calculator(free_unknowns=free_unknowns)
+    program = [
+        f"n_plus_1 = {bound} + 1",
+        f"exponent = log({a})/log({b})",
+        "threshold = N(n_plus_1**exponent - n_plus_1, 20)",
+        "x_roots = solve(x**2 - x - threshold, x)",
+        "x_low = Min(x_roots[0], x_roots[1])",
+        "x_high = Max(x_roots[0], x_roots[1])",
+        "first_x = floor(x_low) + 1",
+        "last_x = ceiling(x_high) - 1",
+        "count = last_x - first_x + 1",
+    ] + [f"test_{k} = Eq(count, {options[k]})" for k in "ABCD"]
+    for cmd in program:
+        _, err = calc.evaluate(cmd)
+        assert err is None, (cmd, err)
+    matched = [k for k in "ABCD" if bool(calc.ns[f"test_{k}"])]
+    return matched
+
+
+def regression(dang):
+    records = json.load(open(DATA_JSON, encoding="utf-8"))[dang.MA_DANG]
+    wrong = []
+    for r in records:
+        matched = replay_method(r["de_bai_mcq"], dang.FREE_UNKNOWNS)
+        if matched != [r["dap_an_letter"]]:
+            wrong.append((r["STT"], matched, r["dap_an_letter"]))
+    assert not wrong, f"method replay disagrees with the key on {len(wrong)} questions: {wrong[:5]}"
+    return len(records)
+
+
+# ----------------------------------------------------------------------------
+# 3. lint of the model facing text
+# ----------------------------------------------------------------------------
+def lint(prompt_parts):
+    problems = []
+    for name, text in prompt_parts.items():
+        # Action Input / Observation lines are Calculator code, where "-" is a genuine minus sign.
+        stripped = re.sub(r"(?m)^(Action Input|Observation):.*$", " ", text)
+        stripped = re.sub(r"```.*?```", " ", stripped, flags=re.S)
+        stripped = re.sub(r"\$\$.*?\$\$", " ", stripped, flags=re.S)
+        stripped = re.sub(r"\$[^$]*\$", " ", stripped)
+        stripped = re.sub(r"`[^`]*`", " ", stripped)
+        for pat, label in ((r"[\u2014\u2013]", "em/en dash"), (r"(?<=\S) - (?=\S)", "spaced hyphen used as dash")):
+            for mm in re.finditer(pat, stripped):
+                problems.append(f"{name}: {label} near {stripped[max(0, mm.start()-30):mm.end()+30]!r}")
+    return problems
+
+
+def lint_identifiers(dang):
+    allowed = {"n_plus_1", "exponent", "threshold", "x_roots", "x_low", "x_high", "first_x",
+               "last_x", "count", "test_A", "test_B", "test_C", "test_D"}
+    problems = []
+    for _, ai in dang.EXAMPLE_STEPS:
+        if ai:
+            name = ai.split("=")[0].strip()
+            if name not in allowed:
+                problems.append(f"unexpected identifier {name!r} in the example")
+    return problems
+
+
+# ----------------------------------------------------------------------------
+# 4. notebook
+# ----------------------------------------------------------------------------
+def md(src):
+    return {"cell_type": "markdown", "metadata": {}, "source": src.splitlines(keepends=True)}
+
+
+def code(src):
+    return {"cell_type": "code", "execution_count": None, "metadata": {}, "outputs": [],
+            "source": src.splitlines(keepends=True)}
+
+
+LOOP_SOURCE = r'''
+# =====================================================================
+# BATCHED ReAct LOOP: one vLLM call per round for every active question,
+# then the Calculator runs separately for each question.
+# =====================================================================
+STOP_STR = 'Observation:'
+MAX_TOOL_CALLS = 25
+ACTION_INPUT_RE = re.compile(r'Action Input:[ \t]*(.*)')
+
+
+class QuestionState:
+    """ReAct state of ONE question (own variable memory, own token budget)."""
+
+    def __init__(self, rec, chat_prompt):
+        self.rec = rec
+        self.chat_prompt = chat_prompt
+        self.calculator = Calculator(free_unknowns=FREE_UNKNOWNS)
+        # Forced prefix: the model must continue from "Thought:" right after
+        # <think>, it cannot start with free prose.
+        self.full_text = '<think>\nThought:'
+        self.total_tokens = 0
+        self.n_calls = 0
+        self.tool_log = []
+        self.done = False
+        self.stop_reason = ''
+        self.final_round = False          # tool limit reached: force the Final Answer
+
+
+initial_prompts = []
+for r in records:
+    prompt_text = PROMPT_TEMPLATE.replace('{de_bai}', r['de_bai_mcq'])
+    initial_prompts.append(tok.apply_chat_template(
+        [{'role': 'user', 'content': prompt_text}],
+        tokenize=False, add_generation_prompt=True, enable_thinking=True))
+
+states = [QuestionState(r, p) for r, p in zip(records, initial_prompts)]
+
+t0 = time.time()
+round_no = 0
+while True:
+    active = [s for s in states if not s.done]
+    if not active:
+        break
+    round_no += 1
+
+    batch = []
+    for s in active:
+        model_input = s.chat_prompt + s.full_text
+        room = MAX_MODEL_LEN - len(tok(model_input).input_ids) - 8
+        n_new = min(MAX_NEW_TOKENS - s.total_tokens, room)
+        if n_new <= 0:
+            s.done = True
+            s.stop_reason = 'out_of_context' if room <= 0 else 'out_of_token_budget'
+            continue
+        stop = None if s.final_round else [STOP_STR]
+        batch.append((s, model_input, SamplingParams(
+            temperature=TEMPERATURE, top_p=TOP_P, top_k=TOP_K,
+            presence_penalty=PRESENCE_PENALTY, max_tokens=n_new,
+            seed=SEED, stop=stop)))
+
+    if not batch:
+        break
+
+    outs = llm.generate([p for _, p, _ in batch],
+                        [sp_ for _, _, sp_ in batch], use_tqdm=False)
+
+    calls_this_round = 0
+    for (s, _, _), out in zip(batch, outs):
+        o = out.outputs[0]
+        s.full_text += o.text
+        s.total_tokens += len(o.token_ids)
+
+        if s.final_round:
+            s.done = True
+            s.stop_reason = 'tool_limit_reached'
+            continue
+
+        if o.stop_reason != STOP_STR:
+            s.done = True
+            s.stop_reason = ('model_finished' if o.finish_reason == 'stop'
+                             else 'out_of_tokens')
+            continue
+
+        s.n_calls += 1
+        calls_this_round += 1
+        match = None
+        for mm in ACTION_INPUT_RE.finditer(o.text):
+            match = mm
+        expression = match.group(1).strip() if match else ''
+
+        if not expression:
+            observation = ('ERROR: no "Action Input:" line found. Write a Thought, '
+                           'then "Action: Calculator", then "Action Input: <expression>".')
+            s.tool_log.append(('(no Action Input)', observation))
+        else:
+            result, error = s.calculator.evaluate(expression)
+            if error:
+                observation = (f'ERROR: {error}. Fix the syntax and try again '
+                               '(sqrt() for roots, ** for powers, log() for logarithms, '
+                               'Eq(a, b) to compare).')
+                s.tool_log.append((expression, f'ERROR: {error}'))
+            else:
+                observation = result
+                s.tool_log.append((expression, result))
+
+        s.full_text += f'{STOP_STR} {observation}\n'
+
+        if s.n_calls >= MAX_TOOL_CALLS:
+            s.full_text += ('\n[SYSTEM: tool-call limit reached, give your Final '
+                            'Answer now, with no further Action.]\n')
+            s.final_round = True
+
+    print(f'  Round {round_no:2d}: {len(batch):2d} questions generating, '
+          f'{calls_this_round:2d} tool calls, '
+          f'{sum(1 for s in states if not s.done):2d} still active '
+          f'({time.time()-t0:.0f}s)')
+
+print(f'Finished after {round_no} rounds, {(time.time()-t0)/60:.1f} minutes.')
+
+
+# =====================================================================
+# GRADING + SAVING
+# =====================================================================
+def extract_letter(t):
+    for pat in (r'Final\s+Answer[^A-D]{0,20}([A-D])\b',
+                r'\\boxed\{\s*(?:\\text\{\s*)?([A-D])\b',
+                r'[Đđ]áp\s*án[^A-D]{0,15}([A-D])\b'):
+        m = re.findall(pat, t)
+        if m:
+            return m[-1]
+    return ''
+
+
+rows = []
+for s in states:
+    chosen = extract_letter(s.full_text)
+    n_err = sum(1 for _, obs in s.tool_log if str(obs).startswith('ERROR'))
+    rows.append({
+        'STT': s.rec['STT'],
+        'ma_dang': s.rec.get('ma_dang', MA_DANG),
+        'dap_an_dung': s.rec['dap_an_letter'],
+        'model_chon': chosen,
+        'DUNG': chosen == s.rec['dap_an_letter'],
+        'token': s.total_tokens,
+        'tool_calls': s.n_calls,
+        'syntax_errors': n_err,
+        'stop_reason': s.stop_reason,
+        'tool_log': ' | '.join(f'{ex} -> {obs}' for ex, obs in s.tool_log),
+        'full_text': s.full_text,
+    })
+
+df = pd.DataFrame(rows)
+df.to_csv(OUT_PATH, index=False, encoding='utf-8-sig')
+
+n_right = int(df['DUNG'].sum())
+n_none = int((df['model_chon'] == '').sum())
+print('=' * 72)
+print(f"RESULT: {n_right} / {len(df)} correct ({df['DUNG'].mean()*100:.1f}%)   "
+      f"wrong={len(df) - n_right - n_none}   undetermined={n_none}")
+print('=' * 72)
+print()
+print('--- Tool usage quality ---')
+print(f"Average tool calls per question : {df['tool_calls'].mean():.1f}")
+print(f"Total tool calls                : {df['tool_calls'].sum()}")
+print(f"Total syntax errors             : {df['syntax_errors'].sum()} "
+      f"({df['syntax_errors'].sum() / max(1, df['tool_calls'].sum()) * 100:.1f}%)")
+print(f"Questions with NO tool call     : {(df['tool_calls'] == 0).sum()}")
+print(f"Average tokens per question     : {df['token'].mean():.0f}")
+print()
+print('--- Stop reason ---')
+print(df['stop_reason'].value_counts())
+print()
+if (~df['DUNG']).any():
+    print('--- WRONG OR UNDETERMINED QUESTIONS ---')
+    print(df[~df['DUNG']][['STT', 'dap_an_dung', 'model_chon', 'token',
+                           'tool_calls', 'syntax_errors', 'stop_reason']].to_string(index=False))
+else:
+    print(f"*** ALL {len(df)} QUESTIONS CORRECT ***")
+print()
+print('Saved:', OUT_PATH)
+'''
+
+
+def build_notebook(dang, prompt_template, intro_stats):
+    backend_src = inspect.getsource(backend)
+    cells = [
+        md(f"""# {dang.MA_DANG}: FULL 90 câu bằng **ReAct + Calculator tool** (Qwen3-4B), chuyên đề Mũ-Logarit
+
+Dạng {dang.MA_DANG}: *đếm số nguyên $x$ sao cho ứng với mỗi $x$ có không quá $N$ số nguyên $y$ thỏa mãn
+$\\log_a(x^2+y)\\ge\\log_b(x+y)$ (với $a>b>1$)*. Qwen3-4B zero-shot đúng **0/90** ở dạng này (cả 90 câu đều
+hết 9.216 token giữa chừng suy luận).
+
+Model **không tự tính tay bất kỳ phép nào**: mọi phép tính đều gọi tool `Calculator` (sympy, chính xác tuyệt đối,
+**có bộ nhớ biến**, hỗ trợ `log`, `exp`, `floor`, `ceiling`, `N(...)`, `solve`, `Eq`, so sánh `<`, `>`...) theo vòng
+lặp ReAct thật: `Thought → Action → Action Input → Observation → ...`
+
+Prompt gồm 5 phần giống bộ Số phức: `PART_TOOL` (dùng chung) + `PART_KIENTHUC` (kiến thức nền Mũ-Logarit, dùng chung
+cho cả chuyên đề) + `PART_HUONGGIAI` (hướng giải riêng của dạng) + `PART_FEWSHOT` (vết ReAct mẫu, các `Observation`
+là kết quả chạy thật bằng chính backend ở cell cuối) + `PART_NHIEMVU` (danh sách bước riêng của dạng).
+
+Prompt được **ép mở đầu bằng `<think>\\nThought:`** (forced prefix), tham số sinh giữ nguyên bản Số phức
+(`temperature=0.3, top_p=0.95, top_k=20, seed=42, presence_penalty=1.2, max_new_tokens=9216`).
+
+**Khác bản Số phức:** `MAX_MODEL_LEN` được tính theo độ dài prompt (prompt dài hơn vì `PART_KIENTHUC` của Mũ-Logarit
+lớn hơn; bản Số phức đặt cố định 14336).
+
+## Trước khi chạy
+
+1. Dùng lại Kaggle Dataset chứa `plan_solve_prompts_mulogarit_merged.json` (đã dùng cho zero-shot) và gắn vào notebook
+   ("Add Data"). Notebook tự dò đường dẫn bằng `glob`, không cần gõ cứng.
+2. Bật GPU (khuyến nghị 2×T4).
+3. Để thử vài câu trước khi chạy cả 90 câu, đặt `RUN_STT = [1, 2, 3]` ở ô cấu hình.
+
+Kết quả: `/kaggle/working/{dang.MA_DANG.lower()}_react_calculator_full90.csv`
+(prompt: {intro_stats['chars']:,} ký tự, ước lượng khoảng {intro_stats['approx_tokens']:,} token)
+"""),
+        code("!pip install -q -U vllm\n!pip uninstall -y -q torchcodec\nimport vllm; print('vLLM:', vllm.__version__)\n"),
+        code(f"""import os, re, json, time, glob
+import pandas as pd
+import torch
+from transformers import AutoTokenizer
+from vllm import LLM, SamplingParams
+
+MA_DANG = '{dang.MA_DANG}'
+DATA_FILENAME = 'plan_solve_prompts_mulogarit_merged.json'
+# The dataset folder name under /kaggle/input differs between accounts, so
+# search for the file instead of hardcoding a path.
+_matches = glob.glob(f'/kaggle/input/**/{{DATA_FILENAME}}', recursive=True)
+assert _matches, f'{{DATA_FILENAME}} not found under /kaggle/input. Add the dataset to the notebook first.'
+DATA_PATH = _matches[0]
+OUT_PATH = f'/kaggle/working/{{MA_DANG.lower()}}_react_calculator_full90.csv'
+
+RUN_STT = None            # None = all questions; for a quick test use e.g. [1, 2, 3]
+
+MODEL = '{MODEL}'
+# Same decoding settings as the Complex Numbers ReAct + Calculator runs.
+TEMPERATURE, TOP_P, TOP_K, SEED = 0.3, 0.95, 20, 42
+PRESENCE_PENALTY = 1.2
+MAX_NEW_TOKENS = 9216
+
+FREE_UNKNOWNS = {sorted(dang.FREE_UNKNOWNS)!r}
+FREE_UNKNOWNS = set(FREE_UNKNOWNS)
+
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+
+with open(DATA_PATH, encoding='utf-8') as f:
+    records = json.load(f)[MA_DANG]
+if RUN_STT is not None:
+    records = [r for r in records if r['STT'] in RUN_STT]
+print('Questions:', len(records))
+
+tok = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)
+"""),
+        code("# =====================================================================\n"
+             "# PROMPT: five parts. PART_TOOL and PART_KIENTHUC are shared by every\n"
+             "# problem type of the chapter; PART_HUONGGIAI, PART_FEWSHOT and\n"
+             "# PART_NHIEMVU are specific to this one.\n"
+             "# =====================================================================\n\n"
+             + f"PART_TOOL = r'''{PART_TOOL}'''\n\n"
+             + f"PART_KIENTHUC = r'''{PART_KIENTHUC}'''\n\n"
+             + f"PART_HUONGGIAI = r'''{dang.PART_HUONGGIAI}'''\n\n"
+             + f"PART_FEWSHOT = r'''{intro_stats['fewshot']}'''\n\n"
+             + f"PART_NHIEMVU = r'''{dang.PART_NHIEMVU}'''\n\n"
+             + "PROMPT_TEMPLATE = (PART_TOOL + PART_KIENTHUC + PART_HUONGGIAI\n"
+             + "                   + PART_FEWSHOT + PART_NHIEMVU)\n"),
+        code("""# The context window must hold the prompt plus the whole generation budget.
+longest = max(records, key=lambda r: len(r['de_bai_mcq']))
+PROMPT_TOKENS = len(tok(PROMPT_TEMPLATE.replace('{de_bai}', longest['de_bai_mcq'])).input_ids)
+MAX_MODEL_LEN = ((PROMPT_TOKENS + MAX_NEW_TOKENS + 1500) // 1024 + 1) * 1024
+print(f'Prompt: {PROMPT_TOKENS} tokens -> MAX_MODEL_LEN={MAX_MODEL_LEN}')
+
+N_GPU = torch.cuda.device_count()
+TENSOR_PARALLEL = 2 if N_GPU >= 2 else 1
+print(f'GPUs: {N_GPU} -> tensor_parallel_size={TENSOR_PARALLEL}')
+
+llm = LLM(model=MODEL, tensor_parallel_size=TENSOR_PARALLEL, dtype='float16',
+          max_model_len=MAX_MODEL_LEN, gpu_memory_utilization=0.90,
+          trust_remote_code=True, enforce_eager=True, seed=SEED)
+print('Ready.')
+"""),
+        code("# =====================================================================\n"
+             "# BACKEND: the Calculator tool (SymPy with variable memory)\n"
+             "# =====================================================================\n"
+             + backend_src[backend_src.index("import re"):]
+             + "\n" + LOOP_SOURCE),
+    ]
+    return {
+        "cells": cells,
+        "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
+                     "language_info": {"name": "python", "version": "3.11"}},
+        "nbformat": 4, "nbformat_minor": 5,
+    }
+
+
+def main():
+    ma_dang = sys.argv[1] if len(sys.argv) > 1 else "D79"
+    dang = importlib.import_module(f"dang_{ma_dang}")
+
+    fewshot = build_fewshot(dang)
+    n_checked = regression(dang)
+    print(f"[ok] worked example replayed with the real Calculator; "
+          f"method replay matches the key on {n_checked}/{n_checked} questions")
+
+    parts = {"PART_TOOL": PART_TOOL, "PART_KIENTHUC": PART_KIENTHUC, "PART_HUONGGIAI": dang.PART_HUONGGIAI,
+             "PART_FEWSHOT": fewshot, "PART_NHIEMVU": dang.PART_NHIEMVU}
+    problems = lint(parts) + lint_identifiers(dang)
+    assert not problems, "lint problems:\n" + "\n".join(problems)
+    print("[ok] lint: no dash used as punctuation, identifiers are English")
+
+    prompt_template = "".join(parts.values())
+    chars = len(prompt_template)
+    stats = {"chars": chars, "approx_tokens": int(chars / 3.3), "fewshot": fewshot}
+    print(f"[ok] prompt is {chars:,} characters (about {stats['approx_tokens']:,} tokens)")
+
+    nb = build_notebook(dang, prompt_template, stats)
+    out = f"{OUT_DIR}/KLTN_{ma_dang}_ReAct_Calculator_full90.ipynb"
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(nb, f, ensure_ascii=False, indent=1)
+    with open(f"{OUT_DIR}/prompt_{ma_dang}.txt", "w", encoding="utf-8") as f:
+        f.write(prompt_template.replace("{de_bai}", "<DE_BAI_HERE>"))
+    print("wrote", out)
+
+
+if __name__ == "__main__":
+    main()
