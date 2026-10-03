@@ -1,0 +1,111 @@
+﻿id,Ma dang,Ten dang,dap_an_dung,GPT-4o_chon,GPT-4o,Gemini_chon,Gemini,Qwen3-4B_chon,Qwen3-4B
+p006_q12,D01,"Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",B. x = 65,B,DUNG,B,DUNG,B,DUNG
+p006_q13,D02,Đạo hàm hàm số mũ cơ bản y=a^x,B. y' = 13^x . ln 13,B,DUNG,B,DUNG,B,DUNG
+p006_q14,D53,Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k,A. x > 3,A,DUNG,A,DUNG,A,DUNG
+p006_q15,D04,Tìm tập xác định hàm số lôgarit của tam thức bậc hai,C. D = (-∞;-1) ∪ (3;+∞),C,DUNG,C,DUNG,C,DUNG
+p006_q16,D05,Nhận biết mệnh đề đúng/sai về biến đổi lôgarit của tích lũy thừa,D. f(x) < 1 \Leftrightarrow 1 + x\log_2 7 < 0,A,SAI,D,DUNG,D,DUNG
+p006_q17,D06,Nhận biết công thức đổi cơ số lôgarit,D. log_{a^2}(ab) = 1/2 + (1/2)log_a b,D,DUNG,D,DUNG,D,DUNG
+p007_q18,D07,Đạo hàm hàm số dạng thương chứa hàm số mũ,A. y' = [1-2(x+1)ln2]/2^{2x},A,DUNG,A,DUNG,A,DUNG
+p007_q19,D08,Biểu diễn một lôgarit qua các lôgarit cho trước bằng đổi cơ số,C. log6 45 = (a+2ab)/(ab+b),A,SAI,C,DUNG,C,DUNG
+p018_q09,D10,Tìm tham số để hàm số chứa lôgarit tự nhiên đơn điệu trên R,A. (-∞;-1],C,SAI,A,DUNG,A,DUNG
+p020_q13,D12,Giải phương trình mũ cơ bản dạng a^f(x)=a^k,C. x = 4,C,DUNG,C,DUNG,C,DUNG
+p020_q16,D13,"Rút gọn biểu thức lôgarit chứa tích, thương và lũy thừa",A. log2(2a^3/b) = 1 + 3log2 a - log2 b,A,DUNG,A,DUNG,A,DUNG
+p020_q17,D14,Giải bất phương trình lôgarit cơ số nhỏ hơn 1,C. S = (1/2; 2),C,DUNG,C,DUNG,C,DUNG
+p021_q18,D15,Đạo hàm hàm hợp chứa lôgarit tự nhiên,A. y' = 1/[2√(x+1)(1+√(x+1))],A,DUNG,A,DUNG,A,DUNG
+p021_q20,D16,"Tìm tham số để phương trình mũ có nghiệm thuộc một khoảng (đặt ẩn phụ, xét hàm)",C. (2;4),C,DUNG,C,DUNG,C,DUNG
+p021_q21,D17,Tìm giá trị nhỏ nhất của biểu thức lôgarit bằng đặt ẩn phụ và khảo sát hàm,D. Pmin = 15,D,DUNG,D,DUNG,D,DUNG
+p031_q02,D18,Đạo hàm hàm số lôgarit cơ bản y=log_a x,C. y' = 1/(x ln10),C,DUNG,C,DUNG,C,DUNG
+p031_q03,D19,Giải bất phương trình mũ cơ bản dạng a^f(x)>a^k,C. S = (-2;+∞),C,DUNG,C,DUNG,C,DUNG
+p033_q13,D20,Tính giá trị lôgarit có cơ số và biểu thức đều là lũy thừa của một số,C. P = 9,C,DUNG,C,DUNG,C,DUNG
+p035_q22,D21,Giải phương trình lôgarit dùng công thức cộng hai lôgarit cùng cơ số,C. S = {3},C,DUNG,C,DUNG,C,DUNG
+p038_q33,D22,Tính giá trị biểu thức lôgarit phức hợp qua một lôgarit cho trước,C. P = -1-√3,C,DUNG,C,DUNG,C,DUNG
+p039_q35,D23,Biện luận số nghiệm phương trình chứa lôgarit bằng khảo sát hàm số,C. 3,A,SAI,C,DUNG,C,DUNG
+p041_q40,D24,Nhận biết tính chất (đạo hàm/đơn điệu) của hàm số chứa lôgarit,A. 2y' + xy'' = -1/x^2,A,DUNG,A,DUNG,A,DUNG
+p042_q45,D25,Tìm số giá trị nguyên tham số để phương trình lôgarit có nghiệm duy nhất,C. 2018,C,DUNG,C,DUNG,C,DUNG
+p049_q10,D36a,Nhận biết mệnh đề đúng về lôgarit của lũy thừa,C. log(a^3) = 3log a,C,DUNG,C,DUNG,C,DUNG
+p049_q13,D27,Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x),B. (-∞;6),B,DUNG,B,DUNG,B,DUNG
+p053_q27,D28,Giải phương trình tích nhiều lôgarit cùng cơ số bằng đổi cơ số và đặt ẩn phụ,A. 82/9,A,DUNG,A,DUNG,A,DUNG
+p056_q34,D29,Tìm tham số để phương trình mũ đẳng cấp có nghiệm dương (chia và đặt ẩn phụ),B. 2.,D,SAI,B,DUNG,B,DUNG
+p065_q05,D30,Rút gọn biểu thức lôgarit của một tích chứa lũy thừa,B. $\log a+2\log b$.,B,DUNG,B,DUNG,B,DUNG
+p066_q08,D31,Giải phương trình lôgarit cơ bản chứa tam thức bậc hai,B. $\{0;1\}$.,B,DUNG,B,DUNG,B,DUNG
+p068_q20,D32,Đổi cơ số lôgarit qua ẩn phụ cho trước,B. $\dfrac{3}{4a}$.,B,DUNG,B,DUNG,B,DUNG
+p068_q23,D33,"Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",C. $(-1;3)$.,C,DUNG,C,DUNG,C,DUNG
+p069_q28,D34,Đạo hàm hàm hợp chứa lôgarit của tam thức bậc hai,D. $f'(x)=\dfrac{2x-2}{(x^2-2x)\ln 2}$.,D,DUNG,D,DUNG,D,DUNG
+p070_q31,D35,"Giải phương trình lôgarit bằng đặt ẩn phụ t=a^x, tính tổng nghiệm",A. 2.,A,DUNG,A,DUNG,A,DUNG
+p079_q06,D01,"Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",B. $x=5$.,B,DUNG,B,DUNG,B,DUNG
+p079_q10,D36b,Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước,C. $2\log_2 a$.,C,DUNG,C,DUNG,C,DUNG
+p081_q20,D37,Từ đẳng thức lôgarit hai cơ số khác nhau suy ra quan hệ giữa hai biến,D. $a^2=b$.,D,DUNG,D,DUNG,D,DUNG
+p082_q21,D38,"Giải bất phương trình mũ cùng cơ số, hai vế là tam thức bậc hai",A. $[-2;4]$.,A,DUNG,A,DUNG,A,DUNG
+p087_q41,D39,Từ dãy đẳng thức lôgarit ba cơ số khác nhau suy ra tỉ lệ giữa các biến,B. $\dfrac{1}{2}$.,B,DUNG,B,DUNG,B,DUNG
+p088_q43,D40,Tìm tham số để phương trình lôgarit bậc hai (đặt ẩn phụ) có hai nghiệm phân biệt thỏa điều kiện,C. $[1;2)$.,C,DUNG,C,DUNG,C,DUNG
+p090_q47,D41,Đếm số cặp nguyên thỏa phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu,D. 4.,D,DUNG,D,DUNG,D,DUNG
+p093_q03,D12,Giải phương trình mũ cơ bản dạng a^f(x)=a^k,A. $x=4$.,A,DUNG,A,DUNG,A,DUNG
+p093_q05,D42,Tìm tập xác định hàm số lôgarit cơ bản y=log_a x,C. $(0;+\infty)$.,C,DUNG,C,DUNG,C,DUNG
+p094_q11,D36b,Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước,D. $3\log_2 a$.,D,DUNG,D,DUNG,D,DUNG
+p095_q16,D43,Giải bất phương trình lôgarit cơ bản (lôgarit thập phân),C. $[10;+\infty)$.,C,DUNG,C,DUNG,C,DUNG
+p098_q29,D44,Từ đẳng thức lôgarit chứa lũy thừa của cơ số suy ra quan hệ giữa các biến,D. $2a+4b=1$.,D,DUNG,D,DUNG,D,DUNG
+p099_q31,D45,Giải bất phương trình mũ bằng đặt ẩn phụ t=a^x,B. $(0;+\infty)$.,B,DUNG,B,DUNG,B,DUNG
+p105_q47,D46,Tìm giá trị nhỏ nhất của biểu thức mũ-lôgarit qua ẩn phụ t=log_a b,D. $\left[\dfrac{5}{2};3\right)$.,C,SAI,D,DUNG,D,DUNG
+p106_q50,D47,Đếm số nguyên thỏa điều kiện tồn tại bằng hàm đặc trưng đơn điệu,B. 2.,B,DUNG,B,DUNG,,KXD
+p109_q07,D48,Giải bất phương trình mũ dạng a^x>c (c không là lũy thừa nguyên của a),A. $(\log_2 6; +\infty)$.,A,DUNG,A,DUNG,C,DUNG
+p109_q10,D01,"Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",B. $x=4$.,B,DUNG,B,DUNG,B,DUNG
+p110_q17,D49,Tách lôgarit của một thương thành hiệu hai lôgarit,C. $\log_2 a-1$.,C,DUNG,C,DUNG,C,DUNG
+p111_q22,D18,Đạo hàm hàm số lôgarit cơ bản y=log_a x,A. $y'=\dfrac{1}{x\ln 2}$.,A,DUNG,A,DUNG,A,DUNG
+p113_q31,D50a,Dùng hiệu hai lôgarit để suy ra quan hệ giữa hai biến,A. $a=4b^3$.,A,DUNG,A,DUNG,A,DUNG
+p115_q39,D51,Đếm số nguyên thỏa bất phương trình mũ-lôgarit-căn phức hợp,D. 24.,D,DUNG,D,DUNG,D,DUNG
+p119_q48,D52,Đếm số nguyên tham số sao cho tồn tại ít nhất k giá trị nguyên biến kia thỏa bất đẳng thức mũ,D. 7.,A,SAI,D,DUNG,,KXD
+p121_q02,D18,Đạo hàm hàm số lôgarit cơ bản y=log_a x,B. $y'=\dfrac{1}{x\ln3}$.,B,DUNG,B,DUNG,B,DUNG
+p121_q04,D27,Giải bất phương trình mũ cùng cơ số dạng a^f(x)<a^g(x),D. $(-\infty;1)$.,D,DUNG,D,DUNG,D,DUNG
+p124_q21,D53,Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k,C. $(3;+\infty)$.,C,DUNG,C,DUNG,C,DUNG
+p125_q28,D54,Rút gọn hiệu hai lôgarit tự nhiên cùng cơ số,D. $\ln\dfrac{3}{2}$.,D,DUNG,D,DUNG,D,DUNG
+p127_q34,D55,"Giải phương trình lôgarit bậc hai bằng đặt ẩn phụ, tính tích nghiệm qua Viète",D. $\dfrac{1}{e^2}$.,D,DUNG,D,DUNG,D,DUNG
+p128_q39,D56,Đếm số nguyên thỏa bất phương trình lôgarit hai cơ số khác nhau,D. 184.,D,DUNG,D,DUNG,D,DUNG
+p133_q47,D57,Đếm số cặp nguyên thỏa bất phương trình mũ-lôgarit bằng hàm đặc trưng đơn điệu,B. 48.,D,SAI,B,DUNG,B,DUNG
+p137_q01,D58,Đặt ẩn phụ t=a^x để đưa phương trình mũ về phương trình bậc hai theo t,D. $t^2+2t-3=0$.,D,DUNG,D,DUNG,D,DUNG
+p138_q06,D59,Tính giá trị lôgarit có cơ số là căn bậc hai của biến,D. $I=2$.,D,DUNG,D,DUNG,D,DUNG
+p139_q15,D60,Rút gọn tổng nhiều lôgarit cùng biến bằng đổi cơ số,D. $P=6\log_a b$.,D,DUNG,D,DUNG,D,DUNG
+p139_q16,D61,Tìm tập xác định hàm số lôgarit của một phân thức,D. $D=(-\infty;-2)\cup(3;+\infty)$.,D,DUNG,D,DUNG,D,DUNG
+p139_q17,D62,Giải bất phương trình lôgarit bậc hai bằng đặt ẩn phụ t=log_a x,C. $S = (0; 2] \cup [16; +\infty)$.,C,DUNG,C,DUNG,C,DUNG
+p145_q39,D63,Tìm tham số để phương trình lôgarit bậc hai có hai nghiệm thỏa tích x1x2 cho trước,B. $m=4$.,B,DUNG,B,DUNG,B,DUNG
+p146_q42,D64,Tính giá trị lôgarit theo tích hai cơ số qua công thức đổi cơ số,D. $P=\dfrac{12}{7}$.,D,DUNG,D,DUNG,D,DUNG
+p148_q47,D65,Tìm giá trị nhỏ nhất của biểu thức hai biến từ phương trình lôgarit bằng hàm đặc trưng,D. $P_{\min}=\dfrac{2\sqrt{11}-3}{3}$.,D,DUNG,D,DUNG,,KXD
+p152_q03,D31,Giải phương trình lôgarit cơ bản chứa tam thức bậc hai,A. $\{-3;3\}$.,A,DUNG,A,DUNG,A,DUNG
+p154_q11,D66,Tách lôgarit của một tích chứa hằng số thành tổng hai lôgarit,C. $1+\log_3 a$.,C,DUNG,C,DUNG,C,DUNG
+p161_q35,D67,Tìm tham số nguyên để phương trình mũ đặt ẩn phụ có hai nghiệm ẩn phụ phân biệt,C. 2.,A,SAI,C,DUNG,C,DUNG
+p161_q37,D68,Tìm giá trị biểu thức từ hệ hai đẳng thức lôgarit-mũ bằng bất đẳng thức Cô-si,D. $\dfrac{11}{2}$.,,KXD,D,DUNG,D,DUNG
+p166_q45,D69,Đếm giá trị nguyên tham số để phương trình mũ-lôgarit lồng nhau có nghiệm,C. 14.,D,SAI,C,DUNG,,KXD
+p171_q05,D36b,Tính lôgarit của lũy thừa bằng quy tắc đưa số mũ ra trước,D. $3\log_5 a$.,D,DUNG,D,DUNG,D,DUNG
+p172_q13,D12,Giải phương trình mũ cơ bản dạng a^f(x)=a^k,B. 1.,B,DUNG,B,DUNG,B,DUNG
+p173_q16,D71,Giải phương trình lôgarit chuyển vế rồi dùng công thức cộng lôgarit,C. $x=3$.,C,DUNG,C,DUNG,C,DUNG
+p176_q25,D72,Từ đẳng thức lũy thừa của hai biến suy ra tổng lôgarit có hệ số,A. 5.,A,DUNG,A,DUNG,A,DUNG
+p176_q26,D73,Đạo hàm hàm hợp chứa hàm số mũ y=a^u(x),D. $(2x-3)\cdot3^{x^2-3x}\cdot\ln3$.,D,DUNG,D,DUNG,D,DUNG
+p179_q37,D74,Đếm giá trị nguyên tham số để phương trình lôgarit cùng cơ số có nghiệm,B. 5.,D,SAI,B,DUNG,B,DUNG
+p186_q47,D75,Đếm giá trị nguyên dương tham số để phương trình tích (lôgarit bậc hai và căn chứa tham số) có nghiệm,A. 79.,D,SAI,A,DUNG,,KXD
+p191_q08,D01,"Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",C. $x=9$.,C,DUNG,C,DUNG,C,DUNG
+p191_q12,D76,Nhận biết công thức đổi cơ số lôgarit dạng log_{a^n} b,B. $\dfrac{1}{2}\log_a b$,B,DUNG,B,DUNG,B,DUNG
+p192_q13,D12,Giải phương trình mũ cơ bản dạng a^f(x)=a^k,C. $x=4$,C,DUNG,C,DUNG,C,DUNG
+p193_q25,D42,Tìm tập xác định hàm số lôgarit cơ bản y=log_a x,B. $(0;+\infty)$,B,DUNG,B,DUNG,B,DUNG
+p195_q30,D77,Biến đổi biểu thức chứa a^log_a(...) để suy ra quan hệ giữa các biến,A. 3,A,DUNG,A,DUNG,A,DUNG
+p197_q37,D33,"Giải bất phương trình mũ cùng cơ số, số mũ là tam thức bậc hai",A. $(-5;5)$,A,DUNG,A,DUNG,A,DUNG
+p203_q48,D78,Tìm giá trị nhỏ nhất của biểu thức hai biến với điều kiện chứa mũ bằng đánh giá/tiếp tuyến,A. $\dfrac{65}{8}$,B,SAI,A,DUNG,,KXD
+p204_q49,D79,Đếm số nguyên một biến sao cho số giá trị nguyên biến kia thỏa bất phương trình lôgarit không vượt một ngưỡng,D. 56,B,SAI,D,DUNG,,KXD
+p206_q04,D80,Tìm tập xác định hàm số mũ cơ bản y=a^x,D. $\mathbb{R}$,D,DUNG,D,DUNG,D,DUNG
+p208_q17,D81,Tính giá trị lôgarit của căn bậc ba của chính cơ số,B. $\dfrac13$,B,DUNG,B,DUNG,B,DUNG
+p210_q26,D82,Giải bất phương trình mũ dạng a^x<c (c không là lũy thừa nguyên của a),A. $(-\infty;\log_2 5)$,A,DUNG,A,DUNG,A,DUNG
+p210_q27,D01,"Giải phương trình lôgarit cơ bản dạng log_a(f(x))=k, f(x) bậc nhất",D. $\dfrac{25}{3}$,D,DUNG,D,DUNG,D,DUNG
+p213_q38,D50b,Dùng tổng hai lôgarit để suy ra quan hệ giữa hai biến,B. $a^3 b=256$,B,DUNG,B,DUNG,B,DUNG
+p213_q39,D83,Đếm số nguyên thỏa bất phương trình tích (mũ và lôgarit) nhỏ hơn hoặc bằng 0,C. 31,D,SAI,C,DUNG,C,DUNG
+p216_q45,D84,Đếm số nguyên một biến sao cho tồn tại biến kia thỏa phương trình mũ bằng xét hàm đơn điệu,A. 14,C,SAI,B,SAI,,KXD
+p220_q04,D85,Tìm tập xác định hàm số lôgarit dạng log_a(x-c),C. $(4;+\infty)$,C,DUNG,C,DUNG,C,DUNG
+p221_q08,D53,Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k,B. $\left(\dfrac92;+\infty\right)$,B,DUNG,B,DUNG,B,DUNG
+p222_q17,D02,Đạo hàm hàm số mũ cơ bản y=a^x,B. $y'=4^x\ln4$,B,DUNG,B,DUNG,B,DUNG
+p223_q22,D86,"Giải phương trình mũ dạng a^x=c, nghiệm là lôgarit",B. $x=\log_5 2$,B,DUNG,B,DUNG,B,DUNG
+p225_q31,D87,Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước,D. $3b-1$,D,DUNG,D,DUNG,D,DUNG
+p227_q40,D88,Đếm số nguyên thỏa bất phương trình tích (lôgarit và mũ) nhỏ hơn hoặc bằng 0,B. 18,,KXD,B,DUNG,B,DUNG
+p230_q45,D89,Đếm số nguyên dương một biến sao cho tồn tại biến kia thỏa phương trình chứa hàm mũ e^x,B. 12,B,DUNG,B,DUNG,,KXD
+p236_q12,D53,Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k,D. $(24;+\infty)$,D,DUNG,D,DUNG,D,DUNG
+p237_q17,D90,Rút gọn biểu thức lôgarit có hệ số nhân với lôgarit của căn bậc hai,B. $2\log a$,B,DUNG,B,DUNG,B,DUNG
+p238_q21,D91,Giải phương trình mũ cùng cơ số dạng a^f(x)=a^g(x),A. $x=\dfrac13$,A,DUNG,A,DUNG,A,DUNG
+p240_q31,D92,Đếm số nguyên thuộc tập xác định của hàm số lôgarit chứa tích hai nhị thức,A. 7,A,DUNG,A,DUNG,A,DUNG
+p242_q39,D93,Đếm số nguyên dương tham số sao cho có đúng k giá trị nguyên biến kia thỏa bất phương trình tích,B. 73,C,SAI,B,DUNG,,KXD
+p243_q44,D94,Tìm giá trị lớn nhất của biểu thức hai biến từ điều kiện đúng với mọi tham số bằng bất đẳng thức Cauchy-Schwarz,C. 60,B,SAI,C,DUNG,C,DUNG
