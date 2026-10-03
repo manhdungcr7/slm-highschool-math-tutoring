@@ -45,7 +45,7 @@ class FakeSamplingParams:
 
 
 def scripted_program(question):
-    m = re.search(r"không quá (\d+) số nguyên \$y\$ thỏa mãn \$\\log_\{(\d+)\}\(x\^2\+y\)\\ge \\log_\{(\d+)\}\(x\+y\)\$", question)
+    m = re.search(r"không quá (\d+) số nguyên \$y\$ thỏa mãn \$\\log_\{?(\d+)\}?\(x\^2\+y\)\\ge \\log_\{?(\d+)\}?\(x\+y\)\$", question)
     bound, a, b = map(int, m.groups())
     options = dict(re.findall(r"(?m)^([A-D])\.\s*\$?(-?\d+)\$?\.?\s*$", question))
     cmds = [
@@ -61,6 +61,8 @@ class FakeLLM:
     """Stands in for vLLM: answers one ReAct step per call, following the method."""
 
     def generate(self, prompts, sampling_params, use_tqdm=False):
+        if not isinstance(sampling_params, list):
+            sampling_params = [sampling_params] * len(prompts)
         outs = []
         for prompt, sp_ in zip(prompts, sampling_params):
             question = prompt.rsplit("Đề bài:", 1)[1]
@@ -99,3 +101,31 @@ assert (df["syntax_errors"] == 0).all()
 assert (df["tool_calls"] == 13).all(), df["tool_calls"].tolist()
 print(f"[ok] dry run: {len(df)} questions graded correct through the notebook's own loop, "
       f"{int(df['tool_calls'].iloc[0])} tool calls each, 0 syntax errors")
+
+
+# ---------------------------------------------------------------------------
+# the single question notebook (Cell 4 reruns with the default question)
+# ---------------------------------------------------------------------------
+import io
+import contextlib
+
+nb1 = json.load(open(f"experiments/ReAct-Calculator/KLTN_{MA_DANG}_ReAct_Calculator_1cau.ipynb", encoding="utf-8"))
+code1 = ["".join(c["source"]) for c in nb1["cells"] if c["cell_type"] == "code"]
+assert len(code1) == 3, len(code1)           # pip, model load, Cell 4
+cell4 = code1[2]
+assert "DE_BAI = r'''" in cell4 and "DAP_AN_DUNG" in cell4
+
+ns1 = {"re": re, "time": time, "tok": FakeTok(), "llm": FakeLLM(), "SamplingParams": FakeSamplingParams,
+       "MAX_MODEL_LEN": 18432, "MAX_NEW_TOKENS": 9216, "TEMPERATURE": 0.3, "TOP_P": 0.95, "TOP_K": 20,
+       "SEED": 42, "PRESENCE_PENALTY": 1.2}
+# the single question notebook writes /kaggle/working/full_response.txt: redirect it for the local dry run
+cell4 = cell4.replace("/kaggle/working/full_response.txt", "experiments/ReAct-Calculator/.tmp_full_response.txt")
+buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    exec(cell4, ns1)
+report = buf.getvalue()
+assert ns1["dung"] is True, report[-1500:]
+assert ns1["n_calls"] == 13 and ns1["n_loi"] == 0, (ns1["n_calls"], ns1["n_loi"])
+assert "Dap an dung: D" in report and "DUNG" in report
+print(f"[ok] 1cau notebook: default question graded correct, {ns1['n_calls']} tool calls, 0 syntax errors")
+print("     printed sections:", [t for t in ("NHAT KY GOI TOOL", "DA GHI FILE", "TOAN BO LOI GIAI") if t in report])

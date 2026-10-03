@@ -9,6 +9,7 @@ max_new_tokens=9216`.
 
 | File | Vai trò |
 |---|---|
+| `KLTN_D79_ReAct_Calculator_1cau.ipynb` | Notebook chạy thử **từng câu** (giống các file `*_1cau` của Số phức) |
 | `KLTN_D79_ReAct_Calculator_full90.ipynb` | Notebook Kaggle chạy 90 câu của dạng D79 |
 | `prompt_D79.txt` | Prompt đầy đủ mà mô hình nhìn thấy (để đọc/kiểm tra, `{de_bai}` thay bằng `<DE_BAI_HERE>`) |
 | `Mau_3_dang_kho_nhat_Qwen3-4B.xlsx` | 15 câu mẫu (D84, D89, D79) dùng để chọn dạng và viết hướng dẫn giải |
@@ -24,12 +25,22 @@ Mã nguồn dựng notebook nằm ở `scripts/experiments/react/`:
 | `build_react_notebook.py` | Dựng notebook |
 | `test_notebook_loop.py` | Chạy thử vòng lặp của notebook bằng "mô hình giả" (không cần GPU) |
 
-## Chạy trên Kaggle
+## Chạy thử từng câu trước (bản 1 câu)
+
+Cấu trúc y như các file `KLTN_Dxx_ReAct_Calculator_1cau.ipynb` của Số phức: Cell 1 → 3 nạp model (chạy **1 lần**),
+Cell 4 chứa `DE_BAI` / `DAP_AN_DUNG` (chuỗi thô `r'''...'''`, các phương án nằm trên các dòng thật, không dùng `
+`)
+cùng prompt, backend và vòng lặp. Muốn thử câu khác: sửa `DE_BAI`, `DAP_AN_DUNG` rồi chạy lại **chỉ Cell 4**.
+Câu mặc định là câu gốc `p204_q49` (đáp án D). Kết quả in ra: đáp án đúng/chọn, số token, số lượt gọi Calculator,
+số lỗi cú pháp, nhật ký từng lượt gọi tool và toàn bộ lời giải; file đầy đủ ghi ở `/kaggle/working/full_response.txt`.
+Một GPU là đủ (`tensor_parallel_size=1`); `MAX_MODEL_LEN=18432`, Cell 4 tự báo lỗi nếu prompt không còn đủ chỗ cho 9.216 token sinh.
+
+## Chạy cả 90 câu trên Kaggle
 
 1. Gắn Dataset chứa `plan_solve_prompts_mulogarit_merged.json` (cùng file đã dùng cho zero-shot) vào notebook.
    Notebook tự dò đường dẫn bằng `glob`.
 2. Bật GPU (khuyến nghị 2×T4), "Run All". Kết quả: `/kaggle/working/d79_react_calculator_full90.csv`.
-3. Muốn thử vài câu trước: đặt `RUN_STT = [1, 2, 3]` ở ô cấu hình.
+3. Muốn thử vài câu trong notebook này: đặt `RUN_STT = [1, 2, 3]` ở ô cấu hình (nhưng nên thử bằng bản 1 câu trước).
 
 ## Thêm một dạng mới
 
