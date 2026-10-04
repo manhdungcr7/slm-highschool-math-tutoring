@@ -57,3 +57,11 @@ cần viết lại cho dạng mới.
 - `PART_TOOL` đổi phần cú pháp riêng của số phức (`I`, `conjugate`, mô-đun) sang cú pháp của Mũ-Logarit
   (`log`, `exp`, `floor`, `ceiling`, `N(...)`, so sánh `<` `>`); mọi quy tắc chung giữ nguyên văn.
 - Backend bổ sung: so sánh bất đẳng thức (`a < b`), lưu kết quả `True/False` vào biến (`test_A = Eq(...)`).
+
+## Lỗi thường gặp trên Kaggle
+
+- `RuntimeError: Detected that PyTorch and TorchAudio were compiled with different CUDA versions` khi chạy
+  `from vllm import LLM, SamplingParams`: lệnh `pip install -U vllm` kéo PyTorch CUDA 13.0 còn `torchaudio` có sẵn của
+  Kaggle là CUDA 12.8. Cell 2 đã gỡ `torchaudio` cùng `torchcodec` (`!pip uninstall -y -q torchcodec torchaudio`),
+  nên `transformers` bỏ qua phần âm thanh. Nếu thấy lỗi này ở notebook cũ, thêm `torchaudio` vào lệnh uninstall rồi
+  khởi động lại phiên (Restart session) trước khi chạy lại từ Cell 1.

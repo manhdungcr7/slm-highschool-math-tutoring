@@ -357,7 +357,7 @@ lớn hơn; bản Số phức đặt cố định 14336).
 Kết quả: `/kaggle/working/{dang.MA_DANG.lower()}_react_calculator_full90.csv`
 (prompt: {intro_stats['chars']:,} ký tự, ước lượng khoảng {intro_stats['approx_tokens']:,} token)
 """),
-        code("!pip install -q -U vllm\n!pip uninstall -y -q torchcodec\nimport vllm; print('vLLM:', vllm.__version__)\n"),
+        code("!pip install -q -U vllm\n!pip uninstall -y -q torchcodec torchaudio\nimport vllm; print('vLLM:', vllm.__version__)\n"),
         code(f"""import os, re, json, time, glob
 import pandas as pd
 import torch
@@ -487,7 +487,7 @@ ReAct + Calculator. Chọn vì Qwen3-4B zero-shot đúng **0/90** ở dạng nà
 Giống hệt các bản trước: chạy Cell 1 → 3 (nạp model, 1 lần), sửa `DE_BAI`/`DAP_AN_DUNG` ở Cell 4 rồi chạy lại Cell 4.
 Câu mặc định là câu gốc ({source_id}, đáp án {letter}).
 """)
-    cell_pip = code("!pip install -q -U vllm\n!pip uninstall -y -q torchcodec\nimport vllm; print('vLLM:', vllm.__version__)\n")
+    cell_pip = code("!pip install -q -U vllm\n!pip uninstall -y -q torchcodec torchaudio\nimport vllm; print('vLLM:', vllm.__version__)\n")
     cell_model = code(f"""import re, time
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams

@@ -70,7 +70,7 @@ def build_notebook(split_info):
 
     cells.append(code_cell(
         "!pip install -q -U vllm\n"
-        "!pip uninstall -y -q torchcodec\n"
+        "!pip uninstall -y -q torchcodec torchaudio\n"
         "import vllm; print('vLLM:', vllm.__version__)\n"
     ))
 
