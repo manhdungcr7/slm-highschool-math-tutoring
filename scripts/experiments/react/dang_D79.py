@@ -95,7 +95,7 @@ PART_NHIEMVU = r'''
 
 Open a `<think>` tag as the very first thing you write, and close it with `</think>`. Think in English inside the tags. Work through the method of PART 2, and use a Calculator call for every computation; never compute anything yourself:
 
-[Step 1] Read the problem and write down, without computing: the base $a$ of the first logarithm $\log_a(x^2+y)$, the base $b$ of the second logarithm $\log_b(x+y)$, and the bound in "at most $N$ integers $y$" (called $N$ here).
+[Step 1] Read the problem and write down, without computing: the base $a$ of the first logarithm $\log_a(x^2+y)$, the base $b$ of the second logarithm $\log_b(x+y)$, and the bound, which is the number in the phrase "at most ... integers $y$".
 [Step 2] Store `n_plus_1 = <the bound> + 1`, writing the number from the problem in place of `<the bound>`.
 [Step 3] Store `exponent = log(a)/log(b)`, writing the two bases from the problem. This is $\log_b a$ by the change of base formula.
 [Step 4] Store `threshold = N(n_plus_1**exponent - n_plus_1, 20)`. This is the real number $C=f(N+1)$.

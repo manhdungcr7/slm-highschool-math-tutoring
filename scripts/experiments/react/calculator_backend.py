@@ -20,6 +20,10 @@ import re
 import sympy as sp
 
 ASSIGN_RE = re.compile(r'^([A-Za-z_]\w*)\s*=\s*(.+)$', re.S)
+# Names that already mean something to the Calculator (functions such as N, Min, floor and
+# constants such as E, I, S). Storing a value under one of them would silently replace it,
+# for example "N = 94" would make the later call N(...) fail for the rest of the question.
+RESERVED_NAMES = {n for n in dir(sp) if not n.startswith('_')}
 RELATIONAL = (sp.StrictLessThan, sp.LessThan, sp.StrictGreaterThan, sp.GreaterThan, sp.Unequality)
 
 
@@ -85,6 +89,14 @@ class Calculator:
         # "x = Eq(...)" is an assignment; a bare "Eq(a, b)" has no top level "=".
         if m and not s.lstrip().startswith('Eq('):
             name, s = m.group(1), m.group(2)
+            if name in self.free_unknowns:
+                return None, (f'"{name}" is a declared unknown used by solve(...) and cannot be '
+                              'a variable name. Choose another name and store the value again.')
+            if name in RESERVED_NAMES:
+                return None, (f'"{name}" cannot be used as a variable name because it is the name '
+                              'of a Calculator function or constant (for example N(expression, '
+                              'digits) computes a decimal value). Choose another name, such as a '
+                              'descriptive word, and store the value again.')
 
         try:
             parsed = sp.sympify(s, locals=self.ns)

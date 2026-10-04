@@ -557,10 +557,25 @@ print('San sang - CHI CAN CHAY 1 LAN.')
     }
 
 
+def backend_self_check(free_unknowns):
+    """The failure seen on Kaggle: "N = 94" silently replaced the function N(...)."""
+    calc = backend.Calculator(free_unknowns=free_unknowns)
+    for bad in ("N = 94", "E = 3", "I = 2", "x = 5"):
+        result, error = calc.evaluate(bad)
+        assert result is None and error and "cannot be" in error, (bad, result, error)
+    for good in ("bound = 94", "n_plus_1 = bound + 1", "exponent = log(18)/log(4)",
+                 "threshold = N(n_plus_1**exponent - n_plus_1, 20)"):
+        result, error = calc.evaluate(good)
+        assert error is None, (good, error)
+    return True
+
+
 def main():
     ma_dang = sys.argv[1] if len(sys.argv) > 1 else "D79"
     dang = importlib.import_module(f"dang_{ma_dang}")
 
+    backend_self_check(dang.FREE_UNKNOWNS)
+    print("[ok] backend refuses names that would replace a Calculator function (N, E, I, ...) or an unknown")
     fewshot = build_fewshot(dang)
     n_checked = regression(dang)
     print(f"[ok] worked example replayed with the real Calculator; "
