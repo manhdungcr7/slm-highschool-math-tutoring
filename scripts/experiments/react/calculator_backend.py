@@ -51,6 +51,25 @@ class Calculator:
                 'and store that name first (with "name = expression"), or '
                 'rewrite the expression without it.')
 
+    def _unknown_functions(self, parsed):
+        """Names used as functions that the Calculator does not know (ceil, log10, int, ...).
+
+        SymPy accepts any unknown name followed by parentheses and silently keeps it as an
+        unevaluated symbol, so "count = ceil(115.36) - 1" would be stored as if it were a
+        result. Refuse it with a message that says what to write instead."""
+        items = parsed if isinstance(parsed, (list, tuple, sp.FiniteSet)) else [parsed]
+        names = set()
+        for item in items:
+            for node in getattr(item, 'atoms', lambda *a: set())(sp.core.function.AppliedUndef):
+                names.add(type(node).__name__)
+        if not names:
+            return None
+        return (f'unknown function(s): {", ".join(sorted(names))}. The Calculator does not know '
+                'these names, so nothing was computed. Use only: log, exp, sqrt, floor, '
+                'ceiling, Abs, Min, Max, N, solve, expand, factor, diff, nroots, Eq. '
+                'For example: round up with ceiling(u), round down with floor(u), a logarithm '
+                'to base b as log(u)/log(b).')
+
     def _decide_relational(self, rel):
         """True or False for an inequality between constant expressions."""
         err = self._undefined_names(rel.lhs - rel.rhs)
@@ -102,6 +121,10 @@ class Calculator:
             parsed = sp.sympify(s, locals=self.ns)
         except Exception as e:
             return None, f'{type(e).__name__}: {e}'
+
+        err = self._unknown_functions(parsed)
+        if err:
+            return None, err
 
         try:
             if isinstance(parsed, sp.Equality):

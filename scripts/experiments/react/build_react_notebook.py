@@ -66,7 +66,7 @@ def build_fewshot(dang):
 # 2. regression: replay PART_NHIEMVU on every question, no language model
 # ----------------------------------------------------------------------------
 def replay_method(question_text, free_unknowns):
-    m = re.search(r"không quá (\d+) số nguyên \$y\$ thỏa mãn \$\\log_\{(\d+)\}\(x\^2\+y\)\\ge \\log_\{(\d+)\}\(x\+y\)\$", question_text)
+    m = re.search(r"không quá (\d+) số nguyên \$y\$ thỏa mãn \$\\log_\{?(\d+)\}?\(x\^2\+y\)\\ge \\log_\{?(\d+)\}?\(x\+y\)\$", question_text)
     bound, a, b = map(int, m.groups())
     options = dict(re.findall(r"(?m)^([A-D])\.\s*\$?(-?\d+)\$?\.?\s*$", question_text))
     calc = backend.Calculator(free_unknowns=free_unknowns)
@@ -96,6 +96,10 @@ def regression(dang):
         if matched != [r["dap_an_letter"]]:
             wrong.append((r["STT"], matched, r["dap_an_letter"]))
     assert not wrong, f"method replay disagrees with the key on {len(wrong)} questions: {wrong[:5]}"
+    # The original (source) question is written differently from the generated variants
+    # (log base without braces, options without dollar signs): the method must work on it too.
+    _, source_text, source_letter = default_source_question(dang.MA_DANG)
+    assert replay_method(source_text, dang.FREE_UNKNOWNS) == [source_letter], "method replay fails on the source question"
     return len(records)
 
 
@@ -563,6 +567,17 @@ def backend_self_check(free_unknowns):
     for bad in ("N = 94", "E = 3", "I = 2", "x = 5"):
         result, error = calc.evaluate(bad)
         assert result is None and error and "cannot be" in error, (bad, result, error)
+    # Unknown function names must never be stored as if they were results.
+    calc.evaluate("big = 115.36")
+    for bad in ("ceil(big)", "log10(100)", "log2(8)", "int(big)", "Floor(big)", "count = ceil(big) - 1"):
+        result, error = calc.evaluate(bad)
+        assert result is None and error and "unknown function" in error, (bad, result, error)
+    assert "count" not in calc.ns, "a refused assignment must not be stored"
+    # Common spellings that DO work and must keep working.
+    for ok, expected in (("ln(5)", "log(5)"), ("2^3", "8"), ("log(8, 2)", "3"), ("floor(big)", "115"),
+                         ("ceiling(big)", "116"), ("Max(1, 2)", "2")):
+        result, error = calc.evaluate(ok)
+        assert error is None and result == expected, (ok, result, error)
     for good in ("bound = 94", "n_plus_1 = bound + 1", "exponent = log(18)/log(4)",
                  "threshold = N(n_plus_1**exponent - n_plus_1, 20)"):
         result, error = calc.evaluate(good)
