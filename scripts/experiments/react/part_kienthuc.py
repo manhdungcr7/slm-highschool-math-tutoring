@@ -36,4 +36,7 @@ PART_KIENTHUC = r'''
 28. **Squares and square roots**: $\sqrt{u^2}=|u|$. For $k>0$: $x^2<k\iff-\sqrt{k}<x<\sqrt{k}$ and $x^2>k\iff x<-\sqrt{k}$ or $x>\sqrt{k}$.
 29. **Inequality of the arithmetic and geometric means**: for $u,v\ge0$: $u+v\ge2\sqrt{uv}$, with equality if and only if $u=v$.
 30. **Bunyakovsky inequality** (also called Cauchy and Schwarz): for real numbers $p,q,x,y$: $(px+qy)^2\le(p^2+q^2)(x^2+y^2)$, with equality if and only if $(p,q)$ and $(x,y)$ are proportional.
+31. **Values of a continuous monotone function**: if $f$ is continuous and strictly increasing on $[p,q]$, then on the open interval $(p,q)$ it takes every value strictly between $f(p)$ and $f(q)$ exactly once, and no other value. So $f(x)=k$ has a solution in $(p,q)$ if and only if $f(p)<k<f(q)$. For a strictly decreasing $f$ the roles of $f(p)$ and $f(q)$ swap.
+32. **Behaviour at the ends** (base $a>1$): $a^x\to0^+$ when $x\to-\infty$ and $a^x\to+\infty$ when $x\to+\infty$; $\ln x\to-\infty$ when $x\to0^+$ and $\ln x\to+\infty$ when $x\to+\infty$. A function that goes from $-\infty$ up to a local maximum, down to a local minimum, then up to $+\infty$ crosses the $x$ axis 3 times if the maximum is positive and the minimum is negative, and once otherwise.
+33. **Quadratic in $t=a^x>0$**: the roots of $t^2+Bt+D=0$ are accepted only if they are positive. If $D<0$ the roots have opposite signs, and $t^2+Bt+D>0$ with $t>0$ means $t$ above the larger root. A negative sign in front of a number is part of the number: for example in $t^2-12t+35$ we have $B=-12$.
 '''

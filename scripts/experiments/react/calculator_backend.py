@@ -27,6 +27,61 @@ RESERVED_NAMES = {n for n in dir(sp) if not n.startswith('_')}
 RELATIONAL = (sp.StrictLessThan, sp.LessThan, sp.StrictGreaterThan, sp.GreaterThan, sp.Unequality)
 
 
+class Count(sp.Expr):
+    """Count(condition, (n, low, high)): how many integers n from low to high make the condition true.
+
+    The condition is decided exactly, one integer at a time (like a calculator table). It may itself
+    contain another Count over a second variable; the inner Count is evaluated only after the outer
+    variable has been replaced by a number, so nothing is ever expanded symbolically."""
+
+    def __new__(cls, condition, limits, low=None, high=None):
+        if low is None:
+            var, low, high = limits
+        else:
+            var = limits
+        obj = sp.Expr.__new__(cls, condition, var, sp.sympify(low), sp.sympify(high))
+        if getattr(condition, 'free_symbols', set()) - {var}:
+            return obj                      # still depends on another variable: wait
+        return obj.doit()
+
+    @property
+    def free_symbols(self):
+        condition, var, low, high = self.args
+        return (condition.free_symbols - {var}) | low.free_symbols | high.free_symbols
+
+    def doit(self, **hints):
+        condition, var, low, high = self.args
+        total = 0
+        for value in range(int(low), int(high) + 1):
+            decided = condition.subs(var, sp.Integer(value))
+            decided = decided.doit() if hasattr(decided, 'doit') else decided
+            if decided is sp.true or decided is True:
+                total += 1
+            elif not (decided is sp.false or decided is False):
+                raise ValueError(f'the condition could not be decided for {var} = {value}: {decided}')
+        return sp.Integer(total)
+
+
+def _same_end(u, v):
+    """Two interval ends are the same: both infinite with the same sign, or equal to 40 digits."""
+    if u in (sp.oo, -sp.oo) or v in (sp.oo, -sp.oo):
+        return u == v
+    return abs(sp.N(u - v, 50)) < sp.Float('1e-40')
+
+
+def _eq(left, right, *args, **kwargs):
+    """Eq(left, right). For two intervals it compares the ends and the brackets (open or closed)."""
+    if isinstance(left, sp.Interval) and isinstance(right, sp.Interval):
+        same = (left.left_open == right.left_open and left.right_open == right.right_open
+                and _same_end(left.start, right.start) and _same_end(left.end, right.end))
+        return sp.true if same else sp.false
+    return sp.Eq(left, right, *args, **kwargs)
+
+
+EXTRA_NAMES = {'Count': Count, 'Eq': _eq}
+RESERVED_NAMES = RESERVED_NAMES | set(EXTRA_NAMES)
+
+
 class Calculator:
     """SymPy calculator with variable memory (one fresh instance per question)."""
 
@@ -50,6 +105,16 @@ class Calculator:
                 f'(allowed without prior assignment): {allowed}. Either compute '
                 'and store that name first (with "name = expression"), or '
                 'rewrite the expression without it.')
+
+    def _unstored_hint(self, text):
+        """Names written in the expression that are neither stored nor known: the usual cause of an obscure error."""
+        names = set(re.findall(r'[A-Za-z_]\w*', text)) - RESERVED_NAMES - set(self.ns) - self.free_unknowns
+        if 'Count(' in text or 'Sum(' in text:
+            names = {n for n in names if len(n) > 1}          # the counting letters of Count and Sum are fine
+        if not names:
+            return ''
+        return (' Names in your expression that are not stored in memory: ' + ', '.join(sorted(names)) +
+                '. Store a value under each of them first (with "name = expression"), or write the number itself.')
 
     def _unknown_functions(self, parsed):
         """Names used as functions that the Calculator does not know (ceil, log10, int, ...).
@@ -118,9 +183,9 @@ class Calculator:
                               'descriptive word, and store the value again.')
 
         try:
-            parsed = sp.sympify(s, locals=self.ns)
+            parsed = sp.sympify(s, locals={**EXTRA_NAMES, **self.ns})
         except Exception as e:
-            return None, f'{type(e).__name__}: {e}'
+            return None, f'{type(e).__name__}: {e}' + self._unstored_hint(s)
 
         err = self._unknown_functions(parsed)
         if err:
@@ -142,6 +207,15 @@ class Calculator:
 
             if isinstance(parsed, (sp.logic.boolalg.BooleanTrue, sp.logic.boolalg.BooleanFalse)):
                 return self._boolean_result(name, bool(parsed))
+
+            if isinstance(parsed, sp.Interval):
+                err = self._undefined_names(parsed)
+                if err:
+                    return None, err
+                if name:
+                    self.ns[name] = parsed
+                    return f'{name} = {parsed}', None
+                return str(parsed), None
 
             if isinstance(parsed, (list, tuple, sp.FiniteSet)):
                 # Result of solve(...): a list of solutions. Check each element
@@ -165,4 +239,4 @@ class Calculator:
                 return f'{name} = {value}', None
             return str(value), None
         except Exception as e:
-            return None, f'{type(e).__name__}: {e}'
+            return None, f'{type(e).__name__}: {e}' + self._unstored_hint(s)

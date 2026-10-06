@@ -564,7 +564,7 @@ print('San sang - CHI CAN CHAY 1 LAN.')
 def backend_self_check(free_unknowns):
     """The failure seen on Kaggle: "N = 94" silently replaced the function N(...)."""
     calc = backend.Calculator(free_unknowns=free_unknowns)
-    for bad in ("N = 94", "E = 3", "I = 2", "x = 5"):
+    for bad in ("N = 94", "E = 3", "I = 2") + tuple(f"{u} = 5" for u in sorted(free_unknowns)):
         result, error = calc.evaluate(bad)
         assert result is None and error and "cannot be" in error, (bad, result, error)
     # Unknown function names must never be stored as if they were results.
