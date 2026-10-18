@@ -1,0 +1,32 @@
+==============================================================================
+Phạm vi: 93 câu thực tế, thuộc 49/142 dạng; Mũ–Logarit: 68, Số phức: 25
+Lần chạy Kaggle 2026-10-16 (một lần chạy), đã bỏ 7 câu: BS-008, CR-9, SRC-02, SRC-09, SRC-22, WEB-026, WEB-044
+==============================================================================
+Cả bộ                            phân dạng đúng 77/93 (82.8%) | đáp án đúng 89/93 (95.7%)
+Sai: 4 | Không xác định: 0
+
+--- Theo nguồn ---
+30 câu đề chính thức (VD/VDC)    phân dạng đúng 30/30 (100.0%) | đáp án đúng 26/30 (86.7%)
+63 câu web / đề thi thử          phân dạng đúng 47/63 (74.6%) | đáp án đúng 63/63 (100.0%)
+
+--- Theo chuyên đề ---
+Mũ–Logarit                       phân dạng đúng 55/68 (80.9%) | đáp án đúng 64/68 (94.1%)
+Số phức                          phân dạng đúng 22/25 (88.0%) | đáp án đúng 25/25 (100.0%)
+
+--- Theo cách giải được chọn (theo dạng dự đoán) ---
+ReAct+Calculator                 đáp án đúng 31/35 (88.6%)
+zero-shot                        đáp án đúng 58/58 (100.0%)
+
+--- Phân dạng x kết quả ---
+ket_qua    Sai  Đúng  All
+dung_dang                
+sai dạng     0    16   16
+đúng dạng    4    73   77
+All          4    89   93
+
+--- Phân dạng đúng nhưng giải sai ---
+    id      topic dang_dung dang_du_doan        cach_giai dap_an_dung model_chon ket_qua so_luot_goi_tool         ly_do_dung
+VD-005 Mũ–Logarit        63           63 ReAct+Calculator           A          B     Sai               12     model_finished
+VD-012 Mũ–Logarit        69           69 ReAct+Calculator           B          D     Sai               25 tool_limit_reached
+VD-013 Mũ–Logarit        69           69 ReAct+Calculator           A          D     Sai               25 tool_limit_reached
+VD-014 Mũ–Logarit        69           69 ReAct+Calculator           B          D     Sai               25 tool_limit_reached

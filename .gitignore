@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# Router adapter weights (40 MB): kept outside the repository, see data/results/pipeline_realworld/README.md
+data/pipeline_bundle/router_lora/

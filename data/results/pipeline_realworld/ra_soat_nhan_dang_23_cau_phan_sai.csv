@@ -1,0 +1,24 @@
+﻿id,dạng gán,dạng bộ phân dạng dự đoán,kết luận rà soát,lý do
+BT-49,137,99,"Nhãn đúng, bộ phân dạng sai","Cho hai số phức liên hợp, chọn phương trình bậc hai: đúng mô tả dạng 137"
+SRC-14,74,3,"Nhãn đúng, bộ phân dạng sai",Tập xác định của y=(1/2)^x: đúng dạng 74
+SRC-19,55,15,"Nhãn đúng, bộ phân dạng sai",P = log_{√a}b² + log_{a³}b⁶: đúng dạng 55
+WEB-019,62,23,"Nhãn đúng, bộ phân dạng sai",Đếm m nguyên để phương trình mũ bậc hai có hai nghiệm phân biệt: đúng dạng 62
+THPT-008,28,15,"Nhãn đúng, bộ phân dạng sai","Đạo hàm log₂(x²+1): gần nhất dạng 28 (có x²), dạng 15 chỉ có log của x"
+THPT-010,85,32,"Nhãn đúng, bộ phân dạng sai",9^{x-1}=27^{x+2}: đúng dạng 85
+MOI-022,74,3,"Nhãn đúng, bộ phân dạng sai",Tập xác định của hàm mũ e^{x²-2x}: dạng 74
+MOI-035,11,23,"Nhãn đúng, bộ phân dạng sai","Bất phương trình log hai vế, đúng cấu trúc dạng 11 (cơ số e/3 thay cho 1/2); dạng 23 là bất phương trình mũ"
+MOI-036,11,38,"Nhãn đúng, bộ phân dạng sai","log_{0,5}x > log_{0,5}2: cơ số 1/2 như dạng 11; dạng 38 là log thập phân"
+MOI-039,120,116,"Nhãn đúng, bộ phân dạng sai",Phương trình có cả z và liên hợp của z: dạng 120; dạng 116 không có liên hợp
+MOI-042,79,3,"Nhãn đúng, bộ phân dạng sai",Tập xác định của log₃(3-2x): đúng dạng 79; dạng 3 là đa thức bậc hai
+MOI-046,106,99,"Nhãn đúng, bộ phân dạng sai",Điểm biểu diễn của z=-4+3i: dạng 106
+BS-009,3,37,"Nhãn đúng, bộ phân dạng sai",Tập xác định của log(2x-x²): đúng dạng 3
+BS-010,85,33,"Nhãn đúng, bộ phân dạng sai",9^{x+1}=27^{2x+1}: đúng dạng 85; dạng 33 là bất phương trình
+BS-011,12,15,"Nhãn đúng, bộ phân dạng sai",Đạo hàm log₂(1+√x): gần nhất dạng 12 (ln của 1+√(x+a))
+SRC-23,26,75,"Nhãn đúng, bộ phân dạng sai",log_a(a²b) rút gọn theo log_a b: dạng 26
+SRC-09,18,33,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai",Tên dạng 18 'Giải phương trình lôgarit dùng công thức cộng hai lôgarit cùng cơ số': khớp
+SRC-02,30,10,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai",Tên dạng 30 'Nhận biết mệnh đề đúng về lôgarit của lũy thừa': khớp (một biến a; dạng 10 cần hai biến)
+SRC-22,49,27,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai",Tên dạng 49 'Giải bất phương trình lôgarit cơ bản dạng log_a(f(x))>k': khớp (chỉ khác dấu)
+WEB-026,46,32,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai",Tên dạng 46 'Dùng tổng hai lôgarit để suy ra quan hệ giữa hai biến': khớp
+WEB-044,81,39,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai",Tên dạng 81 'Biểu diễn một lôgarit qua ẩn phụ lôgarit cho trước': khớp
+BS-008,23,33,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai",Tên dạng 23 'Giải bất phương trình mũ cùng cơ số': khớp (chỉ khác dấu ≥)
+CR-9,11,49,"Nhãn đúng theo tên dạng (trường hợp con của dạng), bộ phân dạng sai","Hai vế đều viết dưới dạng log cơ số 0,3 (<1): đúng dạng 11 'cơ số nhỏ hơn 1'; dạng 49 là một vế là SỐ. Giữ D11"

@@ -1,0 +1,101 @@
+﻿STT,id,topic,dang_du_doan,do_tin_cay,top3,chu_de_du_doan,ma_du_lieu,cach_giai,unit,dap_an_dung,dang_dung
+1,BT-49,Số phức,99,0.4191,99; 94; 90,Số phức,D11,zero-shot,ZS_SP,C,137
+2,CI-16,Mũ–Logarit,19,0.9961,19; 18; 24,Mũ-Logarit,D22,ReAct+Calculator,G09,D,19
+3,CO-14,Số phức,119,0.9756,119; 116; 121,Số phức,D31,zero-shot,ZS_SP,C,119
+4,CR-9,Mũ–Logarit,49,0.9453,49; 38; 37,Mũ-Logarit,D53,zero-shot,ZS_ML,D,11
+5,SRC-01,Mũ–Logarit,23,0.9958,23; 33; 16,Mũ-Logarit,D27,zero-shot,ZS_ML,B,23
+6,SRC-02,Mũ–Logarit,10,0.5094,10; 5; 3,Mũ-Logarit,D13,zero-shot,ZS_ML,A,30
+7,SRC-03,Mũ–Logarit,2,0.4218,2; 15; 1,Mũ-Logarit,D02,zero-shot,ZS_ML,D,2
+8,SRC-04,Mũ–Logarit,3,0.9974,3; 76; 2,Mũ-Logarit,D04,zero-shot,ZS_ML,A,3
+9,SRC-05,Mũ–Logarit,49,0.9842,49; 37; 39,Mũ-Logarit,D53,zero-shot,ZS_ML,D,49
+10,SRC-06,Mũ–Logarit,10,0.3149,10; 3; 5,Mũ-Logarit,D13,zero-shot,ZS_ML,A,10
+11,SRC-09,Mũ–Logarit,33,0.4499,33; 38; 35,Mũ-Logarit,D38,zero-shot,ZS_ML,C,18
+12,SRC-10,Mũ–Logarit,57,0.9784,57; 56; 51,Mũ-Logarit,D62,zero-shot,ZS_ML,D,57
+13,SRC-14,Mũ–Logarit,3,0.9909,3; 56; 2,Mũ-Logarit,D04,zero-shot,ZS_ML,B,74
+14,SRC-19,Mũ–Logarit,15,0.347,15; 18; 16,Mũ-Logarit,D18,zero-shot,ZS_ML,B,55
+15,SRC-20,Mũ–Logarit,56,0.9618,56; 3; 2,Mũ-Logarit,D61,zero-shot,ZS_ML,D,56
+16,SRC-21,Mũ–Logarit,1,0.9964,1; 9; 3,Mũ-Logarit,D01,zero-shot,ZS_ML,D,1
+17,SRC-22,Mũ–Logarit,27,0.3321,27; 23; 28,Mũ-Logarit,D33,zero-shot,ZS_ML,B,49
+18,SRC-23,Mũ–Logarit,75,0.8913,75; 65; 79,Mũ-Logarit,D81,zero-shot,ZS_ML,B,26
+19,SRC-29,Mũ–Logarit,54,0.7133,54; 68; 64,Mũ-Logarit,D58,zero-shot,ZS_ML,C,54
+20,SRC-31,Mũ–Logarit,10,0.9987,10; 3; 5,Mũ-Logarit,D13,zero-shot,ZS_ML,D,10
+21,WEB-004,Mũ–Logarit,7,0.8093,7; 11; 18,Mũ-Logarit,D08,ReAct+Calculator,G10,B,7
+22,WEB-006,Mũ–Logarit,8,0.9985,8; 3; 6,Mũ-Logarit,D10,ReAct+Calculator,H01,D,8
+23,WEB-009,Mũ–Logarit,54,0.9528,54; 34; 64,Mũ-Logarit,D58,zero-shot,ZS_ML,B,54
+24,WEB-010,Mũ–Logarit,3,0.9993,3; 56; 2,Mũ-Logarit,D04,zero-shot,ZS_ML,A,3
+25,WEB-013,Mũ–Logarit,7,0.9491,7; 3; 18,Mũ-Logarit,D08,ReAct+Calculator,G10,B,7
+26,WEB-019,Mũ–Logarit,23,0.9134,23; 28; 25,Mũ-Logarit,D27,zero-shot,ZS_ML,A,62
+27,THPT-008,Mũ–Logarit,15,0.9965,15; 2; 12,Mũ-Logarit,D18,zero-shot,ZS_ML,A,28
+28,WEB-026,Mũ–Logarit,32,0.8013,32; 34; 24,Mũ-Logarit,D37,zero-shot,ZS_ML,A,46
+29,THPT-010,Mũ–Logarit,32,0.6949,32; 38; 31,Mũ-Logarit,D37,zero-shot,ZS_ML,C,85
+30,WEB-044,Mũ–Logarit,39,0.7259,39; 38; 6,Mũ-Logarit,D44,zero-shot,ZS_ML,C,81
+31,WEB-074,Số phức,120,0.7927,120; 121; 122,Số phức,D32,ReAct+Calculator,SP_Nhom1,A,120
+32,WEB-087,Số phức,133,0.2886,133; 134; 138,Số phức,D45,ReAct+Calculator,SP_D45,C,133
+33,THPT-016,Mũ–Logarit,49,0.9021,49; 38; 37,Mũ-Logarit,D53,zero-shot,ZS_ML,A,49
+34,MOI-002,Mũ–Logarit,34,0.9998,34; 3; 33,Mũ-Logarit,D39,zero-shot,ZS_ML,D,34
+35,MOI-003,Mũ–Logarit,4,0.9997,4; 40; 10,Mũ-Logarit,D05,zero-shot,ZS_ML,A,4
+36,MOI-009,Mũ–Logarit,23,0.9995,23; 33; 27,Mũ-Logarit,D27,zero-shot,ZS_ML,C,23
+37,MOI-010,Mũ–Logarit,23,0.9507,23; 27; 29,Mũ-Logarit,D27,zero-shot,ZS_ML,C,23
+38,MOI-011,Mũ–Logarit,23,0.9774,23; 27; 29,Mũ-Logarit,D27,zero-shot,ZS_ML,D,23
+39,MOI-012,Mũ–Logarit,58,0.999,58; 51; 57,Mũ-Logarit,D63,zero-shot,ZS_ML,A,58
+40,MOI-013,Mũ–Logarit,58,0.9989,58; 51; 57,Mũ-Logarit,D63,zero-shot,ZS_ML,B,58
+41,MOI-015,Số phức,131,0.9985,131; 132; 130,Số phức,D43,zero-shot,ZS_SP,C,131
+42,MOI-016,Số phức,131,0.9921,131; 132; 130,Số phức,D43,zero-shot,ZS_SP,D,131
+43,MOI-017,Mũ–Logarit,51,0.9973,51; 58; 54,Mũ-Logarit,D55,zero-shot,ZS_ML,A,51
+44,MOI-018,Mũ–Logarit,51,0.7548,51; 58; 52,Mũ-Logarit,D55,zero-shot,ZS_ML,D,51
+45,MOI-020,Mũ–Logarit,9,0.9949,9; 85; 80,Mũ-Logarit,D12,zero-shot,ZS_ML,A,9
+46,MOI-022,Mũ–Logarit,3,0.9923,3; 56; 2,Mũ-Logarit,D04,zero-shot,ZS_ML,A,74
+47,MOI-023,Mũ–Logarit,1,0.9913,1; 9; 3,Mũ-Logarit,D01,zero-shot,ZS_ML,D,1
+48,MOI-025,Mũ–Logarit,15,0.9891,15; 11; 10,Mũ-Logarit,D18,zero-shot,ZS_ML,C,15
+49,MOI-027,Mũ–Logarit,3,0.9878,3; 56; 76,Mũ-Logarit,D04,zero-shot,ZS_ML,C,3
+50,MOI-033,Mũ–Logarit,7,0.9285,7; 3; 59,Mũ-Logarit,D08,ReAct+Calculator,G10,A,7
+51,MOI-035,Mũ–Logarit,23,0.9052,23; 27; 28,Mũ-Logarit,D27,zero-shot,ZS_ML,B,11
+52,MOI-036,Mũ–Logarit,38,0.4517,38; 33; 39,Mũ-Logarit,D43,zero-shot,ZS_ML,D,11
+53,MOI-037,Mũ–Logarit,56,0.8977,56; 3; 2,Mũ-Logarit,D61,zero-shot,ZS_ML,A,56
+54,MOI-039,Số phức,116,0.8947,116; 120; 121,Số phức,D28,ReAct+Calculator,SP_Nhom1,C,120
+55,MOI-042,Mũ–Logarit,3,0.6464,3; 76; 78,Mũ-Logarit,D04,zero-shot,ZS_ML,B,79
+56,MOI-043,Mũ–Logarit,80,0.518,80; 9; 90,Mũ-Logarit,D86,zero-shot,ZS_ML,B,80
+57,MOI-046,Số phức,99,0.5982,99; 107; 110,Số phức,D11,zero-shot,ZS_SP,B,106
+58,MOI-047,Mũ–Logarit,59,0.4825,59; 65; 61,Mũ-Logarit,D64,zero-shot,ZS_ML,B,59
+59,BS-001,Số phức,125,0.8089,125; 121; 128,Số phức,D37,ReAct+Calculator,SP_D37,D,125
+60,BS-002,Số phức,115,0.4655,115; 114; 117,Số phức,D27,zero-shot,ZS_SP,A,115
+61,BS-003,Số phức,99,0.9863,99; 100; 101,Số phức,D11,zero-shot,ZS_SP,D,99
+62,BS-004,Số phức,137,0.3373,137; 130; 138,Số phức,D49,ReAct+Calculator,SP_Nhom2,B,137
+63,BS-005,Mũ–Logarit,2,0.5056,2; 15; 12,Mũ-Logarit,D02,zero-shot,ZS_ML,B,2
+64,BS-006,Mũ–Logarit,1,0.2282,1; 18; 15,Mũ-Logarit,D01,zero-shot,ZS_ML,D,1
+65,BS-007,Mũ–Logarit,23,0.9482,23; 33; 16,Mũ-Logarit,D27,zero-shot,ZS_ML,B,23
+66,BS-008,Mũ–Logarit,33,0.993,33; 38; 35,Mũ-Logarit,D38,zero-shot,ZS_ML,D,23
+67,BS-009,Mũ–Logarit,37,0.3634,37; 38; 36,Mũ-Logarit,D42,zero-shot,ZS_ML,C,3
+68,BS-010,Mũ–Logarit,33,0.7925,33; 23; 38,Mũ-Logarit,D38,zero-shot,ZS_ML,B,85
+69,BS-011,Mũ–Logarit,15,0.9674,15; 12; 2,Mũ-Logarit,D18,zero-shot,ZS_ML,D,12
+70,BS-012,Mũ–Logarit,11,0.3208,11; 38; 23,Mũ-Logarit,D14,zero-shot,ZS_ML,A,11
+71,VD-001,Mũ–Logarit,62,0.9999,62; 68; 64,Mũ-Logarit,D67,zero-shot,ZS_ML,B,62
+72,VD-002,Mũ–Logarit,62,0.9995,62; 68; 64,Mũ-Logarit,D67,zero-shot,ZS_ML,B,62
+73,VD-003,Mũ–Logarit,63,0.9815,63; 65; 68,Mũ-Logarit,D68,ReAct+Calculator,R01,C,63
+74,VD-004,Mũ–Logarit,63,0.9748,63; 65; 68,Mũ-Logarit,D68,ReAct+Calculator,R01,C,63
+75,VD-005,Mũ–Logarit,63,0.6521,63; 65; 68,Mũ-Logarit,D68,ReAct+Calculator,R01,A,63
+76,VD-006,Mũ–Logarit,64,0.9995,64; 68; 65,Mũ-Logarit,D69,ReAct+Calculator,G02,B,64
+77,VD-007,Mũ–Logarit,64,0.9996,64; 68; 65,Mũ-Logarit,D69,ReAct+Calculator,G02,C,64
+78,VD-008,Mũ–Logarit,64,0.9998,64; 68; 65,Mũ-Logarit,D69,ReAct+Calculator,G02,C,64
+79,VD-009,Mũ–Logarit,68,0.9997,68; 67; 65,Mũ-Logarit,D74,zero-shot,ZS_ML,A,68
+80,VD-010,Mũ–Logarit,68,0.9998,68; 67; 65,Mũ-Logarit,D74,zero-shot,ZS_ML,C,68
+81,VD-011,Mũ–Logarit,68,0.9997,68; 67; 65,Mũ-Logarit,D74,zero-shot,ZS_ML,B,68
+82,VD-012,Mũ–Logarit,69,0.9835,69; 68; 67,Mũ-Logarit,D75,ReAct+Calculator,H02,B,69
+83,VD-013,Mũ–Logarit,69,0.9657,69; 68; 67,Mũ-Logarit,D75,ReAct+Calculator,H02,A,69
+84,VD-014,Mũ–Logarit,69,0.9441,69; 68; 67,Mũ-Logarit,D75,ReAct+Calculator,H02,B,69
+85,VD-015,Mũ–Logarit,73,0.9999,73; 74; 43,Mũ-Logarit,D79,ReAct+Calculator,D79,C,73
+86,VD-016,Mũ–Logarit,73,0.9999,73; 74; 43,Mũ-Logarit,D79,ReAct+Calculator,D79,D,73
+87,VD-017,Mũ–Logarit,73,0.9999,73; 74; 43,Mũ-Logarit,D79,ReAct+Calculator,D79,D,73
+88,VD-018,Số phức,123,0.9997,123; 122; 124,Số phức,D35,ReAct+Calculator,SP_D35,D,123
+89,VD-019,Số phức,126,1.0,126; 128; 125,Số phức,D38,ReAct+Calculator,SP_D38,B,126
+90,VD-020,Số phức,126,1.0,126; 128; 125,Số phức,D38,ReAct+Calculator,SP_D38,B,126
+91,VD-021,Số phức,126,1.0,126; 128; 125,Số phức,D38,ReAct+Calculator,SP_D38,B,126
+92,VD-022,Số phức,132,0.9697,132; 131; 130,Số phức,D44,ReAct+Calculator,SP_D44,A,132
+93,VD-023,Số phức,132,0.995,132; 131; 130,Số phức,D44,ReAct+Calculator,SP_D44,D,132
+94,VD-024,Số phức,132,0.994,132; 131; 129,Số phức,D44,ReAct+Calculator,SP_D44,B,132
+95,VD-025,Số phức,135,0.9905,135; 134; 133,Số phức,D47,ReAct+Calculator,SP_D47,B,135
+96,VD-026,Số phức,141,0.9968,141; 131; 140,Số phức,D53,ReAct+Calculator,SP_D53,D,141
+97,VD-027,Số phức,141,0.9968,141; 138; 131,Số phức,D53,ReAct+Calculator,SP_D53,D,141
+98,VD-028,Số phức,136,0.9999,136; 137; 138,Số phức,D48,ReAct+Calculator,SP_D48,A,136
+99,VD-029,Số phức,136,1.0,136; 137; 138,Số phức,D48,ReAct+Calculator,SP_D48,B,136
+100,VD-030,Số phức,136,0.9999,136; 137; 138,Số phức,D48,ReAct+Calculator,SP_D48,D,136

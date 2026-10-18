@@ -1,0 +1,740 @@
+﻿STT,stt_goc,van_de,ma_dang,muc_do,ten_dang,nguon,loai_so,dap_an_dung,qwen_chon,ket_qua,loi_giai_qwen,token
+1,,,D11,,,Thực tế,,C,C,Đúng,"<think>
+Okay, let's see. I need to find the quadratic equation with roots z₁ = 3 + 2i and z₂ = 3 - 2i. The options are A, B, C, D. Hmm, I remember that for a quadratic equation with roots α and β, the equation can be written as z² - (α + β)z + αβ = 0. So, first, I should find the sum of the roots and the product of the roots.
+
+First, let me calculate the sum of z₁ and z₂. z₁ is 3 + 2i and z₂ is 3 - 2i. Adding them together: (3 + 3) + (2i - 2i) = 6 + 0i = 6. So the sum is 6.
+
+Next, the product of z₁ and z₂. Let me multiply them. (3 + 2i)(3 - 2i). This looks like a difference of squares because it's (a + b)(a - b) = a² - b². Here, a is 3 and b is 2i. So, 3² - (2i)². Calculating that: 9 - (4i²). Since i² is -1, this becomes 9 - 4(-1) = 9 + 4 = 13. So the product is 13.
+
+Now, using the formula for the quadratic equation: z² - (sum)z + product = 0. Substituting the sum and product we found: z² - 6z + 13 = 0. So the equation should be z² - 6z + 13 = 0. Looking at the options, that's option C. Let me check the options again to make sure.
+
+Option C is z² - 6z + 13 = 0. Yes, that matches. Wait, but let me double-check my calculations to be sure. The sum is definitely 6, right? 3 + 3 is 6, and the imaginary parts cancel out. The product: (3 + 2i)(3 - 2i) = 9 - (2i)^2 = 9 - 4i² = 9 - 4(-1) = 9 + 4 = 13. Correct. So the equation is z² - 6z + 13 = 0, which is option C. Therefore, the answer should be C.
+</think>
+
+Để tìm phương trình bậc hai có nghiệm $ z_1 = 3 + 2i $ và $ z_2 = 3 - 2i $, ta sử dụng công thức phương trình bậc hai với hai nghiệm $ \alpha $ và $ \beta $:  
+$$
+z^2 - (\alpha + \beta)z + \alpha\beta = 0.
+$$
+
+**Bước 1: Tính tổng các nghiệm**  
+$$
+z_1 + z_2 = (3 + 2i) + (3 - 2i) = 6.
+$$
+
+**Bước 2: Tính tích các nghiệm**  
+$$
+z_1 \cdot z_2 = (3 + 2i)(3 - 2i) = 3^2 - (2i)^2 = 9 - 4(-1) = 9 + 4 = 13.
+$$
+
+**Bước 3: Thay vào công thức**  
+$$
+z^2 - (6)z + 13 = 0 \quad \text{tương đương} \quad z^2 - 6z + 13 = 0.
+$$
+
+**Kết luận:** Phương trình đúng là $ z^2 - 6z + 13 = 0 $, tương ứng với phương án **C**.
+
+Đáp án đúng: C",833
+3,,,D31,,,Thực tế,,C,C,Đúng,"<think>
+Okay, let's see. I need to solve this complex number problem. The question is: Given that z = a + bi satisfies (1 + 2i)z - (2 - 3i) conjugate z = 2 + 30i. Find S = a + b. The options are A to D. Alright, let me start by recalling some complex number properties.
+
+First, z is a complex number, so its conjugate, denoted as $\overline{z}$, is a - bi. The equation given is (1 + 2i)z - (2 - 3i) conjugate z = 2 + 30i. I need to find a and b such that this equation holds, then compute a + b.
+
+Let me write down the equation step by step. Let me substitute z = a + bi and $\overline{z}$ = a - bi into the equation.
+
+So, expanding the left-hand side:
+
+(1 + 2i)(a + bi) - (2 - 3i)(a - bi) = 2 + 30i.
+
+Now, I need to compute each part separately. Let's compute (1 + 2i)(a + bi) first.
+
+Multiplying out the terms:
+
+(1)(a) + (1)(bi) + (2i)(a) + (2i)(bi) = a + bi + 2ai + 2bi².
+
+Since i² = -1, the last term becomes 2b(-1) = -2b. So combining like terms:
+
+Real parts: a - 2b.
+
+Imaginary parts: b + 2a.
+
+So the first term is (a - 2b) + (b + 2a)i.
+
+Now, moving to the second term: -(2 - 3i)(a - bi).
+
+First, compute (2 - 3i)(a - bi):
+
+Multiply out the terms:
+
+2*a + 2*(-bi) - 3i*a + (-3i)*(-bi) = 2a - 2bi - 3ai + 3b i².
+
+Again, i² = -1, so the last term is 3b(-1) = -3b.
+
+Combine like terms:
+
+Real parts: 2a - 3b.
+
+Imaginary parts: -2b - 3a.
+
+But since there's a negative sign in front of the entire second term, the entire expression becomes:
+
+- [ (2a - 3b) + (-2b - 3a)i ] = -2a + 3b + (2b + 3a)i.
+
+Wait, let me check that again. The original term is -(2 - 3i)(a - bi). So expanding (2 - 3i)(a - bi) gives:
+
+2a - 2bi - 3ai + 3b i² = 2a - 2bi - 3ai - 3b.
+
+So that's (2a - 3b) + (-2b - 3a)i. Then multiplying by -1 gives:
+
+-2a + 3b + (2b + 3a)i.
+
+So that's the second term.
+
+Now, combining both terms from the left-hand side:
+
+First term: (a - 2b) + (b + 2a)i.
+
+Second term: (-2a + 3b) + (2b + 3a)i.
+
+Adding them together:
+
+Real parts: (a - 2b) + (-2a + 3b) = (a - 2a) + (-2b + 3b) = (-a) + (b).
+
+Imaginary parts: (b + 2a) + (2b + 3a) = (b + 2b) + (2a + 3a) = 3b + 5a.
+
+Therefore, the entire left-hand side is (-a + b) + (5a + 3b)i.
+
+This is equal to the right-hand side, which is 2 + 30i.
+
+Therefore, we can set up equations by equating real and imaginary parts:
+
+Real part: -a + b = 2.
+
+Imaginary part: 5a + 3b = 30.
+
+Now, we have a system of two equations:
+
+1. -a + b = 2.
+
+2. 5a + 3b = 30.
+
+We need to solve for a and b.
+
+Let me solve equation 1 for b: b = a + 2.
+
+Substitute this into equation 2:
+
+5a + 3(a + 2) = 30.
+
+Expanding:
+
+5a + 3a + 6 = 30.
+
+Combine like terms:
+
+8a + 6 = 30.
+
+Subtract 6 from both sides:
+
+8a = 24.
+
+Divide by 8:
+
+a = 3.
+
+Then, substitute back into b = a + 2:
+
+b = 3 + 2 = 5.
+
+Therefore, a = 3, b = 5. Therefore, S = a + b = 3 + 5 = 8.
+
+So the answer should be option C, which is 8.
+
+Wait, but let me check my calculations again to make sure I didn't make a mistake.
+
+First, when I expanded (1 + 2i)(a + bi):
+
+(1)(a) + (1)(bi) + (2i)(a) + (2i)(bi) = a + bi + 2ai + 2b i². That's correct. i² = -1, so 2b(-1) = -2b. So real part is a - 2b, imaginary part is bi + 2ai = (b + 2a)i. Correct.
+
+Then, for the second term: -(2 - 3i)(a - bi). Let me recheck that.
+
+(2 - 3i)(a - bi) = 2a - 2bi - 3ai + 3b i². Then, 3b i² is 3b(-1) = -3b. So real part is 2a - 3b, imaginary part is -2b - 3a. Then multiplying by -1 gives -2a + 3b + (2b + 3a)i. Correct.
+
+Adding the two parts:
+
+Real parts: (a - 2b) + (-2a + 3b) = -a + b. Correct.
+
+Imaginary parts: (b + 2a) + (2b + 3a) = 3b + 5a. Correct.
+
+Equating to 2 + 30i:
+
+Real: -a + b = 2.
+
+Imaginary: 5a + 3b = 30.
+
+Solving:
+
+From first equation, b = a + 2. Substituting into second equation:
+
+5a + 3(a + 2) = 5a + 3a + 6 = 8a + 6 = 30. So 8a = 24, a = 3. Then b = 3 + 2 = 5. So a + b = 8. That's correct.
+
+Therefore, the answer is C. 8.
+
+But wait, let me check if the original equation is satisfied with these values. Let me plug a=3, b=5 into the original equation.
+
+First, z = 3 + 5i, conjugate z = 3 - 5i.
+
+Compute (1 + 2i)z: (1 + 2i)(3 + 5i) = 1*3 + 1*5i + 2i*3 + 2i*5i = 3 + 5i + 6i + 10i² = 3 + 11i + 10(-1) = 3 + 11i -10 = -7 + 11i.
+
+Then compute (2 - 3i) conjugate z: (2 - 3i)(3 - 5i) = 2*3 + 2*(-5i) -3i*3 + (-3i)*(-5i) = 6 -10i -9i +15i² = 6 -19i +15(-1) = 6 -19i -15 = -9 -19i.
+
+Now, the left-hand side is (1 + 2i)z - (2 - 3i) conjugate z = (-7 + 11i) - (-9 -19i) = -7 + 11i +9 +19i = ( -7 +9 ) + (11i +19i ) = 2 + 30i. Which matches the right-hand side. So yes, correct.
+
+Therefore, the answer is C. 8.
+
+**Final Answer**
+Đáp án đúng: C
+</think>
+
+### Giải bài toán:
+
+Cho $ z = a + bi $ thỏa mãn phương trình:
+$$
+(1 + 2i)z - (2 - 3i)\overline{z} = 2 + 30i
+$$
+Tính $ S = a + b $.
+
+---
+
+### Bước 1: Thay $ z = a + bi $ và $ \overline{z} = a - bi $ vào phương trình
+
+Phương trình trở thành:
+$$
+(1 + 2i)(a + bi) - (2 - 3i)(a - bi) = 2 + 30i
+$$
+
+---
+
+### Bước 2: Tính từng thành phần
+
+#### Tính $ (1 + 2i)(a + bi) $:
+$$
+(1 + 2i)(a + bi) = a + bi + 2ai + 2bi^2 = a - 2b + (b + 2a)i
+$$
+
+#### Tính $ (2 - 3i)(a - bi) $:
+$$
+(2 - 3i)(a - bi) = 2a - 2bi - 3ai + 3bi^2 = 2a - 3b + (-2b - 3a)i
+$$
+
+Do đó:
+$$
+-(2 - 3i)(a - bi) = -2a + 3b + (2b + 3a)i
+$$
+
+---
+
+### Bước 3: Cộng hai phần lại
+
+Tổng của hai thành phần:
+- **Phần thực:** $ (a - 2b) + (-2a + 3b) = -a + b $
+- **Phần ảo:** $ (b + 2a) + (2b + 3a) = 5a + 3b $
+
+Vậy phương trình trở thành:
+$$
+(-a + b) + (5a + 3b)i = 2 + 30i
+$$
+
+---
+
+### Bước 4: Đặt hệ phương trình
+
+So sánh phần thực và phần ảo:
+$$
+\begin{cases}
+-a + b = 2 \\
+5a + 3b = 30
+\end{cases}
+$$
+
+Giải hệ phương trình:
+
+Từ phương trình thứ nhất: $ b = a + 2 $
+
+Thay vào phương trình thứ hai:
+$$
+5a + 3(a + 2) = 30 \Rightarrow 5a + 3a + 6 = 30 \Rightarrow 8a = 24 \Rightarrow a = 3
+$$
+
+Thay $ a = 3 $ vào $ b = a + 2 $:
+$$
+b = 3 + 2 = 5
+$$
+
+---
+
+### Bước 5: Tính $ S = a + b $
+
+$$
+S = a + b = 3 + 5 = 8
+$$
+
+---
+
+### Kết luận:
+
+Đáp án đúng: C
+
+$$
+\boxed{C}
+$$",2593
+41,,,D43,,,Thực tế,,C,C,Đúng,"<think>
+Okay, let's try to solve this problem step by step. So, we have a complex number z with |z| = 3. We need to find the radius R of the circle that represents the set of points w = 3 - 2i + (2 - i)z. The options are given, and we need to choose the correct one.
+
+First, I remember that when dealing with complex numbers, the modulus |z| is the distance from the origin in the complex plane. So, |z| = 3 means that z lies on a circle centered at the origin with radius 3. But here, we have another complex number w defined in terms of z. The question is about the set of all possible w as z varies on that circle. The problem states that this set forms a circle, and we need to find its radius.
+
+Let me write down the expression for w again: w = 3 - 2i + (2 - i)z. So, w is a linear transformation of z. Since z is on a circle of radius 3, multiplying by (2 - i) would scale and rotate the circle, and then adding 3 - 2i would translate it. The key here is to find the radius of the resulting circle after these transformations.
+
+I recall that when you multiply a complex number by a scalar (which is a complex number here), the modulus of the result is the modulus of the scalar times the modulus of the original number. So, if we have a complex number a = a1 + a2i, then |a| = sqrt(a1² + a2²). So, the modulus of (2 - i) is sqrt(2² + (-1)²) = sqrt(4 + 1) = sqrt(5). Therefore, multiplying z by (2 - i) would scale the original circle (radius 3) by sqrt(5), resulting in a circle of radius 3*sqrt(5). Then, adding 3 - 2i is just a translation, which doesn't change the radius. So, the radius should be 3*sqrt(5), which is option C. But wait, maybe I need to verify this more carefully.
+
+Alternatively, maybe I should express w in terms of z and then compute |w - w0| where w0 is the center of the circle. Let's try that approach.
+
+Let me denote w = 3 - 2i + (2 - i)z. Let me rearrange this as w = (2 - i)z + (3 - 2i). So, this is a linear transformation of z. To find the set of points w, we can think of it as a complex linear transformation. The general form is w = a*z + b, where a = 2 - i and b = 3 - 2i.
+
+Now, the set of all such w when |z| = 3 is a circle. The radius of this circle can be found by considering the modulus of a times the original radius. Since multiplying by a complex number a scales the circle by |a| and rotates it. The translation by b doesn't affect the radius. Therefore, the radius R should be |a| * |z| = |2 - i| * 3. As calculated before, |2 - i| is sqrt(5), so R = 3*sqrt(5), which is option C. So, the answer should be C.
+
+But wait, maybe I need to check if there's a mistake here. Let me think again. Suppose z is a complex number with |z| = 3. Then, (2 - i)z is a complex number whose modulus is |2 - i| * |z| = sqrt(5)*3. Then, adding (3 - 2i) to that would shift the entire circle, but the radius remains the same. Therefore, the radius of the circle for w is 3*sqrt(5). So, that's option C. Therefore, the answer is C.
+
+Alternatively, maybe I can use another method. Let me try to compute |w - (3 - 2i)|. Since w = (2 - i)z + (3 - 2i), then w - (3 - 2i) = (2 - i)z. Therefore, the set of points w is the set of points (2 - i)z + (3 - 2i), which is a translation of the set (2 - i)z. The modulus of (2 - i)z is |2 - i| * |z| = sqrt(5)*3. Therefore, the set of points w is a circle with center at (3 - 2i) and radius 3*sqrt(5). Therefore, the radius R is 3*sqrt(5), which is option C.
+
+Yes, that seems correct. So, the answer should be C. Therefore, the correct answer is option C, which is 3√5. So, I think that's the answer.
+</think>
+
+Để giải bài toán, ta cần tìm bán kính $ R $ của đường tròn mà tập hợp các điểm biểu diễn số phức $ w = 3 - 2i + (2 - i)z $ khi $ |z| = 3 $.
+
+**Bước 1: Biểu diễn $ w $ dưới dạng hàm của $ z $**  
+Ta có:  
+$$
+w = 3 - 2i + (2 - i)z
+$$  
+Đặt $ a = 2 - i $ và $ b = 3 - 2i $, ta có:  
+$$
+w = a z + b
+$$  
+Với $ |z| = 3 $, tập hợp các điểm $ w $ là hình ảnh của đường tròn $ |z| = 3 $ sau phép biến đổi tuyến tính $ w = a z + b $.
+
+**Bước 2: Tính bán kính của đường tròn mới**  
+Phép biến đổi $ w = a z + b $ bao gồm hai phần:  
+1. **Phép nhân với $ a $:** Khi nhân $ z $ với $ a $, bán kính của đường tròn sẽ được nhân với $ |a| $.  
+   $$ 
+   |a| = |2 - i| = \sqrt{2^2 + (-1)^2} = \sqrt{4 + 1} = \sqrt{5} 
+   $$  
+   Do đó, bán kính sau phép nhân là $ 3 \cdot \sqrt{5} $.  
+2. **Phép dịch chuyển theo $ b $:** Phép dịch chuyển không thay đổi bán kính của đường tròn.
+
+**Bước 3: Kết luận**  
+Bán kính $ R $ của đường tròn biểu diễn tập hợp $ w $ là:  
+$$
+R = 3\sqrt{5}
+$$  
+
+**Đáp án đúng: C**  
+
+$$
+\boxed{C}
+$$",1476
+42,,,D43,,,Thực tế,,D,D,Đúng,"<think>
+Okay, let's try to solve this problem step by step. So, the question is about complex numbers. We have a complex number z such that the modulus |z - 1| equals 5. Then, there's another complex number w defined by w = (2 + 3i) times the conjugate of z plus 3 + 4i. We need to find the radius R of the circle that represents all possible points w.
+
+First, I remember that the set of points z satisfying |z - a| = r is a circle with center at a and radius r. In this case, |z - 1| = 5 means that z lies on a circle centered at 1 (on the complex plane, which is the point (1, 0)) with radius 5.
+
+Now, the problem is about transforming this set of z into a set of w using the given formula. The transformation is w = (2 + 3i) * conjugate(z) + 3 + 4i. So, we need to find the image of the circle |z - 1| = 5 under this linear transformation involving the conjugate.
+
+I recall that multiplying by a complex number can be seen as a rotation and scaling, but since we're also taking the conjugate, that would be a reflection over the real axis. So, the conjugate of z is like reflecting z over the real axis. Then, multiplying by (2 + 3i) would involve scaling and rotating, and then adding 3 + 4i would be a translation.
+
+But how do we find the radius of the transformed circle? Maybe we can express w in terms of z and then analyze the transformation.
+
+Let me write down the formula again:
+
+w = (2 + 3i) * conjugate(z) + 3 + 4i.
+
+Let me denote conjugate(z) as z̄. So, w = (2 + 3i)z̄ + 3 + 4i.
+
+Now, since z lies on the circle |z - 1| = 5, maybe I can parametrize z. But perhaps there's a better way using properties of complex numbers.
+
+I remember that if we have a transformation of the form w = a * z̄ + b, then the image of a circle under such a transformation is another circle (or a line if the transformation is degenerate). The radius of the new circle can be found by considering the scaling factor from the original circle.
+
+But first, let's consider the transformation. The term (2 + 3i)z̄ is a complex number multiplied by the conjugate of z. Since z is on a circle, z̄ would also lie on a circle. Wait, the conjugate of z is just the reflection of z over the real axis. So, if z is on |z - 1| = 5, then z̄ is on |z̄ - 1| = 5. But |z̄ - 1| = | conjugate(z) - 1 | = | conjugate(z - 1) | = |z - 1| = 5. So, z̄ also lies on the same circle |z - 1| = 5. Wait, is that correct?
+
+Wait, if z is on |z - 1| = 5, then z̄ is on |z̄ - 1| = 5. But since |z̄ - 1| = | conjugate(z - 1) | = |z - 1| = 5. So yes, z̄ is also on the same circle. Therefore, the set of z̄ is the same circle as z. Therefore, the transformation (2 + 3i)z̄ is scaling and rotating the original circle.
+
+But how does this affect the radius? The modulus of the complex number (2 + 3i) is |2 + 3i| = sqrt(2² + 3²) = sqrt(4 + 9) = sqrt(13). So, multiplying by (2 + 3i) scales the original circle by sqrt(13). But wait, since z̄ is on the same circle as z, which has radius 5. But is that the case?
+
+Wait, the original circle is |z - 1| = 5, which is a circle with center at 1 (1 + 0i) and radius 5. The set of z̄ is the same circle, but reflected over the real axis. However, the distance from z̄ to 1 is still 5. Therefore, the set of z̄ is the same circle. Therefore, when we multiply z̄ by (2 + 3i), which is a complex number with modulus sqrt(13), the image of the circle under this scaling is another circle with radius 5 * sqrt(13). Then, adding 3 + 4i is a translation, which doesn't change the radius. Therefore, the radius R would be 5 * sqrt(13), which is option D. But wait, let me check again.
+
+Wait, but the transformation is w = (2 + 3i)z̄ + 3 + 4i. So, the scaling factor is |2 + 3i| = sqrt(13), and the original circle has radius 5. Therefore, the image of the circle under scaling would have radius 5 * sqrt(13). Then, adding 3 + 4i is a translation, which doesn't affect the radius. Therefore, R = 5 * sqrt(13). So the answer would be D.
+
+But wait, maybe I'm missing something here. Let me think again. Because when you take the conjugate of z, and then multiply by a complex number, is the scaling factor the modulus of that complex number? Yes, because multiplying by a complex number of modulus m scales the modulus of any complex number by m. So, if z̄ is on a circle of radius 5, then (2 + 3i)z̄ is on a circle of radius 5 * |2 + 3i| = 5*sqrt(13). Then adding 3 + 4i shifts the entire circle, but the radius remains the same. So R = 5*sqrt(13). So the answer is D.
+
+But wait, the options include D as 5*sqrt(13). But let me check if there's a mistake in my reasoning.
+
+Alternatively, maybe I should approach this by parametrizing z. Let me try that.
+
+Let z be a complex number such that |z - 1| = 5. Let me write z = 1 + 5e^{iθ}, where θ is from 0 to 2π. Then, the conjugate of z is 1 + 5e^{-iθ}.
+
+Then, w = (2 + 3i)(1 + 5e^{-iθ}) + 3 + 4i.
+
+Let me compute this:
+
+First, expand the multiplication:
+
+(2 + 3i)(1) + (2 + 3i)(5e^{-iθ}) + 3 + 4i.
+
+Which is 2 + 3i + 5(2 + 3i)e^{-iθ} + 3 + 4i.
+
+Combine the constants: 2 + 3 + 3i + 4i = 5 + 7i.
+
+So, w = 5 + 7i + 5(2 + 3i)e^{-iθ}.
+
+Now, the term 5(2 + 3i)e^{-iθ} is a complex number whose modulus is 5 * |2 + 3i| = 5*sqrt(13), as before. Therefore, the set of w is the set of points 5 + 7i plus a circle of radius 5*sqrt(13). Therefore, the radius R is 5*sqrt(13). Therefore, the answer is D.
+
+But wait, the problem says ""tập hợp các điểm biểu diễn số phức w"" là một đường tròn bán kính R. So, yes, the radius is 5*sqrt(13). Therefore, the answer is D. However, let me check if there is any mistake in the parametrization.
+
+Alternatively, maybe I can use the formula for the image of a circle under a linear transformation. Let me recall that if we have a transformation w = a * z̄ + b, then the image of the circle |z - c| = r is another circle. The radius of the new circle is |a| * r, and the center is a * conjugate(c) + b. Wait, but in this case, the original circle is |z - 1| = 5, so c = 1. Then, the center of the image would be a * conjugate(c) + b? Wait, maybe not. Let me think.
+
+Wait, the transformation is w = a * z̄ + b. Let me write z̄ = conjugate(z). So, if z is on |z - c| = r, then z̄ is on |z̄ - c| = r. So, the set of z̄ is the same as the original circle. Then, the image under w = a * z̄ + b is a scaling by |a| and then translation by b. Therefore, the radius is |a| * r. So, in this case, a is (2 + 3i), so |a| is sqrt(13), and r is 5, so R = 5*sqrt(13). Therefore, answer D.
+
+Alternatively, maybe I should check with another approach. Let me consider the general case. Let me suppose that z lies on a circle |z - c| = r. Then, w = a * conjugate(z) + b. What is the image of this set?
+
+Let me write w = a * conjugate(z) + b. Let me consider the conjugate of z. Since z is on |z - c| = r, then conjugate(z) is on |conjugate(z) - c| = r. So, the set of conjugate(z) is the same circle as z. Therefore, the image of the circle under the transformation a * conjugate(z) + b is a circle with radius |a| * r, centered at a * conjugate(c) + b. Wait, but why is that?
+
+Alternatively, if we have a circle with center c and radius r, then the image under w = a * conjugate(z) + b. Let me think in terms of coordinates. Let me suppose that z = x + yi. Then, conjugate(z) = x - yi. Then, w = (2 + 3i)(x - yi) + 3 + 4i. Let me compute that:
+
+(2 + 3i)(x - yi) = 2x - 2yi + 3i x - 3i^2 y = 2x - 2yi + 3ix + 3y (since i^2 = -1). Then, combining real and imaginary parts:
+
+Real part: 2x + 3y.
+
+Imaginary part: (-2y + 3x)i.
+
+Then, adding 3 + 4i:
+
+Real part: 2x + 3y + 3.
+
+Imaginary part: (-2y + 3x) + 4.
+
+So, w = [2x + 3y + 3] + [3x - 2y + 4]i.
+
+Now, since z lies on |z - 1| = 5, which is |x + yi - 1| = 5, so sqrt((x - 1)^2 + y^2) = 5. Squaring both sides: (x - 1)^2 + y^2 = 25.
+
+We need to find the set of points (u, v) = (2x + 3y + 3, 3x - 2y + 4) that satisfy (x - 1)^2 + y^2 = 25.
+
+This seems complicated, but maybe we can find the radius by finding the distance from the center of the transformed circle.
+
+Alternatively, we can think of this as a linear transformation. The transformation from (x, y) to (u, v) is linear, except for the constants. Let me write the equations:
+
+u = 2x + 3y + 3.
+
+v = 3x - 2y + 4.
+
+So, if we consider the homogeneous part (without the constants), the linear transformation is:
+
+u = 2x + 3y.
+
+v = 3x - 2y.
+
+This is a linear transformation represented by the matrix:
+
+[ 2  3 ]
+
+[ 3 -2 ]
+
+The determinant of this matrix is (2)(-2) - (3)(3) = -4 -9 = -13. The determinant is non-zero, so it's invertible. Therefore, the image of the circle under this linear transformation is another circle. The radius of the transformed circle is the original radius multiplied by the modulus of the transformation matrix. Wait, but how is that calculated?
+
+Alternatively, the modulus of the transformation matrix? Wait, the transformation is a linear transformation, and the scaling factor can be found by the modulus of the matrix's singular values, but that might be more complicated.
+
+Alternatively, since we have the original circle |z - 1| = 5, and we are applying the transformation w = a * conjugate(z) + b, where a = 2 + 3i and b = 3 + 4i. Then, the image of the circle under this transformation is a circle with radius |a| * 5, which is 5*sqrt(13). Therefore, the radius is 5*sqrt(13), which is option D.
+
+But wait, let me check with coordinates. Suppose we have a general point on the original circle. Let me consider the center of the original circle. The original circle has center at (1, 0). Let me compute the image of the center under the transformation w = a * conjugate(z) + b.
+
+If z = 1 + 0i, then conjugate(z) = 1, so w = (2 + 3i)*1 + 3 + 4i = 2 + 3i + 3 + 4i = 5 + 7i. So, the center of the original circle maps to (5, 7). Now, the radius of the transformed circle is |a| * original radius = sqrt(13)*5. Therefore, the transformed circle has center at (5,7) and radius 5*sqrt(13). Therefore, the answer is D.
+
+Alternatively, maybe I should verify this with another point. Let me take a point on the original circle. Let me choose z = 1 + 5 (since |z - 1| = 5, so z = 1 + 5). Then, z = 6. Then, conjugate(z) = 6. So, w = (2 + 3i)*6 + 3 + 4i = 12 + 18i + 3 + 4i = 15 + 22i. Now, the distance from the center (5,7) to this point (15,22) is sqrt((15-5)^2 + (22-7)^2) = sqrt(10^2 + 15^2) = sqrt(100 + 225) = sqrt(325) = 5*sqrt(13). Which matches the radius. Therefore, this confirms that the radius is indeed 5*sqrt(13). Therefore, the correct answer is D.
+
+So, after all these steps and verifications, I'm confident that the answer is D.
+</think>
+
+Để giải bài toán, ta cần xác định bán kính $ R $ của tập hợp các điểm biểu diễn số phức $ w $ khi $ w = (2 + 3i)\overline{z} + 3 + 4i $ với $ |z - 1| = 5 $.
+
+**Bước 1: Phân tích tập hợp điểm $ z $**  
+Tập hợp $ |z - 1| = 5 $ là một đường tròn tâm tại $ z = 1 $ (tức điểm $ (1, 0) $ trên mặt phẳng phức) và bán kính $ 5 $.
+
+**Bước 2: Xét phép biến đổi từ $ z $ đến $ w $**  
+Phép biến đổi được cho bởi:
+$$
+w = (2 + 3i)\overline{z} + 3 + 4i.
+$$
+Đây là một phép biến đổi tuyến tính kết hợp với phép lấy số phức liên hợp và dịch chuyển. 
+
+**Bước 3: Xác định ảnh của đường tròn dưới phép biến đổi**  
+- **Bước 3.1: Tính môđun của hệ số nhân**  
+  Môđun của $ 2 + 3i $ là:
+  $$
+  |2 + 3i| = \sqrt{2^2 + 3^2} = \sqrt{4 + 9} = \sqrt{13}.
+  $$
+  Do đó, khi nhân $ \overline{z} $ với $ 2 + 3i $, bán kính của đường tròn được nhân với $ \sqrt{13} $.
+
+- **Bước 3.2: Tính bán kính của tập hợp $ w $**  
+  Bán kính của đường tròn ban đầu là $ 5 $, sau khi nhân với $ \sqrt{13} $, bán kính của tập hợp $ w $ là:
+  $$
+  R = 5 \times \sqrt{13}.
+  $$
+
+**Bước 4: Kết luận**  
+Phép dịch chuyển $ +3 + 4i $ không ảnh hưởng đến bán kính của đường tròn. Do đó, bán kính $ R $ của tập hợp $ w $ là $ 5\sqrt{13} $.
+
+**Đáp án đúng: D**  
+$$
+\boxed{D}
+$$",3935
+57,,,D11,,,Thực tế,,B,B,Đúng,"<think>
+Okay, let's tackle this complex number problem. So, the question is about representing the complex number z = -4 + 3i as a point M in the complex plane. The options are A to D, each giving different coordinates. I need to figure out which one is correct.
+
+First, I remember that in the complex plane, a complex number z = a + bi is represented by the point (a, b). The real part 'a' is the x-coordinate, and the imaginary part 'b' is the y-coordinate. So, for z = -4 + 3i, the real part is -4 and the imaginary part is 3. That should mean the coordinates are (-4, 3). Let me check the options again.
+
+Looking at the choices:
+A. (4, -3)
+B. (-4, 3)
+C. (3, -4)
+D. (4, 3)
+
+So option B is (-4, 3), which matches what I thought. But wait, let me make sure I didn't mix up the real and imaginary parts. The standard form is a + bi, so a is real, b is imaginary. So yes, the x-coordinate is a, which is -4, and y-coordinate is b, which is 3. Therefore, the point should be (-4, 3). That's option B.
+
+Hmm, but sometimes people might confuse the order. Like, maybe they think the imaginary part is the x-coordinate? But no, I think it's definitely the real part first. Let me recall: the complex plane has the real axis as the x-axis and the imaginary axis as the y-axis. So, when you plot z = a + bi, you go a units along the real axis (x) and then b units along the imaginary axis (y). So, for -4 + 3i, you go left 4 units on the x-axis (since it's negative) and up 3 units on the y-axis. That would place the point at (-4, 3). Yep, that's option B.
+
+Let me check the other options just to be thorough. Option A is (4, -3). That would be 4 + (-3)i, which is 4 - 3i, not the given z. Option C is (3, -4), which would be 3 - 4i. Option D is (4, 3), which is 4 + 3i. So none of those match except B. So the correct answer is B.
+</think>
+
+Số phức $ z = -4 + 3i $ được biểu diễn bằng điểm $ M $ có tọa độ được xác định như sau:  
+- Phần thực của $ z $ là $ -4 $, tương ứng với tọa độ $ x $.  
+- Phần ảo của $ z $ là $ 3 $, tương ứng với tọa độ $ y $.  
+
+Do đó, điểm $ M $ có tọa độ $ (-4, 3) $.  
+
+**Phân tích các phương án:**  
+- **A. $ (4; -3) $:** Tương ứng với $ z = 4 - 3i $ → sai.  
+- **B. $ (-4; 3) $:** Tương ứng với $ z = -4 + 3i $ → **đúng**.  
+- **C. $ (3; -4) $:** Tương ứng với $ z = 3 - 4i $ → sai.  
+- **D. $ (4; 3) $:** Tương ứng với $ z = 4 + 3i $ → sai.  
+
+Đáp án đúng: B.",780
+60,,,D27,,,Thực tế,,A,A,Đúng,"<think>
+Okay, let me try to solve this problem step by step. So, the question is about complex numbers. We have a complex number z = 1 - (1/3)i, and we need to find w = i times the conjugate of z plus 3 times z. Then choose the correct answer from the options A to D.
+
+First, I remember that the conjugate of a complex number a + bi is a - bi. So, if z is 1 - (1/3)i, then the conjugate of z, which is denoted as \overline{z}, should be 1 + (1/3)i. Let me write that down:
+
+\overline{z} = 1 + (1/3)i.
+
+Next, we need to compute i times \overline{z}. Let me calculate that part first. Multiplying i with the conjugate:
+
+i * \overline{z} = i * (1 + (1/3)i) = i*1 + i*(1/3)i = i + (1/3)i².
+
+But wait, i squared is -1, right? So substituting that in:
+
+i + (1/3)(-1) = i - 1/3.
+
+So, i times the conjugate of z is -1/3 + i. Got that part.
+
+Now, the other part of w is 3 times z. Let me compute that. z is 1 - (1/3)i, so multiplying by 3:
+
+3*z = 3*(1 - (1/3)i) = 3*1 - 3*(1/3)i = 3 - i.
+
+So, 3z is 3 - i.
+
+Now, adding the two parts together to get w:
+
+w = [i * \overline{z}] + [3z] = (-1/3 + i) + (3 - i).
+
+Let me combine the real parts and the imaginary parts separately. The real parts are -1/3 and 3. The imaginary parts are i and -i. Wait, but in the first part, we have +i, and in the second part, we have -i. So when we add them together, the i and -i will cancel each other out.
+
+So, real parts: -1/3 + 3 = 3 - 1/3. Let me compute that. 3 is 9/3, so 9/3 - 1/3 = 8/3. The imaginary parts: i - i = 0. So the total w is 8/3 + 0i, which is just 8/3.
+
+But wait, looking at the options, option A is 8/3, and option C is 8/3 + i. But according to my calculation, the imaginary part is zero. So why is there an option C with i? Did I make a mistake?
+
+Let me check my steps again. Maybe I messed up the signs somewhere.
+
+Starting again:
+
+Original z = 1 - (1/3)i.
+
+Conjugate of z is 1 + (1/3)i. Correct.
+
+Multiply by i: i*(1 + (1/3)i) = i + (1/3)i². Since i² = -1, so that's i + (1/3)(-1) = i - 1/3. So that part is correct.
+
+Then 3z = 3*(1 - (1/3)i) = 3 - i. Correct.
+
+Adding them together: (-1/3 + i) + (3 - i) = (-1/3 + 3) + (i - i) = 8/3 + 0i. So that's 8/3. So the answer should be A, which is 8/3. But wait, the options have both A and C. But according to this, the imaginary part is zero, so answer is A. But let me check again because maybe I made a mistake in the calculation.
+
+Alternatively, maybe I miscalculated the addition. Let me write it again:
+
+First term: -1/3 + i.
+
+Second term: 3 - i.
+
+Adding them:
+
+Real parts: -1/3 + 3 = 3 - 1/3 = 8/3.
+
+Imaginary parts: i - i = 0.
+
+So yes, that's correct. Therefore, w is 8/3. So the answer should be A. But looking at the options, option A is 8/3, and option D is 10/3 + i. But according to my calculation, it's 8/3. So why is there an option C with 8/3 + i? Maybe I made a mistake in the conjugate?
+
+Wait, let me check the conjugate again. The original z is 1 - (1/3)i. Therefore, the conjugate should be 1 + (1/3)i. Correct. So multiplying by i:
+
+i*(1 + (1/3)i) = i + (1/3)i² = i - 1/3. Correct.
+
+Then 3z is 3*(1 - (1/3)i) = 3 - i. Correct.
+
+Adding them: (-1/3 + i) + (3 - i) = (-1/3 + 3) + (i - i) = 8/3 + 0i. So that's correct.
+
+So the answer should be A. But let me check the options again. The options are:
+
+A. 8/3.
+
+B. 10/3.
+
+C. 8/3 + i.
+
+D. 10/3 + i.
+
+So according to my calculation, the answer is A. But wait, maybe I made a mistake in the sign when calculating the conjugate? Let me check again. The original z is 1 - (1/3)i. So the conjugate is 1 + (1/3)i. Correct. Then multiplying by i:
+
+i*(1 + (1/3)i) = i*1 + i*(1/3)i = i + (1/3)i² = i + (1/3)(-1) = i - 1/3. Correct.
+
+Then 3z is 3*1 - 3*(1/3)i = 3 - i. Correct.
+
+Adding the two parts: (-1/3 + i) + (3 - i) = (-1/3 + 3) + (i - i) = 8/3 + 0i. So yes, that's correct. Therefore, the answer is A. But why does option C have 8/3 + i? Maybe there's a miscalculation here. Alternatively, maybe the question is different. Wait, the problem says w = i times conjugate of z plus 3 times z. So that's i*\overline{z} + 3z. Which is what I did. So I think my calculation is correct. So the answer is A. But maybe I made a mistake in the arithmetic.
+
+Wait, 3 - 1/3 is 8/3? Let me compute 3 - 1/3. 3 is 9/3, so 9/3 - 1/3 = 8/3. Correct. So that's right. So the answer is A. But why does option C exist? Maybe the question is different? Wait, let me check again.
+
+Wait, maybe I misread the question. The problem says w = i * conjugate(z) + 3z. So that's correct. So my calculation is right. Then why is there an option C? Maybe the problem is in the calculation of the conjugate. Wait, another way to check: let me compute w step by step again.
+
+First, compute \overline{z} = 1 + (1/3)i.
+
+Multiply by i: i*(1 + (1/3)i) = i + (i^2)/3 = i - 1/3.
+
+Then 3z = 3*(1 - (1/3)i) = 3 - i.
+
+Adding these two results: (i - 1/3) + (3 - i) = (-1/3 + 3) + (i - i) = 8/3 + 0i. So that's 8/3. So answer A. Therefore, the correct answer is A. But maybe the options are different? Wait, let me check the original problem again.
+
+Original problem:
+
+z = 1 - 1/3 i.
+
+w = i * conjugate(z) + 3z.
+
+Options:
+
+A. 8/3.
+
+B. 10/3.
+
+C. 8/3 + i.
+
+D. 10/3 + i.
+
+So according to my calculation, the answer is A. But maybe there's a mistake in the calculation. Let me try another approach.
+
+Alternatively, let me write z as a complex number in the form a + bi, where a = 1, b = -1/3.
+
+Then, conjugate(z) is a - bi = 1 - (-1/3)i = 1 + (1/3)i. Correct.
+
+Then i * conjugate(z) = i*(1 + (1/3)i) = i + (1/3)i² = i - 1/3. Correct.
+
+Then 3z = 3*(1 - (1/3)i) = 3 - i. Correct.
+
+Adding them: (-1/3 + i) + (3 - i) = (-1/3 + 3) + (i - i) = 8/3 + 0i. So yes, that's 8/3. Therefore, answer A.
+
+But the options have C as 8/3 + i. Maybe the question is different? Or maybe there's a typo in the problem? Or maybe I made a mistake in the sign of the conjugate?
+
+Wait, maybe I confused the conjugate. Let me check again. If z = 1 - (1/3)i, then conjugate(z) is 1 + (1/3)i. Correct. So that's right.
+
+Alternatively, maybe the problem is written as w = i * z + 3 * conjugate(z)? But the original question says w = i * conjugate(z) + 3z. So that's not the case.
+
+Alternatively, maybe I misread the problem. Let me check again:
+
+""Cho số phức z = 1 - 1/3 i. Tìm số phức w = i\overline{z} + 3z được: ...""
+
+Yes, so it's i times conjugate(z) plus 3 times z. So that's what I did. Therefore, my calculation is correct, and the answer is A. So why is there an option C? Maybe the answer is A. But maybe I made a mistake in the calculation. Alternatively, maybe the original problem has a different z?
+
+Wait, maybe the original z is 1 - (1/3)i, so that's correct. So I think my answer is correct. Therefore, the correct answer is A.
+
+But wait, maybe I made a mistake in the multiplication by i. Let me check again:
+
+i * (1 + (1/3)i) = i*1 + i*(1/3)i = i + (1/3)i². Since i² is -1, so this is i + (1/3)(-1) = i - 1/3. Correct.
+
+Then 3z is 3*(1 - (1/3)i) = 3 - i. Correct.
+
+Adding them: (-1/3 + i) + (3 - i) = (-1/3 + 3) + (i - i) = 8/3 + 0i. Correct.
+
+So the answer is A. Therefore, the correct answer is A. But maybe the answer is D? Let me check once more.
+
+Wait, maybe I miscalculated the addition. Let me compute -1/3 + 3 again. 3 is 9/3, so 9/3 - 1/3 is 8/3. Correct. So that's right. So the answer is A. Therefore, the answer is A. But the options have A and D. Maybe the answer is D? Wait, no. I think my calculation is correct. Therefore, the answer is A.
+</think>
+
+Để giải bài toán, ta thực hiện các bước sau:
+
+1. **Tìm số phức liên hợp của $ z $:**  
+   Với $ z = 1 - \dfrac{1}{3}i $, số phức liên hợp là:  
+   $$
+   \overline{z} = 1 + \dfrac{1}{3}i.
+   $$
+
+2. **Tính $ i\overline{z} $:**  
+   $$
+   i\overline{z} = i \cdot \left(1 + \dfrac{1}{3}i\right) = i + \dfrac{1}{3}i^2 = i + \dfrac{1}{3}(-1) = -\dfrac{1}{3} + i.
+   $$
+
+3. **Tính $ 3z $:**  
+   $$
+   3z = 3 \cdot \left(1 - \dfrac{1}{3}i\right) = 3 - i.
+   $$
+
+4. **Cộng hai kết quả để tìm $ w $:**  
+   $$
+   w = i\overline{z} + 3z = \left(-\dfrac{1}{3} + i\right) + \left(3 - i\right) = \left(-\dfrac{1}{3} + 3\right) + (i - i) = \dfrac{8}{3} + 0i.
+   $$
+
+5. **Kết luận:**  
+   Số phức $ w $ có giá trị là $ \dfrac{8}{3} $, tương ứng với đáp án A.
+
+Đáp án đúng: A.",3016
+61,,,D11,,,Thực tế,,D,D,Đúng,"<think>
+Okay, let's see. I need to find the complex conjugate of the complex number z = -i. Hmm, complex conjugate... right, the conjugate of a complex number a + bi is a - bi. So, the real part stays the same, and the imaginary part changes sign. 
+
+Wait, but in this case, the number is -i. Let me write that in the standard form. A complex number is usually written as a + bi, where a is the real part and b is the imaginary part. So here, z = -i can be written as 0 - 1i. Because there's no real part, it's just the imaginary part. So a is 0, and b is -1. 
+
+So the complex conjugate would be a - bi. Substituting the values, that would be 0 - (-1)i. Which simplifies to 0 + 1i, which is just i. Wait, but that's the original number. Wait, no, the original number is -i. So the conjugate would be i? Let me check again.
+
+Original number: z = -i. So in standard form, that's 0 - i. The conjugate is 0 + i, which is i. So the answer should be D. i. But let me make sure I didn't mix up anything. 
+
+Alternatively, maybe I should recall that the complex conjugate of a purely imaginary number is its negative. For example, if you have z = bi, then the conjugate is -bi. So if z is -i, which is -1i, then the conjugate would be -(-1)i = i. So yes, that's correct. 
+
+Looking at the options, D is i. So the answer should be D. Let me check the options again. Option D is i, which matches. So the correct answer is D.
+</think>
+
+Để tìm số phức liên hợp của $ z = -i $, ta thực hiện các bước sau:
+
+1. Viết số phức $ z $ dưới dạng chuẩn $ a + bi $:  
+   $ z = -i = 0 - 1i $.  
+   Trong đó, $ a = 0 $ và $ b = -1 $.
+
+2. Áp dụng công thức liên hợp:  
+   Số phức liên hợp của $ a + bi $ là $ a - bi $.  
+   Thay $ a = 0 $ và $ b = -1 $ vào:  
+   $$
+   \overline{z} = 0 - (-1)i = 0 + 1i = i.
+   $$
+
+3. So sánh với các phương án:  
+   Phương án D là $ i $, phù hợp với kết quả trên.
+
+Đáp án đúng: D.",587

@@ -1,0 +1,143 @@
+﻿so_dang,chu_de,ma_cu,ma_du_lieu,cach_giai,unit,notebook_nguon,max_tool_calls,prompt_md5
+1,Mũ-Logarit,ML_D01,D01,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+2,Mũ-Logarit,ML_D02,D02,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+3,Mũ-Logarit,ML_D04,D04,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+4,Mũ-Logarit,ML_D05,D05,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+5,Mũ-Logarit,ML_D06,D06,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+6,Mũ-Logarit,ML_D07,D07,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+7,Mũ-Logarit,ML_D08,D08,ReAct+Calculator,G10,experiments/ReAct-Calculator/KLTN_G10_ReAct_Calculator.ipynb,25,ca22bd65a604a8998434db93a018afcc
+8,Mũ-Logarit,ML_D10,D10,ReAct+Calculator,H01,experiments/ReAct-Calculator/KLTN_H01_ReAct_Calculator.ipynb,25,58df70845139d6b6c68020393ad019fb
+9,Mũ-Logarit,ML_D12,D12,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+10,Mũ-Logarit,ML_D13,D13,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+11,Mũ-Logarit,ML_D14,D14,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+12,Mũ-Logarit,ML_D15,D15,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+13,Mũ-Logarit,ML_D16,D16,ReAct+Calculator,G06,experiments/ReAct-Calculator/KLTN_G06_ReAct_Calculator.ipynb,25,c8efb4326dd6aed4fc2bef42713f47a7
+14,Mũ-Logarit,ML_D17,D17,ReAct+Calculator,H02,experiments/ReAct-Calculator/KLTN_H02_ReAct_Calculator.ipynb,25,bfafe3eee3f7bf7643f55be2f6dadb66
+15,Mũ-Logarit,ML_D18,D18,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+16,Mũ-Logarit,ML_D19,D19,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+17,Mũ-Logarit,ML_D20,D20,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+18,Mũ-Logarit,ML_D21,D21,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+19,Mũ-Logarit,ML_D22,D22,ReAct+Calculator,G09,experiments/ReAct-Calculator/KLTN_G09_ReAct_Calculator.ipynb,25,6538b07510107f9319471573cb84f33b
+20,Mũ-Logarit,ML_D23,D23,ReAct+Calculator,H02,experiments/ReAct-Calculator/KLTN_H02_ReAct_Calculator.ipynb,25,ca323aa9c479a119507b9d1bcf353e5d
+21,Mũ-Logarit,ML_D24,D24,ReAct+Calculator,G07,experiments/ReAct-Calculator/KLTN_G07_ReAct_Calculator.ipynb,25,eadc14e6566104c5de2f910a4892940d
+22,Mũ-Logarit,ML_D25,D25,ReAct+Calculator,H05,experiments/ReAct-Calculator/KLTN_H05_ReAct_Calculator.ipynb,25,281ca4716a596cf90dd66ced54eaaa36
+23,Mũ-Logarit,ML_D27,D27,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+24,Mũ-Logarit,ML_D28,D28,ReAct+Calculator,G05,experiments/ReAct-Calculator/KLTN_G05_ReAct_Calculator.ipynb,25,a63b7bad3db519372be892ab229fdc5d
+25,Mũ-Logarit,ML_D29,D29,ReAct+Calculator,H03,experiments/ReAct-Calculator/KLTN_H03_ReAct_Calculator.ipynb,25,d8d134bd6ea81700065aa0a33d714971
+26,Mũ-Logarit,ML_D30,D30,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+27,Mũ-Logarit,ML_D33,D33,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+28,Mũ-Logarit,ML_D34,D34,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+29,Mũ-Logarit,ML_D35,D35,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+30,Mũ-Logarit,ML_D36a,D36a,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+31,Mũ-Logarit,ML_D36b,D36b,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+32,Mũ-Logarit,ML_D37,D37,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+33,Mũ-Logarit,ML_D38,D38,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+34,Mũ-Logarit,ML_D39,D39,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+35,Mũ-Logarit,ML_D40,D40,ReAct+Calculator,R04,experiments/ReAct-Calculator/KLTN_R04_ReAct_Calculator.ipynb,25,5cc46df76750ae2db8e8b5e601b145d2
+36,Mũ-Logarit,ML_D41,D41,ReAct+Calculator,G06,experiments/ReAct-Calculator/KLTN_G06_ReAct_Calculator.ipynb,25,0ea5a4bc60885ff015c9b9cee5edeed0
+37,Mũ-Logarit,ML_D42,D42,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+38,Mũ-Logarit,ML_D43,D43,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+39,Mũ-Logarit,ML_D44,D44,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+40,Mũ-Logarit,ML_D45,D45,ReAct+Calculator,H01,experiments/ReAct-Calculator/KLTN_H01_ReAct_Calculator.ipynb,25,f782bdbbd1006b98c6be463dd4374b96
+41,Mũ-Logarit,ML_D46,D46,ReAct+Calculator,G05,experiments/ReAct-Calculator/KLTN_G05_ReAct_Calculator.ipynb,25,0c2e868cc8f556547e30fc1768d43e8e
+42,Mũ-Logarit,ML_D47,D47,ReAct+Calculator,G01,experiments/ReAct-Calculator/KLTN_G01_ReAct_Calculator.ipynb,25,2c22668e10e87377a7a338fff22774f8
+43,Mũ-Logarit,ML_D48,D48,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+44,Mũ-Logarit,ML_D49,D49,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+45,Mũ-Logarit,ML_D50a,D50a,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+46,Mũ-Logarit,ML_D50b,D50b,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+47,Mũ-Logarit,ML_D51,D51,ReAct+Calculator,G09,experiments/ReAct-Calculator/KLTN_G09_ReAct_Calculator.ipynb,25,e5a063f01d375649e705feda1409b30a
+48,Mũ-Logarit,ML_D52,D52,ReAct+Calculator,H04,experiments/ReAct-Calculator/KLTN_H04_ReAct_Calculator.ipynb,25,da56d4d33eb5ed5e8d9f5ba594e8db28
+49,Mũ-Logarit,ML_D53,D53,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+50,Mũ-Logarit,ML_D54,D54,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+51,Mũ-Logarit,ML_D55,D55,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+52,Mũ-Logarit,ML_D56,D56,ReAct+Calculator,G04,experiments/ReAct-Calculator/KLTN_G04_ReAct_Calculator.ipynb,25,4803b8754ecbc6a737aeb290d926710e
+53,Mũ-Logarit,ML_D57,D57,ReAct+Calculator,H04,experiments/ReAct-Calculator/KLTN_H04_ReAct_Calculator.ipynb,25,ffc4ebea51cda61b66b81e07d665cab7
+54,Mũ-Logarit,ML_D58,D58,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+55,Mũ-Logarit,ML_D60,D60,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+56,Mũ-Logarit,ML_D61,D61,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+57,Mũ-Logarit,ML_D62,D62,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+58,Mũ-Logarit,ML_D63,D63,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+59,Mũ-Logarit,ML_D64,D64,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+60,Mũ-Logarit,ML_D65,D65,ReAct+Calculator,G03,experiments/ReAct-Calculator/KLTN_G03_ReAct_Calculator.ipynb,25,ab318e24704be1238ec3e5e439f0b981
+61,Mũ-Logarit,ML_D66,D66,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+62,Mũ-Logarit,ML_D67,D67,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+63,Mũ-Logarit,ML_D68,D68,ReAct+Calculator,R01,experiments/ReAct-Calculator/KLTN_R01_ReAct_Calculator.ipynb,25,38412a87ddd41cfe881e34dfcb66b4e5
+64,Mũ-Logarit,ML_D69,D69,ReAct+Calculator,G02,experiments/ReAct-Calculator/KLTN_G02_ReAct_Calculator.ipynb,25,526dcc8eba443fbef0509b30371113df
+65,Mũ-Logarit,ML_D71,D71,ReAct+Calculator,H05,experiments/ReAct-Calculator/KLTN_H05_ReAct_Calculator.ipynb,25,439eb6cb8869626702450c2cd14c1274
+66,Mũ-Logarit,ML_D72,D72,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+67,Mũ-Logarit,ML_D73,D73,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+68,Mũ-Logarit,ML_D74,D74,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+69,Mũ-Logarit,ML_D75,D75,ReAct+Calculator,H02,experiments/ReAct-Calculator/KLTN_H02_ReAct_Calculator.ipynb,25,87ff6afe7cf1c893aecf9db5eb8bdb4c
+70,Mũ-Logarit,ML_D76,D76,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+71,Mũ-Logarit,ML_D77,D77,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+72,Mũ-Logarit,ML_D78,D78,ReAct+Calculator,G04,experiments/ReAct-Calculator/KLTN_G04_ReAct_Calculator.ipynb,25,3dc01239f39b5704621b4d48f712a348
+73,Mũ-Logarit,ML_D79,D79,ReAct+Calculator,D79,experiments/ReAct-Calculator/KLTN_D79_ReAct_Calculator_full90.ipynb,25,bdf03cb9ea36b1454f9f0b3ac3cb5d97
+74,Mũ-Logarit,ML_D80,D80,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+75,Mũ-Logarit,ML_D81,D81,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+76,Mũ-Logarit,ML_D82,D82,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+77,Mũ-Logarit,ML_D83,D83,ReAct+Calculator,H03,experiments/ReAct-Calculator/KLTN_H03_ReAct_Calculator.ipynb,25,433c35aaebbf64914e1498b1b39846b8
+78,Mũ-Logarit,ML_D84,D84,ReAct+Calculator,G01,experiments/ReAct-Calculator/KLTN_G01_ReAct_Calculator.ipynb,25,c6a1f7437534c605d01613854f492ade
+79,Mũ-Logarit,ML_D85,D85,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+80,Mũ-Logarit,ML_D86,D86,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+81,Mũ-Logarit,ML_D87,D87,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+82,Mũ-Logarit,ML_D88,D88,ReAct+Calculator,G06,experiments/ReAct-Calculator/KLTN_G06_ReAct_Calculator.ipynb,25,b660607e8a93c3b86e24076e741a068b
+83,Mũ-Logarit,ML_D89,D89,ReAct+Calculator,H03,experiments/ReAct-Calculator/KLTN_H03_ReAct_Calculator.ipynb,25,d8e3ae34108cafc2d8654767ca33d78c
+84,Mũ-Logarit,ML_D90,D90,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+85,Mũ-Logarit,ML_D91,D91,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+86,Mũ-Logarit,ML_D92,D92,zero-shot,ZS_ML,experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb,,5bfbd338199b41822d4f5b5714ed0e9f
+87,Mũ-Logarit,ML_D93,D93,ReAct+Calculator,G03,experiments/ReAct-Calculator/KLTN_G03_ReAct_Calculator.ipynb,25,03ec57ca2f89f81f3d1e128b8536c627
+88,Mũ-Logarit,ML_D94,D94,ReAct+Calculator,G07,experiments/ReAct-Calculator/KLTN_G07_ReAct_Calculator.ipynb,25,0054201e05ebc74762bdddf062510dc2
+89,Số phức,SP_D01,D01,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+90,Số phức,SP_D02,D02,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+91,Số phức,SP_D03,D03,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+92,Số phức,SP_D04,D04,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,17,138cc773bf0be734a3b7de7ccb4d41c6
+93,Số phức,SP_D05,D05,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+94,Số phức,SP_D06,D06,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+95,Số phức,SP_D07,D07,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+96,Số phức,SP_D08,D08,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+97,Số phức,SP_D09,D09,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+98,Số phức,SP_D10,D10,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+99,Số phức,SP_D11,D11,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+100,Số phức,SP_D12,D12,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+101,Số phức,SP_D13,D13,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+102,Số phức,SP_D14,D14,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,17,b962324f48209d72ca7f9f2c3642d077
+103,Số phức,SP_D15,D15,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+104,Số phức,SP_D16,D16,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+105,Số phức,SP_D17,D17,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+106,Số phức,SP_D18,D18,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+107,Số phức,SP_D19,D19,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+108,Số phức,SP_D20,D20,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+109,Số phức,SP_D21,D21,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+110,Số phức,SP_D22,D22,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+111,Số phức,SP_D23,D23,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+112,Số phức,SP_D24,D24,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+113,Số phức,SP_D25,D25,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+114,Số phức,SP_D26,D26,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+115,Số phức,SP_D27,D27,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+116,Số phức,SP_D28,D28,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,17,2f98ff2506b07309b523f63230b931dc
+117,Số phức,SP_D29,D29,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+118,Số phức,SP_D30,D30,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+119,Số phức,SP_D31,D31,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+120,Số phức,SP_D32,D32,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,27,844638133a653b309cde8ac8fdc916dc
+121,Số phức,SP_D33,D33,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,23,e96f6b743df25b3ae2b4a366bd4f0141
+122,Số phức,SP_D34,D34,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,29,023d4e9e1c7a70a056db19a0b8b3ab93
+123,Số phức,SP_D35,D35,ReAct+Calculator,SP_D35,so_phuc/experiments/Qwen3-4B/KLTN_D35_ReAct_Calculator_full90.ipynb,25,44c3697923f2a634979ed83aa3c07772
+124,Số phức,SP_D36,D36,ReAct+Calculator,SP_D36,so_phuc/experiments/Qwen3-4B/KLTN_D36_ReAct_Calculator_full90.ipynb,36,821807c2c903041728aaa991e5f02aaf
+125,Số phức,SP_D37,D37,ReAct+Calculator,SP_D37,so_phuc/experiments/Qwen3-4B/KLTN_D37_ReAct_Calculator_full90.ipynb,26,469d963a0566a8c4d83904c2dab7e4f5
+126,Số phức,SP_D38,D38,ReAct+Calculator,SP_D38,so_phuc/experiments/Qwen3-4B/KLTN_D38_ReAct_Calculator_full90.ipynb,35,8e98f5dcbf36213e61bf4db20c896239
+127,Số phức,SP_D39,D39,ReAct+Calculator,SP_D39,so_phuc/experiments/Qwen3-4B/KLTN_D39_ReAct_Calculator_full90.ipynb,30,aa63b1b5a76df86257c805b8c268eb8e
+128,Số phức,SP_D40,D40,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,19,1b61eef22f2ddfde8b18c2256bf6c232
+129,Số phức,SP_D41,D41,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+130,Số phức,SP_D42,D42,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,23,97947bb7c7eaad6fcda49e9107f7c8a4
+131,Số phức,SP_D43,D43,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
+132,Số phức,SP_D44,D44,ReAct+Calculator,SP_D44,so_phuc/experiments/Qwen3-4B/KLTN_D44_ReAct_Calculator_full90.ipynb,30,a3e782fb715ffeccfdc66c758a2c499b
+133,Số phức,SP_D45,D45,ReAct+Calculator,SP_D45,so_phuc/experiments/Qwen3-4B/KLTN_D45_ReAct_Calculator_full90.ipynb,23,0d78b0a2c1b168774969c265836bed02
+134,Số phức,SP_D46,D46,ReAct+Calculator,SP_D46,so_phuc/experiments/Qwen3-4B/KLTN_D46_ReAct_Calculator_full90.ipynb,29,ea57d62c8ec2ab017b0fa608b136ff56
+135,Số phức,SP_D47,D47,ReAct+Calculator,SP_D47,so_phuc/experiments/Qwen3-4B/KLTN_D47_ReAct_Calculator_full90.ipynb,35,13de1e4085a5db3ee232fa2153f38eb2
+136,Số phức,SP_D48,D48,ReAct+Calculator,SP_D48,so_phuc/experiments/Qwen3-4B/KLTN_D48_ReAct_Calculator_full90.ipynb,30,af806fbc9c1c967cf959049e515c4a61
+137,Số phức,SP_D49,D49,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,27,32fe2d7f9092f69fb307f87a841981cd
+138,Số phức,SP_D50,D50,ReAct+Calculator,SP_D50,so_phuc/experiments/Qwen3-4B/KLTN_D50_ReAct_Calculator_full90.ipynb,50,1d6fafd9f7b9be66ec02d13cbdf7e53c
+139,Số phức,SP_D51,D51,ReAct+Calculator,SP_D51,so_phuc/experiments/Qwen3-4B/KLTN_D51_ReAct_Calculator_full90.ipynb,25,0188dde44ffa877f0b85707f3be3752d
+140,Số phức,SP_D52,D52,ReAct+Calculator,SP_D52,so_phuc/experiments/Qwen3-4B/KLTN_D52_ReAct_Calculator_full90.ipynb,35,a3478d364deed34a49747b7fe51c2f21
+141,Số phức,SP_D53,D53,ReAct+Calculator,SP_D53,so_phuc/experiments/Qwen3-4B/KLTN_D53_ReAct_Calculator_full90.ipynb,25,8f0d29da55033168f53fcd00bb705ce9
+142,Số phức,SP_D54,D55,ReAct+Calculator,SP_D55,so_phuc/experiments/Qwen3-4B/KLTN_D55_ReAct_Calculator_full90.ipynb,25,6cfdcd257b73cc5931900e0e885b1a48

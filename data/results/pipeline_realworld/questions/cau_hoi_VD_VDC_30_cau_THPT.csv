@@ -1,0 +1,151 @@
+﻿id,topic,question_markdown_latex,answer_markdown_latex,answer_letter,dang_dung,source_url,source_title,difficulty,source_reference
+VD-001,Mũ–Logarit,"Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $16^x-m\cdot4^{x+1}+5m^2-45=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?
+A. $13$
+B. $3$
+C. $6$
+D. $4$",B. $3$,B,62,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=76,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 2; câu 78; trang PDF 76; trang in 75
+VD-002,Mũ–Logarit,"Gọi $S$ là tập hợp các giá trị nguyên của tham số $m$ sao cho phương trình $9^x-m\cdot3^{x+1}+3m^2-75=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?
+A. $8$
+B. $4$
+C. $19$
+D. $5$",B. $4$,B,62,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 2; câu 96; trang PDF 77; trang in 76
+VD-003,Mũ–Logarit,"Cho $a>0,b>0$ thỏa mãn $\log_{3a+2b+1}(9a^2+b^2+1)+\log_{6ab+1}(3a+2b+1)=2$. Giá trị của $a+2b$ bằng
+A. $6$
+B. $9$
+C. $\frac72$
+D. $\frac52$",C. $\frac72$,C,63,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=76,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 79; trang PDF 76; trang in 75
+VD-004,Mũ–Logarit,"Cho $a>0,b>0$ thỏa mãn $\log_{4a+5b+1}(16a^2+b^2+1)+\log_{8ab+1}(4a+5b+1)=2$. Giá trị của $a+2b$ bằng
+A. $9$
+B. $6$
+C. $\frac{27}{4}$
+D. $\frac{20}{3}$",C. $\frac{27}{4}$,C,63,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 91; trang PDF 77; trang in 76
+VD-005,Mũ–Logarit,"Cho $a>0,b>0$ thỏa mãn $\log_{2a+2b+1}(4a^2+b^2+1)+\log_{4ab+1}(2a+2b+1)=2$. Giá trị của $a+2b$ bằng
+A. $\frac{15}{4}$
+B. $5$
+C. $4$
+D. $\frac32$",A. $\frac{15}{4}$,A,63,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 98; trang PDF 77; trang in 76
+VD-006,Mũ–Logarit,"Cho phương trình $5^x+m=\log_5(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-20;20)$ để phương trình đã cho có nghiệm?
+A. $20$
+B. $19$
+C. $9$
+D. $21$",B. $19$,B,64,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=76,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 80; trang PDF 76; trang in 75
+VD-007,Mũ–Logarit,"Cho phương trình $7^x+m=\log_7(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-25;25)$ để phương trình đã cho có nghiệm?
+A. $9$
+B. $25$
+C. $24$
+D. $26$",C. $24$,C,64,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 92; trang PDF 77; trang in 76
+VD-008,Mũ–Logarit,"Cho phương trình $2^x+m=\log_2(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-18;18)$ để phương trình đã cho có nghiệm?
+A. $9$
+B. $19$
+C. $17$
+D. $18$",C. $17$,C,64,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 97; trang PDF 77; trang in 76
+VD-009,Mũ–Logarit,"Cho phương trình $\log_9(x^2)-\log_3(3x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. $2$
+B. $4$
+C. $3$
+D. Vô số.",A. $2$,A,68,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=78,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 2; câu 112; trang PDF 78; trang in 77
+VD-010,Mũ–Logarit,"Cho phương trình $\log_9(x^2)-\log_3(5x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. Vô số.
+B. $5$
+C. $4$
+D. $6$",C. $4$,C,68,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=79,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 2; câu 126; trang PDF 79; trang in 78
+VD-011,Mũ–Logarit,"Cho phương trình $\log_9(x^2)-\log_3(4x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. $5$
+B. $3$
+C. Vô số.
+D. $4$",B. $3$,B,68,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=80,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 2; câu 133; trang PDF 80; trang in 79
+VD-012,Mũ–Logarit,"Cho phương trình $(4\log_2^2x+\log_2x-5)\sqrt{7^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. $49$
+B. $47$
+C. Vô số.
+D. $48$",B. $47$,B,69,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=79,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 113; trang PDF 79; trang in 78
+VD-013,Mũ–Logarit,"Cho phương trình $(2\log_3^2x-\log_3x-1)\sqrt{5^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. $123$
+B. $125$
+C. Vô số.
+D. $124$",A. $123$,A,69,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=79,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 127; trang PDF 79; trang in 78
+VD-014,Mũ–Logarit,"Cho phương trình $(2\log_3^2x-\log_3x-1)\sqrt{4^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. Vô số.
+B. $62$
+C. $63$
+D. $64$",B. $62$,B,69,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=80,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 134; trang PDF 80; trang in 79
+VD-015,Mũ–Logarit,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 728 số nguyên $y$ thỏa mãn $\log_4(x^2+y)\ge\log_3(x+y)$?
+A. $59$
+B. $58$
+C. $116$
+D. $115$",C. $116$,C,73,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=81,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 159; trang PDF 81; trang in 80
+VD-016,Mũ–Logarit,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 127 số nguyên $y$ thỏa mãn $\log_3(x^2+y)\ge\log_2(x+y)$?
+A. $89$
+B. $46$
+C. $45$
+D. $90$",D. $90$,D,73,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=82,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 176; trang PDF 82; trang in 81
+VD-017,Mũ–Logarit,"Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 255 số nguyên $y$ thỏa mãn $\log_3(x^2+y)\ge\log_2(x+y)$?
+A. $80$
+B. $79$
+C. $157$
+D. $158$",D. $158$,D,73,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=83,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 2; câu 185; trang PDF 83; trang in 82
+VD-018,Số phức,"Có bao nhiêu số phức $z$ thỏa mãn $|z+3i|=\sqrt{13}$ và $\frac{z}{z+2}$ là số thuần ảo?
+A. Vô số.
+B. $2$
+C. $0$
+D. $1$",D. $1$,D,123,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=120,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 37; trang PDF 120; trang in 119
+VD-019,Số phức,"Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-4-i)+2i=(5-i)z$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$",B. $3$,B,126,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=120,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 51; trang PDF 120; trang in 119
+VD-020,Số phức,"Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-6-i)+2i=(7-i)z$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$",B. $3$,B,126,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=121,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 59; trang PDF 121; trang in 120
+VD-021,Số phức,"Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-5-i)+2i=(6-i)z$?
+A. $1$
+B. $3$
+C. $4$
+D. $2$",B. $3$,B,126,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=121,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 63; trang PDF 121; trang in 120
+VD-022,Số phức,"Xét các số phức $z$ thỏa mãn $|z|=\sqrt2$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\frac{4+iz}{1+z}$ là một đường tròn có bán kính bằng
+A. $\sqrt{34}$
+B. $26$
+C. $34$
+D. $\sqrt{26}$",A. $\sqrt{34}$,A,132,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=122,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 73; trang PDF 122; trang in 121
+VD-023,Số phức,"Xét các số phức $z$ thỏa mãn $|z|=\sqrt2$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\frac{2+iz}{1+z}$ là một đường tròn có bán kính bằng
+A. $10$
+B. $\sqrt2$
+C. $2$
+D. $\sqrt{10}$",D. $\sqrt{10}$,D,132,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=122,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 83; trang PDF 122; trang in 121
+VD-024,Số phức,"Xét các số phức $z$ thỏa mãn $|z|=\sqrt2$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\frac{5+iz}{1+z}$ là một đường tròn có bán kính bằng
+A. $52$
+B. $2\sqrt{13}$
+C. $2\sqrt{11}$
+D. $44$",B. $2\sqrt{13}$,B,132,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=123,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 88; trang PDF 123; trang in 122
+VD-025,Số phức,"Trên tập hợp số phức, xét phương trình $z^2-2(m+1)z+m^2=0$ ($m$ là tham số thực). Có bao nhiêu giá trị của $m$ để phương trình đó có nghiệm $z_0$ thỏa mãn $|z_0|=7$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$",B. $3$,B,135,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=125,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng,Chuyên đề 4; câu 141; trang PDF 125; trang in 124
+VD-026,Số phức,"Xét các số phức $z,w$ thỏa mãn $|z|=1$ và $|w|=2$. Khi $|z+i\overline{w}-6-8i|$ đạt giá trị nhỏ nhất, $|z-w|$ bằng
+A. $\frac{\sqrt{221}}5$
+B. $\sqrt5$
+C. $3$
+D. $\frac{\sqrt{29}}5$",D. $\frac{\sqrt{29}}5$,D,141,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=125,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 4; câu 142; trang PDF 125; trang in 124
+VD-027,Số phức,"Xét các số phức $z,w$ thỏa mãn $|z|=1$ và $|w|=2$. Khi $|z+i\overline{w}-6+8i|$ đạt giá trị nhỏ nhất, $|z-w|$ bằng
+A. $3$
+B. $\frac{\sqrt{29}}5$
+C. $\sqrt5$
+D. $\frac{\sqrt{221}}5$",D. $\frac{\sqrt{221}}5$,D,141,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=126,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 4; câu 153; trang PDF 126; trang in 125
+VD-028,Số phức,"Trên tập hợp số phức, xét phương trình $z^2-4az+b^2+2=0$ ($a,b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1,z_2$ thỏa mãn $z_1+2iz_2=3+3i$?
+A. $3$
+B. $2$
+C. $1$
+D. $4$",A. $3$,A,136,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=127,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 4; câu 166; trang PDF 127; trang in 126
+VD-029,Số phức,"Trên tập hợp số phức, xét phương trình $z^2+2az+b^2+2=0$ ($a,b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1,z_2$ thỏa mãn $z_1+2iz_2=3+3i$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$",B. $3$,B,136,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=128,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 4; câu 178; trang PDF 128; trang in 127
+VD-030,Số phức,"Trên tập hợp số phức, xét phương trình $z^2-2az+b^2+2=0$ ($a,b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1,z_2$ thỏa mãn $z_1+2iz_2=3+3i$?
+A. $2$
+B. $1$
+C. $4$
+D. $3$",D. $3$,D,136,https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=129,Chuyên đề trong đề thi tốt nghiệp THPT Quốc gia môn Toán 2017–2021,Vận dụng cao,Chuyên đề 4; câu 184; trang PDF 129; trang in 128

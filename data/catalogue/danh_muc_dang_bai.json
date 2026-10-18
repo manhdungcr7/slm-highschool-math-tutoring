@@ -1,0 +1,712 @@
+[
+ {
+  "ten_goi": "Dạng 1",
+  "mo_ta": "Giải phương trình lôgarit cơ bản: lôgarit của một biểu thức bậc nhất theo x bằng một số cho trước, tìm nghiệm x.",
+  "vi_du": "Giải phương trình $\\log_4(x-1) = 3$."
+ },
+ {
+  "ten_goi": "Dạng 2",
+  "mo_ta": "Tính đạo hàm của hàm số mũ cơ bản y = a mũ x, trong đó a là một số cụ thể.",
+  "vi_du": "Đạo hàm của hàm số $y=4^x$ là"
+ },
+ {
+  "ten_goi": "Dạng 3",
+  "mo_ta": "Tìm tập xác định của hàm số lôgarit mà biểu thức bên trong lôgarit là một đa thức bậc hai theo x.",
+  "vi_du": "Tìm tập xác định $\\mathscr{D}$ của hàm số $y=\\log_{4}(x^{2} - 1)$."
+ },
+ {
+  "ten_goi": "Dạng 4",
+  "mo_ta": "Cho hàm số f(x) là tích của hai hàm mũ (một hàm có số mũ x, một hàm có số mũ x bình phương), chọn khẳng định SAI trong các biến đổi của bất phương trình f(x) nhỏ hơn 1 bằng lôgarit.",
+  "vi_du": "Cho hàm số $y=f(x)=4^x\\cdot3^{x^2}$. Khẳng định nào sau đây là khẳng định **sai**?"
+ },
+ {
+  "ten_goi": "Dạng 5",
+  "mo_ta": "Cho hai số thực dương a, b với a khác 1, chọn đẳng thức đúng cho lôgarit có cơ số là một lũy thừa của a và biểu thức là tích a nhân b. Đề chỉ nêu điều kiện của a, b; các đẳng thức nằm trong bốn phương án.",
+  "vi_du": "Cho các số thực dương $a, b$ với $a \\neq 1$. Mệnh đề nào sau đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 6",
+  "mo_ta": "Tính đạo hàm của hàm số là một phân thức có tử số là x (hoặc x cộng một số) và mẫu số là hàm mũ có số mũ x.",
+  "vi_du": "Tính đạo hàm của hàm số $y = \\dfrac{x}{8^x}$."
+ },
+ {
+  "ten_goi": "Dạng 7",
+  "mo_ta": "Đặt a và b là hai lôgarit cho trước, biểu diễn một lôgarit khác (cơ số và biểu thức là tích của các lũy thừa của những số nguyên tố nhỏ như 2, 3, 5, 7) theo a và b.",
+  "vi_du": "Đặt $a = \\log_2 3, b = \\log_5 3$. Hãy biểu diễn $\\log_6 45$ theo $a$ và $b$."
+ },
+ {
+  "ten_goi": "Dạng 8",
+  "mo_ta": "Tìm các giá trị của tham số m để hàm số y bằng ln của (x bình phương cộng một số) trừ m nhân x cộng 1 đồng biến trên toàn bộ trục số.",
+  "vi_du": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để hàm số $y = \\ln(x^2+1) - mx + 1$ đồng biến trên khoảng $(-\\infty; +\\infty)$."
+ },
+ {
+  "ten_goi": "Dạng 9",
+  "mo_ta": "Giải phương trình mũ có số mũ là biểu thức bậc nhất theo x và vế phải là một số nguyên viết bình thường (không viết dưới dạng lũy thừa).",
+  "vi_du": "Nghiệm của phương trình $4^{x}=4$ là"
+ },
+ {
+  "ten_goi": "Dạng 10",
+  "mo_ta": "Cho hai số thực dương a, b, chọn đẳng thức đúng khi khai triển lôgarit của một biểu thức có tích, thương và lũy thừa của a, b. Biểu thức cần khai triển chỉ xuất hiện trong bốn phương án.",
+  "vi_du": "Với các số thực dương $a, b$ bất kì. Mệnh đề nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 11",
+  "mo_ta": "Giải bất phương trình lôgarit cơ số một phần hai, trong đó hai vế đều là lôgarit của một biểu thức bậc nhất theo x.",
+  "vi_du": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{\\frac12}(x+4) < \\log_{\\frac12}(6x)$."
+ },
+ {
+  "ten_goi": "Dạng 12",
+  "mo_ta": "Tính đạo hàm của hàm số y bằng ln của (1 cộng căn bậc hai của (x cộng một số)).",
+  "vi_du": "Tính đạo hàm của hàm số $y = \\ln(1+\\sqrt{x+1})$."
+ },
+ {
+  "ten_goi": "Dạng 13",
+  "mo_ta": "Tìm các giá trị của tham số m để phương trình có hai hàm mũ khác cơ số, cộng thêm số hạng chứa m, có nghiệm thuộc khoảng từ 0 đến 1.",
+  "vi_du": "Tìm tập hợp tất cả các giá trị của tham số thực $m$ để phương trình $15^x+(1-m)5^x-m=0$ có nghiệm thuộc khoảng $(0;1)$."
+ },
+ {
+  "ten_goi": "Dạng 14",
+  "mo_ta": "Cho hai số thực a lớn hơn b lớn hơn 1, tìm giá trị nhỏ nhất của một biểu thức gồm lôgarit cơ số (a chia b) và lôgarit cơ số b.",
+  "vi_du": "Xét các số thực $a, b$ thỏa mãn $a>b>1$. Tìm giá trị nhỏ nhất $P_{\\min}$ của biểu thức $P = \\log^2_{\\frac{a}{b}}a + 4\\log_b\\left(\\dfrac{a}{b}\\right)$."
+ },
+ {
+  "ten_goi": "Dạng 15",
+  "mo_ta": "Tính đạo hàm của hàm số lôgarit cơ bản y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x.",
+  "vi_du": "Tìm đạo hàm của hàm số $y = \\log x$."
+ },
+ {
+  "ten_goi": "Dạng 16",
+  "mo_ta": "Giải bất phương trình mũ có dạng: một lũy thừa có số mũ bậc nhất theo x, trừ đi một lũy thừa hằng số, lớn hơn 0.",
+  "vi_du": "Tìm tập nghiệm của bất phương trình $3^{x} - 3^{6} > 0$."
+ },
+ {
+  "ten_goi": "Dạng 17",
+  "mo_ta": "Cho a dương khác 1 và P là lôgarit cơ số căn bậc n của a, của a lũy thừa m; chọn mệnh đề đúng về giá trị của P.",
+  "vi_du": "Cho $a$ là số thực dương, $a\\neq 1$ và $P=\\log_{\\sqrt{a}} a^{3}$. Mệnh đề nào dưới đây là đúng?"
+ },
+ {
+  "ten_goi": "Dạng 18",
+  "mo_ta": "Giải phương trình lôgarit có tổng hai lôgarit cùng cơ số (của x trừ một số và của x cộng cùng số đó) bằng một số, tìm tập nghiệm.",
+  "vi_du": "Tìm tập nghiệm $S$ của phương trình $\\log_2(x-1) + \\log_2(x+1) = 3$."
+ },
+ {
+  "ten_goi": "Dạng 19",
+  "mo_ta": "Cho lôgarit cơ số a của b bằng một số (a, b dương, a khác 1 và khác căn b), tính lôgarit cơ số (căn b chia a) của căn bậc hai của (b chia a).",
+  "vi_du": "Cho $a, b$ là các số thực dương thỏa mãn $a\\neq 1, a\\neq\\sqrt{b}$ và $\\log_a b=3$. Tính $P=\\log_{\\frac{\\sqrt{b}}{a}}\\sqrt{\\dfrac{b}{a}}$."
+ },
+ {
+  "ten_goi": "Dạng 20",
+  "mo_ta": "Đếm số nghiệm phân biệt của phương trình gồm một đa thức bậc hai theo x, cộng ln của (x cộng 1) mũ 3, cộng một hằng số, bằng 0.",
+  "vi_du": "Phương trình $3x^2-6x+\\ln((x+1)^{3})=0$ có bao nhiêu nghiệm phân biệt?"
+ },
+ {
+  "ten_goi": "Dạng 21",
+  "mo_ta": "Cho hàm số y bằng ln x chia cho một lũy thừa của x, chọn đẳng thức đúng liên hệ y, đạo hàm cấp một y' và đạo hàm cấp hai y''.",
+  "vi_du": "Cho hàm số $y = \\dfrac{\\ln x}{x}$, mệnh đề nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 22",
+  "mo_ta": "Đếm số giá trị nguyên của tham số m trong một đoạn cho trước để phương trình log của (m nhân x) bằng 2 nhân log của (x cộng một số) có đúng một nghiệm.",
+  "vi_du": "Hỏi có bao nhiêu giá trị $m$ nguyên trong đoạn $[-60;60]$ để phương trình $\\log(mx)=2\\log(x+3)$ có nghiệm duy nhất?"
+ },
+ {
+  "ten_goi": "Dạng 23",
+  "mo_ta": "Giải bất phương trình mũ có hai vế là hai lũy thừa cùng cơ số, số mũ bậc nhất theo x hoặc là hằng số, dấu nhỏ hơn.",
+  "vi_du": "Tập nghiệm của bất phương trình $2^{x+1}<4$ là"
+ },
+ {
+  "ten_goi": "Dạng 24",
+  "mo_ta": "Tính tổng các nghiệm của phương trình tích bốn lôgarit của x có cơ số lần lượt là một số, bình phương, lập phương và lũy thừa bốn của số đó, bằng một số.",
+  "vi_du": "Tính tổng các nghiệm thực của phương trình $\\log_3 x.\\log_9 x.\\log_{27}x.\\log_{81}x = \\dfrac{2}{3}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 25",
+  "mo_ta": "Đếm số giá trị nguyên dương của tham số m để phương trình có ba hàm mũ với cơ số là bình phương của một số, tích hai số và bình phương của số kia (ví dụ 16, 12, 9) có nghiệm dương.",
+  "vi_du": "Có bao nhiêu giá trị nguyên dương của tham số $m$ để phương trình sau có nghiệm dương $16^x-4^x+(m-7)\\cdot1^x=0$?"
+ },
+ {
+  "ten_goi": "Dạng 26",
+  "mo_ta": "Cho a, b dương, rút gọn lôgarit của tích a nhân b lũy thừa một số thành biểu thức theo lôgarit của a và lôgarit của b.",
+  "vi_du": "Với $a$ và $b$ là hai số thực dương tùy ý, $\\log(ab^2)$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 27",
+  "mo_ta": "Giải bất phương trình mũ có số mũ ở vế trái là tam thức bậc hai theo x, vế phải là một lũy thừa hằng số hoặc một số, dấu nhỏ hơn.",
+  "vi_du": "Tập nghiệm của bất phương trình $3^{x^2-23}<9$ là"
+ },
+ {
+  "ten_goi": "Dạng 28",
+  "mo_ta": "Tính đạo hàm của hàm số lôgarit cơ số a của biểu thức x bình phương cộng một hệ số nhân x.",
+  "vi_du": "Hàm số $f(x)=\\log_2(x^2-2x)$ có đạo hàm"
+ },
+ {
+  "ten_goi": "Dạng 29",
+  "mo_ta": "Tính tổng các nghiệm của phương trình lôgarit cơ số a của (một số trừ a mũ x) bằng (một số trừ x).",
+  "vi_du": "Tổng tất cả các nghiệm của phương trình $\\log_3(7-3^x)=2-x$"
+ },
+ {
+  "ten_goi": "Dạng 30",
+  "mo_ta": "Cho a dương, chọn đẳng thức đúng trong bốn phương án, mỗi phương án là đẳng thức giữa lôgarit thập phân của a lũy thừa một số hoặc của một số nhân a.",
+  "vi_du": "Với $a$ là số thực dương bất kì, mệnh đề nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 31",
+  "mo_ta": "Cho a dương, tính lôgarit của a lũy thừa một số theo lôgarit của a; đề hỏi 'lôgarit của a lũy thừa đó bằng' và các phương án là biểu thức theo lôgarit của a.",
+  "vi_du": "Với $a$ là số thực dương tùy ý, $\\log_5 a^3$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 32",
+  "mo_ta": "Cho lôgarit cơ số một số của a bằng lôgarit cơ số lũy thừa của số đó, của tích a nhân b; chọn hệ thức đúng giữa a và b.",
+  "vi_du": "Xét tất cả các số thực dương $a$ và $b$ thỏa mãn $\\log_2 a=\\log_8(ab)$. Mệnh đề nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 33",
+  "mo_ta": "Giải bất phương trình mũ có số mũ vế trái bậc nhất theo x (hoặc là hằng số), số mũ vế phải là tam thức bậc hai theo x, dấu lớn hơn hoặc bằng.",
+  "vi_du": "Tập nghiệm của bất phương trình $5^{x-1}\\ge 5^{x^2-x-9}$"
+ },
+ {
+  "ten_goi": "Dạng 34",
+  "mo_ta": "Cho ba lôgarit bằng nhau với ba cơ số khác nhau: lôgarit của x, lôgarit của y và lôgarit của (một hệ số nhân x cộng y); tính x chia y.",
+  "vi_du": "Cho $x,y$ là các số thực dương thỏa mãn $\\log_9 x=\\log_6 y=\\log_4(2x+y)$. Giá trị của $\\dfrac{x}{y}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 35",
+  "mo_ta": "Cho phương trình bậc hai theo lôgarit của x có tham số m, tìm các giá trị của m để phương trình có hai nghiệm phân biệt thuộc một đoạn bắt đầu từ 1.",
+  "vi_du": "Cho phương trình $\\log_2^2(2x)-(m+2)\\log_2 x+m-2=0$ ($m$ là tham số thực). Tập hợp tất cả các giá trị của $m$ để phương trình đã cho có hai nghiệm phân biệt thuộc đoạn $[1;2]$ là"
+ },
+ {
+  "ten_goi": "Dạng 36",
+  "mo_ta": "Đếm số cặp số nguyên (x; y), với x thuộc một đoạn cho trước, thỏa một phương trình chứa lôgarit của biểu thức theo x và hàm mũ theo y.",
+  "vi_du": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $0\\le x\\le 2020$ và $\\log_3(3x+3)+x=2y+9^y$?"
+ },
+ {
+  "ten_goi": "Dạng 37",
+  "mo_ta": "Tìm tập xác định của hàm số y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x.",
+  "vi_du": "Tập xác định của hàm số $y=\\log_2 x$ là"
+ },
+ {
+  "ten_goi": "Dạng 38",
+  "mo_ta": "Giải bất phương trình lôgarit thập phân: log x lớn hơn hoặc bằng một số (không ghi cơ số, biểu thức bên trong chỉ là x, số có thể âm hoặc là phân số).",
+  "vi_du": "Tập nghiệm của bất phương trình $\\log x\\ge 1$ là"
+ },
+ {
+  "ten_goi": "Dạng 39",
+  "mo_ta": "Cho lôgarit của tích hai lũy thừa có số mũ chưa biết a và b (cơ số là các lũy thừa của cùng một số) bằng một lôgarit cho trước; chọn hệ thức đúng giữa a và b.",
+  "vi_du": "Xét số thực $a$ và $b$ thỏa mãn $\\log_3(3^a\\cdot 9^b)=\\log_9 3$. Mệnh đề nào dưới đây đúng"
+ },
+ {
+  "ten_goi": "Dạng 40",
+  "mo_ta": "Giải bất phương trình mũ bậc hai theo một hàm mũ: hàm mũ cơ số bình phương, cộng hoặc trừ một hệ số nhân hàm mũ cơ số gốc, trừ một số, lớn hơn 0.",
+  "vi_du": "Tập nghiệm của bất phương trình $9^x+2\\cdot 3^x-3>0$ là"
+ },
+ {
+  "ten_goi": "Dạng 41",
+  "mo_ta": "Cho a, b lớn hơn 1 và a mũ x bằng b mũ y bằng (a nhân b) mũ một phần số nào đó, tìm tập chứa giá trị nhỏ nhất của x cộng một hệ số nhân y.",
+  "vi_du": "Xét các số thực dương $a,b,x,y$ thỏa mãn $a,b>1$ và $a^x=b^y=(ab)^{1/2}$. Giá trị nhỏ nhất của biểu thức $P=x+2y$ thuộc tập nào dưới đây?"
+ },
+ {
+  "ten_goi": "Dạng 42",
+  "mo_ta": "Đếm số nguyên x để tồn tại số thực y thỏa hai lôgarit bằng nhau: lôgarit của (x cộng y) và lôgarit của (x bình phương cộng y bình phương), hai cơ số khác nhau.",
+  "vi_du": "Có bao nhiêu số nguyên $x$ để tồn tại số thực $y$ thỏa mãn $\\log_{4}(x+y)=\\log_{8}(x^2+y^2)$?"
+ },
+ {
+  "ten_goi": "Dạng 43",
+  "mo_ta": "Giải bất phương trình mũ a mũ x LỚN HƠN c, trong đó c không là lũy thừa nguyên của a (đáp án chứa lôgarit).",
+  "vi_du": "Tập nghiệm của bất phương trình $8^x>6$ là"
+ },
+ {
+  "ten_goi": "Dạng 44",
+  "mo_ta": "Cho a dương, biểu diễn lôgarit của thương (a chia một hằng số) theo lôgarit của a, nghĩa là tách thành hiệu hai lôgarit.",
+  "vi_du": "Với mọi số thực $a$ dương, $\\log_2\\dfrac{a}{2}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 45",
+  "mo_ta": "Cho hiệu của lôgarit của a và một số lần lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.",
+  "vi_du": "Với mọi $a,b$ thỏa mãn $\\log_2 a-3\\log_2 b=2$, khẳng định nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 46",
+  "mo_ta": "Cho tổng của lôgarit của (a lũy thừa một số) và lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.",
+  "vi_du": "Với mọi $a, b$ thỏa mãn $\\log_2 a^3+\\log_2 b=8$, khẳng định nào sau đây là đúng?"
+ },
+ {
+  "ten_goi": "Dạng 47",
+  "mo_ta": "Đếm số nguyên x thỏa bất phương trình có tích của một biểu thức mũ theo x và căn bậc hai của (một số trừ log của một bội của x), lớn hơn hoặc bằng 0.",
+  "vi_du": "Có bao nhiêu số nguyên $x$ thỏa mãn $(4^x-5.2^{x+2}+64)\\sqrt{2-\\log(4x)}\\ge 0$?"
+ },
+ {
+  "ten_goi": "Dạng 48",
+  "mo_ta": "Đếm số nguyên a sao cho có ít nhất một số lượng cho trước các số nguyên b trong một khoảng thỏa bất đẳng thức mũ chứa a bình phương cộng b và b trừ a.",
+  "vi_du": "Có bao nhiêu số nguyên $a$ sao cho có ít nhất 4 số nguyên $b\\in(-8;8)$ thỏa mãn $6^{a^2+b}\\le 5^{b-a}+8$?"
+ },
+ {
+  "ten_goi": "Dạng 49",
+  "mo_ta": "Giải bất phương trình lôgarit: lôgarit của một biểu thức bậc nhất theo x lớn hơn một số (có ghi cơ số, hoặc là lôgarit thập phân), dấu lớn hơn.",
+  "vi_du": "Giải bất phương trình $\\log_2(3x-1) > 3$."
+ },
+ {
+  "ten_goi": "Dạng 50",
+  "mo_ta": "Cho a dương, rút gọn hiệu hai lôgarit tự nhiên ln của (một số nhân a) trừ ln của (một số khác nhân a).",
+  "vi_du": "Với $a$ là số thực dương tùy ý, $\\ln(3a)-\\ln(2a)$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 51",
+  "mo_ta": "Tính tích các nghiệm của phương trình bậc hai theo ln x (ln x bình phương, cộng một hệ số nhân ln x, cộng một số, bằng 0).",
+  "vi_du": "Tích tất cả các nghiệm của phương trình $\\ln^2 x - 8 = 0$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 52",
+  "mo_ta": "Đếm số nguyên x thỏa bất phương trình giữa hai lôgarit khác cơ số của hai phân thức cùng có tử số là x bình phương trừ một số.",
+  "vi_du": "Có bao nhiêu số nguyên $x$ thỏa mãn $\\log_{4}\\dfrac{x^2-6}{9} < \\log_{9}\\dfrac{x^2-6}{4}$?"
+ },
+ {
+  "ten_goi": "Dạng 53",
+  "mo_ta": "Đếm số cặp số nguyên (x; y) thỏa bất phương trình có bốn lôgarit của các biểu thức chứa x bình phương cộng y bình phương.",
+  "vi_du": "Có bao nhiêu cặp số nguyên $(x;y)$ thỏa mãn $x>0$ và $\\log_2(x^2+y^2+x)+\\log_4(x^2+y^2)\\le\\log_2 x+\\log_4(x^2+y^2+96x)$?"
+ },
+ {
+  "ten_goi": "Dạng 54",
+  "mo_ta": "Cho phương trình mũ, khi đặt t bằng hàm mũ cơ bản, chọn phương trình bậc hai theo t tương ứng.",
+  "vi_du": "Cho phương trình $4^x+2^{x+1}-3=0$. Khi đặt $t=2^x$, ta được phương trình nào dưới đây?"
+ },
+ {
+  "ten_goi": "Dạng 55",
+  "mo_ta": "Cho a, b dương, a khác 1, P là tổng hai lôgarit của b lũy thừa với hai cơ số là a và một lũy thừa của a; chọn đẳng thức đúng về P theo lôgarit cơ số a của b.",
+  "vi_du": "Với $a,b$ là các số thực dương tùy ý và $a$ khác 1, đặt $P=\\log_a b^3+\\log_{a^2}b^6$. Mệnh đề nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 56",
+  "mo_ta": "Tìm tập xác định của hàm số lôgarit mà biểu thức bên trong lôgarit là một phân thức theo x.",
+  "vi_du": "Tìm tập xác định $D$ của hàm số $y=\\log_5\\dfrac{x-3}{x+2}$."
+ },
+ {
+  "ten_goi": "Dạng 57",
+  "mo_ta": "Giải bất phương trình bậc hai theo lôgarit của x: lôgarit bình phương, cộng hệ số nhân lôgarit, cộng một số, lớn hơn hoặc bằng 0.",
+  "vi_du": "Tìm tập nghiệm $S$ của bất phương trình $\\log_{4}^2 x-4\\ge 0$."
+ },
+ {
+  "ten_goi": "Dạng 58",
+  "mo_ta": "Tìm tham số m để phương trình bậc hai theo lôgarit của x có hai nghiệm thực x1, x2 mà tích x1 nhân x2 bằng một số cho trước.",
+  "vi_du": "Tìm giá trị thực của tham số $m$ để phương trình $\\log_3^2 x-m\\log_3 x+2m-7=0$ có hai nghiệm thực $x_1,x_2$ thỏa mãn $x_1x_2=81$."
+ },
+ {
+  "ten_goi": "Dạng 59",
+  "mo_ta": "Cho lôgarit của x theo cơ số a và theo cơ số b (a, b lớn hơn 1), tính lôgarit của x theo cơ số là tích a nhân b.",
+  "vi_du": "Cho $\\log_a x=3$, $\\log_b x=4$ với $a,b$ là các số thực lớn hơn 1. Tính $P=\\log_{ab}x$."
+ },
+ {
+  "ten_goi": "Dạng 60",
+  "mo_ta": "Cho phương trình có lôgarit của một phân thức theo x, y bằng một biểu thức theo x, y; tìm giá trị nhỏ nhất của x cộng y.",
+  "vi_du": "Xét các số thực dương $x,y$ thỏa mãn $\\log_3\\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. Tìm giá trị nhỏ nhất $P_{\\min}$ của $P=x+y$."
+ },
+ {
+  "ten_goi": "Dạng 61",
+  "mo_ta": "Cho a dương, biểu diễn lôgarit (cơ số là một số cho trước) của tích (một hằng số nhân a) theo lôgarit của a.",
+  "vi_du": "Với $a$ là số thực dương tuỳ ý, $\\log_3(3a)$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 62",
+  "mo_ta": "Đếm số giá trị nguyên của tham số m để phương trình mũ bậc hai theo một hàm mũ có hai nghiệm phân biệt.",
+  "vi_du": "Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $25^x-m\\cdot5^{x+1}+7m^2-7=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?"
+ },
+ {
+  "ten_goi": "Dạng 63",
+  "mo_ta": "Cho hệ thức có hai lôgarit của các biểu thức bậc hai theo a, b cộng nhau bằng 2, tính a cộng 2 nhân b.",
+  "vi_du": "Cho $a>0,b>0$ thỏa mãn $$\\log_{3a+b+1}((a)^2+(b)^2+1)+\\log_{2ab+1}(3a+b+1)=2.$$ Giá trị của $a+2b$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 64",
+  "mo_ta": "Cho phương trình có hàm mũ và lôgarit lồng nhau với tham số m, đếm số giá trị nguyên của m trong một khoảng để phương trình có nghiệm.",
+  "vi_du": "Cho phương trình $3^x+m=\\log_3(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\\in(-15;15)$ để phương trình đã cho có nghiệm?"
+ },
+ {
+  "ten_goi": "Dạng 65",
+  "mo_ta": "Giải phương trình lôgarit có một lôgarit ở mỗi vế, vế phải bằng 1 cộng lôgarit.",
+  "vi_du": "Nghiệm của phương trình $\\log_2(x+1)=1+\\log_2(x-1)$ là"
+ },
+ {
+  "ten_goi": "Dạng 66",
+  "mo_ta": "Cho tích hai lũy thừa của a và b bằng một số, tính tổng có hệ số của lôgarit của a và lôgarit của b.",
+  "vi_du": "Cho $a$ và $b$ là hai số thực dương thỏa mãn $a^3b^2=32$. Giá trị của $3\\log_2a+2\\log_2b$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 67",
+  "mo_ta": "Tính đạo hàm của hàm số mũ có số mũ là x bình phương cộng một hệ số nhân x.",
+  "vi_du": "Hàm số $y=2^{x^{2}}$ có đạo hàm là"
+ },
+ {
+  "ten_goi": "Dạng 68",
+  "mo_ta": "Cho phương trình lôgarit cùng cơ số có tham số m, đếm số giá trị nguyên của m để phương trình có nghiệm.",
+  "vi_du": "Cho phương trình $\\log_9x^2-\\log_3(6x-1)=-\\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?"
+ },
+ {
+  "ten_goi": "Dạng 69",
+  "mo_ta": "Cho phương trình tích của một biểu thức bậc hai theo lôgarit cơ số 2 của x với căn bậc hai của (một hàm mũ trừ m) bằng 0, đếm số giá trị nguyên dương của m để phương trình có đúng hai nghiệm phân biệt.",
+  "vi_du": "Cho phương trình $\\left(2\\log_2^2x-3\\log_2x-2\\right)\\sqrt{3^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?"
+ },
+ {
+  "ten_goi": "Dạng 70",
+  "mo_ta": "Cho a, b dương, a khác 1, tính lôgarit cơ số (a lũy thừa một số) của b theo lôgarit cơ số a của b.",
+  "vi_du": "Với $a, b$ là các số thực dương tuỳ ý và $a \\neq 1$, $\\log_{a^2} b$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 71",
+  "mo_ta": "Cho a, b dương thỏa một hệ thức có lũy thừa với số mũ là lôgarit của tích a nhân b, tính một lũy thừa của a nhân một lũy thừa của b.",
+  "vi_du": "Cho $a, b$ là hai số thực dương thỏa mãn $4^{\\log_2(ab)}=3a$. Giá trị của $ab^2$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 72",
+  "mo_ta": "Cho x, y không âm thỏa một bất phương trình chứa lũy thừa, tìm giá trị nhỏ nhất của biểu thức bậc hai theo x, y.",
+  "vi_du": "Xét các số thực không âm $x,y$ thỏa mãn $2x+y\\cdot4^{x+y-1}\\ge3$. Giá trị nhỏ nhất của $P=x^2+y^2+x+y$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 73",
+  "mo_ta": "Đếm số nguyên x sao cho với mỗi x có không quá một số lượng cho trước các số nguyên y thỏa bất phương trình giữa hai lôgarit.",
+  "vi_du": "Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 242 số nguyên $y$ thỏa mãn $\\log_4(x^2+y)\\ge \\log_3(x+y)$?"
+ },
+ {
+  "ten_goi": "Dạng 74",
+  "mo_ta": "Tìm tập xác định của hàm số mũ y bằng a mũ x.",
+  "vi_du": "Tập xác định của hàm số $y=7^x$ là"
+ },
+ {
+  "ten_goi": "Dạng 75",
+  "mo_ta": "Cho a dương khác 1, tính lôgarit cơ số a của căn bậc n của a.",
+  "vi_du": "Cho $a>0$ và $a\\neq 1$, khi đó $\\log_a \\sqrt{a}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 76",
+  "mo_ta": "Giải bất phương trình mũ a mũ x NHỎ HƠN c, trong đó c không là lũy thừa nguyên của a (đáp án chứa lôgarit).",
+  "vi_du": "Tập nghiệm của bất phương trình $2^x<5$ là"
+ },
+ {
+  "ten_goi": "Dạng 77",
+  "mo_ta": "Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lũy thừa) và (lôgarit trừ một số) nhỏ hơn hoặc bằng 0.",
+  "vi_du": "Có bao nhiêu số nguyên $x$ thỏa mãn $\\left(3^{x^2}-9^x\\right)\\left[\\log_2(x+30)-5\\right]\\le 0$?"
+ },
+ {
+  "ten_goi": "Dạng 78",
+  "mo_ta": "Đếm số nguyên y sao cho tồn tại x trong một khoảng thỏa phương trình mũ có số mũ chứa x bình phương và tích x nhân y.",
+  "vi_du": "Có bao nhiêu số nguyên $y$ tồn tại sao cho $x\\in\\left(\\dfrac13;4\\right)$ thỏa mãn $27^{3x^2+xy}=(1+xy)27^{12x}$?"
+ },
+ {
+  "ten_goi": "Dạng 79",
+  "mo_ta": "Tìm tập xác định của hàm số y bằng lôgarit cơ số a của (x trừ một số).",
+  "vi_du": "Tập xác định của hàm số $y=\\log_3(x-4)$ là"
+ },
+ {
+  "ten_goi": "Dạng 80",
+  "mo_ta": "Giải phương trình mũ a mũ x bằng c, trong đó c không là lũy thừa nguyên của a (nghiệm là một lôgarit).",
+  "vi_du": "Nghiệm của phương trình $5^x=2$ là"
+ },
+ {
+  "ten_goi": "Dạng 81",
+  "mo_ta": "Cho a dương, đặt một lôgarit của a (hoặc của một bội của a) bằng b, tính lôgarit khác của một lũy thừa của a theo b.",
+  "vi_du": "Với $a>0$, đặt $\\log_2(2a)=b$, khi đó $\\log_2(4a^3)$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 82",
+  "mo_ta": "Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lôgarit) và (một số trừ một lũy thừa) lớn hơn hoặc bằng 0.",
+  "vi_du": "Có bao nhiêu số nguyên $x$ thỏa mãn $\\left[\\log_3(x^2+1)-\\log_3(x+21)\\right](16-2^{x-1})\\ge 0$?"
+ },
+ {
+  "ten_goi": "Dạng 83",
+  "mo_ta": "Đếm số nguyên dương y sao cho tồn tại x trong một khoảng thỏa phương trình chứa e mũ x và tích x nhân y.",
+  "vi_du": "Có bao nhiêu số nguyên dương $y$ để tồn tại số thực $x\\in(4;6)$ thỏa mãn $3(x-1)e^x=y(e^x+xy-x^2)$?"
+ },
+ {
+  "ten_goi": "Dạng 84",
+  "mo_ta": "Cho a dương, rút gọn một số nhân lôgarit của căn bậc hai của a.",
+  "vi_du": "Với $a$ là số thực dương tùy ý, $4\\log\\sqrt{a}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 85",
+  "mo_ta": "Giải phương trình mũ có hai vế đều viết dưới dạng lũy thừa của cùng một cơ số, ví dụ 3 mũ (2x cộng 1) bằng 3 mũ (2 trừ x); có thể một vế là lũy thừa hằng số.",
+  "vi_du": "Nghiệm của phương trình $8^{2x}=8^{7}$ là"
+ },
+ {
+  "ten_goi": "Dạng 86",
+  "mo_ta": "Đếm số nguyên thuộc tập xác định của hàm số y bằng log của tích hai nhị thức bậc nhất theo x.",
+  "vi_du": "Có bao nhiêu số nguyên thuộc tập xác định của hàm số $y=\\log[(6-x)(x+2)]$?"
+ },
+ {
+  "ten_goi": "Dạng 87",
+  "mo_ta": "Đếm số nguyên dương a sao cho với mỗi a có đúng ba số nguyên b thỏa bất phương trình tích hai thừa số chứa hàm mũ nhỏ hơn 0.",
+  "vi_du": "Có bao nhiêu số nguyên dương $a$ sao cho ứng với mỗi $a$ có đúng ba số nguyên $b$ thỏa mãn $(8^b-8)(a\\cdot2^b-2)<0$?"
+ },
+ {
+  "ten_goi": "Dạng 88",
+  "mo_ta": "Cho một bất đẳng thức có lũy thừa của a đúng với mọi a dương, tìm giá trị lớn nhất của biểu thức bậc hai theo x và y.",
+  "vi_du": "Xét tất cả các số thực $x, y$ sao cho $a^{4x-\\log_5 a^2}\\le 25^{40-y^2}$ với mọi số thực dương $a$. Giá trị lớn nhất của biểu thức $P=x^2+y^2+x-3y$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 89",
+  "mo_ta": "Cho số phức z = a + bi, tìm đồng thời phần thực và phần ảo của z (đề hỏi cả hai giá trị a và b).",
+  "vi_du": "Kí hiệu $a, b$ lần lượt là phần thực và phần ảo của số phức $6+i$. Tìm $a, b$."
+ },
+ {
+  "ten_goi": "Dạng 90",
+  "mo_ta": "Cho số phức z = a + bi, tìm phần thực của z.",
+  "vi_du": "Phần thực của số phức $z=6-2i$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 91",
+  "mo_ta": "Cho số phức z = a + bi, tìm phần ảo của z.",
+  "vi_du": "Phần ảo của số phức $z = 9+i$ là"
+ },
+ {
+  "ten_goi": "Dạng 92",
+  "mo_ta": "Cho số phức z = a + bi, tìm phần thực và phần ảo của số phức liên hợp của z.",
+  "vi_du": "Cho số phức $z = 3-2i$. Tìm phần thực và phần ảo của số phức $\\overline{z}$."
+ },
+ {
+  "ten_goi": "Dạng 93",
+  "mo_ta": "Cho hai số phức z1, z2, tìm phần thực của tổng z1 cộng z2.",
+  "vi_du": "Cho hai số phức $z_1 = 2+i$ và $z_2 = 1+3i$. Phần thực của số phức $z_1+z_2$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 94",
+  "mo_ta": "Cho hai số phức z1, z2, tìm phần ảo của z1 cộng số phức liên hợp của z2.",
+  "vi_du": "Cho hai số phức $z_1 = -3+i$ và $z_2 = 1-i$. Phần ảo của số phức $z_1+\\overline{z_2}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 95",
+  "mo_ta": "Cho hai số phức z1, z2, tìm phần ảo của tích z1 nhân z2.",
+  "vi_du": "Cho hai số phức $z_1 = 3+i$ và $z_2 = 1-i$. Phần ảo của số phức $z_1z_2$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 96",
+  "mo_ta": "Cho số phức z = a + bi, tìm phần thực của z bình phương.",
+  "vi_du": "Cho số phức $z = 5+i$, phần thực của số phức $z^2$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 97",
+  "mo_ta": "Cho phần thực và phần ảo, viết số phức tương ứng.",
+  "vi_du": "Số phức có phần thực bằng $3$ và phần ảo bằng $4$ là"
+ },
+ {
+  "ten_goi": "Dạng 98",
+  "mo_ta": "Chọn trong bốn phương án số phức nào là số thuần ảo (đề không cho sẵn số phức nào, chỉ hỏi 'Số phức nào dưới đây là số thuần ảo?').",
+  "vi_du": "Số phức nào dưới đây là số thuần ảo?"
+ },
+ {
+  "ten_goi": "Dạng 99",
+  "mo_ta": "Cho số phức z = a + bi, tìm số phức liên hợp của z.",
+  "vi_du": "Số phức liên hợp của số phức $5-3i$ là"
+ },
+ {
+  "ten_goi": "Dạng 100",
+  "mo_ta": "Cho số phức z là tích của i với một số phức (ví dụ z = i nhân (5 trừ 4i)), tìm số phức liên hợp của z.",
+  "vi_du": "Tìm số phức liên hợp của số phức $z = i(2-i)$."
+ },
+ {
+  "ten_goi": "Dạng 101",
+  "mo_ta": "Cho số phức z = a + bi, tính môđun của z.",
+  "vi_du": "Môđun của số phức $6-i$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 102",
+  "mo_ta": "Cho hai số phức z1, z2, tính môđun của tổng z1 cộng z2.",
+  "vi_du": "Cho hai số phức $z_1 = 1+i$ và $z_2 = 2-3i$. Tính môđun của số phức $z_1+z_2$."
+ },
+ {
+  "ten_goi": "Dạng 103",
+  "mo_ta": "Cho số phức liên hợp của z bằng tích của hai số phức, tính môđun của z.",
+  "vi_du": "Tính môđun của số phức $z$ biết $\\overline{z} = (4-3i)(1+i)$."
+ },
+ {
+  "ten_goi": "Dạng 104",
+  "mo_ta": "Cho hai số phức z, w, tính môđun của tích z nhân số phức liên hợp của w.",
+  "vi_du": "Cho hai số phức $z=2+2i$ và $w=2+i$. Mô-đun của số phức $z\\cdot\\overline{w}$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 105",
+  "mo_ta": "Cho số phức z, tính môđun của tích (một số phức khác) nhân z.",
+  "vi_du": "Cho số phức $z=4-2i$, mô-đun của số phức $(1+i)z$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 106",
+  "mo_ta": "Cho số phức z = a + bi, tìm tọa độ điểm biểu diễn của z trên mặt phẳng tọa độ.",
+  "vi_du": "Trên mặt phẳng tọa độ, điểm biểu diễn số phức $z=7-6i$ có tọa độ là"
+ },
+ {
+  "ten_goi": "Dạng 107",
+  "mo_ta": "Cho số phức z là bình phương của một số phức, tìm điểm biểu diễn của z.",
+  "vi_du": "Trên mặt phẳng tọa độ, điểm biểu diễn số phức $z = (1+2i)^2$ là điểm nào dưới đây?"
+ },
+ {
+  "ten_goi": "Dạng 108",
+  "mo_ta": "Cho số phức z = a + bi, tìm điểm biểu diễn của số phức w = i nhân z.",
+  "vi_du": "Cho số phức $z=1-2i$. Điểm nào dưới đây là điểm biểu diễn của số phức $w=iz$ trên mặt phẳng tọa độ?"
+ },
+ {
+  "ten_goi": "Dạng 109",
+  "mo_ta": "Cho hai số phức z1, z2, tìm tọa độ điểm biểu diễn của số phức 2 nhân z1 cộng z2.",
+  "vi_du": "Cho hai số phức $z_1=-2+i$ và $z_2=1+i$. Trên mặt phẳng tọa độ $Oxy$, điểm biểu diễn số phức $2z_1+z_2$ có tọa độ là"
+ },
+ {
+  "ten_goi": "Dạng 110",
+  "mo_ta": "Cho điểm biểu diễn M(hoành độ; tung độ) trên mặt phẳng tọa độ, tìm số phức z.",
+  "vi_du": "Trong mặt phẳng tọa độ $Oxy$, điểm $M(9;8)$ là điểm biểu diễn của số phức nào sau đây?"
+ },
+ {
+  "ten_goi": "Dạng 111",
+  "mo_ta": "Cho điểm biểu diễn M(hoành độ; tung độ) của số phức z, tìm phần thực của z.",
+  "vi_du": "Trên mặt phẳng tọa độ, biết $M(1;8)$ là điểm biểu diễn số phức $z$. Phần thực của $z$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 112",
+  "mo_ta": "Cho hai số phức, tính tổng của chúng; đáp án là một số phức (không hỏi phần thực hay môđun).",
+  "vi_du": "Cho hai số phức $z=5+2i$ và $w=1-4i$. Số phức $z+w$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 113",
+  "mo_ta": "Cho hai số phức z, w, tính hiệu z trừ w; đáp án là một số phức.",
+  "vi_du": "Cho hai số phức $z=4+3i$ và $w=1-i$. Số phức $z-w$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 114",
+  "mo_ta": "Cho số phức z và một số thực, tính tích của số thực đó với z; đáp án là một số phức.",
+  "vi_du": "Cho số phức $z = 5+i$, khi đó $8z$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 115",
+  "mo_ta": "Cho số phức z = a + bi, tính số phức w = i nhân z cộng số phức liên hợp của z.",
+  "vi_du": "Cho số phức $z = 9-i$. Tìm số phức $w = iz+\\overline{z}$."
+ },
+ {
+  "ten_goi": "Dạng 116",
+  "mo_ta": "Cho phương trình chỉ chứa z (không có số phức liên hợp): z nhân một số phức, cộng một số thuần ảo, bằng một số thực; tính môđun của z.",
+  "vi_du": "Tính môđun của số phức $z$ thỏa mãn $z(2+i)+i = 6$."
+ },
+ {
+  "ten_goi": "Dạng 117",
+  "mo_ta": "Cho phương trình i nhân số phức liên hợp của z bằng một số phức (chỉ chứa số phức liên hợp của z), tìm phần ảo của z.",
+  "vi_du": "Cho số phức $z$ thỏa mãn $i\\bar{z} = 5+2i$. Phần ảo của $z$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 118",
+  "mo_ta": "Cho phương trình i nhân z bằng một số phức (chỉ chứa z), tìm số phức liên hợp của z.",
+  "vi_du": "Cho số phức $z$ thỏa mãn $iz=6+5i$. Số phức liên hợp của $z$ là"
+ },
+ {
+  "ten_goi": "Dạng 119",
+  "mo_ta": "Cho z = a + bi thỏa phương trình có cả z và số phức liên hợp của z: (1 + i) nhân z cộng 2 nhân số phức liên hợp của z bằng một số phức; tính a cộng b.",
+  "vi_du": "Cho số phức $z = a+bi$ $(a,b \\in \\mathbb{R})$ thỏa mãn $(1+i)z+2\\overline{z} = 2-i$. Tính $P = a+b$."
+ },
+ {
+  "ten_goi": "Dạng 120",
+  "mo_ta": "Cho phương trình có cả z và số phức liên hợp của z: 3 nhân (liên hợp của z trừ i) trừ (2 + 3i) nhân z bằng một số phức; tính môđun của z.",
+  "vi_du": "Cho số phức $z$ thoả mãn $3(\\bar{z}-i)-(2+3i)z=7-16i$. Mô-đun của $z$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 121",
+  "mo_ta": "Cho z = a + bi thỏa phương trình có chứa môđun của z: z cộng một số phức, trừ môđun của z nhân i, bằng 0; tính a cộng một hệ số nhân b.",
+  "vi_du": "Cho số phức $z=a+bi$ ($a,b \\in \\mathbb{R}$) thỏa mãn $z+1+3i-|z|i=0$. Tính $S=a+3b$."
+ },
+ {
+  "ten_goi": "Dạng 122",
+  "mo_ta": "Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo.",
+  "vi_du": "Hỏi có bao nhiêu số phức $z$ thỏa mãn đồng thời các điều kiện: $|z-i| = 5$ và $z^2$ là số thuần ảo?"
+ },
+ {
+  "ten_goi": "Dạng 123",
+  "mo_ta": "Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z chia (z cộng hoặc trừ một số thực) là số thuần ảo.",
+  "vi_du": "Có bao nhiêu số phức $z$ thỏa mãn $|z-3i|=5$ và $\\dfrac{z}{z-4}$ là số thuần ảo?"
+ },
+ {
+  "ten_goi": "Dạng 124",
+  "mo_ta": "Đếm số số phức z thỏa đồng thời hai điều kiện: môđun z bình phương bằng một hệ số nhân môđun của (z cộng liên hợp của z) cộng một số, và khoảng cách từ z đến hai điểm cho trước bằng nhau.",
+  "vi_du": "Có bao nhiêu số phức $z$ thỏa mãn $|z|^2=3|z+\\overline{z}|+4$ và $|z-4+i|=|z-2-i|$?"
+ },
+ {
+  "ten_goi": "Dạng 125",
+  "mo_ta": "Cho phương trình có môđun của z ở nhiều vị trí: (một số phức) nhân môđun của z bằng (một số chia z) cộng một số phức; chọn mệnh đề đúng về khoảng chứa môđun của z.",
+  "vi_du": "Xét số phức $z$ thỏa mãn $(4-i)|z| = \\dfrac{6}{z}+1+4i$. Mệnh đề nào dưới đây đúng?"
+ },
+ {
+  "ten_goi": "Dạng 126",
+  "mo_ta": "Đếm số số phức z thỏa phương trình: môđun của z nhân (z trừ một số phức), cộng một số thuần ảo, bằng (một số phức) nhân z.",
+  "vi_du": "Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-3-i)+2i=(4-i)z$?"
+ },
+ {
+  "ten_goi": "Dạng 127",
+  "mo_ta": "Đếm số số phức z thỏa đồng thời: môđun của z bình phương bằng hệ số nhân môđun của (z trừ liên hợp của z), và môđun của tích (z trừ một số)(liên hợp của z trừ số đó nhân i) bằng bình phương môđun của (z cộng số đó nhân i).",
+  "vi_du": "Có bao nhiêu số phức $z$ thỏa mãn $|z^2|=2|z-\\bar{z}|$ và $|(z-4)(\\bar{z}-4i)|=|z+4i|^2$?"
+ },
+ {
+  "ten_goi": "Dạng 128",
+  "mo_ta": "Cho môđun của (z trừ một số phức) bằng một số, tập hợp điểm biểu diễn z là một đường tròn; tìm tọa độ tâm của đường tròn.",
+  "vi_du": "Trên mặt phẳng tọa độ, biết tập hợp điểm biểu diễn các số phức $z$ thỏa mãn $|z+2i|=1$ là một đường tròn. Tâm của đường tròn đó có tọa độ là"
+ },
+ {
+  "ten_goi": "Dạng 129",
+  "mo_ta": "Cho tích (z trừ một số thuần ảo) nhân (liên hợp của z trừ một số thực) là số thuần ảo; tìm tọa độ TÂM của đường tròn tập hợp điểm biểu diễn z.",
+  "vi_du": "Xét các số phức $z$ thỏa mãn $(z+i)(\\overline{z}-5)$ là số thuần ảo. Biết rằng tập hợp tất cả các điểm biểu diễn của $z$ là một đường tròn, tâm của đường tròn đó có tọa độ là"
+ },
+ {
+  "ten_goi": "Dạng 130",
+  "mo_ta": "Cho tích (liên hợp của z trừ một số thuần ảo) nhân (z trừ một số thực) là số thuần ảo; tìm BÁN KÍNH của đường tròn tập hợp điểm biểu diễn z.",
+  "vi_du": "Xét các số phức $z$ thỏa mãn $(\\bar{z}+3i)(z-3)$ là số thuần ảo. Trên mặt phẳng tọa độ, tập hợp tất cả các điểm biểu diễn các số phức $z$ là một đường tròn có bán kính bằng"
+ },
+ {
+  "ten_goi": "Dạng 131",
+  "mo_ta": "Cho môđun của z bằng một số và w bằng (một số phức) nhân z cộng i; tìm bán kính của đường tròn tập hợp điểm biểu diễn w.",
+  "vi_du": "Cho số phức $z$ thỏa mãn $|z| = 1$. Biết rằng tập hợp các điểm biểu diễn các số phức $w = (9-i)z+i$ là một đường tròn. Tính bán kính $r$ của đường tròn đó."
+ },
+ {
+  "ten_goi": "Dạng 132",
+  "mo_ta": "Cho môđun của z bằng một số và w bằng một phân thức (một số cộng i nhân z) chia (1 cộng z); tìm bán kính của đường tròn tập hợp điểm biểu diễn w.",
+  "vi_du": "Xét số phức $z$ thỏa mãn $|z|=3$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\\dfrac{5+iz}{1+z}$ là một đường tròn có bán kính bằng"
+ },
+ {
+  "ten_goi": "Dạng 133",
+  "mo_ta": "Cho phương trình bậc hai z bình phương trừ 2m nhân z cộng (một hệ số nhân m cộng một số) bằng 0 với m thực; đếm số giá trị nguyên của m để phương trình có hai nghiệm phân biệt z1, z2 thỏa môđun của z1 bằng môđun của z2.",
+  "vi_du": "Trên tập hợp các số phức, xét phương trình $z^2-2mz-m+2=0$ ($m$ là tham số thực). Có bao nhiêu giá trị nguyên của $m$ để phương trình đó có hai nghiệm phân biệt $z_1, z_2$ thỏa mãn $|z_1| = |z_2|$?"
+ },
+ {
+  "ten_goi": "Dạng 134",
+  "mo_ta": "Cho phương trình bậc hai z bình phương trừ 2 nhân (m cộng một số) nhân z cộng m bình phương bằng 0 với m thực; đếm số giá trị của m để phương trình có hai nghiệm phân biệt z1, z2 thỏa tổng môđun của z1 và môđun của z2 bằng một số.",
+  "vi_du": "Trên tập hợp số phức, xét phương trình $z^2-2(m-2)z+m^2=0$ ($m$ là tham số thực). Có bao nhiêu giá trị của $m$ để phương trình đó có hai nghiệm phân biệt $z_1, z_2$ thỏa mãn $|z_1|+|z_2|=6$?"
+ },
+ {
+  "ten_goi": "Dạng 135",
+  "mo_ta": "Cho phương trình bậc hai z bình phương trừ 2 nhân (m cộng một số) nhân z cộng m bình phương bằng 0 với m thực; đếm số giá trị của m để phương trình có một nghiệm z0 thỏa môđun của z0 bằng một số.",
+  "vi_du": "Trên tập hợp các số phức, xét phương trình $z^2-2(m+1)z+m^2=0$ ($m$ là tham số thực). Có bao nhiêu giá trị của $m$ để phương trình đó có nghiệm $z_0$ thỏa mãn $|z_0|=5$?"
+ },
+ {
+  "ten_goi": "Dạng 136",
+  "mo_ta": "Cho phương trình z bình phương cộng 4a nhân z cộng b bình phương cộng 2 bằng 0 với a, b thực; đếm số cặp (a; b) để phương trình có hai nghiệm z1, z2 thỏa z1 cộng 2i nhân z2 bằng một số phức.",
+  "vi_du": "Trên tập hợp các số phức, xét phương trình $z^2+4az+b^2+2=0$ ($a, b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1, z_2$ thỏa mãn $z_1+2iz_2=7+i$?"
+ },
+ {
+  "ten_goi": "Dạng 137",
+  "mo_ta": "Cho hai số phức liên hợp của nhau, chọn phương trình bậc hai nhận hai số phức đó làm nghiệm.",
+  "vi_du": "Phương trình nào dưới đây nhận hai số phức $z=1-i$ và $1+i$ là nghiệm?"
+ },
+ {
+  "ten_goi": "Dạng 138",
+  "mo_ta": "Cho tổng khoảng cách từ z đến hai điểm bằng một số (z thuộc một đoạn thẳng), gọi m và M là giá trị nhỏ nhất và giá trị lớn nhất của môđun của (z trừ một số phức khác), tính m cộng M.",
+  "vi_du": "Xét các số phức $z$ thỏa mãn $|z-5-i|+|z-6-i| = 1$. Gọi $m, M$ lần lượt là giá trị nhỏ nhất, giá trị lớn nhất của $|z+1+i|$. Tính $P = m+M$."
+ },
+ {
+  "ten_goi": "Dạng 139",
+  "mo_ta": "Cho tập S các số phức z để số phức w bằng 1 chia (môđun của z trừ z) có phần thực bằng một số; z1, z2 thuộc S với môđun của (z1 trừ z2) bằng một số; tìm giá trị lớn nhất của hiệu bình phương hai môđun |z1 trừ một số phức|² trừ |z2 trừ số phức đó|².",
+  "vi_du": "Gọi $S$ là tập hợp tất cả các số phức $z$ sao cho số phức $w=\\dfrac{1}{|z|-z}$ có phần thực bằng $\\dfrac{1}{7}$. Xét các số phức $z_1, z_2 \\in S$ thỏa mãn $|z_1-z_2|=3$, giá trị lớn nhất của $P = |z_1-i|^2 - |z_2-i|^2$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 140",
+  "mo_ta": "Cho môđun của (z bình phương trừ một số phức) bằng một hệ số nhân môđun của z; gọi M và m là giá trị lớn nhất và giá trị nhỏ nhất của môđun của z, tính M bình phương cộng m bình phương.",
+  "vi_du": "Xét các số phức $z$ thỏa mãn $|z^2+7+i| = |z|$. Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của $|z|$. Giá trị của $M^2+m^2$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 141",
+  "mo_ta": "Cho môđun của z bằng một số và môđun của w bằng một số khác; khi môđun của (z cộng i nhân liên hợp của w, cộng một số phức) đạt giá trị nhỏ nhất, tính môđun của (z trừ w).",
+  "vi_du": "Xét các số phức $z, w$ thỏa mãn $|z|=5$ và $|w|=2$. Khi $|z+i\\overline{w}+7+i|$ đạt giá trị nhỏ nhất, $|z-w|$ bằng"
+ },
+ {
+  "ten_goi": "Dạng 142",
+  "mo_ta": "Cho ba số phức z1, z2, z3 có môđun của z1 bằng môđun của z2 bằng 2 lần môđun của z3 và thỏa một hệ thức giữa (z1 cộng z2) nhân z3 với z1 nhân z2; tính diện tích tam giác có ba đỉnh là điểm biểu diễn của chúng.",
+  "vi_du": "Cho các số phức $z_1, z_2, z_3$ thỏa mãn $|z_1|=|z_2|=2|z_3|=2$ và $8(z_1+z_2)z_3=3z_1z_2$. Gọi $A, B, C$ lần lượt là các điểm biểu diễn của $z_1, z_2, z_3$ trên mặt phẳng tọa độ. Diện tích tam giác $ABC$ bằng"
+ }
+]

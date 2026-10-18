@@ -1,0 +1,142 @@
+Dạng 1: Giải phương trình lôgarit cơ bản: lôgarit của một biểu thức bậc nhất theo x bằng một số cho trước, tìm nghiệm x.
+Dạng 2: Tính đạo hàm của hàm số mũ cơ bản y = a mũ x, trong đó a là một số cụ thể.
+Dạng 3: Tìm tập xác định của hàm số lôgarit mà biểu thức bên trong lôgarit là một đa thức bậc hai theo x.
+Dạng 4: Cho hàm số f(x) là tích của hai hàm mũ (một hàm có số mũ x, một hàm có số mũ x bình phương), chọn khẳng định SAI trong các biến đổi của bất phương trình f(x) nhỏ hơn 1 bằng lôgarit.
+Dạng 5: Cho hai số thực dương a, b với a khác 1, chọn đẳng thức đúng cho lôgarit có cơ số là một lũy thừa của a và biểu thức là tích a nhân b. Đề chỉ nêu điều kiện của a, b; các đẳng thức nằm trong bốn phương án.
+Dạng 6: Tính đạo hàm của hàm số là một phân thức có tử số là x (hoặc x cộng một số) và mẫu số là hàm mũ có số mũ x.
+Dạng 7: Đặt a và b là hai lôgarit cho trước, biểu diễn một lôgarit khác (cơ số và biểu thức là tích của các lũy thừa của những số nguyên tố nhỏ như 2, 3, 5, 7) theo a và b.
+Dạng 8: Tìm các giá trị của tham số m để hàm số y bằng ln của (x bình phương cộng một số) trừ m nhân x cộng 1 đồng biến trên toàn bộ trục số.
+Dạng 9: Giải phương trình mũ có số mũ là biểu thức bậc nhất theo x và vế phải là một số nguyên viết bình thường (không viết dưới dạng lũy thừa).
+Dạng 10: Cho hai số thực dương a, b, chọn đẳng thức đúng khi khai triển lôgarit của một biểu thức có tích, thương và lũy thừa của a, b. Biểu thức cần khai triển chỉ xuất hiện trong bốn phương án.
+Dạng 11: Giải bất phương trình lôgarit cơ số một phần hai, trong đó hai vế đều là lôgarit của một biểu thức bậc nhất theo x.
+Dạng 12: Tính đạo hàm của hàm số y bằng ln của (1 cộng căn bậc hai của (x cộng một số)).
+Dạng 13: Tìm các giá trị của tham số m để phương trình có hai hàm mũ khác cơ số, cộng thêm số hạng chứa m, có nghiệm thuộc khoảng từ 0 đến 1.
+Dạng 14: Cho hai số thực a lớn hơn b lớn hơn 1, tìm giá trị nhỏ nhất của một biểu thức gồm lôgarit cơ số (a chia b) và lôgarit cơ số b.
+Dạng 15: Tính đạo hàm của hàm số lôgarit cơ bản y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x.
+Dạng 16: Giải bất phương trình mũ có dạng: một lũy thừa có số mũ bậc nhất theo x, trừ đi một lũy thừa hằng số, lớn hơn 0.
+Dạng 17: Cho a dương khác 1 và P là lôgarit cơ số căn bậc n của a, của a lũy thừa m; chọn mệnh đề đúng về giá trị của P.
+Dạng 18: Giải phương trình lôgarit có tổng hai lôgarit cùng cơ số (của x trừ một số và của x cộng cùng số đó) bằng một số, tìm tập nghiệm.
+Dạng 19: Cho lôgarit cơ số a của b bằng một số (a, b dương, a khác 1 và khác căn b), tính lôgarit cơ số (căn b chia a) của căn bậc hai của (b chia a).
+Dạng 20: Đếm số nghiệm phân biệt của phương trình gồm một đa thức bậc hai theo x, cộng ln của (x cộng 1) mũ 3, cộng một hằng số, bằng 0.
+Dạng 21: Cho hàm số y bằng ln x chia cho một lũy thừa của x, chọn đẳng thức đúng liên hệ y, đạo hàm cấp một y' và đạo hàm cấp hai y''.
+Dạng 22: Đếm số giá trị nguyên của tham số m trong một đoạn cho trước để phương trình log của (m nhân x) bằng 2 nhân log của (x cộng một số) có đúng một nghiệm.
+Dạng 23: Giải bất phương trình mũ có hai vế là hai lũy thừa cùng cơ số, số mũ bậc nhất theo x hoặc là hằng số, dấu nhỏ hơn.
+Dạng 24: Tính tổng các nghiệm của phương trình tích bốn lôgarit của x có cơ số lần lượt là một số, bình phương, lập phương và lũy thừa bốn của số đó, bằng một số.
+Dạng 25: Đếm số giá trị nguyên dương của tham số m để phương trình có ba hàm mũ với cơ số là bình phương của một số, tích hai số và bình phương của số kia (ví dụ 16, 12, 9) có nghiệm dương.
+Dạng 26: Cho a, b dương, rút gọn lôgarit của tích a nhân b lũy thừa một số thành biểu thức theo lôgarit của a và lôgarit của b.
+Dạng 27: Giải bất phương trình mũ có số mũ ở vế trái là tam thức bậc hai theo x, vế phải là một lũy thừa hằng số hoặc một số, dấu nhỏ hơn.
+Dạng 28: Tính đạo hàm của hàm số lôgarit cơ số a của biểu thức x bình phương cộng một hệ số nhân x.
+Dạng 29: Tính tổng các nghiệm của phương trình lôgarit cơ số a của (một số trừ a mũ x) bằng (một số trừ x).
+Dạng 30: Cho a dương, chọn đẳng thức đúng trong bốn phương án, mỗi phương án là đẳng thức giữa lôgarit thập phân của a lũy thừa một số hoặc của một số nhân a.
+Dạng 31: Cho a dương, tính lôgarit của a lũy thừa một số theo lôgarit của a; đề hỏi 'lôgarit của a lũy thừa đó bằng' và các phương án là biểu thức theo lôgarit của a.
+Dạng 32: Cho lôgarit cơ số một số của a bằng lôgarit cơ số lũy thừa của số đó, của tích a nhân b; chọn hệ thức đúng giữa a và b.
+Dạng 33: Giải bất phương trình mũ có số mũ vế trái bậc nhất theo x (hoặc là hằng số), số mũ vế phải là tam thức bậc hai theo x, dấu lớn hơn hoặc bằng.
+Dạng 34: Cho ba lôgarit bằng nhau với ba cơ số khác nhau: lôgarit của x, lôgarit của y và lôgarit của (một hệ số nhân x cộng y); tính x chia y.
+Dạng 35: Cho phương trình bậc hai theo lôgarit của x có tham số m, tìm các giá trị của m để phương trình có hai nghiệm phân biệt thuộc một đoạn bắt đầu từ 1.
+Dạng 36: Đếm số cặp số nguyên (x; y), với x thuộc một đoạn cho trước, thỏa một phương trình chứa lôgarit của biểu thức theo x và hàm mũ theo y.
+Dạng 37: Tìm tập xác định của hàm số y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x.
+Dạng 38: Giải bất phương trình lôgarit thập phân: log x lớn hơn hoặc bằng một số (không ghi cơ số, biểu thức bên trong chỉ là x, số có thể âm hoặc là phân số).
+Dạng 39: Cho lôgarit của tích hai lũy thừa có số mũ chưa biết a và b (cơ số là các lũy thừa của cùng một số) bằng một lôgarit cho trước; chọn hệ thức đúng giữa a và b.
+Dạng 40: Giải bất phương trình mũ bậc hai theo một hàm mũ: hàm mũ cơ số bình phương, cộng hoặc trừ một hệ số nhân hàm mũ cơ số gốc, trừ một số, lớn hơn 0.
+Dạng 41: Cho a, b lớn hơn 1 và a mũ x bằng b mũ y bằng (a nhân b) mũ một phần số nào đó, tìm tập chứa giá trị nhỏ nhất của x cộng một hệ số nhân y.
+Dạng 42: Đếm số nguyên x để tồn tại số thực y thỏa hai lôgarit bằng nhau: lôgarit của (x cộng y) và lôgarit của (x bình phương cộng y bình phương), hai cơ số khác nhau.
+Dạng 43: Giải bất phương trình mũ a mũ x LỚN HƠN c, trong đó c không là lũy thừa nguyên của a (đáp án chứa lôgarit).
+Dạng 44: Cho a dương, biểu diễn lôgarit của thương (a chia một hằng số) theo lôgarit của a, nghĩa là tách thành hiệu hai lôgarit.
+Dạng 45: Cho hiệu của lôgarit của a và một số lần lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.
+Dạng 46: Cho tổng của lôgarit của (a lũy thừa một số) và lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.
+Dạng 47: Đếm số nguyên x thỏa bất phương trình có tích của một biểu thức mũ theo x và căn bậc hai của (một số trừ log của một bội của x), lớn hơn hoặc bằng 0.
+Dạng 48: Đếm số nguyên a sao cho có ít nhất một số lượng cho trước các số nguyên b trong một khoảng thỏa bất đẳng thức mũ chứa a bình phương cộng b và b trừ a.
+Dạng 49: Giải bất phương trình lôgarit: lôgarit của một biểu thức bậc nhất theo x lớn hơn một số (có ghi cơ số, hoặc là lôgarit thập phân), dấu lớn hơn.
+Dạng 50: Cho a dương, rút gọn hiệu hai lôgarit tự nhiên ln của (một số nhân a) trừ ln của (một số khác nhân a).
+Dạng 51: Tính tích các nghiệm của phương trình bậc hai theo ln x (ln x bình phương, cộng một hệ số nhân ln x, cộng một số, bằng 0).
+Dạng 52: Đếm số nguyên x thỏa bất phương trình giữa hai lôgarit khác cơ số của hai phân thức cùng có tử số là x bình phương trừ một số.
+Dạng 53: Đếm số cặp số nguyên (x; y) thỏa bất phương trình có bốn lôgarit của các biểu thức chứa x bình phương cộng y bình phương.
+Dạng 54: Cho phương trình mũ, khi đặt t bằng hàm mũ cơ bản, chọn phương trình bậc hai theo t tương ứng.
+Dạng 55: Cho a, b dương, a khác 1, P là tổng hai lôgarit của b lũy thừa với hai cơ số là a và một lũy thừa của a; chọn đẳng thức đúng về P theo lôgarit cơ số a của b.
+Dạng 56: Tìm tập xác định của hàm số lôgarit mà biểu thức bên trong lôgarit là một phân thức theo x.
+Dạng 57: Giải bất phương trình bậc hai theo lôgarit của x: lôgarit bình phương, cộng hệ số nhân lôgarit, cộng một số, lớn hơn hoặc bằng 0.
+Dạng 58: Tìm tham số m để phương trình bậc hai theo lôgarit của x có hai nghiệm thực x1, x2 mà tích x1 nhân x2 bằng một số cho trước.
+Dạng 59: Cho lôgarit của x theo cơ số a và theo cơ số b (a, b lớn hơn 1), tính lôgarit của x theo cơ số là tích a nhân b.
+Dạng 60: Cho phương trình có lôgarit của một phân thức theo x, y bằng một biểu thức theo x, y; tìm giá trị nhỏ nhất của x cộng y.
+Dạng 61: Cho a dương, biểu diễn lôgarit (cơ số là một số cho trước) của tích (một hằng số nhân a) theo lôgarit của a.
+Dạng 62: Đếm số giá trị nguyên của tham số m để phương trình mũ bậc hai theo một hàm mũ có hai nghiệm phân biệt.
+Dạng 63: Cho hệ thức có hai lôgarit của các biểu thức bậc hai theo a, b cộng nhau bằng 2, tính a cộng 2 nhân b.
+Dạng 64: Cho phương trình có hàm mũ và lôgarit lồng nhau với tham số m, đếm số giá trị nguyên của m trong một khoảng để phương trình có nghiệm.
+Dạng 65: Giải phương trình lôgarit có một lôgarit ở mỗi vế, vế phải bằng 1 cộng lôgarit.
+Dạng 66: Cho tích hai lũy thừa của a và b bằng một số, tính tổng có hệ số của lôgarit của a và lôgarit của b.
+Dạng 67: Tính đạo hàm của hàm số mũ có số mũ là x bình phương cộng một hệ số nhân x.
+Dạng 68: Cho phương trình lôgarit cùng cơ số có tham số m, đếm số giá trị nguyên của m để phương trình có nghiệm.
+Dạng 69: Cho phương trình tích của một biểu thức bậc hai theo lôgarit cơ số 2 của x với căn bậc hai của (một hàm mũ trừ m) bằng 0, đếm số giá trị nguyên dương của m để phương trình có đúng hai nghiệm phân biệt.
+Dạng 70: Cho a, b dương, a khác 1, tính lôgarit cơ số (a lũy thừa một số) của b theo lôgarit cơ số a của b.
+Dạng 71: Cho a, b dương thỏa một hệ thức có lũy thừa với số mũ là lôgarit của tích a nhân b, tính một lũy thừa của a nhân một lũy thừa của b.
+Dạng 72: Cho x, y không âm thỏa một bất phương trình chứa lũy thừa, tìm giá trị nhỏ nhất của biểu thức bậc hai theo x, y.
+Dạng 73: Đếm số nguyên x sao cho với mỗi x có không quá một số lượng cho trước các số nguyên y thỏa bất phương trình giữa hai lôgarit.
+Dạng 74: Tìm tập xác định của hàm số mũ y bằng a mũ x.
+Dạng 75: Cho a dương khác 1, tính lôgarit cơ số a của căn bậc n của a.
+Dạng 76: Giải bất phương trình mũ a mũ x NHỎ HƠN c, trong đó c không là lũy thừa nguyên của a (đáp án chứa lôgarit).
+Dạng 77: Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lũy thừa) và (lôgarit trừ một số) nhỏ hơn hoặc bằng 0.
+Dạng 78: Đếm số nguyên y sao cho tồn tại x trong một khoảng thỏa phương trình mũ có số mũ chứa x bình phương và tích x nhân y.
+Dạng 79: Tìm tập xác định của hàm số y bằng lôgarit cơ số a của (x trừ một số).
+Dạng 80: Giải phương trình mũ a mũ x bằng c, trong đó c không là lũy thừa nguyên của a (nghiệm là một lôgarit).
+Dạng 81: Cho a dương, đặt một lôgarit của a (hoặc của một bội của a) bằng b, tính lôgarit khác của một lũy thừa của a theo b.
+Dạng 82: Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lôgarit) và (một số trừ một lũy thừa) lớn hơn hoặc bằng 0.
+Dạng 83: Đếm số nguyên dương y sao cho tồn tại x trong một khoảng thỏa phương trình chứa e mũ x và tích x nhân y.
+Dạng 84: Cho a dương, rút gọn một số nhân lôgarit của căn bậc hai của a.
+Dạng 85: Giải phương trình mũ có hai vế đều viết dưới dạng lũy thừa của cùng một cơ số, ví dụ 3 mũ (2x cộng 1) bằng 3 mũ (2 trừ x); có thể một vế là lũy thừa hằng số.
+Dạng 86: Đếm số nguyên thuộc tập xác định của hàm số y bằng log của tích hai nhị thức bậc nhất theo x.
+Dạng 87: Đếm số nguyên dương a sao cho với mỗi a có đúng ba số nguyên b thỏa bất phương trình tích hai thừa số chứa hàm mũ nhỏ hơn 0.
+Dạng 88: Cho một bất đẳng thức có lũy thừa của a đúng với mọi a dương, tìm giá trị lớn nhất của biểu thức bậc hai theo x và y.
+Dạng 89: Cho số phức z = a + bi, tìm đồng thời phần thực và phần ảo của z (đề hỏi cả hai giá trị a và b).
+Dạng 90: Cho số phức z = a + bi, tìm phần thực của z.
+Dạng 91: Cho số phức z = a + bi, tìm phần ảo của z.
+Dạng 92: Cho số phức z = a + bi, tìm phần thực và phần ảo của số phức liên hợp của z.
+Dạng 93: Cho hai số phức z1, z2, tìm phần thực của tổng z1 cộng z2.
+Dạng 94: Cho hai số phức z1, z2, tìm phần ảo của z1 cộng số phức liên hợp của z2.
+Dạng 95: Cho hai số phức z1, z2, tìm phần ảo của tích z1 nhân z2.
+Dạng 96: Cho số phức z = a + bi, tìm phần thực của z bình phương.
+Dạng 97: Cho phần thực và phần ảo, viết số phức tương ứng.
+Dạng 98: Chọn trong bốn phương án số phức nào là số thuần ảo (đề không cho sẵn số phức nào, chỉ hỏi 'Số phức nào dưới đây là số thuần ảo?').
+Dạng 99: Cho số phức z = a + bi, tìm số phức liên hợp của z.
+Dạng 100: Cho số phức z là tích của i với một số phức (ví dụ z = i nhân (5 trừ 4i)), tìm số phức liên hợp của z.
+Dạng 101: Cho số phức z = a + bi, tính môđun của z.
+Dạng 102: Cho hai số phức z1, z2, tính môđun của tổng z1 cộng z2.
+Dạng 103: Cho số phức liên hợp của z bằng tích của hai số phức, tính môđun của z.
+Dạng 104: Cho hai số phức z, w, tính môđun của tích z nhân số phức liên hợp của w.
+Dạng 105: Cho số phức z, tính môđun của tích (một số phức khác) nhân z.
+Dạng 106: Cho số phức z = a + bi, tìm tọa độ điểm biểu diễn của z trên mặt phẳng tọa độ.
+Dạng 107: Cho số phức z là bình phương của một số phức, tìm điểm biểu diễn của z.
+Dạng 108: Cho số phức z = a + bi, tìm điểm biểu diễn của số phức w = i nhân z.
+Dạng 109: Cho hai số phức z1, z2, tìm tọa độ điểm biểu diễn của số phức 2 nhân z1 cộng z2.
+Dạng 110: Cho điểm biểu diễn M(hoành độ; tung độ) trên mặt phẳng tọa độ, tìm số phức z.
+Dạng 111: Cho điểm biểu diễn M(hoành độ; tung độ) của số phức z, tìm phần thực của z.
+Dạng 112: Cho hai số phức, tính tổng của chúng; đáp án là một số phức (không hỏi phần thực hay môđun).
+Dạng 113: Cho hai số phức z, w, tính hiệu z trừ w; đáp án là một số phức.
+Dạng 114: Cho số phức z và một số thực, tính tích của số thực đó với z; đáp án là một số phức.
+Dạng 115: Cho số phức z = a + bi, tính số phức w = i nhân z cộng số phức liên hợp của z.
+Dạng 116: Cho phương trình chỉ chứa z (không có số phức liên hợp): z nhân một số phức, cộng một số thuần ảo, bằng một số thực; tính môđun của z.
+Dạng 117: Cho phương trình i nhân số phức liên hợp của z bằng một số phức (chỉ chứa số phức liên hợp của z), tìm phần ảo của z.
+Dạng 118: Cho phương trình i nhân z bằng một số phức (chỉ chứa z), tìm số phức liên hợp của z.
+Dạng 119: Cho z = a + bi thỏa phương trình có cả z và số phức liên hợp của z: (1 + i) nhân z cộng 2 nhân số phức liên hợp của z bằng một số phức; tính a cộng b.
+Dạng 120: Cho phương trình có cả z và số phức liên hợp của z: 3 nhân (liên hợp của z trừ i) trừ (2 + 3i) nhân z bằng một số phức; tính môđun của z.
+Dạng 121: Cho z = a + bi thỏa phương trình có chứa môđun của z: z cộng một số phức, trừ môđun của z nhân i, bằng 0; tính a cộng một hệ số nhân b.
+Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo.
+Dạng 123: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z chia (z cộng hoặc trừ một số thực) là số thuần ảo.
+Dạng 124: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun z bình phương bằng một hệ số nhân môđun của (z cộng liên hợp của z) cộng một số, và khoảng cách từ z đến hai điểm cho trước bằng nhau.
+Dạng 125: Cho phương trình có môđun của z ở nhiều vị trí: (một số phức) nhân môđun của z bằng (một số chia z) cộng một số phức; chọn mệnh đề đúng về khoảng chứa môđun của z.
+Dạng 126: Đếm số số phức z thỏa phương trình: môđun của z nhân (z trừ một số phức), cộng một số thuần ảo, bằng (một số phức) nhân z.
+Dạng 127: Đếm số số phức z thỏa đồng thời: môđun của z bình phương bằng hệ số nhân môđun của (z trừ liên hợp của z), và môđun của tích (z trừ một số)(liên hợp của z trừ số đó nhân i) bằng bình phương môđun của (z cộng số đó nhân i).
+Dạng 128: Cho môđun của (z trừ một số phức) bằng một số, tập hợp điểm biểu diễn z là một đường tròn; tìm tọa độ tâm của đường tròn.
+Dạng 129: Cho tích (z trừ một số thuần ảo) nhân (liên hợp của z trừ một số thực) là số thuần ảo; tìm tọa độ TÂM của đường tròn tập hợp điểm biểu diễn z.
+Dạng 130: Cho tích (liên hợp của z trừ một số thuần ảo) nhân (z trừ một số thực) là số thuần ảo; tìm BÁN KÍNH của đường tròn tập hợp điểm biểu diễn z.
+Dạng 131: Cho môđun của z bằng một số và w bằng (một số phức) nhân z cộng i; tìm bán kính của đường tròn tập hợp điểm biểu diễn w.
+Dạng 132: Cho môđun của z bằng một số và w bằng một phân thức (một số cộng i nhân z) chia (1 cộng z); tìm bán kính của đường tròn tập hợp điểm biểu diễn w.
+Dạng 133: Cho phương trình bậc hai z bình phương trừ 2m nhân z cộng (một hệ số nhân m cộng một số) bằng 0 với m thực; đếm số giá trị nguyên của m để phương trình có hai nghiệm phân biệt z1, z2 thỏa môđun của z1 bằng môđun của z2.
+Dạng 134: Cho phương trình bậc hai z bình phương trừ 2 nhân (m cộng một số) nhân z cộng m bình phương bằng 0 với m thực; đếm số giá trị của m để phương trình có hai nghiệm phân biệt z1, z2 thỏa tổng môđun của z1 và môđun của z2 bằng một số.
+Dạng 135: Cho phương trình bậc hai z bình phương trừ 2 nhân (m cộng một số) nhân z cộng m bình phương bằng 0 với m thực; đếm số giá trị của m để phương trình có một nghiệm z0 thỏa môđun của z0 bằng một số.
+Dạng 136: Cho phương trình z bình phương cộng 4a nhân z cộng b bình phương cộng 2 bằng 0 với a, b thực; đếm số cặp (a; b) để phương trình có hai nghiệm z1, z2 thỏa z1 cộng 2i nhân z2 bằng một số phức.
+Dạng 137: Cho hai số phức liên hợp của nhau, chọn phương trình bậc hai nhận hai số phức đó làm nghiệm.
+Dạng 138: Cho tổng khoảng cách từ z đến hai điểm bằng một số (z thuộc một đoạn thẳng), gọi m và M là giá trị nhỏ nhất và giá trị lớn nhất của môđun của (z trừ một số phức khác), tính m cộng M.
+Dạng 139: Cho tập S các số phức z để số phức w bằng 1 chia (môđun của z trừ z) có phần thực bằng một số; z1, z2 thuộc S với môđun của (z1 trừ z2) bằng một số; tìm giá trị lớn nhất của hiệu bình phương hai môđun |z1 trừ một số phức|² trừ |z2 trừ số phức đó|².
+Dạng 140: Cho môđun của (z bình phương trừ một số phức) bằng một hệ số nhân môđun của z; gọi M và m là giá trị lớn nhất và giá trị nhỏ nhất của môđun của z, tính M bình phương cộng m bình phương.
+Dạng 141: Cho môđun của z bằng một số và môđun của w bằng một số khác; khi môđun của (z cộng i nhân liên hợp của w, cộng một số phức) đạt giá trị nhỏ nhất, tính môđun của (z trừ w).
+Dạng 142: Cho ba số phức z1, z2, z3 có môđun của z1 bằng môđun của z2 bằng 2 lần môđun của z3 và thỏa một hệ thức giữa (z1 cộng z2) nhân z3 với z1 nhân z2; tính diện tích tam giác có ba đỉnh là điểm biểu diễn của chúng.

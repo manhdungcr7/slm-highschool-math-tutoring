@@ -1,0 +1,58 @@
+========================================================================
+Phạm vi: 100 câu thực tế (đề thi thử / đề chính thức THPTQG), thuộc 53/142 dạng; Mũ–Logarit: 75, Số phức: 25
+========================================================================
+Phân dạng đúng       : 77/100 (77.0%)
+Đáp án đúng (cả hệ)  : 96/100 (96.0%)
+Sai                  : 4
+Không xác định       : 0
+
+--- Theo chuyên đề ---
+Mũ–Logarit   phân dạng đúng 55/75 (73.3%) | đáp án đúng 71/75 (94.7%)
+Số phức      phân dạng đúng 22/25 (88.0%) | đáp án đúng 25/25 (100.0%)
+
+--- Theo cách giải được chọn (theo dạng dự đoán) ---
+ReAct+Calculator   đáp án đúng 31/35 (88.6%)
+zero-shot          đáp án đúng 65/65 (100.0%)
+
+--- Phân dạng x kết quả ---
+ket_qua    Sai  Đúng  All
+dung_dang                
+sai dạng     0    23   23
+đúng dạng    4    73   77
+All          4    96  100
+
+--- (1) Phân dạng sai ---
+      id      topic  dang_dung  dang_du_doan  do_tin_cay        cach_giai dap_an_dung model_chon ket_qua
+   BT-49    Số phức        137            99      0.4191        zero-shot           C          C    Đúng
+    CR-9 Mũ–Logarit         11            49      0.9453        zero-shot           D          D    Đúng
+  SRC-02 Mũ–Logarit         30            10      0.5094        zero-shot           A          A    Đúng
+  SRC-09 Mũ–Logarit         18            33      0.4499        zero-shot           C          C    Đúng
+  SRC-14 Mũ–Logarit         74             3      0.9909        zero-shot           B          B    Đúng
+  SRC-19 Mũ–Logarit         55            15      0.3470        zero-shot           B          B    Đúng
+  SRC-22 Mũ–Logarit         49            27      0.3321        zero-shot           B          B    Đúng
+  SRC-23 Mũ–Logarit         26            75      0.8913        zero-shot           B          B    Đúng
+ WEB-019 Mũ–Logarit         62            23      0.9134        zero-shot           A          A    Đúng
+THPT-008 Mũ–Logarit         28            15      0.9965        zero-shot           A          A    Đúng
+ WEB-026 Mũ–Logarit         46            32      0.8013        zero-shot           A          A    Đúng
+THPT-010 Mũ–Logarit         85            32      0.6949        zero-shot           C          C    Đúng
+ WEB-044 Mũ–Logarit         81            39      0.7259        zero-shot           C          C    Đúng
+ MOI-022 Mũ–Logarit         74             3      0.9923        zero-shot           A          A    Đúng
+ MOI-035 Mũ–Logarit         11            23      0.9052        zero-shot           B          B    Đúng
+ MOI-036 Mũ–Logarit         11            38      0.4517        zero-shot           D          D    Đúng
+ MOI-039    Số phức        120           116      0.8947 ReAct+Calculator           C          C    Đúng
+ MOI-042 Mũ–Logarit         79             3      0.6464        zero-shot           B          B    Đúng
+ MOI-046    Số phức        106            99      0.5982        zero-shot           B          B    Đúng
+  BS-008 Mũ–Logarit         23            33      0.9930        zero-shot           D          D    Đúng
+  BS-009 Mũ–Logarit          3            37      0.3634        zero-shot           C          C    Đúng
+  BS-010 Mũ–Logarit         85            33      0.7925        zero-shot           B          B    Đúng
+  BS-011 Mũ–Logarit         12            15      0.9674        zero-shot           D          D    Đúng
+
+--- (2) Phân dạng đúng nhưng giải sai ---
+    id      topic  dang_dung  dang_du_doan  do_tin_cay        cach_giai dap_an_dung model_chon ket_qua  token  so_luot_goi_tool         ly_do_dung
+VD-005 Mũ–Logarit         63            63      0.6521 ReAct+Calculator           A          B     Sai    864                12     model_finished
+VD-012 Mũ–Logarit         69            69      0.9835 ReAct+Calculator           B          D     Sai   1211                25 tool_limit_reached
+VD-013 Mũ–Logarit         69            69      0.9657 ReAct+Calculator           A          D     Sai   1156                25 tool_limit_reached
+VD-014 Mũ–Logarit         69            69      0.9441 ReAct+Calculator           B          D     Sai   2997                25 tool_limit_reached
+
+--- (3) Không trích được đáp án ---
+(không có)
