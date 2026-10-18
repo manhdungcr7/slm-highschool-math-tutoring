@@ -1,0 +1,423 @@
+# 30 câu vận dụng và vận dụng cao bổ sung
+
+Đề và thứ tự A–D được đối chiếu với ảnh PDF; đáp án được giải lại. Mức độ là đánh giá của người rà soát.
+
+## VD-001 — Mũ–Logarit — Dạng 62
+
+Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$ sao cho phương trình $16^x-m\cdot4^{x+1}+5m^2-45=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?
+A. $13$
+B. $3$
+C. $6$
+D. $4$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 2; câu 78; trang PDF 76; trang in 75](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=76)
+
+**Kiểm tra:** Đặt $t=4^x>0$: $t^2-4mt+5m^2-45=0$. Điều kiện $\Delta>0,S>0,P>0$ cho $m>3$ và $m<\sqrt{45}$. Các số nguyên là $4,5,6$, có 3.
+
+## VD-002 — Mũ–Logarit — Dạng 62
+
+Gọi $S$ là tập hợp các giá trị nguyên của tham số $m$ sao cho phương trình $9^x-m\cdot3^{x+1}+3m^2-75=0$ có hai nghiệm phân biệt. Hỏi $S$ có bao nhiêu phần tử?
+A. $8$
+B. $4$
+C. $19$
+D. $5$
+
+**Đáp án:** B. $4$
+
+**Nguồn:** [Chuyên đề 2; câu 96; trang PDF 77; trang in 76](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77)
+
+**Kiểm tra:** Đặt $t=3^x>0$: $t^2-3mt+3m^2-75=0$. Điều kiện là $m>5$ và $m<10$; nhận $m=6,7,8,9$, có 4.
+
+## VD-003 — Mũ–Logarit — Dạng 63
+
+Cho $a>0,b>0$ thỏa mãn $\log_{3a+2b+1}(9a^2+b^2+1)+\log_{6ab+1}(3a+2b+1)=2$. Giá trị của $a+2b$ bằng
+A. $6$
+B. $9$
+C. $\frac72$
+D. $\frac52$
+
+**Đáp án:** C. $\frac72$
+
+**Nguồn:** [Chuyên đề 2; câu 79; trang PDF 76; trang in 75](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=76)
+
+**Kiểm tra:** Đặt $A=9a^2+b^2+1$, $B=6ab+1$, $L=3a+2b+1$. Có $A\ge B>1$. Với $t=\log_B L>0$, phương trình cho $\log_B A=2t-t^2\le1$. Do đó $A=B=L$, suy ra $b=3a$, $a=\frac{1}{2}$, $b=\frac{3}{2}$ và $a+2b=\frac{7}{2}$.
+
+## VD-004 — Mũ–Logarit — Dạng 63
+
+Cho $a>0,b>0$ thỏa mãn $\log_{4a+5b+1}(16a^2+b^2+1)+\log_{8ab+1}(4a+5b+1)=2$. Giá trị của $a+2b$ bằng
+A. $9$
+B. $6$
+C. $\frac{27}{4}$
+D. $\frac{20}{3}$
+
+**Đáp án:** C. $\frac{27}{4}$
+
+**Nguồn:** [Chuyên đề 2; câu 91; trang PDF 77; trang in 76](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77)
+
+**Kiểm tra:** Đặt $A=16a^2+b^2+1$, $B=8ab+1$, $L=4a+5b+1$. Có $A\ge B>1$. Với $t=\log_B L>0$, phương trình cho $\log_B A=2t-t^2\le1$. Do đó $A=B=L$, suy ra $b=4a$, $a=\frac{3}{4}$, $b=3$ và $a+2b=\frac{27}{4}$.
+
+## VD-005 — Mũ–Logarit — Dạng 63
+
+Cho $a>0,b>0$ thỏa mãn $\log_{2a+2b+1}(4a^2+b^2+1)+\log_{4ab+1}(2a+2b+1)=2$. Giá trị của $a+2b$ bằng
+A. $\frac{15}{4}$
+B. $5$
+C. $4$
+D. $\frac32$
+
+**Đáp án:** A. $\frac{15}{4}$
+
+**Nguồn:** [Chuyên đề 2; câu 98; trang PDF 77; trang in 76](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77)
+
+**Kiểm tra:** Đặt $A=4a^2+b^2+1$, $B=4ab+1$, $L=2a+2b+1$. Có $A\ge B>1$. Với $t=\log_B L>0$, phương trình cho $\log_B A=2t-t^2\le1$. Do đó $A=B=L$, suy ra $b=2a$, $a=\frac{3}{4}$, $b=\frac{3}{2}$ và $a+2b=\frac{15}{4}$.
+
+## VD-006 — Mũ–Logarit — Dạng 64
+
+Cho phương trình $5^x+m=\log_5(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-20;20)$ để phương trình đã cho có nghiệm?
+A. $20$
+B. $19$
+C. $9$
+D. $21$
+
+**Đáp án:** B. $19$
+
+**Nguồn:** [Chuyên đề 2; câu 80; trang PDF 76; trang in 75](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=76)
+
+**Kiểm tra:** Đặt $f(x)=5^x+m$, là hàm tăng từ $\mathbb R$ lên $(m,+\infty)$. Phương trình $f(x)=f^{-1}(x)$ tương đương $f(x)=x$: nếu $f(x)>x$ hoặc $f(x)<x$ thì áp dụng f dẫn đến mâu thuẫn với $f(f(x))=x$. Vì vậy $m=x-5^x$. Giá trị lớn nhất $M=-\log_5(\ln 5)-1/\ln 5$ thuộc $(-1;0)$. Các m nguyên nhận $-19,\ldots,-1$, có 19.
+
+## VD-007 — Mũ–Logarit — Dạng 64
+
+Cho phương trình $7^x+m=\log_7(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-25;25)$ để phương trình đã cho có nghiệm?
+A. $9$
+B. $25$
+C. $24$
+D. $26$
+
+**Đáp án:** C. $24$
+
+**Nguồn:** [Chuyên đề 2; câu 92; trang PDF 77; trang in 76](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77)
+
+**Kiểm tra:** Đặt $f(x)=7^x+m$, là hàm tăng từ $\mathbb R$ lên $(m,+\infty)$. Phương trình $f(x)=f^{-1}(x)$ tương đương $f(x)=x$: nếu $f(x)>x$ hoặc $f(x)<x$ thì áp dụng f dẫn đến mâu thuẫn với $f(f(x))=x$. Vì vậy $m=x-7^x$. Giá trị lớn nhất $M=-\log_7(\ln 7)-1/\ln 7$ thuộc $(-1;0)$. Các m nguyên nhận $-24,\ldots,-1$, có 24.
+
+## VD-008 — Mũ–Logarit — Dạng 64
+
+Cho phương trình $2^x+m=\log_2(x-m)$ với $m$ là tham số. Có bao nhiêu giá trị nguyên của $m\in(-18;18)$ để phương trình đã cho có nghiệm?
+A. $9$
+B. $19$
+C. $17$
+D. $18$
+
+**Đáp án:** C. $17$
+
+**Nguồn:** [Chuyên đề 2; câu 97; trang PDF 77; trang in 76](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=77)
+
+**Kiểm tra:** Đặt $f(x)=2^x+m$, là hàm tăng từ $\mathbb R$ lên $(m,+\infty)$. Phương trình $f(x)=f^{-1}(x)$ tương đương $f(x)=x$: nếu $f(x)>x$ hoặc $f(x)<x$ thì áp dụng f dẫn đến mâu thuẫn với $f(f(x))=x$. Vì vậy $m=x-2^x$. Giá trị lớn nhất $M=-\log_2(\ln 2)-1/\ln 2$ thuộc $(-1;0)$. Các m nguyên nhận $-17,\ldots,-1$, có 17.
+
+## VD-009 — Mũ–Logarit — Dạng 68
+
+Cho phương trình $\log_9(x^2)-\log_3(3x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. $2$
+B. $4$
+C. $3$
+D. Vô số.
+
+**Đáp án:** A. $2$
+
+**Nguồn:** [Chuyên đề 2; câu 112; trang PDF 78; trang in 77](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=78)
+
+**Kiểm tra:** Điều kiện $x>1/3,m>0$. Khi đó $\log_9(x^2)=\log_3 x$, nên $mx=3x-1$ và $x=1/(3-m)$. Điều kiện tương đương $0<m<3$: có 2 số nguyên.
+
+## VD-010 — Mũ–Logarit — Dạng 68
+
+Cho phương trình $\log_9(x^2)-\log_3(5x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. Vô số.
+B. $5$
+C. $4$
+D. $6$
+
+**Đáp án:** C. $4$
+
+**Nguồn:** [Chuyên đề 2; câu 126; trang PDF 79; trang in 78](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=79)
+
+**Kiểm tra:** Điều kiện $x>1/5,m>0$. Khi đó $\log_9(x^2)=\log_3 x$, nên $mx=5x-1$ và $x=1/(5-m)$. Điều kiện tương đương $0<m<5$: có 4 số nguyên.
+
+## VD-011 — Mũ–Logarit — Dạng 68
+
+Cho phương trình $\log_9(x^2)-\log_3(4x-1)=-\log_3m$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên của $m$ để phương trình đã cho có nghiệm?
+A. $5$
+B. $3$
+C. Vô số.
+D. $4$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 2; câu 133; trang PDF 80; trang in 79](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=80)
+
+**Kiểm tra:** Điều kiện $x>1/4,m>0$. Khi đó $\log_9(x^2)=\log_3 x$, nên $mx=4x-1$ và $x=1/(4-m)$. Điều kiện tương đương $0<m<4$: có 3 số nguyên.
+
+## VD-012 — Mũ–Logarit — Dạng 69
+
+Cho phương trình $(4\log_2^2x+\log_2x-5)\sqrt{7^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. $49$
+B. $47$
+C. Vô số.
+D. $48$
+
+**Đáp án:** B. $47$
+
+**Nguồn:** [Chuyên đề 2; câu 113; trang PDF 79; trang in 78](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=79)
+
+**Kiểm tra:** Hai nghiệm của thừa số lôgarit là $u=\frac{2^{\frac{3}{4}}}{4}$, $v=2$. Với cả ba câu này, $2<7^u<3$ và $7^v=49$. Khi $m=1$ có đúng hai nghiệm $u,v$ (nghiệm từ căn là x=0, không thuộc miền log). Khi $m=2$ có ba nghiệm. Khi $3\le m<49$ có hai nghiệm $v,\log_7m$. Khi $m\ge 49$ chỉ có một nghiệm. Do đó có $1+(49-3)=47$ giá trị.
+
+## VD-013 — Mũ–Logarit — Dạng 69
+
+Cho phương trình $(2\log_3^2x-\log_3x-1)\sqrt{5^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. $123$
+B. $125$
+C. Vô số.
+D. $124$
+
+**Đáp án:** A. $123$
+
+**Nguồn:** [Chuyên đề 2; câu 127; trang PDF 79; trang in 78](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=79)
+
+**Kiểm tra:** Hai nghiệm của thừa số lôgarit là $u=\frac{\sqrt{3}}{3}$, $v=3$. Với cả ba câu này, $2<5^u<3$ và $5^v=125$. Khi $m=1$ có đúng hai nghiệm $u,v$ (nghiệm từ căn là x=0, không thuộc miền log). Khi $m=2$ có ba nghiệm. Khi $3\le m<125$ có hai nghiệm $v,\log_5m$. Khi $m\ge 125$ chỉ có một nghiệm. Do đó có $1+(125-3)=123$ giá trị.
+
+## VD-014 — Mũ–Logarit — Dạng 69
+
+Cho phương trình $(2\log_3^2x-\log_3x-1)\sqrt{4^x-m}=0$ ($m$ là tham số thực). Có tất cả bao nhiêu giá trị nguyên dương của $m$ để phương trình đã cho có đúng hai nghiệm phân biệt?
+A. Vô số.
+B. $62$
+C. $63$
+D. $64$
+
+**Đáp án:** B. $62$
+
+**Nguồn:** [Chuyên đề 2; câu 134; trang PDF 80; trang in 79](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=80)
+
+**Kiểm tra:** Hai nghiệm của thừa số lôgarit là $u=\frac{\sqrt{3}}{3}$, $v=3$. Với cả ba câu này, $2<4^u<3$ và $4^v=64$. Khi $m=1$ có đúng hai nghiệm $u,v$ (nghiệm từ căn là x=0, không thuộc miền log). Khi $m=2$ có ba nghiệm. Khi $3\le m<64$ có hai nghiệm $v,\log_4m$. Khi $m\ge 64$ chỉ có một nghiệm. Do đó có $1+(64-3)=62$ giá trị.
+
+## VD-015 — Mũ–Logarit — Dạng 73
+
+Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 728 số nguyên $y$ thỏa mãn $\log_4(x^2+y)\ge\log_3(x+y)$?
+A. $59$
+B. $58$
+C. $116$
+D. $115$
+
+**Đáp án:** C. $116$
+
+**Nguồn:** [Chuyên đề 2; câu 159; trang PDF 81; trang in 80](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=81)
+
+**Kiểm tra:** Đặt $t=x+y\in\mathbb Z_{>0}$, $c=x(x-1)\ge0$. Điều kiện là $t+c\ge t^r$, $r=\log_34>1$. Hàm $t^r-t$ tăng nghiêm ngặt trên $[1,+\infty)$. Số nghiệm t không quá 728 khi và chỉ khi $c<(729)^r-(729)=3367$. Suy ra $-57\le x\le 58$, có 116 số nguyên. Hai miền log tự thỏa vì t>=1,c>=0.
+
+## VD-016 — Mũ–Logarit — Dạng 73
+
+Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 127 số nguyên $y$ thỏa mãn $\log_3(x^2+y)\ge\log_2(x+y)$?
+A. $89$
+B. $46$
+C. $45$
+D. $90$
+
+**Đáp án:** D. $90$
+
+**Nguồn:** [Chuyên đề 2; câu 176; trang PDF 82; trang in 81](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=82)
+
+**Kiểm tra:** Đặt $t=x+y\in\mathbb Z_{>0}$, $c=x(x-1)\ge0$. Điều kiện là $t+c\ge t^r$, $r=\log_23>1$. Hàm $t^r-t$ tăng nghiêm ngặt trên $[1,+\infty)$. Số nghiệm t không quá 127 khi và chỉ khi $c<(128)^r-(128)=2059$. Suy ra $-44\le x\le 45$, có 90 số nguyên. Hai miền log tự thỏa vì t>=1,c>=0.
+
+## VD-017 — Mũ–Logarit — Dạng 73
+
+Có bao nhiêu số nguyên $x$ sao cho ứng với mỗi $x$ có không quá 255 số nguyên $y$ thỏa mãn $\log_3(x^2+y)\ge\log_2(x+y)$?
+A. $80$
+B. $79$
+C. $157$
+D. $158$
+
+**Đáp án:** D. $158$
+
+**Nguồn:** [Chuyên đề 2; câu 185; trang PDF 83; trang in 82](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=83)
+
+**Kiểm tra:** Đặt $t=x+y\in\mathbb Z_{>0}$, $c=x(x-1)\ge0$. Điều kiện là $t+c\ge t^r$, $r=\log_23>1$. Hàm $t^r-t$ tăng nghiêm ngặt trên $[1,+\infty)$. Số nghiệm t không quá 255 khi và chỉ khi $c<(256)^r-(256)=6305$. Suy ra $-78\le x\le 79$, có 158 số nguyên. Hai miền log tự thỏa vì t>=1,c>=0.
+
+## VD-018 — Số phức — Dạng 123
+
+Có bao nhiêu số phức $z$ thỏa mãn $|z+3i|=\sqrt{13}$ và $\frac{z}{z+2}$ là số thuần ảo?
+A. Vô số.
+B. $2$
+C. $0$
+D. $1$
+
+**Đáp án:** D. $1$
+
+**Nguồn:** [Chuyên đề 4; câu 37; trang PDF 120; trang in 119](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=120)
+
+**Kiểm tra:** Đặt z=x+yi, z khác -2. Hai phương trình là $x^2+(y+3)^2=13$ và $x^2+y^2+2x=0$. Trừ nhau cho $x=3y-2$. Thế vào được $2y(5y-3)=0$. Giao điểm $z=-2$ bị loại do mẫu bằng 0; còn $z=-1/5+3i/5$, thương bằng i/3. Có một số phức.
+
+## VD-019 — Số phức — Dạng 126
+
+Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-4-i)+2i=(5-i)z$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 51; trang PDF 120; trang in 119](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=120)
+
+**Kiểm tra:** Đặt $r=|z|\ge0$. Biến đổi phương trình được $[r-(5)+i]z=cr+i(r-2)$; hệ số này không bằng 0 vì phần ảo bằng 1. Với mỗi $r$, có duy nhất $z=\frac{cr+i(r-2)}{r-(5)+i}$. Điều kiện $|z|=r$ tương đương $r^2((r-c-1)^2+1)=c^2r^2+(r-2)^2$, hay $(r-1)q(r)=0$ với $q(r)=r^3-(2c+1)r^2+4$. Với từng $c=4,5,6$, ta có $q(0)=4>0$, $q(1)=4-2c<0$ và $q(r)\to+\infty$. Đạo hàm $q'(r)=r(3r-4c-2)$ cho thấy $q$ giảm đến $r=(4c+2)/3$ rồi tăng. Vì vậy $q$ có đúng hai nghiệm dương, một thuộc $(0,1)$ và một lớn hơn 1. Cộng với nghiệm $r=1$, phương trình có đúng ba giá trị $r>0$, mỗi giá trị cho một số phức $z$.
+
+## VD-020 — Số phức — Dạng 126
+
+Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-6-i)+2i=(7-i)z$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 59; trang PDF 121; trang in 120](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=121)
+
+**Kiểm tra:** Đặt $r=|z|\ge0$. Biến đổi phương trình được $[r-(7)+i]z=cr+i(r-2)$; hệ số này không bằng 0 vì phần ảo bằng 1. Với mỗi $r$, có duy nhất $z=\frac{cr+i(r-2)}{r-(7)+i}$. Điều kiện $|z|=r$ tương đương $r^2((r-c-1)^2+1)=c^2r^2+(r-2)^2$, hay $(r-1)q(r)=0$ với $q(r)=r^3-(2c+1)r^2+4$. Với từng $c=4,5,6$, ta có $q(0)=4>0$, $q(1)=4-2c<0$ và $q(r)\to+\infty$. Đạo hàm $q'(r)=r(3r-4c-2)$ cho thấy $q$ giảm đến $r=(4c+2)/3$ rồi tăng. Vì vậy $q$ có đúng hai nghiệm dương, một thuộc $(0,1)$ và một lớn hơn 1. Cộng với nghiệm $r=1$, phương trình có đúng ba giá trị $r>0$, mỗi giá trị cho một số phức $z$.
+
+## VD-021 — Số phức — Dạng 126
+
+Có bao nhiêu số phức $z$ thỏa mãn $|z|(z-5-i)+2i=(6-i)z$?
+A. $1$
+B. $3$
+C. $4$
+D. $2$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 63; trang PDF 121; trang in 120](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=121)
+
+**Kiểm tra:** Đặt $r=|z|\ge0$. Biến đổi phương trình được $[r-(6)+i]z=cr+i(r-2)$; hệ số này không bằng 0 vì phần ảo bằng 1. Với mỗi $r$, có duy nhất $z=\frac{cr+i(r-2)}{r-(6)+i}$. Điều kiện $|z|=r$ tương đương $r^2((r-c-1)^2+1)=c^2r^2+(r-2)^2$, hay $(r-1)q(r)=0$ với $q(r)=r^3-(2c+1)r^2+4$. Với từng $c=4,5,6$, ta có $q(0)=4>0$, $q(1)=4-2c<0$ và $q(r)\to+\infty$. Đạo hàm $q'(r)=r(3r-4c-2)$ cho thấy $q$ giảm đến $r=(4c+2)/3$ rồi tăng. Vì vậy $q$ có đúng hai nghiệm dương, một thuộc $(0,1)$ và một lớn hơn 1. Cộng với nghiệm $r=1$, phương trình có đúng ba giá trị $r>0$, mỗi giá trị cho một số phức $z$.
+
+## VD-022 — Số phức — Dạng 132
+
+Xét các số phức $z$ thỏa mãn $|z|=\sqrt2$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\frac{4+iz}{1+z}$ là một đường tròn có bán kính bằng
+A. $\sqrt{34}$
+B. $26$
+C. $34$
+D. $\sqrt{26}$
+
+**Đáp án:** A. $\sqrt{34}$
+
+**Nguồn:** [Chuyên đề 4; câu 73; trang PDF 122; trang in 121](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=122)
+
+**Kiểm tra:** Đảo biến đổi được $z=(4-w)/(w-i)$. Với w=u+vi, điều kiện là $(u-4)^2+v^2=2(u^2+(v-1)^2)$, tức $(u+4)^2+(v-2)^2=34$. w=i không thuộc đường tròn và z=-1 không thuộc đường tròn ban đầu; vì thế phép đổi không làm mất điểm nào của quỹ tích. Bán kính là $\sqrt{34}$.
+
+## VD-023 — Số phức — Dạng 132
+
+Xét các số phức $z$ thỏa mãn $|z|=\sqrt2$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\frac{2+iz}{1+z}$ là một đường tròn có bán kính bằng
+A. $10$
+B. $\sqrt2$
+C. $2$
+D. $\sqrt{10}$
+
+**Đáp án:** D. $\sqrt{10}$
+
+**Nguồn:** [Chuyên đề 4; câu 83; trang PDF 122; trang in 121](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=122)
+
+**Kiểm tra:** Đảo biến đổi được $z=(2-w)/(w-i)$. Với w=u+vi, điều kiện là $(u-2)^2+v^2=2(u^2+(v-1)^2)$, tức $(u+2)^2+(v-2)^2=10$. w=i không thuộc đường tròn và z=-1 không thuộc đường tròn ban đầu; vì thế phép đổi không làm mất điểm nào của quỹ tích. Bán kính là $\sqrt{10}$.
+
+## VD-024 — Số phức — Dạng 132
+
+Xét các số phức $z$ thỏa mãn $|z|=\sqrt2$. Trên mặt phẳng tọa độ $Oxy$, tập hợp điểm biểu diễn các số phức $w=\frac{5+iz}{1+z}$ là một đường tròn có bán kính bằng
+A. $52$
+B. $2\sqrt{13}$
+C. $2\sqrt{11}$
+D. $44$
+
+**Đáp án:** B. $2\sqrt{13}$
+
+**Nguồn:** [Chuyên đề 4; câu 88; trang PDF 123; trang in 122](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=123)
+
+**Kiểm tra:** Đảo biến đổi được $z=(5-w)/(w-i)$. Với w=u+vi, điều kiện là $(u-5)^2+v^2=2(u^2+(v-1)^2)$, tức $(u+5)^2+(v-2)^2=52$. w=i không thuộc đường tròn và z=-1 không thuộc đường tròn ban đầu; vì thế phép đổi không làm mất điểm nào của quỹ tích. Bán kính là $2 \sqrt{13}$.
+
+## VD-025 — Số phức — Dạng 135
+
+Trên tập hợp số phức, xét phương trình $z^2-2(m+1)z+m^2=0$ ($m$ là tham số thực). Có bao nhiêu giá trị của $m$ để phương trình đó có nghiệm $z_0$ thỏa mãn $|z_0|=7$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 141; trang PDF 125; trang in 124](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=125)
+
+**Kiểm tra:** Nếu $2m+1<0$, hai nghiệm liên hợp có môđun |m|; nhận $m=-7$. Nếu $2m+1\ge0$, nghiệm thực có môđun 7 phải bằng ±7. Thế z=7 cho $m=7\pm\sqrt{14}$ (đều thỏa điều kiện). Thế z=-7 cho phương trình m có biệt thức âm. Ba giá trị khác nhau, tổng là 3.
+
+## VD-026 — Số phức — Dạng 141
+
+Xét các số phức $z,w$ thỏa mãn $|z|=1$ và $|w|=2$. Khi $|z+i\overline{w}-6-8i|$ đạt giá trị nhỏ nhất, $|z-w|$ bằng
+A. $\frac{\sqrt{221}}5$
+B. $\sqrt5$
+C. $3$
+D. $\frac{\sqrt{29}}5$
+
+**Đáp án:** D. $\frac{\sqrt{29}}5$
+
+**Nguồn:** [Chuyên đề 4; câu 142; trang PDF 125; trang in 124](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=125)
+
+**Kiểm tra:** Đặt $C=-6-8i$, |C|=10. Bất đẳng thức tam giác cho giá trị nhỏ nhất 10-1-2=7; dấu bằng buộc $z=-C/10$ và $i\overline w=-2C/10=2z$. Suy ra $z=\frac{3}{5} + \frac{4 i}{5}$, $w=\frac{8}{5} + \frac{6 i}{5}$, $|z-w|=\frac{\sqrt{29}}{5}$. Các giá trị này đạt dấu bằng nên cực tiểu tồn tại.
+
+## VD-027 — Số phức — Dạng 141
+
+Xét các số phức $z,w$ thỏa mãn $|z|=1$ và $|w|=2$. Khi $|z+i\overline{w}-6+8i|$ đạt giá trị nhỏ nhất, $|z-w|$ bằng
+A. $3$
+B. $\frac{\sqrt{29}}5$
+C. $\sqrt5$
+D. $\frac{\sqrt{221}}5$
+
+**Đáp án:** D. $\frac{\sqrt{221}}5$
+
+**Nguồn:** [Chuyên đề 4; câu 153; trang PDF 126; trang in 125](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=126)
+
+**Kiểm tra:** Đặt $C=-6+8i$, |C|=10. Bất đẳng thức tam giác cho giá trị nhỏ nhất 10-1-2=7; dấu bằng buộc $z=-C/10$ và $i\overline w=-2C/10=2z$. Suy ra $z=\frac{3}{5} - \frac{4 i}{5}$, $w=- \frac{8}{5} + \frac{6 i}{5}$, $|z-w|=\frac{\sqrt{221}}{5}$. Các giá trị này đạt dấu bằng nên cực tiểu tồn tại.
+
+## VD-028 — Số phức — Dạng 136
+
+Trên tập hợp số phức, xét phương trình $z^2-4az+b^2+2=0$ ($a,b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1,z_2$ thỏa mãn $z_1+2iz_2=3+3i$?
+A. $3$
+B. $2$
+C. $1$
+D. $4$
+
+**Đáp án:** A. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 166; trang PDF 127; trang in 126](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=127)
+
+**Kiểm tra:** Hệ số thực nên hai nghiệm hoặc đều thực hoặc liên hợp. Nếu đều thực, quan hệ cho $z_1=3,z_2=3/2$; Viète cho $a=\frac{9}{8},b=\pm\sqrt{5/2}$, có 2 cặp. Nếu liên hợp không thực, đặt $z_1=s+ti,z_2=s-ti$; quan hệ cho $s+2t=3,t+2s=3$, suy ra s=t=1. Viète cho $a=\frac{1}{2},b=0$, thêm 1 cặp. Tổng 3 cặp. Hai trường hợp loại trừ nhau và bao quát mọi nghiệm của đa thức hệ số thực.
+
+## VD-029 — Số phức — Dạng 136
+
+Trên tập hợp số phức, xét phương trình $z^2+2az+b^2+2=0$ ($a,b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1,z_2$ thỏa mãn $z_1+2iz_2=3+3i$?
+A. $2$
+B. $3$
+C. $1$
+D. $4$
+
+**Đáp án:** B. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 178; trang PDF 128; trang in 127](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=128)
+
+**Kiểm tra:** Hệ số thực nên hai nghiệm hoặc đều thực hoặc liên hợp. Nếu đều thực, quan hệ cho $z_1=3,z_2=3/2$; Viète cho $a=- \frac{9}{4},b=\pm\sqrt{5/2}$, có 2 cặp. Nếu liên hợp không thực, đặt $z_1=s+ti,z_2=s-ti$; quan hệ cho $s+2t=3,t+2s=3$, suy ra s=t=1. Viète cho $a=-1,b=0$, thêm 1 cặp. Tổng 3 cặp. Hai trường hợp loại trừ nhau và bao quát mọi nghiệm của đa thức hệ số thực.
+
+## VD-030 — Số phức — Dạng 136
+
+Trên tập hợp số phức, xét phương trình $z^2-2az+b^2+2=0$ ($a,b$ là các tham số thực). Có bao nhiêu cặp số thực $(a;b)$ sao cho phương trình đó có hai nghiệm $z_1,z_2$ thỏa mãn $z_1+2iz_2=3+3i$?
+A. $2$
+B. $1$
+C. $4$
+D. $3$
+
+**Đáp án:** D. $3$
+
+**Nguồn:** [Chuyên đề 4; câu 184; trang PDF 129; trang in 128](https://file.montoan.com.vn/file-pdf/chuyen-de-trong-de-thi-tot-nghiep-thpt-quoc-gia-mon-toan-2017-2021.pdf#page=129)
+
+**Kiểm tra:** Hệ số thực nên hai nghiệm hoặc đều thực hoặc liên hợp. Nếu đều thực, quan hệ cho $z_1=3,z_2=3/2$; Viète cho $a=\frac{9}{4},b=\pm\sqrt{5/2}$, có 2 cặp. Nếu liên hợp không thực, đặt $z_1=s+ti,z_2=s-ti$; quan hệ cho $s+2t=3,t+2s=3$, suy ra s=t=1. Viète cho $a=1,b=0$, thêm 1 cặp. Tổng 3 cặp. Hai trường hợp loại trừ nhau và bao quát mọi nghiệm của đa thức hệ số thực.

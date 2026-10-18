@@ -314,7 +314,7 @@ def write_outputs(rows: list[dict], output_dir: Path, doc: fitz.Document, dpi: i
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pdf", type=Path, default=Path("DAP AN.pdf"))
+    parser.add_argument("--pdf", type=Path, default=Path("data/source_documents/DAP AN.pdf"))
     parser.add_argument(
         "--output-dir", type=Path,
         default=Path("data/questions/mu_logarit_extraction"),

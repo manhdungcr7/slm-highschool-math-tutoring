@@ -5,7 +5,7 @@ import sys
 
 import pandas as pd
 
-folder = sys.argv[1] if len(sys.argv) > 1 else "F:/Math/ReAct_Calculator_CD2"
+folder = sys.argv[1] if len(sys.argv) > 1 else "data/results/react_calculator_qwen3_4b"
 EXPECTED = ("D89 D84 D47 D75 D69 D57 D93 D52 D65 D78 D68 D56 D28 D46 D23 D88 D41 D16 D24 D25 D94 D83 D71 D29 D22 "
             "D40 D51 D45 D08 D17 D10").split()
 rows, found = [], set()

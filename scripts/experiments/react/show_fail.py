@@ -14,7 +14,7 @@ import framework as fw  # noqa: E402
 
 ma = sys.argv[1]
 limit = int(sys.argv[2]) if len(sys.argv) > 2 else 6
-folder = sys.argv[3] if len(sys.argv) > 3 else "F:/Math/ReAct_Calculator_CD2"
+folder = sys.argv[3] if len(sys.argv) > 3 else "data/results/react_calculator_qwen3_4b"
 df = pd.read_csv(f"{folder}/{ma.lower()}_react_calculator_full90.csv", encoding="utf-8-sig")
 data = json.load(open("scripts/experiments/plan_solve_prompts_mulogarit_merged.json", encoding="utf-8"))[ma]
 dang = importlib.import_module(f"dang_{ma}")

@@ -80,12 +80,16 @@ All four were routed to the correct dạng.
 |---|---|
 | `questions/cau_hoi_thuc_te_93_cau.csv` | The 93-question evaluation set: question, answer, `dang_dung`, source |
 | `questions/cau_hoi_thuc_te_100_cau_tang_30_cau_kho.csv` | The 100 questions of the Kaggle run |
+| `questions/cau_hoi_thuc_te_100_cau_da_ra_soat.csv` | The first set of 100 real questions (before 30 basic ones were replaced) |
 | `questions/cau_hoi_VD_VDC_30_cau_THPT.csv` | The 30 application-level questions |
 | `questions/kiem_tra_30_cau.csv` | The 30 questions with source page, derivation of the answer and reason for the dạng |
 | `ket_qua_pipeline_93cau_7cot.csv` / `.xlsx` | Results for the 93 questions, described below |
 | `ket_qua_pipeline_100cau_7cot.csv` | Same columns for the 100 questions |
 | `ra_soat_nhan_dang_23_cau_phan_sai.csv` | Label review of the questions routed differently from their label |
-| `bao_cao_93_cau.txt` | Report on the 93 questions |
+| `bao_cao_93_cau.txt` | Report on the 93 questions (`scripts/pipeline/report_93.py`) |
+| `VAN_DE_HIEN_TAI.md` | **The open problems of the pipeline, short (Vietnamese)** - start here for the next version |
+| `PHAN_TICH_LOI.md` | Detailed error analysis behind those notes, with evidence per question (Vietnamese); numbers reproduced by `scripts/pipeline/analyze_pipeline_errors.py` |
+| `hard30/` | How the 30 application-level questions were transcribed and checked (derivation per question, overlap with the router data); regenerate with `scripts/realworld_eval/hard30/collect_hard_questions.py` |
 | `kaggle_run_20261016/` | Raw output of the Kaggle run: report, per-question results with full solutions, router output, routing plan, outputs of each code unit (`raw/`) |
 
 The results files have seven columns:
@@ -100,10 +104,13 @@ The results files have seven columns:
 | Đáp án mô hình chọn | The answer the model chose |
 | Đúng/Sai | Correct or wrong |
 
-## Reproducing the run
+## Reproducing and extending the run
 
-1. Build the Kaggle bundle and the notebook with
-   `python scripts/pipeline/build_pipeline_notebook.py <router_adapter_dir>`. The adapter (`router_lora`, 40 MB) is not
-   stored in this repository.
-2. Upload `data/pipeline_bundle/` (with `router_lora/`) as a Kaggle Dataset.
-3. Run the notebook with GPU T4 x2 and internet access.
+1. `python scripts/pipeline/build_pipeline_notebook.py` builds the notebook and the Kaggle bundle (it uses `models/router_lora`
+   and the 100-question set above; to evaluate another set, replace that CSV with one with the same columns).
+2. `python scripts/pipeline/dry_run_pipeline.py` checks the plumbing without GPU.
+3. Upload `data/pipeline_bundle/` as a Kaggle Dataset, import the notebook, GPU T4 x2 and internet, Save & Run All.
+   Download `pipeline_ket_qua.zip` and put its files in a new `kaggle_run_<date>/` folder.
+4. `python scripts/pipeline/analyze_pipeline_errors.py --run kaggle_run_<date>` for the analysis (edit `DROP` in the scripts if the
+   evaluation set changes).
+5. Because results change from run to run, repeat the run a few times before comparing two pipeline versions.

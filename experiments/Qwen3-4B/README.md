@@ -70,3 +70,10 @@ câu đúng/sai theo từng dạng trong nhóm đó. Tải toàn bộ các CSV t
 tài khoản về và gộp lại để tính kết quả tổng trên cả 89 dạng.
 
 **Lưu ý:** D31 và D32 đã bị loại khỏi bộ dữ liệu (đề có phương án trùng nghĩa), nên bộ còn 89 dạng. Lần chạy Qwen3-4B zero-shot đã thực hiện khi còn 91 dạng; kết quả đã được lọc bỏ hai dạng này (các file zip tải về giữ nguyên làm bản gốc).
+
+## `qwen_eval_kaggle_sophuc_zeroshot.ipynb` - Complex Numbers zero-shot baseline
+
+The notebook that gave the Qwen3-4B zero-shot baseline for the Complex Numbers topic (it is not in the Complex Numbers repository).
+Same prompt as above, thinking enabled, temperature 0.6, top-p 0.95, top-k 20, seed 42, 9,216 new tokens, **no presence penalty**
+(the Exponential/Logarithm notebook above uses a presence penalty of 1.2). The pipeline uses these two sets of parameters for the zero-shot dạng
+of the corresponding topic (`scripts/pipeline/build_pipeline_notebook.py`, units `ZS_ML` and `ZS_SP`).
