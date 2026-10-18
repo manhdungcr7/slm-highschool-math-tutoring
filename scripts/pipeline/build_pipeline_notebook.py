@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Build the end-to-end pipeline notebook of the AI tutor (đề bài -> router -> prompt of that dạng -> Qwen3-4B -> đáp án).
 
-python scripts/pipeline/build_pipeline_notebook.py <router_adapter_dir>
+python scripts/pipeline/build_pipeline_notebook.py [router_adapter_dir]     (default: models/router_lora, the 100% router)
 
 Every dạng keeps exactly what it had in its final experiment: the code of the notebook that produced its reported
 result is copied verbatim (prompt, Calculator backend, ReAct loop, generation parameters, answer extraction). The only
@@ -27,13 +27,15 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 ML_DIR = os.path.join(REPO, "experiments", "ReAct-Calculator")
 ML_ZS_NB = os.path.join(REPO, "experiments", "Qwen3-4B", "KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb")
 SP_DIR = os.path.join(REPO, "so_phuc", "experiments", "Qwen3-4B")
-SP_ZS_NB = r"F:\Math\qwen_eval_kaggle.ipynb"
+SP_ZS_NB = os.path.join(REPO, "experiments", "Qwen3-4B", "qwen_eval_kaggle_sophuc_zeroshot.ipynb")
 CATALOGUE = os.path.join(REPO, "data", "catalogue", "danh_muc_dang_bai.csv")
-QUESTIONS = r"F:\Math\cau_hoi_thuc_te_100_cau_tang_30_cau_kho.csv"
+# The question set the notebook evaluates. To evaluate another set, replace this file (same name, same columns:
+# id, topic, question_markdown_latex, answer_letter, dang_dung) and rebuild.
+QUESTIONS = os.path.join(REPO, "data", "results", "pipeline_realworld", "questions", "cau_hoi_thuc_te_100_cau_tang_30_cau_kho.csv")
 CANDIDATES = os.path.join(REPO, "data", "router_train", "kaggle_bundle", "candidates.json")
 BUNDLE = os.path.join(REPO, "data", "pipeline_bundle")
 NB_OUT = os.path.join(REPO, "experiments", "Pipeline", "KLTN_Pipeline_GiaSu_100cau.ipynb")
-ADAPTER = sys.argv[1]
+ADAPTER = sys.argv[1] if len(sys.argv) > 1 else os.path.join(REPO, "models", "router_lora")
 
 # Final notebook of each Mũ-Logarit ReAct dạng (checked: it holds the latest prompt_Dxx*.txt and its result is 90/90).
 ML_FINAL = {"D08": "G10", "D10": "H01", "D16": "G06", "D17": "H02", "D22": "G09", "D23": "H02", "D24": "G07",
@@ -197,8 +199,9 @@ with open(os.path.join(BUNDLE, "bang_dang_prompt.csv"), "w", encoding="utf-8-sig
 shutil.copy(QUESTIONS, os.path.join(BUNDLE, os.path.basename(QUESTIONS)))
 shutil.copy(CANDIDATES, os.path.join(BUNDLE, "router_candidates.json"))
 dst = os.path.join(BUNDLE, "router_lora")
+assert os.path.realpath(ADAPTER) != os.path.realpath(dst), "the adapter must not be the bundle copy that is about to be replaced"
 shutil.rmtree(dst, ignore_errors=True)
-shutil.copytree(ADAPTER, dst)
+shutil.copytree(ADAPTER, dst, ignore=shutil.ignore_patterns("training_run_v3"))     # the bundle copy is git-ignored
 
 # ---------------- Notebook ----------------
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
