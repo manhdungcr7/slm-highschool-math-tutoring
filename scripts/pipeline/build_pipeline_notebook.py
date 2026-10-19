@@ -45,7 +45,7 @@ ML_FINAL = {"D08": "G10", "D10": "H01", "D16": "G06", "D17": "H02", "D22": "G09"
             "D88": "G06", "D89": "H03", "D93": "G03", "D94": "G07"}
 # Số phức ReAct dạng (codes of the data/notebooks; data D55 is D54 in the paper and the catalogue).
 SP_SINGLE = ["D35", "D36", "D37", "D38", "D39", "D44", "D45", "D46", "D47", "D48", "D50", "D51", "D52", "D53", "D55"]
-# D04 uses the Nhom1 version (the author confirmed it; the stand-alone D04 notebook is an older prompt, md5 ff72a99c).
+# D04 uses the Nhom1 version (the author confirmed it; the older stand-alone D04 notebook was removed).
 SP_GROUP = {"Nhom1": ["D04", "D14", "D28", "D32", "D33"], "Nhom2": ["D34", "D40", "D42", "D49"]}
 SP_GROUP_NB = {"Nhom1": "KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb", "Nhom2": "KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb"}
 
