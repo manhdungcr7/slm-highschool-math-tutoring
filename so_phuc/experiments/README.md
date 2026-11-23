@@ -1,7 +1,8 @@
 # Experiments
 
 This directory contains the Kaggle notebooks used to evaluate the baseline and
-ReAct-Calculator settings on 24 Complex Numbers problem types.
+ReAct-Calculator settings on 23 Complex Numbers problem types (D34 was removed;
+see [`../README.md`](../README.md#main-results)).
 
 In the ReAct-Calculator setting, the model alternates among:
 
@@ -19,16 +20,16 @@ excluded.
 
 ## `Qwen3-4B/`
 
-Qwen3-4B is the main model. Its 18 notebooks collectively cover all 24
+Qwen3-4B is the main model. Its 18 notebooks collectively cover all 23
 selected problem types.
 
 | File | Coverage |
 |---|---|
 | `KLTN_D<NN>_ReAct_Calculator_full90.ipynb` | Sixteen single-type notebooks, each containing 90 questions |
 | `KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb` | D04, D14, D28, D32, and D33 in one model session |
-| `KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb` | D34, D40, D42, D45, D46, and D49 in one model session |
+| `KLTN_Nhom2_D40_D42_D45_D46_D49_full90.ipynb` | D40, D42, D45, D46, and D49 in one model session |
 
-The grouped notebooks add the eight types not covered by the single-type
+The grouped notebooks add the seven types not covered by the single-type
 notebooks. The D55 code used in the original notebooks corresponds to D54 in
 the paper. See [`../data/README.md`](../data/README.md) for the code-mapping
 note.
@@ -43,7 +44,7 @@ settings.
 |---|---|---|
 | D04, D38, D46, D51, D53 | `KLTN_5dang_ReAct_Calculator_full90_<model>.ipynb` | `KLTN_5dang_zeroshot_full90_<model>.ipynb` |
 | D35, D36, D37, D39, D44, D45, D47, D48, D50, D52, D55 | `KLTN_11dang_ReAct_Calculator_full90_<model>.ipynb` | `KLTN_11dang_zeroshot_full90_<model>.ipynb` |
-| D14, D28, D32, D33, D34, D40, D42, D49 | `KLTN_8dangMoi_ReAct_Calculator_full90_<model>.ipynb` | `KLTN_8dangMoi_zeroshot_full90_<model>.ipynb` |
+| D14, D28, D32, D33, D40, D42, D49 | `KLTN_7dangMoi_ReAct_Calculator_full90_<model>.ipynb` | `KLTN_7dangMoi_zeroshot_full90_<model>.ipynb` |
 
 `<model>` is either `DeepSeek-R1-Distill-Qwen-1.5B` or
 `Llama-3.2-3B-Instruct`.

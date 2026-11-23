@@ -22,21 +22,22 @@ question ──► Router ──────────► "Dạng N" ──►
              "Dạng N: description"                                · ReAct + Calculator (SymPy tool)
 ```
 
-* **142 dạng** (problem types): Dạng 1-88 are Exponential/Logarithm, Dạng 89-142 are Complex Numbers. The catalogue
+* **142 dạng** (problem types): Dạng 1-88 are Exponential/Logarithm, Dạng 89-142 are Complex Numbers. **141 of them are
+  scored**: Complex Numbers D34 (Dạng 122 in the catalogue) was removed from the evaluation: its answer key counted $z = 0$ as purely imaginary in 4 questions, while the convention of this work is that 0 is not purely imaginary. The router still chooses among all 142 strings (it was trained on them). The catalogue
   ([`data/catalogue/`](data/catalogue/)) holds the name, description, example and recognition hints of each dạng, and the
   old code (`ma_cu`, e.g. `ML_D20`, `SP_D55`) used by the experiments.
 * **Router:** fine-tuned Qwen3-0.6B (LoRA). It scores all 142 strings and takes the most probable one. See
   [`models/`](models/) and [`experiments/Router-Finetune/`](experiments/Router-Finetune/).
-* **Solver:** Qwen3-4B on vLLM. 56 dạng (32 Exponential/Logarithm, 24 Complex Numbers) use **ReAct + Calculator**, the other
-  86 are solved **zero-shot**. Each dạng uses exactly the prompt, tool and generation parameters of its final experiment.
+* **Solver:** Qwen3-4B on vLLM. 55 dạng (32 Exponential/Logarithm, 23 Complex Numbers) use **ReAct + Calculator**, the other
+  87 are solved **zero-shot** (including the removed Complex Numbers D34, should the router pick it). Each dạng uses exactly the prompt, tool and generation parameters of its final experiment.
 * **Figures:** [`docs/figures/`](docs/figures/) (draw.io sources + PNG, Vietnamese and English; to be refined).
 
 ## Key results so far
 
 | Stage | Result |
 |---|---|
-| Router, on its test set (12,951 questions of the existing data; 100% when the whole string is scored) | 12,951/12,951; on the 171 source questions 100% with full-text scoring, 99.4% with the label part only |
-| Each ReAct dạng on its 90 generated variants (Qwen3-4B) | 90/90 for all 32 Exponential/Logarithm dạng and all 24 Complex Numbers dạng |
+| Router, on its test set (12,860 questions of the existing data in the 141 scored dạng; 100% when the whole string is scored) | 12,860/12,860; on the 170 source questions 100% with full-text scoring, 99.4% with the label part only |
+| Each ReAct dạng on its 90 generated variants (Qwen3-4B) | 90/90 for all 32 Exponential/Logarithm dạng and all 23 Complex Numbers dạng |
 | **Whole pipeline on 93 real questions** (49 of the 142 dạng, one Kaggle run, 2026-10-16) | router 77/93 (82.8%), final answer 89/93 (95.7%) |
 
 The last row is the first test outside the generated data. Details, the 100-question set it comes from and the reasons why
@@ -53,7 +54,7 @@ perfect on real questions, and the ReAct answers are less reliable than 95.7% su
 | [`experiments/Router-Finetune/`](experiments/Router-Finetune/), [`scripts/router/`](scripts/router/) | Router training notebook and every script that built the catalogue and the training data |
 | [`experiments/ReAct-Calculator/`](experiments/ReAct-Calculator/), [`scripts/experiments/react/`](scripts/experiments/react/) | ReAct + Calculator notebooks for the 32 Exponential/Logarithm dạng, their prompts, and the code that builds them |
 | [`experiments/Qwen3-4B/`](experiments/Qwen3-4B/) | The zero-shot notebooks: Exponential/Logarithm, and the Complex Numbers baseline (`qwen_eval_kaggle_sophuc_zeroshot.ipynb`) |
-| [`so_phuc/`](so_phuc/) | Mirror of the Complex Numbers repository (data, 24 ReAct notebooks, results) |
+| [`so_phuc/`](so_phuc/) | Complex Numbers data, ReAct notebooks and results for the 23 ReAct dạng, and the reworded benchmark v2 (2,070 questions) |
 | [`experiments/Pipeline/`](experiments/Pipeline/), [`scripts/pipeline/`](scripts/pipeline/), [`data/pipeline_bundle/`](data/pipeline_bundle/) | **The whole-system notebook**, the scripts that build and analyse it, and its Kaggle bundle |
 | [`data/results/pipeline_realworld/`](data/results/pipeline_realworld/) | Real-world test: question sets, results of the Kaggle run, error analysis, open problems |
 | [`scripts/realworld_eval/`](scripts/realworld_eval/), [`data/questions/realworld_pool/`](data/questions/realworld_pool/) | Crawl, parse and filter scripts to collect new real questions, and the pool already collected (3,111 + 258 parsed questions, nearly all with their answer key) |

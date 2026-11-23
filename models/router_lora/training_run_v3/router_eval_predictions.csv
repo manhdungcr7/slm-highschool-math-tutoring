@@ -115,7 +115,6 @@
 8034,125,SP_D37,Câu gốc,Số phức,125,True,125,True,True,0.9999971389770508,125.0,True,Dạng 125: Cho phương trình có môđun của z ở nhiều vị trí: (một số phức) nhân môđun của z bằng (một số chia z) cộng một số phức; chọn mệnh đề đúng về khoảng chứa
 8035,89,SP_D01,Câu gốc,Số phức,89,True,89,True,True,0.9999920129776001,89.0,True,"Dạng 89: Cho số phức z = a + bi, tìm đồng thời phần thực và phần ảo của z (đề hỏi cả hai giá trị a và b)."
 8036,103,SP_D15,Câu gốc,Số phức,103,True,103,True,True,0.9999390840530396,103.0,True,"Dạng 103: Cho số phức liên hợp của z bằng tích của hai số phức, tính môđun của z."
-8037,122,SP_D34,Câu gốc,Số phức,122,True,122,True,True,0.9999959468841553,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 8038,138,SP_D50,Câu gốc,Số phức,138,True,138,True,True,0.9993348717689514,138.0,True,"Dạng 138: Cho tổng khoảng cách từ z đến hai điểm bằng một số (z thuộc một đoạn thẳng), gọi m và M là giá trị nhỏ nhất và giá trị lớn nhất của môđun của (z trừ m"
 8039,129,SP_D41,Câu gốc,Số phức,129,True,129,True,True,0.9991520643234253,129.0,True,Dạng 129: Cho tích (z trừ một số thuần ảo) nhân (liên hợp của z trừ một số thực) là số thuần ảo; tìm tọa độ TÂM của đường tròn tập hợp điểm biểu diễn z.
 8040,124,SP_D36,Câu gốc,Số phức,124,True,124,True,True,0.9997897744178772,124.0,True,"Dạng 124: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun z bình phương bằng một hệ số nhân môđun của (z cộng liên hợp của z) cộng một số, và khoảng cách t"
@@ -303,7 +302,6 @@
 4147,74,ML_D80,Biến thể,Mũ-Logarit,74,True,74,True,True,0.9989578723907471,,,
 12377,113,SP_D25,Biến thể,Số phức,113,True,113,True,True,0.9997530579566956,,,
 9369,101,SP_D13,Biến thể,Số phức,101,True,101,True,True,0.999748170375824,,,
-9002,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999997615814209,,,
 4411,85,ML_D91,Biến thể,Mũ-Logarit,85,True,85,True,True,0.9999769926071167,85.0,True,"Dạng 85: Giải phương trình mũ có hai vế đều viết dưới dạng lũy thừa của cùng một cơ số, ví dụ 3 mũ (2x cộng 1) bằng 3 mũ (2 trừ x); có thể một vế là lũy thừa hằ"
 12411,113,SP_D25,Biến thể,Số phức,113,True,113,True,True,0.9998224377632141,113.0,True,"Dạng 113: Cho hai số phức z, w, tính hiệu z trừ w; đáp án là một số phức."
 9749,95,SP_D07,Biến thể,Số phức,95,True,95,True,True,0.9999980926513672,,,
@@ -368,7 +366,6 @@
 6233,52,ML_D56,Biến thể,Mũ-Logarit,52,True,52,True,True,0.9998576641082764,52.0,True,Dạng 52: Đếm số nguyên x thỏa bất phương trình giữa hai lôgarit khác cơ số của hai phân thức cùng có tử số là x bình phương trừ một số.
 12664,136,SP_D48,Biến thể,Số phức,136,True,136,True,True,0.999966025352478,,,
 2753,23,ML_D27,Biến thể,Mũ-Logarit,23,True,23,True,True,0.9999955892562866,,,
-9009,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999973773956299,,,
 8861,89,SP_D01,Biến thể,Số phức,89,True,89,True,True,0.9999938011169434,,,
 116,1,ML_D01,Biến thể,Mũ-Logarit,1,True,1,True,True,0.9999997615814209,,,
 9985,117,SP_D29,Biến thể,Số phức,117,True,117,True,True,0.9999998807907104,,,
@@ -401,7 +398,6 @@
 10110,133,SP_D45,Biến thể,Số phức,133,True,133,True,True,0.9992538094520569,,,
 7039,83,ML_D89,Biến thể,Mũ-Logarit,83,True,83,True,True,0.9999966621398926,,,
 3577,54,ML_D58,Biến thể,Mũ-Logarit,54,True,54,True,True,0.9999698400497437,,,
-9007,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999978542327881,,,
 12546,105,SP_D17,Biến thể,Số phức,105,True,105,True,True,0.9997379183769226,,,
 12131,118,SP_D30,Biến thể,Số phức,118,True,118,True,True,0.9991273283958435,,,
 11474,109,SP_D21,Biến thể,Số phức,109,True,109,True,True,0.9992653727531433,,,
@@ -442,7 +438,6 @@
 11132,123,SP_D35,Biến thể,Số phức,123,True,123,True,True,0.9997050166130066,,,
 8125,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.9999967813491821,,,
 3617,54,ML_D58,Biến thể,Mũ-Logarit,54,True,54,True,True,0.9999748468399048,,,
-9006,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999935626983643,,,
 2274,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9988879561424255,3.0,True,Dạng 3: Tìm tập xác định của hàm số lôgarit mà biểu thức bên trong lôgarit là một đa thức bậc hai theo x.
 12023,90,SP_D02,Biến thể,Số phức,90,True,90,True,True,0.9991629123687744,,,
 9527,107,SP_D19,Biến thể,Số phức,107,True,107,True,True,0.9996116757392883,,,
@@ -488,7 +483,6 @@
 1711,45,ML_D50a,Biến thể,Mũ-Logarit,45,True,45,True,True,0.9994150400161743,,,
 935,26,ML_D30,Biến thể,Mũ-Logarit,26,True,26,True,True,0.9999244213104248,,,
 10856,137,SP_D49,Biến thể,Số phức,137,True,137,True,True,0.9999696016311646,,,
-9028,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999572038650513,,,
 348,15,ML_D18,Biến thể,Mũ-Logarit,15,True,15,True,True,0.9999406337738037,15.0,True,"Dạng 15: Tính đạo hàm của hàm số lôgarit cơ bản y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x."
 1635,39,ML_D44,Biến thể,Mũ-Logarit,39,True,39,True,True,0.9999412298202515,39.0,True,Dạng 39: Cho lôgarit của tích hai lũy thừa có số mũ chưa biết a và b (cơ số là các lũy thừa của cùng một số) bằng một lôgarit cho trước; chọn hệ thức đúng giữa 
 12518,105,SP_D17,Biến thể,Số phức,105,True,105,True,True,0.999946117401123,,,
@@ -521,7 +515,6 @@
 1065,55,ML_D60,Biến thể,Mũ-Logarit,55,True,55,True,True,0.9991164803504944,,,
 9661,93,SP_D05,Biến thể,Số phức,93,True,93,True,True,0.9994255304336548,,,
 12226,141,SP_D53,Biến thể,Số phức,141,True,141,True,True,0.9988096952438354,,,
-9055,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999938011169434,,,
 1105,55,ML_D60,Biến thể,Mũ-Logarit,55,True,55,True,True,0.9991903901100159,,,
 12426,113,SP_D25,Biến thể,Số phức,113,True,113,True,True,0.9997183680534363,113.0,True,"Dạng 113: Cho hai số phức z, w, tính hiệu z trừ w; đáp án là một số phức."
 5245,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.9999662637710571,,,
@@ -590,7 +583,6 @@
 4776,22,ML_D25,Biến thể,Mũ-Logarit,22,True,22,True,True,0.9999998807907104,,,
 2691,18,ML_D21,Biến thể,Mũ-Logarit,18,True,18,True,True,0.9997729659080505,,,
 7286,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.9998243451118469,,,
-9072,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999995231628418,,,
 11698,132,SP_D44,Biến thể,Số phức,132,True,132,True,True,0.9999321699142456,132.0,True,Dạng 132: Cho môđun của z bằng một số và w bằng một phân thức (một số cộng i nhân z) chia (1 cộng z); tìm bán kính của đường tròn tập hợp điểm biểu diễn w.
 5063,12,ML_D15,Biến thể,Mũ-Logarit,12,True,12,True,True,0.9999979734420776,,,
 10193,139,SP_D51,Biến thể,Số phức,139,True,139,True,True,0.9999892711639404,,,
@@ -736,7 +728,6 @@
 7251,60,ML_D65,Biến thể,Mũ-Logarit,60,True,60,True,True,0.9998630285263062,,,
 134,1,ML_D01,Biến thể,Mũ-Logarit,1,True,1,True,True,1.0,1.0,True,"Dạng 1: Giải phương trình lôgarit cơ bản: lôgarit của một biểu thức bậc nhất theo x bằng một số cho trước, tìm nghiệm x."
 8690,119,SP_D31,Biến thể,Số phức,119,True,119,True,True,0.9999381303787231,,,
-8993,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999949932098389,,,
 11425,99,SP_D11,Biến thể,Số phức,99,True,99,True,True,0.9993053674697876,99.0,True,"Dạng 99: Cho số phức z = a + bi, tìm số phức liên hợp của z."
 11959,110,SP_D22,Biến thể,Số phức,110,True,110,True,True,0.9994841814041138,,,
 12328,135,SP_D47,Biến thể,Số phức,135,True,135,True,True,0.9989560842514038,,,
@@ -875,7 +866,6 @@
 4558,68,ML_D74,Biến thể,Mũ-Logarit,68,True,68,True,True,0.9997091889381409,,,
 5609,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.9995788931846619,64.0,True,"Dạng 64: Cho phương trình có hàm mũ và lôgarit lồng nhau với tham số m, đếm số giá trị nguyên của m trong một khoảng để phương trình có nghiệm."
 5345,35,ML_D40,Biến thể,Mũ-Logarit,35,True,35,True,True,0.9999902248382568,,,
-9021,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999945163726807,,,
 1427,84,ML_D90,Biến thể,Mũ-Logarit,84,True,84,True,True,0.999998927116394,,,
 2374,6,ML_D07,Biến thể,Mũ-Logarit,6,True,6,True,True,0.9999979734420776,,,
 2578,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.9979141354560852,,,
@@ -889,7 +879,6 @@
 6904,34,ML_D39,Biến thể,Mũ-Logarit,34,True,34,True,True,1.0,,,
 6785,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.9999850988388062,87.0,True,Dạng 87: Đếm số nguyên dương a sao cho với mỗi a có đúng ba số nguyên b thỏa bất phương trình tích hai thừa số chứa hàm mũ nhỏ hơn 0.
 5528,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.999862551689148,,,
-9062,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999713897705078,,,
 7740,72,ML_D78,Biến thể,Mũ-Logarit,72,True,72,True,True,0.999794065952301,72.0,True,"Dạng 72: Cho x, y không âm thỏa một bất phương trình chứa lũy thừa, tìm giá trị nhỏ nhất của biểu thức bậc hai theo x, y."
 6919,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.9999769926071167,,,
 1127,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.9999167919158936,,,
@@ -1250,7 +1239,6 @@
 6701,69,ML_D75,Biến thể,Mũ-Logarit,69,True,69,True,True,0.9998470544815063,69.0,True,"Dạng 69: Cho phương trình tích của một biểu thức bậc hai theo lôgarit cơ số 2 của x với căn bậc hai của (một hàm mũ trừ m) bằng 0, đếm số giá trị nguyên dương c"
 4567,68,ML_D74,Biến thể,Mũ-Logarit,68,True,68,True,True,0.9998751878738403,,,
 8371,131,SP_D43,Biến thể,Số phức,131,True,131,True,True,0.9982163310050964,,,
-9019,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999972581863403,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 8262,102,SP_D14,Biến thể,Số phức,102,True,102,True,True,0.9997609257698059,102.0,True,"Dạng 102: Cho hai số phức z1, z2, tính môđun của tổng z1 cộng z2."
 7279,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.999333918094635,,,
 1424,84,ML_D90,Biến thể,Mũ-Logarit,84,True,84,True,True,0.9997932314872742,,,
@@ -1310,7 +1298,6 @@
 8603,116,SP_D28,Biến thể,Số phức,116,True,116,True,True,0.9999985694885254,,,
 125,1,ML_D01,Biến thể,Mũ-Logarit,1,True,1,True,True,0.9999924898147583,,,
 10947,108,SP_D20,Biến thể,Số phức,108,True,108,True,True,0.9992799162864685,,,
-9061,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999959468841553,,,
 7676,53,ML_D57,Biến thể,Mũ-Logarit,53,True,53,True,True,0.9999923706054688,,,
 6877,34,ML_D39,Biến thể,Mũ-Logarit,34,True,34,True,True,1.0,,,
 995,50,ML_D54,Biến thể,Mũ-Logarit,50,True,50,True,True,0.999889612197876,,,
@@ -1380,12 +1367,10 @@
 8194,102,SP_D14,Biến thể,Số phức,102,True,102,True,True,0.9999585151672363,,,
 2541,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.9981092214584351,,,
 7423,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.9995597004890442,,,
-8996,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999939203262329,,,
 8107,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.9999959468841553,,,
 5761,41,ML_D46,Biến thể,Mũ-Logarit,41,True,41,True,True,0.9996756315231323,41.0,True,"Dạng 41: Cho a, b lớn hơn 1 và a mũ x bằng b mũ y bằng (a nhân b) mũ một phần số nào đó, tìm tập chứa giá trị nhỏ nhất của x cộng một hệ số nhân y."
 5553,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.9998127818107605,64.0,True,"Dạng 64: Cho phương trình có hàm mũ và lôgarit lồng nhau với tham số m, đếm số giá trị nguyên của m trong một khoảng để phương trình có nghiệm."
 9214,129,SP_D41,Biến thể,Số phức,129,True,129,True,True,0.9998669624328613,129.0,True,Dạng 129: Cho tích (z trừ một số thuần ảo) nhân (liên hợp của z trừ một số thực) là số thuần ảo; tìm tọa độ TÂM của đường tròn tập hợp điểm biểu diễn z.
-9075,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999947547912598,,,
 6287,52,ML_D56,Biến thể,Mũ-Logarit,52,True,52,True,True,0.9996609687805176,52.0,True,Dạng 52: Đếm số nguyên x thỏa bất phương trình giữa hai lôgarit khác cơ số của hai phân thức cùng có tử số là x bình phương trừ một số.
 7567,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.9999816417694092,,,
 5379,13,ML_D16,Biến thể,Mũ-Logarit,13,True,13,True,True,0.9999992847442627,,,
@@ -1436,7 +1421,6 @@
 5295,35,ML_D40,Biến thể,Mũ-Logarit,35,True,35,True,True,0.9999924898147583,35.0,True,"Dạng 35: Cho phương trình bậc hai theo lôgarit của x có tham số m, tìm các giá trị của m để phương trình có hai nghiệm phân biệt thuộc một đoạn bắt đầu từ 1."
 10441,128,SP_D40,Biến thể,Số phức,128,True,128,True,True,0.9972008466720581,,,
 8166,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.9999973773956299,,,
-9036,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999740123748779,,,
 695,10,ML_D13,Biến thể,Mũ-Logarit,10,True,10,True,True,0.9995436072349548,,,
 10288,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.9999988079071045,,,
 1228,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9993428587913513,,,
@@ -1623,7 +1607,6 @@
 7539,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.9999979734420776,,,
 6185,25,ML_D29,Biến thể,Mũ-Logarit,25,True,25,True,True,0.999984860420227,,,
 11157,97,SP_D09,Biến thể,Số phức,97,True,97,True,True,0.999981164932251,97.0,True,"Dạng 97: Cho phần thực và phần ảo, viết số phức tương ứng."
-9022,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999891519546509,,,
 6973,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.9999701976776123,,,
 9794,95,SP_D07,Biến thể,Số phức,95,True,95,True,True,0.9999988079071045,95.0,True,"Dạng 95: Cho hai số phức z1, z2, tìm phần ảo của tích z1 nhân z2."
 2638,18,ML_D21,Biến thể,Mũ-Logarit,18,True,18,True,True,0.9994545578956604,,,
@@ -2095,7 +2078,6 @@
 4953,17,ML_D20,Biến thể,Mũ-Logarit,17,True,17,True,True,0.9998190999031067,17.0,True,"Dạng 17: Cho a dương khác 1 và P là lôgarit cơ số căn bậc n của a, của a lũy thừa m; chọn mệnh đề đúng về giá trị của P."
 1764,46,ML_D50b,Biến thể,Mũ-Logarit,46,True,46,True,True,0.9999469518661499,,,
 12842,142,SP_D54,Biến thể,Số phức,142,True,142,True,True,0.9997628331184387,,,
-9015,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999953508377075,,,
 8798,125,SP_D37,Biến thể,Số phức,125,True,125,True,True,0.9999958276748657,125.0,True,Dạng 125: Cho phương trình có môđun của z ở nhiều vị trí: (một số phức) nhân môđun của z bằng (một số chia z) cộng một số phức; chọn mệnh đề đúng về khoảng chứa
 725,30,ML_D36a,Biến thể,Mũ-Logarit,30,True,30,True,True,0.9965428709983826,,,
 11261,130,SP_D42,Biến thể,Số phức,130,True,130,True,True,0.9977341890335083,,,
@@ -2274,7 +2256,6 @@
 5187,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.9999674558639526,,,
 8616,116,SP_D28,Biến thể,Số phức,116,True,116,True,True,0.9999959468841553,,,
 6631,21,ML_D24,Biến thể,Mũ-Logarit,21,True,21,True,True,0.9999638795852661,,,
-9069,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999964237213135,,,
 7863,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9998432397842407,,,
 4257,79,ML_D85,Biến thể,Mũ-Logarit,79,True,79,True,True,0.9995525479316711,79.0,True,Dạng 79: Tìm tập xác định của hàm số y bằng lôgarit cơ số a của (x trừ một số).
 706,30,ML_D36a,Biến thể,Mũ-Logarit,30,True,30,True,True,0.9980880618095398,,,
@@ -2388,7 +2369,6 @@
 5799,8,ML_D10,Biến thể,Mũ-Logarit,8,True,8,True,True,0.9998077750205994,,,
 1170,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.999908447265625,,,
 9183,129,SP_D41,Biến thể,Số phức,129,True,129,True,True,0.99882572889328,129.0,True,Dạng 129: Cho tích (z trừ một số thuần ảo) nhân (liên hợp của z trừ một số thực) là số thuần ảo; tìm tọa độ TÂM của đường tròn tập hợp điểm biểu diễn z.
-9054,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999954700469971,,,
 4864,44,ML_D49,Biến thể,Mũ-Logarit,44,True,44,True,True,0.9993727803230286,,,
 5021,12,ML_D15,Biến thể,Mũ-Logarit,12,True,12,True,True,0.9999973773956299,,,
 2687,18,ML_D21,Biến thể,Mũ-Logarit,18,True,18,True,True,0.9998831748962402,,,
@@ -2700,7 +2680,6 @@
 4822,44,ML_D49,Biến thể,Mũ-Logarit,44,True,44,True,True,0.9999552965164185,,,
 10924,108,SP_D20,Biến thể,Số phức,108,True,108,True,True,0.9995229244232178,,,
 9567,99,SP_D11,Biến thể,Số phức,99,True,99,True,True,0.9995057582855225,,,
-9071,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999994158744812,,,
 6327,77,ML_D83,Biến thể,Mũ-Logarit,77,True,77,True,True,0.9999927282333374,77.0,True,Dạng 77: Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lũy thừa) và (lôgarit trừ một số) nhỏ hơn hoặc bằng 0.
 11544,120,SP_D32,Biến thể,Số phức,120,True,120,True,True,0.9999901056289673,,,
 11739,111,SP_D23,Biến thể,Số phức,111,True,111,True,True,0.9963480830192566,111.0,True,"Dạng 111: Cho điểm biểu diễn M(hoành độ; tung độ) của số phức z, tìm phần thực của z."
@@ -2769,7 +2748,6 @@
 5596,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.9998358488082886,,,
 4769,22,ML_D25,Biến thể,Mũ-Logarit,22,True,22,True,True,0.9999995231628418,,,
 7551,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.999872088432312,42.0,True,"Dạng 42: Đếm số nguyên x để tồn tại số thực y thỏa hai lôgarit bằng nhau: lôgarit của (x cộng y) và lôgarit của (x bình phương cộng y bình phương), hai cơ số kh"
-9073,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999842643737793,,,
 8762,125,SP_D37,Biến thể,Số phức,125,True,125,True,True,0.9999964237213135,,,
 8264,102,SP_D14,Biến thể,Số phức,102,True,102,True,True,0.9999442100524902,102.0,True,"Dạng 102: Cho hai số phức z1, z2, tính môđun của tổng z1 cộng z2."
 2305,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9998735189437866,,,
@@ -2891,7 +2869,6 @@
 7048,83,ML_D89,Biến thể,Mũ-Logarit,83,True,83,True,True,0.9999995231628418,83.0,True,Dạng 83: Đếm số nguyên dương y sao cho tồn tại x trong một khoảng thỏa phương trình chứa e mũ x và tích x nhân y.
 10693,98,SP_D10,Biến thể,Số phức,98,True,98,True,True,0.9992302656173706,,,
 1151,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.9997838139533997,,,
-9038,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999450445175171,,,
 1094,55,ML_D60,Biến thể,Mũ-Logarit,55,True,55,True,True,0.9989797472953796,,,
 1237,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9992936849594116,,,
 7841,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9998148083686829,,,
@@ -3342,7 +3319,6 @@
 8927,103,SP_D15,Biến thể,Số phức,103,True,103,True,True,0.9999352693557739,,,
 8472,100,SP_D12,Biến thể,Số phức,100,True,100,True,True,0.9995718598365784,100.0,True,"Dạng 100: Cho số phức z là tích của i với một số phức (ví dụ z = i nhân (5 trừ 4i)), tìm số phức liên hợp của z."
 6960,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.999974250793457,,,
-9079,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999921321868896,,,
 709,30,ML_D36a,Biến thể,Mũ-Logarit,30,True,30,True,True,0.9984179735183716,,,
 10307,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.999992847442627,96.0,True,"Dạng 96: Cho số phức z = a + bi, tìm phần thực của z bình phương."
 8968,103,SP_D15,Biến thể,Số phức,103,True,103,True,True,0.9999737739562988,,,
@@ -3514,9 +3490,7 @@
 10266,106,SP_D18,Biến thể,Số phức,106,True,106,True,True,0.9999986886978149,,,
 9678,93,SP_D05,Biến thể,Số phức,93,True,93,True,True,0.9997149109840393,,,
 4496,36,ML_D41,Biến thể,Mũ-Logarit,36,True,36,True,True,1.0,,,
-9070,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999901056289673,,,
 6117,77,ML_D83,Biến thể,Mũ-Logarit,77,True,77,True,True,0.9999938011169434,,,
-9052,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999920129776001,,,
 788,31,ML_D36b,Biến thể,Mũ-Logarit,31,True,31,True,True,0.9998326301574707,,,
 7338,7,ML_D08,Biến thể,Mũ-Logarit,7,True,7,True,True,0.9999998807907104,,,
 9123,138,SP_D50,Biến thể,Số phức,138,True,138,True,True,0.9986336827278137,,,
@@ -3545,7 +3519,6 @@
 5854,63,ML_D68,Biến thể,Mũ-Logarit,63,True,63,True,True,0.9998646974563599,,,
 8892,89,SP_D01,Biến thể,Số phức,89,True,89,True,True,0.9999779462814331,89.0,True,"Dạng 89: Cho số phức z = a + bi, tìm đồng thời phần thực và phần ảo của z (đề hỏi cả hai giá trị a và b)."
 4712,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999911785125732,,,
-8999,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999943971633911,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 2865,24,ML_D28,Biến thể,Mũ-Logarit,24,True,24,True,True,0.9999783039093018,,,
 5409,13,ML_D16,Biến thể,Mũ-Logarit,13,True,13,True,True,0.9999997615814209,13.0,True,"Dạng 13: Tìm các giá trị của tham số m để phương trình có hai hàm mũ khác cơ số, cộng thêm số hạng chứa m, có nghiệm thuộc khoảng từ 0 đến 1."
 4901,17,ML_D20,Biến thể,Mũ-Logarit,17,True,17,True,True,0.9999033212661743,,,
@@ -3844,7 +3817,6 @@
 6825,34,ML_D39,Biến thể,Mũ-Logarit,34,True,34,True,True,0.9999964237213135,34.0,True,"Dạng 34: Cho ba lôgarit bằng nhau với ba cơ số khác nhau: lôgarit của x, lôgarit của y và lôgarit của (một hệ số nhân x cộng y); tính x chia y."
 498,50,ML_D54,Biến thể,Mũ-Logarit,50,True,50,True,True,0.9998968839645386,,,
 11449,109,SP_D21,Biến thể,Số phức,109,True,109,True,True,0.9989946484565735,109.0,True,"Dạng 109: Cho hai số phức z1, z2, tìm tọa độ điểm biểu diễn của số phức 2 nhân z1 cộng z2."
-9044,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999611377716064,,,
 5782,8,ML_D10,Biến thể,Mũ-Logarit,8,True,8,True,True,0.9998445510864258,,,
 9641,93,SP_D05,Biến thể,Số phức,93,True,93,True,True,0.9995496869087219,93.0,True,"Dạng 93: Cho hai số phức z1, z2, tìm phần thực của tổng z1 cộng z2."
 9352,101,SP_D13,Biến thể,Số phức,101,True,101,True,True,0.9998997449874878,,,
@@ -4156,7 +4128,6 @@
 169,1,ML_D01,Biến thể,Mũ-Logarit,1,True,1,True,True,0.999995231628418,,,
 7112,14,ML_D17,Biến thể,Mũ-Logarit,14,True,14,True,True,0.9999873638153076,,,
 1542,32,ML_D37,Biến thể,Mũ-Logarit,32,True,32,True,True,0.9997506737709045,,,
-9051,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999271631240845,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 7976,47,ML_D51,Biến thể,Mũ-Logarit,47,True,47,True,True,0.9999686479568481,47.0,True,"Dạng 47: Đếm số nguyên x thỏa bất phương trình có tích của một biểu thức mũ theo x và căn bậc hai của (một số trừ log của một bội của x), lớn hơn hoặc bằng 0."
 10987,121,SP_D33,Biến thể,Số phức,121,True,121,True,True,0.9993407130241394,121.0,True,"Dạng 121: Cho z = a + bi thỏa phương trình có chứa môđun của z: z cộng một số phức, trừ môđun của z nhân i, bằng 0; tính a cộng một hệ số nhân b."
 1696,45,ML_D50a,Biến thể,Mũ-Logarit,45,True,45,True,True,0.9995929598808289,45.0,True,Dạng 45: Cho hiệu của lôgarit của a và một số lần lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.
@@ -4334,7 +4305,6 @@
 4515,36,ML_D41,Biến thể,Mũ-Logarit,36,True,36,True,True,1.0,36.0,True,"Dạng 36: Đếm số cặp số nguyên (x; y), với x thuộc một đoạn cho trước, thỏa một phương trình chứa lôgarit của biểu thức theo x và hàm mũ theo y."
 6816,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.9999736547470093,,,
 11411,126,SP_D38,Biến thể,Số phức,126,True,126,True,True,1.0,,,
-9003,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999927282333374,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 252,9,ML_D12,Biến thể,Mũ-Logarit,9,True,9,True,True,0.9999986886978149,,,
 7874,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9999414682388306,,,
 12678,136,SP_D48,Biến thể,Số phức,136,True,136,True,True,0.9999446868896484,,,
@@ -4367,7 +4337,6 @@
 4636,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999747276306152,,,
 11384,126,SP_D38,Biến thể,Số phức,126,True,126,True,True,1.0,,,
 4643,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999911785125732,,,
-9001,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999973773956299,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 5002,12,ML_D15,Biến thể,Mũ-Logarit,12,True,12,True,True,0.9999984502792358,,,
 3193,37,ML_D42,Biến thể,Mũ-Logarit,37,True,37,True,True,0.9963472485542297,37.0,True,"Dạng 37: Tìm tập xác định của hàm số y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x."
 2563,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.9975735545158386,,,
@@ -4692,7 +4661,6 @@
 3639,56,ML_D61,Biến thể,Mũ-Logarit,56,True,56,True,True,0.9993786811828613,,,
 7595,48,ML_D52,Biến thể,Mũ-Logarit,48,True,48,True,True,0.9999030828475952,,,
 8661,119,SP_D31,Biến thể,Số phức,119,True,119,True,True,0.9998428821563721,,,
-8992,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999959468841553,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 1872,59,ML_D64,Biến thể,Mũ-Logarit,59,True,59,True,True,0.9998623132705688,,,
 8886,89,SP_D01,Biến thể,Số phức,89,True,89,True,True,0.9999878406524658,,,
 868,31,ML_D36b,Biến thể,Mũ-Logarit,31,True,31,True,True,0.9989368319511414,,,
@@ -4747,7 +4715,6 @@
 1034,50,ML_D54,Biến thể,Mũ-Logarit,50,True,50,True,True,0.9999637603759766,,,
 3382,76,ML_D82,Biến thể,Mũ-Logarit,76,True,76,True,True,0.9978883862495422,,,
 10314,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.9999808073043823,96.0,True,"Dạng 96: Cho số phức z = a + bi, tìm phần thực của z bình phương."
-8995,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999973773956299,,,
 4802,22,ML_D25,Biến thể,Mũ-Logarit,22,True,22,True,True,0.9999996423721313,,,
 10671,134,SP_D46,Biến thể,Số phức,134,True,134,True,True,0.9983035326004028,,,
 10417,128,SP_D40,Biến thể,Số phức,128,True,128,True,True,0.9972512125968933,,,
@@ -4760,7 +4727,6 @@
 12942,127,SP_D39,Biến thể,Số phức,127,True,127,True,True,0.9999986886978149,127.0,True,"Dạng 127: Đếm số số phức z thỏa đồng thời: môđun của z bình phương bằng hệ số nhân môđun của (z trừ liên hợp của z), và môđun của tích (z trừ một số)(liên hợp c"
 8632,119,SP_D31,Biến thể,Số phức,119,True,119,True,True,0.9996484518051147,,,
 10980,121,SP_D33,Biến thể,Số phức,121,True,121,True,True,0.9993681311607361,121.0,True,"Dạng 121: Cho z = a + bi thỏa phương trình có chứa môđun của z: z cộng một số phức, trừ môđun của z nhân i, bằng 0; tính a cộng một hệ số nhân b."
-9077,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999996542930603,,,
 4704,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999958276748657,86.0,True,Dạng 86: Đếm số nguyên thuộc tập xác định của hàm số y bằng log của tích hai nhị thức bậc nhất theo x.
 12303,135,SP_D47,Biến thể,Số phức,135,True,135,True,True,0.9979488253593445,,,
 10540,140,SP_D52,Biến thể,Số phức,140,True,140,True,True,0.999038815498352,140.0,True,"Dạng 140: Cho môđun của (z bình phương trừ một số phức) bằng một hệ số nhân môđun của z; gọi M và m là giá trị lớn nhất và giá trị nhỏ nhất của môđun của z, tín"
@@ -4815,7 +4781,6 @@
 1692,45,ML_D50a,Biến thể,Mũ-Logarit,45,True,45,True,True,0.9997001886367798,45.0,True,Dạng 45: Cho hiệu của lôgarit của a và một số lần lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.
 2516,11,ML_D14,Biến thể,Mũ-Logarit,11,True,11,True,True,0.9995261430740356,,,
 3783,57,ML_D62,Biến thể,Mũ-Logarit,57,True,57,True,True,0.9997696280479431,,,
-9033,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999887943267822,,,
 9632,93,SP_D05,Biến thể,Số phức,93,True,93,True,True,0.9995822310447693,,,
 8448,131,SP_D43,Biến thể,Số phức,131,True,131,True,True,0.9981058835983276,,,
 717,30,ML_D36a,Biến thể,Mũ-Logarit,30,True,30,True,True,0.9980103373527527,,,
@@ -4891,7 +4856,6 @@
 12310,135,SP_D47,Biến thể,Số phức,135,True,135,True,True,0.9976564645767212,135.0,True,Dạng 135: Cho phương trình bậc hai z bình phương trừ 2 nhân (m cộng một số) nhân z cộng m bình phương bằng 0 với m thực; đếm số giá trị của m để phương trình có
 6272,52,ML_D56,Biến thể,Mũ-Logarit,52,True,52,True,True,0.9997703433036804,,,
 5171,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.9999570846557617,,,
-9029,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999948740005493,,,
 3997,67,ML_D73,Biến thể,Mũ-Logarit,67,True,67,True,True,0.9982613921165466,,,
 4705,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999710321426392,,,
 6854,34,ML_D39,Biến thể,Mũ-Logarit,34,True,34,True,True,0.9999998807907104,,,
@@ -4910,7 +4874,6 @@
 7632,48,ML_D52,Biến thể,Mũ-Logarit,48,True,48,True,True,0.999782383441925,,,
 5195,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.9999806880950928,,,
 2104,81,ML_D87,Biến thể,Mũ-Logarit,81,True,81,True,True,0.9995161294937134,,,
-9010,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999936819076538,,,
 10892,108,SP_D20,Biến thể,Số phức,108,True,108,True,True,0.9995001554489136,,,
 5698,62,ML_D67,Biến thể,Mũ-Logarit,62,True,62,True,True,0.9999369382858276,,,
 7362,7,ML_D08,Biến thể,Mũ-Logarit,7,True,7,True,True,0.9999997615814209,,,
@@ -5567,11 +5530,9 @@
 7111,14,ML_D17,Biến thể,Mũ-Logarit,14,True,14,True,True,0.9999402761459351,,,
 7183,14,ML_D17,Biến thể,Mũ-Logarit,14,True,14,True,True,0.9999921321868896,,,
 10313,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.9999967813491821,96.0,True,"Dạng 96: Cho số phức z = a + bi, tìm phần thực của z bình phương."
-9076,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999948740005493,,,
 12526,105,SP_D17,Biến thể,Số phức,105,True,105,True,True,0.9999480247497559,,,
 7629,48,ML_D52,Biến thể,Mũ-Logarit,48,True,48,True,True,0.9998962879180908,,,
 3765,57,ML_D62,Biến thể,Mũ-Logarit,57,True,57,True,True,0.9999628067016602,,,
-9047,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999778270721436,,,
 12430,113,SP_D25,Biến thể,Số phức,113,True,113,True,True,0.9998506307601929,,,
 1432,84,ML_D90,Biến thể,Mũ-Logarit,84,True,84,True,True,0.9999433755874634,,,
 12595,105,SP_D17,Biến thể,Số phức,105,True,105,True,True,0.9996974468231201,,,
@@ -5767,7 +5728,6 @@
 12832,142,SP_D54,Biến thể,Số phức,142,True,142,True,True,0.9998103976249695,,,
 7779,72,ML_D78,Biến thể,Mũ-Logarit,72,True,72,True,True,0.9998424053192139,,,
 1984,66,ML_D72,Biến thể,Mũ-Logarit,66,True,66,True,True,0.9998770952224731,,,
-9011,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999993085861206,,,
 7759,72,ML_D78,Biến thể,Mũ-Logarit,72,True,72,True,True,0.9997926354408264,,,
 12893,127,SP_D39,Biến thể,Số phức,127,True,127,True,True,0.999998927116394,,,
 6958,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.9999713897705078,,,
@@ -5943,7 +5903,6 @@
 2438,6,ML_D07,Biến thể,Mũ-Logarit,6,True,6,True,True,0.9999810457229614,,,
 8806,125,SP_D37,Biến thể,Số phức,125,True,125,True,True,0.9999895095825195,125.0,True,Dạng 125: Cho phương trình có môđun của z ở nhiều vị trí: (một số phức) nhân môđun của z bằng (một số chia z) cộng một số phức; chọn mệnh đề đúng về khoảng chứa
 2770,23,ML_D27,Biến thể,Mũ-Logarit,23,True,23,True,True,0.9998952150344849,,,
-9065,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999740123748779,,,
 12434,113,SP_D25,Biến thể,Số phức,113,True,113,True,True,0.9998157620429993,,,
 11765,112,SP_D24,Biến thể,Số phức,112,True,112,True,True,0.9999994039535522,112.0,True,"Dạng 112: Cho hai số phức, tính tổng của chúng; đáp án là một số phức (không hỏi phần thực hay môđun)."
 7878,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9999356269836426,,,
@@ -6039,7 +5998,6 @@
 394,49,ML_D53,Biến thể,Mũ-Logarit,49,True,49,True,True,0.999864935874939,,,
 9082,138,SP_D50,Biến thể,Số phức,138,True,138,True,True,0.9996418952941895,,,
 3030,28,ML_D34,Biến thể,Mũ-Logarit,28,True,28,True,True,0.9987714886665344,,,
-9008,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999947547912598,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 4007,67,ML_D73,Biến thể,Mũ-Logarit,67,True,67,True,True,0.9999369382858276,,,
 10550,140,SP_D52,Biến thể,Số phức,140,True,140,True,True,0.998302698135376,,,
 4535,36,ML_D41,Biến thể,Mũ-Logarit,36,True,36,True,True,1.0,,,
@@ -6069,7 +6027,6 @@
 1967,66,ML_D72,Biến thể,Mũ-Logarit,66,True,66,True,True,0.9998706579208374,66.0,True,"Dạng 66: Cho tích hai lũy thừa của a và b bằng một số, tính tổng có hệ số của lôgarit của a và lôgarit của b."
 12362,135,SP_D47,Biến thể,Số phức,135,True,135,True,True,0.9985787868499756,,,
 840,31,ML_D36b,Biến thể,Mũ-Logarit,31,True,31,True,True,0.9999254941940308,,,
-9043,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999611377716064,,,
 11774,112,SP_D24,Biến thể,Số phức,112,True,112,True,True,0.9999988079071045,,,
 7830,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9969991445541382,78.0,True,Dạng 78: Đếm số nguyên y sao cho tồn tại x trong một khoảng thỏa phương trình mũ có số mũ chứa x bình phương và tích x nhân y.
 10184,139,SP_D51,Biến thể,Số phức,139,True,139,True,True,0.9999867677688599,,,
@@ -6376,7 +6333,6 @@
 10735,98,SP_D10,Biến thể,Số phức,98,True,98,True,True,0.999406099319458,,,
 12089,90,SP_D02,Biến thể,Số phức,90,True,90,True,True,0.9994761347770691,90.0,True,"Dạng 90: Cho số phức z = a + bi, tìm phần thực của z."
 9945,111,SP_D23,Biến thể,Số phức,111,True,111,True,True,0.9979958534240723,,,
-9066,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999966621398926,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 983,50,ML_D54,Biến thể,Mũ-Logarit,50,True,50,True,True,0.999940037727356,,,
 4083,67,ML_D73,Biến thể,Mũ-Logarit,67,True,67,True,True,0.999962568283081,67.0,True,Dạng 67: Tính đạo hàm của hàm số mũ có số mũ là x bình phương cộng một hệ số nhân x.
 1676,45,ML_D50a,Biến thể,Mũ-Logarit,45,True,45,True,True,0.9994803071022034,45.0,True,Dạng 45: Cho hiệu của lôgarit của a và một số lần lôgarit của b (cùng cơ số) bằng một số; chọn hệ thức đúng giữa a và b.
@@ -6404,7 +6360,6 @@
 4132,74,ML_D80,Biến thể,Mũ-Logarit,74,True,74,True,True,0.9987019300460815,,,
 7056,83,ML_D89,Biến thể,Mũ-Logarit,83,True,83,True,True,0.9999995231628418,83.0,True,Dạng 83: Đếm số nguyên dương y sao cho tồn tại x trong một khoảng thỏa phương trình chứa e mũ x và tích x nhân y.
 3941,65,ML_D71,Biến thể,Mũ-Logarit,65,True,65,True,True,0.9999773502349854,65.0,True,"Dạng 65: Giải phương trình lôgarit có một lôgarit ở mỗi vế, vế phải bằng 1 cộng lôgarit."
-9035,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999778270721436,,,
 604,5,ML_D06,Biến thể,Mũ-Logarit,5,True,5,True,True,0.9999995231628418,,,
 11694,132,SP_D44,Biến thể,Số phức,132,True,132,True,True,0.9999619722366333,,,
 8130,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.9999966621398926,,,
@@ -6680,7 +6635,6 @@
 2606,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.9986170530319214,,,
 3793,57,ML_D62,Biến thể,Mũ-Logarit,57,True,57,True,True,0.999293327331543,,,
 3966,65,ML_D71,Biến thể,Mũ-Logarit,65,True,65,True,True,0.9999769926071167,,,
-9030,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999771118164062,,,
 8238,102,SP_D14,Biến thể,Số phức,102,True,102,True,True,0.9999755620956421,,,
 9745,95,SP_D07,Biến thể,Số phức,95,True,95,True,True,0.9999973773956299,,,
 11587,120,SP_D32,Biến thể,Số phức,120,True,120,True,True,0.9999566078186035,,,
@@ -6759,7 +6713,6 @@
 2947,27,ML_D33,Biến thể,Mũ-Logarit,27,True,27,True,True,0.9983453750610352,27.0,True,"Dạng 27: Giải bất phương trình mũ có số mũ ở vế trái là tam thức bậc hai theo x, vế phải là một lũy thừa hằng số hoặc một số, dấu nhỏ hơn."
 5712,62,ML_D67,Biến thể,Mũ-Logarit,62,True,62,True,True,0.9998685121536255,,,
 2989,28,ML_D34,Biến thể,Mũ-Logarit,28,True,28,True,True,0.9993329644203186,,,
-9049,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999778270721436,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 6781,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.9999904632568359,87.0,True,Dạng 87: Đếm số nguyên dương a sao cho với mỗi a có đúng ba số nguyên b thỏa bất phương trình tích hai thừa số chứa hàm mũ nhỏ hơn 0.
 8933,103,SP_D15,Biến thể,Số phức,103,True,103,True,True,0.9999896287918091,103.0,True,"Dạng 103: Cho số phức liên hợp của z bằng tích của hai số phức, tính môđun của z."
 9354,101,SP_D13,Biến thể,Số phức,101,True,101,True,True,0.9999063014984131,,,
@@ -7224,7 +7177,6 @@
 12586,105,SP_D17,Biến thể,Số phức,105,True,105,True,True,0.9998894929885864,,,
 3809,57,ML_D62,Biến thể,Mũ-Logarit,57,True,57,True,True,0.9999855756759644,,,
 2586,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.998594343662262,16.0,True,"Dạng 16: Giải bất phương trình mũ có dạng: một lũy thừa có số mũ bậc nhất theo x, trừ đi một lũy thừa hằng số, lớn hơn 0."
-9023,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999558925628662,,,
 4408,85,ML_D91,Biến thể,Mũ-Logarit,85,True,85,True,True,0.9999380111694336,,,
 6967,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.9999724626541138,,,
 11671,132,SP_D44,Biến thể,Số phức,132,True,132,True,True,0.999953031539917,,,
@@ -7396,7 +7348,6 @@
 11239,130,SP_D42,Biến thể,Số phức,130,True,130,True,True,0.9966867566108704,,,
 6174,25,ML_D29,Biến thể,Mũ-Logarit,25,True,25,True,True,0.9998773336410522,25.0,True,"Dạng 25: Đếm số giá trị nguyên dương của tham số m để phương trình có ba hàm mũ với cơ số là bình phương của một số, tích hai số và bình phương của số kia (ví d"
 2898,27,ML_D33,Biến thể,Mũ-Logarit,27,True,27,True,True,0.9975578784942627,,,
-9042,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999500513076782,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 4948,17,ML_D20,Biến thể,Mũ-Logarit,17,True,17,True,True,0.9998748302459717,,,
 11254,130,SP_D42,Biến thể,Số phức,130,True,130,True,True,0.9973148703575134,,,
 7459,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.9999265670776367,,,
@@ -7471,7 +7422,6 @@
 4694,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999686479568481,86.0,True,Dạng 86: Đếm số nguyên thuộc tập xác định của hàm số y bằng log của tích hai nhị thức bậc nhất theo x.
 3049,28,ML_D34,Biến thể,Mũ-Logarit,28,True,28,True,True,0.9994300007820129,,,
 1005,50,ML_D54,Biến thể,Mũ-Logarit,50,True,50,True,True,0.9999241828918457,50.0,True,"Dạng 50: Cho a dương, rút gọn hiệu hai lôgarit tự nhiên ln của (một số nhân a) trừ ln của (một số khác nhân a)."
-9059,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999953508377075,,,
 5855,63,ML_D68,Biến thể,Mũ-Logarit,63,True,63,True,True,0.999934196472168,63.0,True,"Dạng 63: Cho hệ thức có hai lôgarit của các biểu thức bậc hai theo a, b cộng nhau bằng 2, tính a cộng 2 nhân b."
 2034,71,ML_D77,Biến thể,Mũ-Logarit,71,True,71,True,True,0.9996253252029419,,,
 3643,56,ML_D61,Biến thể,Mũ-Logarit,56,True,56,True,True,0.9999796152114868,,,
@@ -7691,7 +7641,6 @@
 176,1,ML_D01,Biến thể,Mũ-Logarit,1,True,1,True,True,0.9999967813491821,1.0,True,"Dạng 1: Giải phương trình lôgarit cơ bản: lôgarit của một biểu thức bậc nhất theo x bằng một số cho trước, tìm nghiệm x."
 663,10,ML_D13,Biến thể,Mũ-Logarit,10,True,10,True,True,0.9991965889930725,,,
 12026,90,SP_D02,Biến thể,Số phức,90,True,90,True,True,0.9991773962974548,90.0,True,"Dạng 90: Cho số phức z = a + bi, tìm phần thực của z."
-9068,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999972581863403,,,
 7563,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.9999958276748657,,,
 6152,25,ML_D29,Biến thể,Mũ-Logarit,25,True,25,True,True,0.9999816417694092,,,
 7040,83,ML_D89,Biến thể,Mũ-Logarit,83,True,83,True,True,0.9999990463256836,,,
@@ -7735,7 +7684,6 @@
 5593,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.9994833469390869,,,
 5577,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.9998694658279419,,,
 6338,77,ML_D83,Biến thể,Mũ-Logarit,77,True,77,True,True,0.9999953508377075,77.0,True,Dạng 77: Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lũy thừa) và (lôgarit trừ một số) nhỏ hơn hoặc bằng 0.
-9017,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999992847442627,,,
 10033,117,SP_D29,Biến thể,Số phức,117,True,117,True,True,0.9999998807907104,,,
 7674,53,ML_D57,Biến thể,Mũ-Logarit,53,True,53,True,True,0.9999908208847046,,,
 2275,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9998278617858887,,,
@@ -7859,7 +7807,6 @@
 1518,32,ML_D37,Biến thể,Mũ-Logarit,32,True,32,True,True,0.999957799911499,,,
 12949,127,SP_D39,Biến thể,Số phức,127,True,127,True,True,0.9999994039535522,,,
 2624,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.9978964328765869,,,
-9063,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999904632568359,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 9914,114,SP_D26,Biến thể,Số phức,114,True,114,True,True,0.9997443556785583,,,
 5114,4,ML_D05,Biến thể,Mũ-Logarit,4,True,4,True,True,0.9999998807907104,,,
 11350,126,SP_D38,Biến thể,Số phức,126,True,126,True,True,1.0,,,
@@ -7915,7 +7862,6 @@
 4970,17,ML_D20,Biến thể,Mũ-Logarit,17,True,17,True,True,0.9998461008071899,,,
 11287,130,SP_D42,Biến thể,Số phức,130,True,130,True,True,0.9992045760154724,,,
 3516,51,ML_D55,Biến thể,Mũ-Logarit,51,True,51,True,True,0.9998101592063904,,,
-9037,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999656677246094,,,
 1146,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.9998505115509033,,,
 1795,46,ML_D50b,Biến thể,Mũ-Logarit,46,True,46,True,True,0.9999017715454102,,,
 1279,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9994686245918274,,,
@@ -7959,7 +7905,6 @@
 1415,84,ML_D90,Biến thể,Mũ-Logarit,84,True,84,True,True,0.9999997615814209,84.0,True,"Dạng 84: Cho a dương, rút gọn một số nhân lôgarit của căn bậc hai của a."
 11116,123,SP_D35,Biến thể,Số phức,123,True,123,True,True,0.9996663331985474,123.0,True,"Dạng 123: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z chia (z cộng hoặc trừ một số thực) là số thuần ảo."
 549,5,ML_D06,Biến thể,Mũ-Logarit,5,True,5,True,True,0.9999996423721313,,,
-9045,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999951124191284,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 12220,141,SP_D53,Biến thể,Số phức,141,True,141,True,True,0.9973427653312683,,,
 1823,59,ML_D64,Biến thể,Mũ-Logarit,59,True,59,True,True,0.9996980428695679,,,
 9309,124,SP_D36,Biến thể,Số phức,124,True,124,True,True,0.9999966621398926,,,
@@ -8088,7 +8033,6 @@
 306,15,ML_D18,Biến thể,Mũ-Logarit,15,True,15,True,True,0.9998975992202759,,,
 3833,58,ML_D63,Biến thể,Mũ-Logarit,58,True,58,True,True,0.9990608096122742,58.0,True,"Dạng 58: Tìm tham số m để phương trình bậc hai theo lôgarit của x có hai nghiệm thực x1, x2 mà tích x1 nhân x2 bằng một số cho trước."
 7103,60,ML_D65,Biến thể,Mũ-Logarit,60,True,60,True,True,0.9997815489768982,60.0,True,"Dạng 60: Cho phương trình có lôgarit của một phân thức theo x, y bằng một biểu thức theo x, y; tìm giá trị nhỏ nhất của x cộng y."
-9012,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999949932098389,,,
 3427,76,ML_D82,Biến thể,Mũ-Logarit,76,True,76,True,True,0.9987967014312744,,,
 1622,39,ML_D44,Biến thể,Mũ-Logarit,39,True,39,True,True,0.9999252557754517,,,
 7584,48,ML_D52,Biến thể,Mũ-Logarit,48,True,48,True,True,0.9999080896377563,,,
@@ -8106,7 +8050,6 @@
 6466,19,ML_D22,Biến thể,Mũ-Logarit,19,True,19,True,True,0.9999459981918335,19.0,True,"Dạng 19: Cho lôgarit cơ số a của b bằng một số (a, b dương, a khác 1 và khác căn b), tính lôgarit cơ số (căn b chia a) của căn bậc hai của (b chia a)."
 8413,131,SP_D43,Biến thể,Số phức,131,True,131,True,True,0.9989998936653137,,,
 770,30,ML_D36a,Biến thể,Mũ-Logarit,30,True,30,True,True,0.9979895353317261,,,
-9034,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999500513076782,,,
 11025,121,SP_D33,Biến thể,Số phức,121,True,121,True,True,0.9996907711029053,,,
 10530,140,SP_D52,Biến thể,Số phức,140,True,140,True,True,0.9995786547660828,,,
 10688,98,SP_D10,Biến thể,Số phức,98,True,98,True,True,0.9983671307563782,,,
@@ -8223,7 +8166,6 @@
 6036,41,ML_D46,Biến thể,Mũ-Logarit,41,True,41,True,True,0.9996156692504883,,,
 5844,8,ML_D10,Biến thể,Mũ-Logarit,8,True,8,True,True,0.9997534155845642,,,
 6483,19,ML_D22,Biến thể,Mũ-Logarit,19,True,19,True,True,0.9991347193717957,,,
-9032,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999895095825195,,,
 7263,60,ML_D65,Biến thể,Mũ-Logarit,60,True,60,True,True,0.9997666478157043,,,
 9851,114,SP_D26,Biến thể,Số phức,114,True,114,True,True,0.9989124536514282,,,
 12920,127,SP_D39,Biến thể,Số phức,127,True,127,True,True,0.999998927116394,,,
@@ -8260,7 +8202,6 @@
 10332,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.9999966621398926,,,
 4737,22,ML_D25,Biến thể,Mũ-Logarit,22,True,22,True,True,0.9999996423721313,,,
 9755,95,SP_D07,Biến thể,Số phức,95,True,95,True,True,0.9999982118606567,,,
-9056,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999996542930603,,,
 6390,82,ML_D88,Biến thể,Mũ-Logarit,82,True,82,True,True,0.999998927116394,82.0,True,Dạng 82: Đếm số nguyên x thỏa bất phương trình tích của (hiệu hai lôgarit) và (một số trừ một lũy thừa) lớn hơn hoặc bằng 0.
 12743,106,SP_D18,Biến thể,Số phức,106,True,106,True,True,0.999997615814209,,,
 5000,12,ML_D15,Biến thể,Mũ-Logarit,12,True,12,True,True,0.9999982118606567,12.0,True,Dạng 12: Tính đạo hàm của hàm số y bằng ln của (1 cộng căn bậc hai của (x cộng một số)).
@@ -8381,7 +8322,6 @@
 2725,23,ML_D27,Biến thể,Mũ-Logarit,23,True,23,True,True,0.9999960660934448,,,
 5673,62,ML_D67,Biến thể,Mũ-Logarit,62,True,62,True,True,0.9998151659965515,,,
 1216,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9991187453269958,,,
-9025,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999432563781738,,,
 6947,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.9999239444732666,,,
 540,5,ML_D06,Biến thể,Mũ-Logarit,5,True,5,True,True,0.9999996423721313,,,
 8106,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.9999960660934448,,,
@@ -8407,7 +8347,6 @@
 8620,116,SP_D28,Biến thể,Số phức,116,True,116,True,True,0.9999525547027588,,,
 11751,111,SP_D23,Biến thể,Số phức,111,True,111,True,True,0.9984802603721619,,,
 12194,118,SP_D30,Biến thể,Số phức,118,True,118,True,True,0.9995700716972351,,,
-8998,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999942779541016,,,
 212,9,ML_D12,Biến thể,Mũ-Logarit,9,True,9,True,True,0.9999973773956299,,,
 4722,22,ML_D25,Biến thể,Mũ-Logarit,22,True,22,True,True,0.9999996423721313,,,
 7429,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.9992604851722717,20.0,True,"Dạng 20: Đếm số nghiệm phân biệt của phương trình gồm một đa thức bậc hai theo x, cộng ln của (x cộng 1) mũ 3, cộng một hằng số, bằng 0."
@@ -8415,7 +8354,6 @@
 3162,33,ML_D38,Biến thể,Mũ-Logarit,33,True,33,True,True,0.9997280240058899,,,
 5438,29,ML_D35,Biến thể,Mũ-Logarit,29,True,29,True,True,0.9998348951339722,,,
 7199,60,ML_D65,Biến thể,Mũ-Logarit,60,True,60,True,True,0.9998946189880371,,,
-8997,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999995231628418,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 11065,123,SP_D35,Biến thể,Số phức,123,True,123,True,True,0.9999051094055176,,,
 946,26,ML_D30,Biến thể,Mũ-Logarit,26,True,26,True,True,0.9999533891677856,,,
 11708,132,SP_D44,Biến thể,Số phức,132,True,132,True,True,0.9999240636825562,132.0,True,Dạng 132: Cho môđun của z bằng một số và w bằng một phân thức (một số cộng i nhân z) chia (1 cộng z); tìm bán kính của đường tròn tập hợp điểm biểu diễn w.
@@ -8459,7 +8397,6 @@
 743,30,ML_D36a,Biến thể,Mũ-Logarit,30,True,30,True,True,0.9985038042068481,30.0,True,"Dạng 30: Cho a dương, chọn đẳng thức đúng trong bốn phương án, mỗi phương án là đẳng thức giữa lôgarit thập phân của a lũy thừa một số hoặc của một số nhân a."
 10161,139,SP_D51,Biến thể,Số phức,139,True,139,True,True,0.9999127388000488,,,
 4074,67,ML_D73,Biến thể,Mũ-Logarit,67,True,67,True,True,0.9999535083770752,,,
-9058,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999655485153198,,,
 455,49,ML_D53,Biến thể,Mũ-Logarit,49,True,49,True,True,0.9998620748519897,,,
 1715,45,ML_D50a,Biến thể,Mũ-Logarit,45,True,45,True,True,0.9982399940490723,,,
 10507,140,SP_D52,Biến thể,Số phức,140,True,140,True,True,0.99699866771698,,,
@@ -8557,7 +8494,6 @@
 9272,124,SP_D36,Biến thể,Số phức,124,True,124,True,True,0.9999464750289917,,,
 940,26,ML_D30,Biến thể,Mũ-Logarit,26,True,26,True,True,0.9999206066131592,,,
 1489,32,ML_D37,Biến thể,Mũ-Logarit,32,True,32,True,True,0.9999525547027588,32.0,True,"Dạng 32: Cho lôgarit cơ số một số của a bằng lôgarit cơ số lũy thừa của số đó, của tích a nhân b; chọn hệ thức đúng giữa a và b."
-9046,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999934434890747,,,
 12064,90,SP_D02,Biến thể,Số phức,90,True,90,True,True,0.9977279305458069,,,
 1737,46,ML_D50b,Biến thể,Mũ-Logarit,46,True,46,True,True,0.9998843669891357,,,
 11596,120,SP_D32,Biến thể,Số phức,120,True,120,True,True,0.9999858140945435,120.0,True,Dạng 120: Cho phương trình có cả z và số phức liên hợp của z: 3 nhân (liên hợp của z trừ i) trừ (2 + 3i) nhân z bằng một số phức; tính môđun của z.
@@ -8566,7 +8502,6 @@
 12889,127,SP_D39,Biến thể,Số phức,127,True,127,True,True,0.9999985694885254,,,
 8929,103,SP_D15,Biến thể,Số phức,103,True,103,True,True,0.9999741315841675,,,
 8983,103,SP_D15,Biến thể,Số phức,103,True,103,True,True,0.9999511241912842,,,
-9027,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999294281005859,,,
 9584,99,SP_D11,Biến thể,Số phức,99,True,99,True,True,0.9997789263725281,,,
 9639,93,SP_D05,Biến thể,Số phức,93,True,93,True,True,0.9996732473373413,93.0,True,"Dạng 93: Cho hai số phức z1, z2, tìm phần thực của tổng z1 cộng z2."
 3385,76,ML_D82,Biến thể,Mũ-Logarit,76,True,76,True,True,0.9983105659484863,,,
@@ -8757,7 +8692,6 @@
 12173,118,SP_D30,Biến thể,Số phức,118,True,118,True,True,0.9996774196624756,,,
 5235,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.9999080896377563,40.0,True,"Dạng 40: Giải bất phương trình mũ bậc hai theo một hàm mũ: hàm mũ cơ số bình phương, cộng hoặc trừ một hệ số nhân hàm mũ cơ số gốc, trừ một số, lớn hơn 0."
 9129,138,SP_D50,Biến thể,Số phức,138,True,138,True,True,0.9991244673728943,,,
-8994,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999951124191284,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 5118,4,ML_D05,Biến thể,Mũ-Logarit,4,True,4,True,True,0.9999998807907104,,,
 333,15,ML_D18,Biến thể,Mũ-Logarit,15,True,15,True,True,0.9999481439590454,,,
 2118,81,ML_D87,Biến thể,Mũ-Logarit,81,True,81,True,True,0.9996809959411621,81.0,True,"Dạng 81: Cho a dương, đặt một lôgarit của a (hoặc của một bội của a) bằng b, tính lôgarit khác của một lũy thừa của a theo b."
@@ -9498,7 +9432,6 @@
 1744,46,ML_D50b,Biến thể,Mũ-Logarit,46,True,46,True,True,0.9998888969421387,,,
 8668,119,SP_D31,Biến thể,Số phức,119,True,119,True,True,0.9998939037322998,,,
 3711,56,ML_D61,Biến thể,Mũ-Logarit,56,True,56,True,True,0.9999619722366333,,,
-9074,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999957084655762,,,
 3075,28,ML_D34,Biến thể,Mũ-Logarit,28,True,28,True,True,0.9963954091072083,,,
 11437,99,SP_D11,Biến thể,Số phức,99,True,99,True,True,0.9996209144592285,,,
 5224,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.999982476234436,,,
@@ -9564,7 +9497,6 @@
 2936,27,ML_D33,Biến thể,Mũ-Logarit,27,True,27,True,True,0.9977810978889465,,,
 11373,126,SP_D38,Biến thể,Số phức,126,True,126,True,True,1.0,,,
 5932,63,ML_D68,Biến thể,Mũ-Logarit,63,True,63,True,True,0.999956488609314,,,
-9053,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999912977218628,,,
 2084,71,ML_D77,Biến thể,Mũ-Logarit,71,True,71,True,True,0.999906063079834,,,
 9756,95,SP_D07,Biến thể,Số phức,95,True,95,True,True,0.9999971389770508,,,
 816,31,ML_D36b,Biến thể,Mũ-Logarit,31,True,31,True,True,0.9998880624771118,,,
@@ -9982,7 +9914,6 @@
 6806,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.9999833106994629,,,
 323,15,ML_D18,Biến thể,Mũ-Logarit,15,True,15,True,True,0.999929666519165,,,
 7452,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.9995546936988831,,,
-9080,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999996542930603,,,
 9085,138,SP_D50,Biến thể,Số phức,138,True,138,True,True,0.9992799162864685,,,
 6782,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.9999828338623047,87.0,True,Dạng 87: Đếm số nguyên dương a sao cho với mỗi a có đúng ba số nguyên b thỏa bất phương trình tích hai thừa số chứa hàm mũ nhỏ hơn 0.
 7422,20,ML_D23,Biến thể,Mũ-Logarit,20,True,20,True,True,0.9996662139892578,,,
@@ -10006,7 +9937,6 @@
 2519,11,ML_D14,Biến thể,Mũ-Logarit,11,True,11,True,True,0.9987426400184631,11.0,True,"Dạng 11: Giải bất phương trình lôgarit cơ số một phần hai, trong đó hai vế đều là lôgarit của một biểu thức bậc nhất theo x."
 7588,48,ML_D52,Biến thể,Mũ-Logarit,48,True,48,True,True,0.9996121525764465,48.0,True,Dạng 48: Đếm số nguyên a sao cho có ít nhất một số lượng cho trước các số nguyên b trong một khoảng thỏa bất đẳng thức mũ chứa a bình phương cộng b và b trừ a.
 2120,81,ML_D87,Biến thể,Mũ-Logarit,81,True,81,True,True,0.9996662139892578,,,
-9064,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999972581863403,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 12368,135,SP_D47,Biến thể,Số phức,135,True,135,True,True,0.9978101849555969,,,
 11092,123,SP_D35,Biến thể,Số phức,123,True,123,True,True,0.9999611377716064,123.0,True,"Dạng 123: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z chia (z cộng hoặc trừ một số thực) là số thuần ảo."
 8140,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.9999958276748657,,,
@@ -10018,7 +9948,6 @@
 1160,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.9998026490211487,,,
 5917,63,ML_D68,Biến thể,Mũ-Logarit,63,True,63,True,True,0.9999710321426392,,,
 576,5,ML_D06,Biến thể,Mũ-Logarit,5,True,5,True,True,0.9999995231628418,,,
-9031,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999676942825317,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 3078,33,ML_D38,Biến thể,Mũ-Logarit,33,True,33,True,True,0.9998370409011841,33.0,True,"Dạng 33: Giải bất phương trình mũ có số mũ vế trái bậc nhất theo x (hoặc là hằng số), số mũ vế phải là tam thức bậc hai theo x, dấu lớn hơn hoặc bằng."
 795,31,ML_D36b,Biến thể,Mũ-Logarit,31,True,31,True,True,0.9999678134918213,31.0,True,"Dạng 31: Cho a dương, tính lôgarit của a lũy thừa một số theo lôgarit của a; đề hỏi 'lôgarit của a lũy thừa đó bằng' và các phương án là biểu thức theo lôgarit "
 1275,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9992885589599609,70.0,True,"Dạng 70: Cho a, b dương, a khác 1, tính lôgarit cơ số (a lũy thừa một số) của b theo lôgarit cơ số a của b."
@@ -10150,7 +10079,6 @@
 10613,134,SP_D46,Biến thể,Số phức,134,True,134,True,True,0.9991887211799622,,,
 1452,84,ML_D90,Biến thể,Mũ-Logarit,84,True,84,True,True,0.999997615814209,,,
 3620,54,ML_D58,Biến thể,Mũ-Logarit,54,True,54,True,True,0.999923825263977,,,
-9005,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999973773956299,,,
 12488,91,SP_D03,Biến thể,Số phức,91,True,91,True,True,0.9999622106552124,,,
 5163,4,ML_D05,Biến thể,Mũ-Logarit,4,True,4,True,True,0.9999998807907104,,,
 2600,16,ML_D19,Biến thể,Mũ-Logarit,16,True,16,True,True,0.9978284239768982,,,
@@ -10205,7 +10133,6 @@
 3972,65,ML_D71,Biến thể,Mũ-Logarit,65,True,65,True,True,0.9999676942825317,,,
 4435,85,ML_D91,Biến thể,Mũ-Logarit,85,True,85,True,True,0.9999487400054932,,,
 963,50,ML_D54,Biến thể,Mũ-Logarit,50,True,50,True,True,0.9998840093612671,,,
-9048,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999715089797974,,,
 12400,113,SP_D25,Biến thể,Số phức,113,True,113,True,True,0.9995121955871582,,,
 9934,111,SP_D23,Biến thể,Số phức,111,True,111,True,True,0.9984481334686279,,,
 6438,82,ML_D88,Biến thể,Mũ-Logarit,82,True,82,True,True,0.9999983310699463,,,
@@ -10584,7 +10511,6 @@
 3926,65,ML_D71,Biến thể,Mũ-Logarit,65,True,65,True,True,0.9999666213989258,,,
 1239,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9989080429077148,,,
 5898,63,ML_D68,Biến thể,Mũ-Logarit,63,True,63,True,True,0.9999549388885498,,,
-9020,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999994158744812,,,
 5410,13,ML_D16,Biến thể,Mũ-Logarit,13,True,13,True,True,0.9999994039535522,,,
 10113,133,SP_D45,Biến thể,Số phức,133,True,133,True,True,0.998845100402832,,,
 11227,97,SP_D09,Biến thể,Số phức,97,True,97,True,True,0.9999901056289673,,,
@@ -10684,7 +10610,6 @@
 11058,123,SP_D35,Biến thể,Số phức,123,True,123,True,True,0.9998118281364441,,,
 12823,142,SP_D54,Biến thể,Số phức,142,True,142,True,True,0.9996578693389893,,,
 11422,99,SP_D11,Biến thể,Số phức,99,True,99,True,True,0.9992809891700745,,,
-9067,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999873638153076,,,
 6822,34,ML_D39,Biến thể,Mũ-Logarit,34,True,34,True,True,0.9999998807907104,,,
 2230,2,ML_D02,Biến thể,Mũ-Logarit,2,True,2,True,True,0.9999780654907227,2.0,True,"Dạng 2: Tính đạo hàm của hàm số mũ cơ bản y = a mũ x, trong đó a là một số cụ thể."
 152,1,ML_D01,Biến thể,Mũ-Logarit,1,True,1,True,True,1.0,,,
@@ -11093,7 +11018,6 @@
 10300,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.9999945163726807,,,
 3945,65,ML_D71,Biến thể,Mũ-Logarit,65,True,65,True,True,0.9999462366104126,,,
 5585,64,ML_D69,Biến thể,Mũ-Logarit,64,True,64,True,True,0.9996688365936279,64.0,True,"Dạng 64: Cho phương trình có hàm mũ và lôgarit lồng nhau với tham số m, đếm số giá trị nguyên của m trong một khoảng để phương trình có nghiệm."
-9013,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999951124191284,,,
 1407,84,ML_D90,Biến thể,Mũ-Logarit,84,True,84,True,True,0.999995231628418,,,
 7673,53,ML_D57,Biến thể,Mũ-Logarit,53,True,53,True,True,0.9999936819076538,,,
 2821,24,ML_D28,Biến thể,Mũ-Logarit,24,True,24,True,True,0.9999799728393555,24.0,True,"Dạng 24: Tính tổng các nghiệm của phương trình tích bốn lôgarit của x có cơ số lần lượt là một số, bình phương, lập phương và lũy thừa bốn của số đó, bằng một s"
@@ -11411,7 +11335,6 @@
 10643,134,SP_D46,Biến thể,Số phức,134,True,134,True,True,0.9983048439025879,134.0,True,Dạng 134: Cho phương trình bậc hai z bình phương trừ 2 nhân (m cộng một số) nhân z cộng m bình phương bằng 0 với m thực; đếm số giá trị của m để phương trình có
 5375,13,ML_D16,Biến thể,Mũ-Logarit,13,True,13,True,True,0.9999982118606567,,,
 10366,91,SP_D03,Biến thể,Số phức,91,True,91,True,True,0.9999494552612305,,,
-9050,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999676942825317,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 7391,7,ML_D08,Biến thể,Mũ-Logarit,7,True,7,True,True,0.9999996423721313,,,
 1895,59,ML_D64,Biến thể,Mũ-Logarit,59,True,59,True,True,0.9996315240859985,,,
 11258,130,SP_D42,Biến thể,Số phức,130,True,130,True,True,0.9969336986541748,,,
@@ -11509,7 +11432,6 @@
 12567,105,SP_D17,Biến thể,Số phức,105,True,105,True,True,0.9972750544548035,,,
 8003,47,ML_D51,Biến thể,Mũ-Logarit,47,True,47,True,True,0.9999755620956421,,,
 3853,58,ML_D63,Biến thể,Mũ-Logarit,58,True,58,True,True,0.9989895224571228,,,
-9004,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999949932098389,,,
 10554,140,SP_D52,Biến thể,Số phức,140,True,140,True,True,0.9997387528419495,,,
 2783,23,ML_D27,Biến thể,Mũ-Logarit,23,True,23,True,True,0.9999977350234985,,,
 11826,104,SP_D16,Biến thể,Số phức,104,True,104,True,True,0.999902606010437,,,
@@ -11546,7 +11468,6 @@
 8814,89,SP_D01,Biến thể,Số phức,89,True,89,True,True,0.9999940395355225,89.0,True,"Dạng 89: Cho số phức z = a + bi, tìm đồng thời phần thực và phần ảo của z (đề hỏi cả hai giá trị a và b)."
 2252,2,ML_D02,Biến thể,Mũ-Logarit,2,True,2,True,True,0.9999934434890747,2.0,True,"Dạng 2: Tính đạo hàm của hàm số mũ cơ bản y = a mũ x, trong đó a là một số cụ thể."
 1077,55,ML_D60,Biến thể,Mũ-Logarit,55,True,55,True,True,0.9993428587913513,,,
-9041,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999516010284424,,,
 6682,69,ML_D75,Biến thể,Mũ-Logarit,69,True,69,True,True,0.9998695850372314,,,
 8534,100,SP_D12,Biến thể,Số phức,100,True,100,True,True,0.9995924830436707,,,
 1162,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.9997966885566711,61.0,True,"Dạng 61: Cho a dương, biểu diễn lôgarit (cơ số là một số cho trước) của tích (một hằng số nhân a) theo lôgarit của a."
@@ -11584,7 +11505,6 @@
 4285,80,ML_D86,Biến thể,Mũ-Logarit,80,True,80,True,True,0.9995356798171997,,,
 276,9,ML_D12,Biến thể,Mũ-Logarit,9,True,9,True,True,0.9990411400794983,,,
 356,15,ML_D18,Biến thể,Mũ-Logarit,15,True,15,True,True,0.9998903274536133,,,
-9081,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999971389770508,,,
 12199,141,SP_D53,Biến thể,Số phức,141,True,141,True,True,0.9971129894256592,141.0,True,"Dạng 141: Cho môđun của z bằng một số và môđun của w bằng một số khác; khi môđun của (z cộng i nhân liên hợp của w, cộng một số phức) đạt giá trị nhỏ nhất, tính"
 4598,68,ML_D74,Biến thể,Mũ-Logarit,68,True,68,True,True,0.9994301199913025,,,
 8722,125,SP_D37,Biến thể,Số phức,125,True,125,True,True,0.9999736547470093,,,
@@ -11606,7 +11526,6 @@
 6681,69,ML_D75,Biến thể,Mũ-Logarit,69,True,69,True,True,0.9998475313186646,,,
 10303,96,SP_D08,Biến thể,Số phức,96,True,96,True,True,0.9999886751174927,,,
 2286,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9987215399742126,,,
-9024,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999585151672363,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 12864,127,SP_D39,Biến thể,Số phức,127,True,127,True,True,0.9999971389770508,,,
 485,31,ML_D36b,Biến thể,Mũ-Logarit,31,True,31,True,True,0.9997618794441223,,,
 937,26,ML_D30,Biến thể,Mũ-Logarit,26,True,26,True,True,0.9999911785125732,,,
@@ -11715,7 +11634,6 @@
 2973,27,ML_D33,Biến thể,Mũ-Logarit,27,True,27,True,True,0.9979031085968018,,,
 7761,72,ML_D78,Biến thể,Mũ-Logarit,72,True,72,True,True,0.9998095631599426,72.0,True,"Dạng 72: Cho x, y không âm thỏa một bất phương trình chứa lũy thừa, tìm giá trị nhỏ nhất của biểu thức bậc hai theo x, y."
 3625,54,ML_D58,Biến thể,Mũ-Logarit,54,True,54,True,True,0.9999828338623047,54.0,True,"Dạng 54: Cho phương trình mũ, khi đặt t bằng hàm mũ cơ bản, chọn phương trình bậc hai theo t tương ứng."
-9060,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999778270721436,,,
 1195,61,ML_D66,Biến thể,Mũ-Logarit,61,True,61,True,True,0.9997530579566956,,,
 6784,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.9999818801879883,,,
 3123,33,ML_D38,Biến thể,Mũ-Logarit,33,True,33,True,True,0.9984570741653442,,,
@@ -11909,7 +11827,6 @@
 10655,134,SP_D46,Biến thể,Số phức,134,True,134,True,True,0.998308539390564,,,
 10552,140,SP_D52,Biến thể,Số phức,140,True,140,True,True,0.9997772574424744,,,
 4219,79,ML_D85,Biến thể,Mũ-Logarit,79,True,79,True,True,0.9997277855873108,,,
-9057,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999901056289673,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 514,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.9875877499580383,,,
 2314,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9997952580451965,3.0,True,Dạng 3: Tìm tập xác định của hàm số lôgarit mà biểu thức bên trong lôgarit là một đa thức bậc hai theo x.
 12085,90,SP_D02,Biến thể,Số phức,90,True,90,True,True,0.9992320537567139,90.0,True,"Dạng 90: Cho số phức z = a + bi, tìm phần thực của z."
@@ -12158,7 +12075,6 @@
 1674,45,ML_D50a,Biến thể,Mũ-Logarit,45,True,45,True,True,0.999584972858429,,,
 318,15,ML_D18,Biến thể,Mũ-Logarit,15,True,15,True,True,0.9999445676803589,15.0,True,"Dạng 15: Tính đạo hàm của hàm số lôgarit cơ bản y bằng lôgarit cơ số a của x, biểu thức bên trong lôgarit chỉ là x."
 12788,142,SP_D54,Biến thể,Số phức,142,True,142,True,True,0.9998176693916321,,,
-9039,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999432563781738,,,
 8101,92,SP_D04,Biến thể,Số phức,92,True,92,True,True,0.999996542930603,,,
 8911,103,SP_D15,Biến thể,Số phức,103,True,103,True,True,0.9998539686203003,103.0,True,"Dạng 103: Cho số phức liên hợp của z bằng tích của hai số phức, tính môđun của z."
 4631,86,ML_D92,Biến thể,Mũ-Logarit,86,True,86,True,True,0.9999978542327881,,,
@@ -12176,7 +12092,6 @@
 7880,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9998899698257446,,,
 11875,104,SP_D16,Biến thể,Số phức,104,True,104,True,True,0.9999024868011475,,,
 7861,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9999297857284546,,,
-9018,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999969005584717,,,
 7491,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.9999839067459106,,,
 6974,73,ML_D79,Biến thể,Mũ-Logarit,73,True,73,True,True,0.9999604225158691,73.0,True,Dạng 73: Đếm số nguyên x sao cho với mỗi x có không quá một số lượng cho trước các số nguyên y thỏa bất phương trình giữa hai lôgarit.
 1929,66,ML_D72,Biến thể,Mũ-Logarit,66,True,66,True,True,0.9984636306762695,66.0,True,"Dạng 66: Cho tích hai lũy thừa của a và b bằng một số, tính tổng có hệ số của lôgarit của a và lôgarit của b."
@@ -12213,7 +12128,6 @@
 6646,21,ML_D24,Biến thể,Mũ-Logarit,21,True,21,True,True,0.9999774694442749,21.0,True,"Dạng 21: Cho hàm số y bằng ln x chia cho một lũy thừa của x, chọn đẳng thức đúng liên hệ y, đạo hàm cấp một y' và đạo hàm cấp hai y''."
 7872,78,ML_D84,Biến thể,Mũ-Logarit,78,True,78,True,True,0.9999383687973022,,,
 4840,44,ML_D49,Biến thể,Mũ-Logarit,44,True,44,True,True,0.9999411106109619,44.0,True,"Dạng 44: Cho a dương, biểu diễn lôgarit của thương (a chia một hằng số) theo lôgarit của a, nghĩa là tách thành hiệu hai lôgarit."
-9078,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999856948852539,122.0,True,"Dạng 122: Đếm số số phức z thỏa đồng thời hai điều kiện: môđun của (z trừ một số thuần ảo) bằng một số, và z bình phương là số thuần ảo."
 7538,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.9999927282333374,,,
 5078,4,ML_D05,Biến thể,Mũ-Logarit,4,True,4,True,True,0.9999996423721313,,,
 2483,11,ML_D14,Biến thể,Mũ-Logarit,11,True,11,True,True,0.9994964599609375,,,
@@ -12355,7 +12269,6 @@
 6251,52,ML_D56,Biến thể,Mũ-Logarit,52,True,52,True,True,0.9999547004699707,,,
 7566,42,ML_D47,Biến thể,Mũ-Logarit,42,True,42,True,True,0.9999974966049194,,,
 2283,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.999883770942688,,,
-9040,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999868869781494,,,
 545,5,ML_D06,Biến thể,Mũ-Logarit,5,True,5,True,True,0.9999997615814209,5.0,True,"Dạng 5: Cho hai số thực dương a, b với a khác 1, chọn đẳng thức đúng cho lôgarit có cơ số là một lũy thừa của a và biểu thức là tích a nhân b. Đề chỉ nêu điều k"
 3120,33,ML_D38,Biến thể,Mũ-Logarit,33,True,33,True,True,0.9991816878318787,,,
 3272,38,ML_D43,Biến thể,Mũ-Logarit,38,True,38,True,True,0.9983847141265869,,,
@@ -12624,7 +12537,6 @@
 5677,62,ML_D67,Biến thể,Mũ-Logarit,62,True,62,True,True,0.9998999834060669,,,
 6758,87,ML_D93,Biến thể,Mũ-Logarit,87,True,87,True,True,0.999970555305481,,,
 4917,17,ML_D20,Biến thể,Mũ-Logarit,17,True,17,True,True,0.9998230338096619,17.0,True,"Dạng 17: Cho a dương khác 1 và P là lôgarit cơ số căn bậc n của a, của a lũy thừa m; chọn mệnh đề đúng về giá trị của P."
-9016,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999926090240479,,,
 7259,60,ML_D65,Biến thể,Mũ-Logarit,60,True,60,True,True,0.9998393058776855,,,
 2531,11,ML_D14,Biến thể,Mũ-Logarit,11,True,11,True,True,0.999504566192627,11.0,True,"Dạng 11: Giải bất phương trình lôgarit cơ số một phần hai, trong đó hai vế đều là lôgarit của một biểu thức bậc nhất theo x."
 2306,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9997939467430115,,,
@@ -12780,7 +12692,6 @@
 3243,37,ML_D42,Biến thể,Mũ-Logarit,37,True,37,True,True,0.9986771941184998,,,
 4233,79,ML_D85,Biến thể,Mũ-Logarit,79,True,79,True,True,0.9994521737098694,,,
 656,10,ML_D13,Biến thể,Mũ-Logarit,10,True,10,True,True,0.9993841648101807,,,
-9000,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999946355819702,,,
 2704,18,ML_D21,Biến thể,Mũ-Logarit,18,True,18,True,True,0.9993197917938232,,,
 11621,120,SP_D32,Biến thể,Số phức,120,True,120,True,True,0.999980092048645,120.0,True,Dạng 120: Cho phương trình có cả z và số phức liên hợp của z: 3 nhân (liên hợp của z trừ i) trừ (2 + 3i) nhân z bằng một số phức; tính môđun của z.
 8536,100,SP_D12,Biến thể,Số phức,100,True,100,True,True,0.9994358420372009,,,
@@ -12850,14 +12761,12 @@
 5251,40,ML_D45,Biến thể,Mũ-Logarit,40,True,40,True,True,0.9999734163284302,,,
 4520,36,ML_D41,Biến thể,Mũ-Logarit,36,True,36,True,True,1.0,,,
 9573,99,SP_D11,Biến thể,Số phức,99,True,99,True,True,0.9997708201408386,99.0,True,"Dạng 99: Cho số phức z = a + bi, tìm số phức liên hợp của z."
-9014,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.999996542930603,,,
 515,70,ML_D76,Biến thể,Mũ-Logarit,70,True,70,True,True,0.989551842212677,,,
 236,9,ML_D12,Biến thể,Mũ-Logarit,9,True,9,True,True,0.9999656677246094,9.0,True,Dạng 9: Giải phương trình mũ có số mũ là biểu thức bậc nhất theo x và vế phải là một số nguyên viết bình thường (không viết dưới dạng lũy thừa).
 1973,66,ML_D72,Biến thể,Mũ-Logarit,66,True,66,True,True,0.9991681575775146,66.0,True,"Dạng 66: Cho tích hai lũy thừa của a và b bằng một số, tính tổng có hệ số của lôgarit của a và lôgarit của b."
 10934,108,SP_D20,Biến thể,Số phức,108,True,108,True,True,0.999327540397644,108.0,True,"Dạng 108: Cho số phức z = a + bi, tìm điểm biểu diễn của số phức w = i nhân z."
 2302,3,ML_D04,Biến thể,Mũ-Logarit,3,True,3,True,True,0.9995692372322083,,,
 6044,41,ML_D46,Biến thể,Mũ-Logarit,41,True,41,True,True,0.999762237071991,41.0,True,"Dạng 41: Cho a, b lớn hơn 1 và a mũ x bằng b mũ y bằng (a nhân b) mũ một phần số nào đó, tìm tập chứa giá trị nhỏ nhất của x cộng một hệ số nhân y."
-9026,122,SP_D34,Biến thể,Số phức,122,True,122,True,True,0.9999748468399048,,,
 7028,83,ML_D89,Biến thể,Mũ-Logarit,83,True,83,True,True,0.9999986886978149,,,
 11377,126,SP_D38,Biến thể,Số phức,126,True,126,True,True,0.9999998807907104,126.0,True,"Dạng 126: Đếm số số phức z thỏa phương trình: môđun của z nhân (z trừ một số phức), cộng một số thuần ảo, bằng (một số phức) nhân z."
 12835,142,SP_D54,Biến thể,Số phức,142,True,142,True,True,0.9998142123222351,142.0,True,"Dạng 142: Cho ba số phức z1, z2, z3 có môđun của z1 bằng môđun của z2 bằng 2 lần môđun của z3 và thỏa một hệ thức giữa (z1 cộng z2) nhân z3 với z1 nhân z2; tính"

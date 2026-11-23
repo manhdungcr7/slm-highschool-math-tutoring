@@ -10,8 +10,8 @@ produced by the notebooks under [`../experiments/`](../experiments/).
 [`questions/So_phuc_day_du.csv`](questions/So_phuc_day_du.csv) contains the
 complete Complex Numbers collection used in the study:
 
-- 65 original questions extracted from a real high-school review document;
-- 4,860 generated evaluation questions across 54 problem types;
+- 64 original questions extracted from a real high-school review document;
+- 4,770 generated evaluation questions across 53 problem types;
 - four answer choices, the correct answer, and a solution for each question.
 
 The original internal dataset used codes D01 through D55. The original D54
@@ -19,13 +19,23 @@ type, containing one source question and 90 variants, was removed when the
 study scope was finalized. The original D55 type was therefore renamed D54 in
 the paper and in this exported dataset.
 
+Type D34 (one source question and 90 variants) was also removed: its answer key
+counted $z = 0$ as purely imaginary in 4 questions, while this work follows the
+convention that 0 is not purely imaginary.
+
+[`questions/benchmark_so_phuc_v2_23dang_2070cau.csv`](questions/benchmark_so_phuc_v2_23dang_2070cau.csv)
+is benchmark v2: the 2,070 questions of the 23 ReAct types, reworded. Every
+question keeps the type, the formulas, the four answer choices and the correct
+answer of its v1 question (`de_bai_v1`); only nested fractions were simplified.
+`stt` keeps the numbering of the 24-type set, so the D34 numbers 361-450 are absent.
+
 ## Results
 
 | Directory | Experiment | Contents |
 |---|---|---|
 | [`experiment1_65cau_khao_sat/`](results/experiment1_65cau_khao_sat/) | Experiment 1: dataset difficulty | Outputs for the 65 original questions from GPT-4o, Gemini-2.5-Flash, and Qwen3-4B |
 | [`experiment2_810cau_huong_dan_giai/`](results/experiment2_810cau_huong_dan_giai/) | Experiment 2: zero-shot with a solution guide | Qwen3-4B baseline and guided outputs for 810 questions from the nine most difficult types |
-| [`experiment3_4_react_calculator/`](results/experiment3_4_react_calculator/) | Experiments 3 and 4: ReAct-Calculator | Outputs for 2,160 questions from Qwen3-4B, DeepSeek-R1-Distill-Qwen-1.5B, and Llama-3.2-3B-Instruct |
+| [`experiment3_4_react_calculator/`](results/experiment3_4_react_calculator/) | Experiments 3 and 4: ReAct-Calculator | Outputs for 2,070 questions from Qwen3-4B, DeepSeek-R1-Distill-Qwen-1.5B, and Llama-3.2-3B-Instruct |
 
 ### Experiment 1
 
@@ -55,5 +65,5 @@ problem type, the selected answers, the C/I/U labels, and the generated
 solutions.
 
 The Qwen3-4B directory contains only ReAct-Calculator outputs. Its baseline
-results for these 24 types are included in the paper's baseline table and are
+results for these 23 types are included in the paper's baseline table and are
 not duplicated here.

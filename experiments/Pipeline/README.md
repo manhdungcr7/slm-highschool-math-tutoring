@@ -20,9 +20,9 @@ Rebuild: `python scripts/pipeline/build_pipeline_notebook.py` (router: `models/r
 | Group | Final notebook used |
 |---|---|
 | 32 Mũ-Logarit ReAct dạng | The latest of `KLTN_G01`-`G10`, `H01`-`H05`, `R01` (D68), `R04` (D40) and the D79 notebook in `experiments/ReAct-Calculator/` |
-| 24 Số phức ReAct dạng | The 15 single-type notebooks, plus `KLTN_Nhom1` (D04, D14, D28, D32, D33) and `KLTN_Nhom2` (D34, D40, D42, D49) in `so_phuc/experiments/Qwen3-4B/` |
+| 23 Số phức ReAct dạng | The 15 single-type notebooks, plus `KLTN_Nhom1` (D04, D14, D28, D32, D33) and `KLTN_Nhom2` (D40, D42, D49) in `so_phuc/experiments/Qwen3-4B/` |
 | 56 Mũ-Logarit zero-shot dạng | `experiments/Qwen3-4B/KLTN_mulogarit_zeroshot_full90_Qwen3-4B.ipynb` (`presence_penalty=1.2`) |
-| 30 Số phức zero-shot dạng | `experiments/Qwen3-4B/qwen_eval_kaggle_sophuc_zeroshot.ipynb` (no presence penalty) |
+| 31 Số phức zero-shot dạng (including D34, which is not scored) | `experiments/Qwen3-4B/qwen_eval_kaggle_sophuc_zeroshot.ipynb` (no presence penalty) |
 
 `data/pipeline_bundle/bang_dang_prompt.csv` lists, for each of the 142 dạng, its solving method, source notebook,
 tool-call limit and prompt md5. Results are in [`data/results/pipeline_realworld/`](../../data/results/pipeline_realworld/).

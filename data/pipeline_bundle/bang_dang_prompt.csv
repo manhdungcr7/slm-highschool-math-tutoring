@@ -120,22 +120,22 @@
 119,Số phức,SP_D31,D31,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
 120,Số phức,SP_D32,D32,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,27,844638133a653b309cde8ac8fdc916dc
 121,Số phức,SP_D33,D33,ReAct+Calculator,SP_Nhom1,so_phuc/experiments/Qwen3-4B/KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb,23,e96f6b743df25b3ae2b4a366bd4f0141
-122,Số phức,SP_D34,D34,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,29,023d4e9e1c7a70a056db19a0b8b3ab93
+122,Số phức,SP_D34,D34,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
 123,Số phức,SP_D35,D35,ReAct+Calculator,SP_D35,so_phuc/experiments/Qwen3-4B/KLTN_D35_ReAct_Calculator_full90.ipynb,25,44c3697923f2a634979ed83aa3c07772
 124,Số phức,SP_D36,D36,ReAct+Calculator,SP_D36,so_phuc/experiments/Qwen3-4B/KLTN_D36_ReAct_Calculator_full90.ipynb,36,821807c2c903041728aaa991e5f02aaf
 125,Số phức,SP_D37,D37,ReAct+Calculator,SP_D37,so_phuc/experiments/Qwen3-4B/KLTN_D37_ReAct_Calculator_full90.ipynb,26,469d963a0566a8c4d83904c2dab7e4f5
 126,Số phức,SP_D38,D38,ReAct+Calculator,SP_D38,so_phuc/experiments/Qwen3-4B/KLTN_D38_ReAct_Calculator_full90.ipynb,35,8e98f5dcbf36213e61bf4db20c896239
 127,Số phức,SP_D39,D39,ReAct+Calculator,SP_D39,so_phuc/experiments/Qwen3-4B/KLTN_D39_ReAct_Calculator_full90.ipynb,30,aa63b1b5a76df86257c805b8c268eb8e
-128,Số phức,SP_D40,D40,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,19,1b61eef22f2ddfde8b18c2256bf6c232
+128,Số phức,SP_D40,D40,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D40_D42_D45_D46_D49_full90.ipynb,19,1b61eef22f2ddfde8b18c2256bf6c232
 129,Số phức,SP_D41,D41,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
-130,Số phức,SP_D42,D42,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,23,97947bb7c7eaad6fcda49e9107f7c8a4
+130,Số phức,SP_D42,D42,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D40_D42_D45_D46_D49_full90.ipynb,23,97947bb7c7eaad6fcda49e9107f7c8a4
 131,Số phức,SP_D43,D43,zero-shot,ZS_SP,"qwen_eval_kaggle.ipynb (Số phức, Qwen3-4B, thinking)",,5bfbd338199b41822d4f5b5714ed0e9f
 132,Số phức,SP_D44,D44,ReAct+Calculator,SP_D44,so_phuc/experiments/Qwen3-4B/KLTN_D44_ReAct_Calculator_full90.ipynb,30,a3e782fb715ffeccfdc66c758a2c499b
 133,Số phức,SP_D45,D45,ReAct+Calculator,SP_D45,so_phuc/experiments/Qwen3-4B/KLTN_D45_ReAct_Calculator_full90.ipynb,23,0d78b0a2c1b168774969c265836bed02
 134,Số phức,SP_D46,D46,ReAct+Calculator,SP_D46,so_phuc/experiments/Qwen3-4B/KLTN_D46_ReAct_Calculator_full90.ipynb,29,ea57d62c8ec2ab017b0fa608b136ff56
 135,Số phức,SP_D47,D47,ReAct+Calculator,SP_D47,so_phuc/experiments/Qwen3-4B/KLTN_D47_ReAct_Calculator_full90.ipynb,35,13de1e4085a5db3ee232fa2153f38eb2
 136,Số phức,SP_D48,D48,ReAct+Calculator,SP_D48,so_phuc/experiments/Qwen3-4B/KLTN_D48_ReAct_Calculator_full90.ipynb,30,af806fbc9c1c967cf959049e515c4a61
-137,Số phức,SP_D49,D49,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb,27,32fe2d7f9092f69fb307f87a841981cd
+137,Số phức,SP_D49,D49,ReAct+Calculator,SP_Nhom2,so_phuc/experiments/Qwen3-4B/KLTN_Nhom2_D40_D42_D45_D46_D49_full90.ipynb,27,32fe2d7f9092f69fb307f87a841981cd
 138,Số phức,SP_D50,D50,ReAct+Calculator,SP_D50,so_phuc/experiments/Qwen3-4B/KLTN_D50_ReAct_Calculator_full90.ipynb,50,1d6fafd9f7b9be66ec02d13cbdf7e53c
 139,Số phức,SP_D51,D51,ReAct+Calculator,SP_D51,so_phuc/experiments/Qwen3-4B/KLTN_D51_ReAct_Calculator_full90.ipynb,25,0188dde44ffa877f0b85707f3be3752d
 140,Số phức,SP_D52,D52,ReAct+Calculator,SP_D52,so_phuc/experiments/Qwen3-4B/KLTN_D52_ReAct_Calculator_full90.ipynb,35,a3478d364deed34a49747b7fe51c2f21

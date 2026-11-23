@@ -13,23 +13,30 @@ evaluates the mathematical expression and returns the result to the model.
 
 ## Main results
 
-- The evaluation set contains **4,860 questions across 54 problem types**, generated
-  from 65 questions in a real high-school review document.
-- On the full evaluation set, Qwen3-4B achieved **85.7%** accuracy and
-  Gemini-2.5-Flash achieved **98.5%** accuracy.
+Type D34 was removed from this copy of the data, notebooks and results: its answer
+key counted $z = 0$ as purely imaginary in 4 questions, while this work follows the
+convention that 0 is not purely imaginary. The numbers below are recomputed
+without D34 where per-question outputs are available.
+
+- The evaluation set contains **4,770 questions across 53 problem types**, generated
+  from 64 questions in a real high-school review document.
+- On the original 4,860-question set (54 types, including D34), Qwen3-4B achieved
+  **85.7%** accuracy and Gemini-2.5-Flash achieved **98.5%** accuracy. These two
+  numbers were not recomputed without D34 because the per-question outputs of that
+  run are not in this repository.
 - Adding a solution guide increased Qwen3-4B accuracy from **28.9% to 82.1%**
   on 810 questions from the nine most difficult types, but did not reach 100%.
-- ReAct-Calculator enabled Qwen3-4B to answer all **2,160 questions across the
-  24 remaining difficult types correctly**.
+- ReAct-Calculator enabled Qwen3-4B to answer all **2,070 questions across the
+  23 remaining difficult types correctly**.
 - Reusing the same prompt and procedure increased Llama-3.2-3B-Instruct
-  accuracy from **20.7% to 53.5%**, while DeepSeek-R1-Distill-Qwen-1.5B
-  changed from **40.3% to 38.9%**.
+  accuracy from **20.8% to 54.6%**, while DeepSeek-R1-Distill-Qwen-1.5B
+  changed from **38.5% to 39.1%**.
 
 ## Repository structure
 
 | Directory | Contents |
 |---|---|
-| [`appendix/`](appendix/) | The 54 Complex Numbers problem-type codes and names used in the paper |
+| [`appendix/`](appendix/) | The 53 Complex Numbers problem-type codes and names (D34 removed) |
 | [`data/`](data/) | Questions and per-question model outputs used to verify the reported results |
 | [`scripts/`](scripts/) | PDF-to-Markdown conversion and question-generation scripts |
 | [`experiments/`](experiments/) | Kaggle notebooks for the baseline and ReAct-Calculator experiments |
@@ -64,11 +71,12 @@ Some scripts require source files, API credentials, or Kaggle datasets that
 must be supplied by the user. See the README in each directory for the expected
 inputs and paths.
 
-## Appendix: 54 Problem Types (Complex Numbers)
+## Appendix: 53 Problem Types (Complex Numbers)
 
 The following codes are used in the paper's result tables. A machine-readable
 version is available at
-[`appendix/problem_types_54.csv`](appendix/problem_types_54.csv).
+[`appendix/problem_types_53.csv`](appendix/problem_types_53.csv). D34 is
+not listed because it was removed (see Main results).
 
 | Code | Problem type |
 |---|---|
@@ -105,7 +113,6 @@ version is available at
 | D31 | Solve an equation containing both $z$ and its conjugate, then add the real and imaginary parts |
 | D32 | Solve an equation containing both $z$ and its conjugate, then compute $\lvert z\rvert$ |
 | D33 | Given an equation containing $\lvert z\rvert$, find $z$ by matching real and imaginary parts |
-| D34 | Given a circle condition and the condition that $z^2$ is purely imaginary, count the solutions |
 | D35 | Given a circle condition and a purely imaginary quotient condition, count the solutions |
 | D36 | Given a modulus equation and a perpendicular-bisector condition, count the solutions |
 | D37 | Given an equation containing $\lvert z\rvert$ in several places, determine the interval containing $\lvert z\rvert$ |

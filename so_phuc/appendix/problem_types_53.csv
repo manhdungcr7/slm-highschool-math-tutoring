@@ -32,7 +32,6 @@ D30,"Solve a linear equation in z (containing only z or only z-bar), find the co
 D31,"Given an equation containing both z and z-bar, solve for z then compute the sum of its real part and imaginary part","Cho phương trình chứa cả z và z̄, giải tìm z rồi tính tổng phần thực và phần ảo"
 D32,"Given an equation containing both z and z-bar, solve for z then compute the modulus |z|","Cho phương trình chứa cả z và z̄, giải tìm z rồi tính môđun |z|"
 D33,"Given an equation containing |z|, find z by matching real and imaginary parts","Cho phương trình chứa |z|, tìm z bằng cách đồng nhất phần thực, phần ảo"
-D34,"Given a circle condition and the condition that z^2 is purely imaginary, count the number of z satisfying both","Cho điều kiện đường tròn và điều kiện z² thuần ảo, đếm số số phức z thỏa mãn"
 D35,"Given a circle condition and the condition that z/(z-q) is purely imaginary, count the number of z satisfying both","Cho điều kiện đường tròn và điều kiện z/(z−q) thuần ảo, đếm số số phức z thỏa mãn"
 D36,"Given the condition |z|^2 = k|z+z-bar|+c and a perpendicular-bisector condition, count the number of z satisfying both","Cho điều kiện |z|²=k|z+z̄|+c và điều kiện đường trung trực, đếm số số phức z thỏa mãn"
 D37,"Given an equation with |z| in several places, set t=|z| and take the modulus of both sides to determine the interval containing |z|","Cho phương trình chứa |z| ở nhiều vị trí, đặt t=|z| và lấy môđun hai vế để xác định khoảng chứa |z|"

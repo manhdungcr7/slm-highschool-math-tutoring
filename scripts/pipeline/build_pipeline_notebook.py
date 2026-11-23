@@ -46,8 +46,10 @@ ML_FINAL = {"D08": "G10", "D10": "H01", "D16": "G06", "D17": "H02", "D22": "G09"
 # Số phức ReAct dạng (codes of the data/notebooks; data D55 is D54 in the paper and the catalogue).
 SP_SINGLE = ["D35", "D36", "D37", "D38", "D39", "D44", "D45", "D46", "D47", "D48", "D50", "D51", "D52", "D53", "D55"]
 # D04 uses the Nhom1 version (the author confirmed it; the older stand-alone D04 notebook was removed).
-SP_GROUP = {"Nhom1": ["D04", "D14", "D28", "D32", "D33"], "Nhom2": ["D34", "D40", "D42", "D49"]}
-SP_GROUP_NB = {"Nhom1": "KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb", "Nhom2": "KLTN_Nhom2_D34_D40_D42_D45_D46_D49_full90.ipynb"}
+# Số phức D34 (Dạng 122) was removed from the evaluation (its answer key counted z = 0 as purely imaginary); if the
+# router picks it, the question falls back to the Số phức zero-shot prompt.
+SP_GROUP = {"Nhom1": ["D04", "D14", "D28", "D32", "D33"], "Nhom2": ["D40", "D42", "D49"]}
+SP_GROUP_NB = {"Nhom1": "KLTN_Nhom1_D04_D14_D28_D32_D33_full90.ipynb", "Nhom2": "KLTN_Nhom2_D40_D42_D45_D46_D49_full90.ipynb"}
 
 
 def cells(path):
@@ -187,7 +189,7 @@ for r in csv.DictReader(open(CATALOGUE, encoding="utf-8-sig")):
                       prompt_md5=u["prompt_md5"][data_code] if react else u["prompt_md5"],
                       mo_ta=r["mo_ta_dang_moi"]))
 assert len(types) == 142
-assert sum(t["cach_giai"] == "ReAct+Calculator" for t in types) == 56
+assert sum(t["cach_giai"] == "ReAct+Calculator" for t in types) == 55
 
 os.makedirs(BUNDLE, exist_ok=True)
 json.dump(dict(types=types, units=units), open(os.path.join(BUNDLE, "pipeline_units.json"), "w", encoding="utf-8"),

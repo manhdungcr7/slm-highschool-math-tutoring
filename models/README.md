@@ -33,9 +33,11 @@ version).
 
 ### Evaluation of this run (`training_run_v3/`)
 
-* `router_eval_summary.json`: on the 12,951 questions of the existing data (8,026 Exponential/Logarithm, 4,925 Complex Numbers; 171
-  of them are the source questions, the others are generated variants), scoring the 142 whole strings gives **12,951/12,951**. Scoring only
-  the label part `Dạng N:` gives 99.99% (170/171 on the source questions). Letting the model write its answer freely gives 99.97%.
+* `router_eval_summary.json`: on the 12,860 questions of the existing data in the 141 scored dạng (8,026 Exponential/Logarithm, 4,834
+  Complex Numbers; 170 of them are the source questions, the others are generated variants), scoring the 142 whole strings gives
+  **12,860/12,860**. Scoring only the label part `Dạng N:` gives 99.99% (169/170 on the source questions). Letting the model write its
+  answer freely gives 99.97%. Complex Numbers D34 (Dạng 122) is not scored: its answer key counted $z = 0$ as purely imaginary. The
+  model was trained on all 142 dạng and still chooses among the 142 strings.
 * `router_eval_predictions.csv`: the prediction for every evaluation question. `trainer_state.json`, `train_progress.log`: the training run.
 * **This number is for questions written like the training data.** On 63 real questions from the internet the same router is right on
   74.6%; see `data/results/pipeline_realworld/`.
