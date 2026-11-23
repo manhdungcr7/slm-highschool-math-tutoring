@@ -12,3 +12,4 @@
 * The notebook downloads its two input files from a fixed commit and checks their md5.
 * It runs in 5 shards on Kaggle (GPU T4 x2, Internet on). Set `SHARD_ID` to 0-4 in the first cell. Each type runs
   whole, as one batch, inside one shard.
+* The install cell has a guard for a vLLM start-up failure seen on Kaggle on 2026-11-23 (`ModuleNotFoundError: No module named 'cutlass'`, raised while the engine warms up). It makes `cutlass` importable before the model is loaded. If the engine still fails to start, set `VLLM_SPEC = 'vllm==0.31.0'` in that cell (the latest release before the pipeline run of 2026-10-16; the exact version used then was not recorded).
