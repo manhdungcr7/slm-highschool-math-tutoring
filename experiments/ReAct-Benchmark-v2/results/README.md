@@ -3,8 +3,8 @@
 2,070 questions (23 types, D34 excluded), Qwen3-4B, the code of each type taken from the notebook that reached 90/90 on v1,
 no router. Run on Kaggle (T4 x2) in 5 shards on 2026-11-24.
 
-* Correct: **2019/2,070 (97.54%)**. Wrong: 47. No answer: 4.
-* 21 of the 23 types: 1,881/1,890 (99.52%). Of these, 17 types are 90/90.
+* Correct: **2,019/2,070 (97.54%)**. Wrong: 47. No answer: 4.
+* 21 of the 23 types: 1,881/1,890 (99.52%). Of these, 15 types are 90/90.
 * D35: 72/90 and D44: 66/90. They account for 42 of the 51 questions that are not correct.
 
 ## Where D35 and D44 lose points
