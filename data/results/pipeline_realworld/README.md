@@ -114,3 +114,9 @@ The results files have seven columns:
 4. `python scripts/pipeline/analyze_pipeline_errors.py --run kaggle_run_<date>` for the analysis (edit `DROP` in the scripts if the
    evaluation set changes).
 5. Because results change from run to run, repeat the run a few times before comparing two pipeline versions.
+
+## Reading the 93 responses
+
+[`phan_tich_response_93_cau.csv`](phan_tich_response_93_cau.csv) holds, for each of the 93 questions, the question, the correct
+answer, the correct and the predicted dạng, the full response of Qwen3-4B, the chosen answer, whether the dạng and the answer
+are right, and a comment (column `Nhận xét`, in Vietnamese) on how the model reasoned, written after reading each response.
