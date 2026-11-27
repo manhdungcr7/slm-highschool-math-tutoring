@@ -47,3 +47,20 @@ version).
 The earlier Kaggle outputs (`FinetuneMath_v2.zip`, `FinetuneMath_v3.zip`, 300 MB each with checkpoints and optimizer states) are not
 stored; this folder is the final adapter of v3. An older adapter that was trained before v3 is not kept on purpose, so that the
 only router in the repository is the one that was evaluated.
+
+## `router_lora_qwen3_4b/` - the same router trained on Qwen3-4B
+
+LoRA adapter on **Qwen/Qwen3-4B**, trained to see whether a much larger model identifies the dạng of a question better, in
+particular on questions not written from the training templates. Training data and settings are those of `router_lora/`, except:
+
+| | |
+|---|---|
+| Base model | `Qwen/Qwen3-4B` (Hugging Face commit `1cfa9a7`; not stored here) |
+| Dạng | 141: Dạng 122 (Complex Numbers D34, removed from the thesis) is left out of the training pairs and of the candidates |
+| Training | 2 epochs (766 steps, about 5.1 hours on one Kaggle T4, 24 s per step), weights in float16 (float32 weights of 4B do not fit a T4), LoRA weights in float32; otherwise as above |
+| Loss | validation loss (423 held-out pairs) 0.0099 at step 200, 0.00045 at step 400, 0.000074 at the end |
+| Notebook | `experiments/Router-Finetune-4B/KLTN_router_finetune_Qwen3-4B_Kaggle.ipynb` (training only) |
+
+`adapter_model.safetensors` (132 MB) is stored with Git LFS: run `git lfs pull` after cloning. `training_run/` holds the training
+log and `trainer_state.json`. The evaluation (test set, 93 real-world questions, benchmark v2) is not done yet. The Kaggle
+checkpoints (`checkpoint-575`, `checkpoint-766`, with the optimizer states) are not stored; the adapter is the one of step 766.
