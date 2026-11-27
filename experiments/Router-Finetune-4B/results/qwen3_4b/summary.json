@@ -1,0 +1,95 @@
+{
+ "qwen3_4b": {
+  "base_model": "Qwen/Qwen3-4B",
+  "n_candidates": 141,
+  "benchmark_v2": {
+   "n": 2070,
+   "correct": 2016,
+   "accuracy": 0.973913,
+   "first_stage_correct": 1829,
+   "by_type": {
+    "D04": "62/90",
+    "D14": "90/90",
+    "D28": "79/90",
+    "D32": "90/90",
+    "D33": "90/90",
+    "D35": "90/90",
+    "D36": "90/90",
+    "D37": "90/90",
+    "D38": "90/90",
+    "D39": "90/90",
+    "D40": "90/90",
+    "D42": "75/90",
+    "D44": "90/90",
+    "D45": "90/90",
+    "D46": "90/90",
+    "D47": "90/90",
+    "D48": "90/90",
+    "D49": "90/90",
+    "D50": "90/90",
+    "D51": "90/90",
+    "D52": "90/90",
+    "D53": "90/90",
+    "D54": "90/90"
+   }
+  },
+  "test": {
+   "n_all": 12860,
+   "correct_all": 12860,
+   "score_full_text_all": 1.0,
+   "score_label_only_all": 1.0,
+   "score_top3_all": 1.0,
+   "n_source": 170,
+   "correct_source": 170,
+   "score_full_text_source": 1.0,
+   "score_label_only_source": 1.0,
+   "score_top3_source": 1.0,
+   "n_variants": 12690,
+   "correct_variants": 12690,
+   "score_full_text_variants": 1.0,
+   "score_label_only_variants": 1.0,
+   "score_top3_variants": 1.0,
+   "n_mu_logarit": 8026,
+   "correct_mu_logarit": 8026,
+   "score_full_text_mu_logarit": 1.0,
+   "score_label_only_mu_logarit": 1.0,
+   "score_top3_mu_logarit": 1.0,
+   "n_so_phuc": 4834,
+   "correct_so_phuc": 4834,
+   "score_full_text_so_phuc": 1.0,
+   "score_label_only_so_phuc": 1.0,
+   "score_top3_so_phuc": 1.0
+  },
+  "realworld93": {
+   "n": 93,
+   "correct": 85,
+   "accuracy": 0.913978,
+   "correct_qwen3_06b": 77,
+   "by_topic": {
+    "Mũ–Logarit": "62/68",
+    "Số phức": "23/25"
+   }
+  }
+ },
+ "published_qwen3_06b_142_candidates": {
+  "test": "12860/12860",
+  "realworld93": "77/93",
+  "benchmark_v2": "1929/2070"
+ },
+ "settings": {
+  "quick_test": false,
+  "gpus": 2,
+  "commit": "c628e1d5ecaaf4d69d1553de61b6715d26a7fe5f",
+  "weights": "float16, adapter not merged",
+  "scoring": "label \"Dạng N:\" for all candidates, whole answer for the 5 best",
+  "removed_types": [
+   122
+  ],
+  "versions": {
+   "torch": "2.11.0+cu130",
+   "transformers": "5.24.1",
+   "peft": "0.22.0"
+  },
+  "note": "test set and 93 questions scored in a first Kaggle run (2 x T4), benchmark v2 in a second run; the 1252 benchmark-v2 questions scored in both runs have identical predictions"
+ }
+}

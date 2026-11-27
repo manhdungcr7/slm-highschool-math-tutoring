@@ -62,5 +62,5 @@ particular on questions not written from the training templates. Training data a
 | Notebook | `experiments/Router-Finetune-4B/KLTN_router_finetune_Qwen3-4B_Kaggle.ipynb` (training only) |
 
 `adapter_model.safetensors` (132 MB) is stored with Git LFS: run `git lfs pull` after cloning. `training_run/` holds the training
-log and `trainer_state.json`. The evaluation (test set, 93 real-world questions, benchmark v2) is not done yet. The Kaggle
+log and `trainer_state.json`. Evaluation (`experiments/Router-Finetune-4B/results/`): test set 12860/12860, 93 real-world questions 85/93 (0.6B: 77/93), benchmark v2 2016/2070 (0.6B: 1929/2070). The Kaggle
 checkpoints (`checkpoint-575`, `checkpoint-766`, with the optimizer states) are not stored; the adapter is the one of step 766.

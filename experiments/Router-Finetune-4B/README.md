@@ -21,3 +21,25 @@ Unchanged: LoRA r 16, alpha 32, dropout 0.05 on q, k, v, o, gate, up, down; 2 ep
 on one GPU; MAX_LEN 512; loss on the answer only; 3 pairs per dạng held out for the validation loss; seed 42.
 
 To run: Settings -> GPU T4 x2 (one is used), Internet On, then Save Version -> Save & Run All. The output folder `router_lora/` is the adapter.
+
+## Evaluation
+
+| File | What it is |
+|---|---|
+| `KLTN_router_eval_Kaggle.ipynb` | The evaluation notebook (2 x T4, one process per GPU). Written by `scripts/router/build_eval_4b_kaggle.py`. `SETS_TO_RUN` chooses the sets |
+| `results/qwen3_4b/` | `test_predictions.csv`, `realworld93_predictions.csv`, `benchmark_v2_predictions.csv`, `summary.json` |
+
+Scoring as in the evaluation of Qwen3-0.6B: the probability of `Dạng N:` for every candidate, then the probability of the whole
+answer for the 5 best; float16 weights, adapter not merged; 141 candidates (Dạng 122 removed). The test set and the 93 questions
+were scored in a first run, benchmark v2 in a second run; the 1252 benchmark-v2 questions scored in both runs have identical
+predictions.
+
+| Set | Qwen3-4B | Qwen3-0.6B (published, 142 candidates) |
+|---|---|---|
+| Test set (12860, 170 source questions) | 12860/12860 | 12860/12860 |
+| 93 real-world questions | 85/93 (91.4%) | 77/93 (82.8%) |
+| Benchmark v2 (2070, 23 Complex Numbers types) | 2016/2070 (97.4%) | 1929/2070 (93.2%) |
+
+On benchmark v2, the first stage alone (`Dạng N:`) gives 1829/2070 (0.6B: 1434/2070). Per question, 136 questions are right only
+with 4B, 49 only with 0.6B, 5 are wrong with both. The 54 errors of 4B fall in three types: D04 (62/90: 28 questions answered
+Dạng 99 instead of Dạng 92), D42 (75/90: Dạng 129 or 123 instead of 130), D28 (79/90: Dạng 118 instead of 116).
